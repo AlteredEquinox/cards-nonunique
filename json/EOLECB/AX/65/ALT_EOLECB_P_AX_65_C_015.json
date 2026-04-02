@@ -1,0 +1,211 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Science's role is to serve the people, not the other way around",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "C'est à la science d'être au service du peuple, pas l'inverse.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDM2KWDKHZ5TDQE6E0XX7",
+          "text": "Science's role is to serve the people, not the other way around"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "4HQFHV2EWT8HZ8RTNAMEWARPM1",
+      "reference": "ALT_EOLECB_P_AX_65_C_XXX"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KH6E457CE5TWX1NF3H4T21EW"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KH6E457DT47SWHMTXZB0D0MC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKNEVTGCPST6KVR9KDRRRT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Aérolithe",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Aerolith",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aerolit",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Aerolite",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Aerolito",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V2BFTDBEPJRRHWC5YM548",
+                      "reference": "AEROLITH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JN9V2BKBPCEC4V1F7ZRY0GH2"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Zum Mittag — Falls du der Startspieler bist, erschaffe eine [AEROLITH]-Marke in deinem Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes le premier joueur, créez un jeton [AEROLITH] dans vos Repères.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "At Noon — If you are first player, create an [AEROLITH] token in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — Si eres el primer jugador, crea una ficha de [AEROLITH] en tus hitos.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Se sei il primo giocatore, crea una pedina [AEROLITH] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "At Noon — If you are first player, create an [AEROLITH] token in your Landmarks."
+              }
+            ],
+            "reference": "01231"
+          },
+          "sequence": 0,
+          "id": "01KJQKNFN1QHNZPGE0DVFJN3B0"
+        }
+      ],
+      "value": "At Noon — If you are first player, create an [Aerolith] token in your Landmarks.",
+      "id": "01KJQKNEVTGCPST6KVR9KDRRRT"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_P_AX_65\/JPG\/en_US\/d7a1c3e95f2840b6a1c3d7e9f2b4a6c8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_P_AX_65\/WEB_56e93b73a98e49923be92427a31fd123"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_P_AX_65_C_015",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_P_AX_65_C_015",
+  "translations": {
+    "fr_FR": {
+      "name": "Isaree & Pebble",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_P_AX_65\/JPG\/fr_FR\/d7a1c3e95f2840b6a1c3d7e9f2b4a6c8.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": { "name": "Isaree & Kiesel", "image": null, "locale": "de_DE" },
+    "it_IT": { "name": "Isaree e Sassolino", "image": null, "locale": "it_IT" },
+    "es_ES": { "name": "Isaree y Petro", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Isaree & Pebble",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_P_AX_65\/JPG\/en_US\/d7a1c3e95f2840b6a1c3d7e9f2b4a6c8.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01KH6E457CE5TWX1NF3H4T21EV",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_P_AX_65\/JPG\/fr_FR\/d7a1c3e95f2840b6a1c3d7e9f2b4a6c8.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_P_AX_65\/JPG\/en_US\/d7a1c3e95f2840b6a1c3d7e9f2b4a6c8.jpg"
+  },
+  "name": "Isaree & Pebble",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "At Noon — If you are first player, create an [Aerolith] token in your Landmarks."
+  },
+  "collectorNumberFormatted": "ROCCB-XAN-001-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": true,
+  "isParentSerialized": false
+}

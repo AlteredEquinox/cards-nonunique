@@ -1,0 +1,255 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"One day, son, you'll show off your own creations here.\" — Della",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Regarde bien, fiston : un jour ce sera toi qui exposeras tes créations ici. » - Della",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJ1V06X1WTHPP20DQ6DN",
+          "text": "\"One day, son, you'll show off your own creations here.\" — Della"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "71JFYBPCN280JST0VCERPCEJXS",
+      "reference": "ALT_DUSTER_B_AX_88_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2JY77X8CK8YEZSFYZY91GA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JY7CEJX4R0AX9DSB5JDNQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2JY7GZ49ZYDEQBBNCGQ0Z9"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JY7NFR7KFESDF3GN3QNQV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2JY7SW4CH04GCDQV1K5EQY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X3ZWR6E666Z4327Q1CSYFW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWHVJ7089K4MEZHTAJEAHS"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{R} Create a [MANASEED] token in your Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{R} Créez un jeton [MANASEED] dans vos Repères.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#{R} Erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{R} Crea una pedina [MANASEED] nei tuoi fulcri.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{R} Crea una ficha de [MANASEED] en tus hitos.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#{R} Create a [MANASEED] token in your Landmarks.#"
+              }
+            ],
+            "reference": "01926"
+          },
+          "sequence": 0,
+          "id": "01K6X3ZXD8YWVT51HRVTA4AXQW"
+        }
+      ],
+      "value": "{R} Create a [Manaseed] token in your Landmarks.",
+      "id": "01K6X3ZWR6E666Z4327Q1CSYFW"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_88\/JPG\/en_US\/64a49dbed077ddaf2536c039f47786af.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_88\/WEB_55a0ea3ef3dd38e82ae2577c25a9c6a0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_88\/WEB_4b2dc1e8480e6c1753aad127c5d5c310",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_88\/WEB_5c4da22ecab34aafc59dbb4ad026e9ed"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_88_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_88",
+  "reference": "ALT_DUSTER_B_AX_88_R1",
+  "translations": {
+    "de_DE": { "name": "Ira, Messebesucher", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Ira, asistente a la feria",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Ira, Visitatore della Fiera",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Ira, Participant à la Foire",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_88\/JPG\/fr_FR\/bb09769b735d73d31f592e4d28d5ee4e.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Ira, Fair Attendee",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_88\/JPG\/en_US\/64a49dbed077ddaf2536c039f47786af.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVP3C0R8NTNB8RYY6KCV",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_88\/JPG\/fr_FR\/bb09769b735d73d31f592e4d28d5ee4e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_88\/JPG\/en_US\/64a49dbed077ddaf2536c039f47786af.jpg"
+  },
+  "name": "Ira, Fair Attendee",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "#2#",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "#{R} Create a [Manaseed] token in your Landmarks.#"
+  },
+  "collectorNumberFormatted": "SDU-002-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

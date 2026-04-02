@@ -1,0 +1,293 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Fear of change leads to stagnation.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "La peur du changement invite à l'atrophie.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KG2J88865T52KMT05JAHP34W",
+          "text": "Fear of change leads to stagnation."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J88B2ZEFDTTPP83C83RGH",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J888X3BH0ZCQ470JMK0TH",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J884ZH1CEN5SY01VT49CX",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J8862MJGT4RJGEZK4CFD1",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "64RQ3B0WYD8BCV95X92DJBC81H",
+      "reference": "ALT_EOLE_A_AX_116_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KG00WWTVHA9QAGV552J3QFSH"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG00WX2BD3CWPZM8TEPTV7HT"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KG00WXA0M4A9NXQ1B0VSD3TZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG00WXHH0RT719GEB7P3A1Z8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KG00WXRY98746BAGC0TGE7XH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QQ2CFV4Z8F9P1FPB3QS48",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "PLACEHOLDER", "locale": "en_US" },
+                  "fr_FR": { "text": "PLACEHOLDER", "locale": "fr_FR" },
+                  "de_DE": { "text": "PLACEHOLDER", "locale": "de_DE" },
+                  "es_ES": { "text": "PLACEHOLDER", "locale": "es_ES" },
+                  "it_IT": { "text": "PLACEHOLDER", "locale": "it_IT" }
+                },
+                "text": "PLACEHOLDER"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5QQ3PFP8C2R2AVD97VVFNF"
+        }
+      ],
+      "value": "PLACEHOLDER",
+      "id": "01KJ5QQ2CFV4Z8F9P1FPB3QS48"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QQ53M5FACMP4EKGXT8Q11",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "PLACEHOLDER", "locale": "en_US" },
+                  "fr_FR": { "text": "PLACEHOLDER", "locale": "fr_FR" },
+                  "de_DE": { "text": "PLACEHOLDER", "locale": "de_DE" },
+                  "es_ES": { "text": "PLACEHOLDER", "locale": "es_ES" },
+                  "it_IT": { "text": "PLACEHOLDER", "locale": "it_IT" }
+                },
+                "text": "PLACEHOLDER"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5QQ6EQ8M0J8PHRX6S512VP"
+        }
+      ],
+      "value": "PLACEHOLDER",
+      "id": "01KJ5QQ53M5FACMP4EKGXT8Q11"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Anh Tung" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/JPG\/en_US\/7a2740a2b172e4adc375a4e066ce2196.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/WEB_74650a30a4eff119e8c39b1aa64cc85b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/WEB_73125e416da8412aec3e209e0f08950b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/WEB_1eeea13ac2c128c6c7880679e1503bac"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_AX_116_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_116",
+  "reference": "ALT_EOLE_A_AX_116_C",
+  "translations": {
+    "it_IT": {
+      "name": "Stigma della Stagnazione",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/JPG\/it_IT\/5b3f42c93b26ba8034492ed1c25480b9.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Stigma of Stagnation",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/JPG\/en_US\/7a2740a2b172e4adc375a4e066ce2196.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Stigma des Stillstands",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/JPG\/de_DE\/52a90613c18e7a1ec4bd37d01462fd1d.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Estigma de la atrofia",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/JPG\/es_ES\/ebc936080c0c538227577638f6a28cce.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Stigmate de la Stagnation",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/JPG\/fr_FR\/0342d9dac90add952128bd28cf4caa72.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01KFRQ5ZCR2B9GTWMDXJ1K08V2",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/JPG\/fr_FR\/0342d9dac90add952128bd28cf4caa72.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_116\/JPG\/en_US\/7a2740a2b172e4adc375a4e066ce2196.jpg"
+  },
+  "name": "Stigma of Stagnation",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "5",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "5",
+    "MAIN_EFFECT": "PLACEHOLDER",
+    "ECHO_EFFECT": "PLACEHOLDER"
+  },
+  "collectorNumberFormatted": "ROC-V-012-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

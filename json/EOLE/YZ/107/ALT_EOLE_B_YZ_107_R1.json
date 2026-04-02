@@ -1,0 +1,311 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Un effroi que même les spectres ressentent...",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "A terror that even ghosts can feel…",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HXK3VWDJ457V2PC883TH",
+          "text": "A terror that even ghosts can feel…"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HXKVGHFYSMRR1PCNZ70G",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HXKFKVNXZMQ9RX24ZH9F",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HXJ29NN4QC57P0R8X8CA",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HXJRHZAS8A2WQMPG688W",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0FFS080WD59AJB9DQDGZM0PHBP",
+      "reference": "ALT_EOLE_B_YZ_107_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "SPIRIT",
+      "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
+      "name": "Spirit"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZDFF0WS6PFFZSYDJ4YC0W"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZDFQGBC7X4YWKPHN8EMCY"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZDFZDJK1ASVAJ8Y4WFESJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZDG780N3H156Y1RVC1HKE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZDGF7CVTZSX0YA0EKXYE8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q52ZN7NT415QPT2R3XMXB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MDWKCBYW7RGH8QQ1MGJ0V"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#When I'm discarded from your hand — [RESUPPLY].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Wenn ich aus deiner Hand abgelegt wurde — [RESUPPLY].#",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque je suis défaussé de votre main — [RESUPPLY].#",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "#Cuando me descartes de tu mano — [RESUPPLY].#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#Quando mi scarti dalla tua mano — [RESUPPLY].#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#When I'm discarded from your hand — [RESUPPLY].#"
+              }
+            ],
+            "reference": "02976"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q54TQE55P9R1XGDK0Z55C"
+        }
+      ],
+      "value": "When I'm discarded from your hand — [Resupply].",
+      "id": "01KJ5Q52ZN7NT415QPT2R3XMXB"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/JPG\/en_US\/f7bc3ccc3434191fba1a6cb5060facb1.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/WEB_65463e9655df784d2275fa2415995af1",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/WEB_a73b9bf2975a1cabcfa9591f63d37d82",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/WEB_cb9674ca3ac38062160243862ed0bd8c"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_107_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_107",
+  "reference": "ALT_EOLE_B_YZ_107_R1",
+  "translations": {
+    "de_DE": {
+      "name": "Verängstigtes Gespenst",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/JPG\/de_DE\/f9c9828df3e0ea4be611efe3ec1db4ed.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Fantasma Terrorizzato",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/JPG\/it_IT\/7a71a9561e99c730275a1bcc3c62735d.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Fantasma aterrorizado",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/JPG\/es_ES\/1008d4169b8d866136a3efd088023d4c.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Terrified Ghost",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/JPG\/en_US\/f7bc3ccc3434191fba1a6cb5060facb1.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Fantôme Terrifié",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/JPG\/fr_FR\/3d1aefe5714981f217208617951bed09.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHYA2N3JQA6C71X1C9751",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/JPG\/fr_FR\/3d1aefe5714981f217208617951bed09.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_107\/JPG\/en_US\/f7bc3ccc3434191fba1a6cb5060facb1.jpg"
+  },
+  "name": "Terrified Ghost",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "#When I'm discarded from your hand — [Resupply].#"
+  },
+  "collectorNumberFormatted": "ROC-096-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

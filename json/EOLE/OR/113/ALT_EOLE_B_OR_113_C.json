@@ -1,0 +1,311 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Son vol est silencieux et ses serres sont acérées.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Its flight is silent and its talons sharp.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HVQTBG2103SAK6BJM52X",
+          "text": "Its flight is silent and its talons sharp."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVREGSXSFPDPW4YW7WGK",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVR3MR06QA37XXMN2DSF",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVQ6WJX7KXSFCHX0QJ40",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVQGSHZSYGVY1Y7YDFQA",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0QD9Z8V32Z8FK8AYF94RN4SASW",
+      "reference": "ALT_EOLE_B_OR_113_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ7MWX2D1JTRGA9R80H3S0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ7N4T49MZF3XZQS7T8ZZ3"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ7NCT25M22BCES5CNGKQY"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ7NMS8QQDN0FNJGDAB7TB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ7NWR9RJKX2P7ZPSFD8TE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PQJ828BES4F5TA30WTD37",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "s'Élève",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascends",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufsteigend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascende",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Asciende",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V6RJTMG7BZB84M6HA21S4",
+                      "reference": "ASCENDS"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KHCQDQS6HYM4F8GFB4QNQ6BD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When I leave the Expedition zone — My Expedition [ASCENDS]. (If I leave at Rest, it stays Ascended for the next Day.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je quitte la zone d'Expédition — Mon Expédition [ASCENDS]. (Si je la quitte au Repos, elle reste Élevée le Jour suivant.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn ich die Expeditionszone verlasse — Meine Expedition ist [ASCENDS]. (Falls ich sie in der Ruhepause verlasse, bleibt sie für den nächsten Tag Aufgestiegen.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando lascio l'area delle spedizioni — La mia spedizione [ASCENDS]. (Se la lascio durante il riposo, resta Ascesa per la prossima giornata.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando abandone la zona de expedición — Mi expedición [ASCENDS]. (Si la abandono durante el descanso, queda ascendida para el siguiente día.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When I leave the Expedition zone — My Expedition [ASCENDS]. (If I leave at Rest, it stays Ascended for the next Day.)"
+              }
+            ],
+            "reference": "03015"
+          },
+          "sequence": 0,
+          "id": "01KJ5PQM04VSVQ2191VS9KE0MJ"
+        }
+      ],
+      "value": "When I leave the Expedition zone — My Expedition [Ascends]. (If I leave at Rest, it stays Ascended for the next Day.)",
+      "id": "01KJ5PQJ828BES4F5TA30WTD37"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Kevin Sidharta" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/JPG\/en_US\/8a891046d4ef168add2a738d17389242.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/WEB_7f2b7a098663c8b1fa0ec3dc20186d96",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/WEB_0a56d88561640b8150493f9286a8d31d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/WEB_429067c04fe9e91d42ad210e9eb17d74"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_113_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_113",
+  "reference": "ALT_EOLE_B_OR_113_C",
+  "translations": {
+    "it_IT": {
+      "name": "Gufo Cercatore",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/JPG\/it_IT\/e3dbbfcd15cb79fa607b0ce5ed1bf1c0.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Sucheule",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/JPG\/de_DE\/437f3d32a62f0806dacfa34b0fc785ad.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Chouette Chercheuse",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/JPG\/fr_FR\/66c71ee081c69301f527a917844b26d4.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Seeker Owl",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/JPG\/en_US\/8a891046d4ef168add2a738d17389242.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Búho buscador",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/JPG\/es_ES\/a4add7cd37e969b5eaa924e2e0922850.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9VSC4E6JT9H64HZ6VV",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/JPG\/fr_FR\/66c71ee081c69301f527a917844b26d4.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_113\/JPG\/en_US\/8a891046d4ef168add2a738d17389242.jpg"
+  },
+  "name": "Seeker Owl",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "When I leave the Expedition zone — My Expedition [Ascends]. (If I leave at Rest, it stays Ascended for the next Day.)"
+  },
+  "collectorNumberFormatted": "ROC-082-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

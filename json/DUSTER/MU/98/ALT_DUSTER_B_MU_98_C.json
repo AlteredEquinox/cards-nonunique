@@ -1,0 +1,180 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Let us offer the Musubi to the Reka, so that new Exalts might be born!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Offrons le Musubi aux Reka, que naissent de nouveaux Exalts ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZQYNHY13P4YCXFHRRYXK",
+          "text": "\"Let us offer the Musubi to the Reka, so that new Exalts might be born!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "3WADGS50GS92JR04K13R9ZSQNR",
+      "reference": "ALT_DUSTER_B_MU_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    { "reference": "BOON", "id": "01HKAGPHVVK20XKBXKCZNGRTFD", "name": "Boon" },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KESCJNE63MP9EB10ZE1PD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KESM5MR52X70GAWB16K8Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4GNX7CBRD4A8A2KPX04X8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Distribute 4 boosts among any target Characters in play or in Reserve.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Distribuye 4 potenciadores entre cualquier número de personajes objetivo en juego o en reserva.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Distribuisci 4 rinforzi tra un numero qualsiasi di personaggi bersaglio in gioco o nella Riserva.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Répartissez 4 boosts parmi les Personnages ciblés de votre choix, en jeu ou en Réserve.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Verteile 4 Verstärkungen nach Belieben auf Charaktere deiner Wahl im Spiel oder in der Reserve.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Distribute 4 boosts among any target Characters in play or in Reserve."
+              }
+            ],
+            "reference": "01790"
+          },
+          "sequence": 0,
+          "id": "01K6X4GPE9EJD9ZKYE6HTH9NJA"
+        }
+      ],
+      "value": "Distribute 4 boosts among any target Characters in play or in Reserve.",
+      "id": "01K6X4GNX7CBRD4A8A2KPX04X8"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Khoa Viet" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/en_US\/1b55114b9babbefabd13bdac73eb0d41.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/WEB_1b5d317613eaf57660d6ed300280e202",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/WEB_35db4d71e73557bf69a6c51be2ee5581"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_98_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_98",
+  "reference": "ALT_DUSTER_B_MU_98_C",
+  "translations": {
+    "de_DE": { "name": "Seelen-Begegnung", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Soul Encounter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/en_US\/1b55114b9babbefabd13bdac73eb0d41.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Encuentro del alma", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Incontro di Anime", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Rencontre Spirituelle",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/fr_FR\/0ad09812c6ca9d117052e11f64c6b0bd.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ79H5F38WX92X3E1ZE",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/fr_FR\/0ad09812c6ca9d117052e11f64c6b0bd.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/en_US\/1b55114b9babbefabd13bdac73eb0d41.jpg"
+  },
+  "name": "Soul Encounter",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "MAIN_EFFECT": "Distribute 4 boosts among any target Characters in play or in Reserve."
+  },
+  "collectorNumberFormatted": "SDU-069-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

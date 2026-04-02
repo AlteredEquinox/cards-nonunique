@@ -1,0 +1,291 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Floor -2, room 217. Welcome to the Underlook Hostel.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Étage -2, chambre 217. Bienvenue à l'auberge Underlook. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZNDNYDVAPG9WQBKMHH67",
+          "text": "\"Floor -2, room 217. Welcome to the Underlook Hostel.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "323FYK7NAE8D1T9R6F7S0XGQ5W",
+      "reference": "ALT_DUSTER_B_LY_95_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MERCHANT",
+      "id": "01JZ2JZ7RFPB09RFMMFXBG3GZ5",
+      "name": "Merchant"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K931M8PGFHYSQJY6GSMVG"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K93727XA15SM1HC2NXNB4"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K93CB4BASDA3YYM8V7NCB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K93JFGBMHPH634MFKH5TG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K93QVNPFESE4G2H26WDR5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4B8Q2TSEZ0NYX62PQJJX5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Schlafend",
+                          "locale": "de_DE",
+                          "description": "Am Abend ignoriere meine Statistiken. Während der Ruhepause gehe ich nicht in die Reserve und verliere Schlafend."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dormiente",
+                          "locale": "it_IT",
+                          "description": "Durante il crepuscolo, ignora le mie statistiche. Durante il riposo, non vado nella Riserva e perdo Dormiente."
+                        },
+                        "en_US": {
+                          "displayWeb": "Asleep",
+                          "locale": "en_US",
+                          "description": "During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Endormi",
+                          "locale": "fr_FR",
+                          "description": "Ignorez mes statistiques pendant le Crépuscule. Au Repos, je ne vais pas en Réserve et je perds Endormi."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sueño",
+                          "locale": "es_ES",
+                          "description": "Durante el anochecer, ignora mis estadísticas. Durante el descanso, no voy a la reserva y pierdo sueño."
+                        }
+                      },
+                      "id": "01HKAGPDSXJC9J9QJ4Y1DBK28E",
+                      "reference": "ASLEEP"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWV8SFK9EJ9977GZVGDD9A"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWV93ZXD3MFD64T1EWMPFM"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may target a Character. If you do, it gains [ASLEEP], then create a [MANASEED] token in its controller's Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez cibler un Personnage. Si vous le faites, il gagne [ASLEEP], puis créez un jeton [MANASEED] dans les Repères de son contrôleur.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes hacer objetivo a un personaje. Si lo haces, gana [ASLEEP] y luego creas una ficha de [MANASEED] en los hitos de su controlador. (Es un permanente con «{T}, sacrifícame: Prepara un orbe de maná».)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi scegliere come bersaglio un personaggio. Se lo fai, ottiene [ASLEEP]. Poi, crea una pedina [MANASEED] nei fulcri del suo controllore.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{H} Du darfst einen Charakter wählen. Falls du das tust, erhält er [ASLEEP], dann erschaffe eine [MANASEED]-Marke im Wahrzeichen-Bereich seines kontrollierenden Spielers.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} You may target a Character. If you do, it gains [ASLEEP], then create a [MANASEED] token in its controller's Landmarks."
+              }
+            ],
+            "reference": "01948"
+          },
+          "sequence": 0,
+          "id": "01K6X4B983WWCA3MD9HFWDN0D0"
+        }
+      ],
+      "value": "{H} You may target a Character. If you do, it gains [[Asleep]], then create a [Manaseed] token in its controller's Landmarks.",
+      "id": "01K6X4B8Q2TSEZ0NYX62PQJJX5"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_95\/JPG\/en_US\/d1bdd6e45ec6fc0ba08fbf824ef879bb.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_95\/WEB_5ec2700e950e553473c07667a0947035",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_95\/WEB_e034651d178409f0b3cdcb45b0664859",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_95\/WEB_3835f9f81ef77aeac8863946a1b833ca"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_95_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_95",
+  "reference": "ALT_DUSTER_B_LY_95_R2",
+  "translations": {
+    "en_US": {
+      "name": "Hostel Nightkeeper",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_95\/JPG\/en_US\/d1bdd6e45ec6fc0ba08fbf824ef879bb.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Conserje nocturno", "image": null, "locale": "es_ES" },
+    "it_IT": {
+      "name": "Custode Notturno dell'Ostello",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Hostel-Nachtwächter",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Gardien de Nuit de l'Auberge",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_95\/JPG\/fr_FR\/2034515bb20221299a10fc14dc058212.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPWD8EX089XC51CERTC",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_95\/JPG\/fr_FR\/2034515bb20221299a10fc14dc058212.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_95\/JPG\/en_US\/d1bdd6e45ec6fc0ba08fbf824ef879bb.jpg"
+  },
+  "name": "Hostel Nightkeeper",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{H} You may target a Character. If you do, it gains [[Asleep]], then create a [Manaseed] token in its controller's Landmarks."
+  },
+  "collectorNumberFormatted": "SDU-048-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

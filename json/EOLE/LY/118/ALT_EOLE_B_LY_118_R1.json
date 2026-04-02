@@ -1,0 +1,280 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Et mes yeux de braise, tu les aimes mes yeux de braise ? »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"What do you think of my smoldering eyes?\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HRKZ5BBP8XP2SX55ZHXX",
+          "text": "\"What do you think of my smoldering eyes?\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRMDH3R68MNX5BA01R11",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRM616WAE4NTCWJJY5SA",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRKHHDXXZWZ8M9RCH7TM",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRKRDS96W8GTERTSHZXJ",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "35XN5TD5YE90185RQJB22YBNYC",
+      "reference": "ALT_EOLE_B_LY_118_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYTYW92QQEZ9CFKW57M77G"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYTZ3BT46G8TPMZ9J6SB85"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NWZ5ZR52WEFYRX3ETJRX4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KN3HAV30D3TQ50QB9KBSK"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Roll a die. #On a 1-3, I gain [FLEETING].# Then, you may send to Reserve target Character with Base Cost {X} or less, where X is the result.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lancez un dé. #Sur 1-3, je gagne [FLEETING].# Puis, vous pouvez envoyer en Réserve un Personnage ciblé de Coût de Base {X} ou moins, X étant le résultat.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Tira un dado. #Si sacas 1-3, gano [FLEETING].# Luego, puedes enviar a la reserva un personaje objetivo con coste base de {X} o menos, donde X equivale al resultado.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Tira un dado. #Con 1-3, ottengo [FLEETING].# Poi, puoi mandare nella Riserva un personaggio bersaglio con costo base pari o inferiore a {X}, dove X è il risultato.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Würfle einmal. #Bei 1–3 erhalte ich [FLEETING].# Dann darfst du einen Charakter deiner Wahl mit Basiskosten {X} oder weniger in die Reserve schicken, wobei X das Ergebnis ist.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Roll a die. #On a 1-3, I gain [FLEETING].# Then, you may send to Reserve target Character with Base Cost {X} or less, where X is the result."
+              }
+            ],
+            "reference": "02862"
+          },
+          "sequence": 0,
+          "id": "01KJ5NX0YCXDKGSRKCS0VM43C2"
+        }
+      ],
+      "value": "Roll a die. On a 1-3, I gain [[Fleeting]]. Then, you may send to Reserve target Character with Base Cost {X} or less, where X is the result.",
+      "id": "01KJ5NWZ5ZR52WEFYRX3ETJRX4"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Victor Canton" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_118\/JPG\/en_US\/456ca2223bd5f1148f7b8525b79fe8a0.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_118\/WEB_d45003beb0ce8af6f3f1740a5907ce86",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_118\/WEB_ef3a5cf46559247ea341df3656ba875f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_118_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_118",
+  "reference": "ALT_EOLE_B_LY_118_R1",
+  "translations": {
+    "it_IT": {
+      "name": "Purificazione",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_118\/JPG\/it_IT\/f820f20061b89a4441eeaac2b7c0f79c.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Reinigung",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_118\/JPG\/de_DE\/2a682155321b1f4cb58f3ed270ba2954.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Purifier",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_118\/JPG\/fr_FR\/d5a98d3ea73a432d67731adb6aa476ce.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Cleanse",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_118\/JPG\/en_US\/456ca2223bd5f1148f7b8525b79fe8a0.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Purificar",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_118\/JPG\/es_ES\/4bcc76c8db403674d57dd2b0f0d33fd1.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY99J59RVK810VGRTPKJ",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_118\/JPG\/fr_FR\/d5a98d3ea73a432d67731adb6aa476ce.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_118\/JPG\/en_US\/456ca2223bd5f1148f7b8525b79fe8a0.jpg"
+  },
+  "name": "Cleanse",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "Roll a die. #On a 1-3, I gain [[Fleeting]].# Then, you may send to Reserve target Character with Base Cost {X} or less, where X is the result."
+  },
+  "collectorNumberFormatted": "ROC-051-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

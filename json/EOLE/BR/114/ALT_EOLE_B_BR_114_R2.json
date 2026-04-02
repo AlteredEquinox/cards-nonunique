@@ -1,0 +1,357 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Sometimes it's wiser to be afraid of your own shadow…",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Il est parfois sage d'avoir peur de son ombre...",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HQ76Y5T05WED13318EED",
+          "text": "Sometimes it's wiser to be afraid of your own shadow…"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQ7KF3SSHFC06XXM57BD",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQ7E7DCP1F5YE0FF5SED",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQ61ZNN690XCBG6E6ZNK",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQ70JPV7HRVA7CKTYX6V",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "51M5GVDN4E8F1B43C885K317WH",
+      "reference": "ALT_EOLE_B_BR_114_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYHN581YQTAMPT0600FHC1"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYHNBV9PQ1N1WQSBA0S0SD"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYHNJ5VK3PHG5DKKWRSFTJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYHNRNHPHKZG2CRJYGZZS8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYHNZANNDNZMMC4Z38FW4E"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5N7JA6GQRB4A3MHHQVJA96",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": "Opponents must pay {1} to target me."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": "Gli avversari devono pagare {1} per scegliermi come bersaglio."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Coriace 1",
+                          "locale": "fr_FR",
+                          "description": "Vos adversaires doivent payer {1} pour me cibler."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": "Los oponentes tienen que pagar {1} para hacerme objetivo."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": "Gegner müssen {1} zahlen, um mich anzuvisieren."
+                        }
+                      },
+                      "id": "01HKAGQBS53BFCG3465BACESCQ",
+                      "reference": "TOUGH_1"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K9YYHHEJZJE5SFPXY5V8MBRS"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": { "text": "#[TOUGH_1].#", "locale": "es_ES" },
+                  "en_US": { "text": "#[TOUGH_1].#", "locale": "en_US" },
+                  "fr_FR": { "text": "#[TOUGH_1].#", "locale": "fr_FR" },
+                  "de_DE": { "text": "#[TOUGH_1].#", "locale": "de_DE" },
+                  "it_IT": { "text": "#[TOUGH_1].#", "locale": "it_IT" }
+                },
+                "text": "#[TOUGH_1].#"
+              }
+            ],
+            "reference": "02180"
+          },
+          "sequence": 0,
+          "id": "01KJ5N7M4HKECEGPAWQATSXAAH"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5N7JA6GQRB4A3MHHQVJA96",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "{J} Passez.", "locale": "fr_FR" },
+                  "en_US": { "text": "{J} Pass.", "locale": "en_US" },
+                  "de_DE": { "text": "{J} Passe.", "locale": "de_DE" },
+                  "es_ES": { "text": "{J} Pasa.", "locale": "es_ES" },
+                  "it_IT": { "text": "{J} Passa.", "locale": "it_IT" }
+                },
+                "text": "{J} Pass."
+              }
+            ],
+            "reference": "02714"
+          },
+          "sequence": 1,
+          "id": "01KJ5N7NHT90QV3ZJC85MADT0E"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5N7JA6GQRB4A3MHHQVJA96",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Lorsqu'un adversaire passe — Vous pouvez jouer une #carte.# (En payant son coût normalement.)",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When an opponent passes — You may play a #card.# (Paying its cost normally.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn ein Gegner passt — Du darfst eine #Karte# spielen. (Es sind ihre normalen Kosten zu zahlen.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando un avversario passa — Puoi giocare una #carta.# (Paghi il suo costo normalmente.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando un oponente pase — Puedes jugar una #carta.# (Pagando su coste de modo normal.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When an opponent passes — You may play a #card.# (Paying its cost normally.)"
+              }
+            ],
+            "reference": "02806"
+          },
+          "sequence": 2,
+          "id": "01KJ5N7PZXVVS1N2J2SQTTRRYT"
+        }
+      ],
+      "value": "[Tough 1].  {J} Pass.  When an opponent passes — You may play a card. (Paying its cost normally.)",
+      "id": "01KJ5N7JA6GQRB4A3MHHQVJA96"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Khoa Viet" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/JPG\/en_US\/29fcd2babc07e6b034685493a1e06c29.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/WEB_b44dae3d884700a086882c0cdffe47ec",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/WEB_7c475f53d71157624947d716fb164ce9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/WEB_54af4c367240b62e76fe1872119e3040"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_114_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_114",
+  "reference": "ALT_EOLE_B_BR_114_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Stigma della Codardia",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/JPG\/it_IT\/930eeac94984c1fe8f66fdc467bce65b.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Stigma der Feigheit",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/JPG\/de_DE\/65f284c185cd03f2fd5e23801e60b070.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Stigma of Cowardice",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/JPG\/en_US\/29fcd2babc07e6b034685493a1e06c29.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Stigmate de la Lâcheté",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/JPG\/fr_FR\/7820edbcedced659e517f6767cb672f8.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Estigma de la cobardía",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/JPG\/es_ES\/8af00c7b0406154e82ed29ab52389ef3.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY8YP6BW5TSA53WS840N",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/JPG\/fr_FR\/7820edbcedced659e517f6767cb672f8.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_114\/JPG\/en_US\/29fcd2babc07e6b034685493a1e06c29.jpg"
+  },
+  "name": "Stigma of Cowardice",
+  "elements": {
+    "MAIN_COST": "#4#",
+    "RECALL_COST": "#4#",
+    "OCEAN_POWER": "#4#",
+    "FOREST_POWER": "#4#",
+    "MOUNTAIN_POWER": "#4#",
+    "MAIN_EFFECT": "#[Tough 1].#  {J} Pass.  When an opponent passes — You may play a #card.# (Paying its cost normally.)"
+  },
+  "collectorNumberFormatted": "ROC-030-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

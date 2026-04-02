@@ -1,0 +1,291 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Ready for a shot of adrenaline?\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Viens prendre ton shot d'adrénaline ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZK5BS5ZE2ZJK0MPTA5AX",
+          "text": "\"Ready for a shot of adrenaline?\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3FZ46R9615825SHX8ESPF4Q2WW",
+      "reference": "ALT_DUSTER_B_BR_88_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K23KQ6K7JN1CWN633BYQZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K23REFW27FAWWBHSTSEA4"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K242Y2ZT0TQ89XENWZP46"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K23X6ZGTKGMJ9BVZH8FCY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K247VZHTY71KZBDXWKCZ8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X44DJW3BQ96TGYS87RKGWT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Ravitaille Épuisé",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Exhausted Resupplies",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Erschöpfter Nachschub",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece y agota",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisce-Consuma",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22QBV6YMATSR9JY692AXZB",
+                      "reference": "EXHAUSTED_RESUPPLIES"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6ASR6K2SQ625JXMRT9WNCEJ"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Foncer",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Rush",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Forcieren",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Incalzare",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Presionar",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V64QPQM2T8R3TDKAJY866",
+                      "reference": "RUSH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6ASR66K4NXH7W4X9MX6Z25J"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{J} Puoi [RUSH]. Se non lo fai, un avversario bersaglio [EXHAUSTED_RESUPPLIES]. (Incalzare significa giocare un'altra carta immediatamente.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Puedes [RUSH]. Si no lo haces, el oponente objetivo [EXHAUSTED_RESUPPLIES]. (Presionar es jugar otra carta inmediatamente.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez [RUSH]. Si vous ne le faites pas, un adversaire ciblé [EXHAUSTED_RESUPPLIES]. (Foncer signifie jouer une autre carte immédiatement.)",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{J} You may [RUSH]. If you don't, target opponent [EXHAUSTED_RESUPPLIES]. (Rush means playing another card immediately.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Du darfst [RUSH] nutzen. Falls du das nicht tust, nutzt ein Gegner deiner Wahl [EXHAUSTED_RESUPPLIES]. (Forcieren bedeutet, eine andere Karte sofort zu spielen.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{J} You may [RUSH]. If you don't, target opponent [EXHAUSTED_RESUPPLIES]. (Rush means playing another card immediately.)"
+              }
+            ],
+            "reference": "02087"
+          },
+          "sequence": 0,
+          "id": "01K6X44E74JV2GXB9TZ091DTZY"
+        }
+      ],
+      "value": "{J} You may [Rush]. If you don't, target opponent [Exhausted Resupplies]. (Rush means playing another card immediately.)",
+      "id": "01K6X44DJW3BQ96TGYS87RKGWT"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_88\/JPG\/en_US\/b8afc76705319f16f229c5cdeb253573.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_88\/WEB_c3ac9e0b4995b0ee35995ff984b2f0e9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_88\/WEB_2347585d28377e507f43486a6ebe7d19",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_88\/WEB_1ee8abcc686383c5194b69982f1dda64"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_88_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_88",
+  "reference": "ALT_DUSTER_B_BR_88_R2",
+  "translations": {
+    "en_US": {
+      "name": "Helpful Diver",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_88\/JPG\/en_US\/b8afc76705319f16f229c5cdeb253573.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Saltadora servicial",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": { "name": "Tuffatrice Gentile", "image": null, "locale": "it_IT" },
+    "de_DE": {
+      "name": "Hilfreiche Taucherin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Plongeuse Serviable",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_88\/JPG\/fr_FR\/3cdb0dea4f46289b23a3d11b994e515e.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPH3HCF7N3T783TBGBM",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_88\/JPG\/fr_FR\/3cdb0dea4f46289b23a3d11b994e515e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_88\/JPG\/en_US\/b8afc76705319f16f229c5cdeb253573.jpg"
+  },
+  "name": "Helpful Diver",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "FOREST_POWER": "3",
+    "OCEAN_POWER": "#3#",
+    "MOUNTAIN_POWER": "#3#",
+    "MAIN_EFFECT": "{J} You may [Rush]. If you don't, target opponent [Exhausted Resupplies]. (Rush means playing another card immediately.)"
+  },
+  "collectorNumberFormatted": "SDU-021-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

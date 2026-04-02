@@ -1,0 +1,260 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Ladies and gentlemen, you are about to experience some turbulence.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Mesdames, messieurs, vous traversez actuellement ma zone de turbulences. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZKCEWVHEK62C1FAYMQ93",
+          "text": "\"Ladies and gentlemen, you are about to experience some turbulence.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6HSGG4EEH995E8E1J5GGSVBTW7",
+      "reference": "ALT_DUSTER_B_BR_91_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K39RYNKH57HEGFA5VY9KM"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K39XRR9FTDDP9Z233K661"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K3A2P96YV1035RB6N0KF8"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K3A7K4YAQ5Q2TFG1V8D4P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K3AD5C6WM3WNQ8M80DRXF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X452W37YA2EQ9ASZH6N2RT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K3BDD8D0G75XWRBY0W6FV"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} [SABOTAGE]. If you discarded a Character this way, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} [SABOTAGE]. Falls du auf diese Weise einen Charakter abgelegt hast, erhalte ich 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{R} [SABOTAGE]. Si descartaste un personaje de esta manera, gano 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{R} [SABOTAGE]. Se hai scartato un personaggio in questo modo, ottengo 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{R} [SABOTAGE]. Si vous avez défaussé un Personnage de cette façon, je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} [SABOTAGE]. If you discarded a Character this way, I gain 1 boost."
+              }
+            ],
+            "reference": "01695"
+          },
+          "sequence": 0,
+          "id": "01K6X453DMGBJBYAZ0X9A6GZRJ"
+        }
+      ],
+      "value": "{R} [Sabotage]. If you discarded a Character this way, I gain 1 boost.",
+      "id": "01K6X452W37YA2EQ9ASZH6N2RT"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_91\/JPG\/en_US\/9692b82a8f500175964fdeec7de1776f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_91\/WEB_c2c53dc44aa48eb858e51aae4478c08b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_91\/WEB_1ca099275c1b3a72907b8ef83dc7f75f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_91\/WEB_3c2bb779ec3ebd417f8fd14e6960feef"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_91_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_91",
+  "reference": "ALT_DUSTER_B_BR_91_C",
+  "translations": {
+    "es_ES": {
+      "name": "Surcanubes de Bravos",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Pirata delle Nuvole Bravos",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Bravos-Wolkenrowdy", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Aérosurfeur Bravos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_91\/JPG\/fr_FR\/3a4c44a5ca6629a504385a40753dab30.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Bravos Cloudhog",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_91\/JPG\/en_US\/9692b82a8f500175964fdeec7de1776f.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVPJM1BFRD0VTVMMV0VK",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_91\/JPG\/fr_FR\/3a4c44a5ca6629a504385a40753dab30.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_91\/JPG\/en_US\/9692b82a8f500175964fdeec7de1776f.jpg"
+  },
+  "name": "Bravos Cloudhog",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{R} [Sabotage]. If you discarded a Character this way, I gain 1 boost."
+  },
+  "collectorNumberFormatted": "SDU-026-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

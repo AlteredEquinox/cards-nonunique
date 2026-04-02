@@ -1,0 +1,176 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Sans pratique, le don d'Altération n'est rien.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Without practice, the gift of Alteration will come to nothing.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JH1KAEBRC8EPMD1NN2M2T7ME",
+          "text": "Without practice, the gift of Alteration will come to nothing."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "77B9BMDXYT9KTASANP53QTXA49",
+      "reference": "ALT_CORE_A_YZ_19_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CONJURATION",
+      "id": "01HKAGQJMGEVS21MCGWDGG8KW0",
+      "name": "Conjuration"
+    }
+  ],
+  "cardSet": {
+    "id": "01HKAFJN3HG3TWKYV0E014K01G",
+    "reference": "CORE",
+    "name": "Beyond the Gates"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JH0X5JKH58VZ8HAMD0PXGHNC"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH0X5JPWXD6VY1X353EGAXV7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K1Z6QBNHH24688E40RZ395AV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": { "text": "Pesca una carta.", "locale": "it_IT" },
+                  "de_DE": { "text": "Ziehe eine Karte.", "locale": "de_DE" },
+                  "fr_FR": { "text": "Piochez une carte.", "locale": "fr_FR" },
+                  "es_ES": { "text": "Roba una carta.", "locale": "es_ES" },
+                  "en_US": { "text": "Draw a card.", "locale": "en_US" }
+                },
+                "text": "Draw a card."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K1Z6QC0CR4B07YHM2F4FZD41"
+        }
+      ],
+      "value": "Draw a card.",
+      "id": "01K1Z6QBNHH24688E40RZ395AV"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "HuoMiao Studio" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_YZ_19\/JPG\/en_US\/e94cbe70e0e00a8460f4ceadd8e51eb9.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_YZ_19\/WEB_06c7ff6b3ea8689fd144e2988e945fc8",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_YZ_19\/WEB_43a7d26166e770380b1848bbb3bd5be6"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_A_YZ_19_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_19",
+  "reference": "ALT_CORE_A_YZ_19_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Entraînement Magique",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_YZ_19\/JPG\/fr_FR\/0c5d9b3d3fe3a8e1146a42997bf12c96.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Magical Training",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_YZ_19\/JPG\/en_US\/e94cbe70e0e00a8460f4ceadd8e51eb9.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Zaubertraining",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_YZ_19\/JPG\/de_DE\/76a45eaac03fc8ec37ffeea7fd93574e.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Entrenamiento mágico",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_YZ_19\/JPG\/es_ES\/dec61bb921cd9a248d50537daed4b4e6.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Addestramento Magico",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_YZ_19\/JPG\/it_IT\/5f32f2db482aa63c916509a28ca1c2ac.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01JH0V0NJGM04G11Y7RV8SGV23",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_YZ_19\/JPG\/fr_FR\/0c5d9b3d3fe3a8e1146a42997bf12c96.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_YZ_19\/JPG\/en_US\/e94cbe70e0e00a8460f4ceadd8e51eb9.jpg"
+  },
+  "name": "Magical Training",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "3",
+    "MAIN_EFFECT": "Draw a card."
+  },
+  "collectorNumberFormatted": "BTG-169-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

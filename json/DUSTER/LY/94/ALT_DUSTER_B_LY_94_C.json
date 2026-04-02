@@ -1,0 +1,295 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"What part of 'dress code' do you not understand?\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Qu'est-ce que t'as pas compris dans tenue correcte exigée ? »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZNAFPDXDEQ1QEQD564E4",
+          "text": "\"What part of 'dress code' do you not understand?\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "77N6FDNDEZ8B6SGQ2K3FR6JJMK",
+      "reference": "ALT_DUSTER_B_LY_94_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K81418VKTR1H76TJTEGSM"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K81AVSAYBTFVV0W9A9FDR"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K81GY04BFD2R7XN55E6ZH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K81P8T12DETC2QT33DHAP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K81VEVX5HHW1N2PNW8WG9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4ATF8JVT3ED3PT5HACAJB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "sabotea",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HPFHB7HMW4Z2R5M4M6ZKR0GR",
+                      "reference": "SABOTAGE_LOW"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K83B78XWNQ514N6W8F08B"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K83059MF8A13GANVWXZH4"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} If I'm [IN_CONTACT], [SABOTAGE_LOW]. (I'm In Contact if another player's Expedition is in my region.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Falls ich [IN_CONTACT] bin, nutze [SABOTAGE_LOW]. (Ich bin in Kontakt, falls die Expedition eines anderen Spielers in meiner Region ist.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Si estoy [IN_CONTACT], [SABOTAGE_LOW]. (Estoy en contacto si la expedición de otro jugador está en mi región.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Se sono [IN_CONTACT], [SABOTAGE_LOW]. (Sono In contatto se la spedizione di un altro giocatore si trova nella mia regione.)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Si je suis [IN_CONTACT], [SABOTAGE_LOW]. (Je suis En Contact si l'Expédition d'un autre joueur est dans ma région.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} If I'm [IN_CONTACT], [SABOTAGE_LOW]. (I'm In Contact if another player's Expedition is in my region.)"
+              }
+            ],
+            "reference": "01736"
+          },
+          "sequence": 0,
+          "id": "01K6X4AV1NT145D6FHDEGZJXVC"
+        }
+      ],
+      "value": "{H} If I'm [In Contact], [Sabotage]. (I'm In Contact if another player's Expedition is in my region.)",
+      "id": "01K6X4ATF8JVT3ED3PT5HACAJB"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Gamon Studio" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_94\/JPG\/en_US\/4d72896c7f641ab6a7860fdb72f11918.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_94\/WEB_b48c9e3e32e261eb01af0d97ceea71aa",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_94\/WEB_99266ff2bcc3630ee8fe42a4dcddc9d5",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_94\/WEB_49e3b5dab4929becd127747315b0f43f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_94_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_94",
+  "reference": "ALT_DUSTER_B_LY_94_C",
+  "translations": {
+    "es_ES": {
+      "name": "Portero de discoteca",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Buttafuori della Discoteca",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Nightclub Bouncer",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_94\/JPG\/en_US\/4d72896c7f641ab6a7860fdb72f11918.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Nachtclub-Türsteher",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Videur de Boîte de Nuit",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_94\/JPG\/fr_FR\/bd220a60e0f0bbd9253c8f3e60bb0157.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPWD8EX089XC51CERSX",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_94\/JPG\/fr_FR\/bd220a60e0f0bbd9253c8f3e60bb0157.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_94\/JPG\/en_US\/4d72896c7f641ab6a7860fdb72f11918.jpg"
+  },
+  "name": "Nightclub Bouncer",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{H} If I'm [In Contact], [Sabotage]. (I'm In Contact if another player's Expedition is in my region.)"
+  },
+  "collectorNumberFormatted": "SDU-045-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

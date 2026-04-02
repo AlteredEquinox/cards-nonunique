@@ -1,0 +1,235 @@
+{
+  "loreEntries": [],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
+  "cardSet": {
+    "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+    "reference": "BISE",
+    "name": "Whispers from the Maze"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K457TK0W7DZFRMN5EFGVP7Z7"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K457TK9E6ZH19CFCYRSQRMRX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K4JNG8397P036P6ZFKG6WBAH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Lorsque vous jouez un #Sort# — Je gagne 1 compteur Spectacle.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When you play a #Spell# — I gain 1 Performance counter.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du einen #Zauber# spielst — Ich erhalte 1 Auftrittszähler.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando giochi un #incantesimo# — Ottengo 1 segnalino Prestazione.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando juegues un #hechizo# — Gano 1 contador de actuación.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When you play a #Spell# — I gain 1 Performance counter."
+              }
+            ],
+            "reference": "00935"
+          },
+          "sequence": 0,
+          "id": "01K4JNG8JVKF14WZYFTB1GHCW1"
+        },
+        {
+          "cardElement": "\/card_elements\/01K4JNG8397P036P6ZFKG6WBAH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JXFSSFY9T51N4FSE5Z1PP66T"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T}, Spend 3 of my Performance counters: The next #Spell# you play this turn loses [FLEETING].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{T}, Gib 3 meiner Auftrittszähler aus: Der nächste #Zauber#, den du in dieser Runde spielst, verliert [FLEETING].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{T}, gastar 3 de mis contadores de actuación: el siguiente #hechizo# que juegues este turno pierde [FLEETING].",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{T}, spendi 3 dei miei segnalini Prestazione: il prossimo #incantesimo# che giochi in questo turno perde [FLEETING].",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{T}, Dépensez 3 de mes compteurs Spectacle : le prochain #Sort# que vous jouez ce tour perd [FLEETING].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{T}, Spend 3 of my Performance counters: The next #Spell# you play this turn loses [FLEETING]."
+              }
+            ],
+            "reference": "01648"
+          },
+          "sequence": 1,
+          "id": "01K4JNG8YZZNC18MXWSRYSHXEJ"
+        }
+      ],
+      "value": "When you play a Spell — I gain 1 Performance counter.  {T}, Spend 3 of my Performance counters: The next Spell you play this turn loses [[Fleeting]].",
+      "id": "01K4JNG8397P036P6ZFKG6WBAH"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_LY_63\/JPG\/en_US\/7c3c12e6e95822234adff8b26318ad19.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_LY_63\/WEB_6db3ed20c7b0fda5c073fb6238125982",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_LY_63\/WEB_4275be04913682bec2b2cec5add7b07d"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_A_LY_63_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_63",
+  "reference": "ALT_BISE_A_LY_63_R2",
+  "translations": {
+    "de_DE": {
+      "name": "Die Bühne",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_LY_63\/JPG\/de_DE\/ac8d57da6856e2d2b4094da6ba78707b.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "The Stage",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_LY_63\/JPG\/en_US\/7c3c12e6e95822234adff8b26318ad19.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "El Escenario",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_LY_63\/JPG\/es_ES\/2600c4add687811def0aee32c31db2e6.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Il Palcoscenico",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_LY_63\/JPG\/it_IT\/d8aea563dddc4df5e5dd95e010431f5d.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "La Scène",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_LY_63\/JPG\/fr_FR\/e39f8d24aa02e853b3598c1adbc2285c.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K44V1YSVBM6FA7QWP665ZN55",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_LY_63\/JPG\/fr_FR\/e39f8d24aa02e853b3598c1adbc2285c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_LY_63\/JPG\/en_US\/7c3c12e6e95822234adff8b26318ad19.jpg"
+  },
+  "name": "The Stage",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "When you play a #Spell# — I gain 1 Performance counter.  {T}, Spend 3 of my Performance counters: The next #Spell# you play this turn loses [[Fleeting]]."
+  },
+  "collectorNumberFormatted": "WFM-050-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

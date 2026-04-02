@@ -1,0 +1,436 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Hold out for as long as possible. That's all that matters.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Tenir, le plus longtemps possible. C'est tout ce qui compte. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HWEBNAZBE6T138KYQSDS",
+          "text": "\"Hold out for as long as possible. That's all that matters.\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWGH4DQCRFPY85VQMXKW",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWG6ZHGSNR35XYN9E1SX",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWDQG33PZEARMER75MG6",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWE162NJZHK5Z3G4SM2T",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "4JWZXPV2YP8TZTFRS6B44K21F1",
+      "reference": "ALT_EOLE_B_OR_119_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZATT4SPGWE7C3JCTWNT2W"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZAV20WX4Q14NCEBV16285"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q323FXX6JG2B1S9YKSQA3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Aérolithe",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Aerolith",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aerolit",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Aerolite",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Aerolito",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V2BFTDBEPJRRHWC5YM548",
+                      "reference": "AEROLITH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MA0QZG6ZW43KEVCGFP9C8"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} #Create an [AEROLITH] token in your Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{J} #Crea una pedina [AEROLITH] nei tuoi fulcri.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} #Crea una ficha de [AEROLITH] en tus hitos.#",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{J} #Erschaffe eine [AEROLITH]-Marke in deinem Wahrzeichen-Bereich.#",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{J} #Créez un jeton [AEROLITH] dans vos Repères.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} #Create an [AEROLITH] token in your Landmarks.#"
+              }
+            ],
+            "reference": "02958"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q344KP69NKVP4XN7P51W8"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5Q323FXX6JG2B1S9YKSQA3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you pass — If the total Hand Cost of cards in your Landmarks is {6} or more, complete me.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Cuando pases — Si el coste desde la mano total de las cartas en tus hitos es {6} o más, complétame.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du passt — Falls die Gesamt-Handkosten der Karten in deinem Wahrzeichen-Bereich {6} oder mehr betragen, vollbringe mich.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous passez — Si le Coût de Main total des cartes dans vos Repères est d'au moins {6}, accomplissez-moi.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Quando passi — Se il costo dalla mano totale delle carte nei tuoi fulcri è pari o superiore a {6}, eseguimi.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "When you pass — If the total Hand Cost of cards in your Landmarks is {6} or more, complete me."
+              }
+            ],
+            "reference": "02957"
+          },
+          "sequence": 1,
+          "id": "01KJ5Q3631BCZVB1EA9WES1DNX"
+        }
+      ],
+      "value": "{J} Create an [Aerolith] token in your Landmarks.  When you pass — If the total Hand Cost of cards in your Landmarks is {6} or more, complete me.",
+      "id": "01KJ5Q323FXX6JG2B1S9YKSQA3"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q37YG425D9DYSDQBDMAAK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MA5C567DBH696WSQEVZZH"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Coriaces 1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YZAGAJW9SNP2VT0VSC104F",
+                      "reference": "TOUGH_PER_P_1"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MA62BSC6YSAX207S571N5"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[COMPLETED]: Other cards in your Landmarks are [TOUGH_PER_P_1].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED]: Andere Karten in deinem Wahrzeichen-Bereich sind [TOUGH_PER_P_1].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED]: Las otras cartas en tus hitos tienen [TOUGH_PER_P_1].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "[COMPLETED] : Les autres cartes dans vos Repères sont [TOUGH_PER_P_1].",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED]: le altre carte nei tuoi fulcri hanno [TOUGH_PER_P_1].",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "[COMPLETED]: Other cards in your Landmarks are [TOUGH_PER_P_1]."
+              }
+            ],
+            "reference": "02959"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q39QGJCTCBMBPY0Z58VG3"
+        }
+      ],
+      "value": "[[Completed]]: Other cards in your Landmarks are [Tough 1].",
+      "id": "01KJ5Q37YG425D9DYSDQBDMAAK"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Saeed Jalabi" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_119\/JPG\/en_US\/4128cf979ecb5c5faf978a756757a9ac.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_119\/WEB_fd49a8b57b2c0e7106fb945d2e76b675",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_119\/WEB_c94eff1ad7baeb0a30b87e294d1aa413"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_119_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_119",
+  "reference": "ALT_EOLE_B_OR_119_R2",
+  "translations": {
+    "en_US": {
+      "name": "Delay the Collapse",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_119\/JPG\/en_US\/4128cf979ecb5c5faf978a756757a9ac.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Frenare il Crollo",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_119\/JPG\/it_IT\/85bd975937b1a1682bf0ae8abc288d92.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Haltet den Einsturz auf",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_119\/JPG\/de_DE\/b7eda0192de167252eb6e4ef21e733e1.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Retarder l'Effondrement",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_119\/JPG\/fr_FR\/51565387579cbb8ec88450935770c42a.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Retrasar el colapso",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_119\/JPG\/es_ES\/0f2a6a23ff6fb55080a7bfe66f09727d.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9XR1K44F1F6P07E88G",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_119\/JPG\/fr_FR\/51565387579cbb8ec88450935770c42a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_119\/JPG\/en_US\/4128cf979ecb5c5faf978a756757a9ac.jpg"
+  },
+  "name": "Delay the Collapse",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} #Create an [Aerolith] token in your Landmarks.#  When you pass — If the total Hand Cost of cards in your Landmarks is {6} or more, complete me.",
+    "ECHO_EFFECT": "[[Completed]]: Other cards in your Landmarks are [Tough 1]."
+  },
+  "collectorNumberFormatted": "ROC-093-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

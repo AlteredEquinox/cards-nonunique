@@ -1,0 +1,212 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The second big jump is where the fun really starts.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "C'est à partir du deuxième saut qu'on prend son pied.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZK0Y2G9B8GSAZV0PFE1D",
+          "text": "The second big jump is where the fun really starts."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "50HT749TSH80Y86SFDRZBXZDEB",
+      "reference": "ALT_DUSTER_B_BR_86_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    },
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2K1Q8VB30HH7NX24XYA4KM"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K1QDMBC4MCAM1Z7948KNJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K1QJF7P1YAXF9VVBJZPY7"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2K1QQBQGE4EQRHHV4WY3M0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2K1QW4PJQ4A8V6H8P9GND9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X43QM47ZS7V9QFT3KYP2XB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{R} Ich erhalte 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{R} Ottengo 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Gano 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": { "text": "{R} I gain 1 boost.", "locale": "en_US" }
+                },
+                "text": "{R} I gain 1 boost."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K6X43R4DHT7G5PWWX51NZP7G"
+        }
+      ],
+      "value": "{R} I gain 1 boost.",
+      "id": "01K6X43QM47ZS7V9QFT3KYP2XB"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Matteo Spirito" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/en_US\/2ee405fea8d2c9f35abbc8988b9def73.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/WEB_d44d8942e4d11d7ead00ccd33af8e78b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/WEB_b4bc054970c267c4aa258f606d17257d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/WEB_1e567a471c44cb18bb230a28285f9035"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_86_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_86",
+  "reference": "ALT_DUSTER_B_BR_86_C",
+  "translations": {
+    "en_US": {
+      "name": "Flying Squirrel",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/en_US\/2ee405fea8d2c9f35abbc8988b9def73.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Ardilla voladora", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Scoiattolo Volante", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Flughörnchen", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Écureuil Volant",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/fr_FR\/737cc079692a7dd414c5e8998c926542.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPGJ66ABR30VM5YAZ25",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/fr_FR\/737cc079692a7dd414c5e8998c926542.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/en_US\/2ee405fea8d2c9f35abbc8988b9def73.jpg"
+  },
+  "name": "Flying Squirrel",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{R} I gain 1 boost."
+  },
+  "collectorNumberFormatted": "SDU-020-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,363 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Parfois, même le destin a besoin d'un petit coup de pouce !",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Even fate appreciates a helping hand!",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HRXPN82825ARCSSBB3QQ",
+          "text": "Even fate appreciates a helping hand!"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HRZ8ZWRVFSHQB8EHXB4B",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HRXXBNCS969RG6V3YC8K",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRX8JDME5R23M4XKDRMT",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRXFBW1ZR72TJ335WNM0",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "493J69VNC69WM88K2JH9FA1QDR",
+      "reference": "ALT_EOLE_B_LY_122_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYWRRAQA78RHZXEG5GSN7D"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYWRZE15K3GGR8642X9YMX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NYFA7NW2PANYQY3SN0QS6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Roll a die. On a 1: Play another turn.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Würfle einmal. Bei 1: Spiele eine weitere Runde.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Tira un dado. Con 1: gioca un altro turno.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Tira un dado. Si sacas un 1: Juega un turno más.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Lancez un dé. Sur un résultat de 1 : Jouez un autre tour.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Roll a die. On a 1: Play another turn."
+              }
+            ],
+            "reference": "02874"
+          },
+          "sequence": 0,
+          "id": "01KJ5NYH3KBCQBX83BYDJJ3YHZ"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5NYFA7NW2PANYQY3SN0QS6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you roll one or more dice — If the result is 6+, complete me.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous lancez au moins un dé — Si le résultat est 6+, Accomplissez-moi.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du einen oder mehrere Würfel wirfst — Falls das Ergebnis 6+ ist, vollbringe mich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando tiri uno o più dadi — Se il risultato è 6+, eseguimi.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando tires un dado o más — Si sacas 6+, complétame.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When you roll one or more dice — If the result is 6+, complete me."
+              }
+            ],
+            "reference": "03013"
+          },
+          "sequence": 1,
+          "id": "01KJ5NYJHRXG32RV4JB4C5D5JC"
+        }
+      ],
+      "value": "{J} Roll a die. On a 1: Play another turn.  When you roll one or more dice — If the result is 6+, complete me.",
+      "id": "01KJ5NYFA7NW2PANYQY3SN0QS6"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NYMHFBYJS0SDN6VC860KG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KQ7CKZVV4BPW2F659MDFF"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[COMPLETED]: If you would roll a die, you may exhaust me ({T}) to add 1 to its result. (Choose after you see the result.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED]: se stai per tirare un dado, puoi consumarmi ({T}) per aggiungere 1 al risultato. (Scegli dopo aver visto il risultato.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED]: Si fueses a tirar un dado, puedes agotarme ({T}) para sumar 1 a su resultado. (Eliges si quieres hacerlo después de ver el resultado.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED]: Falls du würfeln würdest, darfst du mich erschöpfen ({T}), um 1 zum Ergebnis zu addieren. (Wähle, nachdem du das Ergebnis gesehen hast.)",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "[COMPLETED] : Si vous deviez lancer un dé, vous pouvez m'épuiser ({T}) pour ajouter 1 au résultat. (Choisissez après avoir vu le résultat.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "[COMPLETED]: If you would roll a die, you may exhaust me ({T}) to add 1 to its result. (Choose after you see the result.)"
+              }
+            ],
+            "reference": "02873"
+          },
+          "sequence": 0,
+          "id": "01KJ5NYP9MC130QTE8NP40DYZ2"
+        }
+      ],
+      "value": "[[Completed]]: If you would roll a die, you may exhaust me ({T}) to add 1 to its result. (Choose after you see the result.)",
+      "id": "01KJ5NYMHFBYJS0SDN6VC860KG"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Anh Tung - Ba Vo" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_122\/JPG\/en_US\/c50ede326eb46eb81fcfaa9cca929c7f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_122\/WEB_87029f6ea5bcd6190339c2b9aeb9a003",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_122\/WEB_f9dbda8062205bcc48dfd2c729199ae8"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_122_E",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_122",
+  "reference": "ALT_EOLE_B_LY_122_E",
+  "translations": {
+    "fr_FR": {
+      "name": "Renversez le Destin !",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_122\/JPG\/fr_FR\/786b5a7a3f090ab6695ae2ad4591ba04.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Wendet das Schicksal!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_122\/JPG\/de_DE\/785d03c70182fa4a888b931e0b1efbac.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Forzare il Destino!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_122\/JPG\/it_IT\/6f254ac2869fe8e4ae7ea79c7ee91c20.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Give Fate a Twist!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_122\/JPG\/en_US\/c50ede326eb46eb81fcfaa9cca929c7f.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Cambiar las tornas",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_122\/JPG\/es_ES\/48a1a4539f41497fcfe869401f368b1e.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9BYXCY2EWQ7RT0AGSW",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_122\/JPG\/fr_FR\/786b5a7a3f090ab6695ae2ad4591ba04.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_122\/JPG\/en_US\/c50ede326eb46eb81fcfaa9cca929c7f.jpg"
+  },
+  "name": "Give Fate a Twist!",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "MAIN_EFFECT": "{J} Roll a die. On a 1: Play another turn.  When you roll one or more dice — If the result is 6+, complete me.",
+    "ECHO_EFFECT": "[[Completed]]: If you would roll a die, you may exhaust me ({T}) to add 1 to its result. (Choose after you see the result.)"
+  },
+  "collectorNumberFormatted": "ROC-053-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

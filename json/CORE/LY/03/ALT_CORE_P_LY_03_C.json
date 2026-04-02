@@ -1,0 +1,244 @@
+{
+  "loreEntries": [],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01HKAFJN3HG3TWKYV0E014K01G",
+    "reference": "CORE",
+    "name": "Beyond the Gates"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K1Z7SVHPJ6SWS3Q7GNAY6QS3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "During Morning, draw only one card. Then, put the top card of your deck in your Mana zone instead of a card from your hand.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Durante la mañana, roba una sola carta. Luego, coloca la primera carta de tu mazo en tu zona de maná en lugar de una carta de tu mano.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Le Matin, piochez une seule carte. Puis, mettez la première carte de votre deck dans votre zone de Mana, au lieu d'une carte de votre main.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Am Morgen ziehe nur eine Karte. Dann lege statt einer Karte aus deiner Hand die oberste Karte deines Decks in deine Manazone.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Durante la mattina, pesca solo una carta. Poi, metti la prima carta del tuo mazzo nella tua area del mana invece di una carta dalla tua mano.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "During Morning, draw only one card. Then, put the top card of your deck in your Mana zone instead of a card from your hand."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01K1Z7SW231XJ4PGN8BCE4BRV5"
+        },
+        {
+          "cardElement": "\/card_elements\/01K1Z7SVHPJ6SWS3Q7GNAY6QS3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01HTS8BAH7777ZWAG6BWPN67GY"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "À Midi — $[RESUPPLY].",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — $[RESUPPLY].",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Zum Mittag — $[RESUPPLY].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — $[RESUPPLY].",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "At Noon — $[RESUPPLY].",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "At Noon — $[RESUPPLY]."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 1,
+          "id": "01K1Z7SWEF7RKS4DF98KXH44W4"
+        },
+        {
+          "cardElement": "\/card_elements\/01K1Z7SVHPJ6SWS3Q7GNAY6QS3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Ignore my abilities during the first Day.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Ignora mis habilidades durante el primer día.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Ignora le mie abilità durante la prima giornata.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Ignorez mes capacités le premier Jour.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Ignoriere meine Fähigkeiten während des ersten Tages.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Ignore my abilities during the first Day."
+              }
+            ],
+            "reference": "09762"
+          },
+          "sequence": 2,
+          "id": "01K1Z7SWTZKK70BMMSFMRBQYTY"
+        }
+      ],
+      "value": "During Morning, draw only one card. Then, put the top card of your deck in your Mana zone instead of a card from your hand.  At Noon — [Resupply]. (Put the top card of your deck in Reserve.)  Ignore my abilities during the first Day.",
+      "id": "01K1Z7SVHPJ6SWS3Q7GNAY6QS3"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_P_LY_03\/JPG\/en_US\/ALT_CORE_P_LY_03_C_en_US.jpg",
+  "assets": [],
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_P_LY_03_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_03",
+  "reference": "ALT_CORE_P_LY_03_C",
+  "translations": {
+    "de_DE": {
+      "name": "Fen & Feedback",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_LY_03\/JPG\/de_DE\/ALT_CORE_P_LY_03_C_de_DE.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Fen & Crowbar",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_LY_03\/JPG\/en_US\/ALT_CORE_P_LY_03_C_en_US.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Fen & Crowbar",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_LY_03\/JPG\/fr_FR\/ALT_CORE_P_LY_03_C_fr_FR.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Fen e Riff",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_LY_03\/JPG\/it_IT\/ALT_CORE_P_LY_03_C_it_IT.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Fen y Espantajo",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_LY_03\/JPG\/es_ES\/ALT_CORE_P_LY_03_C_es_ES.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01HFS3ZRH9FHZMNA9ZWRZGHPN1",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_P_LY_03\/JPG\/fr_FR\/ALT_CORE_P_LY_03_C_fr_FR.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_P_LY_03\/JPG\/en_US\/ALT_CORE_P_LY_03_C_en_US.jpg"
+  },
+  "name": "Fen & Crowbar",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "MAIN_EFFECT": "During Morning, draw only one card. Then, put the top card of your deck in your Mana zone instead of a card from your hand.  At Noon — [Resupply]. (Put the top card of your deck in Reserve.)  Ignore my abilities during the first Day."
+  },
+  "collectorNumberFormatted": null,
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

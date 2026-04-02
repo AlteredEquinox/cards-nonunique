@@ -1,0 +1,303 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"This time, I will blow you all down!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Cette fois, je vous soufflerai tous ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HT59JJ07JNAFJC9GJVGQ",
+          "text": "\"This time, I will blow you all down!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT5TJ9QB5VBPD3C29ATY",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT5HR35B6WPR9E38XWPT",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT3HG44092ZXD8TDPR57",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT4R5ZBDR2AMF6QWYZPS",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "5ME03VJ0BC985AQZ2CNXVN7Z9R",
+      "reference": "ALT_EOLE_B_MU_118_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ1QK4EYR9Z2P0YGCR62YZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ1QTHD5C4KAQXFN6K569B"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PDC851M0NM26ZZZAHCYAJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01KJ5PDDZWRFV7DKFD9CC06PS1"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5PDC851M0NM26ZZZAHCYAJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#Choose an Animal you control,# then target another Character with equal or lower {V} and send it to Reserve.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "#Scegli un animale che controlli,# poi scegli come bersaglio un altro personaggio con {V} pari o inferiore e mandalo nella Riserva.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Elige un animal que controles.# Luego, haz objetivo a otro personaje con {V} menor o igual y envíalo a la reserva.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "#Wähle ein Tier, das du kontrollierst,# wähle dann einen anderen Charakter mit gleichem oder niedrigerem {V} und schicke ihn in die Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "#Choisissez un Animal que vous contrôlez,# puis ciblez un autre Personnage avec une statistique {V} inférieure ou égale et envoyez-le en Réserve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#Choose an Animal you control,# then target another Character with equal or lower {V} and send it to Reserve."
+              }
+            ],
+            "reference": "02904"
+          },
+          "sequence": 1,
+          "id": "01KJ5PDFNQSGKTGM1XQJAZSSDX"
+        }
+      ],
+      "value": "[[Fleeting]].  Choose an Animal you control, then target another Character with equal or lower {V} and send it to Reserve.",
+      "id": "01KJ5PDC851M0NM26ZZZAHCYAJ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Kevin Sidharta" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_118\/JPG\/en_US\/009f76f08b73cae0e5bff95cfb416530.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_118\/WEB_99b0a29fbe3e821d63b3d1ce3ac7b782",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_118\/WEB_edaef436e9b51a220634488ce87dc396"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_118_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "MU_118",
+  "reference": "ALT_EOLE_B_MU_118_R1",
+  "translations": {
+    "it_IT": {
+      "name": "Sbuffare e Soffiare",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_118\/JPG\/it_IT\/7c793b45330dd6e9c9501e4b5a02e324.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Huff and Puff",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_118\/JPG\/en_US\/009f76f08b73cae0e5bff95cfb416530.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Je Vais Souffler",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_118\/JPG\/fr_FR\/2a644a5ba22b660002caf138aa327615.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Husten und Prusten",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_118\/JPG\/de_DE\/2308c351568dadab7076b36ba7c70922.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Soplaré y soplaré",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_118\/JPG\/es_ES\/5c3a2a52fcbce47344b246d1bfde6e24.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9KEY99BAS4N9572342",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_118\/JPG\/fr_FR\/2a644a5ba22b660002caf138aa327615.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_118\/JPG\/en_US\/009f76f08b73cae0e5bff95cfb416530.jpg"
+  },
+  "name": "Huff and Puff",
+  "elements": {
+    "MAIN_COST": "#2#",
+    "RECALL_COST": "#2#",
+    "MAIN_EFFECT": "[[Fleeting]].  #Choose an Animal you control,# then target another Character with equal or lower {V} and send it to Reserve."
+  },
+  "collectorNumberFormatted": "ROC-070-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

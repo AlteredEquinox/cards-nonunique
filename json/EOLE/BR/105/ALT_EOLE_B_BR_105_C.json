@@ -1,0 +1,319 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"If you underestimate me, my victory will be all the sweeter.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Si tu me sous-estimes, ça va te coûter bonbon. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HPTN89Y1AQP4CHB1RE3J",
+          "text": "\"If you underestimate me, my victory will be all the sweeter.\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPV5Z25Q8WFW9X8VEDNV",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPTYGEXS7N8THXY6EGQR",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPSRGPW32KN24CG8KTH7",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPTGX84QGTTKG6C87EW5",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "0WPHV1GMRZ8HS9MFB1HJRJ873G",
+      "reference": "ALT_EOLE_B_BR_105_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YWHY8Q6A11QJZTKD95WMXN"
+    },
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YWHY8Q6A11QJZTKD95WMXM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5MXM5ZMHRFPNH9M66148CY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "(Keep up to three cards in your Landmarks during Night.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "(Conservez jusqu'à trois cartes dans vos Repères pendant la Nuit.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "(Behalte während der Nacht bis zu drei Karten in deinem Wahrzeichen-Bereich.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "(Conserva hasta tres cartas en tus hitos durante la noche.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "(Tieni fino a tre carte nei tuoi fulcri durante la notte.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "(Keep up to three cards in your Landmarks during Night.)"
+              }
+            ],
+            "reference": "03007"
+          },
+          "sequence": 0,
+          "id": "01KJ5MXNWR78YR12BADBMGKBMK"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5MXM5ZMHRFPNH9M66148CY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "0\/0\/0 Rust ",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Rust 0\/0\/0",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ruggine 0\/0\/0",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Rost 0\/0\/0",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Ferros 0\/0\/0",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYEJ0233Y9NYXPTFNFZJSA",
+                      "reference": "RUST"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7K40TEN1PH69A7WFWSXT6C"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you control a Feat, create a [RUST] token in your Companion Expedition. (It's a Companion with \"{J} I gain 1 boost per Completed Feat in your Landmarks\".)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Se controlli una Prodezza, crea una pedina [RUST] nella spedizione del tuo compagno. (È un compagno con \"{J} Ottengo 1 rinforzo per ogni Prodezza eseguita nei tuoi fulcri\".)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous contrôlez une Prouesse, créez un jeton [RUST] dans votre Expédition Compagnon. (C'est un Compagnon avec « {J} Je gagne 1 boost par Prouesse Accomplie dans vos Repères ».)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Zum Mittag — Falls du eine Heldentat kontrollierst, erschaffe eine [RUST]-Marke in deiner Gefährten-Expedition. (Sie ist ein Gefährte mit „{J} Ich erhalte 1 Verstärkung pro Heldentat in deinem Wahrzeichen-Bereich, die Vollbracht ist“.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — Si controlas una proeza, crea una ficha de [RUST] en tu expedición del compañero. (Es un compañero con \"{J} Gano 1 potenciador por cada proeza completada en tus hitos\".)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "At Noon — If you control a Feat, create a [RUST] token in your Companion Expedition. (It's a Companion with \"{J} I gain 1 boost per Completed Feat in your Landmarks\".)"
+              }
+            ],
+            "reference": "02782"
+          },
+          "sequence": 1,
+          "id": "01KJ5MXQGAMDM8CF4RPHR4G4WC"
+        }
+      ],
+      "value": "(Keep up to three cards in your Landmarks during Night.)  At Noon — If you control a Feat, create a [Rust 0\/0\/0] token in your Companion Expedition. (It's a Companion with \"{J} I gain 1 boost per Completed Feat in your Landmarks\".)",
+      "id": "01KJ5MXM5ZMHRFPNH9M66148CY"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Tristan Bideau" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/JPG\/en_US\/4a3ec7b6136bb5f2b2fcc34108b4bdb4.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/HERO_THUMB_3fac7d5ed962356eed6e1e22ebf7dec3"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/HERO_WIDE_2b648d8a069b973c051a745806c6131c"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/WEB_aea5c651431daae74422fe7562812f4e"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_105_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_105",
+  "reference": "ALT_EOLE_B_BR_105_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Gretel & Rust",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/JPG\/fr_FR\/63a05d51ec0b6b0c71125c5f2a3795c7.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Gretel & Rust",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/JPG\/en_US\/4a3ec7b6136bb5f2b2fcc34108b4bdb4.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Gretel e Ruggine",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/JPG\/it_IT\/dacd6149e95f7281c91351b028757cae.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Gretel & Rost",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/JPG\/de_DE\/ca1b72b2a12f308fac57cc2bc21d47c5.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Gretel y Ferros",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/JPG\/es_ES\/7b1b2fff93b707b26a3b61aa38a48b49.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY8Q6A11QJZTKD95WMXK",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/JPG\/fr_FR\/63a05d51ec0b6b0c71125c5f2a3795c7.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_105\/JPG\/en_US\/4a3ec7b6136bb5f2b2fcc34108b4bdb4.jpg"
+  },
+  "name": "Gretel & Rust",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "RESERVE": "2",
+    "PERMANENT": "3",
+    "MAIN_EFFECT": "(Keep up to three cards in your Landmarks during Night.)  At Noon — If you control a Feat, create a [Rust 0\/0\/0] token in your Companion Expedition. (It's a Companion with \"{J} I gain 1 boost per Completed Feat in your Landmarks\".)"
+  },
+  "collectorNumberFormatted": "ROC-019-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

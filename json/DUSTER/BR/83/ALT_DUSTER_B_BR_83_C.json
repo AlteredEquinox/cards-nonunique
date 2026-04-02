@@ -1,0 +1,232 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Halua returns as the protector of the Naos.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Halua reprend sa place de protecteur du Naos.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01K3R4K7BPH5REVP2D0XMWCS5J",
+          "text": "Halua returns as the protector of the Naos."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
+        "reference": "TOKEN",
+        "name": "Token"
+      },
+      "id": "7JWJ764G1P9B0BNQMWJ2EHY5P9",
+      "reference": "ALT_DUSTER_B_BR_83_C"
+    }
+  ],
+  "cardType": {
+    "reference": "TOKEN",
+    "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
+    "name": "Token Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "COMPANION",
+      "id": "01HKAGQPYTEKRYT4PRE9HZHTDA",
+      "name": "Companion"
+    },
+    {
+      "reference": "LEVIATHAN",
+      "id": "01HKAGQEXKWSBXPSBRBJ2YZ038",
+      "name": "Leviathan"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZJQ09YKH1KWBFDJ7F6YRNCH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZJQ0A5EYGC8GJR05JNX4EYZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZJQ0ACHPTEWT73W8FPM72BZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X43MV2T4VVJMY09B1TGR09",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWMTE017F5KGB123D80NJ3"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "If your Hero has 5 or more Quest counters, I am [GIGANTIC]. (A Gigantic Character is considered present in both Expeditions.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Si votre Héros a au moins 5 compteurs Quête, je suis [GIGANTIC]. (Un Personnage Gigantesque est considéré présent dans les deux Expéditions.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Falls dein Held mindestens 5 Questzähler hat, bin ich [GIGANTIC]. (Ein gigantischer Charakter wird in beiden Expeditionen als anwesend betrachtet.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Se il tuo eroe ha 5 o più segnalini Missione, ho [GIGANTIC]. (Un personaggio Colossale si considera presente in entrambe le spedizioni.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Si tu héroe tiene 5 o más contadores de misión, soy [GIGANTIC]. (Un personaje gigante se considera presente en ambas expediciones.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "If your Hero has 5 or more Quest counters, I am [GIGANTIC]. (A Gigantic Character is considered present in both Expeditions.)"
+              }
+            ],
+            "reference": "01933"
+          },
+          "sequence": 0,
+          "id": "01K6X43ND3X6KKT9VNA963NK3K"
+        }
+      ],
+      "value": "If your Hero has 5 or more Quest counters, I am [Gigantic]. (A Gigantic Character is considered present in both Expeditions.)",
+      "id": "01K6X43MV2T4VVJMY09B1TGR09"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Fahmi Fauzi" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_83\/JPG\/en_US\/7b5fe037597d5e95da5f7048470c7ac5.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_83\/WEB_7d2649edc74ba70f492320014f2747c6"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_83_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_83",
+  "reference": "ALT_DUSTER_B_BR_83_C",
+  "translations": {
+    "it_IT": { "name": "Halua", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "Halua",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_83\/JPG\/en_US\/7b5fe037597d5e95da5f7048470c7ac5.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Halua", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Halua", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Halua",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_83\/JPG\/fr_FR\/5a25862ff7bf91b8017ef4567eb03332.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JZJF884A8HKQ8E34XME5A4AS",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_83\/JPG\/fr_FR\/5a25862ff7bf91b8017ef4567eb03332.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_83\/JPG\/en_US\/7b5fe037597d5e95da5f7048470c7ac5.jpg"
+  },
+  "name": "Halua",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "If your Hero has 5 or more Quest counters, I am [Gigantic]. (A Gigantic Character is considered present in both Expeditions.)"
+  },
+  "collectorNumberFormatted": "SDU-109-T-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

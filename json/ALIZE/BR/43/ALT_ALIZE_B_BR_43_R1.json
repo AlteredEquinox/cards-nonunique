@@ -1,0 +1,243 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Nobody knows where this \"milk\" actually comes from.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Personne ne sait d'où vient ce « lait ».",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01J21J24PDZA0ZS998QG7F0D8T",
+          "text": "Nobody knows where this \"milk\" actually comes from."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "La Voie Lactée, telle est la Voie ! \/ This is the way, the Milky Way!\n\nRécolté à la main au sein de l'Hypogée, le monde souterrain et mystérieux qui s'ouvre sous le désert de Sarkans, le Lait d'Arcolano™ est l'une des merveilles d'Asgartha. Fraîchement puisé dans les fermes locales de Caecaster, le Lait d'Arcolano nettoie l'esprit et vous aide à bien dormir. Boire tous les jours le Lait d'Arcolano renforce l'imagination, et assure à votre créativité une croissance illimitée.\n\nL'abus de Lait d'Arcolano est dangereux pour la santé, à consommer avec modération.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "This is the way, the Milky Way!\n\nHarvested by hand within the Hypogea, the mysterious subterranean world that extends under the Sarkans Desert, Arcolano Milk™ is one of the wonders of Asgartha. Freshly drawn from local Caecaster farms, Arcolano Milk cleanses the mind and helps you sleep well. Drinking Arcolano Milk every day fuels your imagination and promotes unbounded creativity.\n\nOverconsumption of Arcolano Milk poses a risk to health. Please drink responsibly.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01J21J24Q0K7QG17HBFP18KM8D",
+          "text": "This is the way, the Milky Way!\n\nHarvested by hand within the Hypogea, the mysterious subterranean world that extends under the Sarkans Desert, Arcolano Milk™ is one of the wonders of Asgartha. Freshly drawn from local Caecaster farms, Arcolano Milk cleanses the mind and helps you sleep well. Drinking Arcolano Milk every day fuels your imagination and promotes unbounded creativity.\n\nOverconsumption of Arcolano Milk poses a risk to health. Please drink responsibly."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZ2WM1WQ8ARN68RNGJZCB",
+        "reference": "EXPEDITION_PERMANENT",
+        "name": "EXPEDITION_PERMANENT"
+      },
+      "id": "3A0V4GC8Z08EEVGG83WJ0VM35D",
+      "reference": "ALT_ALIZE_B_BR_43_C"
+    }
+  ],
+  "cardType": {
+    "reference": "EXPEDITION_PERMANENT",
+    "id": "01J1Q7ASAYXTSM3DH772C70PV5",
+    "name": "Expedition Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "GEAR", "id": "01J1QB6WRN6E3REFHBQ6V24VA3", "name": "Gear" }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J1QB877P9BWX2CSBM80XBPXF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J1QB879FW714PX20YBF8RQA6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SPNQPJ0VY7MHKW2QYYN11",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Si je devais être envoyé en Réserve, défaussez-moi à la place."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Si fuese a ir a la reserva, en vez de eso, descártame."
+                        },
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "If I would be sent to Reserve, discard me instead."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Falls ich in die Reserve geschickt werden soll, lege mich stattdessen ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Se sto per finire nella Riserva, scartami invece."
+                        }
+                      },
+                      "id": "01HKAGPFQ5K77F8PMNJR8FY6PM",
+                      "reference": "FLEETING_CHAR"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01J1QB87MDSJQJYFWC14JPC1A2"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Lorsqu'un Personnage rejoint mon Expédition — Il gagne #2 boosts# et [FLEETING_CHAR].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn ein Charakter sich meiner Expedition anschließt — Er erhält #2 Verstärkungen# und [FLEETING_CHAR].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando un personaggio si unisce alla mia spedizione — Ottiene #2 rinforzi# e [FLEETING_CHAR].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando un personaje se incorpore a mi expedición — Gana #2 potenciadores# y [FLEETING_CHAR].",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "When a Character joins my Expedition — It gains #2 boosts# and [FLEETING_CHAR].",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "When a Character joins my Expedition — It gains #2 boosts# and [FLEETING_CHAR]."
+              }
+            ],
+            "reference": "00472"
+          },
+          "sequence": 0,
+          "id": "01KH6SPPCPATHNJCJPYNFZ678J"
+        }
+      ],
+      "value": "When a Character joins my Expedition — It gains 2 boosts and [[Fleeting]].",
+      "id": "01KH6SPNQPJ0VY7MHKW2QYYN11"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_B_BR_43\/JPG\/en_US\/c9d8c4700c49578f8096471d3d073078.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_B_BR_43\/WEB_45f8342b1460275baf5510f97cf3d031",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_B_BR_43\/WEB_88dc4094659aabdee36cdce5e6c6ce0f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_B_BR_43_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_43",
+  "reference": "ALT_ALIZE_B_BR_43_R1",
+  "translations": {
+    "de_DE": {
+      "name": "Arcolano-Milch",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_B_BR_43\/JPG\/de_DE\/9432ebcd8a42a68df56e7b62ccdceaa3.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Latte di Arcolano",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_B_BR_43\/JPG\/it_IT\/c3c8a785ad1505959b9c3ce54547ad64.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Leche de Arcolano",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_B_BR_43\/JPG\/es_ES\/035b1b4b2a0ddfe47f2ec3e73fee076a.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Lait d'Arcolano",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_B_BR_43\/JPG\/fr_FR\/5f16b9e583fa23175ed5160ee3cebd09.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Arcolano Milk",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_B_BR_43\/JPG\/en_US\/c9d8c4700c49578f8096471d3d073078.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01J1Q4P4S494FQQRQ8V7F8JMWG",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_B_BR_43\/JPG\/fr_FR\/5f16b9e583fa23175ed5160ee3cebd09.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_B_BR_43\/JPG\/en_US\/c9d8c4700c49578f8096471d3d073078.jpg"
+  },
+  "name": "Arcolano Milk",
+  "elements": {
+    "MAIN_COST": "#2#",
+    "RECALL_COST": "#2#",
+    "MAIN_EFFECT": "When a Character joins my Expedition — It gains #2 boosts# and [[Fleeting]]."
+  },
+  "collectorNumberFormatted": "TBF-032-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

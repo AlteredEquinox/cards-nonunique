@@ -1,0 +1,240 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Let us offer the Musubi to the Reka, so that new Exalts might be born!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Offrons le Musubi aux Reka, que naissent de nouveaux Exalts ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZQYNHY13P4YCXFHRRYXK",
+          "text": "\"Let us offer the Musubi to the Reka, so that new Exalts might be born!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "3WADGS50GS92JR04K13R9ZSQNR",
+      "reference": "ALT_DUSTER_B_MU_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    { "reference": "BOON", "id": "01HKAGPHVVK20XKBXKCZNGRTFD", "name": "Boon" },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KEYAGCEB71GEPH14G76QB"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KEYGM5VVZZT4K77QTWEKE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4GTYJNSMKYHWG01N8PJXA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Rafraîchissement",
+                          "locale": "fr_FR",
+                          "description": "Si je vais en Réserve une fois mon effet résolu, épuisez-moi {T}."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Recuperación",
+                          "locale": "es_ES",
+                          "description": "Si voy a la reserva después de que se resuelva mi efecto, agótame {T}."
+                        },
+                        "en_US": {
+                          "displayWeb": "Cooldown",
+                          "locale": "en_US",
+                          "description": "If I go to Reserve after my effect resolves, exhaust me {T}."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Abkühlung",
+                          "locale": "de_DE",
+                          "description": "Falls ich in die Reserve gehe, nachdem mein Effekt abgeklungen ist, erschöpfe mich {T}."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Raffreddamento",
+                          "locale": "it_IT",
+                          "description": "Se vado nella Riserva dopo che il mio effetto si è risolto, consumami {T}."
+                        }
+                      },
+                      "id": "01J1QB6QEN5QANPB0QVZXECGGK",
+                      "reference": "COOLDOWN"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01K5TT6TF7D5T3Q4DHF56SZX20"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "#$[COOLDOWN].#", "locale": "de_DE" },
+                  "it_IT": { "text": "#$[COOLDOWN].#", "locale": "it_IT" },
+                  "es_ES": { "text": "#$[COOLDOWN].#", "locale": "es_ES" },
+                  "en_US": { "text": "#$[COOLDOWN].#", "locale": "en_US" },
+                  "fr_FR": { "text": "#$[COOLDOWN].#", "locale": "fr_FR" }
+                },
+                "text": "#$[COOLDOWN].#"
+              }
+            ],
+            "reference": "02075"
+          },
+          "sequence": 0,
+          "id": "01K6X4GVGPSR5PPT6Q13F0Y14D"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4GTYJNSMKYHWG01N8PJXA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Distribute 4 boosts among any target Characters in play or in Reserve.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Distribuye 4 potenciadores entre cualquier número de personajes objetivo en juego o en reserva.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Distribuisci 4 rinforzi tra un numero qualsiasi di personaggi bersaglio in gioco o nella Riserva.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Répartissez 4 boosts parmi les Personnages ciblés de votre choix, en jeu ou en Réserve.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Verteile 4 Verstärkungen nach Belieben auf Charaktere deiner Wahl im Spiel oder in der Reserve.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Distribute 4 boosts among any target Characters in play or in Reserve."
+              }
+            ],
+            "reference": "01790"
+          },
+          "sequence": 1,
+          "id": "01K6X4GVZJDFNR4MP0KDRVR13Z"
+        }
+      ],
+      "value": "[Cooldown]. (If I go to Reserve after my effect resolves, exhaust me {T}.)  Distribute 4 boosts among any target Characters in play or in Reserve.",
+      "id": "01K6X4GTYJNSMKYHWG01N8PJXA"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/en_US\/f2e2f9a0520789fc2eab34a956664a14.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/WEB_1b5d317613eaf57660d6ed300280e202",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/WEB_35db4d71e73557bf69a6c51be2ee5581"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_98_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_98",
+  "reference": "ALT_DUSTER_B_MU_98_R2",
+  "translations": {
+    "de_DE": { "name": "Seelen-Begegnung", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Encuentro del alma", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Incontro di Anime", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Rencontre Spirituelle",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/fr_FR\/717134a7788fbc2fc42f78f6fb36f129.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Soul Encounter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/en_US\/f2e2f9a0520789fc2eab34a956664a14.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVQ79H5F38WX92X3E1ZM",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/fr_FR\/717134a7788fbc2fc42f78f6fb36f129.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/en_US\/f2e2f9a0520789fc2eab34a956664a14.jpg"
+  },
+  "name": "Soul Encounter",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "#2#",
+    "MAIN_EFFECT": "#[Cooldown].# (If I go to Reserve after my effect resolves, exhaust me {T}.)  Distribute 4 boosts among any target Characters in play or in Reserve."
+  },
+  "collectorNumberFormatted": "SDU-069-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

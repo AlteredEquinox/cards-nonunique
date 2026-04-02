@@ -1,0 +1,254 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "By their very nature, Moths are prone to corruption.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Par leur nature, les Phalènes sont poreuses à la corruption.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94J06NM9WTA85D0A2AS92S",
+          "text": "By their very nature, Moths are prone to corruption."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94J07GVX6NCXFA92WT383Y",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94J074G5XGPBHKK0SNF67A",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94J04MVRTKFX1KXCDJ1CQ3",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94J050GY76XKE24XH85KJX",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
+        "reference": "TOKEN",
+        "name": "Token"
+      },
+      "id": "4152RATQB29PPSGHW0ER5Q2WT0",
+      "reference": "ALT_EOLE_B_YZ_47_C"
+    }
+  ],
+  "cardType": {
+    "reference": "TOKEN",
+    "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
+    "name": "Token Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ILLUSION",
+      "id": "01J1QBG2268GSN3G0S560XZGZY",
+      "name": "Illusion"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZM17TY2A3MAQV53KHN0ZR"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZM1G1SE77ETWWHVTRT8HF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZM1RBFVAHSBY5X007RT9X"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QPS7PT3XAJVYYXAMEMWAG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "(Si je quitte la zone d'Expédition, retirez-moi du jeu.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "(Falls ich die Expeditionszone verlasse, entferne mich aus dem Spiel.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "(Se lascio l'area delle spedizioni, rimuovimi dalla partita.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "(Si abandono la zona de expedición, retírame del juego.)",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "(If I leave the Expedition zone, remove me from the game.)",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "(If I leave the Expedition zone, remove me from the game.)"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01KJ5QPTPB7ZQ0TNXKYZNANBEH"
+        }
+      ],
+      "value": "(If I leave the Expedition zone, remove me from the game.)",
+      "id": "01KJ5QPS7PT3XAJVYYXAMEMWAG"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Ba Vo" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_47\/JPG\/en_US\/7c7e9f2e8c9f2cebeebd70295d6207f6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_47\/WEB_b0996bffa9373e77b5fc1d6add462cb1"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_47_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_47",
+  "reference": "ALT_EOLE_B_YZ_47_C",
+  "translations": {
+    "en_US": {
+      "name": "Mana Moth",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_47\/JPG\/en_US\/7c7e9f2e8c9f2cebeebd70295d6207f6.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Falena di Mana",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_47\/JPG\/it_IT\/3cb3b5251212909fa3cbd12ab4fb4f65.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Mana-Motte",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_47\/JPG\/de_DE\/72b1f2219998d476f56af17cbf863c54.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Polilla de maná",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_47\/JPG\/es_ES\/309aefebf729e32896a7aec55e65a177.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Phalène de Mana",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_47\/JPG\/fr_FR\/643d98be6dcdda4e451347358c1e05a8.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YY5ABPXGBZ3ZDW5SKWFXQN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_47\/JPG\/fr_FR\/643d98be6dcdda4e451347358c1e05a8.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_47\/JPG\/en_US\/7c7e9f2e8c9f2cebeebd70295d6207f6.jpg"
+  },
+  "name": "Mana Moth",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "(If I leave the Expedition zone, remove me from the game.)"
+  },
+  "collectorNumberFormatted": "ROC-117-T-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

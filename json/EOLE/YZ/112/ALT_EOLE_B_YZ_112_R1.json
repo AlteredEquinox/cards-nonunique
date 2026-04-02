@@ -1,0 +1,270 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Il ne reste qu'à couvrir les arrières de Sam. »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Now we just need to cover Sam's back.\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HYBRMQ8R73EG18KF5AH4",
+          "text": "\"Now we just need to cover Sam's back.\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HYCQ8ZJ3Y2Z0RZZ5C0GX",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HYC8W2PSYSHRA8DRB8BY",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HY9D3QNZ031FS0T1D289",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HY9TPSYV3G63S1ZEAH83",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0P0XF90SQF893TXCWAJ8BJH64A",
+      "reference": "ALT_EOLE_B_YZ_112_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZFEB3WCH9MZG315P64VVY"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZFEK4T7PF46GH6WQ76B9M"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZFEV536MWVKR1P6YQSJ0R"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZFF3EX0SJRP0K05TMF8CA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZFFC3VTY1HWSKAQ1A3PMM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q9BJMP597VG1DR5NZ7VEG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J} If six or more cards are in your discard pile, I gain 1 boost.# Otherwise, discard the top card of your deck.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{J} Falls sich mindestens sechs Karten auf deinem Ablagestapel befinden, erhalte ich 1 Verstärkung.# Andernfalls lege die oberste Karte deines Decks ab.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{J} Si hay seis o más cartas en tu pila de descartes, gano 1 potenciador.# De lo contrario, descarta la primera carta de tu mazo.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{J} Se ci sono sei o più carte nella tua pila degli scarti, ottengo 1 rinforzo.# Altrimenti, scarta la prima carta del tuo mazzo.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#{J} S'il y a au moins six cartes dans votre défausse, je gagne 1 boost.# Sinon, défaussez la première carte de votre deck.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{J} If six or more cards are in your discard pile, I gain 1 boost.# Otherwise, discard the top card of your deck."
+              }
+            ],
+            "reference": "02985"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q9DFB7W8298WHD2X63W12"
+        }
+      ],
+      "value": "{J} If six or more cards are in your discard pile, I gain 1 boost. Otherwise, discard the top card of your deck.",
+      "id": "01KJ5Q9BJMP597VG1DR5NZ7VEG"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Nestor Papatriantafyllou" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/JPG\/en_US\/5ec87f82719159fe9e459c76d48da959.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/WEB_b0bd8a675dffeb6e9b9c72f9b594c008",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/WEB_04fbd15b2363b86b692f8e9a07d1a204",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/WEB_b55c8450263e9ded088f9937b2da605a"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_112_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_112",
+  "reference": "ALT_EOLE_B_YZ_112_R1",
+  "translations": {
+    "en_US": {
+      "name": "Qorgan Exorcist",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/JPG\/en_US\/5ec87f82719159fe9e459c76d48da959.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Esorcista del Qorgan",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/JPG\/it_IT\/b604d20c9448c6d89f8be8ab2623cb77.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Exorciste du Qorgan",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/JPG\/fr_FR\/97c8b57afb710d59acc1eb7b0badcf7b.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Exorcista del Qorgan",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/JPG\/es_ES\/f1389143f4feb0c4198c3573a8c66b35.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Qorgan-Exorzist",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/JPG\/de_DE\/0bef80782e26e57ac86389a72383b9ec.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01K9YWHYA4JNPD97FD2DJTK95T",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/JPG\/fr_FR\/97c8b57afb710d59acc1eb7b0badcf7b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_112\/JPG\/en_US\/5ec87f82719159fe9e459c76d48da959.jpg"
+  },
+  "name": "Qorgan Exorcist",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#{J} If six or more cards are in your discard pile, I gain 1 boost.# Otherwise, discard the top card of your deck."
+  },
+  "collectorNumberFormatted": "ROC-100-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

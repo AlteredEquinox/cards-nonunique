@@ -1,0 +1,197 @@
+{
+  "loreEntries": [],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
+  "cardSet": {
+    "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+    "reference": "BISE",
+    "name": "Whispers from the Maze"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K457VCG03AF6QST2XJV5E4P6"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K457VCQRTVZ85B4RR9383XVN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K4JNHN3SS17743QDWZ0D6KZ3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Blechkäfer 2\/2\/2",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ottonblatta 2\/2\/2",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Bicholata 2\/2\/2",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Brassbug 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "2\/2\/2 Scarabot",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGP9T12ATT2K44GARJZTC9",
+                      "reference": "BRASSBUG"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JCY6PJ1EMEF8GCTFX4VEQ345"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Quando un altro #permanente si unisce alle tue spedizioni o ai tuoi fulcri# — Ottengo 1 segnalino Arcano. Poi, puoi consumarmi ({T}) e #spendere 3# dei miei segnalini Arcano per creare una pedina #Robot [BRASSBUG]# in una spedizione.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsqu'un autre #Permanent rejoint vos Expéditions ou Repères# — Je gagne 1 compteur Arcane. Puis, vous pouvez m'épuiser ({T}) et #dépenser 3# de mes compteurs Arcane pour créer un jeton #Robot [BRASSBUG]# dans une Expédition ciblée.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When #another Permanent joins your Expeditions or Landmarks# — I gain 1 Arcane counter. Then, you may exhaust me ({T}) and #spend 3# of my Arcane counters to create a #[BRASSBUG] Robot# token in target Expedition.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn #eine andere Bleibende Karte sich deinen Expeditionen oder Wahrzeichen anschließt# — Ich erhalte 1 Arkanzähler. Dann darfst du mich erschöpfen ({T}) und #3 meiner Arkanzähler ausgeben,# um eine #[BRASSBUG]-Robotermarke# in einer Expedition deiner Wahl zu erschaffen.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Cuando otro #permanente se incorpore a una de tus expediciones o a tu zona de hitos# — Gano 1 contador de arcano. Luego, puedes agotarme ({T}) y #gastar 3# de mis contadores de arcano para crear una ficha de #robot [BRASSBUG]# en una expedición objetivo.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When #another Permanent joins your Expeditions or Landmarks# — I gain 1 Arcane counter. Then, you may exhaust me ({T}) and #spend 3# of my Arcane counters to create a #[BRASSBUG] Robot# token in target Expedition."
+              }
+            ],
+            "reference": "01106"
+          },
+          "sequence": 0,
+          "id": "01K4JNHNJDKTA0D1QCFTPPFKWG"
+        }
+      ],
+      "value": "When another Permanent joins your Expeditions or Landmarks — I gain 1 Arcane counter. Then, you may exhaust me ({T}) and spend 3 of my Arcane counters to create a [Brassbug 2\/2\/2] Robot token in target Expedition.",
+      "id": "01K4JNHN3SS17743QDWZ0D6KZ3"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_62\/JPG\/en_US\/2dced164e0f30c38ae7084cb6ed5b074.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_62\/WEB_d0e777bc56d0e8c9c178ad2ecd4a916a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_62\/WEB_52ea74c20d8af0ab40e91cf2b426f151"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_A_YZ_62_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_62",
+  "reference": "ALT_BISE_A_YZ_62_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Guglie di Nilam",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_YZ_62\/JPG\/it_IT\/6c1f2e41097167bf3617f76a133e08f4.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Nilam Spires",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_YZ_62\/JPG\/en_US\/2dced164e0f30c38ae7084cb6ed5b074.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Les Flèches du Nilam",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_YZ_62\/JPG\/fr_FR\/b94f3432ecdc8943ff95ccc9adbd1e40.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Die Nilam-Türme",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_YZ_62\/JPG\/de_DE\/287925fbd7dbee707412701eeb6d11bc.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Torres de Nilam",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_YZ_62\/JPG\/es_ES\/50dbe8037a100c5812dd121f76bbccd5.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K44V3V5FR6ZZW8N3D209BA98",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_62\/JPG\/fr_FR\/b94f3432ecdc8943ff95ccc9adbd1e40.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_62\/JPG\/en_US\/2dced164e0f30c38ae7084cb6ed5b074.jpg"
+  },
+  "name": "Nilam Spires",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "#3#",
+    "MAIN_EFFECT": "When #another Permanent joins your Expeditions or Landmarks# — I gain 1 Arcane counter. Then, you may exhaust me ({T}) and #spend 3# of my Arcane counters to create a #[Brassbug 2\/2\/2] Robot# token in target Expedition."
+  },
+  "collectorNumberFormatted": "WFM-101-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

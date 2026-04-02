@@ -1,0 +1,347 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Lancez l'ordre de repli à tous les navires ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Give the order for all ships to retreat!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HV50DR9P6PR51DAXH3P1",
+          "text": "\"Give the order for all ships to retreat!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HV5JF0BV4XDY3A4Q5ART",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HV59YT2ATF25RK5SY10T",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HV4DEBEW0AVCR566WJ9F",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HV4Q5AJ63PK8EYFN383V",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2NRYQ8S18Z8A1T55QCBD2HV640",
+      "reference": "ALT_EOLE_B_OR_108_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MESSENGER",
+      "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
+      "name": "Messenger"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ54N2TRCDVBPJJ6PYYZXJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ54WX5QZ1EAAZD0W6V6RR"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ554X4FG6RJTWNM25G9VE"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ55F7MMWYDJKW7JB9H5JX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ55RHPY4DHW8ZHDBY06GN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PH506D0FYRBPTEFEH6E1J",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M2WW7D8VYHPN9PVJQDQWK"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Élevée",
+                          "locale": "fr_FR",
+                          "description": null
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascended",
+                          "locale": "en_US",
+                          "description": null
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascesa",
+                          "locale": "it_IT",
+                          "description": null
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufgestiegen",
+                          "locale": "de_DE",
+                          "description": null
+                        },
+                        "es_ES": {
+                          "displayWeb": "Ascendida",
+                          "locale": "es_ES",
+                          "description": null
+                        }
+                      },
+                      "id": "01K9YZ581FEN1YFQ924BHV1TWD",
+                      "reference": "ASCENDED_S"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M2XHGW3J3HC48BGRN21KR"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} I gain [FLEETING] unless my Expedition is [ASCENDED_S].",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{H} Ottengo [FLEETING] a meno che la mia spedizione non sia [ASCENDED_S].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Gano [FLEETING] a menos que mi expedición esté [ASCENDED_S].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Je gagne [FLEETING], sauf si mon Expédition est [ASCENDED_S].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Ich erhalte [FLEETING], es sei denn, meine Expedition ist [ASCENDED_S].",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} I gain [FLEETING] unless my Expedition is [ASCENDED_S]."
+              }
+            ],
+            "reference": "02929"
+          },
+          "sequence": 0,
+          "id": "01KJ5PH6S4EWWSCXFWPJCWF8F1"
+        }
+      ],
+      "value": "{H} I gain [[Fleeting]] unless my Expedition is [[Ascended]].",
+      "id": "01KJ5PH506D0FYRBPTEFEH6E1J"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Victor Canton" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/JPG\/en_US\/7b45bbadffa8f1b5e5571ec5e51b1fc8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/WEB_c07e8d744b74542f4c40938f870bd6f1",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/WEB_66669cdf3e647ac7b452a1d905e3e045",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/WEB_6fa1d8cc26abf64572f3fa94d532a788"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_108_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_108",
+  "reference": "ALT_EOLE_B_OR_108_C",
+  "translations": {
+    "it_IT": {
+      "name": "Emissario di Carta",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/JPG\/it_IT\/1e7056b46f4015e940471da5191fd88c.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Enviado de papel",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/JPG\/es_ES\/add1951b1a311da80cb23384869aebad.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Paper Envoy",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/JPG\/en_US\/7b45bbadffa8f1b5e5571ec5e51b1fc8.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Émissaire de Papier",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/JPG\/fr_FR\/0f16758afdf2beba8651064c0bc5fa05.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Papiergesandter",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/JPG\/de_DE\/eb1e563f561faea1ce206bd85f388452.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01K9YWHY9SCHYKM5AFXKQ6WSQW",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/JPG\/fr_FR\/0f16758afdf2beba8651064c0bc5fa05.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_108\/JPG\/en_US\/7b45bbadffa8f1b5e5571ec5e51b1fc8.jpg"
+  },
+  "name": "Paper Envoy",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} I gain [[Fleeting]] unless my Expedition is [[Ascended]]."
+  },
+  "collectorNumberFormatted": "ROC-076-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

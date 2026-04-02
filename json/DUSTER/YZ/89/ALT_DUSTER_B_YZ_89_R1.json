@@ -1,0 +1,277 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": { "text": "What foul?!", "locale": "en_US" },
+            "fr_FR": { "text": "Comment ça, faute ?", "locale": "fr_FR" }
+          },
+          "id": "01JZ37ZWDM00GBJH4CN69KEYEJ",
+          "text": "What foul?!"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2XM694JAVQ91BTZ1GZYY8WDNHN",
+      "reference": "ALT_DUSTER_B_YZ_89_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KPAMX2SY0P74TM17M4N5S"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KPAV19JERZWN98GT208YM"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KPB148448DA3FSS5R51TK"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KPB76RME0C12RYT5YTF7S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KPBDD6H3DSC5QVCGACGWY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4RK6WDBQGP2H61Q3VJFPR",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "sabotea",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HPFHB7HMW4Z2R5M4M6ZKR0GR",
+                      "reference": "SABOTAGE_LOW"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KPD31FDB1R8CXN7E29N4X"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KPCP9GW9Z4ZPCWNWE48HD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J}# If I'm [IN_CONTACT], [SABOTAGE_LOW]. (I'm In Contact if another player's Expedition is in my region.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# Falls ich [IN_CONTACT] bin, nutze [SABOTAGE_LOW]. (Ich bin in Kontakt, falls die Expedition eines anderen Spielers in meiner Region ist.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# Si estoy [IN_CONTACT], [SABOTAGE_LOW]. (Estoy en contacto si la expedición de otro jugador está en mi región.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# Se sono [IN_CONTACT], [SABOTAGE_LOW]. (Sono In contatto se la spedizione di un altro giocatore si trova nella mia regione.)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Si je suis [IN_CONTACT], [SABOTAGE_LOW]. (Je suis En Contact si l'Expédition d'un autre joueur est dans ma région.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{J}# If I'm [IN_CONTACT], [SABOTAGE_LOW]. (I'm In Contact if another player's Expedition is in my region.)"
+              }
+            ],
+            "reference": "01851"
+          },
+          "sequence": 0,
+          "id": "01K6X4RKSCF07T12711JZVQJ10"
+        }
+      ],
+      "value": "{J} If I'm [In Contact], [Sabotage]. (I'm In Contact if another player's Expedition is in my region.)",
+      "id": "01K6X4RK6WDBQGP2H61Q3VJFPR"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_89\/JPG\/en_US\/66dc33b58f0dd4f2cb7fe5fe32dd68aa.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_89\/WEB_e6c9532c74e6e7b8ddb5a75a1b09382e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_89\/WEB_e5338ef656c0c68d2fa1019ee8fec3e7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_89\/WEB_642291b65d8783868d13940db3d59a25"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_89_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_89",
+  "reference": "ALT_DUSTER_B_YZ_89_R1",
+  "translations": {
+    "it_IT": { "name": "Simulatore", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "Foul Faker",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_89\/JPG\/en_US\/66dc33b58f0dd4f2cb7fe5fe32dd68aa.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Jugador teatrero", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Simulant", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Simulateur",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_89\/JPG\/fr_FR\/cd9ecf94829046b1ead9a21942737c85.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQPPCH9PBMCQBNJZGMS",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_89\/JPG\/fr_FR\/cd9ecf94829046b1ead9a21942737c85.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_89\/JPG\/en_US\/66dc33b58f0dd4f2cb7fe5fe32dd68aa.jpg"
+  },
+  "name": "Foul Faker",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "#{J}# If I'm [In Contact], [Sabotage]. (I'm In Contact if another player's Expedition is in my region.)"
+  },
+  "collectorNumberFormatted": "SDU-093-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

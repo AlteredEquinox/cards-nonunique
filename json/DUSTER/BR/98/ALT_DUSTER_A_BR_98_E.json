@@ -1,0 +1,240 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Wanax leads the Marauders into the Tumult to bring home wondrous catches.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Wanax dirige les Maraudeurs, qui bravent le Tumulte pour y pêcher des merveilles.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01K3R4K3MQ5GBTHNHXWNRGYR06",
+          "text": "Wanax leads the Marauders into the Tumult to bring home wondrous catches."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "37KMAGMKP59B5T9QM5E7JV7SRV",
+      "reference": "ALT_DUSTER_A_BR_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZJPBDWX1MF471H411SYPFS7"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZJPBE2W2QPMQY81A0GW5B1Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JZJPBE8N311CRP38V7RGH436"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JZJPBEEDJXMJ6VQRSVNNT7BH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JZJPBEKSBDJB609XM2Q9FCN8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X3XQ9MEYXKN58J9FC6KHDQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Giocami per {1} in meno per ogni altra carta che hai giocato in questo turno.",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "Play me for {1} less per other card you played this turn.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Jugame por {1} menos por cada otra carta que hayas jugado este turno.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Spiele mich für {1} weniger pro andere Karte, die du in dieser Runde gespielt hast.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Jouez-moi pour {1} de moins par autre carte que vous avez jouée ce tour-ci.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Play me for {1} less per other card you played this turn."
+              }
+            ],
+            "reference": "01888"
+          },
+          "sequence": 0,
+          "id": "01K6X3XQQZ2H1FCA4AFDZ10NYT"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X3XQ9MEYXKN58J9FC6KHDQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "{J} Passez.", "locale": "fr_FR" },
+                  "es_ES": { "text": "{J} Pasa.", "locale": "es_ES" },
+                  "de_DE": { "text": "{J} Passe.", "locale": "de_DE" },
+                  "it_IT": { "text": "{J} Passa.", "locale": "it_IT" },
+                  "en_US": { "text": "{J} Passa.", "locale": "en_US" }
+                },
+                "text": "{J} Passa."
+              }
+            ],
+            "reference": "02080"
+          },
+          "sequence": 1,
+          "id": "01K6X3XR46E7AZ2E7N70XXXBAN"
+        }
+      ],
+      "value": "Play me for {1} less per other card you played this turn.  {J} Passa.",
+      "id": "01K6X3XQ9MEYXKN58J9FC6KHDQ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_BR_98\/JPG\/en_US\/b3be38ce7e40472be92b74034f3c9288.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_BR_98\/WEB_5895767a3929bfd1eb286c7e09933185",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_BR_98\/WEB_9afd53906718ef4d662fac6c455b0386"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_A_BR_98_E",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_98",
+  "reference": "ALT_DUSTER_A_BR_98_E",
+  "translations": {
+    "en_US": {
+      "name": "Wanax, Reka Hexarch",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_A_BR_98\/JPG\/en_US\/b3be38ce7e40472be92b74034f3c9288.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Wanax, Reka-Hexarchin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Wanax, hexarca reka",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": { "name": "Wanax, Esarca Reka", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Wanax, Hexarque Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_A_BR_98\/JPG\/fr_FR\/2ad42a2e02edad8ca33697e951d6d006.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JZJCA2K0EWB5ZH78ZDC25430",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_BR_98\/JPG\/fr_FR\/2ad42a2e02edad8ca33697e951d6d006.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_BR_98\/JPG\/en_US\/b3be38ce7e40472be92b74034f3c9288.jpg"
+  },
+  "name": "Wanax, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "6",
+    "MOUNTAIN_POWER": "6",
+    "MAIN_EFFECT": "Play me for {1} less per other card you played this turn.  {J} Passa."
+  },
+  "collectorNumberFormatted": "SDU-033-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

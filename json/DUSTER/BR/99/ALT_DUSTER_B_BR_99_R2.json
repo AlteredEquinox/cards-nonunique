@@ -1,0 +1,273 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Your catch of the day deserves a Manaseed!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Allez, ta pêche du jour vaut bien une Graine ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZM0P7QK6SDVGYTFC66M5",
+          "text": "\"Your catch of the day deserves a Manaseed!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "5CKC70P5Q08CV86JVWZDFJP1XH",
+      "reference": "ALT_DUSTER_B_BR_99_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K5F6B6Z5N8E2736BDCDR0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K5FBY7MX3A3W22RPDTHN2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X47E27E8X3J8EJ5XE26H6E",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWDZ5R77CSWHDHF4M8PF0X"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Create a [MANASEED] token in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Crea una ficha de [MANASEED] en tus hitos.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Crea una pedina [MANASEED] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Créez un jeton [MANASEED] dans vos Repères.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Create a [MANASEED] token in your Landmarks."
+              }
+            ],
+            "reference": "01908"
+          },
+          "sequence": 0,
+          "id": "01K6X47EK40ER951JZDAGP2DFG"
+        }
+      ],
+      "value": "Create a [Manaseed] token in your Landmarks.",
+      "id": "01K6X47E27E8X3J8EJ5XE26H6E"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X47F387CP0YP90G2WD0YVN",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Der nächste Charakter, der in dieser Runde aus deiner Hand gespielt wird, aktiviert eine seiner {r} Fähigkeiten.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Le prochain Personnage joué de votre main ce tour-ci active l'une de ses capacités {r}.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{D}: El siguiente personaje que juegues desde tu mano este turno activa una de sus habilidades {r}.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{D}: il prossimo personaggio giocato dalla tua mano in questo turno attiva una delle sue abilità {r}.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{D} : The next Character played from your hand this turn activates one of its {r} abilities."
+              }
+            ],
+            "reference": "01909"
+          },
+          "sequence": 0,
+          "id": "01K6X47FM8XA9Q44P7YS5EK5TH"
+        }
+      ],
+      "value": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+      "id": "01K6X47F387CP0YP90G2WD0YVN"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/en_US\/b70ee824b7463367f5e2fcedad917d5d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/WEB_e6779dca2ea258f67e5221d8bd1db50e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/WEB_7c66b9cb297dd1eee3d1a92655623cef"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_99_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_99",
+  "reference": "ALT_DUSTER_B_BR_99_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Incontro al Mercato",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Markt-Begegnung", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Market Encounter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/en_US\/b70ee824b7463367f5e2fcedad917d5d.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Encuentro en el mercado",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Rencontre au Marché",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/fr_FR\/56fd2100f225a1ca125f859e33d37f70.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPNWW5BH3NJWZJTJ4FK",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/fr_FR\/56fd2100f225a1ca125f859e33d37f70.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/en_US\/b70ee824b7463367f5e2fcedad917d5d.jpg"
+  },
+  "name": "Market Encounter",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "Create a [Manaseed] token in your Landmarks.",
+    "ECHO_EFFECT": "{D} : The next Character played from your hand this turn activates one of its {r} abilities."
+  },
+  "collectorNumberFormatted": "SDU-034-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,217 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Maleros et ses Préfets éliminent toutes les menaces qui s'échouent sur les berges de la cité.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Maleros and her Prefects eliminate any threats that wash up on the city's shores.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KH3ZWMCC3HHN04V2C5227N8G",
+          "text": "Maleros and her Prefects eliminate any threats that wash up on the city's shores."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6RD7BF5YAH8A1TD0P8A4WZP7GR",
+      "reference": "ALT_WCS26_P_YZ_94_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01KGWCP9XAFCTT89T9VRTED92Z",
+    "reference": "WCS26",
+    "name": "World Championship Series 2026"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01KGWE2DNGYC1SGCNZ3VK284QX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KGWE2DYMBD6ZTVWD51ADJ7BJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KGWE2E7T4487JC3A7YY69EYA"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KGWE2EGXTP65T7E625HMTM9S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KGWE2ET1VQ3Z1F9MCFZF90VB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6AME841RZN03ED6YQAFRH5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Pay {7} less for the next Spell you play this Afternoon.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "fr_FR": {
+                    "text": "{H} Payez {7} de moins pour le prochain Sort que vous jouez cet Après-midi.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Pay {7} less for the next Spell you play this Afternoon."
+              }
+            ],
+            "reference": "02997"
+          },
+          "sequence": 0,
+          "id": "01KH6AMEVWZ8GZCP4N9FESYVQB"
+        }
+      ],
+      "value": "{H} Pay {7} less for the next Spell you play this Afternoon.",
+      "id": "01KH6AME841RZN03ED6YQAFRH5"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_YZ_94\/JPG\/en_US\/4832e6fcb7bb110c7bc982d22391365c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_YZ_94\/WEB_3d84da44092f3b207305ec7358306082",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_YZ_94\/WEB_43e6f70937e78e3ce910c068557bf4ef"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_P_YZ_94_E",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": null,
+  "reference": "ALT_WCS26_P_YZ_94_E",
+  "translations": {
+    "fr_FR": {
+      "name": "Maleros, Hexarque Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_YZ_94\/JPG\/fr_FR\/1fb4369c3b58411676e49fd0d850dae0.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Maleros, Reka Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_YZ_94\/JPG\/en_US\/4832e6fcb7bb110c7bc982d22391365c.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Maleros, Esarca Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_YZ_94\/JPG\/it_IT\/b3dff3e488b7c798303b376630d7851c.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Maleros, Reka-Hexarchin",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_YZ_94\/JPG\/de_DE\/90b46dbf608e563cb2a36027ede5df76.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Maleros, hexarca reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_YZ_94\/JPG\/es_ES\/b07d561739f615fe004713c320264e45.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01KGWCPAVVP2KBW0WKH5DE3CYR",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_YZ_94\/JPG\/fr_FR\/1fb4369c3b58411676e49fd0d850dae0.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_YZ_94\/JPG\/en_US\/4832e6fcb7bb110c7bc982d22391365c.jpg"
+  },
+  "name": "Maleros, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "7",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} Pay {7} less for the next Spell you play this Afternoon."
+  },
+  "collectorNumberFormatted": "WCS26-S-009-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

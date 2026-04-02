@@ -1,0 +1,250 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "This way, we're all on the same wavelength.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Pour rester sur la même longueur d'ondes.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZM5BJCW1Z3GBNH20HAS9",
+          "text": "This way, we're all on the same wavelength."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZ2WM1WQ8ARN68RNGJZCB",
+        "reference": "EXPEDITION_PERMANENT",
+        "name": "EXPEDITION_PERMANENT"
+      },
+      "id": "0H25H3N1C48VE9130T1JHGKS8Q",
+      "reference": "ALT_DUSTER_B_LY_101_C"
+    }
+  ],
+  "cardType": {
+    "reference": "EXPEDITION_PERMANENT",
+    "id": "01J1Q7ASAYXTSM3DH772C70PV5",
+    "name": "Expedition Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "GEAR", "id": "01J1QB6WRN6E3REFHBQ6V24VA3", "name": "Gear" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KA5RZBQD87QWQH51S0PHD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KA5Y9FKV5KHZX90WEWX3E"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X47SDDM5B7RPZ8YCP9C8MC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K3GD67KCFTXPAZ718AQVYTC8"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "My Expedition and its Characters are considered [IN_CONTACT]. (Even if there are no other Expeditions in my region.)",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Mi expedición y sus personajes se consideran [IN_CONTACT]. (Aunque no haya más expediciones en mi región.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "La mia spedizione e i suoi personaggi si considerano [IN_CONTACT]. (Anche se non ci sono altre spedizioni nella mia regione.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Meine Expedition und ihre Charaktere gelten als [IN_CONTACT]. (Selbst falls es in meiner Region keine anderen Expeditionen gibt.)",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Mon Expédition et ses Personnages sont considérés comme étant [IN_CONTACT]. (Même s'il n'y a pas d'autre Expédition dans ma région.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "My Expedition and its Characters are considered [IN_CONTACT]. (Even if there are no other Expeditions in my region.)"
+              }
+            ],
+            "reference": "02011"
+          },
+          "sequence": 0,
+          "id": "01K6X47T38RQAFDBDZN5X0D22J"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X47SDDM5B7RPZ8YCP9C8MC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T} : The next Character that joins my Expedition this turn gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{T} : Le prochain Personnage qui rejoint mon Expédition ce tour-ci gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{T} : Der nächste Charakter, der sich in dieser Runde meiner Expedition anschließt, erhält 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{T}: il prossimo personaggio che si unisce alla mia spedizione in questo turno ottiene 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{T}: El siguiente personaje que se incorpore a mi expedición este turno gana 1 potenciador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{T} : The next Character that joins my Expedition this turn gains 1 boost."
+              }
+            ],
+            "reference": "01753"
+          },
+          "sequence": 1,
+          "id": "01K6X47TH9KRRNSDS5YGEZAGGA"
+        }
+      ],
+      "value": "My Expedition and its Characters are considered [In Contact]. (Even if there are no other Expeditions in my region.)  {T} : The next Character that joins my Expedition this turn gains 1 boost.",
+      "id": "01K6X47SDDM5B7RPZ8YCP9C8MC"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "HuoMiao Studio" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/JPG\/en_US\/4e09f31c500f6d52e3250903e5b5e6fc.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/WEB_b428ccbe719675e83336ce797061adf8",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/WEB_a3d352414d61cebeed45e76bc483f985"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_101_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_101",
+  "reference": "ALT_DUSTER_B_LY_101_C",
+  "translations": {
+    "de_DE": { "name": "Reka-Headset", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Cascos de reka", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Cuffie Reka", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "Reka Headset",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/JPG\/en_US\/4e09f31c500f6d52e3250903e5b5e6fc.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Casque Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/JPG\/fr_FR\/0ae38dda33e5320aec418418ef9d17b5.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPYT09D86WNTEYRBXFC",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/JPG\/fr_FR\/0ae38dda33e5320aec418418ef9d17b5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/JPG\/en_US\/4e09f31c500f6d52e3250903e5b5e6fc.jpg"
+  },
+  "name": "Reka Headset",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "My Expedition and its Characters are considered [In Contact]. (Even if there are no other Expeditions in my region.)  {T} : The next Character that joins my Expedition this turn gains 1 boost."
+  },
+  "collectorNumberFormatted": "SDU-053-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

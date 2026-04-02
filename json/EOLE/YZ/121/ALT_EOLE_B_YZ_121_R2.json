@@ -1,0 +1,396 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« La peur ne passera pas ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": { "text": "\"Fear shall not pass!\"", "locale": "en_US" }
+          },
+          "id": "01KC94HZX43TWAAWFS8ENMSF5C",
+          "text": "\"Fear shall not pass!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HZY0XNEYPG0NYCHYZSPE",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HZXM7FRJEDRJSA2Y84ER",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HZV2VKS2M970FXMBY9SG",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HZVFGMKMYEC37DZEVRWY",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "19BW4S9GAK8THSFZZM4N7MFN6W",
+      "reference": "ALT_EOLE_B_YZ_121_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZK6WDBTRCX23Y1QMQYW5X"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZK74VTMD99XFS9B5J09R4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QN59HA3ZSYYDX6EGDJZ4Q",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Draw a card, #then put a card from your hand in Reserve.#",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{J} Pesca una carta, #poi metti una carta dalla tua mano nella Riserva.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Roba una carta y luego #coloca una carta de tu mano en reserva.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Piochez une carte, puis #mettez une carte de votre main en Réserve.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Ziehe eine Karte, #dann lege eine Karte aus deiner Hand in die Reserve.#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{J} Draw a card, #then put a card from your hand in Reserve.#"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5QN75BEFTHRY2GDQYTPEJK"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5QN59HA3ZSYYDX6EGDJZ4Q",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If six or more cards are in your discard pile, complete me.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Se ci sono sei o più carte nella tua pila degli scarti, eseguimi.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — Si hay seis o más cartas en tu pila de descartes, complétame.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Zum Mittag — Falls sich mindestens sechs Karten auf deinem Ablagestapel befinden, vollbringe mich.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — S'il y a au moins six cartes dans votre défausse, accomplissez-moi.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — If six or more cards are in your discard pile, complete me."
+              }
+            ],
+            "reference": "03002"
+          },
+          "sequence": 1,
+          "id": "01KJ5QN8TV4Q05SDCPH3EZVSE4"
+        }
+      ],
+      "value": "{J} Draw a card, then put a card from your hand in Reserve.  At Noon — If six or more cards are in your discard pile, complete me.",
+      "id": "01KJ5QN59HA3ZSYYDX6EGDJZ4Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QNATTYNXPN7KZJS51M5ES",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Blechkäfer 2\/2\/2",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ottonblatta 2\/2\/2",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Bicholata 2\/2\/2",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Brassbug 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "2\/2\/2 Scarabot",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGP9T12ATT2K44GARJZTC9",
+                      "reference": "BRASSBUG"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MNZ9MEBPPZV649SPM6V20"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MNYJNB8HKM99PPGTCQ46B"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[COMPLETED]: When #a card goes directly from your hand to Reserve# — You may exhaust me ({T}) to create a #[BRASSBUG] Robot# token in target Expedition.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED]: quando #una carta va dalla tua mano direttamente nella Riserva# — Puoi consumarmi ({T}) per creare una pedina #Robot [BRASSBUG]# in una spedizione bersaglio.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED]: Cuando #una carta vaya directamente de tu mano a la reserva# — Puedes agotarme ({T}) para crear una ficha de #robot [BRASSBUG]# en una expedición objetivo.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "[COMPLETED] : Lorsqu'une carte #va directement en Réserve depuis votre main# — Vous pouvez m'épuiser ({T}) pour créer un jeton #Robot [BRASSBUG]# dans une Expédition ciblée.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED]: Wenn #eine Karte aus deiner Hand in die Reserve geht# — Du darfst mich erschöpfen ({T}), um eine #[BRASSBUG]-Robotermarke# in einer Expedition deiner Wahl zu erschaffen.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "[COMPLETED]: When #a card goes directly from your hand to Reserve# — You may exhaust me ({T}) to create a #[BRASSBUG] Robot# token in target Expedition."
+              }
+            ],
+            "reference": "03006"
+          },
+          "sequence": 0,
+          "id": "01KJ5QNCWD7M2TFYNQJPKYQQS8"
+        }
+      ],
+      "value": "[[Completed]]: When a card goes directly from your hand to Reserve — You may exhaust me ({T}) to create a [Brassbug 2\/2\/2] Robot token in target Expedition.",
+      "id": "01KJ5QNATTYNXPN7KZJS51M5ES"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_121\/JPG\/en_US\/483d07e2efbdac3c06ec5823fcbb03d3.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_121\/WEB_84d31783eeb130b52a212007f64fdc62",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_121\/WEB_33bc81c2f8dbcec88fdd972b95c2fc9c"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_121_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_121",
+  "reference": "ALT_EOLE_B_YZ_121_R2",
+  "translations": {
+    "en_US": {
+      "name": "Push Back the Night",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_121\/JPG\/en_US\/483d07e2efbdac3c06ec5823fcbb03d3.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Respingere la Notte",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_121\/JPG\/it_IT\/8bacbb0da8cd52bbe84ad185a7a31ff8.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Drängt das Dunkel zurück",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_121\/JPG\/de_DE\/f03c2cee1910f53a13e34898908c3fed.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Repeler las tinieblas",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_121\/JPG\/es_ES\/12ac9962c05c7f5c1ca9eebb66e04ba7.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Repousser la Nuit",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_121\/JPG\/fr_FR\/eecb0f6ef238437ce58110d2f64bc19e.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHYA8MWK88SEBDNFRQ34Q",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_121\/JPG\/fr_FR\/eecb0f6ef238437ce58110d2f64bc19e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_121\/JPG\/en_US\/483d07e2efbdac3c06ec5823fcbb03d3.jpg"
+  },
+  "name": "Push Back the Night",
+  "elements": {
+    "MAIN_COST": "#2#",
+    "RECALL_COST": "#2#",
+    "MAIN_EFFECT": "{J} Draw a card, #then put a card from your hand in Reserve.#  At Noon — If six or more cards are in your discard pile, complete me.",
+    "ECHO_EFFECT": "[[Completed]]: When #a card goes directly from your hand to Reserve# — You may exhaust me ({T}) to create a #[Brassbug 2\/2\/2] Robot# token in target Expedition."
+  },
+  "collectorNumberFormatted": "ROC-112-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

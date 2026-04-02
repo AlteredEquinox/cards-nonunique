@@ -1,0 +1,252 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Trust me, it will all trickle down for everyone's benefit.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Le ruissellement profite à tous, je vous l'assure. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KJ5PA3BQRKAH6NXSYJ7NK56G",
+          "text": "\"Trust me, it will all trickle down for everyone's benefit.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1M1W5FTC5H9JMT4NZ8PR95VMKD",
+      "reference": "ALT_DUSTERCB_P_OR_92_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "BUREAUCRAT",
+      "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+      "name": "Bureaucrat"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASY11PVQ3Z8H6VQ0WK5S38"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASY17ZP0JVQRXX83BGW89D"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K6ASY1EV0J07SR4YZNM8YC6P"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASY1NPY0Q8NNDQXMQR6AER"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASY1W5M8XZK96VX3XVD0D8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH67006VCVWDXRJA8Q5Y6P3P",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6DGMZZWXP60619SVNZQEDG0"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Dusk — Create a [MANASEED] token in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Au Crépuscule — Créez un jeton [MANASEED] dans vos Repères. (C'est un Permanent avec « {T}, Sacrifiez-moi : redressez un Orbe de Mana. »)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Zum Abend — Erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich. (Sie ist eine Bleibende Karte mit „{T}, Opfere mich: Stelle eine Manakugel bereit.“)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Al anochecer — Crea una ficha de [MANASEED] en tus hitos. (Es un permanente con «{T}, sacrifícame: Prepara un orbe de maná».)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Al crepuscolo — Crea una pedina [MANASEED] nei tuoi fulcri. (È un permanente con \"{T}, sacrificami: ripristina una sfera di mana\".)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "At Dusk — Create a [MANASEED] token in your Landmarks."
+              }
+            ],
+            "reference": "02092"
+          },
+          "sequence": 0,
+          "id": "01KH6700WWQYQNPEH9T5HDHNHK"
+        }
+      ],
+      "value": "At Dusk — Create a [Manaseed] token in your Landmarks.",
+      "id": "01KH67006VCVWDXRJA8Q5Y6P3P"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_92\/JPG\/en_US\/6427a4b28cc463a56c1eba85d7451419.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_92\/WEB_164c1a5fa9035527b70edb7168b5497c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_92\/WEB_49d7bd443ee85b4cf3cfae18c89993c6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_92\/WEB_6ad308b0fc9dd2f5eb05c8ab5b59a3ca"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_OR_92_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_92",
+  "reference": "ALT_DUSTERCB_P_OR_92_C",
+  "translations": {
+    "es_ES": { "name": "Inversor reka", "image": null, "locale": "es_ES" },
+    "fr_FR": {
+      "name": "Investisseur Reka",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_92\/JPG\/fr_FR\/ac80840de4aea40f8cdafeae3ac3ddc2.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Reka Investor",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_92\/JPG\/en_US\/6427a4b28cc463a56c1eba85d7451419.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": { "name": "Reka-Investor", "image": null, "locale": "de_DE" },
+    "it_IT": { "name": "Investitore Reka", "image": null, "locale": "it_IT" }
+  },
+  "id": "01K60PWD7A59S3PE53Z7W2ZVWR",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_92\/JPG\/fr_FR\/ac80840de4aea40f8cdafeae3ac3ddc2.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_92\/JPG\/en_US\/6427a4b28cc463a56c1eba85d7451419.jpg"
+  },
+  "name": "Reka Investor",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "At Dusk — Create a [Manaseed] token in your Landmarks."
+  },
+  "collectorNumberFormatted": "SDUCB-018-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

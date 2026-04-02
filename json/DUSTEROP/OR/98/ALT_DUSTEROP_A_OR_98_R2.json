@@ -1,0 +1,285 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I don't give a damn about your so-called administrative delays!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« J'en ai rien à battre de vos soi-disant lenteurs administratives ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01K4Z6KZJ41N6ZSHBGVYE7MDGE",
+          "text": "\"I don't give a damn about your so-called administrative delays!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "5AP03FM02B81FB22CCQ907K4Q4",
+      "reference": "ALT_DUSTEROP_B_OR_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K4YGEBN10S3MMN6J9CW5B4AC",
+    "reference": "DUSTEROP",
+    "name": "Seeds of Unity - Organized Play"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K4YMVQ37VSHTDWVN7GACFSCE"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K4YMVQA2DEYYNREY18R1Q2T9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K8NNZEFG16HNK7F8X37192KD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01K8NNZEYS1KFA51J24WVDZM8G"
+        },
+        {
+          "cardElement": "\/card_elements\/01K8NNZEFG16HNK7F8X37192KD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Resupplies",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaille",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisce",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22PMAWKFHM9YCE44WE12XZ",
+                      "reference": "RESUPPLIES"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K63C2FG4FEJ1JGY25CCR7724"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Target a Landmark Permanent with Hand Cost {2} or less. #Its controller [RESUPPLIES],# then you take control of it.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Scegli come bersaglio un permanente fulcro con costo dalla mano pari o inferiore a {2}. #Il suo controllore [RESUPPLIES],# poi prendi il controllo del permanente fulcro.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Wähle eine Bleibende Wahrzeichenkarte mit Handkosten {2} oder weniger. #Ihr kontrollierender Spieler nutzt [RESUPPLIES],# dann kontrollierst du sie.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Haz objetivo a un permanente hito con coste desde la mano de {2} o menos. #Su controlador [RESUPPLIES],# y luego ganas el control de él.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Ciblez un Permanent de Repère de Coût de Main {2} ou moins. #Son contrôleur [RESUPPLIES],# puis vous en prenez le contrôle.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Target a Landmark Permanent with Hand Cost {2} or less. #Its controller [RESUPPLIES],# then you take control of it."
+              }
+            ],
+            "reference": "02081"
+          },
+          "sequence": 1,
+          "id": "01K8NNZFBG27F1465BHYW8JYGN"
+        }
+      ],
+      "value": "[[Fleeting]].  Target a Landmark Permanent with Hand Cost {2} or less. Its controller [Resupplies], then you take control of it.",
+      "id": "01K8NNZEFG16HNK7F8X37192KD"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_A_OR_98\/JPG\/en_US\/637c61241d270f8f0a755e8c6ba3ac94.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_A_OR_98\/WEB_52cf1121a153eb736f575299ebb7a427",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_A_OR_98\/WEB_df1a426454c8edc774fd2d2021175a63"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_A_OR_98_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_98",
+  "reference": "ALT_DUSTEROP_A_OR_98_R2",
+  "translations": {
+    "fr_FR": {
+      "name": "Rencontre Injuste",
+      "image": "Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_A_OR_98\/JPG\/fr_FR\/75e40cd79bd672beee196f083b683ea8.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Ungerechte Begegnung",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "it_IT": { "name": "Incontro Ingiusto", "image": null, "locale": "it_IT" },
+    "es_ES": { "name": "Encuentro injusto", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Unfair Encounter",
+      "image": "Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_A_OR_98\/JPG\/en_US\/637c61241d270f8f0a755e8c6ba3ac94.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K4YGECH5B52PVNSD8WASC8VP",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_A_OR_98\/JPG\/fr_FR\/75e40cd79bd672beee196f083b683ea8.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_A_OR_98\/JPG\/en_US\/637c61241d270f8f0a755e8c6ba3ac94.jpg"
+  },
+  "name": "Unfair Encounter",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "#3#",
+    "MAIN_EFFECT": "[[Fleeting]].  Target a Landmark Permanent with Hand Cost {2} or less. #Its controller [Resupplies],# then you take control of it."
+  },
+  "collectorNumberFormatted": "SDUOP-018-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

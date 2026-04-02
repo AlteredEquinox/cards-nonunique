@@ -1,0 +1,284 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Sol may have sounded the alarm, but her words seem to be falling on deaf ears.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Sol a beau tirer la sonnette d'alarme, ses propos semblent résonner dans le vide.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZR7JM9TE1P1TYPD84QCF",
+          "text": "Sol may have sounded the alarm, but her words seem to be falling on deaf ears."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "4JF4VVFZR38NEBSH6N6FA3W0BY",
+      "reference": "ALT_DUSTER_B_OR_100_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KMQ6WYXZ2T09YVK23SDD2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KMQDYHPWPKFZEA395Q2PX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4H93KC72YDP129AGJPWPW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01K6B09NXFM0EGH4VQ6W0PGH9H"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": { "text": "{J} $[RESUPPLY].", "locale": "it_IT" },
+                  "en_US": { "text": "{J} $[RESUPPLY].", "locale": "en_US" },
+                  "fr_FR": { "text": "{J} $[RESUPPLY].", "locale": "fr_FR" },
+                  "de_DE": { "text": "{J} $[RESUPPLY].", "locale": "de_DE" },
+                  "es_ES": { "text": "{J} $[RESUPPLY].", "locale": "es_ES" }
+                },
+                "text": "{J} $[RESUPPLY]."
+              }
+            ],
+            "reference": "02103"
+          },
+          "sequence": 0,
+          "id": "01K6X4H9N3WE32G6KC6ARFV0C0"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4H93KC72YDP129AGJPWPW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6DGQGCDYYRFRRXHKCYW6A0A"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When I'm sacrificed — Create an [ORDIS_RECRUIT] in a Hero Expedition. (Excess Landmarks are sacrificed at the end of the Day.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je suis sacrifié — Créez un jeton Soldat [ORDIS_RECRUIT] dans une Expédition Héros. (Les Repères excédentaires sont sacrifiés à la fin du Jour.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Cuando me sacrifiques — Crea una ficha de soldado [ORDIS_RECRUIT] en una expedición del héroe. (Los hitos sobrantes se sacrifican al final del día.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Wenn ich geopfert werde — Erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in einer Helden-Expedition. (Überschüssige Wahrzeichen werden am Ende des Tages geopfert.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando mi sacrifichi — Crea una pedina Soldato [ORDIS_RECRUIT] in una spedizione dell'eroe. (I fulcri in eccesso vengono sacrificati alla fine della giornata.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "When I'm sacrificed — Create an [ORDIS_RECRUIT] in a Hero Expedition. (Excess Landmarks are sacrificed at the end of the Day.)"
+              }
+            ],
+            "reference": "02096"
+          },
+          "sequence": 1,
+          "id": "01K6X4HA46KMRE6M8YK5WTZZY9"
+        }
+      ],
+      "value": "{J} [Resupply]. (Put the top card of your deck in Reserve.)  When I'm sacrificed — Create an [Ordis Recruit 1\/1\/1] in a Hero Expedition. (Excess Landmarks are sacrificed at the end of the Day.)",
+      "id": "01K6X4H93KC72YDP129AGJPWPW"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Ba Vo" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_100\/JPG\/en_US\/ef8daa7b80609d606a013ae31e2fdd65.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_100\/WEB_d9880f08e9a6d446d6d514fea669822d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_100\/WEB_3f33fb82f30ed01cbceb0ac627f9c07d"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_100_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_100",
+  "reference": "ALT_DUSTER_B_OR_100_C",
+  "translations": {
+    "en_US": {
+      "name": "The Lectern",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_100\/JPG\/en_US\/ef8daa7b80609d606a013ae31e2fdd65.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "El Podio",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_100\/JPG\/es_ES\/860c931aa9158cb9ee60c8ec30f10fff.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Pulpito",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_100\/JPG\/it_IT\/2f414cf9e6341ae4866835d3e0943def.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Le Lutrin",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_100\/JPG\/fr_FR\/ad79553fe8fef78e977499139e45239e.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Das Rednerpult",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_100\/JPG\/de_DE\/75dd0852a4a8a26ca00b1027fb3413a2.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01JYP9SVQH97MMVJJCN470P3F0",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_100\/JPG\/fr_FR\/ad79553fe8fef78e977499139e45239e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_100\/JPG\/en_US\/ef8daa7b80609d606a013ae31e2fdd65.jpg"
+  },
+  "name": "The Lectern",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} [Resupply]. (Put the top card of your deck in Reserve.)  When I'm sacrificed — Create an [Ordis Recruit 1\/1\/1] in a Hero Expedition. (Excess Landmarks are sacrificed at the end of the Day.)"
+  },
+  "collectorNumberFormatted": "SDU-088-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,260 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Now that's what you call taking the lion's share.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "C'est ce qu'on appelle se tailler la part de la lionne.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDKBKHNJ8NDETWS1RRWYG",
+          "text": "Now that's what you call taking the lion's share."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1JJ8CSG83N8KES1K6PKFBBQ8NX",
+      "reference": "ALT_EOLECB_A_BR_113_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DEITY",
+      "id": "01HKAGPAJFS4YDQVKY6AB16614",
+      "name": "Deity"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6PVYDYRQ2ZDYTPS2ATCPA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KHB6PW7T0HR0E2Z5X2FQA1SM"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6PWHA4P8TKDFPJFBDK2JR"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6PWTT1FD35WPEDHR6H1BX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6PX4GZV8WPVAFM21E6V2Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKH6P6J1FTTK2WARSB1WMB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez renvoyer un Personnage ciblé qui me fait face de Coût de Base #{2} ou moins# dans la main de son propriétaire.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{H} You may return target Character facing me with Base Cost #{2} or less# to its owner's hand.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Du darfst einen mir gegenüberstehenden Charakter deiner Wahl mit Basiskosten #{2} oder weniger# in die Hand seines Besitzers zurückschicken.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi far tornare un personaggio bersaglio che mi affronta con costo base #pari o inferiore a {2}# in mano al suo proprietario.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes devolver a la mano de su propietario un personaje objetivo enfrentado a mí con coste base de #{2} o menos.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{H} You may return target Character facing me with Base Cost #{2} or less# to its owner's hand."
+              }
+            ],
+            "reference": "02802"
+          },
+          "sequence": 0,
+          "id": "01KJQKH7A1Y9HE1HN8KP35QPEZ"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJQKH6P6J1FTTK2WARSB1WMB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{R} Gano 2 potenciadores.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Je gagne 2 boosts.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{R} I gain 2 boosts.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} Ich erhalte 2 Verstärkungen.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} Ottengo 2 rinforzi.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{R} I gain 2 boosts."
+              }
+            ],
+            "reference": "02801"
+          },
+          "sequence": 1,
+          "id": "01KJQKH7SSXJ6K8C72CTQPQ4BH"
+        }
+      ],
+      "value": "{H} You may return target Character facing me with Base Cost {2} or less to its owner's hand.  {R} I gain 2 boosts.",
+      "id": "01KJQKH6P6J1FTTK2WARSB1WMB"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/JPG\/en_US\/bf669c82fbbef2b71de4e7cc003018c5.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/WEB_61ebffcce8a631013c73d88584577f1a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/WEB_04c36aa20071ca276782f276c22f73b1",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/WEB_15c6be040fc19d54ac34f4c789c9e18a"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_BR_113_R1",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_BR_113_R1",
+  "translations": {
+    "en_US": {
+      "name": "Sekhmet",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/JPG\/en_US\/bf669c82fbbef2b71de4e7cc003018c5.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Sekhmet",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/JPG\/es_ES\/8580351b01cd7eee72498977e6c4f0b0.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Sekhmet",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/JPG\/fr_FR\/d424432ff8f9d07246740feca33083f6.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Sachmet",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/JPG\/de_DE\/50b009125e62dfbe84a3b9fa6063b46d.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Sekhmet",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/JPG\/it_IT\/81c480111b724d01c5a97b90fbe36b70.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01KH6E45A18TRPZMC0SJVATD07",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/JPG\/fr_FR\/d424432ff8f9d07246740feca33083f6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_113\/JPG\/en_US\/bf669c82fbbef2b71de4e7cc003018c5.jpg"
+  },
+  "name": "Sekhmet",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} You may return target Character facing me with Base Cost #{2} or less# to its owner's hand.  {R} I gain 2 boosts."
+  },
+  "collectorNumberFormatted": "ROCCB-V-029-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,227 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"The more I visit this city, the more I love it.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Plus je la visite, plus cette cité me passionne. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZSD3PD753BYHHYBNKCR1",
+          "text": "\"The more I visit this city, the more I love it.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0PHXWH18DT9CAA6404443P14BH",
+      "reference": "ALT_DUSTER_B_OR_90_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    },
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KHG1RB70JA8BPK7579139"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KHG8QSEZDPNNCA9H2EHCZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KHGEKBPVBMZNJDTCCJ413"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KHGNHWRXHPSMQAN8GMNEQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KHGWW83P6J857H40WK93G"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4KQDKGG39ZFHR670WTXTP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} I gain #1 boost per card in your Landmarks, up to a max of 3 boosts on me.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne #1 boost par carte dans vos Repères, jusqu'à un max de 3 boosts sur moi.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Ich erhalte #1 Verstärkung pro Karte in deinem Wahrzeichen-Bereich, bis maximal 3 Verstärkungen auf mir.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Gano #1 potenciador por cada carta en tus hitos, con un máximo de 3 potenciadores.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} Ottengo #1 rinforzo per ogni carta nei tuoi fulcri, fino a un max di 3 rinforzi.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} I gain #1 boost per card in your Landmarks, up to a max of 3 boosts on me.#"
+              }
+            ],
+            "reference": "01812"
+          },
+          "sequence": 0,
+          "id": "01K6X4KQZFV56K3WV6D24PV3MS"
+        }
+      ],
+      "value": "{J} I gain 1 boost per card in your Landmarks, up to a max of 3 boosts on me.",
+      "id": "01K6X4KQDKGG39ZFHR670WTXTP"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/JPG\/en_US\/20bf123d6a6bd026b83062f6adcbb291.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/WEB_265e0b0c99303e9749acef98e2fc0fc9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/WEB_9ea6270b1fe82217cfa5e9f5d6e1dd79",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/WEB_a44d1fd646374c470290a56d93c840ae"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_90_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_90",
+  "reference": "ALT_DUSTER_B_OR_90_R2",
+  "translations": {
+    "en_US": {
+      "name": "Ordis Tourist",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/JPG\/en_US\/20bf123d6a6bd026b83062f6adcbb291.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Ordis-Tourist",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/JPG\/de_DE\/6c5f2e5dcd81d3bb12eeac2e4a488363.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Touriste Ordis",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/JPG\/fr_FR\/b77901b8de34fca4c006c8ae6f178e3c.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Turista de Ordis",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/JPG\/es_ES\/6cf7e5b9f74008d2c8cd5e2ead2dbecf.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Turista Ordis",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/JPG\/it_IT\/3091b35f55d1d7d94392dca1c7302055.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01JYP9SVQED7AJCPD9W7KJFVGR",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/JPG\/fr_FR\/b77901b8de34fca4c006c8ae6f178e3c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_90\/JPG\/en_US\/20bf123d6a6bd026b83062f6adcbb291.jpg"
+  },
+  "name": "Ordis Tourist",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#1#",
+    "FOREST_POWER": "#1#",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "{J} I gain #1 boost per card in your Landmarks, up to a max of 3 boosts on me.#"
+  },
+  "collectorNumberFormatted": "SDU-077-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

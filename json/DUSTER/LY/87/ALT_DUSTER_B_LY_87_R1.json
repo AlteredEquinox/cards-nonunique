@@ -1,0 +1,210 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Let's wrap up today's visit with a taste of some local specialties.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Et nous clôturons notre visite avec une dégustation des spécialités locales. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZMKHMS4X6KBN7TBVB3NE",
+          "text": "\"Let's wrap up today's visit with a taste of some local specialties.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4W0QB46EDF8Y1APHEYPM83KN37",
+      "reference": "ALT_DUSTER_B_LY_87_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K6CDSS8AMK9GXFYB7781A"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K6CKSBKK5HDT6HV9116T2"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K6CSAJ1SAY0PDVMWR20RJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K6CYASC6637YQ91EY4XT3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K6D3NKWS6XAR5BTCNG8TY"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X48PE9ZJEMJ202YQFWB0CV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{D}: Devuelve otro personaje de tu reserva a tu mano.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{D} : Return another Character from your Reserve to your hand.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Renvoyez un autre Personnage de votre Réserve dans votre main.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Hole einen anderen Charakter aus deiner Reserve in deine Hand zurück.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: riprendi in mano un altro personaggio dalla tua Riserva.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{D} : Return another Character from your Reserve to your hand."
+              }
+            ],
+            "reference": "01723"
+          },
+          "sequence": 0,
+          "id": "01K6X48Q04DQDYAABYY5Z90SZ8"
+        }
+      ],
+      "value": "{D} : Return another Character from your Reserve to your hand.",
+      "id": "01K6X48PE9ZJEMJ202YQFWB0CV"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_87\/JPG\/en_US\/ba50058bc257c85e9b812c06979e26b4.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_87\/WEB_5a15dd71eaa1865fb5dac72e35e5e3b0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_87\/WEB_a57e2c214798aded0c7f721b64da1136",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_87\/WEB_5cb6075d468616a0a4b1d8729b4fa1c9"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_87_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_87",
+  "reference": "ALT_DUSTER_B_LY_87_R1",
+  "translations": {
+    "de_DE": { "name": "Reka-Führerin", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Reka Guide",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_87\/JPG\/en_US\/ba50058bc257c85e9b812c06979e26b4.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Guía reka", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Guida Reka", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Guide Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_87\/JPG\/fr_FR\/777a0c63a6ca539d08f5e73aaa3a2bd1.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPTWRP6MSB5E1RSJWYH",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_87\/JPG\/fr_FR\/777a0c63a6ca539d08f5e73aaa3a2bd1.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_87\/JPG\/en_US\/ba50058bc257c85e9b812c06979e26b4.jpg"
+  },
+  "name": "Reka Guide",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "ECHO_EFFECT": "{D} : Return another Character from your Reserve to your hand."
+  },
+  "collectorNumberFormatted": "SDU-039-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

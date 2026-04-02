@@ -1,0 +1,308 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": { "text": "Pretty in pink.", "locale": "en_US" },
+            "fr_FR": { "text": "La vie en rose.", "locale": "fr_FR" }
+          },
+          "id": "01JZ37ZNV5CYDJHDVNDZE2Z186",
+          "text": "Pretty in pink."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "5Y9AZRVNEF8M7T0134J4GZGP35",
+      "reference": "ALT_DUSTER_B_LY_99_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K9JKXMZVP15JJX36YG9Q3"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K9JSTWRW7X4Y3CKQMXJMT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4C2CB81SC6J459ASVS4M4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01K6X4C2XBE2M05CRJ3R87TM3Y"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4C2CB81SC6J459ASVS4M4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K3GD5TD0D0NZFAHJYC1QQZJ0"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Play me for {1} less if one or more of your Expeditions are [IN_CONTACT]. (If another player's Expedition is in their region.)",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Juégame por {1} menos si controlas una expedición que esté [IN_CONTACT]. (Significa que la expedición de otro jugador está en su región.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Giocami per {1} in meno se controlli una spedizione [IN_CONTACT]. (Significa che la spedizione di un altro giocatore si trova nella sua regione.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Spiele mich für {1} weniger, falls du eine Expedition kontrollierst, die [IN_CONTACT] ist. (Das bedeutet, dass sich die Expedition eines anderen Spielers in ihrer Region befindet.)",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Jouez-moi pour {1} de moins si vous contrôlez au moins une Expédition [IN_CONTACT]. (Cela signifie que l'Expédition d'un autre joueur est dans sa région.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Play me for {1} less if one or more of your Expeditions are [IN_CONTACT]. (If another player's Expedition is in their region.)"
+              }
+            ],
+            "reference": "02011"
+          },
+          "sequence": 1,
+          "id": "01K6X4C3B9KRPZ1TH7PW59KQ4F"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4C2CB81SC6J459ASVS4M4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Lege einen Charakter oder eine Bleibende Karte deiner Wahl als oberste Karte auf das Deck seines\/ihres Besitzers zurück.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Devuelve un personaje o permanente objetivo a la parte superior del mazo de su propietario.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Renvoyez un Personnage ou Permanent ciblé au-dessus du deck de son propriétaire.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Fai tornare il personaggio o il permanente bersaglio in cima al mazzo del suo proprietario.",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "Return target Character or Permanent to the top of its owner's deck.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "Return target Character or Permanent to the top of its owner's deck."
+              }
+            ],
+            "reference": "09762"
+          },
+          "sequence": 2,
+          "id": "01K6X4C3S3NPK1EWTNB3404J6E"
+        }
+      ],
+      "value": "[[Fleeting]].  Play me for {1} less if one or more of your Expeditions are [In Contact]. (If another player's Expedition is in their region.)  Return target Character or Permanent to the top of its owner's deck.",
+      "id": "01K6X4C2CB81SC6J459ASVS4M4"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "DOBA" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_99\/JPG\/en_US\/4a106a48be99f0e6063635a7b442441e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_99\/WEB_4d4c959dde4493fc9f9bb2d94546277a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_99\/WEB_f972b1c24e641f6b2c7d98f87fa9e78c"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_99_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_99",
+  "reference": "ALT_DUSTER_B_LY_99_C",
+  "translations": {
+    "es_ES": { "name": "¡A pintar de rosa!", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Esplosione Rosa", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Alles wird pink!", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Rose Bonbon",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_99\/JPG\/fr_FR\/e6c05b10caa09f99db80bd25f4a225e8.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Paint it Pink!",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_99\/JPG\/en_US\/4a106a48be99f0e6063635a7b442441e.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVPYT09D86WNTEYRBXET",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_99\/JPG\/fr_FR\/e6c05b10caa09f99db80bd25f4a225e8.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_99\/JPG\/en_US\/4a106a48be99f0e6063635a7b442441e.jpg"
+  },
+  "name": "Paint it Pink!",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "MAIN_EFFECT": "[[Fleeting]].  Play me for {1} less if one or more of your Expeditions are [In Contact]. (If another player's Expedition is in their region.)  Return target Character or Permanent to the top of its owner's deck."
+  },
+  "collectorNumberFormatted": "SDU-051-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

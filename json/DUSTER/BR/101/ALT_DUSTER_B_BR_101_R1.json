@@ -1,0 +1,222 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"In my memory, you're there every time I cross paths with a Leviathan.\" — Sol",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Dans ma mémoire, tu es toujours présent, à chaque fois que je croise un Léviathan. » - Sol",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJRWD5TW6C76S0SR9MM0",
+          "text": "\"In my memory, you're there every time I cross paths with a Leviathan.\" — Sol"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "78Q0QY51E08HESTX7DFPNG9Q88",
+      "reference": "ALT_DUSTER_B_BR_101_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K4EWR81TMEEQP6EJE1W4K"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K4F1MJRJ2QS1NBY0PXANW"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2K4F6J934D74HHQMKP5QD5"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K4FBF5C74NWG6TR96RGM7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K4FGT1NSNY36MKHHGMFYD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4369Y1XPSHR0MFHYJX64C",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#When you pass first —# You may pay {1} to draw a card.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque vous passez en premier —# Vous pouvez payer {1} pour piocher une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#Wenn du zuerst passt —# Du darfst {1} bezahlen, um eine Karte zu ziehen.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Quando passi per primo —# Puoi pagare {1} per pescare una carta.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Cuando pases primero —# Puedes pagar {1} para robar una carta.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#When you pass first —# You may pay {1} to draw a card."
+              }
+            ],
+            "reference": "01705"
+          },
+          "sequence": 0,
+          "id": "01K6X4370ZGZBRB0SJXF58YDR3"
+        }
+      ],
+      "value": "When you pass first — You may pay {1} to draw a card.",
+      "id": "01K6X4369Y1XPSHR0MFHYJX64C"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/JPG\/en_US\/9b74b65b3af69bd7944e11698230e45a.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/WEB_b0da87535c55906593f45e794283134e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/WEB_de87f6df63dce5d57939d6d433d31e9c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/WEB_c1e1eb452c0c7908d35c13790f37f6b4"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_101_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_101",
+  "reference": "ALT_DUSTER_B_BR_101_R1",
+  "translations": {
+    "es_ES": {
+      "name": "Hermano fallecido",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/JPG\/es_ES\/dd3ecad85b6da65068cb5a769c5ecfd9.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Departed Brother",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/JPG\/en_US\/9b74b65b3af69bd7944e11698230e45a.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Fratello Perduto",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/JPG\/it_IT\/911b0a0f92ef2d469fb072df52098421.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Verstorbener Bruder",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/JPG\/de_DE\/b36afec1635cb7983ff430fc9d1c9f91.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Frère Disparu",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/JPG\/fr_FR\/5bcc6e34e9fe593ae01b09030f548a54.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPNWW5BH3NJWZJTJ4G2",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/JPG\/fr_FR\/5bcc6e34e9fe593ae01b09030f548a54.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/JPG\/en_US\/9b74b65b3af69bd7944e11698230e45a.jpg"
+  },
+  "name": "Departed Brother",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "#When you pass first —# You may pay {1} to draw a card."
+  },
+  "collectorNumberFormatted": "SDU-030-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

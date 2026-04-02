@@ -1,0 +1,217 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Hate is a spear pointed at one's own heart",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "La haine est une lance tournée vers son propre cœur.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01K3R4M823TV03Z84DYA13DNXM",
+          "text": "Hate is a spear pointed at one's own heart"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "32RN87ZMNJ8X0TGR88EDH15V6M",
+      "reference": "ALT_DUSTER_P_BR_65_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZT877Z5WZ870JWFD2WJ7AVK"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZT877Z5WZ870JWFD2WJ7AVM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4W16934HJXBDFR0Q3NAJQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "2\/2\/2 Halua",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Halua 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Halua 2\/2\/2",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Halua 2\/2\/2",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Halua 2\/2\/2",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V5VJ23N0FYWQ7GA34PTKC",
+                      "reference": "HALUA"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K3GCTDP274PB3V1FFFP7H6G9"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Quando passi per primo — Ottengo 1 segnalino Missione. Poi, se ho 3 o più segnalini Missione, crea una pedina Compagno Leviatano [HALUA] nella spedizione del tuo compagno. (Ha \"Se il tuo eroe ha 5 o più segnalini Missione, ho Colossale\".)",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "When you pass first — I gain 1 Quest counter. Then, if I have 3 or more Quest counters, create a Leviathan Companion [HALUA] token in your Companion Expedition.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Cuando pases primero — Gano 1 contador de misión. Luego, si tengo 3 o más contadores de misión, crea una ficha de compañero leviatán [HALUA] en tu expedición del compañero. (Con «Si tu héroe tiene 5 o más contadores de misión, soy gigante».)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous passez en premier — Je gagne 1 compteur Quête. Puis, si j'ai au moins 3 compteurs Quête, créez un jeton Compagnon Léviathan [HALUA] dans votre Expédition Compagnon. (Il a « Si votre Héros a au moins 5 compteurs Quête, je suis Gigantesque. »)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du zuerst passt — Ich erhalte 1 Questzähler. Dann, falls ich mindestens 3 Questzähler habe, erschaffe eine [HALUA]-Leviathan-Gefährtenmarke in deiner Gefährten-Expedition. (Mit „Falls dein Held mindestens 5 Questzähler hat, bin ich Gigantisch.“)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "When you pass first — I gain 1 Quest counter. Then, if I have 3 or more Quest counters, create a Leviathan Companion [HALUA] token in your Companion Expedition."
+              }
+            ],
+            "reference": "02003"
+          },
+          "sequence": 0,
+          "id": "01K6X4W1SVFNY68RJ63AKKFE9R"
+        }
+      ],
+      "value": "When you pass first — I gain 1 Quest counter. Then, if I have 3 or more Quest counters, create a Leviathan Companion [Halua 2\/2\/2] token in your Companion Expedition.",
+      "id": "01K6X4W16934HJXBDFR0Q3NAJQ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": { "nickName": "Tristan Bideau" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_BR_65\/JPG\/en_US\/756d748ec84031a5f40028eedbf67ea9.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_BR_65\/HERO_THUMB_bd8c5f023cfe80777ca59e1ed9cc9eb5"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_BR_65\/HERO_WIDE_f8be46c69bd6b0856491c94832d10eda"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_BR_65\/WEB_b9c1c0899dc94c996f6ebcda474b34f7"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_P_BR_65_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_65",
+  "reference": "ALT_DUSTER_P_BR_65_C",
+  "translations": {
+    "en_US": {
+      "name": "Sol & Halua",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_P_BR_65\/JPG\/en_US\/756d748ec84031a5f40028eedbf67ea9.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Sol y Halua", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Sol e Halua", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Sol & Halua", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Sol & Halua",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_P_BR_65\/JPG\/fr_FR\/da838dc0c19265f0201e676543538cd9.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JZJFYX77E2SJ9DE0AE6H318Z",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_BR_65\/JPG\/fr_FR\/da838dc0c19265f0201e676543538cd9.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_BR_65\/JPG\/en_US\/756d748ec84031a5f40028eedbf67ea9.jpg"
+  },
+  "name": "Sol & Halua",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "When you pass first — I gain 1 Quest counter. Then, if I have 3 or more Quest counters, create a Leviathan Companion [Halua 2\/2\/2] token in your Companion Expedition."
+  },
+  "collectorNumberFormatted": "SDU-019-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

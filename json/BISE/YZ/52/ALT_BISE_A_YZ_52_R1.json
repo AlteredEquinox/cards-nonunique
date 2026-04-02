@@ -1,0 +1,222 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Des goodies ! Qui veut des goodies ?",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Goodies! Who wants goodies?",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JBT1A407WV45KTZ8SA4EAZEM",
+          "text": "Goodies! Who wants goodies?"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "62YQ231MBN8VR8Z04M5G8YTWM5",
+      "reference": "ALT_BISE_A_YZ_52_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+    "reference": "BISE",
+    "name": "Whispers from the Maze"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JB2325NZVYYB4VP7E2CJ0GHB"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JB2325W2BR13P9E3NHZSE9VB"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JB232624FV289F0A0AF994ET"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JB232682PKZW6X4799M7XPW6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JB2326CHT50H22SRHTRE683Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K4JNHD07V4609XCDF7PT5QAT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{J} Ottengo 1 rinforzo per ogni personaggio controllato da un avversario bersaglio.",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "{J} I gain 1 boost per Character target opponent controls.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Ich erhalte 1 Verstärkung für jeden Charakter, den ein Gegner deiner Wahl kontrolliert.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Gano 1 potenciador por cada personaje que controle un oponente objetivo.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne 1 boost pour chaque Personnage qu'un adversaire ciblé contrôle.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} I gain 1 boost per Character target opponent controls."
+              }
+            ],
+            "reference": "01023"
+          },
+          "sequence": 0,
+          "id": "01K4JNHDFDAF4D35K1BWTW861K"
+        }
+      ],
+      "value": "{J} I gain 1 boost per Character target opponent controls.",
+      "id": "01K4JNHD07V4609XCDF7PT5QAT"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/JPG\/en_US\/05e38c32308a542c1c866cbb9c626c49.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/WEB_57af3e6942644e31f1124e6bc6408265",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/WEB_043b2d228aa07a572234e6d8db524858",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/WEB_906fe91a7826e147b1322f3038f150e6"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_A_YZ_52_R1",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_52",
+  "reference": "ALT_BISE_A_YZ_52_R1",
+  "translations": {
+    "de_DE": {
+      "name": "Pasiphae",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/JPG\/de_DE\/f76941241e029b5fd5f12d42162ec65b.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Pasifae",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/JPG\/it_IT\/77134be16b9549426dd5421f45e7bcc4.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Pasiphaë",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/JPG\/en_US\/05e38c32308a542c1c866cbb9c626c49.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Pasiphaé",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/JPG\/fr_FR\/d8bd013a3059f2538c1f24db65f9bc72.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Pasífae",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/JPG\/es_ES\/e808718c6f5f0b3cc088399aa376f9e5.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01JB217W7VQHG9XBZ0F9M5ATKF",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/JPG\/fr_FR\/d8bd013a3059f2538c1f24db65f9bc72.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_YZ_52\/JPG\/en_US\/05e38c32308a542c1c866cbb9c626c49.jpg"
+  },
+  "name": "Pasiphaë",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{J} I gain 1 boost per Character target opponent controls."
+  },
+  "collectorNumberFormatted": "WFM-089-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

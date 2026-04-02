@@ -1,0 +1,301 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The art of surprise is showing up where you're not expected.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'art de la surprise, c'est d'être là où on ne vous attend pas.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZWYBFZZ9XH3WKNYB1XQA",
+          "text": "The art of surprise is showing up where you're not expected."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5KMZS8X6TN9XSAVWWC3AEDQDDH",
+      "reference": "ALT_DUSTER_B_YZ_92_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KRDVDKW4954YVVSQ5NE6A"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KRE2N4WC8DMHSWH8R0VX5"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KRE96VFAMCVGTN0NW7R59"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KREFH0X0078Z1EG33B19P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KRENT2Q0V9PF9M3V96C17"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4SNJB3R0NKKSP4RGRYK13",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ36KBD3C76YWSZHVEE255SG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J} If I'm [IN_CONTACT], pay {1} less for the next Spell you play this Afternoon, down to a minimum of {1}.# (I'm In Contact if another player's Expedition is in my region. Other effects may reduce the cost further.)",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "#{J} Si estoy [IN_CONTACT], paga {1} menos por el siguiente hechizo que juegues esta tarde, hasta un mínimo de {1}.# (Estoy en contacto si la expedición de otro jugador está en mi región. Otros efectos pueden reducir el coste aún más.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "#{J} Falls ich [IN_CONTACT] bin, zahle {1} weniger für den nächsten Zauber, den du an diesem Nachmittag spielst, aber mindestens {1}.# (Ich bin in Kontakt, falls die Expedition eines anderen Spielers in meiner Region ist. Andere Effekte können die Kosten weiter senken.)",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "#{J} Si je suis [IN_CONTACT], payez {1} de moins pour le prochain Sort que vous jouez cet Après-midi, jusqu'à un minimum de {1}.# (Je suis En Contact si l'Expédition d'un autre joueur est dans ma région. D'autres effets peuvent réduire davantage le coût.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "#{J} Se sono [IN_CONTACT], paga {1} in meno per il prossimo incantesimo che giochi questo pomeriggio, fino a un minimo di {1}.# (Sono In contatto se la spedizione di un altro giocatore si trova nella mia regione. Altri effetti possono ridurre il costo ulteriormente.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{J} If I'm [IN_CONTACT], pay {1} less for the next Spell you play this Afternoon, down to a minimum of {1}.# (I'm In Contact if another player's Expedition is in my region. Other effects may reduce the cost further.)"
+              }
+            ],
+            "reference": "01881"
+          },
+          "sequence": 0,
+          "id": "01K6X4SP7WEWYK0CCZ1ND7Z6ZS"
+        }
+      ],
+      "value": "{J} If I'm [In Contact], pay {1} less for the next Spell you play this Afternoon, down to a minimum of {1}. (I'm In Contact if another player's Expedition is in my region. Other effects may reduce the cost further.)",
+      "id": "01K6X4SNJB3R0NKKSP4RGRYK13"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4SPTBMN1N523Y7CPCWZJ2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : Pay {1} less for the next Spell you play this turn, down to a minimum of {1}.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Zahle {1} weniger für den nächsten Zauber, den du in dieser Runde spielst, aber mindestens {1}. (Lege mich aus der Reserve ab, um diese Aktion auszuführen.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{D}: Paga {1} menos por el siguiente hechizo que juegues este turno, hasta un mínimo de {1}. (Descártame de la reserva para hacer esto.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Payez {1} de moins pour le prochain Sort que vous jouez ce tour-ci, jusqu'à un minimum de {1}. (Défaussez-moi de la Réserve pour ça.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{D}: paga {1} in meno per il prossimo incantesimo che giochi in questo turno, fino a un minimo di {1}. (Scartami dalla Riserva per eseguire questa azione.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{D} : Pay {1} less for the next Spell you play this turn, down to a minimum of {1}."
+              }
+            ],
+            "reference": "02097"
+          },
+          "sequence": 0,
+          "id": "01K6X4SQGXZTNFDZWS9WWCQNG9"
+        }
+      ],
+      "value": "{D} : Pay {1} less for the next Spell you play this turn, down to a minimum of {1}.",
+      "id": "01K6X4SPTBMN1N523Y7CPCWZJ2"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_92\/JPG\/en_US\/9a48b7d1fc36731194cf7ca922f6ed98.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_92\/WEB_cce3c33a573860571f289161f564238b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_92\/WEB_09e1960235c8e3bc810e375a342a023c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_92\/WEB_93118235f01040d3f3b6f85207b7ef5d"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_92_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_92",
+  "reference": "ALT_DUSTER_B_YZ_92_R2",
+  "translations": {
+    "es_ES": { "name": "Mochizuki Chiyome", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Mochizuki Chiyome", "image": null, "locale": "de_DE" },
+    "it_IT": { "name": "Mochizuki Chiyome", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "Mochizuki Chiyome",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_92\/JPG\/en_US\/9a48b7d1fc36731194cf7ca922f6ed98.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Mochizuki Chiyome",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_92\/JPG\/fr_FR\/6f571875811a6f7b7e53b757a4c59574.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQQ77MRBTN00YYV9NT2",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_92\/JPG\/fr_FR\/6f571875811a6f7b7e53b757a4c59574.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_92\/JPG\/en_US\/9a48b7d1fc36731194cf7ca922f6ed98.jpg"
+  },
+  "name": "Mochizuki Chiyome",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#{J} If I'm [In Contact], pay {1} less for the next Spell you play this Afternoon, down to a minimum of {1}.# (I'm In Contact if another player's Expedition is in my region. Other effects may reduce the cost further.)",
+    "ECHO_EFFECT": "{D} : Pay {1} less for the next Spell you play this turn, down to a minimum of {1}."
+  },
+  "collectorNumberFormatted": "SDU-099-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

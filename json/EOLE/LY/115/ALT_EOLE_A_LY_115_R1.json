@@ -1,0 +1,457 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "If \"wolfing down\" had a face…",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Quand on parle du loup, on en voit l'ombre difforme...",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KG2J8B6GHM1AQF8JY7A9513E",
+          "text": "If \"wolfing down\" had a face…"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J8B9HWJ0DG982VFHKA8JA",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J8B8R0NMDQK8CFCKFF70W",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J8B3F85QT1BAVSMKK95WV",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J8B5RHMDRSEDS2Q8VQ6E4",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2TT3Q4JRZD8FJTY298CT0CX6QK",
+      "reference": "ALT_EOLE_A_LY_115_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KG00YXN1RG80NKR4Z6YD4NME"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KG00YXWHMD0DN15DN0SS5GCQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KG00YY41DAZEDGHT6D4P8W82"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KG00YYBK42E8661E17JAGP89"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KG00YYK5CVQ41PDRHXG6RKCB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QSXWF4NRR1H3S75A8AZE9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Resupplies",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaille",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisce",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22PMAWKFHM9YCE44WE12XZ",
+                      "reference": "RESUPPLIES"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KHBEJNNFARYTGCRCHYAG95Z5"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Starting with you, each player discards their Reserve, then #[RESUPPLIES].#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Chaque joueur défausse sa Réserve, puis #[RESUPPLIES].#",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{H} Empezando por ti, cada jugador descarta su reserva y luego #[RESUPPLIES].#",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{H} Angefangen bei dir legt jeder Spieler seine Reserve ab und nutzt dann #[RESUPPLIES].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} A cominciare da te, ogni giocatore scarta la propria Riserva, poi #[RESUPPLIES].#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} Starting with you, each player discards their Reserve, then #[RESUPPLIES].#"
+              }
+            ],
+            "reference": "03004"
+          },
+          "sequence": 0,
+          "id": "01KJ5QSZ6P659JX9HAFTN22HWG"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5QSXWF4NRR1H3S75A8AZE9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8BEM15SC7MGY43M1D33NK"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": { "text": "#{J} [RESUPPLY].#", "locale": "it_IT" },
+                  "es_ES": { "text": "#{J} [RESUPPLY].#", "locale": "es_ES" },
+                  "de_DE": { "text": "#{J} [RESUPPLY].#", "locale": "de_DE" },
+                  "fr_FR": { "text": "#{J} [RESUPPLY].#", "locale": "fr_FR" },
+                  "en_US": { "text": "#{J} [RESUPPLY].#", "locale": "en_US" }
+                },
+                "text": "#{J} [RESUPPLY].#"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 1,
+          "id": "01KJ5QT0AJKGFCS20NX4PGPWC9"
+        }
+      ],
+      "value": "{H} Starting with you, each player discards their Reserve, then [Resupplies].  {J} [Resupply].",
+      "id": "01KJ5QSXWF4NRR1H3S75A8AZE9"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QT1KF5TN2AV7NXGQVBM3B",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Aérolithe",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Aerolith",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aerolit",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Aerolite",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Aerolito",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V2BFTDBEPJRRHWC5YM548",
+                      "reference": "AEROLITH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JS20BSZGVXS5KP8P556ABHDC"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{D} : Crea una ficha de [AEROLITH] en los hitos del jugador objetivo.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Erschaffe eine [AEROLITH]-Marke im Wahrzeichen-Bereich eines Spielers deiner Wahl.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: crea una pedina [AEROLITH] nei fulcri di un giocatore bersaglio.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Créez un jeton [AEROLITH] dans les Repères d'un joueur ciblé.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{D} : Create an [AEROLITH] token in target player's Landmarks.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "{D} : Create an [AEROLITH] token in target player's Landmarks."
+              }
+            ],
+            "reference": "01576"
+          },
+          "sequence": 0,
+          "id": "01KJ5QT2ZNK488CHV3MV8R3CWN"
+        }
+      ],
+      "value": "{D} : Create an [Aerolith] token in target player's Landmarks.",
+      "id": "01KJ5QT1KF5TN2AV7NXGQVBM3B"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Khoa Viet" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/JPG\/en_US\/afa1fb9974a30b585c1cdc004d0f6070.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/WEB_e259c1ac06657fd4c843e4b24ba98c15",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/WEB_07ce87e36e6a415284efb7096105b9a7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/WEB_46b9695491f5a48b7085872f2de87fee"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_LY_115_R1",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_115",
+  "reference": "ALT_EOLE_A_LY_115_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Stigmate du Ravage",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/JPG\/fr_FR\/dbc5f72b8f95e96fa0f06b1f625d18fc.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Stigma del Caos",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/JPG\/it_IT\/0b0e1c47f165fdffc045616887b2af6d.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Estigma de la devastación",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/JPG\/es_ES\/f66495d1c6256447354379930c27aa93.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Stigma of Havoc",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/JPG\/en_US\/afa1fb9974a30b585c1cdc004d0f6070.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Stigma der Verwüstung",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/JPG\/de_DE\/bd7b507d8504a0975fa56fbb200e79e2.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01KFRQ5ZD14G8YRC0W535047MC",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/JPG\/fr_FR\/dbc5f72b8f95e96fa0f06b1f625d18fc.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_LY_115\/JPG\/en_US\/afa1fb9974a30b585c1cdc004d0f6070.jpg"
+  },
+  "name": "Stigma of Havoc",
+  "elements": {
+    "MAIN_COST": "#5#",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "5",
+    "MOUNTAIN_POWER": "5",
+    "MAIN_EFFECT": "{H} Starting with you, each player discards their Reserve, then #[Resupplies].#  #{J} [Resupply].#",
+    "ECHO_EFFECT": "{D} : Create an [Aerolith] token in target player's Landmarks."
+  },
+  "collectorNumberFormatted": "ROC-V-050-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,281 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": { "text": "\"Keep the change!\"", "locale": "en_US" },
+            "fr_FR": { "text": "« Gardez la monnaie ! »", "locale": "fr_FR" }
+          },
+          "id": "01JZ37ZKETJTAQM0GMVNBKZS0J",
+          "text": "\"Keep the change!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "25BW5DG4SP8D6BSB48P0ZYHZ6R",
+      "reference": "ALT_DUSTER_B_BR_92_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MERCHANT",
+      "id": "01JZ2JZ7RFPB09RFMMFXBG3GZ5",
+      "name": "Merchant"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K3N2PQSA2G3RBN8R2Z4E0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K3N7F7ET0JWC2S2YN4YAV"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K3NC8HCKG9JWWSAEPBRGB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K3NH1058JCSM2ZXX3RQX8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K3NNZKV89SGA9NQ63QTKK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X45DTJJEM92DGTWDPY5ZF8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K3PZV5KE6AVBEC8T5CQ5Y"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K3PP9GH9QJ59DH0K40JRY"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} #You may# create a [MANASEED] token in target opponent's Landmarks. #If you do,# I lose [FLEETING].",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{R} #Puedes# crear una ficha de [MANASEED] en los hitos del oponente objetivo. #Si lo haces,# pierdo [FLEETING].",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{R} #Puoi# creare una pedina [MANASEED] nei fulcri di un avversario bersaglio. #Se lo fai,# perdo [FLEETING].",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{R} #Vous pouvez# créer un jeton [MANASEED] dans les Repères d'un adversaire ciblé. #Si vous le faites,# je perds [FLEETING].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{R} #Du darfst# eine [MANASEED]-Marke im Wahrzeichen-Bereich eines Gegners deiner Wahl erschaffen. #Falls du das tust,# verliere ich [FLEETING].",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{R} #You may# create a [MANASEED] token in target opponent's Landmarks. #If you do,# I lose [FLEETING]."
+              }
+            ],
+            "reference": "01698"
+          },
+          "sequence": 0,
+          "id": "01K6X45EBD88X0DWVPPMSPTHWR"
+        }
+      ],
+      "value": "{R} You may create a [Manaseed] token in target opponent's Landmarks. If you do, I lose [[Fleeting]].",
+      "id": "01K6X45DTJJEM92DGTWDPY5ZF8"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_92\/JPG\/en_US\/684a3313233e6286a27e22437f414748.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_92\/WEB_ea563317ed5975de1b68df23bb242f85",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_92\/WEB_693a832e557f2cada098fd82e685378a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_92\/WEB_ee431e6f3e1e066c193b81590bb649b0"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_92_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_92",
+  "reference": "ALT_DUSTER_B_BR_92_R1",
+  "translations": {
+    "en_US": {
+      "name": "Reka Peddler",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_92\/JPG\/en_US\/684a3313233e6286a27e22437f414748.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Vendedor reka", "image": null, "locale": "es_ES" },
+    "it_IT": {
+      "name": "Venditore Ambulante Reka",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Reka-Krämer", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Colporteur Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_92\/JPG\/fr_FR\/e222c40212904716f994b1397bef0e60.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPJM1BFRD0VTVMMV0VZ",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_92\/JPG\/fr_FR\/e222c40212904716f994b1397bef0e60.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_92\/JPG\/en_US\/684a3313233e6286a27e22437f414748.jpg"
+  },
+  "name": "Reka Peddler",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "#3#",
+    "MAIN_EFFECT": "{R} #You may# create a [Manaseed] token in target opponent's Landmarks. #If you do,# I lose [[Fleeting]]."
+  },
+  "collectorNumberFormatted": "SDU-027-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

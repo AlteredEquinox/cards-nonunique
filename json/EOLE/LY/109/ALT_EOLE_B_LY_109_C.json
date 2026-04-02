@@ -1,0 +1,311 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« C'est du pipeau ? Je ne crois pas, non. »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Don't they say that he who pays the piper calls the tune?\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HR0Q08Z6HQ4XRKQWZ39E",
+          "text": "\"Don't they say that he who pays the piper calls the tune?\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HR15M2HQMSP105GNRVX3",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR0Z55SB4ZG1B9N4CS5Y",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR03J9YQCVPX2ZTHSRMA",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR0HF6T0YZ9D2XABE2M0",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6CB27BA2GX9NDTTX4JZZHBCDZF",
+      "reference": "ALT_EOLE_B_LY_109_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYPSTR4P6XMT6X0CX3NEP8"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYPT1F8FW9CJPA49YT3W1X"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYPT8CRGXZM6CPX43GMSP3"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYPTF22KZE9ZV3WC5RB9NK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYPTQMJWJG4AV81SX6JRVW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NGNN0KYH0TDA50Z4VD1FC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "",
+                          "locale": "de_DE",
+                          "description": "Eine Verstärkung ist ein +1\/+1\/+1-Zähler. Entferne sie, wenn sie die Expeditionszone verlässt."
+                        },
+                        "it_IT": {
+                          "displayWeb": "",
+                          "locale": "it_IT",
+                          "description": "Un rinforzo è un segnalino +1\/+1\/+1. Rimuovilo quando lascia l'area delle spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "",
+                          "locale": "es_ES",
+                          "description": "Un potenciador es un contador +1\/+1\/+1. Retíralo cuando abandone la zona de expedición."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": "Un boost est un compteur +1\/+1\/+1. Retirez-le lorsqu'il quitte la zone d'Expédition."
+                        },
+                        "en_US": {
+                          "displayWeb": "",
+                          "locale": "en_US",
+                          "description": "A boost is a +1\/+1\/+1 counter. Remove it when it leaves the Expedition zone."
+                        }
+                      },
+                      "id": "01HKAGPAN9AC4N80Y5P46AQDZZ",
+                      "reference": "BB"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01KG7KFE3JKJYANM5X7HADH1W2"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} If a card in your Expeditions or your Reserve has a {D} ability, I gain 1 boost$[BB].",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{J} Se una carta nelle tue spedizioni o nella tua Riserva ha un'abilità {D}, ottengo 1 rinforzo$[BB].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Si una carta en tus expediciones o tu reserva tiene una habilidad {D}, gano 1 potenciador$[BB].",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{J} Falls eine Karte in deinen Expeditionen oder deiner Reserve eine {D} Fähigkeit hat, erhalte ich 1 Verstärkung$[BB].",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Si une carte dans vos Expéditions ou votre Réserve a une capacité {D}, je gagne 1 boost$[BB].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} If a card in your Expeditions or your Reserve has a {D} ability, I gain 1 boost$[BB]."
+              }
+            ],
+            "reference": "02838"
+          },
+          "sequence": 0,
+          "id": "01KJ5NGQF448AT0K35GW2GPJ6X"
+        }
+      ],
+      "value": "{J} If a card in your Expeditions or your Reserve has a {D} ability, I gain 1 boost[]. (A boost is a +1\/+1\/+1 counter. Remove it when it leaves the Expedition zone.)",
+      "id": "01KJ5NGNN0KYH0TDA50Z4VD1FC"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/en_US\/719cbc3fde38fa016fb9bde672775411.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/WEB_97904ea5ac71a29dd62fcd9c72414223",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/WEB_aaf874ff048067c3ac073cd58e7897a7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/WEB_668c74bd78a5d8663d6ce04a6ef9af3a"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_109_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_109",
+  "reference": "ALT_EOLE_B_LY_109_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Fifre Lyra",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/fr_FR\/35efec9b331c18948670514b64001ca5.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Lyra Fifer",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/en_US\/719cbc3fde38fa016fb9bde672775411.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Pifferaio Lyra",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/it_IT\/06f6e64dd17976d10ec1b0839ac1abc6.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Lyra-Querpfeifer",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/de_DE\/8b75675fc3aa41e6d86ca978b28562ef.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Flautista de Lyra",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/es_ES\/d9d499dd67d5d6d85ab0083cad50f41f.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY96Y4NEBMY22W0PNWQA",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/fr_FR\/35efec9b331c18948670514b64001ca5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/en_US\/719cbc3fde38fa016fb9bde672775411.jpg"
+  },
+  "name": "Lyra Fifer",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{J} If a card in your Expeditions or your Reserve has a {D} ability, I gain 1 boost[]. (A boost is a +1\/+1\/+1 counter. Remove it when it leaves the Expedition zone.)"
+  },
+  "collectorNumberFormatted": "ROC-040-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

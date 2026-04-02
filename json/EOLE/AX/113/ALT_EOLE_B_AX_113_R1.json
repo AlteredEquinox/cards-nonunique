@@ -1,0 +1,274 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Cutting Aerolith requires a deft and delicate touch.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Tailler l'Aérolithe exige du doigté et de la délicatesse.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HPHA2QC5HFPD5ZNCCVGM",
+          "text": "Cutting Aerolith requires a deft and delicate touch."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPHGGZ0KGYZ5GX9C14G4",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPHDFP02DF5QPR8C4AM8",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPH32C5XVCEPWEH75AXN",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPH643J6DYCHEE3T4DHS",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4H8QWC9KXV99KSYWTAW20YA96P",
+      "reference": "ALT_EOLE_B_AX_113_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYBBTNK7H4T3FDRPH8K0VC"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYBC0P93RD51EW3F501F3H"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYBC6RG7EVCH8GPKEYBS6Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYBCCXNJZYZNS4XBVXHV96"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYBCK4R3C4KT1T38RPX58J"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5MQVW31FDCYPX2JGNQ1Z2T",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "#{H} Vous pouvez sacrifier un Permanent pour redresser un Orbe de Mana.#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#{H} You may sacrifice a Permanent to ready a Mana Orb.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{H} Du darfst eine Bleibende Karte opfern, um eine Manakugel bereitzustellen.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{H} Puoi sacrificare un permanente per ripristinare una sfera di mana.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{H} Puedes sacrificar un permanente para preparar un orbe de maná.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#{H} You may sacrifice a Permanent to ready a Mana Orb.#"
+              }
+            ],
+            "reference": "02760"
+          },
+          "sequence": 0,
+          "id": "01KJ5MQX56R2G0FV0ZV02KY19X"
+        }
+      ],
+      "value": "{H} You may sacrifice a Permanent to ready a Mana Orb.",
+      "id": "01KJ5MQVW31FDCYPX2JGNQ1Z2T"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/JPG\/en_US\/f2d2ba143b0c71864febe42d4db93142.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/WEB_0f22f7454b18a37aab821f63e8573994",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/WEB_f55b76ca9dc9c5fe54bc17c97449b977",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/WEB_8bfeb2432c247eaee63fb1372e9b9e9b"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_113_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "AX_113",
+  "reference": "ALT_EOLE_B_AX_113_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Maître Lapidaire",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/JPG\/fr_FR\/8a89fb04bc75fee815a5e239ae983d69.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Maestro Intagliatore",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/JPG\/it_IT\/bead017f5bd076a543c1149e7b8ccf65.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Meister-Edelsteinschleifer",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/JPG\/de_DE\/3ce1fa3886e484246a768863cbf24226.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Master Lapidary",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/JPG\/en_US\/f2d2ba143b0c71864febe42d4db93142.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Maestro lapidario",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/JPG\/es_ES\/5a343e6c002698fbac3ea5797f0261ae.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY8GFR0S2WB31C1J6NN9",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/JPG\/fr_FR\/8a89fb04bc75fee815a5e239ae983d69.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_113\/JPG\/en_US\/f2d2ba143b0c71864febe42d4db93142.jpg"
+  },
+  "name": "Master Lapidary",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#{H} You may sacrifice a Permanent to ready a Mana Orb.#"
+  },
+  "collectorNumberFormatted": "ROC-011-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

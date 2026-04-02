@@ -1,0 +1,397 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Falsehoods behind the mask, hidden under the guise of truth…",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Des mensonges, sous le masque de la vérité...",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HYW288TDEKY4WTQGDTQA",
+          "text": "Falsehoods behind the mask, hidden under the guise of truth…"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HYYHVT80TDTNN8206FJ5",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HYWGJETTFXTYE3T6Y57A",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HYVBDG9APRVG462KYC3R",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HYVQQ9FBSXTBW35NZ5E3",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4JN3RPSK419M5BVSWWPNVNSF01",
+      "reference": "ALT_EOLE_B_YZ_115_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YZGC1WW4XJZ13ETYGTTGCQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YZGCA0GZ8DEH4XKWSB04JJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YZGCJ46R652DBWGQJC5RBJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YZGCT70N8QNWFSZGF3D54D"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YZGD2CSSPKQCY3RB9NWXSN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QEZACZY7J2MDG7AXKKZAR",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Mana-Motte 2\/2\/2",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "2\/2\/2 Phalène de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Polilla de maná 2\/2\/2",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Mana Moth 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Falena di Mana 2\/2\/2",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1QBE0WTGPC1NV3KZ8A7GMYT",
+                      "reference": "MANA_MOTH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MHX9YT9FJYQVM8TW8NHW8"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} If there's a \"Stigma of Fallacy\" in your discard pile, create a [MANA_MOTH] Illusion token in target Expedition.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{H} Si hay un «Estigma de la falacia» en tu pila de descartes, crea una ficha de ilusión [MANA_MOTH] en una expedición objetivo.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{H} Falls sich ein „Stigma der Täuschung“ auf deinem Ablagestapel befindet, erschaffe eine [MANA_MOTH]-Illusionsmarke in einer Expedition deiner Wahl.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Se c'è uno \"Stigma della Fallacia\" nella tua pila degli scarti, crea una pedina Illusione [MANA_MOTH] in una spedizione bersaglio.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{H} S'il y a un « Stigmate de la Duperie » dans votre défausse, créez un jeton Illusion [MANA_MOTH] dans une Expédition ciblée.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} If there's a \"Stigma of Fallacy\" in your discard pile, create a [MANA_MOTH] Illusion token in target Expedition."
+              }
+            ],
+            "reference": "02989"
+          },
+          "sequence": 0,
+          "id": "01KJ5QF1443JGHTZQ8YD7VN3JX"
+        }
+      ],
+      "value": "{H} If there's a \"Stigma of Fallacy\" in your discard pile, create a [Mana Moth 2\/2\/2] Illusion token in target Expedition.",
+      "id": "01KJ5QEZACZY7J2MDG7AXKKZAR"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QF2XQC2W3G3F8W0VQNNNN",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "After You",
+                          "locale": "en_US",
+                          "description": "End your turn as if you had played a card. You may still play cards later this Day."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nach dir",
+                          "locale": "de_DE",
+                          "description": "Beende deine Runde, als ob du eine Karte gespielt hättest. Du darfst auch später an diesem Tag noch eine Karte spielen."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dopo di te",
+                          "locale": "it_IT",
+                          "description": "Termina il tuo turno come se avessi giocato una carta. Puoi comunque giocare carte più avanti in questa giornata."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Después de ti",
+                          "locale": "es_ES",
+                          "description": "Termina tu turno como si hubieras jugado una carta. A lo largo del día actual, puedes jugar más cartas."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Après vous",
+                          "locale": "fr_FR",
+                          "description": "Terminez votre tour comme si vous aviez joué une carte. Vous pouvez encore jouer des cartes plus tard ce Jour-ci."
+                        }
+                      },
+                      "id": "01HKAGXB4C1CCRNYV6K6BFCHMQ",
+                      "reference": "AFTER_YOU"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KHCPM2NJPAC1MAV970TA7K15"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : [AFTER_YOU]. (End your turn as if you had played a card.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : [AFTER_YOU]. (Terminez votre tour comme si vous aviez joué une carte.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{D} : [AFTER_YOU]. (Beende deine Runde, als ob du eine Karte gespielt hättest.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: [AFTER_YOU]. (Termina il tuo turno come se avessi giocato una carta.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{D}: [AFTER_YOU]. (Termina tu turno como si hubieras jugado una carta.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{D} : [AFTER_YOU]. (End your turn as if you had played a card.)"
+              }
+            ],
+            "reference": "03009"
+          },
+          "sequence": 0,
+          "id": "01KJ5QF4XTMHC5R36M634A08VT"
+        }
+      ],
+      "value": "{D} : [After You]. (End your turn as if you had played a card.)",
+      "id": "01KJ5QF2XQC2W3G3F8W0VQNNNN"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Ba Vo" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/JPG\/en_US\/2daa3229b57efb9195e92ed6230d0046.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/WEB_6d4917f730620b910e844b76d58f29cd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/WEB_28b87528f710a8b999d1f2f497c81f38",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/WEB_6071c867ba2c54d40e83fac00539369d"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_115_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_115",
+  "reference": "ALT_EOLE_B_YZ_115_C",
+  "translations": {
+    "en_US": {
+      "name": "Stigma of Fallacy",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/JPG\/en_US\/2daa3229b57efb9195e92ed6230d0046.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Stigma der Täuschung",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/JPG\/de_DE\/4ea04cb37b886ffc0b96908c3ade1053.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Stigma della Fallacia",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/JPG\/it_IT\/ecea08a64f7a120ba9b631c7a8f3b99c.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Stigmate de la Duperie",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/JPG\/fr_FR\/56c0d0fb9379a9815dd3559a803a040e.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Estigma de la falacia",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/JPG\/es_ES\/c5f7970eaba6173b175d4846c5adc496.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHYA5P9BDBPQ7M8S2Q1JN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/JPG\/fr_FR\/56c0d0fb9379a9815dd3559a803a040e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_115\/JPG\/en_US\/2daa3229b57efb9195e92ed6230d0046.jpg"
+  },
+  "name": "Stigma of Fallacy",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "{H} If there's a \"Stigma of Fallacy\" in your discard pile, create a [Mana Moth 2\/2\/2] Illusion token in target Expedition.",
+    "ECHO_EFFECT": "{D} : [After You]. (End your turn as if you had played a card.)"
+  },
+  "collectorNumberFormatted": "ROC-106-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

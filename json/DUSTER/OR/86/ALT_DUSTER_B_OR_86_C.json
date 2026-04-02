@@ -1,0 +1,210 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Form ever follows function. This is the law.\" — Louis Sullivan",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« La forme suit la fonction. Et telle est la loi. » - Louis Sullivan",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZRSZM8S50YBFVF30AVHR",
+          "text": "\"Form ever follows function. This is the law.\" — Louis Sullivan"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "28YFA5N0HW8GK8YE972SV1BNV9",
+      "reference": "ALT_DUSTER_B_OR_86_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJHTNQF18H2SM9RWS4PPX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJJ0MKJH0N4XR7Q7G796G"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KJJ6J0VZ40GAHQYV5GQXB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJJCMZR5KH4Y3ER00XMJ8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJJJXN13124HC9W72K6YE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4JBFPXJK49TK8EX1R5J11",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} If there are two or more cards in your Landmarks, draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Falls sich mindestens zwei Karten in deinem Wahrzeichen-Bereich befinden, ziehe eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Si hay dos o más cartas en tus hitos, roba una carta.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Se ci sono due o più carte nei tuoi fulcri, pesca una carta.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{H} S'il y a au moins deux cartes dans vos Repères, piochez une carte.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} If there are two or more cards in your Landmarks, draw a card."
+              }
+            ],
+            "reference": "01820"
+          },
+          "sequence": 0,
+          "id": "01K6X4JC28Z41EXXAR12RQMTMB"
+        }
+      ],
+      "value": "{H} If there are two or more cards in your Landmarks, draw a card.",
+      "id": "01K6X4JBFPXJK49TK8EX1R5J11"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Kevin Sidharta" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/JPG\/en_US\/829c14b15b1baad8855a95273110fbde.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/WEB_d9e3346dcc4e0485dd6c7cab28cc9b36",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/WEB_0ffb2edd5cb344f24322c8cdc9ead2b1",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/WEB_1dcd96f7bf93ed17f5f494d5a3b92245"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_86_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_86",
+  "reference": "ALT_DUSTER_B_OR_86_C",
+  "translations": {
+    "es_ES": { "name": "Louis Sullivan", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Louis Sullivan", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Louis Sullivan", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Louis Sullivan",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/JPG\/en_US\/829c14b15b1baad8855a95273110fbde.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Louis Sullivan",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/JPG\/fr_FR\/1969c98f97f3fcb5ff3e6c05750a19e2.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQCJFX81DYYE79D7A5S",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/JPG\/fr_FR\/1969c98f97f3fcb5ff3e6c05750a19e2.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/JPG\/en_US\/829c14b15b1baad8855a95273110fbde.jpg"
+  },
+  "name": "Louis Sullivan",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} If there are two or more cards in your Landmarks, draw a card."
+  },
+  "collectorNumberFormatted": "SDU-081-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

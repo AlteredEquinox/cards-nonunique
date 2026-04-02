@@ -1,0 +1,298 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Ses hurlements évoquent le tonnerre ou le craquement de la glace.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "With a voice like thunder or crackling ice it howls.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JH1NW84GV7W9WEMMB79NWM65",
+          "text": "With a voice like thunder or crackling ice it howls."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "2WSS8V7TWA89GVHC5V11DQKMVM",
+      "reference": "ALT_ALIZE_A_OR_47_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH1KWEKJB4TD57E730V06FH7"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH1KWEPD3X942B2ENJ0Z5F0K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SCQMTQHSQ35BTECJH2W3A",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "Cuando juegues un personaje — Si su expedición va por detrás, gano 1 contador de ordalía.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Quando giochi un personaggio — Se la sua spedizione è indietro, ottengo 1 segnalino Prova.",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "When you play a Character — If its Expedition is behind, I gain 1 Trial counter.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du einen Charakter spielst — Falls seine Expedition hinten liegt, erhalte ich 1 Prüfungszähler.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous jouez un Personnage — Si son Expédition est en retard, je gagne 1 compteur Épreuve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you play a Character — If its Expedition is behind, I gain 1 Trial counter."
+              }
+            ],
+            "reference": "01153"
+          },
+          "sequence": 0,
+          "id": "01KH6SCR8P076JTP5S34T570ZJ"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH6SCQMTQHSQ35BTECJH2W3A",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Drachenecho 5\/5\/5",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "5\/5\/5 Reflet Draconique",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Dragon Shade 5\/5\/5",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Dragón del eco 5\/5\/5",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Spirito del Drago 5\/5\/5",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1SYC4BA2SXHS1PC4HCV9BNA",
+                      "reference": "DRAGON_SHADE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01J2W97GX4AE1F2Y6NQV484K72"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Schlafend",
+                          "locale": "de_DE",
+                          "description": "Am Abend ignoriere meine Statistiken. Während der Ruhepause gehe ich nicht in die Reserve und verliere Schlafend."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dormiente",
+                          "locale": "it_IT",
+                          "description": "Durante il crepuscolo, ignora le mie statistiche. Durante il riposo, non vado nella Riserva e perdo Dormiente."
+                        },
+                        "en_US": {
+                          "displayWeb": "Asleep",
+                          "locale": "en_US",
+                          "description": "During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Endormi",
+                          "locale": "fr_FR",
+                          "description": "Ignorez mes statistiques pendant le Crépuscule. Au Repos, je ne vais pas en Réserve et je perds Endormi."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sueño",
+                          "locale": "es_ES",
+                          "description": "Durante el anochecer, ignora mis estadísticas. Durante el descanso, no voy a la reserva y pierdo sueño."
+                        }
+                      },
+                      "id": "01HKAGPDSXJC9J9QJ4Y1DBK28E",
+                      "reference": "ASLEEP"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01J2W97H2Z0QPRTATMXBKVZCTZ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Quando ottengo il mio terzo segnalino Prova — Sacrificami. Se lo fai, crea una pedina Illusione [DRAGON_SHADE] in una spedizione bersaglio, poi un personaggio bersaglio ottiene [ASLEEP].",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je gagne mon troisième compteur Épreuve — Sacrifiez-moi. Si vous le faites, créez un jeton Illusion [DRAGON_SHADE] dans une Expédition ciblée, puis un Personnage ciblé gagne [ASLEEP].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn ich meinen 3. Prüfungszähler erhalte — Opfere mich. Falls du das tust, erschaffe eine [DRAGON_SHADE]-Illusionsmarke in einer Expedition deiner Wahl, dann erhält ein Charakter deiner Wahl [ASLEEP].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Cuando gane mi tercer contador de ordalía — Sacrifícame. Si lo haces, crea una ficha de ilusión [DRAGON_SHADE] en una expedición objetivo y luego el personaje objetivo gana [ASLEEP].",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "When I gain my third Trial counter — Sacrifice me. If you do, create a [DRAGON_SHADE] Illusion token in target Expedition, then target Character gains [ASLEEP].",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "When I gain my third Trial counter — Sacrifice me. If you do, create a [DRAGON_SHADE] Illusion token in target Expedition, then target Character gains [ASLEEP]."
+              }
+            ],
+            "reference": "00728"
+          },
+          "sequence": 1,
+          "id": "01KH6SCRS69P9C2B1375KSBSJS"
+        }
+      ],
+      "value": "When you play a Character — If its Expedition is behind, I gain 1 Trial counter.  When I gain my third Trial counter — Sacrifice me. If you do, create a [Dragon Shade 5\/5\/5] Illusion token in target Expedition, then target Character gains [[Asleep]].",
+      "id": "01KH6SCQMTQHSQ35BTECJH2W3A"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Kevin Sidharta" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_47\/JPG\/en_US\/59d9ddfeb3633953ff99047cdcb201e8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_47\/WEB_d9d34bcf855fdf59af950c131ac8fd59",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_47\/WEB_202a9743db881e7dd05003e26d0f3b9e"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_OR_47_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_47",
+  "reference": "ALT_ALIZE_A_OR_47_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Lac Saisi par les Glaces",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_47\/JPG\/fr_FR\/d821217c3c254abc06509f6ad12b410b.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Lago helado",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_47\/JPG\/es_ES\/b63b9dc1db47aa998c63e620094bae50.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Lago del Gelo Perpetuo",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_47\/JPG\/it_IT\/598d345b666ffd0d2eed9634828dbce1.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Icebound Lake",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_47\/JPG\/en_US\/59d9ddfeb3633953ff99047cdcb201e8.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Eisumfangener See",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_47\/JPG\/de_DE\/fadec9965077257fe9eb24439f3734b4.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01JH1KM57SZ1HCF152ZJGN10QC",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_47\/JPG\/fr_FR\/d821217c3c254abc06509f6ad12b410b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_47\/JPG\/en_US\/59d9ddfeb3633953ff99047cdcb201e8.jpg"
+  },
+  "name": "Icebound Lake",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "MAIN_EFFECT": "When you play a Character — If its Expedition is behind, I gain 1 Trial counter.  When I gain my third Trial counter — Sacrifice me. If you do, create a [Dragon Shade 5\/5\/5] Illusion token in target Expedition, then target Character gains [[Asleep]]."
+  },
+  "collectorNumberFormatted": "TBF-085-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,255 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Souvenirs are memories incarnate. Treasure them.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Il n'y a pas plus précieux qu'un bon souvenir. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZRY6N3E6YAFS9FXTSRYJ",
+          "text": "\"Souvenirs are memories incarnate. Treasure them.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1NZC5DFWYR8WXBKGPBX9YJ45CP",
+      "reference": "ALT_DUSTER_B_OR_87_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MERCHANT",
+      "id": "01JZ2JZ7RFPB09RFMMFXBG3GZ5",
+      "name": "Merchant"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KHJFZ2C83F4GP9V74CPD4"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KHJNV543Q6G5W9GFE3EK2"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KHJVQ5W0T8CVX7W446J61"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KHK1MZSQF62RGE4MBCEZH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KHK84C803EM57TB6HXHCW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4JMH3J8R3T4A84K71V6FP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Resupplies",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaille",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisce",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22PMAWKFHM9YCE44WE12XZ",
+                      "reference": "RESUPPLIES"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KHMF625KRA376CY2X9R50"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{J} Puedes darme 1 potenciador. Si lo haces, el oponente objetivo [RESUPPLIES].",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{J} Du darfst mir 1 Verstärkung geben. Falls du das tust, nutzt ein Gegner deiner Wahl [RESUPPLIES].",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "{J} You may give me 1 boost. If you do, target opponent [RESUPPLIES].",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{J} Puoi conferirmi 1 rinforzo. Se lo fai, un avversario bersaglio [RESUPPLIES].",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez me donner 1 boost. Si vous le faites, un adversaire ciblé [RESUPPLIES].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} You may give me 1 boost. If you do, target opponent [RESUPPLIES]."
+              }
+            ],
+            "reference": "01813"
+          },
+          "sequence": 0,
+          "id": "01K6X4JN3AJ26ZND9ZQD54BZMW"
+        }
+      ],
+      "value": "{J} You may give me 1 boost. If you do, target opponent [Resupplies].",
+      "id": "01K6X4JMH3J8R3T4A84K71V6FP"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/en_US\/64bca90ed5ba6a82ee49a944ad3314ce.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/WEB_52737694b5b44fa22dcfa9a2a8331068",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/WEB_c7b0d5a9d85b13439ee58961ee16fa0b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/WEB_a7599a8df95f3efd8ac8193703a26d0d"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_87_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_87",
+  "reference": "ALT_DUSTER_B_OR_87_C",
+  "translations": {
+    "es_ES": {
+      "name": "Vendedor de souvenirs",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Venditore di Souvenir",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Souvenirverkäufer", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Vendeur de souvenirs",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/fr_FR\/1cd8f544ee6581e608d0873405415c43.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Souvenir Seller",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/en_US\/64bca90ed5ba6a82ee49a944ad3314ce.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVQCJFX81DYYE79D7A62",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/fr_FR\/1cd8f544ee6581e608d0873405415c43.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/en_US\/64bca90ed5ba6a82ee49a944ad3314ce.jpg"
+  },
+  "name": "Souvenir Seller",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{J} You may give me 1 boost. If you do, target opponent [Resupplies]."
+  },
+  "collectorNumberFormatted": "SDU-078-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

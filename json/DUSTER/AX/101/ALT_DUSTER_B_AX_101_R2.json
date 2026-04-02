@@ -1,0 +1,217 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Let's show the Reka the brilliance of Axiom ingenuity!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Montrons aux Reka l'ingéniosité du savoir-faire Axiom ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZHT4H0C2QKHT9ZYHACXX",
+          "text": "\"Let's show the Reka the brilliance of Axiom ingenuity!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "02FMZMYXP28NFA01Z394FNY1DD",
+      "reference": "ALT_DUSTER_B_AX_101_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K1901W9Q6NBJF78S7XDG8"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K194VC6A8QC2BTR1YF72T"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X3Z0F1F091TE51D5HJVWFE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{T} : Un Personnage ciblé dans votre Réserve gagne 1 boost. Puis épuisez-le ({T}).",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{T}: Un personaje objetivo en tu reserva gana 1 potenciador. Luego, agótalo ({T}).",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{T} : Target Character in your Reserve gains 1 boost. Then exhaust it ({T}).",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{T} : Ein Charakter deiner Wahl in deiner Reserve erhält 1 Verstärkung. Dann erschöpfe ihn ({T}).",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{T}: un personaggio bersaglio nella tua Riserva ottiene 1 rinforzo. Poi consumalo ({T}).",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{T} : Target Character in your Reserve gains 1 boost. Then exhaust it ({T})."
+              }
+            ],
+            "reference": "01678"
+          },
+          "sequence": 0,
+          "id": "01K6X3Z0YS39X86FV2E02TSFQX"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X3Z0F1F091TE51D5HJVWFE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "#{T} : Un Personnage ciblé dans votre Réserve gagne 1 boost. Puis redressez-le.#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#{T} : Target Character in your Reserve gains 1 boost. Then ready it.#",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "#{T}: Un personaje objetivo en tu reserva gana 1 potenciador. Luego, prepáralo.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{T}: un personaggio bersaglio nella tua Riserva ottiene 1 rinforzo. Poi ripristinalo.#",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "#{T} : Ein Charakter deiner Wahl in deiner Reserve erhält 1 Verstärkung. Dann stelle ihn bereit.#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "#{T} : Target Character in your Reserve gains 1 boost. Then ready it.#"
+              }
+            ],
+            "reference": "02008"
+          },
+          "sequence": 1,
+          "id": "01K6X3Z1B69S2N6NESFCT99N20"
+        }
+      ],
+      "value": "{T} : Target Character in your Reserve gains 1 boost. Then exhaust it ({T}).  {T} : Target Character in your Reserve gains 1 boost. Then ready it.",
+      "id": "01K6X3Z0F1F091TE51D5HJVWFE"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/en_US\/ce3d62eb7f77daa0ad311ea59edc0b64.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/WEB_2bd565713b3267086066ccb0a1eea9cc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/WEB_bbd4b9bed194d5b18484e02507505e80"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_101_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_101",
+  "reference": "ALT_DUSTER_B_AX_101_R2",
+  "translations": {
+    "de_DE": { "name": "Axiom-Ausstellung", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Axiom Exhibit",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/en_US\/ce3d62eb7f77daa0ad311ea59edc0b64.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Exposición de Axiom",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": { "name": "Esposizione Axiom", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Exposition Axiom",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/fr_FR\/73ec5ed98f2e50246a490afc4d4b4b8c.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPA7WEGJQ80HKW2AAPM",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/fr_FR\/73ec5ed98f2e50246a490afc4d4b4b8c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/en_US\/ce3d62eb7f77daa0ad311ea59edc0b64.jpg"
+  },
+  "name": "Axiom Exhibit",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{T} : Target Character in your Reserve gains 1 boost. Then exhaust it ({T}).  #{T} : Target Character in your Reserve gains 1 boost. Then ready it.#"
+  },
+  "collectorNumberFormatted": "SDU-016-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

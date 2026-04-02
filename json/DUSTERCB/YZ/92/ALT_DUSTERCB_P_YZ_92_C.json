@@ -1,0 +1,215 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The art of surprise is showing up where you're not expected.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'art de la surprise, c'est d'être là où on ne vous attend pas.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KJ5PA3RKF89BH0S4HSGTYHXD",
+          "text": "The art of surprise is showing up where you're not expected."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4EECNV1D0B8HQTX21W0TBN3WQZ",
+      "reference": "ALT_DUSTERCB_P_YZ_92_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASYP02TK8FNMCVTPS6DN3H"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASYP6BQNDM7RT11DMENGPC"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASYPCJJFN57YKZNYN83D0Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASYPK8S7RTMBHBWX0AE6FX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASYPSYVCCFEX6CBAB7F941"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH672YZK044YJ463G49SEA1C",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : Pay {1} less for the next Spell you play this turn, down to a minimum of {1}.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Zahle {1} weniger für den nächsten Zauber, den du in dieser Runde spielst, aber mindestens {1}. (Lege mich aus der Reserve ab, um diese Aktion auszuführen.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{D}: Paga {1} menos por el siguiente hechizo que juegues este turno, hasta un mínimo de {1}. (Descártame de la reserva para hacer esto.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Payez {1} de moins pour le prochain Sort que vous jouez ce tour-ci, jusqu'à un minimum de {1}. (Défaussez-moi de la Réserve pour ça.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{D}: paga {1} in meno per il prossimo incantesimo che giochi in questo turno, fino a un minimo di {1}. (Scartami dalla Riserva per eseguire questa azione.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{D} : Pay {1} less for the next Spell you play this turn, down to a minimum of {1}."
+              }
+            ],
+            "reference": "02097"
+          },
+          "sequence": 0,
+          "id": "01KH672ZNYP7QHGBJH2TC0ZZQB"
+        }
+      ],
+      "value": "{D} : Pay {1} less for the next Spell you play this turn, down to a minimum of {1}.",
+      "id": "01KH672YZK044YJ463G49SEA1C"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_92\/JPG\/en_US\/2845a489c7235597093975d944378585.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_92\/WEB_0d444b4f455966154091c265ffcca362",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_92\/WEB_db89f16028ca9a6d2bc7640bf091896d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_92\/WEB_1c38b14f118e22fd56b308b9beb4699c"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_YZ_92_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_92",
+  "reference": "ALT_DUSTERCB_P_YZ_92_C",
+  "translations": {
+    "es_ES": { "name": "Mochizuki Chiyome", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Mochizuki Chiyome",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_92\/JPG\/en_US\/2845a489c7235597093975d944378585.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Mochizuki Chiyome",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_92\/JPG\/fr_FR\/37a0fd0dc84221d50982423a57713af3.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": { "name": "Mochizuki Chiyome", "image": null, "locale": "de_DE" },
+    "it_IT": { "name": "Mochizuki Chiyome", "image": null, "locale": "it_IT" }
+  },
+  "id": "01K60PWD8XHVM4QMH6K3B0W2TZ",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_92\/JPG\/fr_FR\/37a0fd0dc84221d50982423a57713af3.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_92\/JPG\/en_US\/2845a489c7235597093975d944378585.jpg"
+  },
+  "name": "Mochizuki Chiyome",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "ECHO_EFFECT": "{D} : Pay {1} less for the next Spell you play this turn, down to a minimum of {1}."
+  },
+  "collectorNumberFormatted": "SDUCB-022-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

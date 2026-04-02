@@ -1,0 +1,218 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Of course I'm cheating. That's what magic is all about.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Bien sûr que je triche. La magie, c'est de la triche. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01J3JJBRQEVM2HFZDQB2JK35HR",
+          "text": "\"Of course I'm cheating. That's what magic is all about.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "7ZANB29RZD8V0BMQZK12SFPNP7",
+      "reference": "ALT_ALIZE_A_LY_34_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVS8XADMPR0WGNCY1VN94"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVSCFB3NCYD2Z5KQ1T7Q0"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01J3GVVSG0DHXXFF1GDW64T7VJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVSKE7588KZWBNPV7N5KF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVSPW6FR4JTJBBHAQGZ1P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SBDAKVB9GPZZ1XJ3Y5W63",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{J} Échangez une carte ciblée de votre Réserve contre une carte de votre main.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{J} Scambia una carta bersaglio dalla tua Riserva con una carta dalla tua mano.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Intercambia la carta objetivo de tu reserva por una carta de tu mano.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{J} Exchange target card from your Reserve with a card from your hand.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Tausche eine Karte deiner Wahl aus deiner Reserve mit einer Karte aus deiner Hand aus.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{J} Exchange target card from your Reserve with a card from your hand."
+              }
+            ],
+            "reference": "01169"
+          },
+          "sequence": 0,
+          "id": "01KH6SBDYC83TGCT7NCYEZ51B2"
+        }
+      ],
+      "value": "{J} Exchange target card from your Reserve with a card from your hand.",
+      "id": "01KH6SBDAKVB9GPZZ1XJ3Y5W63"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/en_US\/bad47c218ed5704bfd1398ad5651a1b0.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/WEB_809cdb8eb021f0a3e85e534f6baaff25",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/WEB_3ab63f553ee38e7b3e3ded1ef916d25e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/WEB_b0794dbb2daefecfe61ec0c2fc3f90fd"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_LY_34_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_34",
+  "reference": "ALT_ALIZE_A_LY_34_R2",
+  "translations": {
+    "en_US": {
+      "name": "Nyala, Gifted Conjurer",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/en_US\/bad47c218ed5704bfd1398ad5651a1b0.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Nyala, hechicera talentosa",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/es_ES\/5498e6162590304f5c5b28289f88c8b2.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Nyala, begnadete Zauberin",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/de_DE\/5e4ca9505ceeba2c3fcbc3d04060cf5c.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Nyala, Talentuosa Evocatrice",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/it_IT\/d8cf09988479c6452333fb049b4962af.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Nyala, Habile Illusionniste",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/fr_FR\/ff140a62818725469e34757612471631.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01J3GSG0D5FP0V54EH1E0EC521",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/fr_FR\/ff140a62818725469e34757612471631.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/en_US\/bad47c218ed5704bfd1398ad5651a1b0.jpg"
+  },
+  "name": "Nyala, Gifted Conjurer",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{J} Exchange target card from your Reserve with a card from your hand."
+  },
+  "collectorNumberFormatted": "TBF-041-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

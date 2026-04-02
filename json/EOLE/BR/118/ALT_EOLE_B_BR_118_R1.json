@@ -1,0 +1,363 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"If we are to fall, let this be our last stand!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Si nous devons tomber, que ce soit notre baroud d'honneur ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HQDW7Q3R96J7WKNYQYBN",
+          "text": "\"If we are to fall, let this be our last stand!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQE7C9YVTVPM48CG5DM2",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQE2JZC00GKSKVTXGP8T",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQD62KE6KNG3QTBGMSTH",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQDPC061ZK6ZB6KCA6NJ",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "7HMBG2CDZV8YJR2PF7644VXKQ7",
+      "reference": "ALT_EOLE_B_BR_118_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYK45AWNAVNGKFGXFN5MGY"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYK4BQTPEAKV6SA40QSMJV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5ND7XHRCEE2WY5WG5K1Z1H",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Send to Reserve target Character with Base Cost #{2} or less.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Schicke einen Charakter deiner Wahl mit Basiskosten #{2} oder weniger# in die Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Manda nella Riserva un personaggio bersaglio con costo base #pari o inferiore a {2}.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Envía a la reserva un personaje objetivo con coste base de #{2} o menos.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Envoyez en Réserve un Personnage ciblé de Coût de Base #{2} ou moins.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Send to Reserve target Character with Base Cost #{2} or less.#"
+              }
+            ],
+            "reference": "02813"
+          },
+          "sequence": 0,
+          "id": "01KJ5ND9SBG84ZWPK3C8K0CNCK"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5ND7XHRCEE2WY5WG5K1Z1H",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Lorsque vous passez — Si vous contrôlez une autre Prouesse, accomplissez-moi.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When you pass — If you control another Feat, complete me.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du passt — Falls du eine weitere Heldentat kontrollierst, vollbringe mich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando passi — Se controlli un'altra Prodezza, eseguimi.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando pases — Si controlas otra proeza, complétame.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When you pass — If you control another Feat, complete me."
+              }
+            ],
+            "reference": "02811"
+          },
+          "sequence": 1,
+          "id": "01KJ5NDB4N90BP26D4Z9GA2QD4"
+        }
+      ],
+      "value": "{J} Send to Reserve target Character with Base Cost {2} or less.  When you pass — If you control another Feat, complete me.",
+      "id": "01KJ5ND7XHRCEE2WY5WG5K1Z1H"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NDCZGW68VM66G06923Q5Q",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KAB062RWXV1T2FCQK71BT"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "[COMPLETED] : Votre limite de Repères est quatre.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "[COMPLETED]: Your Landmarks limit is four.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED]: il limite dei tuoi fulcri è quattro.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED]: El límite de tus hitos es cuatro.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED]: Dein Wahrzeichen-Limit ist vier.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "[COMPLETED]: Your Landmarks limit is four."
+              }
+            ],
+            "reference": "02812"
+          },
+          "sequence": 0,
+          "id": "01KJ5NDEKWNK4QEEMD9NVQGMJZ"
+        }
+      ],
+      "value": "[[Completed]]: Your Landmarks limit is four.",
+      "id": "01KJ5NDCZGW68VM66G06923Q5Q"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_118\/JPG\/en_US\/2e070085955264162fcd00277b04ba9c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_118\/WEB_01d14c99b98ee9c240a003c1a8e79d3d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_118\/WEB_181fd9b058296e783ce67141a9e27b2f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_118_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_118",
+  "reference": "ALT_EOLE_B_BR_118_R1",
+  "translations": {
+    "it_IT": {
+      "name": "Ultima Resistenza",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_118\/JPG\/it_IT\/09827abd9830755c5cbf4c91021f5a33.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "The Last Stand",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_118\/JPG\/en_US\/2e070085955264162fcd00277b04ba9c.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Das letzte Gefecht",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_118\/JPG\/de_DE\/28ffe1e3e1d05b83b05003ed7902dc31.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "La resistencia final",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_118\/JPG\/es_ES\/c785dbe74feeb0a654c5167bf26c81c1.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "La Dernière Défense",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_118\/JPG\/fr_FR\/5fc1f647ced33bcd85b02a2d0a3e13f6.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHY907GZNMG5E3ARBVZ8B",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_118\/JPG\/fr_FR\/5fc1f647ced33bcd85b02a2d0a3e13f6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_118\/JPG\/en_US\/2e070085955264162fcd00277b04ba9c.jpg"
+  },
+  "name": "The Last Stand",
+  "elements": {
+    "MAIN_COST": "#2#",
+    "RECALL_COST": "#2#",
+    "MAIN_EFFECT": "{J} Send to Reserve target Character with Base Cost #{2} or less.#  When you pass — If you control another Feat, complete me.",
+    "ECHO_EFFECT": "[[Completed]]: Your Landmarks limit is four."
+  },
+  "collectorNumberFormatted": "ROC-036-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

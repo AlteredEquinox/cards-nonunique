@@ -1,0 +1,210 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "One of the many amazing Chimaeras that inhabit the Sea of Tumult.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'une des étonnantes Chimères qui peuplent la Mer de Tumulte.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KJ5PA2F8GHXPJDFZGKQY1EN2",
+          "text": "One of the many amazing Chimaeras that inhabit the Sea of Tumult."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "68G4DDDHEP9ERA24W4Z5JQTJ6M",
+      "reference": "ALT_DUSTERCB_P_BR_89_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASR8BVTH1X55ZDGCN6SBFS"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASR8J43W35G8XWA1QXX86F"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASR8S16X4H4Q556N8Z1YRZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASR8YRES3YK9JBTV8QVPCD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASR94H79C2CF2JEWW9CAB8"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH66NP2F8HVG4EYFS73FM1XW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Der nächste Charakter, der in dieser Runde aus deiner Hand gespielt wird, aktiviert eine seiner {r} Fähigkeiten.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: il prossimo personaggio giocato dalla tua mano in questo turno attiva una delle sue abilità {r}.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{D}: El siguiente personaje que juegues desde tu mano este turno activa una de sus habilidades {r}.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Le prochain Personnage joué de votre main ce tour-ci active l'une de ses capacités {r}. (Défaussez-moi de la Réserve pour ça.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{D} : The next Character played from your hand this turn activates one of its {r} abilities."
+              }
+            ],
+            "reference": "01938"
+          },
+          "sequence": 0,
+          "id": "01KH66NPPZMWW285K2D8YTXXR8"
+        }
+      ],
+      "value": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+      "id": "01KH66NP2F8HVG4EYFS73FM1XW"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_89\/JPG\/en_US\/9afe4c40a6a2a5295dc0c031fdde434d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_89\/WEB_689ff37c8c4b710cc4dba74b18a437b0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_89\/WEB_71ca30b716e3837d9ee000b0b4aeba13",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_89\/WEB_23320b5406885dc3659a4789a681631a"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_BR_89_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_89",
+  "reference": "ALT_DUSTERCB_P_BR_89_C",
+  "translations": {
+    "it_IT": { "name": "Kedarm", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Kedarm", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Kedarm",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_89\/JPG\/fr_FR\/d6e5753d7ff1ce6df714a3dfd9edf5b7.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Kedarm",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_89\/JPG\/en_US\/9afe4c40a6a2a5295dc0c031fdde434d.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Kedarm", "image": null, "locale": "es_ES" }
+  },
+  "id": "01K60PWD0MHJWXHXD4JH5EMHDF",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_89\/JPG\/fr_FR\/d6e5753d7ff1ce6df714a3dfd9edf5b7.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_89\/JPG\/en_US\/9afe4c40a6a2a5295dc0c031fdde434d.jpg"
+  },
+  "name": "Kedarm",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "ECHO_EFFECT": "{D} : The next Character played from your hand this turn activates one of its {r} abilities."
+  },
+  "collectorNumberFormatted": "SDUCB-005-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,255 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I can get in anywhere, VIP list or not.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Pas besoin d'être sur la liste VIP, j'ai toujours mes entrées. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZMWV01KWE4FYK381W42P",
+          "text": "\"I can get in anywhere, VIP list or not.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6FE67H19E6825SZW6T45Y0FWJ6",
+      "reference": "ALT_DUSTER_B_LY_90_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K70XA0FMTEH164Z4293D7"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K712VY0A96QSCK2WPZHG2"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K7180XW0MTEAWZPGR0D9V"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K71D7Z1JDPM45AYQHC7JR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K71JR50SZRWY94MJE3DBJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X49EG0RG53Z9QQW3TKWCXE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K72NYC22P1G34MZ625HXR"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} If I'm [IN_CONTACT], you may exchange a card from your Reserve with a card from your hand. (I'm In Contact if another player's Expedition is in my region.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Si je suis [IN_CONTACT], vous pouvez échanger une carte de votre Réserve contre une carte de votre main. (Je suis En Contact si l'Expédition d'un autre joueur est dans ma région.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{H} Si estoy [IN_CONTACT], puedes intercambiar una carta de tu reserva por una carta de tu mano. (Estoy en contacto si la expedición de otro jugador está en mi región.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Se sono [IN_CONTACT], puoi scambiare una carta dalla tua Riserva con una carta dalla tua mano. (Sono In contatto se la spedizione di un altro giocatore si trova nella mia regione.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{H} Falls ich [IN_CONTACT] bin, darfst du eine Karte aus deiner Reserve mit einer Karte aus deiner Hand austauschen. (Ich bin in Kontakt, falls die Expedition eines anderen Spielers in meiner Region ist.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} If I'm [IN_CONTACT], you may exchange a card from your Reserve with a card from your hand. (I'm In Contact if another player's Expedition is in my region.)"
+              }
+            ],
+            "reference": "01726"
+          },
+          "sequence": 0,
+          "id": "01K6X49F0Z563ATSAY8W92S2KW"
+        }
+      ],
+      "value": "{H} If I'm [In Contact], you may exchange a card from your Reserve with a card from your hand. (I'm In Contact if another player's Expedition is in my region.)",
+      "id": "01K6X49EG0RG53Z9QQW3TKWCXE"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "DOBA" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_90\/JPG\/en_US\/1cfccababe94035135a69a78ca84ae4b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_90\/WEB_c0ea0a8d1c67af52a63f0b233041610b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_90\/WEB_2da0a5239a40c57760100b1af9011b82",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_90\/WEB_06a5c35bd9b1170fc2ec8ae7831dc8ed"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_90_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_90",
+  "reference": "ALT_DUSTER_B_LY_90_C",
+  "translations": {
+    "it_IT": {
+      "name": "Nyala, Festaiola Notturna",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Nyala, Night Reveler",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_90\/JPG\/en_US\/1cfccababe94035135a69a78ca84ae4b.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Nyala, juerguista nocturna",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Nyala, Nachtschwärmerin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Nyala, Fêtarde Nocturne",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_90\/JPG\/fr_FR\/094f3741a39d19461d8ee71ca1be369f.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPTWRP6MSB5E1RSJWZ9",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_90\/JPG\/fr_FR\/094f3741a39d19461d8ee71ca1be369f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_90\/JPG\/en_US\/1cfccababe94035135a69a78ca84ae4b.jpg"
+  },
+  "name": "Nyala, Night Reveler",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} If I'm [In Contact], you may exchange a card from your Reserve with a card from your hand. (I'm In Contact if another player's Expedition is in my region.)"
+  },
+  "collectorNumberFormatted": "SDU-042-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

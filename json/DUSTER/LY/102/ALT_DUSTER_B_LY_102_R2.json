@@ -1,0 +1,221 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Reka cable-cars are the safest way to get around the city.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Les funiculaires Reka sont le moyen le plus sûr pour se déplacer en ville.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZM84D1ARZ7YQAC3XQHV1",
+          "text": "Reka cable-cars are the safest way to get around the city."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "00X2MJ5ND28CP9VMSY8FKSYF8K",
+      "reference": "ALT_DUSTER_B_LY_102_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KANR2Y4Z3FAG2TM86NDEA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KANXDZPQJ3FV622W7P049"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X486VWV7XW0BTDKJXPS6N1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} #Draw a card,# then I gain 2 Move counters.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} #Piochez une carte,# puis je gagne 2 compteurs Déplacement.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} #Ziehe eine Karte,# dann erhalte ich 2 Bewegungszähler.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} #Roba una carta# y luego gano 2 contadores de movimiento.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} #Pesca una carta,# poi ottengo 2 segnalini Movimento.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} #Draw a card,# then I gain 2 Move counters."
+              }
+            ],
+            "reference": "01757"
+          },
+          "sequence": 0,
+          "id": "01K6X487C851NN5HT6XCJ8E14E"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X486VWV7XW0BTDKJXPS6N1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T}, Spend 1 of my Move counters: One of your Expeditions moves backwards one region. If it does, your other Expedition moves forward one region.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{T}, Dépensez 1 de mes compteurs Déplacement : L'une de vos Expéditions recule d'une région. Si elle le fait, votre autre Expédition avance d'une région.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{T}, Gib 1 meiner Bewegungszähler aus: Eine deiner Expeditionen bewegt sich eine Region zurück. Falls sie das tut, bewegt sich deine andere Expedition eine Region vorwärts.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{T}, Gastar 1 de mis contadores de movimiento: Una de tus expediciones retrocede una región. Si lo hace, tu otra expedición avanza una región.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{T}, spendi 1 dei miei segnalini Movimento: una delle tue spedizioni arretra di una regione. Se lo fa, l'altra tua spedizione avanza di una regione.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{T}, Spend 1 of my Move counters: One of your Expeditions moves backwards one region. If it does, your other Expedition moves forward one region."
+              }
+            ],
+            "reference": "01756"
+          },
+          "sequence": 1,
+          "id": "01K6X487T8PA6N2ZD8GW6320DQ"
+        }
+      ],
+      "value": "{J} Draw a card, then I gain 2 Move counters.  {T}, Spend 1 of my Move counters: One of your Expeditions moves backwards one region. If it does, your other Expedition moves forward one region.",
+      "id": "01K6X486VWV7XW0BTDKJXPS6N1"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/JPG\/en_US\/6d40858e3871976d62af1d1da69014ff.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/WEB_d74a5979c76138e2c011c4ed731c043b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/WEB_50fc64387bbee6e5f666ad582eaf51e0"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_102_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_102",
+  "reference": "ALT_DUSTER_B_LY_102_R2",
+  "translations": {
+    "de_DE": { "name": "Seilbahn-Station", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Estación de teleférico",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Stazione della Funivia",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Station de Téléphérique",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/JPG\/fr_FR\/8d435f99a565a2fd7db9b2855f8a57a6.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Cable-Car Station",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/JPG\/en_US\/6d40858e3871976d62af1d1da69014ff.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVPZ637XFV6NTWT4ST7D",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/JPG\/fr_FR\/8d435f99a565a2fd7db9b2855f8a57a6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/JPG\/en_US\/6d40858e3871976d62af1d1da69014ff.jpg"
+  },
+  "name": "Cable-Car Station",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} #Draw a card,# then I gain 2 Move counters.  {T}, Spend 1 of my Move counters: One of your Expeditions moves backwards one region. If it does, your other Expedition moves forward one region."
+  },
+  "collectorNumberFormatted": "SDU-054-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

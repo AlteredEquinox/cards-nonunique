@@ -1,0 +1,293 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"The fruit of our research will lead our peoples to new heights.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Le fruit de nos recherches mènera nos peuples vers de nouveaux sommets. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJKCT6V68Z78Q6MKWB4C",
+          "text": "\"The fruit of our research will lead our peoples to new heights.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "6F83HV3KHA8HPBW8QB883ZVYM5",
+      "reference": "ALT_DUSTER_B_AX_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CONJURATION",
+      "id": "01HKAGQJMGEVS21MCGWDGG8KW0",
+      "name": "Conjuration"
+    },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K0QA2BFX36452CNG7G21F"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K0QEP703CHPA9EPFSY66F"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X42DS0GPGFAV4D5TNYWZFH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Rafraîchissement",
+                          "locale": "fr_FR",
+                          "description": "Si je vais en Réserve une fois mon effet résolu, épuisez-moi {T}."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Recuperación",
+                          "locale": "es_ES",
+                          "description": "Si voy a la reserva después de que se resuelva mi efecto, agótame {T}."
+                        },
+                        "en_US": {
+                          "displayWeb": "Cooldown",
+                          "locale": "en_US",
+                          "description": "If I go to Reserve after my effect resolves, exhaust me {T}."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Abkühlung",
+                          "locale": "de_DE",
+                          "description": "Falls ich in die Reserve gehe, nachdem mein Effekt abgeklungen ist, erschöpfe mich {T}."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Raffreddamento",
+                          "locale": "it_IT",
+                          "description": "Se vado nella Riserva dopo che il mio effetto si è risolto, consumami {T}."
+                        }
+                      },
+                      "id": "01J1QB6QEN5QANPB0QVZXECGGK",
+                      "reference": "COOLDOWN"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01K5TSSP7GMFY4AYVGSM3J0857"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "$[COOLDOWN].", "locale": "en_US" },
+                  "fr_FR": { "text": "$[COOLDOWN].", "locale": "fr_FR" },
+                  "de_DE": { "text": "$[COOLDOWN].", "locale": "de_DE" },
+                  "it_IT": { "text": "$[COOLDOWN].", "locale": "it_IT" },
+                  "es_ES": { "text": "$[COOLDOWN].", "locale": "es_ES" }
+                },
+                "text": "$[COOLDOWN]."
+              }
+            ],
+            "reference": "02072"
+          },
+          "sequence": 0,
+          "id": "01K6X42E94K6M431R7HX3VK75V"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X42DS0GPGFAV4D5TNYWZFH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K0RSX4QH3DS319E4G9W8J"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "Roba una carta y luego crea una ficha de [MANASEED] en tus hitos. (Es un permanente con «{T}, sacrifícame: Prepara un orbe de maná».)",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "Draw a card, then create a [MANASEED] token in your Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Ziehe eine Karte und erschaffe dann eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich. (Sie ist eine Bleibende Karte mit „{T}, Opfere mich: Stelle eine Manakugel bereit.“)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Pesca una carta, poi crea una pedina [MANASEED] nei tuoi fulcri. (È un permanente con \"{T}, sacrificami: ripristina una sfera di mana\".)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Piochez une carte, puis créez un jeton [MANASEED] dans vos Repères. (C'est un Permanent avec « {T}, Sacrifiez-moi : redressez un Orbe de Mana. »)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Draw a card, then create a [MANASEED] token in your Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")"
+              }
+            ],
+            "reference": "01675"
+          },
+          "sequence": 1,
+          "id": "01K6X42EPBNK0CBP985XMSV3CH"
+        }
+      ],
+      "value": "[Cooldown]. (If I go to Reserve after my effect resolves, exhaust me {T}.)  Draw a card, then create a [Manaseed] token in your Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")",
+      "id": "01K6X42DS0GPGFAV4D5TNYWZFH"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "DOBA" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_98\/JPG\/en_US\/e1f81c593096bcc80b6b588b5caf9d8f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_98\/WEB_78647a7ce943af65fdfc00756b90307a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_98\/WEB_981b1e119f3d43d9f801a6ceab549d8e"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_98_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_98",
+  "reference": "ALT_DUSTER_B_AX_98_C",
+  "translations": {
+    "es_ES": {
+      "name": "Encuentro tecnológico",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Incontro Tecnologico",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Technologische Begegnung",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Rencontre Technologique",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_98\/JPG\/fr_FR\/d67d0c9874e6ad90cc4531f0676a8fb0.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Technological Encounter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_98\/JPG\/en_US\/e1f81c593096bcc80b6b588b5caf9d8f.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVP9M4AG8XEDVXXP147D",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_98\/JPG\/fr_FR\/d67d0c9874e6ad90cc4531f0676a8fb0.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_98\/JPG\/en_US\/e1f81c593096bcc80b6b588b5caf9d8f.jpg"
+  },
+  "name": "Technological Encounter",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "[Cooldown]. (If I go to Reserve after my effect resolves, exhaust me {T}.)  Draw a card, then create a [Manaseed] token in your Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")"
+  },
+  "collectorNumberFormatted": "SDU-014-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

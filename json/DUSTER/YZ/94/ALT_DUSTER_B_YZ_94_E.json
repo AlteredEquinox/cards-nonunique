@@ -1,0 +1,226 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Congratulations. Forcing me to take the field is no small feat.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Félicitations. Me forcer à entrer sur le terrain n'est pas un mince exploit. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZXAD68TAVP58RCB5B0YR",
+          "text": "\"Congratulations. Forcing me to take the field is no small feat.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3QD18VE5G59M9TRNHNNHVF43QD",
+      "reference": "ALT_DUSTER_B_YZ_94_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01JZJPY3B2F1RSDEKWZTTQRH3P"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZJPY3HXWH519P4SW3BFJX4G"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZJPY3RZZ6YHJQ0JC038RQS0"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZJPY3ZJXMG6SMK8PZTAT9PQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZJPY46HX8RW2EN11DJKWAEE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4T6ZCASH034ZBFM1K3M9P",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{H} Paga {7} in meno per il prossimo incantesimo che giochi questo pomeriggio.",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "{H} Pay {7} less for the next Spell you play this Afternoon.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Zahle {7} weniger für den nächsten Zauber, den du an diesem Nachmittag spielst.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Payez {7} de moins pour le prochain Sort que vous jouez cet Après-midi.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{H} Paga {7} menos por el siguiente hechizo que juegues esta tarde.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{H} Pay {7} less for the next Spell you play this Afternoon."
+              }
+            ],
+            "reference": "01882"
+          },
+          "sequence": 0,
+          "id": "01K6X4T7HSP9NTGQ7RWTKT93NT"
+        }
+      ],
+      "value": "{H} Pay {7} less for the next Spell you play this Afternoon.",
+      "id": "01K6X4T6ZCASH034ZBFM1K3M9P"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_94\/JPG\/en_US\/06132bdcdda399f03b4b25796e2e3c21.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_94\/WEB_f64d320fc9682cbda381b99e7f0be279",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_94\/WEB_c4c1090e5107515c180406f12a9eb4d3"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_94_E",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_94",
+  "reference": "ALT_DUSTER_B_YZ_94_E",
+  "translations": {
+    "it_IT": {
+      "name": "Maleros, Esarca Reka",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Maleros, Reka-Hexarchin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Maleros, hexarca reka",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Maleros, Hexarque Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_94\/JPG\/fr_FR\/9cb450fa54685d35f5d1401e94c0d4d9.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Maleros, Reka Hexarch",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_94\/JPG\/en_US\/06132bdcdda399f03b4b25796e2e3c21.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVQRAXHJ05SE0PQHC9ZC",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_94\/JPG\/fr_FR\/9cb450fa54685d35f5d1401e94c0d4d9.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_94\/JPG\/en_US\/06132bdcdda399f03b4b25796e2e3c21.jpg"
+  },
+  "name": "Maleros, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "7",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} Pay {7} less for the next Spell you play this Afternoon."
+  },
+  "collectorNumberFormatted": "SDU-101-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

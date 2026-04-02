@@ -1,0 +1,268 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Ignorance is the crucible of evil.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'ignorance est le creuset du mal.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KG2J8FRSFCRB8EQSH3XY94JD",
+          "text": "Ignorance is the crucible of evil."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8FVR93XC3R7NQ3JQ8NVH",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J8FSH0QCJA7CC3KB08R7X",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J8FNHEP6TZGVX6TGKK0T9",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J8FPP05TTGYW984MHYSFW",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1ZAFYBVPEC9H8B0MRZCXAWC7G5",
+      "reference": "ALT_EOLE_A_YZ_116_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KG011V489DDMN1CJJ2XP1P9E"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG011VC0N9XEK5VC0TARKKYS"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG011VMK32HASSK1HE4C954W"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KG011VW4AHTT7FY5JJ9E1F52"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KG011W3PZGA4VS8EWJXHWMTR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QYKGV3Q80PP517K9E4M3Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez défausser une carte de votre main pour envoyer un Personnage ciblé en Réserve.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{H} You may discard a card from your hand to send target Character to Reserve.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Du darfst eine Karte aus deiner Hand ablegen, um einen Charakter deiner Wahl in die Reserve zu schicken.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes descartar una carta de tu mano para enviar a la reserva un personaje objetivo.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi scartare una carta dalla tua mano per mandare un personaggio bersaglio nella Riserva.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} You may discard a card from your hand to send target Character to Reserve."
+              }
+            ],
+            "reference": "02742"
+          },
+          "sequence": 0,
+          "id": "01KJ5QYMTR8RWSZRTRCHN1J5V8"
+        }
+      ],
+      "value": "{H} You may discard a card from your hand to send target Character to Reserve.",
+      "id": "01KJ5QYKGV3Q80PP517K9E4M3Y"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_YZ_116\/JPG\/en_US\/d579f84e5c068d24ceba0a63830a163c.jpg",
+  "assets": [],
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_YZ_116_E",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_116",
+  "reference": "ALT_EOLE_A_YZ_116_E",
+  "translations": {
+    "fr_FR": {
+      "name": "Fléau d'Ignorance",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_YZ_116\/JPG\/fr_FR\/4fc4ef56ff7b467c6df2414deffcaffc.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Plague of Ignorance",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_YZ_116\/JPG\/en_US\/d579f84e5c068d24ceba0a63830a163c.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Piaga dell'Ignoranza",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_YZ_116\/JPG\/it_IT\/03e3d6789e504714c9e026094f9b10bf.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Plage der Unwissenheit",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_YZ_116\/JPG\/de_DE\/d1c6e64dd2eab218e60d2fc5b87daa6e.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Plaga de la ignorancia",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_YZ_116\/JPG\/es_ES\/b8c2cfa01f9ae90e5f14cd01e513e394.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01KFRQ5ZDFJRCG97MRR74HNNDG",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_YZ_116\/JPG\/fr_FR\/4fc4ef56ff7b467c6df2414deffcaffc.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_YZ_116\/JPG\/en_US\/d579f84e5c068d24ceba0a63830a163c.jpg"
+  },
+  "name": "Plague of Ignorance",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "{H} You may discard a card from your hand to send target Character to Reserve."
+  },
+  "collectorNumberFormatted": "ROC-V-105-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,211 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Maleros should have been wary of the outsider.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Maleros aurait dû se méfier de l'outsider.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZW7T1VG4EC5XZPAC9D67",
+          "text": "Maleros should have been wary of the outsider."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5AK3DBRTWN8DVRS2KQ0RQ3WQ1K",
+      "reference": "ALT_DUSTER_B_YZ_88_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" },
+    {
+      "reference": "SCHOLAR",
+      "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
+      "name": "Scholar"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KP2X6WKN5J2SDHJ29MY0E"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KP33HR0R5SQAN0TKPSH5R"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KP3AABV71WEW9J8WBXFSQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KP3GB8TQYXWZBXTX2G8MG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KP3PDHS4B2HP1GDC4H15K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4RCTM8ZASWSEKGYTF4JSZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you play a #Permanent# with Base Cost {4} or more — #I gain 1 boost.# (It's the Reserve Cost if played from Reserve, or the Hand Cost if not.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous jouez un #Permanent# de Coût de Base {4} ou plus — #Je gagne 1 boost.# (C'est le Coût de Main, ou le Coût de Réserve s'il est joué depuis la Réserve.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Quando giochi un #permanente# con costo base pari o superiore a {4} — #Ottengo 1 rinforzo.# (Corrisponde al costo dalla Riserva se è giocato dalla Riserva, altrimenti al costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando juegues un #permanente# con coste base de {4} o más — #Gano 1 potenciador.# (Es su coste desde la reserva si se juega desde la reserva o, de lo contrario, es su coste desde la mano.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du eine #Bleibende Karte# mit Basiskosten {4} oder mehr spielst — #Ich erhalte 1 Verstärkung.# (Es gelten die Reservekosten, wenn aus der Reserve gespielt wird, oder die Handkosten, falls nicht.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "When you play a #Permanent# with Base Cost {4} or more — #I gain 1 boost.# (It's the Reserve Cost if played from Reserve, or the Hand Cost if not.)"
+              }
+            ],
+            "reference": "02020"
+          },
+          "sequence": 0,
+          "id": "01K6X4RDFNT04MDV142MYMGZXK"
+        }
+      ],
+      "value": "When you play a Permanent with Base Cost {4} or more — I gain 1 boost. (It's the Reserve Cost if played from Reserve, or the Hand Cost if not.)",
+      "id": "01K6X4RCTM8ZASWSEKGYTF4JSZ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_88\/JPG\/en_US\/fe8fef620bcad0f5e06a2ed0e10176f4.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_88\/WEB_f9be3bd27ca82493eb6bf8e77d0b7708",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_88\/WEB_7effd5477a179def359563f3ae609775",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_88\/WEB_b6de31b4df35afafc03432873303e8a3"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_88_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_88",
+  "reference": "ALT_DUSTER_B_YZ_88_R2",
+  "translations": {
+    "it_IT": { "name": "Novizio Studioso", "image": null, "locale": "it_IT" },
+    "es_ES": { "name": "Novato estudioso", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Eifriger Neuling", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Studious Rookie",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_88\/JPG\/en_US\/fe8fef620bcad0f5e06a2ed0e10176f4.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Novice Studieux",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_88\/JPG\/fr_FR\/82cccaea4bbdb3b78b0a4dc30ff56217.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQPPCH9PBMCQBNJZGMK",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_88\/JPG\/fr_FR\/82cccaea4bbdb3b78b0a4dc30ff56217.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_88\/JPG\/en_US\/fe8fef620bcad0f5e06a2ed0e10176f4.jpg"
+  },
+  "name": "Studious Rookie",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "When you play a #Permanent# with Base Cost {4} or more — #I gain 1 boost.# (It's the Reserve Cost if played from Reserve, or the Hand Cost if not.)"
+  },
+  "collectorNumberFormatted": "SDU-092-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

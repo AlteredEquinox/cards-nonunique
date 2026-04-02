@@ -1,0 +1,274 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "He will fight like the devil, despite his fear.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Malgré la peur, il se démènera comme un beau diable.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HY5N4R42HAYWJSBWEHCM",
+          "text": "He will fight like the devil, despite his fear."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HY6DMREKHHTNFJHDAYPS",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HY61BHMSRF4S6C23Y037",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HY3BVFXTVW1E9NP5MQFS",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HY4X71BGADW0P8K8A4CX",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5F4AMHAKRA8EAA0J258N5J2BP7",
+      "reference": "ALT_EOLE_B_YZ_111_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "SPIRIT",
+      "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
+      "name": "Spirit"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZF27H5394585BHQ97YDHZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZF2FNN9VTJG0PXC2RJC0Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K9YZF2QRZGAZA68DMEQQ9QHA"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZF2ZWT9T8Z59H04PWNTTN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZF37S49V41Q7AG0CFCM74"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q5ZY5WXKWVRSMDDCXRBY2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Lorsque vous défaussez une carte de votre main — Si je n'ai pas de boost, je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When you discard a card from your hand — If I have no boosts, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du eine Karte aus deiner Hand ablegst — Falls ich keine Verstärkungen habe, erhalte ich 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando scarti una carta dalla tua mano — Se non ho rinforzi, ottengo 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando descartes una carta de tu mano — Si no tengo potenciadores, gano 1 potenciador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When you discard a card from your hand — If I have no boosts, I gain 1 boost."
+              }
+            ],
+            "reference": "02982"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q61S64ZRD7D2C3A24QQY2"
+        }
+      ],
+      "value": "When you discard a card from your hand — If I have no boosts, I gain 1 boost.",
+      "id": "01KJ5Q5ZY5WXKWVRSMDDCXRBY2"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/JPG\/en_US\/2377e3593c985ed60af175ea3f97dc3d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/WEB_ae35944757fe5d44f6fe1c5f9df483d4",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/WEB_8ec09ba3d35ab05a10aef22fff596706",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/WEB_fd047556587370a57e0edf64a35eb25a"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_111_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_111",
+  "reference": "ALT_EOLE_B_YZ_111_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Diablotin Grincheux",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/JPG\/fr_FR\/51524f00aa15d8a4f028076e2944bc10.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Grumpy Imp",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/JPG\/en_US\/2377e3593c985ed60af175ea3f97dc3d.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Imp Brontolone",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/JPG\/it_IT\/8087ae79c6509f9331706b9cec00655a.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Diablillo gruñón",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/JPG\/es_ES\/c7c581243c704b6ec49a5c32ee504d52.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Mürrischer Wichtel",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/JPG\/de_DE\/008cd09487f36827d7cb56a7048bebe3.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01K9YWHYA4JNPD97FD2DJTK95H",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/JPG\/fr_FR\/51524f00aa15d8a4f028076e2944bc10.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_111\/JPG\/en_US\/2377e3593c985ed60af175ea3f97dc3d.jpg"
+  },
+  "name": "Grumpy Imp",
+  "elements": {
+    "MAIN_COST": "#1#",
+    "RECALL_COST": "#1#",
+    "OCEAN_POWER": "#0#",
+    "FOREST_POWER": "#1#",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "When you discard a card from your hand — If I have no boosts, I gain 1 boost."
+  },
+  "collectorNumberFormatted": "ROC-097-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

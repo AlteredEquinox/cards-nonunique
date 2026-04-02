@@ -1,0 +1,304 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Il est l'heure de laisser entrer le loup dans la bergerie !",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "If you run with the wolves, you'd best learn to howl!",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HT8FFS7QNGA5P7BZQWAY",
+          "text": "If you run with the wolves, you'd best learn to howl!"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT90JFRJWR1YHCFMWKMG",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT8RYKWPW497AAYNAY5Z",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT6G1GVPG619P3VPJ023",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT7X5CAATPG7G1992MST",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "18YSZMQT9Y8J2RKQYC66N8WZ79",
+      "reference": "ALT_EOLE_B_MU_119_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    },
+    { "reference": "SONG", "id": "01HKAGRNJ8WF0FSG4M2MEW7AJ2", "name": "Song" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K9YZ1Z9GE6VQNNPX2S8S8111"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K9YZ1ZGYP0VHWZF8VFC9EFY7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PDYK0BSA2PVRVMNTER452",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01KJ5PE0D4RT49MRW1FX2T8M5T"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5PDYK0BSA2PVRVMNTER452",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Reveal the top five cards of your deck. Choose Animals from them with total Hand Cost {7} or less and play them for free. (Don't activate their {h} abilities.) Discard the rest.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Rivela le prime cinque carte del tuo mazzo. Tra queste, scegli Animali con un costo dalla mano totale pari o inferiore a {7} e giocali senza pagarne il costo. (Non attivi le loro abilità {h}). Scarta le altre carte.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Révélez les cinq premières cartes de votre deck. Choisissez parmi elles des Animaux avec un Coût de Main total de {7} ou moins et jouez-les gratuitement. (N'activez pas leurs capacités {h}.) Défaussez le reste.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Decke die obersten fünf Karten deines Decks auf. Wähle aus ihnen Tiere mit Gesamt-Handkosten von {7} oder weniger aus und spiele sie kostenlos. (Aktiviere ihre {h} Fähigkeiten nicht.) Lege den Rest ab.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Revela las cinco primeras cartas de tu mazo. Elige de entre ellas animales con un coste desde la mano total de {7} o menos y juégalas sin coste. (No actives sus habilidades {h}.) Descarta el resto.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "Reveal the top five cards of your deck. Choose Animals from them with total Hand Cost {7} or less and play them for free. (Don't activate their {h} abilities.) Discard the rest."
+              }
+            ],
+            "reference": "02906"
+          },
+          "sequence": 1,
+          "id": "01KJ5PE23S8ZFQKB646SJQ6F59"
+        }
+      ],
+      "value": "[[Fleeting]].  Reveal the top five cards of your deck. Choose Animals from them with total Hand Cost {7} or less and play them for free. (Don't activate their {h} abilities.) Discard the rest.",
+      "id": "01KJ5PDYK0BSA2PVRVMNTER452"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "DOBA" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_119\/JPG\/en_US\/c01166ce576c856fd9614d0ac320d399.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_119\/WEB_99bf4e48d8412ce010c040df249d3adc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_119\/WEB_7b2e1c797e5347e49ca9766945f40949"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_119_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "MU_119",
+  "reference": "ALT_EOLE_B_MU_119_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Loup y es-tu ?",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_119\/JPG\/fr_FR\/255be1119a9f4a97c5644a813d1940bf.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Correre con i Lupi",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_119\/JPG\/it_IT\/95fc74bab4dd37d3962ae32ad18283d3.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Running with the Wolves",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_119\/JPG\/en_US\/c01166ce576c856fd9614d0ac320d399.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Mit den Wölfen rennen",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_119\/JPG\/de_DE\/5486214efef9ecb7ba833e977d8df866.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Correr con los lobos",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_119\/JPG\/es_ES\/4f8690f0af09ea633f242da40ed5163a.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9MQF67MKZCA9FZFD9P",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_119\/JPG\/fr_FR\/255be1119a9f4a97c5644a813d1940bf.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_119\/JPG\/en_US\/c01166ce576c856fd9614d0ac320d399.jpg"
+  },
+  "name": "Running with the Wolves",
+  "elements": {
+    "MAIN_COST": "6",
+    "RECALL_COST": "6",
+    "MAIN_EFFECT": "[[Fleeting]].  Reveal the top five cards of your deck. Choose Animals from them with total Hand Cost {7} or less and play them for free. (Don't activate their {h} abilities.) Discard the rest."
+  },
+  "collectorNumberFormatted": "ROC-071-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

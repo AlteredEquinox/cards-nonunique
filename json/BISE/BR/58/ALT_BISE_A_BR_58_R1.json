@@ -1,0 +1,320 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Comme par hasard, il joue des grosses cartes.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "What a surprise, he's pulling out the big cards.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JBT1A3X8054667P70K9AQGSE",
+          "text": "What a surprise, he's pulling out the big cards."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6ZYG53VX2Z9RCSATE7SS7X7J6H",
+      "reference": "ALT_BISE_A_BR_58_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+    "reference": "BISE",
+    "name": "Whispers from the Maze"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "8",
+      "id": "01JB23186BEGCWKV73B9HE6PNN"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "8",
+      "id": "01JB2318AFR9MB2V34KXR0Y864"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JB2318ENFHFBXCAN022YT8QH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JB2318JRR0461E02GKGB8Z9P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JB2318PXXRWWMHF9BANZHW61"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K4JNFCS920YYRVBYDGQSRZWZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Repérage",
+                          "locale": "fr_FR",
+                          "description": "Vous pouvez me jouer de votre main pour {4} avec «{h} Envoyez-moi en Réserve »."
+                        },
+                        "en_US": {
+                          "displayWeb": "Scout",
+                          "locale": "en_US",
+                          "description": "You may play me from hand for {4} with \"{h} Send me to Reserve\"."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Spähen",
+                          "locale": "de_DE",
+                          "description": "Du darfst mich für {4} mit „{h} Schicke mich in die Reserve“ aus der Hand spielen."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Explorar",
+                          "locale": "es_ES",
+                          "description": "Puedes jugarme desde la mano por {4} con «{h} Envíame a la reserva»."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Esploratore",
+                          "locale": "it_IT",
+                          "description": "Puoi giocarmi dalla mano per {4} con \"{h} Mandami nella Riserva\"."
+                        }
+                      },
+                      "id": "01JB22JDK5XZ5NW843ZXBBMPVR",
+                      "reference": "SCOUT_4"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01JB22JDP03AF8XBNGNAEAV3NE"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": { "text": "#$[SCOUT_4] {4}.#", "locale": "it_IT" },
+                  "en_US": { "text": "#$[SCOUT_4] {4}.#", "locale": "en_US" },
+                  "es_ES": { "text": "#$[SCOUT_4] {4}.#", "locale": "es_ES" },
+                  "de_DE": { "text": "#$[SCOUT_4] {4}.#", "locale": "de_DE" },
+                  "fr_FR": { "text": "#$[SCOUT_4] {4}.#", "locale": "fr_FR" }
+                },
+                "text": "#$[SCOUT_4] {4}.#"
+              }
+            ],
+            "reference": "00866"
+          },
+          "sequence": 0,
+          "id": "01K4JNFD8T67Z3E3MK8CEMTGP8"
+        },
+        {
+          "cardElement": "\/card_elements\/01K4JNFCS920YYRVBYDGQSRZWZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Send target Character #to Reserve.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Envoyez un Personnage ciblé #en Réserve.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Schicke einen Charakter deiner Wahl #in die Reserve.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Manda un personaggio bersaglio #nella Riserva.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Envía #a la reserva# un personaje objetivo.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} Send target Character #to Reserve.#"
+              }
+            ],
+            "reference": "00867"
+          },
+          "sequence": 1,
+          "id": "01K4JNFDNZ06BWY7NBP1R4XYAK"
+        },
+        {
+          "cardElement": "\/card_elements\/01K4JNFCS920YYRVBYDGQSRZWZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{R} Je gagne #3 boosts.#",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{R} Gano #3 potenciadores.#",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{R} I gain #3 boosts.#",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{R} Ottengo #3 rinforzi.#",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{R} Ich erhalte #3 Verstärkungen.#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{R} I gain #3 boosts.#"
+              }
+            ],
+            "reference": "00868"
+          },
+          "sequence": 2,
+          "id": "01K4JNFE1QECTACF31GRJ9YE7T"
+        }
+      ],
+      "value": "[Scout] {4}. (You may play me from hand for {4} with \"{h} Send me to Reserve\".)  {J} Send target Character to Reserve.  {R} I gain 3 boosts.",
+      "id": "01K4JNFCS920YYRVBYDGQSRZWZ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Kevin Sidharta" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/JPG\/en_US\/b573b4d5be935c9930c97b6baa3a4989.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/WEB_7ac81c75f76a8d06c740f9aa025b1240",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/WEB_e13a1b458419fc998aca91c2c2b492bf",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/WEB_b61e9225995f059476ac0ac0a6051416"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_A_BR_58_R1",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_58",
+  "reference": "ALT_BISE_A_BR_58_R1",
+  "translations": {
+    "de_DE": {
+      "name": "Theseus",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/JPG\/de_DE\/8ac6c5d3d937da13792a970efcbdde2c.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Teseo",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/JPG\/it_IT\/4bbd53b1fccc106e74ee550722c6b778.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Teseo",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/JPG\/es_ES\/9dc393424a5dc8ffaa73dc26d5426eaf.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Thésée",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/JPG\/fr_FR\/56eb2907464d6a3f1df68ca95e0b651a.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Theseus",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/JPG\/en_US\/b573b4d5be935c9930c97b6baa3a4989.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JB20NSDBRZ1T4RH15G0KB5F5",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/JPG\/fr_FR\/56eb2907464d6a3f1df68ca95e0b651a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_BR_58\/JPG\/en_US\/b573b4d5be935c9930c97b6baa3a4989.jpg"
+  },
+  "name": "Theseus",
+  "elements": {
+    "MAIN_COST": "8",
+    "RECALL_COST": "8",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "6",
+    "MOUNTAIN_POWER": "6",
+    "MAIN_EFFECT": "#[Scout] {4}.# (You may play me from hand for {4} with \"{h} Send me to Reserve\".)  {J} Send target Character #to Reserve.#  {R} I gain #3 boosts.#"
+  },
+  "collectorNumberFormatted": "WFM-030-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,360 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "With certain opponents, you can literally smell danger.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Face à certains adversaires, mieux vaut ne PAS avoir de flair.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HQTVVR0XFA8J4TNKN5RZ",
+          "text": "With certain opponents, you can literally smell danger."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQV6ZHF1N1ZMCGKCCDY1",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQV1RQZ6ZYA52WA4WRJZ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQTFKBK70SCC5NTR0N14",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQTNMCTG8XMCXEN15K1E",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "47Y0G135WR8PF8QDXTHM94EFK0",
+      "reference": "ALT_EOLE_B_LY_106_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYNXA0KXJWX2B8TZ5QF018"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYNXGQP00EFE3CETA5J7RM"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K9YYNXQH7MNQ7Q7MZ798CT6W"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYNXY9YN6MTFFHQ3AXMBRF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYNY52PP7SWHJ2GB8TWBQ3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NQMB87QC1CP5VFB95JG0S",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Coriaces 1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V93R4X2QDP6CPHFSR8DWC",
+                      "reference": "TOUGH_CHA_P_1"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KDZDP092BZB6PXSH1R92P"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#Other Characters in your Expeditions are [TOUGH_CHA_P_1].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Andere Charaktere in deinen Expeditionen sind [TOUGH_CHA_P_1].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Gli altri personaggi nelle tue spedizioni hanno [TOUGH_CHA_P_1].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Los otros personajes en tus expediciones tienen [TOUGH_CHA_P_1].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Les autres Personnages de vos Expéditions sont [TOUGH_CHA_P_1].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#Other Characters in your Expeditions are [TOUGH_CHA_P_1].#"
+              }
+            ],
+            "reference": "02832"
+          },
+          "sequence": 0,
+          "id": "01KJ5NQP3WBQPMB3YE3TZ76BR6"
+        }
+      ],
+      "value": "Other Characters in your Expeditions are [Tough 1].",
+      "id": "01KJ5NQMB87QC1CP5VFB95JG0S"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NQQZYKXYBTFB64S26QBFQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : Pay {1} less for the next Character you play this turn, down to a minimum of {1}.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{D}: paga {1} in meno per il prossimo personaggio che giochi in questo turno, fino a un minimo di {1}.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Zahle {1} weniger für den nächsten Charakter, den du in dieser Runde spielst, aber mindestens {1}.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Payez {1} de moins pour le prochain Personnage que vous jouez ce tour-ci, jusqu'à un minimum de {1}.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{D} : Paga {1} menos por el siguiente personaje que juegues este turno, hasta un mínimo de {1}.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{D} : Pay {1} less for the next Character you play this turn, down to a minimum of {1}."
+              }
+            ],
+            "reference": "02833"
+          },
+          "sequence": 0,
+          "id": "01KJ5NQSP5VCJF3XW3GK4JC68A"
+        }
+      ],
+      "value": "{D} : Pay {1} less for the next Character you play this turn, down to a minimum of {1}.",
+      "id": "01KJ5NQQZYKXYBTFB64S26QBFQ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Kevin Sidharta" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/JPG\/en_US\/6c8ff4103ccee5a9d9c9630e92f44d2d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/WEB_a9010838f2d929a42600896de780ff04",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/WEB_92f51b2d268b6f74e995bca47a18e433",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/WEB_747083e90ab9f241e92ba1de0fb79088"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_106_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_106",
+  "reference": "ALT_EOLE_B_LY_106_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Puzzola Fumante",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/JPG\/it_IT\/0bac6d60ce46bc47c5e5d1b3828df8f1.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Räucherstinktier",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/JPG\/de_DE\/4e63d93421ea68d9671cf8d1210c31e4.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Mouffette Fumante",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/JPG\/fr_FR\/6cf1c2847f6e8293b0a98f7a983fb54c.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Smoking Skunk",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/JPG\/en_US\/6c8ff4103ccee5a9d9c9630e92f44d2d.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Mofeta fumigadora",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/JPG\/es_ES\/cd95b55a500ea877342a327be7652d44.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY95KASD91R1027HQKNZ",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/JPG\/fr_FR\/6cf1c2847f6e8293b0a98f7a983fb54c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_106\/JPG\/en_US\/6c8ff4103ccee5a9d9c9630e92f44d2d.jpg"
+  },
+  "name": "Smoking Skunk",
+  "elements": {
+    "MAIN_COST": "#2#",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "#0#",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#Other Characters in your Expeditions are [Tough 1].#",
+    "ECHO_EFFECT": "{D} : Pay {1} less for the next Character you play this turn, down to a minimum of {1}."
+  },
+  "collectorNumberFormatted": "ROC-046-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

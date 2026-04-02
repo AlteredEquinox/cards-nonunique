@@ -1,0 +1,294 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Hop in, it's a guaranteed five-star experience!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Allez grimpe, c'est du 5 étoiles garanti ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZN7B3T0ZTWACB111C2ZY",
+          "text": "\"Hop in, it's a guaranteed five-star experience!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6R36MNQCV08NCR03TCVXHGAJ43",
+      "reference": "ALT_DUSTER_B_LY_93_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K7TN6GRJVAQ7YTZPPJ57X"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K7TTY03YJAECX8VG96B9G"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K7V0231HKJ1G1KE1V809H"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K7V57E3E43GN9KNHH6AA1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K7VBJ72MDAH4XMJ3SK6BN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4AJZVSWF73RR673VZZM43",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#Pay {3} more# to play me in a starting region.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Zahle {3} mehr,# um mich in einer Startregion zu spielen.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#Paga {3} más# para jugarme en una región inicial.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#Paga {3} in più# per giocarmi in una regione iniziale.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#Payez {3} de plus# pour me jouer dans une région de départ.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#Pay {3} more# to play me in a starting region."
+              }
+            ],
+            "reference": "01735"
+          },
+          "sequence": 0,
+          "id": "01K6X4AKGR8A0MA0KYX8T8F2XQ"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4AJZVSWF73RR673VZZM43",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} My Expedition moves backwards one region.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Mon Expédition recule d'une région.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Meine Expedition bewegt sich eine Region zurück.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Mi expedición retrocede una región.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} La mia spedizione arretra di una regione.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} My Expedition moves backwards one region."
+              }
+            ],
+            "reference": "01733"
+          },
+          "sequence": 1,
+          "id": "01K6X4AKYRSDK4C4STGQ3ZE2VZ"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4AJZVSWF73RR673VZZM43",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When I leave the Expedition zone — My Expedition moves forward one region.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je quitte la zone d'Expédition — Mon Expédition avance d'une région.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Cuando abandone la zona de expedición — Mi expedición avanza una región.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Wenn ich die Expeditionszone verlasse — Meine Expedition bewegt sich eine Region vorwärts.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando lascio l'area delle spedizioni — La mia spedizione avanza di una regione.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "When I leave the Expedition zone — My Expedition moves forward one region."
+              }
+            ],
+            "reference": "02086"
+          },
+          "sequence": 2,
+          "id": "01K6X4AMCQ7T1NTY8CFFFVSP5C"
+        }
+      ],
+      "value": "Pay {3} more to play me in a starting region.  {J} My Expedition moves backwards one region.  When I leave the Expedition zone — My Expedition moves forward one region.",
+      "id": "01K6X4AJZVSWF73RR673VZZM43"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_93\/JPG\/en_US\/157bd8880cf9136367e0fc973d82ca50.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_93\/WEB_08c06c56171293d432eccd3e47483c84",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_93\/WEB_92115b7587c95bb8716f9126eeb3ee5e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_93\/WEB_3c852d392b7fcf28d43f296df91c4e23"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_93_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_93",
+  "reference": "ALT_DUSTER_B_LY_93_R1",
+  "translations": {
+    "es_ES": {
+      "name": "Diocles, piloto de competición",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": { "name": "Diocle, Auriga", "image": null, "locale": "it_IT" },
+    "de_DE": {
+      "name": "Diocles, Rennwagenlenker",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Dioclès, Aurige",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_93\/JPG\/fr_FR\/146e1c12b135f99cdeb3aee9b2e714a6.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Diocles, Chariot Racer",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_93\/JPG\/en_US\/157bd8880cf9136367e0fc973d82ca50.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVPWD8EX089XC51CERSQ",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_93\/JPG\/fr_FR\/146e1c12b135f99cdeb3aee9b2e714a6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_93\/JPG\/en_US\/157bd8880cf9136367e0fc973d82ca50.jpg"
+  },
+  "name": "Diocles, Chariot Racer",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "#Pay {3} more# to play me in a starting region.  {J} My Expedition moves backwards one region.  When I leave the Expedition zone — My Expedition moves forward one region."
+  },
+  "collectorNumberFormatted": "SDU-044-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

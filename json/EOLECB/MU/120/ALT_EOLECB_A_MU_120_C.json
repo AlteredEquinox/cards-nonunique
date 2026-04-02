@@ -1,0 +1,259 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"My, what big teeth I have!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Ne trouves-tu pas que j'ai de grandes dents ? »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDKNHYWQ8BM8VSY5WTMTA",
+          "text": "\"My, what big teeth I have!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6DCMQ8XKZY8C68C5TFGVFHNSBM",
+      "reference": "ALT_EOLECB_A_MU_120_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6RJGNHX17M82HM17Z5ZWT"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6RJTBNC39AGRYYTR3WBHM"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01KHB6RK3W0TNHJRRW77GYM1Z5"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6RKDN2AY55ARG9E2D6N56"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6RKQB1GYY9YHH31YFZGQR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKJRTMT00HVV45JPTX6Y8E",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KZ70MRFHP4X52NWD58CQ2"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} [SABOTAGE] a Character with {V} less than or equal to mine.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{H} [SABOTAGE] un personaje con {V} menor o igual que el mío.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} [SABOTAGE] un personaggio con {V} pari o inferiore alla mia.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{H} [SABOTAGE] un Personnage avec une statistique {V} inférieure ou égale à la mienne.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Nutze [SABOTAGE] bei einem Charakter, dessen {V} gleich oder niedriger als meines ist.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} [SABOTAGE] a Character with {V} less than or equal to mine."
+              }
+            ],
+            "reference": "02909"
+          },
+          "sequence": 0,
+          "id": "01KJQKJSMEGZEFK009MB2525JZ"
+        }
+      ],
+      "value": "{H} [Sabotage] a Character with {V} less than or equal to mine.",
+      "id": "01KJQKJRTMT00HVV45JPTX6Y8E"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/JPG\/en_US\/61d67f2ec932c6819e46cefa8e47e634.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/WEB_8f4cefdcaba717e7937826df23cc755d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/WEB_df0dc82db49937d68738870440974595",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/WEB_39f6c1d68aea8d3f382f17c6a6378990"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_MU_120_C",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_MU_120_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Le Grand Méchant Loup",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/JPG\/fr_FR\/9de14d6eca9599a197e7d2249412de85.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "The Big Bad Wolf",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/JPG\/en_US\/61d67f2ec932c6819e46cefa8e47e634.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "El Lobo Feroz",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/JPG\/es_ES\/97cf50c9a884b88716f06a8383858b9f.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Der große böse Wolf",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/JPG\/de_DE\/54ca2c6808d6042795340051d32d17f4.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Lupo Cattivo",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/JPG\/it_IT\/bb9a0a4d65a5fb9dbae84a0610b874dc.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01KH6E45CW28WABMQN5EGDMBTG",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/JPG\/fr_FR\/9de14d6eca9599a197e7d2249412de85.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_120\/JPG\/en_US\/61d67f2ec932c6819e46cefa8e47e634.jpg"
+  },
+  "name": "The Big Bad Wolf",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} [Sabotage] a Character with {V} less than or equal to mine."
+  },
+  "collectorNumberFormatted": "ROCCB-V-063-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

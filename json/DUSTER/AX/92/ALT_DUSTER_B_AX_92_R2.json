@@ -1,0 +1,251 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "In the wild rush to find new uses for Manaseeds, it seems the sky's the limit…",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "La course folle aux utilisations des Graines de Mana ne semblait pas connaître de limite.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJ8DXG3MVMS5ECM6QH63",
+          "text": "In the wild rush to find new uses for Manaseeds, it seems the sky's the limit…"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "31KVS5FCZD973AQ79Y65C94VKW",
+      "reference": "ALT_DUSTER_B_AX_92_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K03P9YSQS581EAFRCJQZ4"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K03V9C1ZE2GFY59CW3PC4"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K03ZWR88ZQCXMB0K8VXSP"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K044EEHEVAQXZ0JGA7WMK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K048Z8XBAV0GJ3RGBD052"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X412SDMDWY25Q1H6HBEFW5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWJN7XWNHXDZM9ERS1VAAW"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} You may exhaust ({T}) target card in #any player's# Reserve. If you do, create a [MANASEED] token in #that player's# Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez épuiser ({T}) une carte ciblée dans la Réserve #de n'importe quel joueur.# Si vous le faites, créez un jeton [MANASEED] dans les Repères #de ce joueur.#",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{J} Puoi consumare ({T}) una carta bersaglio nella Riserva di #un giocatore qualsiasi.# Se lo fai, crea una pedina [MANASEED] nei fulcri di #quel giocatore.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Puedes agotar ({T}) una carta objetivo en la reserva de #cualquier jugador.# Si lo haces, crea una ficha de [MANASEED] en los hitos de #ese jugador.#",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{J} Du darfst eine Karte deiner Wahl in der Reserve eines #beliebigen Spielers# erschöpfen ({T}). Falls du das tust, erschaffe eine [MANASEED]-Marke im Wahrzeichen-Bereich #dieses Spielers.#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{J} You may exhaust ({T}) target card in #any player's# Reserve. If you do, create a [MANASEED] token in #that player's# Landmarks."
+              }
+            ],
+            "reference": "01928"
+          },
+          "sequence": 0,
+          "id": "01K6X4138YKQ3J8D96EMBNE6JR"
+        }
+      ],
+      "value": "{J} You may exhaust ({T}) target card in any player's Reserve. If you do, create a [Manaseed] token in that player's Landmarks.",
+      "id": "01K6X412SDMDWY25Q1H6HBEFW5"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_92\/JPG\/en_US\/458061152935084dbb6fd97adfeef986.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_92\/WEB_57d02fa6c54e9232c20a15fb72cf4225",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_92\/WEB_d0079c35d6e0dd6b302f2fa0209a7d25",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_92\/WEB_98289267c328f3c79296263070b73e8a"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_92_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_92",
+  "reference": "ALT_DUSTER_B_AX_92_R2",
+  "translations": {
+    "es_ES": { "name": "Bioingeniera reka", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Bioingegnera Reka", "image": null, "locale": "it_IT" },
+    "de_DE": {
+      "name": "Reka-Bioingenieurin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Reka Bioengineer",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_92\/JPG\/en_US\/458061152935084dbb6fd97adfeef986.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Bioingénieure Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_92\/JPG\/fr_FR\/fe2b72c4726592ffb5258af25d6bc8fa.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVP43JJ9E7B039H7YAQ0",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_92\/JPG\/fr_FR\/fe2b72c4726592ffb5258af25d6bc8fa.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_92\/JPG\/en_US\/458061152935084dbb6fd97adfeef986.jpg"
+  },
+  "name": "Reka Bioengineer",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "#3#",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "{J} You may exhaust ({T}) target card in #any player's# Reserve. If you do, create a [Manaseed] token in #that player's# Landmarks."
+  },
+  "collectorNumberFormatted": "SDU-010-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

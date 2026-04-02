@@ -1,0 +1,297 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Energy and persistence conquer all things.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'énergie et la persévérance surmontent tous les obstacles.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01J3JJDBE42Z4E0KW8NYD34SY0",
+          "text": "Energy and persistence conquer all things."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "7WP7Q8M79M8K5SX6F27TCKWSRT",
+      "reference": "ALT_ALIZE_A_AX_35_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVGFE7AR0G0DKH78X3ADV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVGJVMX5RRZW8Y7C32WF6"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVGP8HJJ5DGBFTXYB0HSW"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01J3GVVGSMY4E3B96AF2S6ED2K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVGX27HSBKM55EA3P4EQR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SA6ACRB742114C3DHV6SV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "Puedes jugar cartas agotadas de tu reserva.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Du darfst erschöpfte Karten aus deiner Reserve spielen.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Vous pouvez jouer les cartes épuisées de votre Réserve.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "You may play exhausted cards from your Reserve.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Puoi giocare carte consumate dalla tua Riserva.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "You may play exhausted cards from your Reserve."
+              }
+            ],
+            "reference": "00419"
+          },
+          "sequence": 0,
+          "id": "01KH6SA6XPZD2VEPHAFBRNM1K3"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH6SA6ACRB742114C3DHV6SV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Exhausted Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve, then exhaust it {T}."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Erschöpfter Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve, dann erschöpfe sie {T}."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci-Consuma",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva, poi consumala {T}."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece y agota",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva y luego agótala {T}."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez Épuisé",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve, puis épuisez-la {T}."
+                        }
+                      },
+                      "id": "01J1QB6AA2K2V8S60PJSCJGR46",
+                      "reference": "EXHAUSTED_RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01K1Z6RX2QEWZFH8MQSZABSY1W"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{R} $[EXHAUSTED_RESUPPLY].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{R} $[EXHAUSTED_RESUPPLY].#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{R} $[EXHAUSTED_RESUPPLY].#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{R} $[EXHAUSTED_RESUPPLY].#",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#{R} $[EXHAUSTED_RESUPPLY].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{R} $[EXHAUSTED_RESUPPLY].#"
+              }
+            ],
+            "reference": "01971"
+          },
+          "sequence": 1,
+          "id": "01KH6SA7DYD2WN5C84EY7JQ580"
+        }
+      ],
+      "value": "You may play exhausted cards from your Reserve.  {R} [Exhausted Resupply]. (Put the top card of your deck in Reserve, then exhaust it {T}.)",
+      "id": "01KH6SA6ACRB742114C3DHV6SV"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/en_US\/643fee402944ba54f2b5c2e8c7306ebf.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/WEB_633225e9bf5942ef82fcff9bc8f94a36",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/WEB_e92f1de750c6aa55a18e88d28cb32cc1",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/WEB_9824bd19b9054c72c900b1d98a94def5"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_AX_35_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_35",
+  "reference": "ALT_ALIZE_A_AX_35_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Vaike, Pioniera dell'Energia",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/it_IT\/243eea2e0f6e8f73abb258a81e84a159.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Vaike, Energy Pioneer",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/en_US\/643fee402944ba54f2b5c2e8c7306ebf.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Vaike, Energie-Pionierin",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/de_DE\/a5866173ed1f37f57a856fd8d8b66964.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Vaike, pionera de la energía",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/es_ES\/c329f3d56d4b53c6419800d5c55b21e5.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Vaike, l'Énergéticienne",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/fr_FR\/effdc3abc7f62808d2f092eea8337ded.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01J3GQK51VM99PGBHKNBFY2D7G",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/fr_FR\/effdc3abc7f62808d2f092eea8337ded.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/en_US\/643fee402944ba54f2b5c2e8c7306ebf.jpg"
+  },
+  "name": "Vaike, Energy Pioneer",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "#1#",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "You may play exhausted cards from your Reserve.  #{R} [Exhausted Resupply].# (Put the top card of your deck in Reserve, then exhaust it {T}.)"
+  },
+  "collectorNumberFormatted": "TBF-005-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

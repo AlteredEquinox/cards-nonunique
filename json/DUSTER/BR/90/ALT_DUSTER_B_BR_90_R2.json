@@ -1,0 +1,283 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The lowest point of the wave is where she draws all her strength.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "C'est au creux de la vague qu'elle puise sa force.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZKA5YQBBFAPGTRZR7WNT",
+          "text": "The lowest point of the wave is where she draws all her strength."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6D4PE5H5519PBAGYMMGJYBVJQT",
+      "reference": "ALT_DUSTER_B_BR_90_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K2NP96P94C23RB1A36EBR"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K2NV1EQ4TM2BG6XK4AVE7"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K2P0HEQHJR9HZ47ZS83EY"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K2P5B22RRS1H4P2HDWTSF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K2PASEZFF50BQJDD7NDHB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4505H1H8M79RMPAZA9P3R",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K2M1VSNJSZ2XPDZZER07K"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Foncer",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Rush",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Forcieren",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Incalzare",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Presionar",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V64QPQM2T8R3TDKAJY866",
+                      "reference": "RUSH"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K2MBFH1TVPZFAF1M3HQTQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} #[RESUPPLY], then# you may [RUSH].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} Nutze #[RESUPPLY], dann# darfst du [RUSH] nutzen.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{R} #[RESUPPLY] y luego# puedes [RUSH].",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{R} #[RESUPPLY], poi# puoi [RUSH].",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{R} #[RESUPPLY], puis# vous pouvez [RUSH]. (Jouer une autre carte immédiatement.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} #[RESUPPLY], then# you may [RUSH]."
+              }
+            ],
+            "reference": "01689"
+          },
+          "sequence": 0,
+          "id": "01K6X450P0NBPDVQFPWBZDZDCY"
+        }
+      ],
+      "value": "{R} [Resupply], then you may [Rush].",
+      "id": "01K6X4505H1H8M79RMPAZA9P3R"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_90\/JPG\/en_US\/ad5f65e69bac65a9a45db30aec491fcd.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_90\/WEB_055339ec69b8befb5e6a4954bd0352ca",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_90\/WEB_e9dbdf6c62ef6dde4bf86f6528348556",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_90\/WEB_0b3aff91729d0ddc831192d3a4922760"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_90_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_90",
+  "reference": "ALT_DUSTER_B_BR_90_R2",
+  "translations": {
+    "de_DE": { "name": "Isabel Letham", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Isabel Letham", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Isabel Letham",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_90\/JPG\/en_US\/ad5f65e69bac65a9a45db30aec491fcd.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": { "name": "Isabel Letham", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Isabel Letham",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_90\/JPG\/fr_FR\/ae1cb31987988cad70288ca9da504822.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPJM1BFRD0VTVMMV0VG",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_90\/JPG\/fr_FR\/ae1cb31987988cad70288ca9da504822.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_90\/JPG\/en_US\/ad5f65e69bac65a9a45db30aec491fcd.jpg"
+  },
+  "name": "Isabel Letham",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "#2#",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{R} #[Resupply], then# you may [Rush]."
+  },
+  "collectorNumberFormatted": "SDU-023-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

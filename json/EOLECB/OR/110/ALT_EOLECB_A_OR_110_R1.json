@@ -1,0 +1,328 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": { "text": "\"Extraction imminent!\"", "locale": "en_US" },
+            "fr_FR": { "text": "« Extraction imminente ! »", "locale": "fr_FR" }
+          },
+          "id": "01KHBKDKPRT5033HQ29R2XNBYN",
+          "text": "\"Extraction imminent!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "670FAKVH7B8JNAYK6WR2ZE1Q43",
+      "reference": "ALT_EOLECB_A_OR_110_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6RT57EDD39GB3WYZDTF4Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6RTF18S4M43R9N4R6K070"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6RTRS08TEK5BFWRE3RZ92"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6RV2GQE8BXS6Z7VCKS713"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6RVCBJNZDNR2P0FW83ZDJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKK0VC6Z36XWFYCEWRFVKG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "s'Élève",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascends",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufsteigend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascende",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Asciende",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V6RJTMG7BZB84M6HA21S4",
+                      "reference": "ASCENDS"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M4E66NA85AJVR3WTTQ8R4"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J}# My Expedition [ASCENDS].",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# La mia spedizione [ASCENDS].",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# Meine Expedition ist [ASCENDS].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# Mi expedición [ASCENDS].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Mon Expédition [ASCENDS].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{J}# My Expedition [ASCENDS]."
+              }
+            ],
+            "reference": "02936"
+          },
+          "sequence": 0,
+          "id": "01KJQKK1FDNVN69E9RXQWCXM8A"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJQKK0VC6Z36XWFYCEWRFVKG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "grâce à l'Élévation",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "due to Ascension",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "per via dell'Ascesa",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "aufgrund von Aufsteigend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "por ascender",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YZ68E7Q6ZTFSPSGRVNWMTM",
+                      "reference": "DUE_TO_ASCENSION"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M4H6NKZSRZZRRSPYMCCBK"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When my Expedition moves forward [DUE_TO_ASCENSION] — Draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn sich meine Expedition [DUE_TO_ASCENSION] vorwärts bewegt — Ziehe eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Cuando mi expedición avance [DUE_TO_ASCENSION] — Roba una carta.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque mon Expédition avance [DUE_TO_ASCENSION] — Piochez une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Quando la mia spedizione avanza [DUE_TO_ASCENSION] — Pesca una carta.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "When my Expedition moves forward [DUE_TO_ASCENSION] — Draw a card."
+              }
+            ],
+            "reference": "02937"
+          },
+          "sequence": 1,
+          "id": "01KJQKK1ZK5NHXT2W4Z7J2FX5A"
+        }
+      ],
+      "value": "{J} My Expedition [Ascends].  When my Expedition moves forward [due to Ascension] — Draw a card.",
+      "id": "01KJQKK0VC6Z36XWFYCEWRFVKG"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "DOBA" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/JPG\/en_US\/da2f0edeb6e53e6f60b942842d9ae9d2.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/WEB_df66cb1e50f9b4cf9cf9a7802e878c64",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/WEB_990cb0e130438fab921fe43ec92010c0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/WEB_cf9b02d196209e96330b65e9b937f0cf"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_OR_110_R1",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_OR_110_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Oiseau de Tonnerre",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/JPG\/fr_FR\/886f9506ca4da588589da30ed42a1eb0.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Thunderbird",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/JPG\/en_US\/da2f0edeb6e53e6f60b942842d9ae9d2.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Ave del trueno",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/JPG\/es_ES\/581642706571c58acba35be7c331e235.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Donnervogel",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/JPG\/de_DE\/9b9b9d9f2ca8ab26258dc9e27730c40d.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Uccello del Tuono",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/JPG\/it_IT\/6291d32c95ae2e13f4d8fb3bcc2cd7f4.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01KH6E45E953N33VS2HD2TRY64",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/JPG\/fr_FR\/886f9506ca4da588589da30ed42a1eb0.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_110\/JPG\/en_US\/da2f0edeb6e53e6f60b942842d9ae9d2.jpg"
+  },
+  "name": "Thunderbird",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#{J}# My Expedition [Ascends].  When my Expedition moves forward [due to Ascension] — Draw a card."
+  },
+  "collectorNumberFormatted": "ROCCB-V-081-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,270 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Your victory is a victory for both our peoples!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Votre victoire est une victoire pour nos deux peuples ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZXXJ77H339GP5AEJ5FZD",
+          "text": "\"Your victory is a victory for both our peoples!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "1RKDYPQ9DQ9NE8NSHWRS6NG5T6",
+      "reference": "ALT_DUSTER_B_YZ_97_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    { "reference": "BOON", "id": "01HKAGPHVVK20XKBXKCZNGRTFD", "name": "Boon" },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KRYFQ7HXQ2S9P97HFYQDJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KRYP392NGQPQ5CV2JTQVY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4TW4R82Y4ASMWRRP3YXXJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Distribute 2 boosts among any target Characters in play.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Verteile 2 Verstärkungen nach Belieben auf Charaktere deiner Wahl im Spiel.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Distribuye 2 potenciadores entre cualquier número de personajes objetivo en juego.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Répartissez 2 boosts parmi les Personnages ciblés en jeu.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Distribuisci 2 rinforzi tra un numero qualsiasi di personaggi bersaglio in gioco.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "Distribute 2 boosts among any target Characters in play."
+              }
+            ],
+            "reference": "01868"
+          },
+          "sequence": 0,
+          "id": "01K6X4TWR133MXBX4VFX4RRJ74"
+        }
+      ],
+      "value": "Distribute 2 boosts among any target Characters in play.",
+      "id": "01K6X4TW4R82Y4ASMWRRP3YXXJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4TXADWVJCEY5GCW7RKDDY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "After You",
+                          "locale": "en_US",
+                          "description": "End your turn as if you had played a card. You may still play cards later this Day."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nach dir",
+                          "locale": "de_DE",
+                          "description": "Beende deine Runde, als ob du eine Karte gespielt hättest. Du darfst auch später an diesem Tag noch eine Karte spielen."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dopo di te",
+                          "locale": "it_IT",
+                          "description": "Termina il tuo turno come se avessi giocato una carta. Puoi comunque giocare carte più avanti in questa giornata."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Después de ti",
+                          "locale": "es_ES",
+                          "description": "Termina tu turno como si hubieras jugado una carta. A lo largo del día actual, puedes jugar más cartas."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Après vous",
+                          "locale": "fr_FR",
+                          "description": "Terminez votre tour comme si vous aviez joué une carte. Vous pouvez encore jouer des cartes plus tard ce Jour-ci."
+                        }
+                      },
+                      "id": "01HKAGXB4C1CCRNYV6K6BFCHMQ",
+                      "reference": "AFTER_YOU"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JMCJ4ESGHGCK5TV56PHASAWQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{D} : [AFTER_YOU]. (Défaussez-moi de la Réserve pour terminer votre tour comme si vous aviez joué une carte.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{D} : [AFTER_YOU]. (Lege mich aus deiner Reserve ab, um deine Runde zu beenden, als ob du eine Karte gespielt hättest.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: [AFTER_YOU]. (Scartami dalla Riserva per terminare il tuo turno come se avessi giocato una carta.)",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "{D} : [AFTER_YOU]. (Discard me from Reserve to end your turn as if you had played a card.)",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{D} : [AFTER_YOU]. (Descártame de la reserva para acabar el turno como si hubieras jugado una carta.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{D} : [AFTER_YOU]. (Discard me from Reserve to end your turn as if you had played a card.)"
+              }
+            ],
+            "reference": "01139"
+          },
+          "sequence": 0,
+          "id": "01K6X4TXX1GRPJVMMENQ23F40C"
+        }
+      ],
+      "value": "{D} : [After You]. (Discard me from Reserve to end your turn as if you had played a card.)",
+      "id": "01K6X4TXADWVJCEY5GCW7RKDDY"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Victor Canton" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/JPG\/en_US\/c3334137723d9a1a1ad23ff618367a21.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/WEB_80fc03c3cad19418528272bd6a4b7465",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/WEB_64b9059d8e71e5354a3f6be9fab61932"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_97_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_97",
+  "reference": "ALT_DUSTER_B_YZ_97_C",
+  "translations": {
+    "it_IT": { "name": "Incontro Sportivo", "image": null, "locale": "it_IT" },
+    "de_DE": {
+      "name": "Sportliche Begegnung",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Sports Encounter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/JPG\/en_US\/c3334137723d9a1a1ad23ff618367a21.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Rencontre Sportive",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/JPG\/fr_FR\/5000692ccd4958f2547c6d212e40eb99.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": { "name": "Encuentro deportivo", "image": null, "locale": "es_ES" }
+  },
+  "id": "01JYP9SVQSZC2VV46PJC59X12N",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/JPG\/fr_FR\/5000692ccd4958f2547c6d212e40eb99.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/JPG\/en_US\/c3334137723d9a1a1ad23ff618367a21.jpg"
+  },
+  "name": "Sports Encounter",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "4",
+    "MAIN_EFFECT": "Distribute 2 boosts among any target Characters in play.",
+    "ECHO_EFFECT": "{D} : [After You]. (Discard me from Reserve to end your turn as if you had played a card.)"
+  },
+  "collectorNumberFormatted": "SDU-102-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

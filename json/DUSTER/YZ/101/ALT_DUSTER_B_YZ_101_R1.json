@@ -1,0 +1,258 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Moyo uses it to capture the essence of illusion.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Par son biais, Moyo capture l'essence de l'illusion.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZV6CZSWC7HM1BHWF0VVR",
+          "text": "Moyo uses it to capture the essence of illusion."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZ2WM1WQ8ARN68RNGJZCB",
+        "reference": "EXPEDITION_PERMANENT",
+        "name": "EXPEDITION_PERMANENT"
+      },
+      "id": "2FQN805CX79NSA6MNVNVN2D43D",
+      "reference": "ALT_DUSTER_B_YZ_101_C"
+    }
+  ],
+  "cardType": {
+    "reference": "EXPEDITION_PERMANENT",
+    "id": "01J1Q7ASAYXTSM3DH772C70PV5",
+    "name": "Expedition Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "GEAR", "id": "01J1QB6WRN6E3REFHBQ6V24VA3", "name": "Gear" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KTQ1YKWD13JGDNTZHY04V"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KTQ8CSKQ08CZ9B1QVZB1J"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4Q0A2WFNCJDWHRBGR6TW1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{J} Consuma una carta bersaglio nella Riserva.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Agota una carta objetivo en reserva.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Épuisez une carte ciblée en Réserve.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Erschöpfe eine Karte deiner Wahl in der Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "{J} Exhaust target card in Reserve.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "{J} Exhaust target card in Reserve."
+              }
+            ],
+            "reference": "00595"
+          },
+          "sequence": 0,
+          "id": "01K6X4Q0WKTBJYWFG2H7NR4Z7A"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4Q0A2WFNCJDWHRBGR6TW1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Mana-Motte 2\/2\/2",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "2\/2\/2 Phalène de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Polilla de maná 2\/2\/2",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Mana Moth 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Falena di Mana 2\/2\/2",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1QBE0WTGPC1NV3KZ8A7GMYT",
+                      "reference": "MANA_MOTH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KTRZY2FB41DFEM6YFM9K9"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T}, {X} : Create X [MANA_MOTH] Illusion tokens in my Expedition. X can't be higher than the total number of exhausted cards in Reserve and #other exhausted Permanents you control.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{T}, {X} : Créez X jetons Illusion [MANA_MOTH] dans mon Expédition. X ne peut dépasser le total des cartes épuisées en Réserve #et des autres Permanents épuisés que vous contrôlez.#",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{T}, {X} : Crea X fichas de ilusión [MANA_MOTH] en mi expedición. X no puede ser mayor que el número de cartas agotadas en reserva #y de otros permanentes agotados que controlas.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{T}, {X}: crea X pedine Illusione [MANA_MOTH] nella mia spedizione. X non può essere superiore alla somma delle carte consumate nella Riserva #e degli altri permanenti consumati che controlli.#",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{T}, {X} : Erschaffe X [MANA_MOTH]-Illusionsmarken in meiner Expedition. X kann nicht höher sein als die Gesamtanzahl der erschöpften Karten in der Reserve #und der anderen erschöpften Bleibenden Karten, die du kontrollierst.#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{T}, {X} : Create X [MANA_MOTH] Illusion tokens in my Expedition. X can't be higher than the total number of exhausted cards in Reserve and #other exhausted Permanents you control.#"
+              }
+            ],
+            "reference": "01880"
+          },
+          "sequence": 1,
+          "id": "01K6X4Q1BZSQFV5FCXH4W6VD4J"
+        }
+      ],
+      "value": "{J} Exhaust target card in Reserve.  {T}, {X} : Create X [Mana Moth 2\/2\/2] Illusion tokens in my Expedition. X can't be higher than the total number of exhausted cards in Reserve and other exhausted Permanents you control.",
+      "id": "01K6X4Q0A2WFNCJDWHRBGR6TW1"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_101\/JPG\/en_US\/043f05f7c6b487dae0fffd77aa924b02.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_101\/WEB_fa7cc38678cd5575b5768887d6338eed",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_101\/WEB_7698a736582f042be05567284f03947f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_101_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_101",
+  "reference": "ALT_DUSTER_B_YZ_101_R1",
+  "translations": {
+    "en_US": {
+      "name": "Mothcatcher Wand",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_101\/JPG\/en_US\/043f05f7c6b487dae0fffd77aa924b02.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Varita atrapapolillas",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Bacchetta Acchiappafalene",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Mottenfängerstab", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Attrape-Phalènes",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_101\/JPG\/fr_FR\/26fefaccf2e097a687986df5bb054010.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQTBAMQ4D6NMZA2YG95",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_101\/JPG\/fr_FR\/26fefaccf2e097a687986df5bb054010.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_101\/JPG\/en_US\/043f05f7c6b487dae0fffd77aa924b02.jpg"
+  },
+  "name": "Mothcatcher Wand",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} Exhaust target card in Reserve.  {T}, {X} : Create X [Mana Moth 2\/2\/2] Illusion tokens in my Expedition. X can't be higher than the total number of exhausted cards in Reserve and #other exhausted Permanents you control.#"
+  },
+  "collectorNumberFormatted": "SDU-107-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

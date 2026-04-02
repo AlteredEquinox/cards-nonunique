@@ -1,0 +1,292 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "La recherche du progrès est une faim insatiable.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "The pursuit of progress is like an insatiable hunger.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KG2J88H7TJPQM68GRV4DQJK2",
+          "text": "The pursuit of progress is like an insatiable hunger."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J88JMPE7Z2TX2WQX0H0X6",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J88HY0Z573WMCA98QX879",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J88EFR9QJXXK3KC1KGZDG",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J88F6PT7B6WNM3X6EY6VK",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2AWXS6MH0E9ZATND34F7H0KSFC",
+      "reference": "ALT_EOLE_A_AX_117_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KG00X2QMCKASEN61PMZ3SBRR"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KG00X2Z68SHDFHN64MD3KJYZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG00X36PQDQT3PDSF0SX2XKP"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KG00X3ED0YZRXZZB7B6TBZ48"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG00X3NX9K4XGD1N245M64YS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QQKV3Y4FRE5BFSA63ABSW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "PLACEHOLDER", "locale": "en_US" },
+                  "fr_FR": { "text": "PLACEHOLDER", "locale": "fr_FR" },
+                  "de_DE": { "text": "PLACEHOLDER", "locale": "de_DE" },
+                  "es_ES": { "text": "PLACEHOLDER", "locale": "es_ES" },
+                  "it_IT": { "text": "PLACEHOLDER", "locale": "it_IT" }
+                },
+                "text": "PLACEHOLDER"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5QQN5WW9VQ1Y520B8CXZV8"
+        }
+      ],
+      "value": "PLACEHOLDER",
+      "id": "01KJ5QQKV3Y4FRE5BFSA63ABSW"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QQPHJP26YAX5B4T91TEGD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "PLACEHOLDER", "locale": "en_US" },
+                  "fr_FR": { "text": "PLACEHOLDER", "locale": "fr_FR" },
+                  "de_DE": { "text": "PLACEHOLDER", "locale": "de_DE" },
+                  "es_ES": { "text": "PLACEHOLDER", "locale": "es_ES" },
+                  "it_IT": { "text": "PLACEHOLDER", "locale": "it_IT" }
+                },
+                "text": "PLACEHOLDER"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5QQQJZWYJDVD8CMN5PX3PP"
+        }
+      ],
+      "value": "PLACEHOLDER",
+      "id": "01KJ5QQPHJP26YAX5B4T91TEGD"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Khoa Viet" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/en_US\/423744675d0a9e671c843ad87e87bde8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/WEB_7391b92cde34906f77c38f5098320c55",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/WEB_3688c302b5fcfc564e92395fc52e8c18"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_AX_117_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_117",
+  "reference": "ALT_EOLE_A_AX_117_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Fléau d'Avarice",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/fr_FR\/ef98ca7aedd5c321708eabe8576b0cb4.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Piaga dell'Avarizia",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/it_IT\/81633c2b728998ea5585d76469edbc46.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Plague of Avarice",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/en_US\/423744675d0a9e671c843ad87e87bde8.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Plaga de la avaricia",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/es_ES\/c062fe2f6857843d8681e47071d87292.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Plage der Habgier",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/de_DE\/6203b4d783d591ebc5dc5565d68ef67c.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01KFRQ5ZCR2B9GTWMDXJ1K08VB",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/fr_FR\/ef98ca7aedd5c321708eabe8576b0cb4.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/en_US\/423744675d0a9e671c843ad87e87bde8.jpg"
+  },
+  "name": "Plague of Avarice",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "PLACEHOLDER",
+    "ECHO_EFFECT": "PLACEHOLDER"
+  },
+  "collectorNumberFormatted": "ROC-V-014-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

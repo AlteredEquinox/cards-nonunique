@@ -1,0 +1,229 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Hate is a spear pointed at one's own heart",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "La haine est une lance tournée vers son propre cœur.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JNRGBWQAR2RGXT37DHCQYQ63",
+          "text": "Hate is a spear pointed at one's own heart"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "1HES24W5YB9HWBB03CXBV6XHKW",
+      "reference": "ALT_CYCLONE_B_BR_65_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+    "reference": "CYCLONE",
+    "name": "Skybound Odyssey"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JN9HNDXESZGQSX75X8D6P0HJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JN9HNDXESZGQSX75X8D6P0HK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KGQD8V2RHVDAKWFCH4Z8FQ7R",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "2\/2\/2 Halua",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Halua 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Halua 2\/2\/2",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Halua 2\/2\/2",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Halua 2\/2\/2",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V5VJ23N0FYWQ7GA34PTKC",
+                      "reference": "HALUA"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JPYFEESG7QPNJ9FX5GRAMY8B"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you pass first (stop taking turns before other players) — I gain 1 Quest counter. Then, if I have 3 or more Quest counters, create a [HALUA] token in your Companion Expedition. (It's a Leviathan Companion token with \"If your Hero has 5 or more Quest counters, I am Gigantic.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du zuerst passt (vor anderen Spielern keine Runden mehr spielst) — Ich erhalte 1 Questzähler. Dann, falls ich mindestens 3 Questzähler habe, erschaffe eine [HALUA]-Marke in deiner Gefährten-Expedition. (Dies ist eine Leviathan-Gefährtenmarke mit „Falls dein Held mindestens 5 Questzähler hat, bin ich Gigantisch.“)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Cuando pases primero (cuando dejes de jugar turnos antes que los otros jugadores) — Gano 1 contador de misión. Luego, si tengo 3 o más contadores de misión, crea una ficha de [HALUA] en tu expedición del compañero. (Es una ficha de compañero leviatán con \"Si tu héroe tiene 5 o más contadores de misión, soy gigante.\")",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous passez en premier (vous arrêtez de jouer des tours avant les autres joueurs) — Je gagne 1 compteur Quête. Puis, si j'ai au moins 3 compteurs Quête, créez un jeton [HALUA] dans votre Expédition Compagnon. (C'est un jeton Compagnon Léviathan avec « Si votre Héros a au moins 5 compteurs Quête, je suis Gigantesque. »)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Quando passi per primo (smetti di effettuare turni prima degli altri giocatori) — Ottengo 1 segnalino Missione. Poi, se ho 3 o più segnalini Missione, crea una pedina [HALUA] nella spedizione del tuo compagno. (È una pedina Compagno Leviatano con \"Se il tuo eroe ha 5 o più segnalini Missione, ho Colossale.\")",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "When you pass first (stop taking turns before other players) — I gain 1 Quest counter. Then, if I have 3 or more Quest counters, create a [HALUA] token in your Companion Expedition. (It's a Leviathan Companion token with \"If your Hero has 5 or more Quest counters, I am Gigantic.\")"
+              }
+            ],
+            "reference": "01492"
+          },
+          "sequence": 0,
+          "id": "01KGQD8VQJJR2Z5BYMYAJW5BEV"
+        }
+      ],
+      "value": "When you pass first (stop taking turns before other players) — I gain 1 Quest counter. Then, if I have 3 or more Quest counters, create a [Halua 2\/2\/2] token in your Companion Expedition. (It's a Leviathan Companion token with \"If your Hero has 5 or more Quest counters, I am Gigantic.\")",
+      "id": "01KGQD8V2RHVDAKWFCH4Z8FQ7R"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Tristan Bideau" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/JPG\/en_US\/af8149a24784f13e086735e69a0cf7c3.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/HERO_THUMB_96da0af0dd504ba0e1d854af3187075a"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/HERO_WIDE_e29983ea0001809c95a92f477feebce3"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/WEB_0bd6374afa94942823892c37a328ecd9"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CYCLONE_B_BR_65_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_65",
+  "reference": "ALT_CYCLONE_B_BR_65_C",
+  "translations": {
+    "es_ES": {
+      "name": "Sol y Halua",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/JPG\/es_ES\/acdadddad68e5985d5ae6011c9b7a10e.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Sol & Halua",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/JPG\/en_US\/af8149a24784f13e086735e69a0cf7c3.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Sol & Halua",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/JPG\/fr_FR\/442dc18f051bf1e37e99f54f3bb173ac.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Sol & Halua",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/JPG\/de_DE\/a1ea982ad1cb8b827299715b6ef2ec55.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Sol e Halua",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/JPG\/it_IT\/45865e91e3f21df84fa623c99b52ae4c.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01JN9HNDXESZGQSX75X8D6P0HH",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/JPG\/fr_FR\/442dc18f051bf1e37e99f54f3bb173ac.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_BR_65\/JPG\/en_US\/af8149a24784f13e086735e69a0cf7c3.jpg"
+  },
+  "name": "Sol & Halua",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "When you pass first (stop taking turns before other players) — I gain 1 Quest counter. Then, if I have 3 or more Quest counters, create a [Halua 2\/2\/2] token in your Companion Expedition. (It's a Leviathan Companion token with \"If your Hero has 5 or more Quest counters, I am Gigantic.\")"
+  },
+  "collectorNumberFormatted": "SKY-019-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,307 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "It was Talos's role to protect the statue from prying eyes.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "C'est à Talos qu'il incombait de protéger la statue des regards indiscrets.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZTAPC6HAZ9YFRHX7DNSE",
+          "text": "It was Talos's role to protect the statue from prying eyes."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "7YGKJX6RYR8KQADVQE8GGBYZ3Y",
+      "reference": "ALT_DUSTER_B_OR_96_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ROBOT",
+      "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+      "name": "Robot"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KKMFZ20RHWC9V872K4J8K"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KKMNXYP92CKZ3BPGEC7Z0"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KKMWTT97GWG7EHX6MX2XX"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KKN2TKEP90JK4VKJMB4JZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KKN8VS5WSS1DDBJCDWJS0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4NKT6WW6EQC4KHZADWM4Z",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01HTS8M3QZMFFPWCM7RVWRF9ZC"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": { "text": "$[GIGANTIC].", "locale": "es_ES" },
+                  "it_IT": { "text": "$[GIGANTIC].", "locale": "it_IT" },
+                  "de_DE": { "text": "$[GIGANTIC].", "locale": "de_DE" },
+                  "fr_FR": { "text": "$[GIGANTIC].", "locale": "fr_FR" },
+                  "en_US": { "text": "$[GIGANTIC].", "locale": "en_US" }
+                },
+                "text": "$[GIGANTIC]."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K6X4NMCA09FXM863FP8A7YC6"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4NKT6WW6EQC4KHZADWM4Z",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verteidiger",
+                          "locale": "de_DE",
+                          "description": "Meine Expedition kann sich am Abend nicht vorwärts bewegen."
+                        },
+                        "en_US": {
+                          "displayWeb": "Defender",
+                          "locale": "en_US",
+                          "description": "My Expedition can't move forward during Dusk."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Defensor",
+                          "locale": "es_ES",
+                          "description": "Mi expedición no puede avanzar durante el anochecer."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Difensore",
+                          "locale": "it_IT",
+                          "description": "La mia spedizione non può avanzare durante il crepuscolo."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Défenseur",
+                          "locale": "fr_FR",
+                          "description": "Mon Expédition ne peut pas avancer pendant le Crépuscule."
+                        }
+                      },
+                      "id": "01HKAGT6K21NN8C88CAFXSN5RF",
+                      "reference": "DEFENDER"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KKPX0T7F9N3CBRTV1QYEY"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[DEFENDER]. (My Expeditions can't move forward during Dusk.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "[DEFENDER]. (Mes Expéditions ne peuvent pas avancer pendant le Crépuscule.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "[DEFENDER]. (Meine Expeditionen können sich am Abend nicht vorwärts bewegen.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "[DEFENDER]. (Mis expediciones no pueden avanzar durante el anochecer.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "[DEFENDER]. (Le mie spedizioni non possono avanzare durante il crepuscolo.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "[DEFENDER]. (My Expeditions can't move forward during Dusk.)"
+              }
+            ],
+            "reference": "01829"
+          },
+          "sequence": 1,
+          "id": "01K6X4NMW0YHYEDHSDCATNTF53"
+        }
+      ],
+      "value": "[Gigantic]. (I am considered present in each of your Expeditions.)  [Defender]. (My Expeditions can't move forward during Dusk.)",
+      "id": "01K6X4NKT6WW6EQC4KHZADWM4Z"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/en_US\/e443d4c4b83d07fc93e3a3e900c980ee.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/WEB_4d4a0af450825891e7a7c43edbe2e3ee",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/WEB_b7749bce8864d92d6d1053aab4b001f1",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/WEB_082e5bcdb5110b9f31137d8ef302b3c2"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_96_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_96",
+  "reference": "ALT_DUSTER_B_OR_96_C",
+  "translations": {
+    "en_US": {
+      "name": "Talos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/en_US\/e443d4c4b83d07fc93e3a3e900c980ee.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Talos", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Talos", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Talos", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Talos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/fr_FR\/243810899b94754961a1d57d7c552e7d.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQGFN6WC38BBE5RY34S",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/fr_FR\/243810899b94754961a1d57d7c552e7d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/en_US\/e443d4c4b83d07fc93e3a3e900c980ee.jpg"
+  },
+  "name": "Talos",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "[Gigantic]. (I am considered present in each of your Expeditions.)  [Defender]. (My Expeditions can't move forward during Dusk.)"
+  },
+  "collectorNumberFormatted": "SDU-084-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

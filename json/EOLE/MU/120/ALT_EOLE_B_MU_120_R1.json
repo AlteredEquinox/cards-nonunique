@@ -1,0 +1,397 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Ne trouves-tu pas que j'ai de grandes dents ? »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"My, what big teeth I have!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HTBGG21HS353WCX4M571",
+          "text": "\"My, what big teeth I have!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HTC2SC9KJPBAZADH91Z6",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HTBSFFT6N2ZANNEV1ANX",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT9NXK8T2MDST5W4NAJ7",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT9Y286RGJY2K1Q5E96W",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5K7ZVZY4H29A6R9SGHEVAM4X8M",
+      "reference": "ALT_EOLE_B_MU_120_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ2AZTW3AJNT395G9GN2C2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ2B79HF8MZ98YDQZ6PSYB"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K9YZ2BER4Y3HG4FHZ5MT3W0V"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ2BP6R1QES3P4A3A0GG3G"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ2BXVH33NSV6XPMZRQVV5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5P6VGDJ1NNHF7DTB064M10",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KZ70MRFHP4X52NWD58CQ2"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} [SABOTAGE] a Character with {V} less than or equal to mine.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{H} [SABOTAGE] un personaje con {V} menor o igual que el mío.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} [SABOTAGE] un personaggio con {V} pari o inferiore alla mia.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{H} [SABOTAGE] un Personnage avec une statistique {V} inférieure ou égale à la mienne.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Nutze [SABOTAGE] bei einem Charakter, dessen {V} gleich oder niedriger als meines ist.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} [SABOTAGE] a Character with {V} less than or equal to mine."
+              }
+            ],
+            "reference": "02909"
+          },
+          "sequence": 0,
+          "id": "01KJ5P6XF7SD40H1QNRQVSAFFJ"
+        }
+      ],
+      "value": "{H} [Sabotage] a Character with {V} less than or equal to mine.",
+      "id": "01KJ5P6VGDJ1NNHF7DTB064M10"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5P6YZ334JZ3E09223PGCPN",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KZATHZ6BFW9HQ5QJFV1WS"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{D} : The next Character with Base Cost {3} or less you play this turn gains [ANCHORED].#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{D} : Le prochain Personnage de Coût de Base {3} ou moins que vous jouez ce tour-ci gagne [ANCHORED].#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#{D} : Der nächste Charakter, den du in dieser Runde mit Basiskosten {3} oder weniger spielst, erhält [ANCHORED].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{D}: il prossimo personaggio con costo base pari o inferiore a {3} che giochi in questo turno ottiene [ANCHORED].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{D} : El siguiente personaje que juegues este turno con coste base de {3} o menos gana [ANCHORED].#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#{D} : The next Character with Base Cost {3} or less you play this turn gains [ANCHORED].#"
+              }
+            ],
+            "reference": "02910"
+          },
+          "sequence": 0,
+          "id": "01KJ5P6ZW96F2JEFKM27SVAWBF"
+        }
+      ],
+      "value": "{D} : The next Character with Base Cost {3} or less you play this turn gains [[Anchored]].",
+      "id": "01KJ5P6YZ334JZ3E09223PGCPN"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/en_US\/949ff9aa4dcbed9875776a1a63c483b1.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/WEB_ace71e26d24291c988686d371b716e7e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/WEB_7356ac0222f93582807333c379b98dbe",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/WEB_5e2d8e06a35288ce852b11b5e85b1572"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_120_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "MU_120",
+  "reference": "ALT_EOLE_B_MU_120_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Le Grand Méchant Loup",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/fr_FR\/7212232a132bf9b99da93a6d5589b903.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "The Big Bad Wolf",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/en_US\/949ff9aa4dcbed9875776a1a63c483b1.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Lupo Cattivo",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/it_IT\/51973776c62b33074ac8e45592c4b825.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Der große böse Wolf",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/de_DE\/447be7eb1ad1f5f2936dbf97beab5ba9.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "El Lobo Feroz",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/es_ES\/8db5376b2fbf5dea8da3869728ac89f8.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9MQF67MKZCA9FZFD9Z",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/fr_FR\/7212232a132bf9b99da93a6d5589b903.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/en_US\/949ff9aa4dcbed9875776a1a63c483b1.jpg"
+  },
+  "name": "The Big Bad Wolf",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} [Sabotage] a Character with {V} less than or equal to mine.",
+    "ECHO_EFFECT": "#{D} : The next Character with Base Cost {3} or less you play this turn gains [[Anchored]].#"
+  },
+  "collectorNumberFormatted": "ROC-063-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

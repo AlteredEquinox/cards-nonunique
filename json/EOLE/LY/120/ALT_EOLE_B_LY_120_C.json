@@ -1,0 +1,280 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« T'as pas d'autres chats à fouetter ? »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Time to let the cat out of the bag!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HRSPYMWTV6Y7YDJ0ZB04",
+          "text": "\"Time to let the cat out of the bag!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRT4YZQX63F72099J6R8",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRSXVHWJ5C9ZNEZKTW3Z",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRQVJBB6A88FQE3CTSAY",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HRSFNH6NXXFVRRRCWXYW",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "25FVMRP4QE8MC8GH2XFVQ2RWSJ",
+      "reference": "ALT_EOLE_B_LY_120_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYVN0B4EC1PQWD8CEV8WAD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYVN7JKYVAA2AFDM4EGEF4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NXDQAK81G6TKQQV5PFTXQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KNZZCPNP378GYDBVCG7W2"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Target Character with Base Cost {3} or less switches Expeditions, then gains [ANCHORED]. (Switch means joining the other Expedition of its controller.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Un personaggio bersaglio con costo base pari o inferiore a {3} cambia spedizione, poi ottiene [ANCHORED]. (Cambiare significa che si unisce all'altra spedizione del suo controllore.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Un personaje objetivo con coste base de {3} o menos se traslada de expedición y luego gana [ANCHORED]. (Trasladarse es incorporarse a la otra expedición de su controlador.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Un Personnage ciblé de Coût de Base {3} ou moins change d'Expédition, puis gagne [ANCHORED]. (Changer signifie rejoindre l'autre Expédition de son contrôleur.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Ein Charakter deiner Wahl mit Basiskosten {3} oder weniger wechselt Expeditionen und erhält dann [ANCHORED]. (Wechseln bedeutet, dass er sich der anderen Expedition des kontrollierenden Spielers anschließt.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Target Character with Base Cost {3} or less switches Expeditions, then gains [ANCHORED]. (Switch means joining the other Expedition of its controller.)"
+              }
+            ],
+            "reference": "02866"
+          },
+          "sequence": 0,
+          "id": "01KJ5NXFQGCD4W1C5X7TVMSXYB"
+        }
+      ],
+      "value": "Target Character with Base Cost {3} or less switches Expeditions, then gains [[Anchored]]. (Switch means joining the other Expedition of its controller.)",
+      "id": "01KJ5NXDQAK81G6TKQQV5PFTXQ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Gamon Studio" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_120\/JPG\/en_US\/bc2ac1c24ac38def6fbb4eb46e473c54.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_120\/WEB_f92a61955f14000ae8a2cb5de22c5e56",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_120\/WEB_322181bbfe3d14dcb52b444b472ae686"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_120_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_120",
+  "reference": "ALT_EOLE_B_LY_120_C",
+  "translations": {
+    "it_IT": {
+      "name": "Gatta Ci Cova!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_120\/JPG\/it_IT\/954724807cc156135ef9cc2bcfc7d691.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Katzenwiege",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_120\/JPG\/de_DE\/c04b4e504c1c1f0b7c996b4a3f61816a.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Retomber sur ses Pattes",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_120\/JPG\/fr_FR\/fa51c5d311e5faf75fd54f261d977c3f.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Cat's Cradle",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_120\/JPG\/en_US\/bc2ac1c24ac38def6fbb4eb46e473c54.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Maniobra felina",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_120\/JPG\/es_ES\/7ff92b86c1e0ce926af041c7efcbb3af.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9AWC0JTT4K6D06Z2N6",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_120\/JPG\/fr_FR\/fa51c5d311e5faf75fd54f261d977c3f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_120\/JPG\/en_US\/bc2ac1c24ac38def6fbb4eb46e473c54.jpg"
+  },
+  "name": "Cat's Cradle",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "Target Character with Base Cost {3} or less switches Expeditions, then gains [[Anchored]]. (Switch means joining the other Expedition of its controller.)"
+  },
+  "collectorNumberFormatted": "ROC-052-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

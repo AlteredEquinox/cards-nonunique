@@ -1,0 +1,235 @@
+{
+  "loreEntries": [],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
+  "cardSet": {
+    "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+    "reference": "BISE",
+    "name": "Whispers from the Maze"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K457TW1DQ5TK5MNMGGFRHSNP"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K457TWA4DZ616YTD7WJQX2S8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K4JNGS0Z38Z73EYFQXZR339P",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "À Midi — Je gagne 1 compteur Nourriture pour chaque Personnage que vous contrôlez.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "At Noon — I gain 1 Food counter per Character you control.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — Gano 1 contador de comida por cada personaje que controles.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Ottengo 1 segnalino Cibo per ogni personaggio che controlli.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Zum Mittag — Ich erhalte 1 Nahrungszähler pro Charakter, den du kontrollierst.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "At Noon — I gain 1 Food counter per Character you control."
+              }
+            ],
+            "reference": "00968"
+          },
+          "sequence": 0,
+          "id": "01K4JNGSFJFK2RPY3GYT4BSWBC"
+        },
+        {
+          "cardElement": "\/card_elements\/01K4JNGS0Z38Z73EYFQXZR339P",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        }
+                      },
+                      "id": "01HPFHC15Y9ARSV51SMJKFZ8CY",
+                      "reference": "RESUPPLY_LOW"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JB22S9R7CHZXBN74KDTMNZHG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{T}, Dépensez 2 de mes compteurs Nourriture : [RESUPPLY_LOW].",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{T}, gastar 2 de mis contadores de comida: [RESUPPLY_LOW].",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{T}, Gib 2 meiner Nahrungszähler aus: [RESUPPLY_LOW].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{T}, spendi 2 dei miei segnalini Cibo: [RESUPPLY_LOW].",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "{T}, Spend 2 of my Food counters: [RESUPPLY_LOW].",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "{T}, Spend 2 of my Food counters: [RESUPPLY_LOW]."
+              }
+            ],
+            "reference": "00971"
+          },
+          "sequence": 1,
+          "id": "01K4JNGSVBR0N03NXAZQ79AT1P"
+        }
+      ],
+      "value": "At Noon — I gain 1 Food counter per Character you control.  {T}, Spend 2 of my Food counters: [Resupply].",
+      "id": "01K4JNGS0Z38Z73EYFQXZR339P"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_62\/JPG\/en_US\/b3a1ab9aca967f0e358af1bdf485707a.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_62\/WEB_83719cd2aaa27d63429e00407ffbeddc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_62\/WEB_f8e3661708072e9506d416fe76ef70be"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_A_MU_62_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_62",
+  "reference": "ALT_BISE_A_MU_62_R2",
+  "translations": {
+    "de_DE": {
+      "name": "Der Hof",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_MU_62\/JPG\/de_DE\/a1665da472fc7365151494f5bed2c70a.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "The Farm",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_MU_62\/JPG\/en_US\/b3a1ab9aca967f0e358af1bdf485707a.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "La Granja",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_MU_62\/JPG\/es_ES\/3667877bdd1b39f79b5e139608c2efb7.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "La Fattoria",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_MU_62\/JPG\/it_IT\/41b5cd72770cf6a590fec5d17574310e.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "La Ferme",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_MU_62\/JPG\/fr_FR\/ea42cf3429846986999538fccbd8efc7.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K44V2MRT54YY13ZWE7956NCH",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_62\/JPG\/fr_FR\/ea42cf3429846986999538fccbd8efc7.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_62\/JPG\/en_US\/b3a1ab9aca967f0e358af1bdf485707a.jpg"
+  },
+  "name": "The Farm",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "MAIN_EFFECT": "At Noon — I gain 1 Food counter per Character you control.  {T}, Spend 2 of my Food counters: [Resupply]."
+  },
+  "collectorNumberFormatted": "WFM-068-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

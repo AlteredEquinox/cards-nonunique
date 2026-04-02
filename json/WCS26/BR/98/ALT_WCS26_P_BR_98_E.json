@@ -1,0 +1,259 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Wanax dirige les Maraudeurs, qui bravent le Tumulte pour y pêcher des merveilles.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Wanax leads the Marauders into the Tumult to bring home wondrous catches.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KH3ZWM53EZRWH1FRYG2H8FAS",
+          "text": "Wanax leads the Marauders into the Tumult to bring home wondrous catches."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4GXNW0YXX380VB6975G8ZH43FY",
+      "reference": "ALT_WCS26_P_BR_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01KGWCP9XAFCTT89T9VRTED92Z",
+    "reference": "WCS26",
+    "name": "World Championship Series 2026"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KGWE17HFCCR29JJ8WTNEV081"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KGWE17TN31S084MTG8M3KZCJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KGWE184575PN2SY3PGVHZ6YK"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KGWE18DG35A91AJK8QJ1EF6F"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KGWE18PN3ZTS41C8C4DEDDV5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6AKCPDY2FP0YY807WSRHVH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Giocami per {1} in meno per ogni altra carta che hai giocato in questo turno.",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "Play me for {1} less per other card you played this turn.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Jugame por {1} menos por cada otra carta que hayas jugado este turno.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Spiele mich für {1} weniger pro andere Karte, die du in dieser Runde gespielt hast.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Jouez-moi pour {1} de moins par autre carte que vous avez jouée ce tour-ci.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Play me for {1} less per other card you played this turn."
+              }
+            ],
+            "reference": "01888"
+          },
+          "sequence": 0,
+          "id": "01KH6AKDA6JN4Y2447GW6VW33B"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH6AKCPDY2FP0YY807WSRHVH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Pass. (Don't take any more turns this Day.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Passe. (Spiele an diesem Tag keine Runden mehr.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Pasa. (No juegues más turnos este día.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Passez. (Ne jouez plus de tours ce Jour-ci.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{J} Passa. (Non effettuare altri turni in questa giornata.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} Pass. (Don't take any more turns this Day.)"
+              }
+            ],
+            "reference": "01711"
+          },
+          "sequence": 1,
+          "id": "01KH6AKDV0Q1QQF9JH7R7367TF"
+        }
+      ],
+      "value": "Play me for {1} less per other card you played this turn.  {J} Pass. (Don't take any more turns this Day.)",
+      "id": "01KH6AKCPDY2FP0YY807WSRHVH"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/en_US\/f2e067592e55c53d7d516b71733dacbe.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/WEB_043deb649725027cce40b4e5c7db84d9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/WEB_a35ada9f40a5351e141085c9c7f0834f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_P_BR_98_E",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": null,
+  "reference": "ALT_WCS26_P_BR_98_E",
+  "translations": {
+    "it_IT": {
+      "name": "Wanax, Esarca Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/it_IT\/ccc5e8fc5b4d62ccdddc6a5bfa2730c8.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Wanax, Reka-Hexarchin",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/de_DE\/d01dfd5ef8153fd4f691d0de57e57045.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Wanax, Reka Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/en_US\/f2e067592e55c53d7d516b71733dacbe.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Wanax, hexarca reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/es_ES\/ad91afbf0a521fbf1cc8399526edc23f.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Wanax, Hexarque Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/fr_FR\/89a49690050ba406642535f2c08c5a9b.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01KGWCPAV7T65XTNS2F3GKVXN8",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/fr_FR\/89a49690050ba406642535f2c08c5a9b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/en_US\/f2e067592e55c53d7d516b71733dacbe.jpg"
+  },
+  "name": "Wanax, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "6",
+    "MOUNTAIN_POWER": "6",
+    "MAIN_EFFECT": "Play me for {1} less per other card you played this turn.  {J} Pass. (Don't take any more turns this Day.)"
+  },
+  "collectorNumberFormatted": "WCS26-S-004-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

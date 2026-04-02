@@ -1,0 +1,267 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Those who stand without honor will fall without wings",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "À s'élever sans honneur, on a vite fait d'y perdre des plumes.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JNRGC1TW9G85C34XSKW56V0B",
+          "text": "Those who stand without honor will fall without wings"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "1S54MQ3B0F9ZBB8BS9M14GG162",
+      "reference": "ALT_CYCLONE_B_OR_65_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+    "reference": "CYCLONE",
+    "name": "Skybound Odyssey"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JN9HNDY86FP3GDDVY1WDNQDH"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JN9HNDY86FP3GDDVY1WDNQDJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KGQDVARPSRB5QWD29BYMH1AM",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "s'Élève",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascends",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufsteigend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascende",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Asciende",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V6RJTMG7BZB84M6HA21S4",
+                      "reference": "ASCENDS"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JPYFRG3CEBRYHAF1S24QTAAF"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "Al mediodía — Si eres el primer jugador, tu expedición del héroe [ASCENDS]. (Hasta el descanso, puede avanzar aunque los terrenos de su región estén igualados con los de la expedición del oponente.)",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "At Noon — If you are first player, your Hero Expedition [ASCENDS]. (Until Rest, it can move forward even if matched in its region's terrains by the opponent's Expedition.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Se sei il primo giocatore, la spedizione del tuo eroe [ASCENDS]. (Fino al riposo, può avanzare anche se i terreni della sua regione eguagliano quelli della spedizione dell'avversario.)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes le premier joueur, votre Expédition Héros [ASCENDS]. (Jusqu'au Repos, elle peut avancer même en cas de stats égales à l'Expédition adverse sur les terrains de sa région.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Zum Mittag — Falls du der Startspieler bist, ist deine Helden-Expedition [ASCENDS]. (Kann sich bis zur Ruhepause vorwärts bewegen, selbst falls beide über gleich viele Gelände in den Regionen verfügen.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "At Noon — If you are first player, your Hero Expedition [ASCENDS]. (Until Rest, it can move forward even if matched in its region's terrains by the opponent's Expedition.)"
+              }
+            ],
+            "reference": "01525"
+          },
+          "sequence": 0,
+          "id": "01KGQDVBEYFR8N0EWZCMVG4878"
+        },
+        {
+          "cardElement": "\/card_elements\/01KGQDVARPSRB5QWD29BYMH1AM",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When one or more of your Ascended Expeditions moves forward — If there is no Character facing it, draw a card.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Cuando una o más de tus expediciones ascendidas avancen — Si no hay ningún personaje enfrentado a ellas, roba una carta.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsqu'au moins une de vos Expéditions Élevées avance — S'il n'y a aucun Personnage qui lui fait face, piochez une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn sich mindestens eine deiner Aufgestiegenen Expeditionen vorwärts bewegt — Falls es ihr gegenüber keinen Charakter gibt, ziehe eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando una o più delle tue spedizioni Ascese avanzano — Se non ci sono personaggi che le affrontano, pesca una carta.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "When one or more of your Ascended Expeditions moves forward — If there is no Character facing it, draw a card."
+              }
+            ],
+            "reference": "01400"
+          },
+          "sequence": 1,
+          "id": "01KGQDVC1Z32KXP9SJWP36XWEQ"
+        }
+      ],
+      "value": "At Noon — If you are first player, your Hero Expedition [Ascends]. (Until Rest, it can move forward even if matched in its region's terrains by the opponent's Expedition.)  When one or more of your Ascended Expeditions moves forward — If there is no Character facing it, draw a card.",
+      "id": "01KGQDVARPSRB5QWD29BYMH1AM"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/JPG\/en_US\/f1a16b2fd2fbe3d93bf036c4fdf65b97.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/HERO_THUMB_fcff100cc4164d07e4b00082d0944b95"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/HERO_WIDE_91a9ce9514a397dc5bedf7e30f4cb2fb"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/WEB_7ce032cc0c205d93165b691a4f5799d5"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CYCLONE_B_OR_65_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_65",
+  "reference": "ALT_CYCLONE_B_OR_65_C",
+  "translations": {
+    "de_DE": {
+      "name": "Zhen & Zephyr",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/JPG\/de_DE\/3da7a098d3143d22091e6fd40052f0ac.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Zhen & Zéphyr",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/JPG\/fr_FR\/d0164885e1e2c715657dd973949534bf.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Zhen & Zephyr",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/JPG\/en_US\/f1a16b2fd2fbe3d93bf036c4fdf65b97.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Zhen e Zefiro",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/JPG\/it_IT\/f31c7e2dadaa745a626d988afe948f01.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Zhen y Céfiro",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/JPG\/es_ES\/9bfab95f73c5c3e62b698b2ebc8bc807.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01JN9HNDY86FP3GDDVY1WDNQDG",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/JPG\/fr_FR\/d0164885e1e2c715657dd973949534bf.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_OR_65\/JPG\/en_US\/f1a16b2fd2fbe3d93bf036c4fdf65b97.jpg"
+  },
+  "name": "Zhen & Zephyr",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "At Noon — If you are first player, your Hero Expedition [Ascends]. (Until Rest, it can move forward even if matched in its region's terrains by the opponent's Expedition.)  When one or more of your Ascended Expeditions moves forward — If there is no Character facing it, draw a card."
+  },
+  "collectorNumberFormatted": "SKY-073-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

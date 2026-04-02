@@ -1,0 +1,214 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "She gets the substitutes fired up so they're ready to take the field.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Elle dynamise les remplaçants pour qu'ils soient prêts à aller sur le terrain.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZXPSJXQJ8GPC7MBMKFMP",
+          "text": "She gets the substitutes fired up so they're ready to take the field."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2VD3TTKY8N9K38Y3GBF2R6BVKK",
+      "reference": "ALT_DUSTER_B_YZ_96_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQ2ECPWD978VNXMKGGFY0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQ2MMB9X8T10QJP2FGWHT"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQ2TWNQGAP0NKP35XCG46"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KQ327N8VJM0AYACE1RPZT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KQ3AXGM5FNXZB5D61J3WN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4TSGGD41HFGT6V2PD77HC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} If there are #two or more# exhausted cards in Reserve, #up to two target Characters# each gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} S'il y a #au moins deux# cartes épuisées en Réserve, #jusqu'à deux Personnages ciblés# gagnent chacun 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Falls #mindestens zwei# erschöpfte Karten in der Reserve sind, erhalten #bis zu zwei Charaktere deiner Wahl# jeweils 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Si hay #dos o más# cartas agotadas en reserva, #hasta dos personajes objetivo# ganan 1 potenciador cada uno.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} Se ci sono #due o più# carte consumate nella Riserva, #fino a due personaggi bersaglio# ottengono 1 rinforzo ciascuno.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} If there are #two or more# exhausted cards in Reserve, #up to two target Characters# each gain 1 boost."
+              }
+            ],
+            "reference": "01855"
+          },
+          "sequence": 0,
+          "id": "01K6X4TT5YAV3ZSES304KDJTPE"
+        }
+      ],
+      "value": "{J} If there are two or more exhausted cards in Reserve, up to two target Characters each gain 1 boost.",
+      "id": "01K6X4TSGGD41HFGT6V2PD77HC"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/JPG\/en_US\/7b0ed8fdae7e430be04ec230cfbbc154.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/WEB_596c9b02dd7118a971203bbf40b11002",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/WEB_63259a433980747e02a00ec575829be4",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/WEB_9d4e9e2caaebfb80c2440919d041b7d2"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_96_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_96",
+  "reference": "ALT_DUSTER_B_YZ_96_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Mascotte della Squadra",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Team-Maskottchen", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Team Mascot",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/JPG\/en_US\/7b0ed8fdae7e430be04ec230cfbbc154.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Mascota del equipo", "image": null, "locale": "es_ES" },
+    "fr_FR": {
+      "name": "Mascotte d'Équipe",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/JPG\/fr_FR\/a6de806130dd18e390fe8f69689db566.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQSZC2VV46PJC59X12J",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/JPG\/fr_FR\/a6de806130dd18e390fe8f69689db566.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/JPG\/en_US\/7b0ed8fdae7e430be04ec230cfbbc154.jpg"
+  },
+  "name": "Team Mascot",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{J} If there are #two or more# exhausted cards in Reserve, #up to two target Characters# each gain 1 boost."
+  },
+  "collectorNumberFormatted": "SDU-095-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

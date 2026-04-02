@@ -1,0 +1,202 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The Moths are especially attracted by the Sap of the Undergrowth.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Les Phalènes sont particulièrement attirées par la Sève du Sous-bois.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JBT1AAVX1PQGXSV0VDVFTD34",
+          "text": "The Moths are especially attracted by the Sap of the Undergrowth."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
+        "reference": "TOKEN",
+        "name": "Token"
+      },
+      "id": "7T1Q1AQB6A9QDA3FBQ5XQ2W7Z6",
+      "reference": "ALT_BISE_B_YZ_47_C"
+    }
+  ],
+  "cardType": {
+    "reference": "TOKEN",
+    "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
+    "name": "Token Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ILLUSION",
+      "id": "01J1QBG2268GSN3G0S560XZGZY",
+      "name": "Illusion"
+    }
+  ],
+  "cardSet": {
+    "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+    "reference": "BISE",
+    "name": "Whispers from the Maze"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JB230Y6R6EBRQ6C1KT7K95QQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JB230YAYJGXX73W462NV4RB9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JB230YFB9DSX3P7CAC73XSAW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K4JP86BJ1C0ERX6SNE9VH5A2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "(Si je quitte la zone d'Expédition, retirez-moi du jeu.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "(Falls ich die Expeditionszone verlasse, entferne mich aus dem Spiel.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "(Se lascio l'area delle spedizioni, rimuovimi dalla partita.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "(Si abandono la zona de expedición, retírame del juego.)",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "(If I leave the Expedition zone, remove me from the game.)",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "(If I leave the Expedition zone, remove me from the game.)"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K4JP86YKPXQE6JJQ7XZNG8KH"
+        }
+      ],
+      "value": "(If I leave the Expedition zone, remove me from the game.)",
+      "id": "01K4JP86BJ1C0ERX6SNE9VH5A2"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_B_YZ_47\/JPG\/en_US\/454c44282cf2caff769d143cfe40c217.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_B_YZ_47\/WEB_2ec4fe0c6bf9bc57d4ccde23cbf98853"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_B_YZ_47_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_47",
+  "reference": "ALT_BISE_B_YZ_47_C",
+  "translations": {
+    "en_US": {
+      "name": "Mana Moth",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_B_YZ_47\/JPG\/en_US\/454c44282cf2caff769d143cfe40c217.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Phalène de Mana",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_B_YZ_47\/JPG\/fr_FR\/75ea277e77aa4d8c0aaebb4b0da27bb1.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Polilla de maná",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_B_YZ_47\/JPG\/es_ES\/4f4075c5aff36acda3422644aae3cc04.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Mana-Motte",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_B_YZ_47\/JPG\/de_DE\/f265356864948f204c52f8416e57d85c.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Falena di Mana",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_B_YZ_47\/JPG\/it_IT\/037a7702f93085fb2b7ada3775b0b7b8.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01JB2201ZW42FRMNAMQW42E0Q7",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_B_YZ_47\/JPG\/fr_FR\/75ea277e77aa4d8c0aaebb4b0da27bb1.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_B_YZ_47\/JPG\/en_US\/454c44282cf2caff769d143cfe40c217.jpg"
+  },
+  "name": "Mana Moth",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "(If I leave the Expedition zone, remove me from the game.)"
+  },
+  "collectorNumberFormatted": "WFM-105-T-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

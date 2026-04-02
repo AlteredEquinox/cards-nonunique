@@ -1,0 +1,247 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"By crossing the fruits of the two world trees, we could obtain a fertile specimen.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« En croisant les fruits des deux arbres-mondes, on pourrait obtenir un spécimen fertile. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZQ2G0Q5VNKQ8NRCAB9R9",
+          "text": "\"By crossing the fruits of the two world trees, we could obtain a fertile specimen.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1H6N95P43V96W8EZ8T8393K70Y",
+      "reference": "ALT_DUSTER_B_MU_91_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KD7KZCGXCEC7YZJVYAB2C"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KD7SMVPPBQCMS76AEH63P"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KD7ZM3DVE5J78S8N3WGGH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KD85H2QKCV43J978FJP0W"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KD8B1FXN1YVZQXQVYXX2Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4EQYJ1QJZ3GJZEZ931V7A",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWYHX67WTA9MAWQRGEVTR0"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Create a [MANASEED] token in #another target player's# Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Créez un jeton [MANASEED] dans les Repères #d'un autre joueur# ciblé.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{H} Crea una ficha de [MANASEED] en los hitos de #otro jugador# objetivo.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Crea una pedina [MANASEED] nei fulcri di #un altro giocatore# bersaglio.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{H} Erstelle eine [MANASEED]-Marke im Wahrzeichen-Bereich #eines anderen Spielers# deiner Wahl.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} Create a [MANASEED] token in #another target player's# Landmarks."
+              }
+            ],
+            "reference": "01960"
+          },
+          "sequence": 0,
+          "id": "01K6X4ERG00B8JX64DRBQGH2PR"
+        }
+      ],
+      "value": "{H} Create a [Manaseed] token in another target player's Landmarks.",
+      "id": "01K6X4EQYJ1QJZ3GJZEZ931V7A"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_91\/JPG\/en_US\/f86c0931f35e6d9f70226232a6daf132.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_91\/WEB_88a90e2d82eff9312ec36e1410c70347",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_91\/WEB_57ece515800d0d421f194321475cbbaa",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_91\/WEB_8d6e9c6af1ec77fff3c4a6f721e0d590"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_91_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_91",
+  "reference": "ALT_DUSTER_B_MU_91_R2",
+  "translations": {
+    "de_DE": { "name": "Reka-Agronomin", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Reka Agronomist",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_91\/JPG\/en_US\/f86c0931f35e6d9f70226232a6daf132.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Agrónoma reka", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Agronoma Reka", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Agronome Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_91\/JPG\/fr_FR\/cd7fc855dd61a365a1aa8cb7d1f353eb.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ522N4PG7PCMG7VMKC",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_91\/JPG\/fr_FR\/cd7fc855dd61a365a1aa8cb7d1f353eb.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_91\/JPG\/en_US\/f86c0931f35e6d9f70226232a6daf132.jpg"
+  },
+  "name": "Reka Agronomist",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "{H} Create a [Manaseed] token in #another target player's# Landmarks."
+  },
+  "collectorNumberFormatted": "SDU-063-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

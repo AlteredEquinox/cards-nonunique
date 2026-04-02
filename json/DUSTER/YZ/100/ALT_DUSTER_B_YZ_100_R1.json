@@ -1,0 +1,254 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"You're not the only ones who can use substitution.\" — Moyo",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Vous n'êtes pas les seuls à pouvoir user de substitution. » - Moyo",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZV01C71GTQH9RTDBX6SD",
+          "text": "\"You're not the only ones who can use substitution.\" — Moyo"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "7CHY1XKPCD8WB89J95CPNSCTTV",
+      "reference": "ALT_DUSTER_B_YZ_100_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CONJURATION",
+      "id": "01HKAGQJMGEVS21MCGWDGG8KW0",
+      "name": "Conjuration"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KSPQF3VMZQT6EDE1SP4CQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KSPY0FTHY6QQ3EXX318PQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4PQQ4Z7Z2TAX7294W2DR5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "You may exhaust ({T}) a card from your Reserve to play me for {1} less.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Vous pouvez épuiser ({T}) une carte de votre Réserve pour me jouer pour {1} de moins.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Du darfst eine Karte aus deiner Reserve erschöpfen ({T}), um mich für {1} weniger zu spielen.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Puedes agotar ({T}) una carta de tu reserva para jugarme por {1} menos.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Puoi consumare ({T}) una carta dalla tua Riserva per giocarmi per {1} in meno.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "You may exhaust ({T}) a card from your Reserve to play me for {1} less."
+              }
+            ],
+            "reference": "01872"
+          },
+          "sequence": 0,
+          "id": "01K6X4PR9TYC0GQE1PWWWRYCRB"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4PQQ4Z7Z2TAX7294W2DR5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Mana-Motte 2\/2\/2",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "2\/2\/2 Phalène de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Polilla de maná 2\/2\/2",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Mana Moth 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Falena di Mana 2\/2\/2",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1QBE0WTGPC1NV3KZ8A7GMYT",
+                      "reference": "MANA_MOTH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01J1QBF9HBEVCF0DM1WVDN1XG0"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Créez un jeton Illusion [MANA_MOTH] dans une Expédition ciblée.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Crea una pedina Illusione [MANA_MOTH] in una spedizione bersaglio.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Erschaffe eine [MANA_MOTH]-Illusionsmarke in einer Expedition deiner Wahl.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Crea una ficha de ilusión [MANA_MOTH] en una expedición objetivo.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "Create a [MANA_MOTH] Illusion token in target Expedition.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "Create a [MANA_MOTH] Illusion token in target Expedition."
+              }
+            ],
+            "reference": "00604"
+          },
+          "sequence": 1,
+          "id": "01K6X4PRSFET98DPCYRPBSRFNA"
+        }
+      ],
+      "value": "You may exhaust ({T}) a card from your Reserve to play me for {1} less.  Create a [Mana Moth 2\/2\/2] Illusion token in target Expedition.",
+      "id": "01K6X4PQQ4Z7Z2TAX7294W2DR5"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_100\/JPG\/en_US\/2100dc6916b5301a806e8e8b80dbaf32.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_100\/WEB_49078b99b5b04083662923c01533f067",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_100\/WEB_bab5a8c92a2861b11522115e74aea92e"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_100_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_100",
+  "reference": "ALT_DUSTER_B_YZ_100_R1",
+  "translations": {
+    "es_ES": { "name": "Señuelo de polilla", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Richiamo di Falene", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Mottenattrappe", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Phalène Illusoire",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_100\/JPG\/fr_FR\/cba48baea5ad632b7ca8c83d132a65e8.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Moth Decoy",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_100\/JPG\/en_US\/2100dc6916b5301a806e8e8b80dbaf32.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVQTBAMQ4D6NMZA2YG8W",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_100\/JPG\/fr_FR\/cba48baea5ad632b7ca8c83d132a65e8.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_100\/JPG\/en_US\/2100dc6916b5301a806e8e8b80dbaf32.jpg"
+  },
+  "name": "Moth Decoy",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "#4#",
+    "MAIN_EFFECT": "You may exhaust ({T}) a card from your Reserve to play me for {1} less.  Create a [Mana Moth 2\/2\/2] Illusion token in target Expedition."
+  },
+  "collectorNumberFormatted": "SDU-104-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

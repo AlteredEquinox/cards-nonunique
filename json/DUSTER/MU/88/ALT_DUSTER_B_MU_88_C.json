@@ -1,0 +1,322 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "If the Juice gives life, then it must take it from somewhere.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Si le Suc rend la vie, il la puise forcément ailleurs.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZPPK1X6K1TRCAPJ0TPVS",
+          "text": "If the Juice gives life, then it must take it from somewhere."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0EGC56HW6W8DZ8H69DTP815H1S",
+      "reference": "ALT_DUSTER_B_MU_88_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DRUID",
+      "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+      "name": "Druid"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KC08H9Y11CYKBJWQK218C"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KC0EEMYCFTGH0MFZ782WG"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KC0MK5V8RAZ981WB897RB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KC0TH4FW651J3N0X97267"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KC107REK0EK36EV12RVH9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4DQTX5PVWBAFE9RCYMV65",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Resupplies",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaille",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisce",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22PMAWKFHM9YCE44WE12XZ",
+                      "reference": "RESUPPLIES"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KC254XNQMXWKRZXC9B24B"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Target opponent [RESUPPLIES].",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Un adversaire ciblé [RESUPPLIES].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Ein Gegner deiner Wahl nutzt [RESUPPLIES].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} El oponente objetivo [RESUPPLIES].",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Un avversario bersaglio [RESUPPLIES].",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} Target opponent [RESUPPLIES]."
+              }
+            ],
+            "reference": "01767"
+          },
+          "sequence": 0,
+          "id": "01K6X4DRBVZA6THM0XFC79WXGF"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4DQTX5PVWBAFE9RCYMV65",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6ASVZF28TBBGCPT6AKTW3H3"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may target another Character with Base Cost {3} or less, it gains [ANCHORED]. (Its Base Cost is its Reserve Cost if it's Fleeting, or its Hand Cost if not.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Du darfst einen anderen Charakter mit Basiskosten {3} oder weniger wählen, er erhält [ANCHORED]. (Basiskosten sind Reservekosten, falls er Vergänglich ist, oder Handkosten, falls nicht.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi scegliere come bersaglio un altro personaggio con costo base pari o inferiore a {3} e fargli ottenere [ANCHORED]. (Il suo costo base corrisponde al suo costo dalla Riserva se ha Fugace, altrimenti al suo costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes hacer objetivo a otro personaje con coste base de {3} o menos. Gana [ANCHORED]. (El coste base es su coste desde la reserva si tiene fugacidad o su coste desde la mano.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez cibler un autre Personnage de Coût de Base {3} ou moins. Il gagne [ANCHORED]. (Son Coût de Base est le Coût de Réserve s'il est Fugace, le Coût de Main sinon.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may target another Character with Base Cost {3} or less, it gains [ANCHORED]. (Its Base Cost is its Reserve Cost if it's Fleeting, or its Hand Cost if not.)"
+              }
+            ],
+            "reference": "02094"
+          },
+          "sequence": 1,
+          "id": "01K6X4DRT0K4XVBKT4D0W9PGRD"
+        }
+      ],
+      "value": "{H} Target opponent [Resupplies].  {H} You may target another Character with Base Cost {3} or less, it gains [[Anchored]]. (Its Base Cost is its Reserve Cost if it's Fleeting, or its Hand Cost if not.)",
+      "id": "01K6X4DQTX5PVWBAFE9RCYMV65"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Matteo Spirito" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_88\/JPG\/en_US\/b9f9db5a7f0a0130f0d24719d755ce36.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_88\/WEB_47551b236cb8c5a2e5df964419dcbf36",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_88\/WEB_ada41785826a254b18a049db8949ec75",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_88\/WEB_65248c808ca9de58b85a6f3cd5e308bf"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_88_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_88",
+  "reference": "ALT_DUSTER_B_MU_88_C",
+  "translations": {
+    "de_DE": { "name": "Muna-Botanikerin", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Muna Botanist",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_88\/JPG\/en_US\/b9f9db5a7f0a0130f0d24719d755ce36.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Botanista de Muna", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Botanica Muna", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Botaniste Muna",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_88\/JPG\/fr_FR\/07f003d80dec21cf718e84d5c0018373.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ46NZXBMT2J9PCKEXF",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_88\/JPG\/fr_FR\/07f003d80dec21cf718e84d5c0018373.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_88\/JPG\/en_US\/b9f9db5a7f0a0130f0d24719d755ce36.jpg"
+  },
+  "name": "Muna Botanist",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} Target opponent [Resupplies].  {H} You may target another Character with Base Cost {3} or less, it gains [[Anchored]]. (Its Base Cost is its Reserve Cost if it's Fleeting, or its Hand Cost if not.)"
+  },
+  "collectorNumberFormatted": "SDU-060-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

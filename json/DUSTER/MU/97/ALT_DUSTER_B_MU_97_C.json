@@ -1,0 +1,270 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Can such entities be found near all world trees?",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "De telles entités existent-elles à proximité de tous les arbres-mondes ?",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZQTHM04E8Y1K4QESZ6W1",
+          "text": "Can such entities be found near all world trees?"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6E3HQWS0Q59QCRAAAMZPTJ45YE",
+      "reference": "ALT_DUSTER_B_MU_97_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "PLANT",
+      "id": "01HKAGSB49H24XWW17AAY441MT",
+      "name": "Plant"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KDXZP0FZCF9GVHTHKZ5EQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KDY60GPGBE814N36NTEM8"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KDYC9JRQK3JYNSKARQJ40"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KDYJFP3FH71HARJ8AWKRM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KDYR84G094P84WTV3DJPQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4GBBN85AWEA7HWW6QNH8K",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01HTS8M3QZMFFPWCM7RVWRF9ZC"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": { "text": "$[GIGANTIC].", "locale": "es_ES" },
+                  "it_IT": { "text": "$[GIGANTIC].", "locale": "it_IT" },
+                  "de_DE": { "text": "$[GIGANTIC].", "locale": "de_DE" },
+                  "fr_FR": { "text": "$[GIGANTIC].", "locale": "fr_FR" },
+                  "en_US": { "text": "$[GIGANTIC].", "locale": "en_US" }
+                },
+                "text": "$[GIGANTIC]."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K6X4GBWY6M94S9A527K68KD6"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4GBBN85AWEA7HWW6QNH8K",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Target opponent draws a card.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Un adversaire ciblé pioche une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Ein Gegner deiner Wahl zieht eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Un oponente objetivo roba una carta.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} Un avversario bersaglio pesca una carta.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} Target opponent draws a card."
+              }
+            ],
+            "reference": "01783"
+          },
+          "sequence": 1,
+          "id": "01K6X4GCBK1PAZYYAFF4ZVFVBE"
+        }
+      ],
+      "value": "[Gigantic]. (I am considered present in each of your Expeditions.)  {J} Target opponent draws a card.",
+      "id": "01K6X4GBBN85AWEA7HWW6QNH8K"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/en_US\/3ff917bf681c8c09c81d41bbaa77a36c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/WEB_e405262a8b7a0c188da12d0699fbf1e7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/WEB_975fda231a3728ae5ce5f44c3e66e361",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/WEB_3a24e3ed0bf1c35356dabc515d0444cd"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_97_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_97",
+  "reference": "ALT_DUSTER_B_MU_97_C",
+  "translations": {
+    "it_IT": { "name": "Figlio del Naos", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Sohn von Naos", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Hijo de Naos", "image": null, "locale": "es_ES" },
+    "fr_FR": {
+      "name": "Fils du Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/fr_FR\/5561ea13557334f249469ed10572832c.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Son of Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/en_US\/3ff917bf681c8c09c81d41bbaa77a36c.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVQ79H5F38WX92X3E1Z5",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/fr_FR\/5561ea13557334f249469ed10572832c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/en_US\/3ff917bf681c8c09c81d41bbaa77a36c.jpg"
+  },
+  "name": "Son of Naos",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "[Gigantic]. (I am considered present in each of your Expeditions.)  {J} Target opponent draws a card."
+  },
+  "collectorNumberFormatted": "SDU-066-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

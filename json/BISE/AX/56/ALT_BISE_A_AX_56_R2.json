@@ -1,0 +1,279 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Largage de boosters en cours !",
+              "locale": "fr_FR"
+            },
+            "en_US": { "text": "Casting off boosters!", "locale": "en_US" }
+          },
+          "id": "01JBT1A3WH33079GYX9Z3WZ3VC",
+          "text": "Casting off boosters!"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2ADYXNBHHP8HN8SYBPJFVM6WWE",
+      "reference": "ALT_BISE_A_AX_56_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+    "reference": "BISE",
+    "name": "Whispers from the Maze"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JB2313W0GPVY1MRKAFXSEQ5N"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JB231412NT1NTA86HZM30RAY"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JB23145F6JMWQF4036NWZTFP"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JB2314AE18F7FR7DYHHYHT50"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JB2314FPYJVF0V9KHRQZNGAB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K4JNF00TTPHRAXX6WZX03AC1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Explorar",
+                          "locale": "es_ES",
+                          "description": "Puedes jugarme desde la mano por {1} con «{h} Envíame a la reserva»."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Spähen",
+                          "locale": "de_DE",
+                          "description": "Du darfst mich für {1} mit „{h} Schicke mich in die Reserve“ aus der Hand spielen."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Repérage",
+                          "locale": "fr_FR",
+                          "description": "Vous pouvez me jouer de votre main pour {1} avec «{h} Envoyez-moi en Réserve »."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Esploratore",
+                          "locale": "it_IT",
+                          "description": "Puoi giocarmi dalla mano per {1} con \"{h} Mandami nella Riserva\"."
+                        },
+                        "en_US": {
+                          "displayWeb": "Scout",
+                          "locale": "en_US",
+                          "description": "You may play me from hand for {1} with \"{h} Send me to Reserve\"."
+                        }
+                      },
+                      "id": "01JB22F341Z4AYBVFE2JB4MP2C",
+                      "reference": "SCOUT_1"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01K3TNRADQ8DT7A94DKRE2VBGW"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "$[SCOUT_1] {1}.", "locale": "fr_FR" },
+                  "de_DE": { "text": "$[SCOUT_1] {1}.", "locale": "de_DE" },
+                  "it_IT": { "text": "$[SCOUT_1] {1}.", "locale": "it_IT" },
+                  "es_ES": { "text": "$[SCOUT_1] {1}.", "locale": "es_ES" },
+                  "en_US": { "text": "$[SCOUT_1] {1}.", "locale": "en_US" }
+                },
+                "text": "$[SCOUT_1] {1}."
+              }
+            ],
+            "reference": "02028"
+          },
+          "sequence": 0,
+          "id": "01K4JNF0FHH9154CX44W3XG7ZQ"
+        },
+        {
+          "cardElement": "\/card_elements\/01K4JNF00TTPHRAXX6WZX03AC1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{J} Ripristina tutte le carte nella tua Riserva.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Redressez toutes les cartes dans votre Réserve.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{J} Prepara todas las cartas de tu reserva.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{J} Stelle alle Karten in deiner Reserve bereit.",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "{J} Ready all cards in your Reserve.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "{J} Ready all cards in your Reserve."
+              }
+            ],
+            "reference": "00821"
+          },
+          "sequence": 1,
+          "id": "01K4JNF0V5B3EDCQF8BHZ8QPHT"
+        }
+      ],
+      "value": "[Scout] {1}. (You may play me from hand for {1} with \"{h} Send me to Reserve\".)  {J} Ready all cards in your Reserve.",
+      "id": "01K4JNF00TTPHRAXX6WZX03AC1"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/JPG\/en_US\/f55962255f261df70986d6b1100e4e16.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/WEB_e9060c02cc4b47aee2d55e904234c906",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/WEB_1de9b1c7a37fa0185be374262f54fbe7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/WEB_337b8943aef2b9aa35c613d1e3a919ba"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_A_AX_56_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_56",
+  "reference": "ALT_BISE_A_AX_56_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Icaro",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/JPG\/it_IT\/fa3b70d9d54ce768277590ac86fbc8f1.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Icarus",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/JPG\/en_US\/f55962255f261df70986d6b1100e4e16.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Ikarus",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/JPG\/de_DE\/fa5b8bf8025bbecc46b96760a5a86c44.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Ícaro",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/JPG\/es_ES\/9956b2e17ddc36898e8fee35745c51ea.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Icare",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/JPG\/fr_FR\/917de6b0099155e9ebe204422a011a83.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JB2054E0D34Y42FNZ23N0Q8J",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/JPG\/fr_FR\/917de6b0099155e9ebe204422a011a83.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_AX_56\/JPG\/en_US\/f55962255f261df70986d6b1100e4e16.jpg"
+  },
+  "name": "Icarus",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "[Scout] {1}. (You may play me from hand for {1} with \"{h} Send me to Reserve\".)  {J} Ready all cards in your Reserve."
+  },
+  "collectorNumberFormatted": "WFM-010-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

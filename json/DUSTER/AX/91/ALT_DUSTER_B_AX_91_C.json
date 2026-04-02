@@ -1,0 +1,256 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Sap Cola! Pepsap! Guaranteed sugar-free!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Sap Cola ! Pepsap ! Garanti sans sucre ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJ6R32S6SGM4G0HYKZZ7",
+          "text": "\"Sap Cola! Pepsap! Guaranteed sugar-free!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0TK3QEMMZG8KMRK13V3KN783CT",
+      "reference": "ALT_DUSTER_B_AX_91_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ROBOT",
+      "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+      "name": "Robot"
+    },
+    {
+      "reference": "MERCHANT",
+      "id": "01JZ2JZ7RFPB09RFMMFXBG3GZ5",
+      "name": "Merchant"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2JZ83XH83FA1YRD5MMH70T"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JZ893MXEWYEY6PDYYV34Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2JZ8DMAJ1V0Z5NEPJB3TRA"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2JZ8J5PGNZZ31S4GE7XH1W"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JZ8PPMBEW0REQPEJWNJ0P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X40HG0PQ3XM5FA7BRPQDT2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Exhausted Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve, then exhaust it {T}."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Erschöpfter Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve, dann erschöpfe sie {T}."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci-Consuma",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva, poi consumala {T}."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece y agota",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva y luego agótala {T}."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez Épuisé",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve, puis épuisez-la {T}."
+                        }
+                      },
+                      "id": "01J1QB6AA2K2V8S60PJSCJGR46",
+                      "reference": "EXHAUSTED_RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWJDXCBJNFS5Z0PCEDACK7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{R} [EXHAUSTED_RESUPPLY]. (Mettez la première carte de votre deck en Réserve, puis épuisez-la {T}. Une carte épuisée ne peut pas être jouée et n'a pas de capacité de Soutien.)",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{R} [EXHAUSTED_RESUPPLY]. (Put the top card of your deck in Reserve, then exhaust it {T}. Exhausted cards can't be played and have no Support abilities.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{R} [EXHAUSTED_RESUPPLY]. (Metti la prima carta del tuo mazzo nella Riserva, poi consumala {T}. Le carte consumate non possono essere giocate e non hanno abilità di supporto.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} [EXHAUSTED_RESUPPLY]. (Coloca la primera carta de tu mazo en reserva y luego agótala {T}. Las cartas agotadas no se pueden jugar y no tienen habilidades de apoyo.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{R} [EXHAUSTED_RESUPPLY]. (Lege die oberste Karte deines Decks in die Reserve, dann erschöpfe sie {T}. Erschöpfte Karten können nicht gespielt werden und haben keine Unterstützungsfähigkeiten.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{R} [EXHAUSTED_RESUPPLY]. (Put the top card of your deck in Reserve, then exhaust it {T}. Exhausted cards can't be played and have no Support abilities.)"
+              }
+            ],
+            "reference": "01927"
+          },
+          "sequence": 0,
+          "id": "01K6X40HZPYJP0R321PTYDCGYF"
+        }
+      ],
+      "value": "{R} [Exhausted Resupply]. (Put the top card of your deck in Reserve, then exhaust it {T}. Exhausted cards can't be played and have no Support abilities.)",
+      "id": "01K6X40HG0PQ3XM5FA7BRPQDT2"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Anh Tung" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_91\/JPG\/en_US\/f4447e34136c2bb80f3249301ddf7d2f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_91\/WEB_6e330406d596d16e184acd5c3c0c4ddd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_91\/WEB_78e0a1e26d4dbed05a7e7c51c98b011a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_91\/WEB_29c62c6b70b9721c920fda4a2d57ba42"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_91_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_91",
+  "reference": "ALT_DUSTER_B_AX_91_C",
+  "translations": {
+    "es_ES": { "name": "Robot expendedor", "image": null, "locale": "es_ES" },
+    "it_IT": {
+      "name": "Robottino Distributore",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Verkaufsbot", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Vending Bot",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_91\/JPG\/en_US\/f4447e34136c2bb80f3249301ddf7d2f.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Distribubot",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_91\/JPG\/fr_FR\/bd2ed1bdf1e42b18255eacb74bdfafa0.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVP43JJ9E7B039H7YAPH",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_91\/JPG\/fr_FR\/bd2ed1bdf1e42b18255eacb74bdfafa0.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_91\/JPG\/en_US\/f4447e34136c2bb80f3249301ddf7d2f.jpg"
+  },
+  "name": "Vending Bot",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{R} [Exhausted Resupply]. (Put the top card of your deck in Reserve, then exhaust it {T}. Exhausted cards can't be played and have no Support abilities.)"
+  },
+  "collectorNumberFormatted": "SDU-007-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,223 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "À la tête du Consortium, Sphura supervise l'innovation Reka.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "As the head of the Consortium, Sphura oversees all Reka innovation.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KH3ZWM43P9AN3N4YNP1J4S39",
+          "text": "As the head of the Consortium, Sphura oversees all Reka innovation."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4HKV6T7REP9SESRFR8QXYX0RNA",
+      "reference": "ALT_WCS26_P_AX_95_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01KGWCP9XAFCTT89T9VRTED92Z",
+    "reference": "WCS26",
+    "name": "World Championship Series 2026"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KGWE0VGQNYZ4C9XQDFE3P5VJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KGWE0VSY4V8SKY4DQH3BS3TM"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KGWE0W3EJ9V18EFXG0MY4Y17"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KGWE0WCMBJSQR5J5Z4RC7WB3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KGWE0WNWY6S9JRZ1NXPR6V28"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6AK0DJCNW8JQ7D064NQJ5Z",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "Placeholder", "locale": "fr_FR" },
+                  "en_US": {
+                    "text": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{T}: pesca una carta, poi scarta una carta dalla tua mano. Puoi eseguire questa azione solo se sei il primo giocatore.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{T} : Ziehe eine Karte, dann lege eine Karte aus deiner Hand ab. Du kannst dies nur aktivieren, falls du der Startspieler bist.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{T} : Roba una carta y luego descarta una carta de tu mano. Solo puedes activar esto si eres el primer jugador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player."
+              }
+            ],
+            "reference": "02997"
+          },
+          "sequence": 0,
+          "id": "01KH6AK2BH2C0TY99V9AA9VMXG"
+        }
+      ],
+      "value": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player.",
+      "id": "01KH6AK0DJCNW8JQ7D064NQJ5Z"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/en_US\/62f6559052ac2623d6325948176f0597.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/WEB_7ff2d0ae4352df051f528ecd50cbb339",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/WEB_6f669d95c0f23b9ac54d0c762b7d09df"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_P_AX_95_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": null,
+  "reference": "ALT_WCS26_P_AX_95_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Sphura, Hexarque Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/fr_FR\/6712bc339582484d973b18ef2dfc7867.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Sphura, Esarca Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/it_IT\/e163218a19a4ff0b2c39fa8d19b5df15.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Sphura, Reka Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/en_US\/62f6559052ac2623d6325948176f0597.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Sphura, hexarca reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/es_ES\/684ea2c2c67503a45761c023af9bf371.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Sphura, Reka-Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/de_DE\/f9063ba92141603f735f01f2fc74adfb.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01KGWCPATY6X3WCJM1KK4V95HC",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/fr_FR\/6712bc339582484d973b18ef2dfc7867.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/en_US\/62f6559052ac2623d6325948176f0597.jpg"
+  },
+  "name": "Sphura, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player."
+  },
+  "collectorNumberFormatted": "WCS26-S-003-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

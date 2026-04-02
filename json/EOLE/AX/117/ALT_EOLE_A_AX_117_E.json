@@ -1,0 +1,311 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "La recherche du progrès est une faim insatiable.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "The pursuit of progress is like an insatiable hunger.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KG2J88H7TJPQM68GRV4DQJK2",
+          "text": "The pursuit of progress is like an insatiable hunger."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J88JMPE7Z2TX2WQX0H0X6",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J88HY0Z573WMCA98QX879",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J88EFR9QJXXK3KC1KGZDG",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J88F6PT7B6WNM3X6EY6VK",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2AWXS6MH0E9ZATND34F7H0KSFC",
+      "reference": "ALT_EOLE_A_AX_117_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KG00X5Q47ZNNGJ48A95VPQXS"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KG00X5YGE2BQ27QVYXVMZQAH"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG00X65WEKNN1N0S4YCZ644H"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KG00X6D75F9SQVXHA7P6Z7NT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG00X6MJ98CPZKSER3W45D7Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QQVN0XFGZZERPZ246TXJD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Each Permanent you control activates its {j} abilities.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{H} Ogni permanente che controlli attiva le sue abilità {j}.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Cada permanente que controles activa sus habilidades {j}.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Chaque Permanent que vous contrôlez active ses capacités {j}.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Jede Bleibende Karte, die du kontrollierst, aktiviert ihre {j} Fähigkeiten.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} Each Permanent you control activates its {j} abilities."
+              }
+            ],
+            "reference": "03018"
+          },
+          "sequence": 0,
+          "id": "01KJ5QQWZ46DC87BYMF7CWYAMV"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5QQVN0XFGZZERPZ246TXJD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Lorsque vous passez — Sacrifiez un Permanent.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When you pass — Sacrifice a Permanent.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du passt — Opfere eine Bleibende Karte.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando passi — Sacrifica un permanente.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando pases — Sacrifica un permanente.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When you pass — Sacrifice a Permanent."
+              }
+            ],
+            "reference": "02710"
+          },
+          "sequence": 1,
+          "id": "01KJ5QQXKVA99V9B20S69YJTJW"
+        }
+      ],
+      "value": "{H} Each Permanent you control activates its {j} abilities.  When you pass — Sacrifice a Permanent.",
+      "id": "01KJ5QQVN0XFGZZERPZ246TXJD"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Khoa Viet" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/en_US\/c1dd3372f374fd07b10643ba728a32fb.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/WEB_7391b92cde34906f77c38f5098320c55",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/WEB_3688c302b5fcfc564e92395fc52e8c18"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_AX_117_E",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": "AX_117",
+  "reference": "ALT_EOLE_A_AX_117_E",
+  "translations": {
+    "fr_FR": {
+      "name": "Fléau d'Avarice",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/fr_FR\/baa9543559baebc97c1ffb5719cf808d.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Piaga dell'Avarizia",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/it_IT\/376b3bc6578e5ba3ddc6a6a5e024db41.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Plague of Avarice",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/en_US\/c1dd3372f374fd07b10643ba728a32fb.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Plaga de la avaricia",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/es_ES\/2ae3c27dd82c0a873dc243f0a826ac42.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Plage der Habgier",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/de_DE\/cb4c8844ba5d6e68aa3e4723c6c4856a.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01KFRQ5ZCR2B9GTWMDXJ1K08VE",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/fr_FR\/baa9543559baebc97c1ffb5719cf808d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_AX_117\/JPG\/en_US\/c1dd3372f374fd07b10643ba728a32fb.jpg"
+  },
+  "name": "Plague of Avarice",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} Each Permanent you control activates its {j} abilities.  When you pass — Sacrifice a Permanent."
+  },
+  "collectorNumberFormatted": "ROC-V-014-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

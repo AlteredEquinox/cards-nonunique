@@ -1,0 +1,247 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Constancy is for insensitive clods alone.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« La constance n'est bonne que pour les ridicules. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZNGYCFZ3JEMMX717ZTM3",
+          "text": "\"Constancy is for insensitive clods alone.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "103DCHSTV99B29W0QVRV9C25DF",
+      "reference": "ALT_DUSTER_B_LY_96_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K8K0G2JW51KGDRYXX1VCS"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K8K5X1Z7CGV9X9TANKA24"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K8KB66F3NYWZEN20Z7CZ0"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K8KGHNW9NP54Z034BDHN5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K8KNRNNSYQQ47PM6Z3P65"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4BBJ7K8AW930QYBJ74798",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6DGBFEB84CASPJV8J57CVHD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "If I would go to Reserve from the Expedition zone, I gain [FLEETING] and defect instead. (I join the Expedition facing me, changing controllers. If I would go to any personal zone, I go to my owner's instead.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Si je devais aller en Réserve depuis la zone d'Expédition, je gagne [FLEETING] et trahis à la place. (Je rejoins l'Expédition qui me fait face et change de contrôleur. Si je devais aller dans une zone personnelle, je vais dans celle de mon propriétaire à la place.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Si fuese a ir a la reserva desde la zona de expedición, en vez de eso, gano [FLEETING] y deserto. (Me incorporo a la expedición enfrentada a mí y cambio de controlador. Si fuese a ir a cualquier zona personal, en vez de eso, voy a la de mi propietario.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Falls ich aus der Expeditionszone in die Reserve gehen würde, erhalte ich stattdessen [FLEETING] und laufe über. (Ich schließe mich der mir gegenüberstehenden Expedition an und wechsle den kontrollierenden Spieler. Falls ich in eine beliebige persönliche Zone gehen würde, gehe ich stattdessen in die meines Besitzers.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Se sto per andare nella Riserva dall'area delle spedizioni, ottengo [FLEETING] e diserto invece. (Mi unisco alla spedizione che mi affronta, cambiando controllore. Se sto per andare in un'area personale qualsiasi, vado invece in quella del mio proprietario.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "If I would go to Reserve from the Expedition zone, I gain [FLEETING] and defect instead. (I join the Expedition facing me, changing controllers. If I would go to any personal zone, I go to my owner's instead.)"
+              }
+            ],
+            "reference": "02085"
+          },
+          "sequence": 0,
+          "id": "01K6X4BC3V2767TJ68MXFSE6SV"
+        }
+      ],
+      "value": "If I would go to Reserve from the Expedition zone, I gain [[Fleeting]] and defect instead. (I join the Expedition facing me, changing controllers. If I would go to any personal zone, I go to my owner's instead.)",
+      "id": "01K6X4BBJ7K8AW930QYBJ74798"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_96\/JPG\/en_US\/7e6288283096b9bde514eee2baf2a70e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_96\/WEB_961e2d6f942281168972e8b1556d8179",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_96\/WEB_0397c71278522e54e1009fa349eac84a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_96\/WEB_912cd888420c4f0eae994580524e73c0"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_96_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_96",
+  "reference": "ALT_DUSTER_B_LY_96_C",
+  "translations": {
+    "it_IT": { "name": "Don Giovanni", "image": null, "locale": "it_IT" },
+    "es_ES": { "name": "Don Juan", "image": null, "locale": "es_ES" },
+    "fr_FR": {
+      "name": "Don Juan",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_96\/JPG\/fr_FR\/4e16c52cd43957c0e6b49578f08b64f1.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": { "name": "Don Juan", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Don Juan",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_96\/JPG\/en_US\/7e6288283096b9bde514eee2baf2a70e.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVPXTWN7CSV6RBV03BZW",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_96\/JPG\/fr_FR\/4e16c52cd43957c0e6b49578f08b64f1.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_96\/JPG\/en_US\/7e6288283096b9bde514eee2baf2a70e.jpg"
+  },
+  "name": "Don Juan",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "5",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "5",
+    "MAIN_EFFECT": "If I would go to Reserve from the Expedition zone, I gain [[Fleeting]] and defect instead. (I join the Expedition facing me, changing controllers. If I would go to any personal zone, I go to my owner's instead.)"
+  },
+  "collectorNumberFormatted": "SDU-047-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

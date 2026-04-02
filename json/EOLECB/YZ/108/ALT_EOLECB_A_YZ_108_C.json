@@ -1,0 +1,324 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Why muzzle the wolf when you can remove its fangs?",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Pourquoi museler le loup quand on peut lui ôter les crocs ? »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDKVQHHJH6SC9JSVEF0NC",
+          "text": "Why muzzle the wolf when you can remove its fangs?"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6JYK2H9MJ790QS20QJHMKM10SG",
+      "reference": "ALT_EOLECB_A_YZ_108_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    },
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6SGF3TG1V2E4BP4RC7A4A"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6SGRRHX10FKWRZ5YJ906Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6SH37251F47RZ2YJR3T5B"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6SHCZCBR1DYWMGQZTY4B0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6SHPN89WFWSW9EAMDSC02"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKKN07JHYMW406HHTXKKYF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7ME64HPWBXEY7D4XN900K2"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} I gain [FLEETING] unless six or more cards are in your discard pile.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{H} Gano [FLEETING] a menos que haya seis o más cartas en tu pila de descartes.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{H} Ich erhalte [FLEETING], es sei denn, es befinden sich mindestens sechs Karten auf deinem Ablagestapel.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Je gagne [FLEETING], sauf s'il y a au moins six cartes dans votre défausse.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{H} Ottengo [FLEETING] a meno che non ci siano sei o più carte nella tua pila degli scarti.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} I gain [FLEETING] unless six or more cards are in your discard pile."
+              }
+            ],
+            "reference": "02977"
+          },
+          "sequence": 0,
+          "id": "01KJQKKNKG8JF80XPK4TXNENCE"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJQKKN07JHYMW406HHTXKKYF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K5C6P31NE044GNX6M1AHQG4N"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "{H} [SABOTAGE].", "locale": "en_US" },
+                  "fr_FR": { "text": "{H} [SABOTAGE].", "locale": "fr_FR" },
+                  "de_DE": { "text": "{H} [SABOTAGE].", "locale": "de_DE" },
+                  "it_IT": { "text": "{H} [SABOTAGE].", "locale": "it_IT" },
+                  "es_ES": { "text": "{H} [SABOTAGE].", "locale": "es_ES" }
+                },
+                "text": "{H} [SABOTAGE]."
+              }
+            ],
+            "reference": "02077"
+          },
+          "sequence": 1,
+          "id": "01KJQKKP3MWX31SPVVWJ8Q2TES"
+        }
+      ],
+      "value": "{H} I gain [[Fleeting]] unless six or more cards are in your discard pile.  {H} [Sabotage].",
+      "id": "01KJQKKN07JHYMW406HHTXKKYF"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Nestor Papatriantafyllou" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/JPG\/en_US\/7a374b00c3f4f2419f3b516bc667de14.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/WEB_ebf40ec5fefd48df33416d81c105146a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/WEB_f60e64f12ed2e4a1fc84226ca89d2ccd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/WEB_7d2b6ca00eeb07c051f53acdd8fb8828"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_YZ_108_C",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_YZ_108_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Fée des Dents Corrompue",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/JPG\/fr_FR\/da5f35b2967d3b302bff30391b33f646.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Corrupted Tooth Fairy",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/JPG\/en_US\/7a374b00c3f4f2419f3b516bc667de14.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Hada de los dientes corrompida",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/JPG\/es_ES\/c9e2d092b22e40a9ee6bff8db6dfa81e.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Fatina dei Denti Corrotta",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/JPG\/it_IT\/225ae55f3cf5d68828a3b74da7c6824a.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Verderbte Zahnfee",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/JPG\/de_DE\/d30395862954c4f5163d2a9d19a211b0.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01KH6E45FNQB51SN6EGRDVZ298",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/JPG\/fr_FR\/da5f35b2967d3b302bff30391b33f646.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_108\/JPG\/en_US\/7a374b00c3f4f2419f3b516bc667de14.jpg"
+  },
+  "name": "Corrupted Tooth Fairy",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} I gain [[Fleeting]] unless six or more cards are in your discard pile.  {H} [Sabotage]."
+  },
+  "collectorNumberFormatted": "ROCCB-V-099-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

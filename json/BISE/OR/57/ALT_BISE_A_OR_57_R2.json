@@ -1,0 +1,227 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Big up à toutes les petites mains qui font tourner l'événement.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Big up to all the little people who keep the event running.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JBT1A3ZF2PQBDZ6XKZSE6K96",
+          "text": "Big up to all the little people who keep the event running."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "064H3HDYND9YQSBZQ99QJKNKG0",
+      "reference": "ALT_BISE_A_OR_57_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "BUREAUCRAT",
+      "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+      "name": "Bureaucrat"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+    "reference": "BISE",
+    "name": "Whispers from the Maze"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JB23205YH6NZ9877EX1D43NH"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JB2320CC6Z6E25VZ3331FD70"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JB2320GN4T01YGAAN558A0TC"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JB2320NN9V5S71BNM96NYAAP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JB2320WW16GHH4RV5R19KMG1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K4JNH0P3DW2HHB0TRE8AQ430",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When an opponent plays a Character — If there are no Characters in the Expedition facing me, that Character switches Expeditions.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsqu'un adversaire joue un Personnage — S'il n'y a aucun Personnage dans l'Expédition qui me fait face, ce Personnage change d'Expédition.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn ein Gegner einen Charakter spielt — Falls es keine Charaktere in der mir gegenüberstehenden Expedition gibt, wechselt dieser Charakter die Expeditionen.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando un avversario gioca un personaggio — Se non c'è alcun personaggio nella spedizione che mi affronta, quel personaggio cambia spedizione.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando un oponente juegue un personaje — Si no hay ningún personaje en la expedición enfrentada a mí, ese personaje se traslada de expedición.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When an opponent plays a Character — If there are no Characters in the Expedition facing me, that Character switches Expeditions."
+              }
+            ],
+            "reference": "01622"
+          },
+          "sequence": 0,
+          "id": "01K4JNH15MG7TB0D5SFG4VT4Z7"
+        }
+      ],
+      "value": "When an opponent plays a Character — If there are no Characters in the Expedition facing me, that Character switches Expeditions.",
+      "id": "01K4JNH0P3DW2HHB0TRE8AQ430"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/JPG\/en_US\/22705c26b79d0acd7d5c9b7c5584627e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/WEB_31b3ada382e56b7ac6c5ad61bf96e4e1",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/WEB_280ef6d30ca90ac1122ef46349636673",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/WEB_32bfa6a0fcae5049be6326a092270fbc"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_A_OR_57_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_57",
+  "reference": "ALT_BISE_A_OR_57_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Arianna",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/JPG\/it_IT\/3b87fe126a0f19f4e354b600914009c4.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Ariadne",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/JPG\/de_DE\/d3c804d087f2feabb0cf0973673575d7.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Ariadna",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/JPG\/es_ES\/149d052308c76c64a9a1dea985759839.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Ariadne",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/JPG\/en_US\/22705c26b79d0acd7d5c9b7c5584627e.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Ariane",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/JPG\/fr_FR\/c7184cf188e3f9f4416bdbe76b8f9e5b.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JB2169SJKSRX61MR8ZQ356PP",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/JPG\/fr_FR\/c7184cf188e3f9f4416bdbe76b8f9e5b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_OR_57\/JPG\/en_US\/22705c26b79d0acd7d5c9b7c5584627e.jpg"
+  },
+  "name": "Ariadne",
+  "elements": {
+    "MAIN_COST": "#4#",
+    "RECALL_COST": "#4#",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "#3#",
+    "MOUNTAIN_POWER": "#3#",
+    "MAIN_EFFECT": "When an opponent plays a Character — If there are no Characters in the Expedition facing me, that Character switches Expeditions."
+  },
+  "collectorNumberFormatted": "WFM-079-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

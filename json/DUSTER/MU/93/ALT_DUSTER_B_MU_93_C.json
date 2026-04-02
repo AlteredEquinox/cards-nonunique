@@ -1,0 +1,210 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Quoi qu'ils en disent, le Naos souffre, tout comme le Nilam avant lui ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"No matter what they say, the Naos is suffering, just like the Nilam before it!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JZ37ZQ9REP0Q8YK71J13BMN4",
+          "text": "\"No matter what they say, the Naos is suffering, just like the Nilam before it!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "719CH0MSSD9ESR96N85B09DKQ2",
+      "reference": "ALT_DUSTER_B_MU_93_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KCBHCBZQEVPMNKRYDZM76"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KCBQ4XB01N43HPMAZQ785"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KCBWGM9ZCMG7Y70MEP993"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KCC1YJ2ES7D49GHR19SVG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KCC7BJRSBX64ZCSVDEP0H"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4F5FZKHYES8BQ6XXPD8EQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may pay {2} to return target Permanent to its owner's hand.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez payer {2} pour renvoyer un Permanent ciblé dans la main de son propriétaire.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Du darfst {2} bezahlen, um eine Bleibende Karte deiner Wahl in die Hand ihres Besitzers zurückzuschicken.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes pagar {2} para devolver a la mano de su propietario un permanente objetivo.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi pagare {2} per far tornare un permanente bersaglio in mano al suo proprietario.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} You may pay {2} to return target Permanent to its owner's hand."
+              }
+            ],
+            "reference": "01770"
+          },
+          "sequence": 0,
+          "id": "01K6X4F60Q2NAAJ0C1HS0V62A5"
+        }
+      ],
+      "value": "{H} You may pay {2} to return target Permanent to its owner's hand.",
+      "id": "01K6X4F5FZKHYES8BQ6XXPD8EQ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/JPG\/en_US\/c5610f9ad227bd6f55fd393f975aaa01.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/WEB_bf2a2e3d6e63b3d665af1da8778d6796",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/WEB_4fe34fb9f771b1bc023ae006292dccc2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/WEB_1000a7be97bd1281d21b6c8227477897"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_93_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_93",
+  "reference": "ALT_DUSTER_B_MU_93_C",
+  "translations": {
+    "de_DE": { "name": "Hesperidin", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Hespéride", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Esperide", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Hespéride",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/JPG\/fr_FR\/ca9bef813353eb0d6aa962c1f766d0f0.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Hesperide",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/JPG\/en_US\/c5610f9ad227bd6f55fd393f975aaa01.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVQ64CQ9P7A1GXC4E2TA",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/JPG\/fr_FR\/ca9bef813353eb0d6aa962c1f766d0f0.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/JPG\/en_US\/c5610f9ad227bd6f55fd393f975aaa01.jpg"
+  },
+  "name": "Hesperide",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} You may pay {2} to return target Permanent to its owner's hand."
+  },
+  "collectorNumberFormatted": "SDU-061-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

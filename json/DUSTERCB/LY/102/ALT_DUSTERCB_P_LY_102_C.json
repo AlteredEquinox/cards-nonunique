@@ -1,0 +1,258 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Reka cable-cars are the safest way to get around the city.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Les funiculaires Reka sont le moyen le plus sûr pour se déplacer en ville.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KJ5PA2MQR3VK7D50P56C2D5Z",
+          "text": "Reka cable-cars are the safest way to get around the city."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "1QSH4XMYDV9DK8M97BMFQ79M7M",
+      "reference": "ALT_DUSTERCB_P_LY_102_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K6ASRXFXHKCHBNSM1N4C5V75"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K6ASRXP0SD8CJPT6G0ATCH7W"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH66PE2AM8PAHBC4KFRYQSVY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KAG3TBT0ZWS9Z1ADW7Z1S"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{J} [RESUPPLY], puis je gagne 2 compteurs Déplacement.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{J} [RESUPPLY], then I gain 2 Move counters.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Nutze [RESUPPLY], dann erhalte ich 2 Bewegungszähler.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} [RESUPPLY] y luego gano 2 contadores de movimiento.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} [RESUPPLY], poi ottengo 2 segnalini Movimento.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} [RESUPPLY], then I gain 2 Move counters."
+              }
+            ],
+            "reference": "01755"
+          },
+          "sequence": 0,
+          "id": "01KH66PEQ1MCZ7KFE3V1AHBJ30"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH66PE2AM8PAHBC4KFRYQSVY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T}, Spend 1 of my Move counters: One of your Expeditions moves backwards one region. If it does, your other Expedition moves forward one region.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{T}, Dépensez 1 de mes compteurs Déplacement : L'une de vos Expéditions recule d'une région. Si elle le fait, votre autre Expédition avance d'une région.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{T}, Gib 1 meiner Bewegungszähler aus: Eine deiner Expeditionen bewegt sich eine Region zurück. Falls sie das tut, bewegt sich deine andere Expedition eine Region vorwärts.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{T}, Gastar 1 de mis contadores de movimiento: Una de tus expediciones retrocede una región. Si lo hace, tu otra expedición avanza una región.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{T}, spendi 1 dei miei segnalini Movimento: una delle tue spedizioni arretra di una regione. Se lo fa, l'altra tua spedizione avanza di una regione.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{T}, Spend 1 of my Move counters: One of your Expeditions moves backwards one region. If it does, your other Expedition moves forward one region."
+              }
+            ],
+            "reference": "01756"
+          },
+          "sequence": 1,
+          "id": "01KH66PF88NQ6AYE5ATXHVFVDW"
+        }
+      ],
+      "value": "{J} [Resupply], then I gain 2 Move counters.  {T}, Spend 1 of my Move counters: One of your Expeditions moves backwards one region. If it does, your other Expedition moves forward one region.",
+      "id": "01KH66PE2AM8PAHBC4KFRYQSVY"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_102\/JPG\/en_US\/37f1dc306fba4724e7f22177bdcaf75e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_102\/WEB_fad70f0833b30dde4dd184d05556bc55",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_102\/WEB_639d229094aaec054519838ccf02d52f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_LY_102_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_102",
+  "reference": "ALT_DUSTERCB_P_LY_102_C",
+  "translations": {
+    "it_IT": {
+      "name": "Stazione della Funivia",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Seilbahn-Station", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Estación de teleférico",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Cable-Car Station",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_102\/JPG\/en_US\/37f1dc306fba4724e7f22177bdcaf75e.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Station de Téléphérique",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_102\/JPG\/fr_FR\/77e099da7c4fa115f3d056842a117248.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K60PWD2YF6CPQMAD3RCR9891",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_102\/JPG\/fr_FR\/77e099da7c4fa115f3d056842a117248.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_102\/JPG\/en_US\/37f1dc306fba4724e7f22177bdcaf75e.jpg"
+  },
+  "name": "Cable-Car Station",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} [Resupply], then I gain 2 Move counters.  {T}, Spend 1 of my Move counters: One of your Expeditions moves backwards one region. If it does, your other Expedition moves forward one region."
+  },
+  "collectorNumberFormatted": "SDUCB-010-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

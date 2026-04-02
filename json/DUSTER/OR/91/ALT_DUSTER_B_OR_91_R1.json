@@ -1,0 +1,259 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"You're not on the list. Please move along.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« N'insistez pas, vous n'êtes pas sur la liste. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZSH5WF6S6W644WF2P0FY",
+          "text": "\"You're not on the list. Please move along.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "50BG26489E99SR69N0B6WDF6HV",
+      "reference": "ALT_DUSTER_B_OR_91_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJ06KXJ6H578TCQRMJG1D"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJ0CADHJYNASG8MCYKRF2"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJ0J49VA327T8BD0FC1BM"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KJ0QWTB2EYF1A4H963SRF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KJ0YDYZ7C1YA2WVTD08AT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4KZXEGHBDJ2RX8FR517EP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabotare",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotear",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Saboter",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22EQVNW1H84FFR1R8V4964",
+                      "reference": "SABOTAGE_INF"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZJPQQZFEVAETYDDP4JJWC79"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "#{J}# Vous pouvez épuiser ({T}) un Permanent que vous contrôlez pour [SABOTAGE_INF]. #Si vous ne le faites pas, je gagne 1 boost.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# Du darfst eine Bleibende Karte, die du kontrollierst, erschöpfen ({T}), um [SABOTAGE_INF] zu nutzen. #Falls du das nicht tust, erhalte ich 1 Verstärkung.#",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "#{J}# You may exhaust ({T}) a Permanent you control to [SABOTAGE_INF]. #If you don't, I gain 1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# Puedes agotar ({T}) un permanente que controlas para [SABOTAGE_INF]. #Si no lo haces, gano 1 potenciador.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# Puoi consumare ({T}) un permanente che controlli per [SABOTAGE_INF]. #Se non lo fai, ottengo 1 rinforzo.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{J}# You may exhaust ({T}) a Permanent you control to [SABOTAGE_INF]. #If you don't, I gain 1 boost.#"
+              }
+            ],
+            "reference": "01896"
+          },
+          "sequence": 0,
+          "id": "01K6X4M0SQ0YR51F5ZB4YYF01E"
+        }
+      ],
+      "value": "{J} You may exhaust ({T}) a Permanent you control to [Sabotage]. If you don't, I gain 1 boost.",
+      "id": "01K6X4KZXEGHBDJ2RX8FR517EP"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_91\/JPG\/en_US\/cec8f35b328a90f24f946e0c9bc73a1d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_91\/WEB_aef454c2bfa0b775aa71cd4796456ad9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_91\/WEB_ef10b0cf459b5cbf61c75bb74d1271cd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_91\/WEB_19251ec8b99c597a89543bd295226fb8"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_91_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_91",
+  "reference": "ALT_DUSTER_B_OR_91_R1",
+  "translations": {
+    "it_IT": {
+      "name": "Concierge Inflessibile",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Adamant Receptionist",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_91\/JPG\/en_US\/cec8f35b328a90f24f946e0c9bc73a1d.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Recepcionista inflexible",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Strenge Rezeptionistin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Réceptionniste Inflexible",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_91\/JPG\/fr_FR\/cc34e14c16925a4e55fa009ad31bbd60.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQED7AJCPD9W7KJFVGY",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_91\/JPG\/fr_FR\/cc34e14c16925a4e55fa009ad31bbd60.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_91\/JPG\/en_US\/cec8f35b328a90f24f946e0c9bc73a1d.jpg"
+  },
+  "name": "Adamant Receptionist",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "#3#",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#{J}# You may exhaust ({T}) a Permanent you control to [Sabotage]. #If you don't, I gain 1 boost.#"
+  },
+  "collectorNumberFormatted": "SDU-079-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

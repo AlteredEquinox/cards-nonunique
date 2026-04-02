@@ -1,0 +1,222 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"The little one is mine! He shall live to run with the pack and to hunt with the pack!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Le petit d'homme est mien ! Il vivra pour courir avec le clan, et pour chasser avec le clan ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDKKFK5DAP71QART4ZSXM",
+          "text": "\"The little one is mine! He shall live to run with the pack and to hunt with the pack!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "7DVS5HXEFW85AR4BXEHS32K9G5",
+      "reference": "ALT_EOLECB_A_MU_110_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6R6ZHNG6T0VGANADKANRE"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6R79AKYVKYGWV7NWJ1MXW"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6R7JZ35BNJ0HHDPEHT4Y9"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6R7WRRMGYYZNVY5Z8TCQ5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6R86KWQSNB2Q9K689JC90"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKJDRPAHDAETFR59MAST1T",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{J} Puedes hacer objetivo a otro personaje con {V} menor o igual que el mío. Gana 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{J} You may target another Character with {V} less than or equal to mine. It gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Du darfst einen anderen Charakter wählen, dessen {V} gleich oder niedriger als meines ist. Er erhält 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Puoi scegliere come bersaglio un altro personaggio con {V} pari o inferiore alla mia. Ottiene 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez cibler un autre Personnage avec une statistique {V} inférieure ou égale à la mienne. Il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} You may target another Character with {V} less than or equal to mine. It gains 1 boost."
+              }
+            ],
+            "reference": "02885"
+          },
+          "sequence": 0,
+          "id": "01KJQKJECRASXP70HHZ6F6PPE2"
+        }
+      ],
+      "value": "{J} You may target another Character with {V} less than or equal to mine. It gains 1 boost.",
+      "id": "01KJQKJDRPAHDAETFR59MAST1T"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Jefrey Yonathan" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/JPG\/en_US\/6b032afbbcb623a07cb782942cfdf191.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/WEB_ccb4e3bf94dd287fc09cbd7a8b089a20",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/WEB_a9d190565afbc18e7da2757d224454bc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/WEB_bc6b89d76e6c9169bb053815fedefd38"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_MU_110_C",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_MU_110_C",
+  "translations": {
+    "en_US": {
+      "name": "Raksha",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/JPG\/en_US\/6b032afbbcb623a07cb782942cfdf191.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Raksha",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/JPG\/fr_FR\/5620da47d346111287b826d0dc72f343.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Raksha",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/JPG\/es_ES\/33ddb276d098c70a5d080fd2c35d9083.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Raksha",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/JPG\/de_DE\/fb48e7bcbab0669234b92c7deff4592a.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Raksha",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/JPG\/it_IT\/875fbc7a516a27ba4c9f39493994b6b0.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01KH6E45CV870QRJYZ1B0NJ0QZ",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/JPG\/fr_FR\/5620da47d346111287b826d0dc72f343.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_110\/JPG\/en_US\/6b032afbbcb623a07cb782942cfdf191.jpg"
+  },
+  "name": "Raksha",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{J} You may target another Character with {V} less than or equal to mine. It gains 1 boost."
+  },
+  "collectorNumberFormatted": "ROCCB-V-061-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

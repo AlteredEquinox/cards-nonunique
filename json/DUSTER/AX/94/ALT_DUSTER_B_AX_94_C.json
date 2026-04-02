@@ -1,0 +1,252 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"The noblest pleasure is the joy of understanding.\" — Leonardo da Vinci",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Le plaisir le plus noble est la joie de comprendre. » - Léonard de Vinci",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJC4C3HY3BCJVK5EJF62",
+          "text": "\"The noblest pleasure is the joy of understanding.\" — Leonardo da Vinci"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2TM492P50W9YWS3YX2G2W1J2P1",
+      "reference": "ALT_DUSTER_B_AX_94_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    },
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JYJV1QM8PCPGMCMKSFZZA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JYJZCRCSR04AHW7X44KF1"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2JYK3SXZ1AJYAY2GCSVXAB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JYK8KB1XM5NYZADSW8030"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2JYKD4TPJA2GX3RY0HA0TC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X41FNZX1009JMC3S4H5D8R",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornire",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitailler",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastecer",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        }
+                      },
+                      "id": "01HNDWWMHVCJSJ22J9C3C9MXFS",
+                      "reference": "RESUPPLY_INF"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01JZJP4VWD072KDBQ19RV77Y25"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{R} Vous pouvez épuiser ({T}) un Permanent que vous contrôlez pour $[RESUPPLY_INF].",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{R} You may exhaust ({T}) a Permanent you control to $[RESUPPLY_INF].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} Du darfst eine Bleibende Karte, die du kontrollierst, erschöpfen ({T}), um $[RESUPPLY_INF] zu nutzen.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} Puoi consumare ({T}) un permanente che controlli per $[RESUPPLY_INF].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Puedes agotar ({T}) un permanente que controlas para $[RESUPPLY_INF].",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{R} You may exhaust ({T}) a Permanent you control to $[RESUPPLY_INF]."
+              }
+            ],
+            "reference": "01883"
+          },
+          "sequence": 0,
+          "id": "01K6X41G6JVY9H52GMDPQ9D1SH"
+        }
+      ],
+      "value": "{R} You may exhaust ({T}) a Permanent you control to [Resupply]. (Put the top card of your deck in Reserve.)",
+      "id": "01K6X41FNZX1009JMC3S4H5D8R"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Atanas Lozanski" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_94\/JPG\/en_US\/d8f4bf133972e0324a27b6ff30ced4a6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_94\/WEB_2ea2433e7444e5140a9c518f7a8cfc75",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_94\/WEB_8a59c1bfafdfd30f8d6feeff99272253",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_94\/WEB_388d8d5ff6e5cdbe4ae019350369f188"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_94_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_94",
+  "reference": "ALT_DUSTER_B_AX_94_C",
+  "translations": {
+    "de_DE": { "name": "Leonardo da Vinci", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Leonardo da Vinci", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Leonardo da Vinci", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "Leonardo da Vinci",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_94\/JPG\/en_US\/d8f4bf133972e0324a27b6ff30ced4a6.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Léonard de Vinci",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_94\/JPG\/fr_FR\/7874fb92d4bc3c23b4a8e0dd3962c578.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVP713CJSE7HPEW9YPZA",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_94\/JPG\/fr_FR\/7874fb92d4bc3c23b4a8e0dd3962c578.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_94\/JPG\/en_US\/d8f4bf133972e0324a27b6ff30ced4a6.jpg"
+  },
+  "name": "Leonardo da Vinci",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{R} You may exhaust ({T}) a Permanent you control to [Resupply]. (Put the top card of your deck in Reserve.)"
+  },
+  "collectorNumberFormatted": "SDU-004-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

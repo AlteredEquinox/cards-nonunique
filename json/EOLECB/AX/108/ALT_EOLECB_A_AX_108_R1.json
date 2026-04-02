@@ -1,0 +1,388 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Certain memories will always be tainted with bitterness.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Certains souvenirs seront toujours teintés d'amertume.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDK67VTD4YZ2ZXR8TBQMR",
+          "text": "Certain memories will always be tainted with bitterness."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "71GMKJDYKK82PB7AE5P56E7QXX",
+      "reference": "ALT_EOLECB_A_AX_108_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    },
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6NSKYY98KHYVXETQ6C1AB"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6NSXY7CP341H9RM1J8VE8"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01KHB6NT7TCYWZTYWYMNGRB5Z5"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6NTJ2MHX8R33E96JXW0FH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6NTVK6ETC7ZPK667TJ9C3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKG6H4XVZRT2KHD3KJ75GB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "#Je ne peux pas être joué# s'il y a une autre carte dans votre main.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#I can't be played# if there's another card in your hand.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Ich kann nicht gespielt werden,# falls eine andere Karte in deiner Hand ist.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#No puedes jugarme# si hay otra carta en tu mano.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#Non puoi giocarmi# se c'è un'altra carta nella tua mano.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#I can't be played# if there's another card in your hand."
+              }
+            ],
+            "reference": "02749"
+          },
+          "sequence": 0,
+          "id": "01KJQKG74SZV12FCCYPS4WGNHV"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJQKG6H4XVZRT2KHD3KJ75GB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Aérolithe",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Aerolith",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aerolit",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Aerolite",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Aerolito",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V2BFTDBEPJRRHWC5YM548",
+                      "reference": "AEROLITH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7JXGB4SKP1YDEY4FR67AJB"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "#{J}# Créez un jeton [AEROLITH] dans vos Repères.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#{J}# Create an [AEROLITH] token in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# Crea una ficha de [AEROLITH] en tus hitos.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# Erschaffe eine [AEROLITH]-Marke in deinem Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# Crea una pedina [AEROLITH] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{J}# Create an [AEROLITH] token in your Landmarks."
+              }
+            ],
+            "reference": "02750"
+          },
+          "sequence": 1,
+          "id": "01KJQKG7MYSYKM5CMNJGDHEWFA"
+        }
+      ],
+      "value": "I can't be played if there's another card in your hand.  {J} Create an [Aerolith] token in your Landmarks.",
+      "id": "01KJQKG6H4XVZRT2KHD3KJ75GB"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKG879XCETNSD2669BK32A",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Aérolithe",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Aerolith",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aerolit",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Aerolite",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Aerolito",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V2BFTDBEPJRRHWC5YM548",
+                      "reference": "AEROLITH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7JXKJMJJXNZ1R21MM3VVFZ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "#{D} : Créez un jeton [AEROLITH] dans les Repères d'un joueur ciblé.#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#{D} : Create an [AEROLITH] token in target player's Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{D} : Erschaffe eine [AEROLITH]-Marke im Wahrzeichen-Bereich eines Spielers deiner Wahl.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{D}: crea una pedina [AEROLITH] nei fulcri di un giocatore bersaglio.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{D} : Crea una ficha de [AEROLITH] en los hitos del jugador objetivo.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#{D} : Create an [AEROLITH] token in target player's Landmarks.#"
+              }
+            ],
+            "reference": "02751"
+          },
+          "sequence": 0,
+          "id": "01KJQKG8TJJGQ21CNA8CBY8SP3"
+        }
+      ],
+      "value": "{D} : Create an [Aerolith] token in target player's Landmarks.",
+      "id": "01KJQKG879XCETNSD2669BK32A"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Gamon Studio" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/JPG\/en_US\/afbddb8a33784fcfcbc2ab31448833a1.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/WEB_77862bf7cba8f1d263ecca435a27300b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/WEB_e85677da5f404002807c3e8fdac13dfc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/WEB_d61e2a2ef05825acd9efabcf6ba99ab1"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_AX_108_R1",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_AX_108_R1",
+  "translations": {
+    "en_US": {
+      "name": "Corrupted Paju",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/JPG\/en_US\/afbddb8a33784fcfcbc2ab31448833a1.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Verderbter Paju",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/JPG\/de_DE\/d33aba9dfed211c8a7c84ae80d178fbc.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Paju Corrotto",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/JPG\/it_IT\/8dfd192510eae9f851e0af059db598a1.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Paju Corrompu",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/JPG\/fr_FR\/73b67f3dc7d9cf786599bf9f681c69e2.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Paju corrompido",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/JPG\/es_ES\/57a3f043c0a7b4e274049495f0388c1b.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01KH6E458HGZ79546RNTGA0TYF",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/JPG\/fr_FR\/73b67f3dc7d9cf786599bf9f681c69e2.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_AX_108\/JPG\/en_US\/afbddb8a33784fcfcbc2ab31448833a1.jpg"
+  },
+  "name": "Corrupted Paju",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#0#",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#I can't be played# if there's another card in your hand.  #{J}# Create an [Aerolith] token in your Landmarks.",
+    "ECHO_EFFECT": "#{D} : Create an [Aerolith] token in target player's Landmarks.#"
+  },
+  "collectorNumberFormatted": "ROCCB-V-004-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

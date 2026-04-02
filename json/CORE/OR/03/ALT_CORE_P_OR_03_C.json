@@ -1,0 +1,252 @@
+{
+  "loreEntries": [],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01HKAFJN3HG3TWKYV0E014K01G",
+    "reference": "CORE",
+    "name": "Beyond the Gates"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K1Z7T62M40HP9B6BW50DX28J",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Wenn du einen Marken-Charakter erschaffst — Er erhält 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando crei una pedina personaggio — Ottiene 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando crees una ficha de personaje — Gana 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "When you create a token Character — It gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous créez un jeton Personnage — Il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you create a token Character — It gains 1 boost."
+              }
+            ],
+            "reference": "00761"
+          },
+          "sequence": 0,
+          "id": "01K1Z7T6KB7V8MJMR4Z4V1QJKC"
+        },
+        {
+          "cardElement": "\/card_elements\/01K1Z7T62M40HP9B6BW50DX28J",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verstärkt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Boostés",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rinforzato",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "potenciadas",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Boosted",
+                          "locale": "en_US",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HNDWZXVABGWAERY36FFXR8XS",
+                      "reference": "BOOSTED_TKN_P"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JMCHXHJH60HKR81XSTG9M8XV"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verteidiger",
+                          "locale": "de_DE",
+                          "description": "Ihre Expeditionen können sich am Abend nicht vorwärts bewegen."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Défenseurs",
+                          "locale": "fr_FR",
+                          "description": "Leurs Expéditions ne peuvent pas avancer pendant le Crépuscule."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Difensore",
+                          "locale": "it_IT",
+                          "description": "Le loro spedizioni non possono avanzare durante il crepuscolo."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Defensoras",
+                          "locale": "es_ES",
+                          "description": "Sus expediciones no pueden avanzar durante el anochecer."
+                        },
+                        "en_US": {
+                          "displayWeb": "Defender",
+                          "locale": "en_US",
+                          "description": "Their Expeditions can't move forward during Dusk."
+                        }
+                      },
+                      "id": "01J1QBBVRWRA0VPK8DCB8QDYN0",
+                      "reference": "DEFENDER_TKN_P"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JMCHXHWTBH880T843RH574C6"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "If you have less than eight Mana Orbs, [BOOSTED_TKN_P] tokens you control are [DEFENDER_TKN_P]. (Their Expeditions can't move forward during Dusk.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Si vous avez moins de huit Orbes de Mana, les jetons [BOOSTED_TKN_P] que vous contrôlez sont [DEFENDER_TKN_P]. (Leurs Expéditions ne peuvent pas avancer au Crépuscule.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Se hai meno di otto sfere di mana, le pedine con [BOOSTED_TKN_P] che controlli hanno [DEFENDER_TKN_P]. (Le loro spedizioni non possono avanzare durante il crepuscolo.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Si tienes menos de ocho orbes de maná, las fichas [BOOSTED_TKN_P] que controles tienen [DEFENDER_TKN_P]. (Sus expediciones no pueden avanzar durante el anochecer.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Falls du weniger als acht Manakugeln hast, sind Marken mit [BOOSTED_TKN_P], die du kontrollierst, [DEFENDER_TKN_P]. (Ihre Expeditionen können sich am Abend nicht vorwärts bewegen.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "If you have less than eight Mana Orbs, [BOOSTED_TKN_P] tokens you control are [DEFENDER_TKN_P]. (Their Expeditions can't move forward during Dusk.)"
+              }
+            ],
+            "reference": "01137"
+          },
+          "sequence": 1,
+          "id": "01K1Z7T6ZR5F8CNNVKBW7DWEVQ"
+        }
+      ],
+      "value": "When you create a token Character — It gains 1 boost.  If you have less than eight Mana Orbs, [[Boosted]] tokens you control are [Defender]. (Their Expeditions can't move forward during Dusk.)",
+      "id": "01K1Z7T62M40HP9B6BW50DX28J"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_P_OR_03\/JPG\/en_US\/ALT_CORE_P_OR_03_C_en_US.jpg",
+  "assets": {
+    "DECK_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/deck_thumb_ordis.png"
+    ],
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/alterator_thumb_ordis_360x128.jpg"
+    ],
+    "CARD": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/OR_heroes_promo_2023_CMYK.jpg"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_P_OR_03_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_03",
+  "reference": "ALT_CORE_P_OR_03_C",
+  "translations": {
+    "it_IT": {
+      "name": "Gulrang e Campana",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_OR_03\/JPG\/it_IT\/ALT_CORE_P_OR_03_C_it_IT.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Gulrang & Tocsin",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_OR_03\/JPG\/en_US\/ALT_CORE_P_OR_03_C_en_US.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Gulrang & Tocsin",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_OR_03\/JPG\/de_DE\/ALT_CORE_P_OR_03_C_de_DE.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Gulrang & Tocsin",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_OR_03\/JPG\/fr_FR\/ALT_CORE_P_OR_03_C_fr_FR.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Gulrang y Rebato",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_OR_03\/JPG\/es_ES\/ALT_CORE_P_OR_03_C_es_ES.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01H552SHMD7G6SNZSNT34BA5W8",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_P_OR_03\/JPG\/fr_FR\/ALT_CORE_P_OR_03_C_fr_FR.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_P_OR_03\/JPG\/en_US\/ALT_CORE_P_OR_03_C_en_US.jpg"
+  },
+  "name": "Gulrang & Tocsin",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "MAIN_EFFECT": "When you create a token Character — It gains 1 boost.  If you have less than eight Mana Orbs, [[Boosted]] tokens you control are [Defender]. (Their Expeditions can't move forward during Dusk.)"
+  },
+  "collectorNumberFormatted": null,
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

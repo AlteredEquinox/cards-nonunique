@@ -1,0 +1,319 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Your victory is a victory for both our peoples!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Votre victoire est une victoire pour nos deux peuples ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZXXJ77H339GP5AEJ5FZD",
+          "text": "\"Your victory is a victory for both our peoples!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "1RKDYPQ9DQ9NE8NSHWRS6NG5T6",
+      "reference": "ALT_DUSTER_B_YZ_97_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    { "reference": "BOON", "id": "01HKAGPHVVK20XKBXKCZNGRTFD", "name": "Boon" },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KS2FVJ3SDRB524G47QZWS"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KS2P38P3V8S81YFZT2Z0A"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4TZQ6DKG08AQCBDKHFHXK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Rafraîchissement",
+                          "locale": "fr_FR",
+                          "description": "Si je vais en Réserve une fois mon effet résolu, épuisez-moi {T}."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Recuperación",
+                          "locale": "es_ES",
+                          "description": "Si voy a la reserva después de que se resuelva mi efecto, agótame {T}."
+                        },
+                        "en_US": {
+                          "displayWeb": "Cooldown",
+                          "locale": "en_US",
+                          "description": "If I go to Reserve after my effect resolves, exhaust me {T}."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Abkühlung",
+                          "locale": "de_DE",
+                          "description": "Falls ich in die Reserve gehe, nachdem mein Effekt abgeklungen ist, erschöpfe mich {T}."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Raffreddamento",
+                          "locale": "it_IT",
+                          "description": "Se vado nella Riserva dopo che il mio effetto si è risolto, consumami {T}."
+                        }
+                      },
+                      "id": "01J1QB6QEN5QANPB0QVZXECGGK",
+                      "reference": "COOLDOWN"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01K5TT6TF7D5T3Q4DHF56SZX20"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "#$[COOLDOWN].#", "locale": "de_DE" },
+                  "it_IT": { "text": "#$[COOLDOWN].#", "locale": "it_IT" },
+                  "es_ES": { "text": "#$[COOLDOWN].#", "locale": "es_ES" },
+                  "en_US": { "text": "#$[COOLDOWN].#", "locale": "en_US" },
+                  "fr_FR": { "text": "#$[COOLDOWN].#", "locale": "fr_FR" }
+                },
+                "text": "#$[COOLDOWN].#"
+              }
+            ],
+            "reference": "02075"
+          },
+          "sequence": 0,
+          "id": "01K6X4V0AWNFSDZANV0N6A1KZD"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4TZQ6DKG08AQCBDKHFHXK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Distribute 2 boosts among any target Characters in play #or in Reserve.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Verteile 2 Verstärkungen nach Belieben auf Charaktere deiner Wahl im Spiel #oder in der Reserve.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Distribuisci 2 rinforzi tra un numero qualsiasi di personaggi bersaglio in gioco #o nella Riserva.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Distribuye 2 potenciadores entre cualquier número de personajes objetivo en juego #o en reserva.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Répartissez 2 boosts parmi les Personnages ciblés, en jeu #ou en Réserve.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Distribute 2 boosts among any target Characters in play #or in Reserve.#"
+              }
+            ],
+            "reference": "01870"
+          },
+          "sequence": 1,
+          "id": "01K6X4V0V4Q7X1M7M2R977HW7H"
+        }
+      ],
+      "value": "[Cooldown]. (If I go to Reserve after my effect resolves, exhaust me {T}.)  Distribute 2 boosts among any target Characters in play or in Reserve.",
+      "id": "01K6X4TZQ6DKG08AQCBDKHFHXK"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4V1DCTNRQS9RP3CW97H8F",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "After You",
+                          "locale": "en_US",
+                          "description": "End your turn as if you had played a card. You may still play cards later this Day."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nach dir",
+                          "locale": "de_DE",
+                          "description": "Beende deine Runde, als ob du eine Karte gespielt hättest. Du darfst auch später an diesem Tag noch eine Karte spielen."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dopo di te",
+                          "locale": "it_IT",
+                          "description": "Termina il tuo turno come se avessi giocato una carta. Puoi comunque giocare carte più avanti in questa giornata."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Después de ti",
+                          "locale": "es_ES",
+                          "description": "Termina tu turno como si hubieras jugado una carta. A lo largo del día actual, puedes jugar más cartas."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Après vous",
+                          "locale": "fr_FR",
+                          "description": "Terminez votre tour comme si vous aviez joué une carte. Vous pouvez encore jouer des cartes plus tard ce Jour-ci."
+                        }
+                      },
+                      "id": "01HKAGXB4C1CCRNYV6K6BFCHMQ",
+                      "reference": "AFTER_YOU"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWGNW17NP3PAX59PFMPKCY"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "{D} : [AFTER_YOU].", "locale": "de_DE" },
+                  "it_IT": { "text": "{D}: [AFTER_YOU].", "locale": "it_IT" },
+                  "es_ES": { "text": "{D}: [AFTER_YOU].", "locale": "es_ES" },
+                  "en_US": { "text": "{D}: [AFTER_YOU].", "locale": "en_US" },
+                  "fr_FR": { "text": "{D} : [AFTER_YOU].", "locale": "fr_FR" }
+                },
+                "text": "{D}: [AFTER_YOU]."
+              }
+            ],
+            "reference": "01924"
+          },
+          "sequence": 0,
+          "id": "01K6X4V20ZD5JKCF8HCKKJT26J"
+        }
+      ],
+      "value": "{D}: [After You].",
+      "id": "01K6X4V1DCTNRQS9RP3CW97H8F"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/JPG\/en_US\/a2a8634086f4e5a7b1f74ba4e9242cd0.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/WEB_80fc03c3cad19418528272bd6a4b7465",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/WEB_64b9059d8e71e5354a3f6be9fab61932"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_97_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_97",
+  "reference": "ALT_DUSTER_B_YZ_97_R1",
+  "translations": {
+    "it_IT": { "name": "Incontro Sportivo", "image": null, "locale": "it_IT" },
+    "de_DE": {
+      "name": "Sportliche Begegnung",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Sports Encounter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/JPG\/en_US\/a2a8634086f4e5a7b1f74ba4e9242cd0.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Encuentro deportivo",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Rencontre Sportive",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/JPG\/fr_FR\/68a867b11bd64d641b3c723a3ada2b07.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQSZC2VV46PJC59X12R",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/JPG\/fr_FR\/68a867b11bd64d641b3c723a3ada2b07.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_97\/JPG\/en_US\/a2a8634086f4e5a7b1f74ba4e9242cd0.jpg"
+  },
+  "name": "Sports Encounter",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#1#",
+    "MAIN_EFFECT": "#[Cooldown].# (If I go to Reserve after my effect resolves, exhaust me {T}.)  Distribute 2 boosts among any target Characters in play #or in Reserve.#",
+    "ECHO_EFFECT": "{D}: [After You]."
+  },
+  "collectorNumberFormatted": "SDU-102-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

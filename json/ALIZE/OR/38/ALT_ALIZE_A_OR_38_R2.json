@@ -1,0 +1,319 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Forward or hold. There is no going back.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Progresser ou tenir, mais ne jamais reculer.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01J3JJF0WPWF6BTCYKTJ05FPH8",
+          "text": "Forward or hold. There is no going back."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3FFSGT7Z8G9D99F3X04VTZ5Q4S",
+      "reference": "ALT_ALIZE_A_OR_38_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVW1ZXHV70DRXCT5T4PM8X"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVW23CMBX8TPJJABZ8M6MW"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01J3GVW26X3ABXQ11ARMZQD9J1"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01J3GVW2ADT4WMNK8GGGBZ7J9Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01J3GVW2DV1ADV39Q56W9H82XB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SCMM4D0T5ND65N3CNDYMS",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verteidigerin",
+                          "locale": "de_DE",
+                          "description": "Meine Expedition kann sich am Abend nicht vorwärts bewegen."
+                        },
+                        "en_US": {
+                          "displayWeb": "Defender",
+                          "locale": "en_US",
+                          "description": "My Expedition can't move forward during Dusk."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Defensora",
+                          "locale": "es_ES",
+                          "description": "Mi expedición no puede avanzar durante el anochecer."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Difensore",
+                          "locale": "it_IT",
+                          "description": "La mia spedizione non può avanzare durante il crepuscolo."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Défenseuse",
+                          "locale": "fr_FR",
+                          "description": "Mon Expédition ne peut pas avancer pendant le Crépuscule."
+                        }
+                      },
+                      "id": "01J1QBCJDRVGJCHHMW193GTETB",
+                      "reference": "DEFENDER_FS"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01J1QBCJG83HWHTC3A7N9XT982"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "$[DEFENDER_FS].", "locale": "fr_FR" },
+                  "de_DE": { "text": "$[DEFENDER_FS].", "locale": "de_DE" },
+                  "it_IT": { "text": "$[DEFENDER_FS].", "locale": "it_IT" },
+                  "en_US": { "text": "$[DEFENDER_FS].", "locale": "en_US" },
+                  "es_ES": { "text": "$[DEFENDER_FS].", "locale": "es_ES" }
+                },
+                "text": "$[DEFENDER_FS]."
+              }
+            ],
+            "reference": "00559"
+          },
+          "sequence": 0,
+          "id": "01KH6SCN7QV1VMZA2HYCRTEJB3"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH6SCMM4D0T5ND65N3CNDYMS",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Defender",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Defensores",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verteidiger",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Défenseurs",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Difensore",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1QBCK8DC784BYDM4A7000W1",
+                      "reference": "DEFENDER_CHA_P"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01J1QBCKBET7H7HRJDZSDT1KKP"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Si mon Expédition est en retard, les Personnages [DEFENDER_CHA_P] ne l'empêchent pas d'avancer.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Falls meine Expedition hinten liegt, verhindern [DEFENDER_CHA_P]-Charaktere nicht ihr Vorwärtskommen.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Se la mia spedizione è indietro, i personaggi con [DEFENDER_CHA_P] non le impediscono di avanzare.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Si mi expedición va por detrás, los personajes con [DEFENDER_CHA_P] no evitan que avance.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "If my Expedition is behind, [DEFENDER_CHA_P] Characters don't prevent it from moving forward.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "If my Expedition is behind, [DEFENDER_CHA_P] Characters don't prevent it from moving forward."
+              }
+            ],
+            "reference": "00560"
+          },
+          "sequence": 1,
+          "id": "01KH6SCNR8KD6DG4S1XYXE8XCY"
+        }
+      ],
+      "value": "[Defender]. (My Expedition can't move forward during Dusk.)  If my Expedition is behind, [Defender] Characters don't prevent it from moving forward.",
+      "id": "01KH6SCMM4D0T5ND65N3CNDYMS"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/JPG\/en_US\/4f0df7df1690a63d845253d61794c2cf.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/WEB_e987662d5a82474cf8387f447dc20827",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/WEB_1ebe17e783a775f981f24df1bce7bc9e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/WEB_78d406b4c2e3792d95c6d08f16a3e1e1"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_OR_38_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_38",
+  "reference": "ALT_ALIZE_A_OR_38_R2",
+  "translations": {
+    "de_DE": {
+      "name": "Sunisa, engagierte Adjutantin",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/JPG\/de_DE\/ea3d13c87b119f0ac0b640633b3bd9a8.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Sunisa, Caposquadra Infaticabile",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/JPG\/it_IT\/2ed93445419f5923ca4732bd628e2576.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Sunisa, alférez entregada",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/JPG\/es_ES\/8bfd052f3ab3c7ce7da5d6b99f60a2e7.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Sunisa, Dedicated Ensign",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/JPG\/en_US\/4f0df7df1690a63d845253d61794c2cf.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Sunisa, Enseigne Dévouée",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/JPG\/fr_FR\/ea305c9687c3d10121801ecc3c432fd1.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01J3GTS39HZD7BD2N3RRRY0X6S",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/JPG\/fr_FR\/ea305c9687c3d10121801ecc3c432fd1.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_OR_38\/JPG\/en_US\/4f0df7df1690a63d845253d61794c2cf.jpg"
+  },
+  "name": "Sunisa, Dedicated Ensign",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "[Defender]. (My Expedition can't move forward during Dusk.)  If my Expedition is behind, [Defender] Characters don't prevent it from moving forward."
+  },
+  "collectorNumberFormatted": "TBF-074-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

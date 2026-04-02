@@ -1,0 +1,370 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Another survivor located!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Autre rescapé localisé ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDKQSHVK52K38B8AFCWJ5",
+          "text": "\"Another survivor located!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2Y05TDNCCT8D0AGHH7HRRZ65E2",
+      "reference": "ALT_EOLECB_A_OR_112_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6RYM0B9QJ9NNNGTP72TTW"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6RYXNJ82KZP53EKANC852"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6RZ78SQ2618RB9DJXN9QG"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6RZHRKRX4R2TZPYPKBS6Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6RZVEEXTFDNRRA7X55NJZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKK4KXMKYBDWT1TC5G9NMZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "s'Élève",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascends",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufsteigend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascende",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Asciende",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V6RJTMG7BZB84M6HA21S4",
+                      "reference": "ASCENDS"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M44H3WPNB1G5W72KBDTAQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} My Expedition [ASCENDS].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Meine Expedition ist [ASCENDS].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Mi expedición [ASCENDS].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Mon Expédition [ASCENDS].",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{H} La mia spedizione [ASCENDS].",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} My Expedition [ASCENDS]."
+              }
+            ],
+            "reference": "02934"
+          },
+          "sequence": 0,
+          "id": "01KJQKK57NP5VS7V5W3R0Q7MYJ"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJQKK4KXMKYBDWT1TC5G9NMZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M5J9949KYYPQZCMYPAAT2"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Élevée",
+                          "locale": "fr_FR",
+                          "description": null
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascended",
+                          "locale": "en_US",
+                          "description": null
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascesa",
+                          "locale": "it_IT",
+                          "description": null
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufgestiegen",
+                          "locale": "de_DE",
+                          "description": null
+                        },
+                        "es_ES": {
+                          "displayWeb": "Ascendida",
+                          "locale": "es_ES",
+                          "description": null
+                        }
+                      },
+                      "id": "01K9YZ581FEN1YFQ924BHV1TWD",
+                      "reference": "ASCENDED_S"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M5HKPPAKRN68HG1PTGC1K"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When I leave an [ASCENDED_S] Expedition — Create an [ORDIS_RECRUIT] Soldier token in it.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn ich eine Expedition, die [ASCENDED_S] ist, verlasse — Erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in ihr.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je quitte une Expédition [ASCENDED_S] — Créez un jeton Soldat [ORDIS_RECRUIT] dans celle-ci.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Quando lascio una spedizione [ASCENDED_S] — Crea una pedina Soldato [ORDIS_RECRUIT] in quella spedizione.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando abandone una expedición [ASCENDED_S] — Crea una ficha de soldado [ORDIS_RECRUIT] en ella.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When I leave an [ASCENDED_S] Expedition — Create an [ORDIS_RECRUIT] Soldier token in it."
+              }
+            ],
+            "reference": "02942"
+          },
+          "sequence": 1,
+          "id": "01KJQKK5R2H03AYA7R8EDYXQDQ"
+        }
+      ],
+      "value": "{H} My Expedition [Ascends].  When I leave an [[Ascended]] Expedition — Create an [Ordis Recruit 1\/1\/1] Soldier token in it.",
+      "id": "01KJQKK4KXMKYBDWT1TC5G9NMZ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Khoa Viet" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/JPG\/en_US\/670576b2ed5b6a99b97502fa8252ceac.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/WEB_655f83213360d0a4fff66cbb7b859671",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/WEB_c5495906d2ed3cbdc05901b24a01d626",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/WEB_02ed9e425e5d22ca196e537920fd249c"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_OR_112_C",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_OR_112_C",
+  "translations": {
+    "en_US": {
+      "name": "Hippogriff",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/JPG\/en_US\/670576b2ed5b6a99b97502fa8252ceac.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Hippogriffe",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/JPG\/fr_FR\/7206b9aa6733be2cf5b33bacc0c0a8f3.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Hippogryph",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/JPG\/de_DE\/b6453fdcd8ca28af336ed7ec730e08a1.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Ippogrifo",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/JPG\/it_IT\/8fb4b5f95a641dd8d40e2cca937cc993.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Hipogrifo",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/JPG\/es_ES\/2a43ea283557deb0796c5481e564c4e3.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01KH6E45E953N33VS2HD2TRY67",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/JPG\/fr_FR\/7206b9aa6733be2cf5b33bacc0c0a8f3.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_OR_112\/JPG\/en_US\/670576b2ed5b6a99b97502fa8252ceac.jpg"
+  },
+  "name": "Hippogriff",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} My Expedition [Ascends].  When I leave an [[Ascended]] Expedition — Create an [Ordis Recruit 1\/1\/1] Soldier token in it."
+  },
+  "collectorNumberFormatted": "ROCCB-V-078-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

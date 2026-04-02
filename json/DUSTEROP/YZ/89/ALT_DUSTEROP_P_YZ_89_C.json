@@ -1,0 +1,277 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": { "text": "Comment ça, faute ?", "locale": "fr_FR" },
+            "en_US": { "text": "What foul?!", "locale": "en_US" }
+          },
+          "id": "01K4Z6KZK6F9HFQB757NGNYW4P",
+          "text": "What foul?!"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "06M2QF667Z9M4REZJ4BZGTJJQQ",
+      "reference": "ALT_DUSTEROP_B_YZ_89_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K4YGEBN10S3MMN6J9CW5B4AC",
+    "reference": "DUSTEROP",
+    "name": "Seeds of Unity - Organized Play"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K4YMVSBEE5192B7W06Z4D8N4"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K4YMVSHHN974EWHF04S3VVQE"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K4YMVSQJJ6P35J7XRM34CXW9"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K4YMVSXKSEA22TJYAMCA4D6H"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K4YMVT3VBVBSGR0ZK6QA15T6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K8NP1DVY6H7N665YS0RNV1MW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "sabotea",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HPFHB7HMW4Z2R5M4M6ZKR0GR",
+                      "reference": "SABOTAGE_LOW"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K63C5TDQJXW50BHX8DP6YM40"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K63C5SN7G6QBFKA9JVJ5QAWF"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} If I'm [IN_CONTACT], [SABOTAGE_LOW].",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{H} Se sono [IN_CONTACT], [SABOTAGE_LOW].",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Si je suis [IN_CONTACT], [SABOTAGE_LOW].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Falls ich [IN_CONTACT] bin, nutze [SABOTAGE_LOW].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Si estoy [IN_CONTACT], [SABOTAGE_LOW].",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{H} If I'm [IN_CONTACT], [SABOTAGE_LOW]."
+              }
+            ],
+            "reference": "02085"
+          },
+          "sequence": 0,
+          "id": "01K8NP1EBM9XC0RQ8RSFXACNG8"
+        }
+      ],
+      "value": "{H} If I'm [In Contact], [Sabotage].",
+      "id": "01K8NP1DVY6H7N665YS0RNV1MW"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_YZ_89\/JPG\/en_US\/7f50b9712041c64fc7f478291a35348b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_YZ_89\/WEB_c71c1f7b3b5aa91839c9df5f6a39eb5e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_YZ_89\/WEB_7e74478ddee39e8207cdf99c34ee2602",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_YZ_89\/WEB_44051affbd93158c2ac866d48b16b6f5"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_YZ_89_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_89",
+  "reference": "ALT_DUSTEROP_P_YZ_89_C",
+  "translations": {
+    "it_IT": { "name": "Simulatore", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Simulateur",
+      "image": "Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_YZ_89\/JPG\/fr_FR\/7563dfa7b6b5baac1672bed0590fc153.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": { "name": "Simulant", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Jugador teatrero", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Foul Faker",
+      "image": "Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_YZ_89\/JPG\/en_US\/7f50b9712041c64fc7f478291a35348b.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K4YGECH62QHQJ3ED3T58P4SS",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_YZ_89\/JPG\/fr_FR\/7563dfa7b6b5baac1672bed0590fc153.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_YZ_89\/JPG\/en_US\/7f50b9712041c64fc7f478291a35348b.jpg"
+  },
+  "name": "Foul Faker",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} If I'm [In Contact], [Sabotage]."
+  },
+  "collectorNumberFormatted": "SDUOP-006-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

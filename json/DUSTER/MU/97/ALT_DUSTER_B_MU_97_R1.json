@@ -1,0 +1,345 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Can such entities be found near all world trees?",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "De telles entités existent-elles à proximité de tous les arbres-mondes ?",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZQTHM04E8Y1K4QESZ6W1",
+          "text": "Can such entities be found near all world trees?"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6E3HQWS0Q59QCRAAAMZPTJ45YE",
+      "reference": "ALT_DUSTER_B_MU_97_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "PLANT",
+      "id": "01HKAGSB49H24XWW17AAY441MT",
+      "name": "Plant"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KE1HGW14A4GPNYDR0Z9MW"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KE1Q5JZVPQFF0V4PZM7HD"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KE1WQ6Y4C3ATCQEVBCPC2"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KE22E4C9QB16BVD0HC2KS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KE283YC4KNCRKXEWASJFN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4GETM13BXESJ9KF256DG6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JB22VRXTYN9T4RMW7NWDWZ5A"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[GIGANTIC].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[GIGANTIC].", "locale": "de_DE" },
+                  "en_US": { "text": "[GIGANTIC].", "locale": "en_US" },
+                  "es_ES": { "text": "[GIGANTIC].", "locale": "es_ES" },
+                  "it_IT": { "text": "[GIGANTIC].", "locale": "it_IT" }
+                },
+                "text": "[GIGANTIC]."
+              }
+            ],
+            "reference": "01000"
+          },
+          "sequence": 0,
+          "id": "01K6X4GFC44SQSN7NG69JT41YM"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4GETM13BXESJ9KF256DG6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{J} #Vous pouvez# cibler un adversaire, il pioche une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{J} #You may# target an opponent, they draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} #Du darfst# einen Gegner wählen, er zieht eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} #Puedes# hacer objetivo a un oponente para que robe una carta.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} #Puoi# scegliere come bersaglio un avversario e fargli pescare una carta.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} #You may# target an opponent, they draw a card."
+              }
+            ],
+            "reference": "01784"
+          },
+          "sequence": 1,
+          "id": "01K6X4GFTXEQ69B8PHNH7FPT2K"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4GETM13BXESJ9KF256DG6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Don",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Gift",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Geschenk",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Regalo",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Regalo",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2KAS1XQ23VAH9DKEBZ90PD",
+                      "reference": "GIFT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K4ZH9NFTXG3VVRXREK4D9RZW"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#When you make a [GIFT] — I gain 1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque vous faites un [GIFT] — Je gagne 1 boost.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#Wenn du ein [GIFT] gibst — Ich erhalte 1 Verstärkung.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#Cuando hagas un [GIFT] — Gano 1 potenciador.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#Quando fai un [GIFT] — Ottengo 1 rinforzo.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#When you make a [GIFT] — I gain 1 boost.#"
+              }
+            ],
+            "reference": "02063"
+          },
+          "sequence": 2,
+          "id": "01K6X4GG9J6V2WFESSN64P9WP2"
+        }
+      ],
+      "value": "[Gigantic].  {J} You may target an opponent, they draw a card.  When you make a [Gift] — I gain 1 boost.",
+      "id": "01K6X4GETM13BXESJ9KF256DG6"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/en_US\/e7fa8121396099c9b948f3c177993671.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/WEB_e405262a8b7a0c188da12d0699fbf1e7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/WEB_975fda231a3728ae5ce5f44c3e66e361",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/WEB_3a24e3ed0bf1c35356dabc515d0444cd"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_97_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_97",
+  "reference": "ALT_DUSTER_B_MU_97_R1",
+  "translations": {
+    "de_DE": { "name": "Sohn von Naos", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Son of Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/en_US\/e7fa8121396099c9b948f3c177993671.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Hijo de Naos", "image": null, "locale": "es_ES" },
+    "fr_FR": {
+      "name": "Fils du Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/fr_FR\/df1176090f41f87a1eac371d1e3e6dac.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": { "name": "Figlio del Naos", "image": null, "locale": "it_IT" }
+  },
+  "id": "01JYP9SVQ79H5F38WX92X3E1Z8",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/fr_FR\/df1176090f41f87a1eac371d1e3e6dac.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/en_US\/e7fa8121396099c9b948f3c177993671.jpg"
+  },
+  "name": "Son of Naos",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "#3#",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "[Gigantic].  {J} #You may# target an opponent, they draw a card.  #When you make a [Gift] — I gain 1 boost.#"
+  },
+  "collectorNumberFormatted": "SDU-066-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

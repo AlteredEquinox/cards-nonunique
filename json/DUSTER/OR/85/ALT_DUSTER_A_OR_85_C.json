@@ -1,0 +1,210 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "I am the beating heart of the swarm, the architect of the hive.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Je suis le cœur de l'essaim, l'architecte de la ruche.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZHHNZAAHXHRQR1CVF0QF",
+          "text": "I am the beating heart of the swarm, the architect of the hive."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "0Y47MG0ZFJ95EVAZER4HGKP6GV",
+      "reference": "ALT_DUSTER_B_OR_85_C"
+    },
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« C'est un honneur d'avoir été choisi pour sculpter avec vous ce monument commun. »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"It's an honor to have been chosen to sculpt this shared monument with you.\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JZ37ZHK03S7XXK7T3TR8BWV7",
+          "text": "\"It's an honor to have been chosen to sculpt this shared monument with you.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "1TR2R69S2T8N19BBBDZSYPMCWF",
+      "reference": "ALT_DUSTER_A_OR_85_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZJNYQ7FAQR25FMNQXVZXEW0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZJNYQ7FAQR25FMNQXVZXEW1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X3Y7Z1JWVJ9EQSG9N0BGA7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If there are three or more cards in your Landmarks, you may sacrifice one. If you do, play for free a Landmark Permanent with a max Hand Cost of {2} more than the sacrificed card.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "(Vous pouvez conserver jusqu'à trois cartes dans vos Repères pendant la Nuit.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "(Du darfst während der Nacht bis zu drei Karten in deinem Wahrzeichen-Bereich behalten.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "(Puedes conservar hasta tres cartas en tus hitos durante la noche.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "(Puoi tenere fino a tre carte nei tuoi fulcri durante la notte.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "At Noon — If there are three or more cards in your Landmarks, you may sacrifice one. If you do, play for free a Landmark Permanent with a max Hand Cost of {2} more than the sacrificed card."
+              }
+            ],
+            "reference": "02080"
+          },
+          "sequence": 0,
+          "id": "01K6X3Y8F89CAZ36823V6HP4PD"
+        }
+      ],
+      "value": "At Noon — If there are three or more cards in your Landmarks, you may sacrifice one. If you do, play for free a Landmark Permanent with a max Hand Cost of {2} more than the sacrificed card.",
+      "id": "01K6X3Y7Z1JWVJ9EQSG9N0BGA7"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_OR_85\/JPG\/en_US\/781eda320d90839d1ee7cb1c6a584b40.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_OR_85\/HERO_THUMB_64da2e46b8688615707f161021b9c6e2"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_OR_85\/HERO_WIDE_31efcf74b99902156c89165e34fe5d65"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_OR_85\/WEB_59cd6268c3fa2509931f0a5a1bb37020"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_A_OR_85_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_85",
+  "reference": "ALT_DUSTER_A_OR_85_C",
+  "translations": {
+    "it_IT": { "name": "Matz e Arnia", "image": null, "locale": "it_IT" },
+    "es_ES": { "name": "Matz y Colmena", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Matz & Schwarm", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Matz & Hive",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_A_OR_85\/JPG\/en_US\/781eda320d90839d1ee7cb1c6a584b40.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Matz & Hive",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_A_OR_85\/JPG\/fr_FR\/1e37252f213a16209a30cd6ffcc7808e.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JZ3144X5DQP7XWBYP72R6R72",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_OR_85\/JPG\/fr_FR\/1e37252f213a16209a30cd6ffcc7808e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_OR_85\/JPG\/en_US\/781eda320d90839d1ee7cb1c6a584b40.jpg"
+  },
+  "name": "Matz & Hive",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "3",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "At Noon — If there are three or more cards in your Landmarks, you may sacrifice one. If you do, play for free a Landmark Permanent with a max Hand Cost of {2} more than the sacrificed card."
+  },
+  "collectorNumberFormatted": "SDU-073-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

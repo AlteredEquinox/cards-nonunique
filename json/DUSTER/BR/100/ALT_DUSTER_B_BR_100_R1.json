@@ -1,0 +1,254 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "There's no slipping through the net this time.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Cette fois, impossible de passer entre les mailles du filet.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJQ05YY7TKA998KGJC10",
+          "text": "There's no slipping through the net this time."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "5K2EX6P7CT83RVCZBWKTKTTMZN",
+      "reference": "ALT_DUSTER_B_BR_100_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K5NBFFA9R61ERHHVNX2SE"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K5NGFCQPP3GYV21W28TJF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X42XY7JCY8H738XWQW8ZDG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Return target Character or Permanent controlled by another player to its owner's hand.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Fai tornare un personaggio o un permanente bersaglio controllato da un altro giocatore in mano al suo proprietario.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Renvoyez un Personnage ou Permanent ciblé contrôlé par un autre joueur dans la main de son propriétaire.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Devuelve a la mano de su propietario un personaje o permanente objetivo controlado por otro jugador.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Schicke einen Charakter oder eine Bleibende Karte deiner Wahl, der\/die von einem anderen Spieler kontrolliert wird, in die Hand des Besitzers zurück.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Return target Character or Permanent controlled by another player to its owner's hand."
+              }
+            ],
+            "reference": "01714"
+          },
+          "sequence": 0,
+          "id": "01K6X42YE6N9YX6JMWP2WWE5JK"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X42XY7JCY8H738XWQW8ZDG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K256FRMQERAJ8CQFS8JDTEY8"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Then, create a [MANASEED] token in #your Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Erschaffe dann eine [MANASEED]-Marke in #deinem# Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Poi, crea una pedina [MANASEED] nei #tuoi fulcri.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Luego, crea una ficha de [MANASEED] en #tus hitos.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Puis, créez un jeton [MANASEED] dans #vos Repères.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Then, create a [MANASEED] token in #your Landmarks.#"
+              }
+            ],
+            "reference": "01988"
+          },
+          "sequence": 1,
+          "id": "01K6X42YV74M8PK6RX499GTWB9"
+        }
+      ],
+      "value": "Return target Character or Permanent controlled by another player to its owner's hand.  Then, create a [Manaseed] token in your Landmarks.",
+      "id": "01K6X42XY7JCY8H738XWQW8ZDG"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/en_US\/db3f473b118fcc0c571d2313172576ea.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/WEB_261489635c76ec7bcd4fd21242453c94",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/WEB_5e6b25311a851f10ca4c2f5849593234"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_100_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_100",
+  "reference": "ALT_DUSTER_B_BR_100_R1",
+  "translations": {
+    "es_ES": { "name": "La captura del día", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Catch of the Day",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/en_US\/db3f473b118fcc0c571d2313172576ea.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": { "name": "Pescato del Giorno", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Fang des Tages", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Pêche du Jour",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/fr_FR\/28dcdaf4309be532fcb208c96d6a3fac.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPNWW5BH3NJWZJTJ4FS",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/fr_FR\/28dcdaf4309be532fcb208c96d6a3fac.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/en_US\/db3f473b118fcc0c571d2313172576ea.jpg"
+  },
+  "name": "Catch of the Day",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "#5#",
+    "MAIN_EFFECT": "Return target Character or Permanent controlled by another player to its owner's hand.  Then, create a [Manaseed] token in #your Landmarks.#"
+  },
+  "collectorNumberFormatted": "SDU-035-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

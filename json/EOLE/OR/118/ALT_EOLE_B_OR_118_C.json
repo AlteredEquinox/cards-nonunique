@@ -1,0 +1,398 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Débarquement en cours ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": { "text": "\"Landing in progress!\"", "locale": "en_US" }
+          },
+          "id": "01KC94HWAWEVYY7W1MMAQGPHR9",
+          "text": "\"Landing in progress!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWCPV5CN4824EBRQE0KM",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWB7H1JHHPD3ZDYY38XJ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWA8V3W0BCZEFKHNW26H",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWAJ0EZBGP1ZRBWHQ264",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "3Q5NHHS8DB9MC8JJW0X3G9MZ41",
+      "reference": "ALT_EOLE_B_OR_118_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ9Z70PDR1Q3H8AVZG766R"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ9ZF4VB3TF18Z9JT4H1TK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PY0DV6F077HFV22D1WPX3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01KJ5PY29T9ANV36ZDXT933RAS"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5PY0DV6F077HFV22D1WPX3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "Wähle eine Aktion:", "locale": "de_DE" },
+                  "en_US": { "text": "Choose one:", "locale": "en_US" },
+                  "es_ES": { "text": "Elige una opción:", "locale": "es_ES" },
+                  "it_IT": { "text": "Scegli uno:", "locale": "it_IT" },
+                  "fr_FR": { "text": "Choisissez l'un :", "locale": "fr_FR" }
+                },
+                "text": "Choose one:"
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 1,
+          "id": "01KJ5PY3RXG4T94JBC0B03VXYD"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5PY0DV6F077HFV22D1WPX3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M93F1DDP0SZMSZH3PRSBE"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• Target up to two Expeditions and create an [ORDIS_RECRUIT] Soldier token in each of them.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• Wähle bis zu zwei Expeditionen und erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in jeder von ihnen.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "• Ciblez jusqu'à deux Expéditions et créez un jeton Soldat [ORDIS_RECRUIT] dans chacune d'elles.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "• Scegli come bersaglio fino a due spedizioni e crea una pedina Soldato [ORDIS_RECRUIT] in ciascuna di esse.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• Haz objetivo a hasta dos expediciones y crea una ficha de soldado [ORDIS_RECRUIT] en cada una de ellas.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "• Target up to two Expeditions and create an [ORDIS_RECRUIT] Soldier token in each of them."
+              }
+            ],
+            "reference": "02954"
+          },
+          "sequence": 2,
+          "id": "01KJ5PY5J93Q4EF3A03306NF86"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5PY0DV6F077HFV22D1WPX3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• Target Character with Base Cost {2} or less switches Expeditions. (It joins its controller's other Expedition.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "• Un personaggio bersaglio con costo base pari o inferiore a {2} cambia spedizione. (Si unisce all'altra spedizione del suo controllore.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "• Ein Charakter deiner Wahl mit Basiskosten {2} oder weniger wechselt Expeditionen. (Er schließt sich der anderen Expedition des kontrollierenden Spielers an.)",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "• Un Personnage ciblé de Coût de Base {2} ou moins change d'Expédition. (Il rejoint l'autre Expédition de son contrôleur.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "• Un personaje objetivo con coste base de {2} o menos se traslada de expedición. (Se incorpora a la otra expedición de su controlador.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "• Target Character with Base Cost {2} or less switches Expeditions. (It joins its controller's other Expedition.)"
+              }
+            ],
+            "reference": "02955"
+          },
+          "sequence": 3,
+          "id": "01KJ5PY7HE4BZFYNDQYDKEW7SR"
+        }
+      ],
+      "value": "[[Fleeting]].  Choose one:  • Target up to two Expeditions and create an [Ordis Recruit 1\/1\/1] Soldier token in each of them.  • Target Character with Base Cost {2} or less switches Expeditions. (It joins its controller's other Expedition.)",
+      "id": "01KJ5PY0DV6F077HFV22D1WPX3"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "DOBA" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_118\/JPG\/en_US\/55633fdbb04aae7c32d16978d6ae7354.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_118\/WEB_3ac8aaec2e5b2a2d900fa7bc77c69ffc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_118\/WEB_487a3e7359fc882403709bf0fe90c260"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_118_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_118",
+  "reference": "ALT_EOLE_B_OR_118_C",
+  "translations": {
+    "it_IT": {
+      "name": "Schieramento Strategico",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_118\/JPG\/it_IT\/ff0ba11d3a110c55f649ae5d5988b2f8.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Strategischer Einsatz",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_118\/JPG\/de_DE\/508f366b5fb52af50a4065deadac02b3.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Déploiement Stratégique",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_118\/JPG\/fr_FR\/cfa5d03de392acf5c37496bfe671f5ab.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Strategic Deployment",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_118\/JPG\/en_US\/55633fdbb04aae7c32d16978d6ae7354.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Despliegue estratégico",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_118\/JPG\/es_ES\/e0a567b5c2fafcefb8ad868f8f8a91ec.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9XR1K44F1F6P07E884",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_118\/JPG\/fr_FR\/cfa5d03de392acf5c37496bfe671f5ab.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_118\/JPG\/en_US\/55633fdbb04aae7c32d16978d6ae7354.jpg"
+  },
+  "name": "Strategic Deployment",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "[[Fleeting]].  Choose one:  • Target up to two Expeditions and create an [Ordis Recruit 1\/1\/1] Soldier token in each of them.  • Target Character with Base Cost {2} or less switches Expeditions. (It joins its controller's other Expedition.)"
+  },
+  "collectorNumberFormatted": "ROC-088-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,214 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "She gets the substitutes fired up so they're ready to take the field.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Elle dynamise les remplaçants pour qu'ils soient prêts à aller sur le terrain.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZXPSJXQJ8GPC7MBMKFMP",
+          "text": "She gets the substitutes fired up so they're ready to take the field."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2VD3TTKY8N9K38Y3GBF2R6BVKK",
+      "reference": "ALT_DUSTER_B_YZ_96_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KPVKNKNPP49GR2BV9XZEX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KPVV2MXSS954ZM2737A7R"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KPW13WFS6WSD3AVH19JDZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KPW76JKKYNEWB5MCYTJ6S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KPWDANKS31WV49SHAB71E"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4TK13RJDEZQFCX6W5DG9Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} If there's an exhausted card in Reserve, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Falls sich eine erschöpfte Karte in der Reserve befindet, erhalte ich 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Se ci sono una o più carte consumate nella Riserva, ottengo 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Si hay una carta agotada en reserva, gano 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} S'il y a au moins une carte épuisée en Réserve, je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} If there's an exhausted card in Reserve, I gain 1 boost."
+              }
+            ],
+            "reference": "01854"
+          },
+          "sequence": 0,
+          "id": "01K6X4TKN5578HHBQAYHC49F2J"
+        }
+      ],
+      "value": "{J} If there's an exhausted card in Reserve, I gain 1 boost.",
+      "id": "01K6X4TK13RJDEZQFCX6W5DG9Y"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/JPG\/en_US\/798ed3a0f8603961a09dfc8679a3cf7e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/WEB_596c9b02dd7118a971203bbf40b11002",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/WEB_63259a433980747e02a00ec575829be4",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/WEB_9d4e9e2caaebfb80c2440919d041b7d2"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_96_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_96",
+  "reference": "ALT_DUSTER_B_YZ_96_C",
+  "translations": {
+    "es_ES": { "name": "Mascota del equipo", "image": null, "locale": "es_ES" },
+    "it_IT": {
+      "name": "Mascotte della Squadra",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Team-Maskottchen", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Team Mascot",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/JPG\/en_US\/798ed3a0f8603961a09dfc8679a3cf7e.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Mascotte d'Équipe",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/JPG\/fr_FR\/18b3e0395d7dbe17d6c0c3bb098fa735.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQRAXHJ05SE0PQHC9ZV",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/JPG\/fr_FR\/18b3e0395d7dbe17d6c0c3bb098fa735.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_96\/JPG\/en_US\/798ed3a0f8603961a09dfc8679a3cf7e.jpg"
+  },
+  "name": "Team Mascot",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{J} If there's an exhausted card in Reserve, I gain 1 boost."
+  },
+  "collectorNumberFormatted": "SDU-095-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

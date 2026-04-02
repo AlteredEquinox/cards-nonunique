@@ -1,0 +1,314 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "A single pebble can cause quite a ripple.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Un simple galet peut causer bien des remous.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HPND1XABWHMYSF0XVEDZ",
+          "text": "A single pebble can cause quite a ripple."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPNNYJQKAS54R7QJ8PSH",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPNHPGY69BKSAV4TK569",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPN51B5NWN1PJFCNXCJ1",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPN9WM1MAAJ6N9YE09WK",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "3M8NDBEJHE9GRSZFGM6EKMN8EW",
+      "reference": "ALT_EOLE_B_AX_119_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    { "reference": "BOON", "id": "01HKAGPHVVK20XKBXKCZNGRTFD", "name": "Boon" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYD8ENY80X0ZE2DXK3QZND"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYD8MVXBKGX5BGYJV3WXPP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5MV0531CF1TWTBDXN4B83N",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "#Jouez-moi pour {1} de moins s'il n'y a pas de jetons dans vos Repères.#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#Play me for {1} less if there are no tokens in your Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "#Giocami per {1} in meno se non ci sono pedine nei tuoi fulcri.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Juégame por {1} menos si no hay fichas en tus hitos.#",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "#Spiele mich für {1} weniger, falls keine Marken in deinem Wahrzeichen-Bereich sind.#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "#Play me for {1} less if there are no tokens in your Landmarks.#"
+              }
+            ],
+            "reference": "02770"
+          },
+          "sequence": 0,
+          "id": "01KJ5MV0ZW5S626WW8D3DWVYJF"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5MV0531CF1TWTBDXN4B83N",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Aérolithe",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Aerolith",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aerolit",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Aerolite",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Aerolito",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V2BFTDBEPJRRHWC5YM548",
+                      "reference": "AEROLITH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7K23RJNQHJN76XC4G3FGWP"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Créez un jeton [AEROLITH] dans vos Repères.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "Create an [AEROLITH] token in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Erschaffe eine [AEROLITH]-Marke in deinem Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Crea una pedina [AEROLITH] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Crea una ficha de [AEROLITH] en tus hitos.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "Create an [AEROLITH] token in your Landmarks."
+              }
+            ],
+            "reference": "02771"
+          },
+          "sequence": 1,
+          "id": "01KJ5MV1SZST2ZPXRRW4WHDV28"
+        }
+      ],
+      "value": "Play me for {1} less if there are no tokens in your Landmarks.  Create an [Aerolith] token in your Landmarks.",
+      "id": "01KJ5MV0531CF1TWTBDXN4B83N"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/en_US\/f40da5a80f6af30e9117850445c44e53.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/WEB_cf7786ce7c118d620c380a0088db2d95",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/WEB_eb793fc04a59f02beaefc271ca6c5b41"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_119_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "AX_119",
+  "reference": "ALT_EOLE_B_AX_119_R2",
+  "translations": {
+    "fr_FR": {
+      "name": "Un Pavé dans la Mare",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/fr_FR\/059aa2c88551ff56e2e33ee8336320e4.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Sassolino nello Stagno",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/it_IT\/843cd545519c36384ae584447910cfc2.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Ein Kiesel im Teich",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/de_DE\/0512837799dfebd94a7b37e06663e1ea.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Una piedra en el estanque",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/es_ES\/7f91d649e57461ee5c442ed26314290e.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "A Pebble in the Pond",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/en_US\/f40da5a80f6af30e9117850445c44e53.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K9YWHY8JEYSC49V9HW1SMVK0",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/fr_FR\/059aa2c88551ff56e2e33ee8336320e4.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/en_US\/f40da5a80f6af30e9117850445c44e53.jpg"
+  },
+  "name": "A Pebble in the Pond",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#2#",
+    "MAIN_EFFECT": "#Play me for {1} less if there are no tokens in your Landmarks.#  Create an [Aerolith] token in your Landmarks."
+  },
+  "collectorNumberFormatted": "ROC-015-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

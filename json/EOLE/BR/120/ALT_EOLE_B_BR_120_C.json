@@ -1,0 +1,509 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"In the dead of night, we must shine the brightest!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« C'est au cœur de la nuit que nous devons briller le plus fort ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HQH0VN8XSFMS1TEM79NV",
+          "text": "\"In the dead of night, we must shine the brightest!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQHBCDE767QP0PRPD621",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQH6G782CVFPZXJ6GQJZ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQGCJAX5AKRK8P95GHS3",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQGTQE0T3RWFCEXPWHAA",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "0D0HHNAC1S9YGTW2Y187ZD1Q6D",
+      "reference": "ALT_EOLE_B_BR_120_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYN59E5P2G29PR2S5KF8XD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYN5HWQFBB24Y2D7QPY8K1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NAJRSVSBKW8CGGH401H15",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KBMJBHJ5N1DV46YA9VCH4"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KBN5AXQRF021J2JNZNYPQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} [RESUPPLY]. Then, you may have target Character you control gain [FLEETING].",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{J} [RESUPPLY]. Poi, puoi far ottenere [FLEETING] a un personaggio bersaglio che controlli.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{J} [RESUPPLY]. Dann darf ein Charakter deiner Wahl, den du kontrollierst, [FLEETING] erhalten.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} [RESUPPLY]. Luego, puedes hacer que un personaje objetivo que controles gane [FLEETING].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} [RESUPPLY]. Puis, vous pouvez faire gagner [FLEETING] à un Personnage ciblé que vous contrôlez.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} [RESUPPLY]. Then, you may have target Character you control gain [FLEETING]."
+              }
+            ],
+            "reference": "02819"
+          },
+          "sequence": 0,
+          "id": "01KJ5NAM9TGQEHXW4QVTQ286KT"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5NAJRSVSBKW8CGGH401H15",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KBQVDRCT3QGD4VHBDWYPG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you pass — If you control two or more [FLEETING] Characters, complete me.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du passt — Falls du mindestens zwei Charaktere mit [FLEETING] kontrollierst, vollbringe mich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando passi — Se controlli due o più personaggi con [FLEETING], eseguimi.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando pases — Si controlas dos personajes con [FLEETING] o más, complétame.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous passez — Si vous contrôlez au moins deux Personnages [FLEETING], accomplissez-moi.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you pass — If you control two or more [FLEETING] Characters, complete me."
+              }
+            ],
+            "reference": "02820"
+          },
+          "sequence": 1,
+          "id": "01KJ5NANPHJHTKY3Y56M6CM3QS"
+        }
+      ],
+      "value": "{J} [Resupply]. Then, you may have target Character you control gain [[Fleeting]].  When you pass — If you control two or more [[Fleeting]] Characters, complete me.",
+      "id": "01KJ5NAJRSVSBKW8CGGH401H15"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NAQBDYMT95FV6TE9JV0P7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        }
+                      },
+                      "id": "01HPFHC15Y9ARSV51SMJKFZ8CY",
+                      "reference": "RESUPPLY_LOW"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KBVXHP0H29N4GSW0YE88X"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KBVA86S3NQDG8XPXZP0EG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[COMPLETED]: At Noon — If you are first player, [RESUPPLY_LOW].",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "[COMPLETED] : À Midi — Si vous êtes le premier joueur, [RESUPPLY_LOW].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED]: Zum Mittag — Falls du der Startspieler bist, nutze [RESUPPLY_LOW].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED]: a mezzogiorno — Se sei il primo giocatore, [RESUPPLY_LOW].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED]: Al mediodía — Si eres el primer jugador, [RESUPPLY_LOW].",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "[COMPLETED]: At Noon — If you are first player, [RESUPPLY_LOW]."
+              }
+            ],
+            "reference": "02821"
+          },
+          "sequence": 0,
+          "id": "01KJ5NAS1FKSTXV55MG00KS071"
+        }
+      ],
+      "value": "[[Completed]]: At Noon — If you are first player, [Resupply].",
+      "id": "01KJ5NAQBDYMT95FV6TE9JV0P7"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_120\/JPG\/en_US\/6628344ee92838b32a667350a0d41b78.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_120\/WEB_b92aa29415a1eda94596bd2470d97286",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_120\/WEB_6c76e28ca5e374c2fdc928c32f2b08e2"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_120_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_120",
+  "reference": "ALT_EOLE_B_BR_120_C",
+  "translations": {
+    "it_IT": {
+      "name": "Spronare le Truppe",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_120\/JPG\/it_IT\/7cd4a43d93217615201d1ead8f379111.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Entfacht den Funken",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_120\/JPG\/de_DE\/ec2b3fc9fcc3417417312cb73e22dd5c.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Galvanize the Troops",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_120\/JPG\/en_US\/6628344ee92838b32a667350a0d41b78.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Galvaniser les Troupes",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_120\/JPG\/fr_FR\/04420b9f7f2646dc5fa140f68cd9feef.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Motivar a las tropas",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_120\/JPG\/es_ES\/53e0d000c8f1c0306220cb7bcbeb931a.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY918C89A4RCX48RQSE6",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_120\/JPG\/fr_FR\/04420b9f7f2646dc5fa140f68cd9feef.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_120\/JPG\/en_US\/6628344ee92838b32a667350a0d41b78.jpg"
+  },
+  "name": "Galvanize the Troops",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} [Resupply]. Then, you may have target Character you control gain [[Fleeting]].  When you pass — If you control two or more [[Fleeting]] Characters, complete me.",
+    "ECHO_EFFECT": "[[Completed]]: At Noon — If you are first player, [Resupply]."
+  },
+  "collectorNumberFormatted": "ROC-034-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

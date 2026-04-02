@@ -1,0 +1,275 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"If you underestimate me, my victory will be all the sweeter.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Si tu me sous-estimes, ça va te coûter bonbon. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KG2J8GFC84Y93NZB5R3MG34F",
+          "text": "\"If you underestimate me, my victory will be all the sweeter.\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8GJWQTPN9Q93A5B1NF7M",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8GHWX5VVJGXPEZSAXYFK",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8GC4HVBXA41Z2RXKQS05",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8GEF4A5EJ7TK8HWQ75NV",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "0M905DAFK58VDSM552KD8WF423",
+      "reference": "ALT_EOLE_P_BR_105_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KFRQ5ZCW7ECMA10PJAM8VR4N"
+    },
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KFRQ5ZCW7ECMA10PJAM8VR4M"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJABCZWT7JVPCTY65BXK07VH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "0\/0\/0 Rust ",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Rust 0\/0\/0",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ruggine 0\/0\/0",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Rost 0\/0\/0",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Ferros 0\/0\/0",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYEJ0233Y9NYXPTFNFZJSA",
+                      "reference": "RUST"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KJABD14V074M24ME281CT4RW"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you control a Feat, create a [RUST] token in your Companion Expedition. ",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "At Noon — If you control a Feat, create a [RUST] token in your Companion Expedition. ",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — If you control a Feat, create a [RUST] token in your Companion Expedition. ",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — If you control a Feat, create a [RUST] token in your Companion Expedition. ",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — If you control a Feat, create a [RUST] token in your Companion Expedition. ",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "At Noon — If you control a Feat, create a [RUST] token in your Companion Expedition. "
+              }
+            ],
+            "reference": "03029"
+          },
+          "sequence": 0,
+          "id": "01KJABD2HY922CQYCAR7Z9PKMC"
+        }
+      ],
+      "value": "At Noon — If you control a Feat, create a [Rust 0\/0\/0] token in your Companion Expedition. ",
+      "id": "01KJABCZWT7JVPCTY65BXK07VH"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": { "nickName": "Tristan Bideau" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_P_BR_105\/JPG\/en_US\/c288f3edfc25ae6ccdb0ac08cf1c0a05.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_P_BR_105\/WEB_ff1d33bcee734dcf92a7de88e5f7d69e"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_P_BR_105_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_105",
+  "reference": "ALT_EOLE_P_BR_105_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Gretel & Rust",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_P_BR_105\/JPG\/fr_FR\/bf6982db363957133ed65f3d70837f88.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Gretel e Ruggine",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_P_BR_105\/JPG\/it_IT\/4d7eacb432c5ea84343b9bcdf800c24f.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Gretel & Rost",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_P_BR_105\/JPG\/de_DE\/525cecbcb661c6914ed6bd751f527ddc.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Gretel y Ferros",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_P_BR_105\/JPG\/es_ES\/dfeb61a9ed18b91498560badd26045ce.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Gretel & Rust",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_P_BR_105\/JPG\/en_US\/c288f3edfc25ae6ccdb0ac08cf1c0a05.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01KFRQ5ZCW7ECMA10PJAM8VR4K",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_P_BR_105\/JPG\/fr_FR\/bf6982db363957133ed65f3d70837f88.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_P_BR_105\/JPG\/en_US\/c288f3edfc25ae6ccdb0ac08cf1c0a05.jpg"
+  },
+  "name": "Gretel & Rust",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "RESERVE": "2",
+    "PERMANENT": "3",
+    "MAIN_EFFECT": "At Noon — If you control a Feat, create a [Rust 0\/0\/0] token in your Companion Expedition. "
+  },
+  "collectorNumberFormatted": "ROC-X-019-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

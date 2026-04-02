@@ -1,0 +1,257 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Who could be better at playing cat and mouse?",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Qui mieux que lui pour jouer au chat et à la souris ?",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDK9QK35FMRT85C0MKHH4",
+          "text": "Who could be better at playing cat and mouse?"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "14FZBM5EZF8PZANTPWTBASMCFN",
+      "reference": "ALT_EOLECB_A_BR_107_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6PBB3SV7XFBVT6JEK75BV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6PBMVZ2S3D91VQA3WQ32K"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6PBYC4AWRWE9RVKX8Z00Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6PC8DT9G0YJZMJ279HYGH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6PCJ06BBNFE2TX37E4GHX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKGPD3C52KAYJ9XT556TWF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{J} Je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": { "text": "{J} I gain 1 boost.", "locale": "en_US" },
+                  "de_DE": {
+                    "text": "{J} Ich erhalte 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Ottengo 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Gano 1 potenciador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} I gain 1 boost."
+              }
+            ],
+            "reference": "02785"
+          },
+          "sequence": 0,
+          "id": "01KJQKGQ0N0M99ETS4YJKAH7ZR"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJQKGPD3C52KAYJ9XT556TWF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Wenn ein anderer Charakter sich deinen Expeditionen anschließt — Du darfst 1 meiner Verstärkungen ausgeben. Falls du das tust, erhält er 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "When another Character joins your Expeditions — You may spend 1 of my boosts. If you do, it gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Cuando otro personaje se incorpore a tus expediciones — Puedes gastar 1 de mis potenciadores. Si lo haces, gana 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Quando un altro personaggio si unisce alle tue spedizioni — Puoi spendere 1 dei miei rinforzi. Se lo fai, ottiene 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsqu'un autre Personnage rejoint vos Expéditions — Vous pouvez dépenser 1 de mes boosts. Si vous le faites, il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When another Character joins your Expeditions — You may spend 1 of my boosts. If you do, it gains 1 boost."
+              }
+            ],
+            "reference": "02786"
+          },
+          "sequence": 1,
+          "id": "01KJQKGQGZF7MG1QTTBBG56ZB5"
+        }
+      ],
+      "value": "{J} I gain 1 boost.  When another Character joins your Expeditions — You may spend 1 of my boosts. If you do, it gains 1 boost.",
+      "id": "01KJQKGPD3C52KAYJ9XT556TWF"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Julien Carrasco" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/JPG\/en_US\/0fd14ba211a085c7de2480e7ece9324d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/WEB_af401ab55d8036ec0f05a8abcf78e9f0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/WEB_4aa37eeaa1fac5928ac85654a7fb95fb",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/WEB_5d8c2cc5c200ef2deeebcd58085b0baa"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_BR_107_C",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_BR_107_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Ocelot Aiguilleur",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/JPG\/fr_FR\/cbe3284bc69a5024a2cc6914d7ee9fe9.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Guiding Ocelot",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/JPG\/en_US\/0fd14ba211a085c7de2480e7ece9324d.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Wegweisender Ozelot",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/JPG\/de_DE\/021df9f97a2c061170714dcb47497019.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Ocelot Guida",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/JPG\/it_IT\/a6d34d15de26ee6a51e335d4a2bca735.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Ocelote guía",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/JPG\/es_ES\/8a13dc0785896a1f20966d6de27e569b.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01KH6E45A0XH110NH8YM10NMM2",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/JPG\/fr_FR\/cbe3284bc69a5024a2cc6914d7ee9fe9.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_107\/JPG\/en_US\/0fd14ba211a085c7de2480e7ece9324d.jpg"
+  },
+  "name": "Guiding Ocelot",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{J} I gain 1 boost.  When another Character joins your Expeditions — You may spend 1 of my boosts. If you do, it gains 1 boost."
+  },
+  "collectorNumberFormatted": "ROCCB-V-023-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

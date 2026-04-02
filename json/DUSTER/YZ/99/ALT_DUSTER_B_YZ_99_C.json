@@ -1,0 +1,244 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Coup dur pour le joueur Reka ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"The Reka player is out!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JZ37ZY9KADR726N1S9DFRTNC",
+          "text": "\"The Reka player is out!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "60QAXRBNP692QTM7K0T9MDJF8P",
+      "reference": "ALT_DUSTER_B_YZ_99_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KSVFWR2K9DRSZCE6A3CZD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KSVQA4ERP78FWG6KZSPFD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4VNHGYKGKPD76W5ZTWRJT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01K6X4VP3BJ662J61ZXEJEFF04"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4VNHGYKGKPD76W5ZTWRJT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Target opponent sacrifices the Character they control with the highest Base Cost. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Un joueur ciblé sacrifie le Personnage qu'il contrôle avec le Coût de Base le plus élevé. (Son Coût de Base est le Coût de Réserve s'il est Fugace, le Coût de Main sinon.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "El oponente objetivo sacrifica el personaje que controla con el mayor coste base. (Su coste base es su coste desde la reserva si tiene fugacidad o su coste desde la mano.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Un avversario bersaglio sacrifica il personaggio con il costo base più alto che controlla. (Il suo costo base corrisponde al costo dalla Riserva se ha Fugace, altrimenti al costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Ein Gegner deiner Wahl opfert den Charakter mit den höchsten Basiskosten, den er kontrolliert. (Basiskosten sind Reservekosten, falls Vergänglich, oder Handkosten, falls nicht.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Target opponent sacrifices the Character they control with the highest Base Cost. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)"
+              }
+            ],
+            "reference": "02025"
+          },
+          "sequence": 1,
+          "id": "01K6X4VPKHPDNRH1WBRQ8W9Y3G"
+        }
+      ],
+      "value": "[[Fleeting]].  Target opponent sacrifices the Character they control with the highest Base Cost. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)",
+      "id": "01K6X4VNHGYKGKPD76W5ZTWRJT"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/en_US\/9f6ef40f531741e190872fea6159c6ae.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/WEB_af52d3061356c04ad360e16aec58d6af",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/WEB_688f0cdc1ba8694d1695c070c3991448"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_99_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_99",
+  "reference": "ALT_DUSTER_B_YZ_99_C",
+  "translations": {
+    "it_IT": { "name": "Preso!", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "Tag!",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/en_US\/9f6ef40f531741e190872fea6159c6ae.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "¡Cazado!", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Geschnappt!", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Touché !",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/fr_FR\/31e65ddfea1bc4b8c30f08d78d33485a.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQTBAMQ4D6NMZA2YG8G",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/fr_FR\/31e65ddfea1bc4b8c30f08d78d33485a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/en_US\/9f6ef40f531741e190872fea6159c6ae.jpg"
+  },
+  "name": "Tag!",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "MAIN_EFFECT": "[[Fleeting]].  Target opponent sacrifices the Character they control with the highest Base Cost. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)"
+  },
+  "collectorNumberFormatted": "SDU-105-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

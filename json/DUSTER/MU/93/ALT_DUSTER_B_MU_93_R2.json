@@ -1,0 +1,247 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Quoi qu'ils en disent, le Naos souffre, tout comme le Nilam avant lui ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"No matter what they say, the Naos is suffering, just like the Nilam before it!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JZ37ZQ9REP0Q8YK71J13BMN4",
+          "text": "\"No matter what they say, the Naos is suffering, just like the Nilam before it!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "719CH0MSSD9ESR96N85B09DKQ2",
+      "reference": "ALT_DUSTER_B_MU_93_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KCJ6M4GBTMNENRPABGTG4"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KCJC8BVYF7580YFMPYY8S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KCJ0SWDVABPNS7VRC4BWY"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KCJHQDZ9MDJ1P3TAC85PS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KCJQ5WK7W5SV3FC89YTMW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4FBC9991Y7S6433XP80HT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZJPJW473QFP5K0211YV3CSP"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may return target Permanent to its owner's hand. #If you do, create a [MANASEED] token in its controller's Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez renvoyer un Permanent ciblé dans la main de son propriétaire. #Si vous le faites, créez un jeton [MANASEED] dans les Repères de son contrôleur.#",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes devolver a la mano de su propietario un permanente objetivo. #Si lo haces, crea una ficha de [MANASEED] en los hitos de su controlador.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi far tornare un permanente bersaglio in mano al suo proprietario. #Se lo fai, crea una pedina [MANASEED] nei fulcri del suo controllore.#",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{H} Du darfst eine Bleibende Karte deiner Wahl in die Hand ihres Besitzers zurückschicken. #Falls du das tust, erschaffe eine [MANASEED]-Marke im Wahrzeichen-Bereich des kontrollierenden Spielers.#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} You may return target Permanent to its owner's hand. #If you do, create a [MANASEED] token in its controller's Landmarks.#"
+              }
+            ],
+            "reference": "01894"
+          },
+          "sequence": 0,
+          "id": "01K6X4FBXFVKBSECYYDKMSNJ6J"
+        }
+      ],
+      "value": "{H} You may return target Permanent to its owner's hand. If you do, create a [Manaseed] token in its controller's Landmarks.",
+      "id": "01K6X4FBC9991Y7S6433XP80HT"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/JPG\/en_US\/df7dc84a377e0d4d5088da2f47e82658.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/WEB_bf2a2e3d6e63b3d665af1da8778d6796",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/WEB_4fe34fb9f771b1bc023ae006292dccc2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/WEB_1000a7be97bd1281d21b6c8227477897"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_93_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_93",
+  "reference": "ALT_DUSTER_B_MU_93_R2",
+  "translations": {
+    "en_US": {
+      "name": "Hesperide",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/JPG\/en_US\/df7dc84a377e0d4d5088da2f47e82658.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Hespéride", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Esperide", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Hesperidin", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Hespéride",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/JPG\/fr_FR\/ac664744504862ee9c23d34a0b9a40ba.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ64CQ9P7A1GXC4E2TG",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/JPG\/fr_FR\/ac664744504862ee9c23d34a0b9a40ba.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_93\/JPG\/en_US\/df7dc84a377e0d4d5088da2f47e82658.jpg"
+  },
+  "name": "Hesperide",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "#3#",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} You may return target Permanent to its owner's hand. #If you do, create a [Manaseed] token in its controller's Landmarks.#"
+  },
+  "collectorNumberFormatted": "SDU-061-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

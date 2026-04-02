@@ -1,0 +1,400 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "After Kojo, she's the second to have managed this feat.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Après Kojo, elle est la deuxième à avoir accompli cet exploit.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HQJ3S1QPM05KHV47Z1EW",
+          "text": "After Kojo, she's the second to have managed this feat."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQJFVR7FVCG6NFN0N9W4",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQJ9SKMG2WDRRMAWDBJ5",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQHRAEV56VR5FJ4XTD0M",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQHY3JZFPB0BKFWDMMDY",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "2PNXRRACD78H8REJM4KTKXCXRN",
+      "reference": "ALT_EOLE_B_BR_121_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYMG8M62ES5XGK99015AVH"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYMGF8S5CGJS0NEX019MA7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NC3A7F0JD8ZS8WWN2CDWB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        }
+                      },
+                      "id": "01HPFHC15Y9ARSV51SMJKFZ8CY",
+                      "reference": "RESUPPLY_LOW"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KCQ7F6WCWMN5F6E8QKYAQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{J} Du darfst eine Karte aus deiner Reserve in deine Manazone legen, erschöpft. #Falls du das tust, nutze [RESUPPLY_LOW].#",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez mettre une carte de votre Réserve dans votre zone de Mana, épuisée. #Si vous le faites, [RESUPPLY_LOW].#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{J} You may put a card from your Reserve in your Mana zone, exhausted. #If you do, [RESUPPLY_LOW].#",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{J} Puoi mettere una carta dalla tua Riserva nella tua area del mana, consumata. #Se lo fai, [RESUPPLY_LOW].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Puedes colocar una carta de tu reserva en tu zona de maná, agotada. #Si lo haces, [RESUPPLY_LOW].#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} You may put a card from your Reserve in your Mana zone, exhausted. #If you do, [RESUPPLY_LOW].#"
+              }
+            ],
+            "reference": "02826"
+          },
+          "sequence": 0,
+          "id": "01KJ5NC57NZZH7E42M67QWVJZJ"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5NC3A7F0JD8ZS8WWN2CDWB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you pass — If there are twelve or more Mana Orbs in your Mana zone, complete me.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous passez — S'il y a au moins douze Orbes de Mana dans votre zone de Mana, accomplissez-moi.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du passt — Falls sich in deiner Manazone zwölf oder mehr Manakugeln befinden, vollbringe mich.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Cuando pases — Si hay doce orbes de maná o más en tu zona de maná, complétame.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Quando passi — Se ci sono dodici o più sfere di mana nella tua area del mana, eseguimi.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "When you pass — If there are twelve or more Mana Orbs in your Mana zone, complete me."
+              }
+            ],
+            "reference": "02824"
+          },
+          "sequence": 1,
+          "id": "01KJ5NC6TTF19M2X0681T6AD9W"
+        }
+      ],
+      "value": "{J} You may put a card from your Reserve in your Mana zone, exhausted. If you do, [Resupply].  When you pass — If there are twelve or more Mana Orbs in your Mana zone, complete me.",
+      "id": "01KJ5NC3A7F0JD8ZS8WWN2CDWB"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NC8Q9CGYC7DWWHRGJ19GP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KCJ8DV3A3TYFB0Q6GYPRN"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[COMPLETED]: If one of your Expeditions would move forward during Dusk, you may exhaust me ({T}) to make it move forward one more region instead.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED]: se una delle tue spedizioni sta per avanzare durante il crepuscolo, puoi consumarmi ({T}) per farla avanzare invece di una regione in più.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED]: Si una de tus expediciones fuera a avanzar al anochecer, en vez de eso, puedes agotarme ({T}) para hacer que avance una región más.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "[COMPLETED] : Si l'une de vos Expéditions devait avancer pendant le Crépuscule, vous pouvez m'épuiser ({T}) pour l'avancer d'une région supplémentaire à la place.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED]: Falls sich eine deiner Expeditionen am Abend vorwärts bewegt, darfst du mich erschöpfen ({T}), um sie noch eine Region vorwärts zu bewegen.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "[COMPLETED]: If one of your Expeditions would move forward during Dusk, you may exhaust me ({T}) to make it move forward one more region instead."
+              }
+            ],
+            "reference": "02825"
+          },
+          "sequence": 0,
+          "id": "01KJ5NCAHZ1BG9QX851T78J2ZS"
+        }
+      ],
+      "value": "[[Completed]]: If one of your Expeditions would move forward during Dusk, you may exhaust me ({T}) to make it move forward one more region instead.",
+      "id": "01KJ5NC8Q9CGYC7DWWHRGJ19GP"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_121\/JPG\/en_US\/40f22ef5c891141c73e6683f75b65a21.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_121\/WEB_94dd893ec2c37b43f1a514e3bcceebed",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_121\/WEB_c72fde5b379377745e6815b4feb45172"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_121_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_121",
+  "reference": "ALT_EOLE_B_BR_121_R1",
+  "translations": {
+    "es_ES": {
+      "name": "Cosechar el maná",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_121\/JPG\/es_ES\/d1e4f6f1fc6c2b9cc26c45189aa25e87.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Moissonner le Mana",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_121\/JPG\/fr_FR\/4ca15ac18a2129908a57b1af231e4b30.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Erntet das Mana",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_121\/JPG\/de_DE\/bb0611a27b6631c3bbcbcf0e1a9dec08.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Raccogliere il Mana",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_121\/JPG\/it_IT\/5441610003fc7271c3743a5cdd3bfd65.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Reap the Mana",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_121\/JPG\/en_US\/40f22ef5c891141c73e6683f75b65a21.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K9YWHY918C89A4RCX48RQSDT",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_121\/JPG\/fr_FR\/4ca15ac18a2129908a57b1af231e4b30.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_121\/JPG\/en_US\/40f22ef5c891141c73e6683f75b65a21.jpg"
+  },
+  "name": "Reap the Mana",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} You may put a card from your Reserve in your Mana zone, exhausted. #If you do, [Resupply].#  When you pass — If there are twelve or more Mana Orbs in your Mana zone, complete me.",
+    "ECHO_EFFECT": "[[Completed]]: If one of your Expeditions would move forward during Dusk, you may exhaust me ({T}) to make it move forward one more region instead."
+  },
+  "collectorNumberFormatted": "ROC-035-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

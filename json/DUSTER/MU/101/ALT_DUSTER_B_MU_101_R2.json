@@ -1,0 +1,395 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The Reka let the Muna build a natural embassy in the city.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Les Reka ont laissé les Muna bâtir en ville une ambassade naturelle.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZP37WXG4DW20XV32FHKH",
+          "text": "The Reka let the Muna build a natural embassy in the city."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "0R5ZAYC7A98RHV094AM831NHC4",
+      "reference": "ALT_DUSTER_B_MU_101_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KFNEMVPE5Y2Q80YVY5XSX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KFNNKPCFBQ4XTPSZ262JN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4CR9D7BYH66Y51RBVQPKJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Ancrés",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2KFJ9B9Y4P67GM8CNCHMQE",
+                      "reference": "ANCHORED_CHA_P"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWWM2FJEBWPVNC0JAV2G70"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Endormis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Schlafend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dormiente",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sueño",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Asleep",
+                          "locale": "en_US",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2KFJTMNW4V1R1QDE8S4H4S",
+                      "reference": "ASLEEP_CHA_P"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWWMET8XY6PDD8MJJ92DWR"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Coriaces 1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V93R4X2QDP6CPHFSR8DWC",
+                      "reference": "TOUGH_CHA_P_1"
+                    },
+                    "sequence": 2,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWWMS6HR3B34NP35A7FS7T"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#[ANCHORED_CHA_P] and [ASLEEP_CHA_P] Characters you control are [TOUGH_CHA_P_1].#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#Les Personnages [ANCHORED_CHA_P] et [ASLEEP_CHA_P] que vous contrôlez sont [TOUGH_CHA_P_1].#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#Charaktere mit [ANCHORED_CHA_P] und [ASLEEP_CHA_P], die du kontrollierst, sind [TOUGH_CHA_P_1].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#I personaggi con [ANCHORED_CHA_P] e [ASLEEP_CHA_P] che controlli hanno [TOUGH_CHA_P_1].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Los personajes que controlas con [ANCHORED_CHA_P] y [ASLEEP_CHA_P] tienen [TOUGH_CHA_P_1].#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#[ANCHORED_CHA_P] and [ASLEEP_CHA_P] Characters you control are [TOUGH_CHA_P_1].#"
+              }
+            ],
+            "reference": "01953"
+          },
+          "sequence": 0,
+          "id": "01K6X4CRT7ZBXV8AJY3BK5HQ1N"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4CR9D7BYH66Y51RBVQPKJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K3GD9XD1C4R7M4N8VS0S0G3S"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Resupplies",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaille",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisce",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22PMAWKFHM9YCE44WE12XZ",
+                      "reference": "RESUPPLIES"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K3GD9X2CXCVJDT8PRQ53X2CX"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T}, Target opponent [RESUPPLIES]: The next Character you play this turn with Base Cost {3} or less gains [ANCHORED]. (Reserve Cost if played from Reserve, or Hand Cost if not.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{T}, un avversario bersaglio [RESUPPLIES]: il prossimo personaggio che giochi in questo turno con costo base pari o inferiore a {3} ottiene [ANCHORED]. (Costo dalla Riserva se giocato dalla Riserva, altrimenti costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{T}, Ein Gegner deiner Wahl nutzt [RESUPPLIES]: Der nächste Charakter, den du in dieser Runde mit Basiskosten {3} oder weniger spielst, erhält [ANCHORED]. (Reservekosten, falls aus der Reserve gespielt wird, oder Handkosten, falls nicht.)",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{T}, Un adversaire ciblé [RESUPPLIES] : le prochain Personnage de Coût de Base {3} ou moins que vous jouez ce tour-ci gagne [ANCHORED]. (Coût de Main, ou Coût de Réserve s'il est joué depuis la Réserve.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{T}, el oponente objetivo [RESUPPLIES]: El siguiente personaje que juegues este turno con coste base de {3} o menos gana [ANCHORED]. (Es su coste desde la reserva si se juega desde la reserva o, de lo contrario, es su coste desde la mano.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{T}, Target opponent [RESUPPLIES]: The next Character you play this turn with Base Cost {3} or less gains [ANCHORED]. (Reserve Cost if played from Reserve, or Hand Cost if not.)"
+              }
+            ],
+            "reference": "02014"
+          },
+          "sequence": 1,
+          "id": "01K6X4CS9SENZVHYNNPPY8TZQH"
+        }
+      ],
+      "value": "[[Anchored]] and [[Asleep]] Characters you control are [Tough 1].  {T}, Target opponent [Resupplies]: The next Character you play this turn with Base Cost {3} or less gains [[Anchored]]. (Reserve Cost if played from Reserve, or Hand Cost if not.)",
+      "id": "01K6X4CR9D7BYH66Y51RBVQPKJ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/JPG\/en_US\/e36b98f386f74c80e57c69accc178ee4.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/WEB_ba59e2d460edf8093c7da8d3a553cc62",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/WEB_1bad16519f4af4aba3cd69ab5e830394"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_101_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_101",
+  "reference": "ALT_DUSTER_B_MU_101_R2",
+  "translations": {
+    "es_ES": { "name": "La Embajada", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "The Embassy",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/JPG\/en_US\/e36b98f386f74c80e57c69accc178ee4.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": { "name": "Ambasciata", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Die Botschaft", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "L'Ambassade",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/JPG\/fr_FR\/ad229f8024088ff328608d7f8f79de6d.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ8Y39Y6K5GCR157VXJ",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/JPG\/fr_FR\/ad229f8024088ff328608d7f8f79de6d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/JPG\/en_US\/e36b98f386f74c80e57c69accc178ee4.jpg"
+  },
+  "name": "The Embassy",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "MAIN_EFFECT": "#[[Anchored]] and [[Asleep]] Characters you control are [Tough 1].#  {T}, Target opponent [Resupplies]: The next Character you play this turn with Base Cost {3} or less gains [[Anchored]]. (Reserve Cost if played from Reserve, or Hand Cost if not.)"
+  },
+  "collectorNumberFormatted": "SDU-071-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

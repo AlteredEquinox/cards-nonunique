@@ -1,0 +1,201 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "If the Juice gives life, then it must take it from somewhere.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Si le Suc rend la vie, il la puise forcément ailleurs.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KJ5PA30S7B0WC0626BNTSMCQ",
+          "text": "If the Juice gives life, then it must take it from somewhere."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6E3VST6QRS92ET4WY2XAJ1KPGW",
+      "reference": "ALT_DUSTERCB_P_MU_88_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DRUID",
+      "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+      "name": "Druid"
+    }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K6ASVTBM7F19Y2EGA1RWBW1Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K6ASVTHWHHKFDYM6P6C1BH5N"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K6ASVTR65755ZECT7S2GNHNN"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K6ASVTYTRX87GTWMY7X62QQD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K6ASVV4ZFF7KT1DM1N8NNA98"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH66WW4PTCQZ406D2P9RECPM",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Pay {7} less for the next Spell you play this Afternoon.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "fr_FR": {
+                    "text": "{H} Payez {7} de moins pour le prochain Sort que vous jouez cet Après-midi.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Pay {7} less for the next Spell you play this Afternoon."
+              }
+            ],
+            "reference": "02997"
+          },
+          "sequence": 0,
+          "id": "01KH66WWSZHZERZR7098ZST2S6"
+        }
+      ],
+      "value": "{H} Pay {7} less for the next Spell you play this Afternoon.",
+      "id": "01KH66WW4PTCQZ406D2P9RECPM"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_88\/JPG\/en_US\/d1ea456811d10b123e3cc97638ba3cc9.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_88\/WEB_e18ad7669d4f91c17f5a47f9772c0143",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_88\/WEB_e4b5e57ab0df02d459b12a9ee6e3c993",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_88\/WEB_f73f77981aaf4a1fff5d53132558745c"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_MU_88_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_88",
+  "reference": "ALT_DUSTERCB_P_MU_88_C",
+  "translations": {
+    "it_IT": { "name": "Botanica Muna", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Muna-Botanikerin", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Botanista de Muna", "image": null, "locale": "es_ES" },
+    "fr_FR": {
+      "name": "Botaniste Muna",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_88\/JPG\/fr_FR\/3b4d4a660a5cc9d36dfff7076ffddfa5.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Muna Botanist",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_88\/JPG\/en_US\/d1ea456811d10b123e3cc97638ba3cc9.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K60PWD557T11ESVX3CG0J0DS",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_88\/JPG\/fr_FR\/3b4d4a660a5cc9d36dfff7076ffddfa5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_88\/JPG\/en_US\/d1ea456811d10b123e3cc97638ba3cc9.jpg"
+  },
+  "name": "Muna Botanist",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#1#",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "{H} Pay {7} less for the next Spell you play this Afternoon."
+  },
+  "collectorNumberFormatted": "SDUCB-016-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

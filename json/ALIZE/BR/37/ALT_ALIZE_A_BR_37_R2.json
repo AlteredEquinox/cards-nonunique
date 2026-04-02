@@ -1,0 +1,259 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"What doesn't kill you makes you stronger.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Ce qui ne te tue pas te rend plus fort. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01J3JJGM1PQBY9HMJRBE6YRAKS",
+          "text": "\"What doesn't kill you makes you stronger.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2VC7W0157M87TAZJ1NZC0CDRRF",
+      "reference": "ALT_ALIZE_A_BR_37_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVMY04R0Y1V4H3GX71J13"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01J3GVVN1FWWZA3YAQHM8AB62V"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVN51CE160J8F7V2KRAG3"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVN8XTXYTACTS47PQ36S7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVND3WG4FYSC96B990JRJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SAT1CGCZDX3YK43MMMG9P",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Si je devais être envoyé en Réserve, défaussez-moi à la place."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Si fuese a ir a la reserva, en vez de eso, descártame."
+                        },
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "If I would be sent to Reserve, discard me instead."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Falls ich in die Reserve geschickt werden soll, lege mich stattdessen ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Se sto per finire nella Riserva, scartami invece."
+                        }
+                      },
+                      "id": "01HKAGPFQ5K77F8PMNJR8FY6PM",
+                      "reference": "FLEETING_CHAR"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JMCY09G40N2SQBETAWTJX76X"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "#Falls ich [FLEETING_CHAR] erhalten würde, erhalte ich stattdessen 1 Verstärkung.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Se sto per ottenere [FLEETING_CHAR], ottengo invece 1 rinforzo.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Si fuese a ganar [FLEETING_CHAR], en vez de eso, gano 1 potenciador.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Si je devais gagner [FLEETING_CHAR], je gagne 1 boost à la place.#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#If I would gain [FLEETING_CHAR], I gain 1 boost instead.#",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "#If I would gain [FLEETING_CHAR], I gain 1 boost instead.#"
+              }
+            ],
+            "reference": "01145"
+          },
+          "sequence": 0,
+          "id": "01KH6SATN076FKYFB8N2FEEJYM"
+        }
+      ],
+      "value": "If I would gain [[Fleeting]], I gain 1 boost instead.",
+      "id": "01KH6SAT1CGCZDX3YK43MMMG9P"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/JPG\/en_US\/776e76cfa8bd0e73c321bfd220b36900.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/WEB_3d00216d0ed0cbdde307af3590b55dca",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/WEB_20599b71ed48f0778f89a7e61d817f29",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/WEB_d7e30df8414ad334bd1990f62f9a8878"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_BR_37_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_37",
+  "reference": "ALT_ALIZE_A_BR_37_R2",
+  "translations": {
+    "fr_FR": {
+      "name": "Gericht, Bretteur Honoré",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/JPG\/fr_FR\/5b0f8ec6fe96d76a820c435520683812.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Gericht, Revered Duelist",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/JPG\/en_US\/776e76cfa8bd0e73c321bfd220b36900.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Gericht, verehrter Duellant",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/JPG\/de_DE\/e62ba0413f776c4fb8aac97438249df8.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Gericht, Stimato Duellante",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/JPG\/it_IT\/8a03d0ab7069c4782513f74482c7f8d8.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Gericht, duelista venerado",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/JPG\/es_ES\/c5921c911d119a80aa3003335fdfccad.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01J3GR3VQNGC7DEGP8XMFY66WC",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/JPG\/fr_FR\/5b0f8ec6fe96d76a820c435520683812.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_37\/JPG\/en_US\/776e76cfa8bd0e73c321bfd220b36900.jpg"
+  },
+  "name": "Gericht, Revered Duelist",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#If I would gain [[Fleeting]], I gain 1 boost instead.#"
+  },
+  "collectorNumberFormatted": "TBF-025-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

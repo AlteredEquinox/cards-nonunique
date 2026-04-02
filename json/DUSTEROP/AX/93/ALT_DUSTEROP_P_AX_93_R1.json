@@ -1,0 +1,345 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"A disruptive smoothie to knock the competition off balance!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Un smoothie disruptif, pour couper l'herbe sous le pied de la concurrence ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01K4Z6KZ3DWJFBHY30GSPY50AV",
+          "text": "\"A disruptive smoothie to knock the competition off balance!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "7G39GE1MQR9JEAWPFK7W16TXMT",
+      "reference": "ALT_DUSTEROP_B_AX_93_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "BUREAUCRAT",
+      "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+      "name": "Bureaucrat"
+    }
+  ],
+  "cardSet": {
+    "id": "01K4YGEBN10S3MMN6J9CW5B4AC",
+    "reference": "DUSTEROP",
+    "name": "Seeds of Unity - Organized Play"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K4YMS59EX03QRKA0T2KARKD6"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K4YMS59ZDQJTN1H3QM58V72X"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K4YMS5AB3XK1RD3HDFX12TYR"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K4YMS5APXC2PCV6ENAASNCA4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K4YMS5B1QM665Q7G041S35M6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K8NNZXFCDKT6H0MQV44RWNVK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} Choose one, #or exhaust a Permanent you control to choose both:#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Choisissez l'un #ou épuisez un Permanent que vous contrôlez pour choisir les deux :#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{R} Wähle eine Aktion #oder erschöpfe eine Bleibende Karte, die du kontrollierst, um beides auszuwählen:#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{R} Elige una opción #o agota un permanente que controlas para elegir las dos:#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{R} Scegli uno #o consuma un permanente che controlli per scegliere entrambi:#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{R} Choose one, #or exhaust a Permanent you control to choose both:#"
+              }
+            ],
+            "reference": "01664"
+          },
+          "sequence": 0,
+          "id": "01K8NNZXZ5KK6DVZ815YX1BXSH"
+        },
+        {
+          "cardElement": "\/card_elements\/01K8NNZXFCDKT6H0MQV44RWNVK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JB22ZXTKP2TGCYAAQXCG8N1Y"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "• [SABOTAGE].", "locale": "de_DE" },
+                  "es_ES": { "text": "• [SABOTAGE].", "locale": "es_ES" },
+                  "fr_FR": { "text": "• [SABOTAGE].", "locale": "fr_FR" },
+                  "en_US": { "text": "• [SABOTAGE].", "locale": "en_US" },
+                  "it_IT": { "text": "• [SABOTAGE].", "locale": "it_IT" }
+                },
+                "text": "• [SABOTAGE]."
+              }
+            ],
+            "reference": "01048"
+          },
+          "sequence": 1,
+          "id": "01K8NNZYBK37MYYNJBBN9KTCS9"
+        },
+        {
+          "cardElement": "\/card_elements\/01K8NNZXFCDKT6H0MQV44RWNVK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWCYW9Z6YHVWZZKN9VKVCK"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• Create a [MANASEED] token in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "• Crea una ficha de [MANASEED] en tus hitos.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• Créez un jeton [MANASEED] dans vos Repères.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "• Erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• Crea una pedina [MANASEED] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "• Create a [MANASEED] token in your Landmarks."
+              }
+            ],
+            "reference": "01906"
+          },
+          "sequence": 2,
+          "id": "01K8NNZYR4Z1YS8Z6G9TF8DHAG"
+        }
+      ],
+      "value": "{R} Choose one, or exhaust a Permanent you control to choose both:  • [Sabotage].  • Create a [Manaseed] token in your Landmarks.",
+      "id": "01K8NNZXFCDKT6H0MQV44RWNVK"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_AX_93\/JPG\/en_US\/e2632158af9040e69276aba342eacfb2.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_AX_93\/WEB_7720f60668295194acbe8529d4105be5",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_AX_93\/WEB_51f54f4926ee4e7fab0cda0a6672bc29",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_AX_93\/WEB_cb5969a59afad3be62b1ea54b1652d17"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_AX_93_R1",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_93",
+  "reference": "ALT_DUSTEROP_P_AX_93_R1",
+  "translations": {
+    "es_ES": { "name": "Magnate reka", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Reka Magnate",
+      "image": "Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_AX_93\/JPG\/en_US\/e2632158af9040e69276aba342eacfb2.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Magnat Reka",
+      "image": "Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_AX_93\/JPG\/fr_FR\/811c41049500cfe78509f3893eabe51e.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": { "name": "Reka-Magnatin", "image": null, "locale": "de_DE" },
+    "it_IT": { "name": "Magnate Reka", "image": null, "locale": "it_IT" }
+  },
+  "id": "01K4YGECGRVP002XYTEWX1RAJM",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_AX_93\/JPG\/fr_FR\/811c41049500cfe78509f3893eabe51e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_AX_93\/JPG\/en_US\/e2632158af9040e69276aba342eacfb2.jpg"
+  },
+  "name": "Reka Magnate",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{R} Choose one, #or exhaust a Permanent you control to choose both:#  • [Sabotage].  • Create a [Manaseed] token in your Landmarks."
+  },
+  "collectorNumberFormatted": "SDUOP-007-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

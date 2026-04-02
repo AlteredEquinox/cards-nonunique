@@ -1,0 +1,397 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "If \"wolfing down\" had a face…",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Quand on parle du loup, on en voit l'ombre difforme...",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HRDE7VANWP1YJ66D0N6B",
+          "text": "If \"wolfing down\" had a face…"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRDW2AH8S35PQ92TZ069",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRDNY2ZWSDK3DPCZTB8M",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HRD10BJ3Y2WXXT4CHJAN",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRD7P8QPF6FRQ34BQRVB",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "25J07QTB458GH9KE5S647TCV86",
+      "reference": "ALT_EOLE_B_LY_115_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K9YYSEBCC2RPXCENQC772VGC"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01K9YYSEJB882R5KR8QK5TWCSF"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K9YYSES6S20D0Q49CRVZ6D1D"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01K9YYSF052V4DMRAF67C4QPF2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01K9YYSF77H5GKE6451Z54B3GK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NVCRNPXS2D8JA99XS0BDF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Resupplies",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaille",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisce",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22PMAWKFHM9YCE44WE12XZ",
+                      "reference": "RESUPPLIES"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KHBEJEVH9JWB02S4ACTV0E2H"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Starting with you, each player discards their Reserve, [RESUPPLIES], then [RESUPPLIES] again.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Chaque joueur défausse sa Réserve, [RESUPPLIES], puis [RESUPPLIES] à nouveau.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Angefangen bei dir legt jeder Spieler seine Reserve ab, nutzt [RESUPPLIES] und dann erneut [RESUPPLIES].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} A cominciare da te, ogni giocatore scarta la propria Riserva, [RESUPPLIES], poi [RESUPPLIES] di nuovo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Empezando por ti, cada jugador descarta su reserva, [RESUPPLIES] y luego [RESUPPLIES] de nuevo.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{H} Starting with you, each player discards their Reserve, [RESUPPLIES], then [RESUPPLIES] again."
+              }
+            ],
+            "reference": "03003"
+          },
+          "sequence": 0,
+          "id": "01KJ5NVEFDC1X5YF4BD48MD717"
+        }
+      ],
+      "value": "{H} Starting with you, each player discards their Reserve, [Resupplies], then [Resupplies] again.",
+      "id": "01KJ5NVCRNPXS2D8JA99XS0BDF"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NVG5GAFDWFDY7VB7ZZ1ET",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Aérolithe",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Aerolith",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aerolit",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Aerolite",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Aerolito",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V2BFTDBEPJRRHWC5YM548",
+                      "reference": "AEROLITH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JN9V36RBRXX09QP1PC000YQ8"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{D}: crea una pedina [AEROLITH] nei fulcri di un giocatore bersaglio. (Scartami dalla Riserva per eseguire questa azione.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{D} : Crea una ficha de [AEROLITH] en los hitos del jugador objetivo. (Descártame de la reserva para hacer esto.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Créez un jeton [AEROLITH] dans les Repères d'un joueur ciblé. (Défaussez-moi de la Réserve pour ça.)",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{D} : Create an [AEROLITH] token in target player's Landmarks. (Discard me from Reserve to do this.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Erschaffe eine [AEROLITH]-Marke im Wahrzeichen-Bereich eines Spielers deiner Wahl. (Lege mich aus der Reserve ab, um diese Aktion auszuführen.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{D} : Create an [AEROLITH] token in target player's Landmarks. (Discard me from Reserve to do this.)"
+              }
+            ],
+            "reference": "01244"
+          },
+          "sequence": 0,
+          "id": "01KJ5NVJ1JJTAE7B2XTDBNNZRQ"
+        }
+      ],
+      "value": "{D} : Create an [Aerolith] token in target player's Landmarks. (Discard me from Reserve to do this.)",
+      "id": "01KJ5NVG5GAFDWFDY7VB7ZZ1ET"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Khoa Viet" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/JPG\/en_US\/b58a94b85ff446757fa2f24a9042b2fa.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/WEB_269de6d09926dba866215bb6250970ed",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/WEB_9e9584737ec3e0900acf6c76fbfaa4c9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/WEB_8c9609339d0af3fbe0374e93ffc25d46"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_115_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_115",
+  "reference": "ALT_EOLE_B_LY_115_C",
+  "translations": {
+    "it_IT": {
+      "name": "Stigma del Caos",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/JPG\/it_IT\/522a7a560e6f37b67165d375aabb1912.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Stigma der Verwüstung",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/JPG\/de_DE\/3dd9ce80eee60c8dfbc6f811d4f3e57e.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Estigma de la devastación",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/JPG\/es_ES\/08ed88d96aa3d1cb6daee9efbad5bebb.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Stigmate du Ravage",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/JPG\/fr_FR\/6556bd3666c5d19f759a8c6c8a9e4053.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Stigma of Havoc",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/JPG\/en_US\/b58a94b85ff446757fa2f24a9042b2fa.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K9YWHY98VPAHS6P428WFTB6Q",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/JPG\/fr_FR\/6556bd3666c5d19f759a8c6c8a9e4053.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_115\/JPG\/en_US\/b58a94b85ff446757fa2f24a9042b2fa.jpg"
+  },
+  "name": "Stigma of Havoc",
+  "elements": {
+    "MAIN_COST": "6",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "5",
+    "MOUNTAIN_POWER": "5",
+    "MAIN_EFFECT": "{H} Starting with you, each player discards their Reserve, [Resupplies], then [Resupplies] again.",
+    "ECHO_EFFECT": "{D} : Create an [Aerolith] token in target player's Landmarks. (Discard me from Reserve to do this.)"
+  },
+  "collectorNumberFormatted": "ROC-050-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

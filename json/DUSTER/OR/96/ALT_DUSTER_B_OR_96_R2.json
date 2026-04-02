@@ -1,0 +1,307 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "It was Talos's role to protect the statue from prying eyes.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "C'est à Talos qu'il incombait de protéger la statue des regards indiscrets.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZTAPC6HAZ9YFRHX7DNSE",
+          "text": "It was Talos's role to protect the statue from prying eyes."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "7YGKJX6RYR8KQADVQE8GGBYZ3Y",
+      "reference": "ALT_DUSTER_B_OR_96_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ROBOT",
+      "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+      "name": "Robot"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KKWXJMZ5V83SAEDXFHDVF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KKX3G8344T5ZWW0EP9KFR"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KKXA3YX8DYAW336Z9CB2F"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KKXGT836ABNF1EAM1VTV0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KKXPY33DZDTPYCZ0X55R3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4NTRP925N35PPYK8373WX",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JB22VRXTYN9T4RMW7NWDWZ5A"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[GIGANTIC].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[GIGANTIC].", "locale": "de_DE" },
+                  "en_US": { "text": "[GIGANTIC].", "locale": "en_US" },
+                  "es_ES": { "text": "[GIGANTIC].", "locale": "es_ES" },
+                  "it_IT": { "text": "[GIGANTIC].", "locale": "it_IT" }
+                },
+                "text": "[GIGANTIC]."
+              }
+            ],
+            "reference": "01000"
+          },
+          "sequence": 0,
+          "id": "01K6X4NVAK7PAF1KCYYSXYRAYZ"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4NTRP925N35PPYK8373WX",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verteidiger",
+                          "locale": "de_DE",
+                          "description": "Meine Expedition kann sich am Abend nicht vorwärts bewegen."
+                        },
+                        "en_US": {
+                          "displayWeb": "Defender",
+                          "locale": "en_US",
+                          "description": "My Expedition can't move forward during Dusk."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Defensor",
+                          "locale": "es_ES",
+                          "description": "Mi expedición no puede avanzar durante el anochecer."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Difensore",
+                          "locale": "it_IT",
+                          "description": "La mia spedizione non può avanzare durante il crepuscolo."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Défenseur",
+                          "locale": "fr_FR",
+                          "description": "Mon Expédition ne peut pas avancer pendant le Crépuscule."
+                        }
+                      },
+                      "id": "01HKAGT6K21NN8C88CAFXSN5RF",
+                      "reference": "DEFENDER"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KKV5SDH22G4PQ1E84TDHC"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "I'm [DEFENDER] #unless there are two or more cards in your Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Je suis [DEFENDER], #sauf s'il y a au moins deux cartes dans vos Repères.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Ich bin [DEFENDER], #es sei denn, es sind mindestens zwei Karten in deinem Wahrzeichen-Bereich.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Soy [DEFENDER] #a menos que haya dos o más cartas en tus hitos.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Ho [DEFENDER] #a meno che non ci siano due o più carte nei tuoi fulcri.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "I'm [DEFENDER] #unless there are two or more cards in your Landmarks.#"
+              }
+            ],
+            "reference": "01830"
+          },
+          "sequence": 1,
+          "id": "01K6X4NVSXJK968DZWYVGWD0KR"
+        }
+      ],
+      "value": "[Gigantic].  I'm [Defender] unless there are two or more cards in your Landmarks.",
+      "id": "01K6X4NTRP925N35PPYK8373WX"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/en_US\/11a2d25edab04176174f89e9c22b9e30.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/WEB_4d4a0af450825891e7a7c43edbe2e3ee",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/WEB_b7749bce8864d92d6d1053aab4b001f1",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/WEB_082e5bcdb5110b9f31137d8ef302b3c2"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_96_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_96",
+  "reference": "ALT_DUSTER_B_OR_96_R2",
+  "translations": {
+    "de_DE": { "name": "Talos", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Talos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/en_US\/11a2d25edab04176174f89e9c22b9e30.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Talos", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Talos", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Talos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/fr_FR\/915eef64ef6a9a839f8810a562b20121.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQGFN6WC38BBE5RY34Z",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/fr_FR\/915eef64ef6a9a839f8810a562b20121.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/en_US\/11a2d25edab04176174f89e9c22b9e30.jpg"
+  },
+  "name": "Talos",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "[Gigantic].  I'm [Defender] #unless there are two or more cards in your Landmarks.#"
+  },
+  "collectorNumberFormatted": "SDU-084-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

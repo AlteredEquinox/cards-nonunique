@@ -1,0 +1,274 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Its pincers grip the fabric of reality.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Ses pinces épinglent le tissu de la réalité.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HY0D0RD49D4YEDXFP8F5",
+          "text": "Its pincers grip the fabric of reality."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HY2DW0WDXSEZTMVXKEPT",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HY1T7TVT9D4RKDDK6S1E",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HXZPGB0QTYANSMSY9V3V",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HY01YDHZ9V0PEKD4PRPB",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2ENWEMWEKV9ZFAW4ZC0TVMAZ3K",
+      "reference": "ALT_EOLE_B_YZ_110_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZETD0XN7HEHEHNRTYCGVC"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZEV5CDSXR8V18K2ZABMD5"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZETN2E9V7P66ATWJJ024J"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YZETX6H3H9373H5DH5YF81"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZEVDNVJKNYN7J8MNHHASZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QCM2EDMAVDVBA3H8SDNEH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J}# Draw a card, then discard a card from your hand.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Piochez une carte, puis défaussez une carte de votre main.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# Pesca una carta, poi scarta una carta dalla tua mano.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# Roba una carta y luego descarta una carta de tu mano.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# Ziehe eine Karte, dann lege eine Karte aus deiner Hand ab.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "#{J}# Draw a card, then discard a card from your hand."
+              }
+            ],
+            "reference": "02981"
+          },
+          "sequence": 0,
+          "id": "01KJ5QCNTJH5WWJVFAT65JPJ52"
+        }
+      ],
+      "value": "{J} Draw a card, then discard a card from your hand.",
+      "id": "01KJ5QCM2EDMAVDVBA3H8SDNEH"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Fahmi Fauzi" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/JPG\/en_US\/240c1057a2e95884c4fb0101b8192d12.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/WEB_813be7f3f5d2ea4501435ded3ccf48bc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/WEB_5fa1fc92f13e0e64d8b1d060e182f270",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/WEB_f13928addbb97499d4fee7841fd13609"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_110_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_110",
+  "reference": "ALT_EOLE_B_YZ_110_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Granchio in Muta",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/JPG\/it_IT\/247bf1ff8adef749dbf1b7df80513b9b.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Crabe en Mue",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/JPG\/fr_FR\/a66cf87b44ad562d65f924e4db462bc4.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Molting Crab",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/JPG\/en_US\/240c1057a2e95884c4fb0101b8192d12.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Cangrejo en muda",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/JPG\/es_ES\/d350416c8fecd438287c19c58e3aab09.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Sich häutende Krabbe",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/JPG\/de_DE\/18e8e47a77d63461634c01ee4f22324d.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01K9YWHYA4JNPD97FD2DJTK95B",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/JPG\/fr_FR\/a66cf87b44ad562d65f924e4db462bc4.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_110\/JPG\/en_US\/240c1057a2e95884c4fb0101b8192d12.jpg"
+  },
+  "name": "Molting Crab",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "FOREST_POWER": "#3#",
+    "OCEAN_POWER": "4",
+    "MOUNTAIN_POWER": "#3#",
+    "MAIN_EFFECT": "#{J}# Draw a card, then discard a card from your hand."
+  },
+  "collectorNumberFormatted": "ROC-103-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

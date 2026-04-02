@@ -1,0 +1,210 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Si les cas sont rares, certaines personnes réagissent mal à la Sève, et je suis là pour enquêter. »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Some people react badly to Sap, and as rare as it may be, my role here is to find out why.\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JZ37ZH78488QXXM050QP8XKW",
+          "text": "\"Some people react badly to Sap, and as rare as it may be, my role here is to find out why.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "0TQE9AW6Z09DQTXEE7Y41X3P3W",
+      "reference": "ALT_DUSTER_A_AX_85_C"
+    },
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Living creatures are the most beautiful mechanisms of all.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "La plus belle mécanique est celle du vivant.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZH5XSQD1DABTNPMJYBED",
+          "text": "Living creatures are the most beautiful mechanisms of all."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "2HT0EXC0B68AMTF234G46GSFAN",
+      "reference": "ALT_DUSTER_B_AX_85_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZT83AE3NXDVTGQ39FXW81N9"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZT83AE3NXDVTGQ39FXW81NA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X3X0RBHG9NWTZPFNFX75ZF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T} : Ready target Permanent in play or target card in Reserve. This costs {2} more to target a Permanent in play with Hand Cost {5} or more.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{T}: Prepara un permanente objetivo en juego o una carta objetivo en reserva. Esto cuesta {2} más si hace objetivo a un permanente en juego con coste desde la mano de {5} o más.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{T}: ripristina un permanente bersaglio in gioco o una carta bersaglio nella Riserva. Questo effetto costa {2} in più se scegli come bersaglio un permanente in gioco con costo dalla mano pari o superiore a {5}.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{T} : Redressez un Permanent ciblé en jeu ou une carte ciblée en Réserve. Ceci coûte {2} de plus pour cibler un Permanent en jeu de Coût de Main {5} ou plus.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{T} : Wähle eine Bleibende Karte im Spiel oder eine Karte in der Reserve, und stelle sie bereit. Dies kostet {2} mehr, um eine Bleibende Karte im Spiel mit Handkosten {5} oder mehr anzuvisieren.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{T} : Ready target Permanent in play or target card in Reserve. This costs {2} more to target a Permanent in play with Hand Cost {5} or more."
+              }
+            ],
+            "reference": "01999"
+          },
+          "sequence": 0,
+          "id": "01K6X3X9NFFB36P9BN61VQGQZH"
+        }
+      ],
+      "value": "{T} : Ready target Permanent in play or target card in Reserve. This costs {2} more to target a Permanent in play with Hand Cost {5} or more.",
+      "id": "01K6X3X0RBHG9NWTZPFNFX75ZF"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Tristan Bideau" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_AX_85\/JPG\/en_US\/0cd63a02739f0fa08fcd1235bccbdd96.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_AX_85\/HERO_THUMB_f810d4559c1f1d646bc18b126422ba3a"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_AX_85\/HERO_WIDE_182260887afb3959d95542556de5a867"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_AX_85\/WEB_1c31aec122c1703c57a1ab78ab8f13ae"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_A_AX_85_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_85",
+  "reference": "ALT_DUSTER_A_AX_85_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Della & Bolt",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_A_AX_85\/JPG\/fr_FR\/4f78ddd6ebecd9bce93d8181ccc9fe3b.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": { "name": "Della y Centella", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Della e Dado", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Della & Bolzo", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Della & Bolt",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_A_AX_85\/JPG\/en_US\/0cd63a02739f0fa08fcd1235bccbdd96.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JZ30X4QSEDFE8RNYQQ4VAT5B",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_AX_85\/JPG\/fr_FR\/4f78ddd6ebecd9bce93d8181ccc9fe3b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_AX_85\/JPG\/en_US\/0cd63a02739f0fa08fcd1235bccbdd96.jpg"
+  },
+  "name": "Della & Bolt",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "{T} : Ready target Permanent in play or target card in Reserve. This costs {2} more to target a Permanent in play with Hand Cost {5} or more."
+  },
+  "collectorNumberFormatted": "SDU-001-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,210 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Does this physical shell define me?\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Cette enveloppe me définit-elle ? »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJFR75GPPNQKSZCJY12B",
+          "text": "\"Does this physical shell define me?\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4ENAW7H84V8EJS1GXH2HSAC2EN",
+      "reference": "ALT_DUSTER_B_AX_96_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ROBOT",
+      "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+      "name": "Robot"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JZW20NPJ5M5Y831EM04ZB"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2JZW7NNSQF48ECVFGNHTZP"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2JZWC77VK1ENSZFAKM65QK"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2JZWHGGSFR59672SAK5NNK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2JZWPDCAV0290PN0SWDGV6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4248NX5YADPDPGTHENQBS",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{R} Vous pouvez mettre une carte de votre main en Réserve pour piocher une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{R} You may put a card from your hand in Reserve to draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} Du darfst eine Karte aus deiner Hand in die Reserve legen, um eine Karte zu ziehen.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{R} Puedes colocar una carta de tu mano en la reserva para robar una carta.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{R} Puoi mettere una carta dalla tua mano nella Riserva per pescare una carta.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{R} You may put a card from your hand in Reserve to draw a card."
+              }
+            ],
+            "reference": "01665"
+          },
+          "sequence": 0,
+          "id": "01K6X424SCQ9598XPB7ZYF025N"
+        }
+      ],
+      "value": "{R} You may put a card from your hand in Reserve to draw a card.",
+      "id": "01K6X4248NX5YADPDPGTHENQBS"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/en_US\/f43be9986f1e93e8fbbf693c2c8fa635.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/WEB_cebfea32851cca067a90a3098d1fa94e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/WEB_369acfecb84e19cc218aa78148d3067b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/WEB_3c5958343de12e36571cf9973defec04"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_96_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_96",
+  "reference": "ALT_DUSTER_B_AX_96_R2",
+  "translations": {
+    "en_US": {
+      "name": "The Shell",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/en_US\/f43be9986f1e93e8fbbf693c2c8fa635.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "El armazón", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Involucro", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Die Hülle", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "L'Hôte",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/fr_FR\/047b4ff7a362e35c91fba3ae1509a8cf.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVP8T70303X747EJ7SP8",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/fr_FR\/047b4ff7a362e35c91fba3ae1509a8cf.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/en_US\/f43be9986f1e93e8fbbf693c2c8fa635.jpg"
+  },
+  "name": "The Shell",
+  "elements": {
+    "MAIN_COST": "#2#",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{R} You may put a card from your hand in Reserve to draw a card."
+  },
+  "collectorNumberFormatted": "SDU-009-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

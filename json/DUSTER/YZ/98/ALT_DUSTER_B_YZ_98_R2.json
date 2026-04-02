@@ -1,0 +1,374 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": { "text": "\"Maaaaaleros!\"", "locale": "en_US" },
+            "fr_FR": { "text": "« Maaaaaleros ! »", "locale": "fr_FR" }
+          },
+          "id": "01JZ37ZY3QDHDP5PYHYYE6TMK4",
+          "text": "\"Maaaaaleros!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "13Z3K1CFK28BFA1X1DFPQA0FHG",
+      "reference": "ALT_DUSTER_B_YZ_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01JZ2KTFREGSK6XS42WHP3ZEYX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01JZ2KTFZDE8TK8ZP8GP643JXB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4VH0NBB4V4ZMZQCE7ZA40",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01K6X4VHNQ12M9NZJ95FTH0WHG"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4VH0NBB4V4ZMZQCE7ZA40",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "Elige hasta tres opciones. #Puedes elegir la misma opción varias veces:#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Scegli fino a tre, #puoi scegliere la stessa opzione più volte:#",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "Choose up to three, #you may choose the same option multiple times:#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Choisissez jusqu'à trois, #vous pouvez choisir la même option plusieurs fois :#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wähle bis zu drei Aktionen, #du darfst eine Option mehrfach wählen:#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Choose up to three, #you may choose the same option multiple times:#"
+              }
+            ],
+            "reference": "01878"
+          },
+          "sequence": 1,
+          "id": "01K6X4VJ5SXTN14QAMQWZ31JWQ"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4VH0NBB4V4ZMZQCE7ZA40",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• Discard target Character.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "• Scarta un personaggio bersaglio.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "• Défaussez un Personnage ciblé.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "• Lege einen Charakter deiner Wahl ab.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "• Descarta un personaje objetivo.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "• Discard target Character."
+              }
+            ],
+            "reference": "01877"
+          },
+          "sequence": 2,
+          "id": "01K6X4VJP0F7W323WYFF61X1C8"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4VH0NBB4V4ZMZQCE7ZA40",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "• Scarta un permanente bersaglio.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "• Défaussez un Permanent ciblé.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "• Descarta un permanente objetivo.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "• Discard target Permanent.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• Lege eine Bleibende Karte deiner Wahl ab.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "• Discard target Permanent."
+              }
+            ],
+            "reference": "09763"
+          },
+          "sequence": 3,
+          "id": "01K6X4VK66SENZTETG7ADY9YJT"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4VH0NBB4V4ZMZQCE7ZA40",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JB22ZXTKP2TGCYAAQXCG8N1Y"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "• [SABOTAGE].", "locale": "de_DE" },
+                  "es_ES": { "text": "• [SABOTAGE].", "locale": "es_ES" },
+                  "fr_FR": { "text": "• [SABOTAGE].", "locale": "fr_FR" },
+                  "en_US": { "text": "• [SABOTAGE].", "locale": "en_US" },
+                  "it_IT": { "text": "• [SABOTAGE].", "locale": "it_IT" }
+                },
+                "text": "• [SABOTAGE]."
+              }
+            ],
+            "reference": "01048"
+          },
+          "sequence": 4,
+          "id": "01K6X4VKP6QYNVYZGKR8GGJC95"
+        }
+      ],
+      "value": "[[Fleeting]].  Choose up to three, you may choose the same option multiple times:  • Discard target Character.  • Discard target Permanent.  • [Sabotage].",
+      "id": "01K6X4VH0NBB4V4ZMZQCE7ZA40"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/JPG\/en_US\/29a3df3b6f43a1f4530ec23ddb35deed.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/WEB_1201f805b249cd1d6794f119be34c2fa",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/WEB_2f9e39b9b1a3b63410e9db2f68916bc4"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_98_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_98",
+  "reference": "ALT_DUSTER_B_YZ_98_R2",
+  "translations": {
+    "en_US": {
+      "name": "Finisher",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/JPG\/en_US\/29a3df3b6f43a1f4530ec23ddb35deed.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Rematar la jugada", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Colpo di Grazia", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Finisher", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Coup de Grâce",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/JPG\/fr_FR\/02530e46d1fcdfccc89133a952240e76.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQSZC2VV46PJC59X134",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/JPG\/fr_FR\/02530e46d1fcdfccc89133a952240e76.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/JPG\/en_US\/29a3df3b6f43a1f4530ec23ddb35deed.jpg"
+  },
+  "name": "Finisher",
+  "elements": {
+    "MAIN_COST": "7",
+    "RECALL_COST": "7",
+    "MAIN_EFFECT": "[[Fleeting]].  Choose up to three, #you may choose the same option multiple times:#  • Discard target Character.  • Discard target Permanent.  • [Sabotage]."
+  },
+  "collectorNumberFormatted": "SDU-106-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,358 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The torture of the Naos must cease.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "La torture du Naos doit cesser.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZQ6260A32K3HBP2R20A0",
+          "text": "The torture of the Naos must cease."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "050VH10V5D9T59ANV6A6EBNKQW",
+      "reference": "ALT_DUSTER_B_MU_92_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "PLANT",
+      "id": "01HKAGSB49H24XWW17AAY441MT",
+      "name": "Plant"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KCY4ANGVSGRXSFYEQBEYM"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KCYADTGAQ2GNQYSQR4WNZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KCYFXEDSATCH1XCMFPA6Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KCYNB5EZPRDTFVM1RA5HM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KCYV03M840NK0NH6V17WB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4F24C8ZDATGMZDJ2G6J3R",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verteidigerin",
+                          "locale": "de_DE",
+                          "description": "Meine Expedition kann sich am Abend nicht vorwärts bewegen."
+                        },
+                        "en_US": {
+                          "displayWeb": "Defender",
+                          "locale": "en_US",
+                          "description": "My Expedition can't move forward during Dusk."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Defensora",
+                          "locale": "es_ES",
+                          "description": "Mi expedición no puede avanzar durante el anochecer."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Difensore",
+                          "locale": "it_IT",
+                          "description": "La mia spedizione non può avanzare durante il crepuscolo."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Défenseuse",
+                          "locale": "fr_FR",
+                          "description": "Mon Expédition ne peut pas avancer pendant le Crépuscule."
+                        }
+                      },
+                      "id": "01J1QBCJDRVGJCHHMW193GTETB",
+                      "reference": "DEFENDER_FS"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KCTZXDHM4DK2HNFZSAG7V"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancrée",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2KCP9EM9NXHG88CRW90X7S",
+                      "reference": "ANCHORED_FS"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KCTMD4RWQYTNRNCWZEWT5"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "If I'm [ANCHORED_FS], I'm [DEFENDER_FS].",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Si je suis [ANCHORED_FS], je suis [DEFENDER_FS].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Falls ich [ANCHORED_FS] bin, bin ich [DEFENDER_FS].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Si tengo [ANCHORED_FS], soy [DEFENDER_FS].",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Se ho [ANCHORED_FS], ho [DEFENDER_FS].",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "If I'm [ANCHORED_FS], I'm [DEFENDER_FS]."
+              }
+            ],
+            "reference": "01773"
+          },
+          "sequence": 0,
+          "id": "01K6X4F2P3MP9Q8795GZP1TZZY"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4F24C8ZDATGMZDJ2G6J3R",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JB22QP69109YNAE1PN4HA1XQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} I gain [ANCHORED].",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{J} Gano [ANCHORED].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne [ANCHORED].",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{J} Ottengo [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{J} Ich erhalte [ANCHORED].",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{J} I gain [ANCHORED]."
+              }
+            ],
+            "reference": "00950"
+          },
+          "sequence": 1,
+          "id": "01K6X4F34MM5CQSAXXK5ZT646M"
+        }
+      ],
+      "value": "If I'm [[Anchored]], I'm [Defender].  {J} I gain [[Anchored]].",
+      "id": "01K6X4F24C8ZDATGMZDJ2G6J3R"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/JPG\/en_US\/4775a657a89195a7aa44dcf94e1f3d95.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/WEB_9070f1df6936798f398392146a062a35",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/WEB_d8e5d878941bb2450930337debd9c8ec",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/WEB_e4ce8b9897dba7308bc3126c52df0b4f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_92_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_92",
+  "reference": "ALT_DUSTER_B_MU_92_R2",
+  "translations": {
+    "es_ES": { "name": "Hija de Naos", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Daughter of Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/JPG\/en_US\/4775a657a89195a7aa44dcf94e1f3d95.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": { "name": "Figlia del Naos", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Tochter von Naos", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Fille du Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/JPG\/fr_FR\/f586d35720fffaee13f56c1847930a83.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ522N4PG7PCMG7VMKN",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/JPG\/fr_FR\/f586d35720fffaee13f56c1847930a83.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/JPG\/en_US\/4775a657a89195a7aa44dcf94e1f3d95.jpg"
+  },
+  "name": "Daughter of Naos",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "If I'm [[Anchored]], I'm [Defender].  {J} I gain [[Anchored]]."
+  },
+  "collectorNumberFormatted": "SDU-062-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,264 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Coup dur pour le joueur Reka ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"The Reka player is out!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JZ37ZY9KADR726N1S9DFRTNC",
+          "text": "\"The Reka player is out!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "60QAXRBNP692QTM7K0T9MDJF8P",
+      "reference": "ALT_DUSTER_B_YZ_99_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KT2QE1MCKQJQ7H3TDJ92P"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01JZ2KT2XZ9FDV7ADJXS0F25AV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4VW3VQ07HW45YCPE6NB1P",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Target opponent sacrifices the Character #or Permanent# they control with the highest Base Cost. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Un avversario bersaglio sacrifica il personaggio #o il permanente# con il costo base più alto che controlla. (Il suo costo base corrisponde al costo dalla Riserva se ha Fugace, altrimenti al costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Ein Gegner deiner Wahl opfert den Charakter #oder die Bleibende Karte# mit den höchsten Basiskosten, den\/die er kontrolliert. (Basiskosten sind Reservekosten, falls Vergänglich, oder Handkosten, falls nicht.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "El oponente objetivo sacrifica el personaje #o permanente# que controla con el mayor coste base. (Su coste base es su coste desde la reserva si tiene fugacidad o su coste desde la mano.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Un joueur ciblé sacrifie le Personnage #ou Permanent# qu'il contrôle avec le Coût de Base le plus élevé. (Son Coût de Base est le Coût de Réserve s'il est Fugace, le Coût de Main sinon.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Target opponent sacrifices the Character #or Permanent# they control with the highest Base Cost. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)"
+              }
+            ],
+            "reference": "02025"
+          },
+          "sequence": 0,
+          "id": "01K6X4VWQMCBQ774JH2SA22MGK"
+        }
+      ],
+      "value": "Target opponent sacrifices the Character or Permanent they control with the highest Base Cost. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)",
+      "id": "01K6X4VW3VQ07HW45YCPE6NB1P"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4VX9KCN72KGM6P17N6VWX",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "After You",
+                          "locale": "en_US",
+                          "description": "End your turn as if you had played a card. You may still play cards later this Day."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nach dir",
+                          "locale": "de_DE",
+                          "description": "Beende deine Runde, als ob du eine Karte gespielt hättest. Du darfst auch später an diesem Tag noch eine Karte spielen."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dopo di te",
+                          "locale": "it_IT",
+                          "description": "Termina il tuo turno come se avessi giocato una carta. Puoi comunque giocare carte più avanti in questa giornata."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Después de ti",
+                          "locale": "es_ES",
+                          "description": "Termina tu turno como si hubieras jugado una carta. A lo largo del día actual, puedes jugar más cartas."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Après vous",
+                          "locale": "fr_FR",
+                          "description": "Terminez votre tour comme si vous aviez joué une carte. Vous pouvez encore jouer des cartes plus tard ce Jour-ci."
+                        }
+                      },
+                      "id": "01HKAGXB4C1CCRNYV6K6BFCHMQ",
+                      "reference": "AFTER_YOU"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWGCXZNTQ1ZY2JS5PX43EQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{D} : [AFTER_YOU].#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{D} : [AFTER_YOU].#",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": { "text": "#{D}: [AFTER_YOU].#", "locale": "it_IT" },
+                  "de_DE": {
+                    "text": "#{D} : [AFTER_YOU].#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": { "text": "#{D}: [AFTER_YOU].#", "locale": "es_ES" }
+                },
+                "text": "#{D} : [AFTER_YOU].#"
+              }
+            ],
+            "reference": "01923"
+          },
+          "sequence": 0,
+          "id": "01K6X4VXVZKGR71KFBAV635F66"
+        }
+      ],
+      "value": "{D} : [After You].",
+      "id": "01K6X4VX9KCN72KGM6P17N6VWX"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/en_US\/6317cbc5f6956eee180d2f613ba1902d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/WEB_af52d3061356c04ad360e16aec58d6af",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/WEB_688f0cdc1ba8694d1695c070c3991448"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_99_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_99",
+  "reference": "ALT_DUSTER_B_YZ_99_R2",
+  "translations": {
+    "es_ES": { "name": "¡Cazado!", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Preso!", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Geschnappt!", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Touché !",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/fr_FR\/05af6f51e3b37d988b3597a44a13e200.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Tag!",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/en_US\/6317cbc5f6956eee180d2f613ba1902d.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVQTBAMQ4D6NMZA2YG8P",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/fr_FR\/05af6f51e3b37d988b3597a44a13e200.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/en_US\/6317cbc5f6956eee180d2f613ba1902d.jpg"
+  },
+  "name": "Tag!",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "#7#",
+    "MAIN_EFFECT": "Target opponent sacrifices the Character #or Permanent# they control with the highest Base Cost. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)",
+    "ECHO_EFFECT": "#{D} : [After You].#"
+  },
+  "collectorNumberFormatted": "SDU-105-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,311 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "A truly stunning discovery…",
+              "locale": "en_US"
+            },
+            "fr_FR": { "text": "Une loi bien assommante...", "locale": "fr_FR" }
+          },
+          "id": "01KJ5PA33RNWC8Y073030B2HTG",
+          "text": "A truly stunning discovery…"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "7ZD0NZJCTN9GY89867S3P52D27",
+      "reference": "ALT_DUSTERCB_P_MU_99_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K6ASW6MK8CRPTAVKR6T1MZMF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K6ASW6V2HEDNY52B8MJXTWRG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH66XASJX02F2B6AN92WE7BF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01KH66XBF6TTT3J8MXAVW5K7J8"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH66XASJX02F2B6AN92WE7BF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TX0CDJND5V3XPNC500JDP4"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Create a [MANASEED] token in target opponent's Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Créez un jeton [MANASEED] dans les Repères d'un adversaire ciblé.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Erschaffe eine [MANASEED]-Marke im Wahrzeichen-Bereich eines Gegners deiner Wahl.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Crea una pedina [MANASEED] nei fulcri di un avversario bersaglio.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Crea una ficha de [MANASEED] en los hitos de un oponente objetivo.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "Create a [MANASEED] token in target opponent's Landmarks."
+              }
+            ],
+            "reference": "01964"
+          },
+          "sequence": 1,
+          "id": "01KH66XC14GK2565X59QXBTSZ6"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH66XASJX02F2B6AN92WE7BF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Then, send to Reserve target Character they control with Base Cost {3} or less. (Its Base Cost is the Reserve Cost if it's Fleeting or the Hand Cost if not.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Dann schicke einen Charakter deiner Wahl mit Basiskosten {3} oder weniger, den er kontrolliert, in die Reserve. (Basiskosten sind Reservekosten, falls er Vergänglich ist, oder Handkosten, falls nicht.)",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Puis, envoyez en Réserve un Personnage ciblé qu'il contrôle de Coût de Base {3} ou moins. (Son Coût de Base est le Coût de Réserve s'il est Fugace, le Coût de Main sinon.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Poi, manda nella Riserva un personaggio bersaglio che controlla con costo base pari o inferiore a {3}. (Il suo costo base corrisponde al costo dalla Riserva se ha Fugace, altrimenti al costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Luego, envía a la reserva un personaje objetivo que controle con coste base de {3} o menos. (Su coste base es su coste desde la reserva si tiene fugacidad o su coste desde la mano.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "Then, send to Reserve target Character they control with Base Cost {3} or less. (Its Base Cost is the Reserve Cost if it's Fleeting or the Hand Cost if not.)"
+              }
+            ],
+            "reference": "02114"
+          },
+          "sequence": 2,
+          "id": "01KH66XCKB8C5XYY62NRG14DE7"
+        }
+      ],
+      "value": "[[Fleeting]].  Create a [Manaseed] token in target opponent's Landmarks.  Then, send to Reserve target Character they control with Base Cost {3} or less. (Its Base Cost is the Reserve Cost if it's Fleeting or the Hand Cost if not.)",
+      "id": "01KH66XASJX02F2B6AN92WE7BF"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_99\/JPG\/en_US\/b0238879e19d9eaeaa32e7e5ec66a011.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_99\/WEB_81eda9dce9c7b522c8f21c2205ab82f3",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_99\/WEB_a6cef019bc8cf734ebbedbfc56b20815"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_MU_99_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_99",
+  "reference": "ALT_DUSTERCB_P_MU_99_C",
+  "translations": {
+    "de_DE": { "name": "Newtons Gesetz", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Ley de Newton", "image": null, "locale": "es_ES" },
+    "fr_FR": {
+      "name": "Loi de Newton",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_99\/JPG\/fr_FR\/d2add398e387f1333683e31750f9d498.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Newton's Law",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_99\/JPG\/en_US\/b0238879e19d9eaeaa32e7e5ec66a011.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": { "name": "Legge di Newton", "image": null, "locale": "it_IT" }
+  },
+  "id": "01K60PWD584HS5CXWVBWMKFVRB",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_99\/JPG\/fr_FR\/d2add398e387f1333683e31750f9d498.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_99\/JPG\/en_US\/b0238879e19d9eaeaa32e7e5ec66a011.jpg"
+  },
+  "name": "Newton's Law",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "[[Fleeting]].  Create a [Manaseed] token in target opponent's Landmarks.  Then, send to Reserve target Character they control with Base Cost {3} or less. (Its Base Cost is the Reserve Cost if it's Fleeting or the Hand Cost if not.)"
+  },
+  "collectorNumberFormatted": "SDUCB-013-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

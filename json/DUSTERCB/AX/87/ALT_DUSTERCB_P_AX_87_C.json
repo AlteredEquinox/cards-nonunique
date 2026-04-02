@@ -1,0 +1,214 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "From Kelon to Sap to Manaseed, the Axiom never stop experimenting with alternative energy sources.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Kélon, Sève ou Graine, les Axiom ne cessent d'expérimenter sur des énergies alternatives.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KJ5PA28T3VARVAS84V03VBAG",
+          "text": "From Kelon to Sap to Manaseed, the Axiom never stop experimenting with alternative energy sources."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2V4FBNQ5WC8MA9WMKHVWCHAKS2",
+      "reference": "ALT_DUSTERCB_P_AX_87_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K6ASQNXJ04VEG4230GMF1RDN"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K6ASQP37184TCA1WAJ809KFT"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K6ASQP97S2YXZA0Q2FAK7N16"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K6ASQPFM9K30203WCMYRR1WT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K6ASQPP5J39ZPXFNS0PVZ0AZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH66K0M3CKMBBVA0857JS4XF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez redresser un Permanent ciblé en jeu ou une carte ciblée en Réserve.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{H} You may ready target Permanent or target card in Reserve.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Du darfst eine Bleibende Karte im Spiel oder eine Karte in der Reserve wählen und bereitstellen.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi ripristinare un permanente bersaglio in gioco o una carta bersaglio nella Riserva.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes preparar un permanente objetivo en juego o una carta objetivo en reserva.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{H} You may ready target Permanent or target card in Reserve."
+              }
+            ],
+            "reference": "02101"
+          },
+          "sequence": 0,
+          "id": "01KH66K18G2P6E0DWWTSRZPG62"
+        }
+      ],
+      "value": "{H} You may ready target Permanent or target card in Reserve.",
+      "id": "01KH66K0M3CKMBBVA0857JS4XF"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_AX_87\/JPG\/en_US\/29d643c31c72d17a6eb37e19ea982288.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_AX_87\/WEB_f76072d7d82208d5b939306fc76164c7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_AX_87\/WEB_36e3aa2ecc18f683bafeb54a4854b6c8",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_AX_87\/WEB_e6c5b893e60afe2fbf45f59e1cceb382"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_AX_87_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_87",
+  "reference": "ALT_DUSTERCB_P_AX_87_C",
+  "translations": {
+    "it_IT": { "name": "Macchinista Axiom", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Axiom-Maschinist", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Maquinista de Axiom",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Machiniste Axiom",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_AX_87\/JPG\/fr_FR\/93178a868c08ea28d80f15d71fb5ceac.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Axiom Machinist",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_AX_87\/JPG\/en_US\/29d643c31c72d17a6eb37e19ea982288.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K60PWCXBTSD4N0DNPGSQCZM5",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_AX_87\/JPG\/fr_FR\/93178a868c08ea28d80f15d71fb5ceac.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_AX_87\/JPG\/en_US\/29d643c31c72d17a6eb37e19ea982288.jpg"
+  },
+  "name": "Axiom Machinist",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} You may ready target Permanent or target card in Reserve."
+  },
+  "collectorNumberFormatted": "SDUCB-001-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

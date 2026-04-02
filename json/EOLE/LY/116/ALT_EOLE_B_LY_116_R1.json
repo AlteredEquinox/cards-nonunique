@@ -1,0 +1,383 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Through drifting incense, we purge the darkness within.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Par la fumée de l'encens, nous purifions la noirceur intérieure. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HRG289DNN0RFQ7RBDP3W",
+          "text": "\"Through drifting incense, we purge the darkness within.\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRGNRA4BSZYJWG06ZEP1",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HRG98C8HG2JEVQCY7YH2",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HRECK8RVW6PVE5R0TSGC",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRFNRBWD873E82JK00NK",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "12K8HB860D8WWS8V6PYQWKZPFP",
+      "reference": "ALT_EOLE_B_LY_116_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYSX29V9ZEB9D80AQJR6A3"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYSX9AH18XCQ5PZ0DH3YMH"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYSXG9BCA4ASF4PYW2MPEF"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYSXQ6T1QZQ0KF2Q10KZRC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K9YYSXY4HZAZ8BWVX3MR1VEC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NREJ7PFKSK9GTCPXC24DB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#Play me for {1} less if another card in your Expeditions or your Reserve has a {D} ability.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Spiele mich für {1} weniger, falls eine andere Karte in deinen Expeditionen oder deiner Reserve eine {D} Fähigkeit hat.#",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "#Jouez-moi pour {1} de moins si une autre carte dans vos Expéditions ou votre Réserve a une capacité {D}.#",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "#Juégame por {1} menos si otra carta en tus expediciones o en tu reserva tiene una habilidad {D}.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#Giocami per {1} in meno se un'altra carta nelle tue spedizioni o nella tua Riserva ha un'abilità {D}.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#Play me for {1} less if another card in your Expeditions or your Reserve has a {D} ability.#"
+              }
+            ],
+            "reference": "02858"
+          },
+          "sequence": 0,
+          "id": "01KJ5NRGFRABVE8Z3JAX2ZPGRE"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5NREJ7PFKSK9GTCPXC24DB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K5C6P31NE044GNX6M1AHQG4N"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "{H} [SABOTAGE].", "locale": "en_US" },
+                  "fr_FR": { "text": "{H} [SABOTAGE].", "locale": "fr_FR" },
+                  "de_DE": { "text": "{H} [SABOTAGE].", "locale": "de_DE" },
+                  "it_IT": { "text": "{H} [SABOTAGE].", "locale": "it_IT" },
+                  "es_ES": { "text": "{H} [SABOTAGE].", "locale": "es_ES" }
+                },
+                "text": "{H} [SABOTAGE]."
+              }
+            ],
+            "reference": "02077"
+          },
+          "sequence": 1,
+          "id": "01KJ5NRHYS3R2G5234ACFB667Z"
+        }
+      ],
+      "value": "Play me for {1} less if another card in your Expeditions or your Reserve has a {D} ability.  {H} [Sabotage].",
+      "id": "01KJ5NREJ7PFKSK9GTCPXC24DB"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NRKS5P40FN0GHQ6MTTAW3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : Pay {1} less for the next Character you play this turn, down to a minimum of {1}.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{D}: paga {1} in meno per il prossimo personaggio che giochi in questo turno, fino a un minimo di {1}.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Zahle {1} weniger für den nächsten Charakter, den du in dieser Runde spielst, aber mindestens {1}.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Payez {1} de moins pour le prochain Personnage que vous jouez ce tour-ci, jusqu'à un minimum de {1}.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{D} : Paga {1} menos por el siguiente personaje que juegues este turno, hasta un mínimo de {1}.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{D} : Pay {1} less for the next Character you play this turn, down to a minimum of {1}."
+              }
+            ],
+            "reference": "02833"
+          },
+          "sequence": 0,
+          "id": "01KJ5NRNH1YT430C9E61FBM653"
+        }
+      ],
+      "value": "{D} : Pay {1} less for the next Character you play this turn, down to a minimum of {1}.",
+      "id": "01KJ5NRKS5P40FN0GHQ6MTTAW3"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "DOBA" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/JPG\/en_US\/6e603bb04d2d415669ec4bd1395a6120.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/WEB_2feb924f263906b2520deb9260e3073c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/WEB_9d16bf869f7c55db0bc8d6063efed7b9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/WEB_712ce186eb662479a0bbdf65bf9be484"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_116_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_116",
+  "reference": "ALT_EOLE_B_LY_116_R1",
+  "translations": {
+    "en_US": {
+      "name": "Reka Thurifer",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/JPG\/en_US\/6e603bb04d2d415669ec4bd1395a6120.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Reka-Weihrauchträgerin",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/JPG\/de_DE\/9922f80ebca224b191eef3f9bf8ec2c8.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Thuriféraire Reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/JPG\/fr_FR\/ecaae22dc24d9062e309a97d25f71100.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Turiferaria Reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/JPG\/it_IT\/69fedcc895519eb98172ab6c197bf993.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Portaincensario reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/JPG\/es_ES\/ab32b74829d7703c6b6df8750ee6c61f.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY99J59RVK810VGRTPK0",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/JPG\/fr_FR\/ecaae22dc24d9062e309a97d25f71100.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_116\/JPG\/en_US\/6e603bb04d2d415669ec4bd1395a6120.jpg"
+  },
+  "name": "Reka Thurifer",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "#4#",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "#Play me for {1} less if another card in your Expeditions or your Reserve has a {D} ability.#  {H} [Sabotage].",
+    "ECHO_EFFECT": "{D} : Pay {1} less for the next Character you play this turn, down to a minimum of {1}."
+  },
+  "collectorNumberFormatted": "ROC-047-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

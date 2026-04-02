@@ -1,0 +1,255 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Exploration is always fun with the right company!",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Tout s'explore, quand on est en bonne compagnie !",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZN355B6K3VPMVFCYR609",
+          "text": "Exploration is always fun with the right company!"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5ZEMKX3GSX90DAJ9TDNB14PZH6",
+      "reference": "ALT_DUSTER_B_LY_92_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K7AFA79ZHBAMCKK18V1CR"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K7AMGWCT9GW95YVJG9SF2"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K7ASYK23ZVEPR5TD13WJ0"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K7AZR3NG1QKQC2DKXH08X"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K7B53BE0K7RJGD4NE4V19"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4A1V5HF3T8THQ5Z9S7QS1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K7CA63FH4XAPEKW8PAS11"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "If I'm [IN_CONTACT], my {V}, {M} and {O} are equal to my highest statistic. (I'm In Contact if another player's Expedition is in my region.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Falls ich [IN_CONTACT] bin, sind meine {V}, {M} und {O} so hoch wie meine höchste Statistik. (Ich bin in Kontakt, falls die Expedition eines anderen Spielers in meiner Region ist.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Se sono [IN_CONTACT], ho {V}, {M} e {O} pari alla mia statistica più alta. (Sono In contatto se la spedizione di un altro giocatore si trova nella mia regione.)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Si je suis [IN_CONTACT], mes {V}, {M} et {O} sont égales à ma statistique la plus élevée. (Je suis En Contact si l'Expédition d'un autre joueur est dans ma région.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Si estoy [IN_CONTACT], mi {V}, {M} y {O} son iguales a mi estadística más alta. (Estoy en contacto si la expedición de otro jugador está en mi región.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "If I'm [IN_CONTACT], my {V}, {M} and {O} are equal to my highest statistic. (I'm In Contact if another player's Expedition is in my region.)"
+              }
+            ],
+            "reference": "01728"
+          },
+          "sequence": 0,
+          "id": "01K6X4A2C3PKNBJJBNVT42EC9Y"
+        }
+      ],
+      "value": "If I'm [In Contact], my {V}, {M} and {O} are equal to my highest statistic. (I'm In Contact if another player's Expedition is in my region.)",
+      "id": "01K6X4A1V5HF3T8THQ5Z9S7QS1"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "DOBA" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_92\/JPG\/en_US\/df701ac14da873079a657daadd18d259.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_92\/WEB_266487c3afd2c2a4727e848cf584825c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_92\/WEB_6ad93477fd0a6388bc51d0e7e7285fbe",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_92\/WEB_ff8f01a49d7c0199c20ddf75a31038c7"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_92_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_92",
+  "reference": "ALT_DUSTER_B_LY_92_C",
+  "translations": {
+    "it_IT": {
+      "name": "Esploratrice Urbana",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Urbex Specialist",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_92\/JPG\/en_US\/df701ac14da873079a657daadd18d259.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Especialista en urbex",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "de_DE": { "name": "Stadterkunderin", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Spécialiste de l'Urbex",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_92\/JPG\/fr_FR\/517233c3427fc50b2c2098430f4cfb6c.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPVYZVGXC0YH73Q79KV",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_92\/JPG\/fr_FR\/517233c3427fc50b2c2098430f4cfb6c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_92\/JPG\/en_US\/df701ac14da873079a657daadd18d259.jpg"
+  },
+  "name": "Urbex Specialist",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "If I'm [In Contact], my {V}, {M} and {O} are equal to my highest statistic. (I'm In Contact if another player's Expedition is in my region.)"
+  },
+  "collectorNumberFormatted": "SDU-043-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

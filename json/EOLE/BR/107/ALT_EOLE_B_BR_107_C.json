@@ -1,0 +1,309 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Who could be better at playing cat and mouse?",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Qui mieux que lui pour jouer au chat et à la souris ?",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HPWW824Y54F25GJ33Q18",
+          "text": "Who could be better at playing cat and mouse?"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPY2JYYGMAWQCMC8N2XG",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPXPXCDXRG0G5N6ZGQ21",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPWJCBVE7FBBTXGVBPFW",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPWPYFEJ4K76VZ8AQD5T",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2T4668B1T68RV9N4S4KFG7F3FE",
+      "reference": "ALT_EOLE_B_BR_107_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYEYSH5BZWVKHYRBYW3BER"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYEYZQG2WTEJ5ER740MH2W"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYEZ64DPXQ4MR03RZFG5M9"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYEZCCKACTY9YRJW6CDX23"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYEZJMFJHNGGKGSXGAW5D0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5N08ZAGF4C72SHCX34077V",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{J} Je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": { "text": "{J} I gain 1 boost.", "locale": "en_US" },
+                  "de_DE": {
+                    "text": "{J} Ich erhalte 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Ottengo 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Gano 1 potenciador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} I gain 1 boost."
+              }
+            ],
+            "reference": "02785"
+          },
+          "sequence": 0,
+          "id": "01KJ5N0AEZ0NE5G26QV7BD9NMR"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5N08ZAGF4C72SHCX34077V",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Wenn ein anderer Charakter sich deinen Expeditionen anschließt — Du darfst 1 meiner Verstärkungen ausgeben. Falls du das tust, erhält er 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "When another Character joins your Expeditions — You may spend 1 of my boosts. If you do, it gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Cuando otro personaje se incorpore a tus expediciones — Puedes gastar 1 de mis potenciadores. Si lo haces, gana 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Quando un altro personaggio si unisce alle tue spedizioni — Puoi spendere 1 dei miei rinforzi. Se lo fai, ottiene 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsqu'un autre Personnage rejoint vos Expéditions — Vous pouvez dépenser 1 de mes boosts. Si vous le faites, il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When another Character joins your Expeditions — You may spend 1 of my boosts. If you do, it gains 1 boost."
+              }
+            ],
+            "reference": "02786"
+          },
+          "sequence": 1,
+          "id": "01KJ5N0BSATTN40TXJ572B7C6P"
+        }
+      ],
+      "value": "{J} I gain 1 boost.  When another Character joins your Expeditions — You may spend 1 of my boosts. If you do, it gains 1 boost.",
+      "id": "01KJ5N08ZAGF4C72SHCX34077V"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Julien Carrasco" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/JPG\/en_US\/c339c181c48e5e0cf53cac60f972b445.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/WEB_dfce10354d7f5da6564ec30d49b3e78d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/WEB_125e1ad266d7d78511e1254296187538",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/WEB_991ada157a0e9b718ad4f2346ed62f1b"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_107_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_107",
+  "reference": "ALT_EOLE_B_BR_107_C",
+  "translations": {
+    "en_US": {
+      "name": "Guiding Ocelot",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/JPG\/en_US\/c339c181c48e5e0cf53cac60f972b445.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Ocelot Guida",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/JPG\/it_IT\/842cf312960fe452e1b4d5136ada1525.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Wegweisender Ozelot",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/JPG\/de_DE\/04e05765165822860d10fb47c60d54f7.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Ocelot Aiguilleur",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/JPG\/fr_FR\/d07174eb4f2124ebf686a60b242c46cd.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Ocelote guía",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/JPG\/es_ES\/6b42bf4e57555519b0594a61e3308606.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY8R9ZSJ89HC5Z0YZGCC",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/JPG\/fr_FR\/d07174eb4f2124ebf686a60b242c46cd.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_107\/JPG\/en_US\/c339c181c48e5e0cf53cac60f972b445.jpg"
+  },
+  "name": "Guiding Ocelot",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{J} I gain 1 boost.  When another Character joins your Expeditions — You may spend 1 of my boosts. If you do, it gains 1 boost."
+  },
+  "collectorNumberFormatted": "ROC-023-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

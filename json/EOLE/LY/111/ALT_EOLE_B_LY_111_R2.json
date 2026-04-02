@@ -1,0 +1,292 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR50AX45CEBJMQZFGERN",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR4QBB88AM6F2J2VXHWE",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR42H2HFCF6C92X7YC71",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR48W3CT5B0Q0C7TRAAW",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5NMNAVF4AS9HAR1BACAE7DJ44W",
+      "reference": "ALT_EOLE_B_LY_111_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DEITY",
+      "id": "01HKAGPAJFS4YDQVKY6AB16614",
+      "name": "Deity"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYQY6GTR5N25Y8ND3HQKYA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYQYDAHFGYR7FETGV3AD29"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYQYTXT53K89X5M20AE74N"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYQYM6SSSS5QWT1W36NMC8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYQZ1PN4CFS5WKAMH8YSBF"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NPJYK54S4C7ZH80BY42B7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KGWEX9GFPMQEDR53N1Y99"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : The next Character with Base Cost {3} or less you play this turn gains [ANCHORED].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Der nächste Charakter, den du in dieser Runde mit Basiskosten {3} oder weniger spielst, erhält [ANCHORED].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: il prossimo personaggio con costo base pari o inferiore a {3} che giochi in questo turno ottiene [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Le prochain Personnage de Coût de Base {3} ou moins que vous jouez ce tour-ci gagne [ANCHORED].",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{D} : El siguiente personaje que juegues este turno con coste base de {3} o menos gana [ANCHORED].",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{D} : The next Character with Base Cost {3} or less you play this turn gains [ANCHORED]."
+              }
+            ],
+            "reference": "02845"
+          },
+          "sequence": 0,
+          "id": "01KJ5NPMNDAWYHJTJBPFHDTJWR"
+        }
+      ],
+      "value": "{D} : The next Character with Base Cost {3} or less you play this turn gains [[Anchored]].",
+      "id": "01KJ5NPJYK54S4C7ZH80BY42B7"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Jamin Amaral Fernandez" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/JPG\/en_US\/abbadb23554a57e171553d22771add9e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/WEB_48fc95354d74d6156062300e1db912a3",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/WEB_d43ab7761b94b8d4e283626c0e60e8c6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/WEB_285c8f0ae99c4a9d3a8debfbfef3a68d"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_111_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_111",
+  "reference": "ALT_EOLE_B_LY_111_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Bastet",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/JPG\/it_IT\/950991c1952fc51a8e21eeba76ea964d.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Bastet",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/JPG\/de_DE\/28dec0da474e943e95b25e0a1cb03fc5.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Bastet",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/JPG\/es_ES\/cce8b540ce83c6fae737b42dbd446f97.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Bastet",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/JPG\/fr_FR\/b9b0b5e765abcaee2a5f17a536de8525.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Bastet",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/JPG\/en_US\/abbadb23554a57e171553d22771add9e.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K9YWHY97HEAH2YAQS6EZ72GC",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/JPG\/fr_FR\/b9b0b5e765abcaee2a5f17a536de8525.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_111\/JPG\/en_US\/abbadb23554a57e171553d22771add9e.jpg"
+  },
+  "name": "Bastet",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "FOREST_POWER": "2",
+    "OCEAN_POWER": "#4#",
+    "MOUNTAIN_POWER": "#4#",
+    "ECHO_EFFECT": "{D} : The next Character with Base Cost {3} or less you play this turn gains [[Anchored]]."
+  },
+  "collectorNumberFormatted": "ROC-045-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

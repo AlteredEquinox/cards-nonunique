@@ -1,0 +1,271 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "One of the many amazing Chimaeras that inhabit the Sea of Tumult.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'une des étonnantes Chimères qui peuplent la Mer de Tumulte.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZK81WVXXG36J3QE8YVG3",
+          "text": "One of the many amazing Chimaeras that inhabit the Sea of Tumult."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0QTD8FMBWQ9KP8KDDT50ZX5SCF",
+      "reference": "ALT_DUSTER_B_BR_89_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K453CTARXBJAF732AWN2D"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K4586JY310S4MB4WN4KM7"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K45D1F4YCMHRCV5R66Z10"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K45HYT7KM0RGJZR92A4KB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K45PYXK23WRKTHR1Z80VA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X44K3D8K8FNGA3C1DJ8935",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#When I go to Reserve from the Expedition zone — You may return another target Character from your Reserve to your hand.#",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "#Cuando vaya a la reserva desde la zona de expedición — Puedes devolver otro personaje objetivo de tu reserva a tu mano.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#Quando vado nella Riserva dall'area delle spedizioni — Puoi riprendere in mano un altro personaggio bersaglio dalla tua Riserva.#",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque je vais en Réserve depuis la zone d'Expédition — Vous pouvez renvoyer un autre Personnage ciblé de votre Réserve dans votre main.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#Wenn ich aus der Expeditionszone in die Reserve gehe — Du darfst einen anderen Charakter deiner Wahl aus deiner Reserve in deine Hand zurückholen.#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "#When I go to Reserve from the Expedition zone — You may return another target Character from your Reserve to your hand.#"
+              }
+            ],
+            "reference": "01702"
+          },
+          "sequence": 0,
+          "id": "01K6X44KPQ30JGDSXTEW390PXN"
+        }
+      ],
+      "value": "When I go to Reserve from the Expedition zone — You may return another target Character from your Reserve to your hand.",
+      "id": "01K6X44K3D8K8FNGA3C1DJ8935"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X44M6EJM3QE8PTEKEAEP4J",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Der nächste Charakter, der in dieser Runde aus deiner Hand gespielt wird, aktiviert eine seiner {r} Fähigkeiten.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Le prochain Personnage joué de votre main ce tour-ci active l'une de ses capacités {r}.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{D}: El siguiente personaje que juegues desde tu mano este turno activa una de sus habilidades {r}.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{D}: il prossimo personaggio giocato dalla tua mano in questo turno attiva una delle sue abilità {r}.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{D} : The next Character played from your hand this turn activates one of its {r} abilities."
+              }
+            ],
+            "reference": "01909"
+          },
+          "sequence": 0,
+          "id": "01K6X44MRZTV2NPF7DPTA6AAR9"
+        }
+      ],
+      "value": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+      "id": "01K6X44M6EJM3QE8PTEKEAEP4J"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/JPG\/en_US\/3c7184705532040feaf7852c40225da6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/WEB_4e3d5e61f833950b2dc2251b9bc362a4",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/WEB_ec41100cefff680dea39ecaa9a7094d9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/WEB_d6d6b2ba583c40236b6830b5430f6ae8"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_89_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_89",
+  "reference": "ALT_DUSTER_B_BR_89_R1",
+  "translations": {
+    "en_US": {
+      "name": "Kedarm",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/JPG\/en_US\/3c7184705532040feaf7852c40225da6.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Kedarm",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/JPG\/es_ES\/6e88e794c43c2b1cff65052ee11e5cd8.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Kedarm",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/JPG\/it_IT\/6bfb2370c787e33e794d524a02642a45.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Kedarm",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/JPG\/de_DE\/0122ad8800aa2f5ac0826a8874f4d9dc.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Kedarm",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/JPG\/fr_FR\/4229eae2e56437df099fe679c4860dcf.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPH3HCF7N3T783TBGBT",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/JPG\/fr_FR\/4229eae2e56437df099fe679c4860dcf.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_89\/JPG\/en_US\/3c7184705532040feaf7852c40225da6.jpg"
+  },
+  "name": "Kedarm",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#When I go to Reserve from the Expedition zone — You may return another target Character from your Reserve to your hand.#",
+    "ECHO_EFFECT": "{D} : The next Character played from your hand this turn activates one of its {r} abilities."
+  },
+  "collectorNumberFormatted": "SDU-029-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

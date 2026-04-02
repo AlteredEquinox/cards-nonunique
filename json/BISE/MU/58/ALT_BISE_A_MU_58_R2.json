@@ -1,0 +1,373 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Notre mascotte est toujours dispo pour quelques selfies.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Our mascot will always be available for a few selfies.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JBT1A3YQXEFAQP0GJ4DCR6VX",
+          "text": "Our mascot will always be available for a few selfies."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "379B93XKEQ8A9VQ23MAQ5DZ3GW",
+      "reference": "ALT_BISE_A_MU_58_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DRUID",
+      "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+      "name": "Druid"
+    },
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01JB1YGHBNB4YP1VYJY12XCKJN",
+    "reference": "BISE",
+    "name": "Whispers from the Maze"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JB231S1VY57CCQAS4BPQ3M3K"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JB231S6H7N69YSPH2ZT1CJM7"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JB231SBJB977VFEG27N5W81M"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JB231SG6V33QEXP25QG9A62K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JB231SMP2K9M21PMSRZF9PTQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K4JNGHD1PQ9WRDRRRFD98PQW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Repérage",
+                          "locale": "fr_FR",
+                          "description": "Vous pouvez me jouer de votre main pour {3} avec «{h} Envoyez-moi en Réserve »."
+                        },
+                        "en_US": {
+                          "displayWeb": "Scout",
+                          "locale": "en_US",
+                          "description": "You may play me from hand for {3} with \"{h} Send me to Reserve\"."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Spähen",
+                          "locale": "de_DE",
+                          "description": "Du darfst mich für {3} mit „{h} Schicke mich in die Reserve“ aus der Hand spielen."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Esploratore",
+                          "locale": "it_IT",
+                          "description": "Puoi giocarmi dalla mano per {3} con \"{h} Mandami nella Riserva\"."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Explorar",
+                          "locale": "es_ES",
+                          "description": "Puedes jugarme desde la mano por {3} con «{h} Envíame a la reserva»."
+                        }
+                      },
+                      "id": "01JB22J68TFQ176K1VBGTCYDW2",
+                      "reference": "SCOUT_3"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01JB22J6CCMWBE7BV8QTRT3V9J"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "$[SCOUT_3] {3}.", "locale": "fr_FR" },
+                  "es_ES": { "text": "$[SCOUT_3] {3}.", "locale": "es_ES" },
+                  "it_IT": { "text": "$[SCOUT_3] {3}.", "locale": "it_IT" },
+                  "en_US": { "text": "$[SCOUT_3] {3}.", "locale": "en_US" },
+                  "de_DE": { "text": "$[SCOUT_3] {3}.", "locale": "de_DE" }
+                },
+                "text": "$[SCOUT_3] {3}."
+              }
+            ],
+            "reference": "00862"
+          },
+          "sequence": 0,
+          "id": "01K4JNGHV4ZW2Q605BWGHMMNNJ"
+        },
+        {
+          "cardElement": "\/card_elements\/01K4JNGHD1PQ9WRDRRRFD98PQW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JB22REMYZPQFM6TR4XVZ6FH4"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{J} #Un Personnage ciblé# gagne [ANCHORED].",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{J} #Un personaje objetivo# gana [ANCHORED].",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} Un #personaggio bersaglio# ottiene [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "{J} #Target Character# gains [ANCHORED].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} #Ein Charakter deiner Wahl# erhält [ANCHORED].",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{J} #Target Character# gains [ANCHORED]."
+              }
+            ],
+            "reference": "00958"
+          },
+          "sequence": 1,
+          "id": "01K4JNGJ6V59KSD29SFYAT25PW"
+        }
+      ],
+      "value": "[Scout] {3}. (You may play me from hand for {3} with \"{h} Send me to Reserve\".)  {J} Target Character gains [[Anchored]].",
+      "id": "01K4JNGHD1PQ9WRDRRRFD98PQW"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K4JNGJNBBBRTSDVXXA68Z1NG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{I} #Quando giochi un personaggio con una statistica base pari a 0 — Ottengo 1 rinforzo, fino a un max di 2.#",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "{I} #When you play a Character with a base statistic of 0 — I gain 1 boost, up to a max of 2.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{I} #Lorsque vous jouez un Personnage avec une stat de base 0 — Je gagne 1 boost, jusqu'à un max de 2.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{I} #Wenn du einen Charakter mit einer Basisstatistik von 0 spielst — Ich erhalte 1 Verstärkung, bis maximal 2.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{I} #Cuando juegues un personaje con una estadística básica de 0 — Gano 1 potenciador, hasta un máximo de 2.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{I} #When you play a Character with a base statistic of 0 — I gain 1 boost, up to a max of 2.#"
+              }
+            ],
+            "reference": "00959"
+          },
+          "sequence": 0,
+          "id": "01K4JNGK43Q22CA1Z8RKCDS003"
+        }
+      ],
+      "value": "{I} When you play a Character with a base statistic of 0 — I gain 1 boost, up to a max of 2.",
+      "id": "01K4JNGJNBBBRTSDVXXA68Z1NG"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/JPG\/en_US\/c87329f78f055cbd3ef721dc134acf59.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/WEB_14f265488867e11c9236b355015cc8b8",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/WEB_448ebe104e246c60b4f897a3fe0ee2d9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/WEB_96e01f2d775a568a46844c426f7eaf09"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_A_MU_58_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_58",
+  "reference": "ALT_BISE_A_MU_58_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Minotauro",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/JPG\/it_IT\/193a90ccc06eccbd0ac843e0e38c6895.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Der Minotaurus",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/JPG\/de_DE\/30af2f925f7ec0039a7b203cc37eb556.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "The Minotaur",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/JPG\/en_US\/c87329f78f055cbd3ef721dc134acf59.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Le Minotaure",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/JPG\/fr_FR\/1edde66d3ef95b78b2c14711812685ba.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "El Minotauro",
+      "image": "Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/JPG\/es_ES\/31048af51c221b25fa84718a5ce83b6a.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01JB20X0417DSV4SY8A7BGB404",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/JPG\/fr_FR\/1edde66d3ef95b78b2c14711812685ba.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/BISE\/CARDS\/ALT_BISE_A_MU_58\/JPG\/en_US\/c87329f78f055cbd3ef721dc134acf59.jpg"
+  },
+  "name": "The Minotaur",
+  "elements": {
+    "MAIN_COST": "6",
+    "RECALL_COST": "6",
+    "OCEAN_POWER": "5",
+    "FOREST_POWER": "5",
+    "MOUNTAIN_POWER": "5",
+    "MAIN_EFFECT": "[Scout] {3}. (You may play me from hand for {3} with \"{h} Send me to Reserve\".)  {J} #Target Character# gains [[Anchored]].",
+    "ECHO_EFFECT": "{I} #When you play a Character with a base statistic of 0 — I gain 1 boost, up to a max of 2.#"
+  },
+  "collectorNumberFormatted": "WFM-063-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

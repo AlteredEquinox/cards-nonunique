@@ -1,0 +1,400 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Don't let them outflank us!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Ne les laissez pas nous prendre à revers ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HQMH2YBNPMDZ8GHFPDME",
+          "text": "\"Don't let them outflank us!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQN1YRMH9MYA2752SVGJ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQMTRSQVFHN0A94292PE",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQM0512KJC2S2S5PTPZF",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQM8QJ7086NRN2HSG0QQ",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "0KB6TXT05F9J4VZDB61JA47XV2",
+      "reference": "ALT_EOLE_B_BR_122_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYN1WAQB9A9EF4RPKQ76FQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYN22YRX2MX05B35A75JWC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NA79MWNN1GZDH53GH43A6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{J} Un Personnage ciblé gagne 2 boosts.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{J} Target Character gains 2 boosts.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Ein Charakter deiner Wahl erhält 2 Verstärkungen.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Un personaje objetivo gana 2 potenciadores.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} Un personaggio bersaglio ottiene 2 rinforzi.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} Target Character gains 2 boosts."
+              }
+            ],
+            "reference": "02827"
+          },
+          "sequence": 0,
+          "id": "01KJ5NA8V8RJQW484PVZ2DMWAN"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5NA79MWNN1GZDH53GH43A6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verstärkt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Boostés",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rinforzato",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "potenciados",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Boosted",
+                          "locale": "en_US",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HNDWWG502YB0PJ4829ZB9NCA",
+                      "reference": "BOOSTED_CHA_P"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KD7ZHV40Z2E5YKARDRGSR"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Quando passi — Se controlli due o più personaggi con [BOOSTED_CHA_P], eseguimi.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous passez — Si vous contrôlez au moins deux Personnages [BOOSTED_CHA_P], accomplissez-moi.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When you pass — If you control two or more [BOOSTED_CHA_P] Characters, complete me.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du passt — Falls du mindestens zwei Charaktere mit [BOOSTED_CHA_P] kontrollierst, vollbringe mich.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Cuando pases — Si controlas dos personajes [BOOSTED_CHA_P] o más, complétame.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When you pass — If you control two or more [BOOSTED_CHA_P] Characters, complete me."
+              }
+            ],
+            "reference": "02828"
+          },
+          "sequence": 1,
+          "id": "01KJ5NAACDYPCCSJQTSZK2PYZD"
+        }
+      ],
+      "value": "{J} Target Character gains 2 boosts.  When you pass — If you control two or more [[Boosted]] Characters, complete me.",
+      "id": "01KJ5NA79MWNN1GZDH53GH43A6"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NABVAVVT8HQTPBQDFHJ5J",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KDBF5YXGRFSW6R9RVKJZD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[COMPLETED]: When a Companion joins your Expeditions — It gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED]: Wenn ein Gefährte sich deinen Expeditionen anschließt — Er erhält 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED]: quando un compagno si unisce alle tue spedizioni — Ottiene 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "[COMPLETED] : Lorsqu'un Compagnon rejoint vos Expéditions — Il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED]: Cuando un compañero se incorpore a tus expediciones — Gana 1 potenciador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "[COMPLETED]: When a Companion joins your Expeditions — It gains 1 boost."
+              }
+            ],
+            "reference": "02829"
+          },
+          "sequence": 0,
+          "id": "01KJ5NADHEA1BKW7QK8HTPT874"
+        }
+      ],
+      "value": "[[Completed]]: When a Companion joins your Expeditions — It gains 1 boost.",
+      "id": "01KJ5NABVAVVT8HQTPBQDFHJ5J"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Anh Tung - Ba Vo" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/en_US\/9117439d460d1b5c4a4809755d500663.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/WEB_bc996c0b08da57ef34b5b2f0ede18d8e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/WEB_0b44a57b77bf294616429e5cb714a045"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_122_E",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_122",
+  "reference": "ALT_EOLE_B_BR_122_E",
+  "translations": {
+    "en_US": {
+      "name": "Hold the Line!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/en_US\/9117439d460d1b5c4a4809755d500663.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Haltet die Linie!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/de_DE\/9873259339af2bfc754053662dbfb7ff.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Mantenere la Posizione!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/it_IT\/ddd61dcf1e4fc571fdb51e1286c13d10.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Defender la posición",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/es_ES\/54fdaf674822cc36b4c55c551b1cf139.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Tenez bon !",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/fr_FR\/f5c454eb9f86c4ae0e991e16f638c38a.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHY918C89A4RCX48RQSE3",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/fr_FR\/f5c454eb9f86c4ae0e991e16f638c38a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/en_US\/9117439d460d1b5c4a4809755d500663.jpg"
+  },
+  "name": "Hold the Line!",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} Target Character gains 2 boosts.  When you pass — If you control two or more [[Boosted]] Characters, complete me.",
+    "ECHO_EFFECT": "[[Completed]]: When a Companion joins your Expeditions — It gains 1 boost."
+  },
+  "collectorNumberFormatted": "ROC-033-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

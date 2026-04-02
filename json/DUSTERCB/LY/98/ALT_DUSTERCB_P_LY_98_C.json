@@ -1,0 +1,217 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I'm never more comfortable than when I'm in the spotlight.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je ne suis jamais plus à l'aise que sous le feu des projecteurs. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KJ5PA2SMH1DWDBN9MF11VZE4",
+          "text": "\"I'm never more comfortable than when I'm in the spotlight.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "58YSD793K18078V6Q10JDM4VM3",
+      "reference": "ALT_DUSTERCB_P_LY_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01K6ASSHM9872YR9SYVGJPCK59"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K6ASSHT6NDNBXRFPX6Z5C7BV"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K6ASSJ0677GJBD53CFFDJ0MS"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K6ASSJ6AG0D4D39AZCGV5E3M"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K6ASSJC7AK0471DCMMRTA3VS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH66SPYP8RX00J7K03WK6ZS5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Pay {7} less for the next Spell you play this Afternoon.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "fr_FR": {
+                    "text": "{H} Payez {7} de moins pour le prochain Sort que vous jouez cet Après-midi.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Pay {7} less for the next Spell you play this Afternoon."
+              }
+            ],
+            "reference": "02997"
+          },
+          "sequence": 0,
+          "id": "01KH66SQK9455PE4PQ8D9Q49RK"
+        }
+      ],
+      "value": "{H} Pay {7} less for the next Spell you play this Afternoon.",
+      "id": "01KH66SPYP8RX00J7K03WK6ZS5"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_98\/JPG\/en_US\/10984fc7f1b8147cedaa08ed34adabb8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_98\/WEB_8b40eee609c0eaadf96b6d34b317dc91",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_98\/WEB_f9041b1247afacf9b6b9d13fbb87dfcc"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_LY_98_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_98",
+  "reference": "ALT_DUSTERCB_P_LY_98_C",
+  "translations": {
+    "it_IT": {
+      "name": "Phoibos, Esarca Reka",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Phoibos, Reka-Hexarch",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Phoibos, hexarca reka",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Phoibos, Reka Hexarch",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_98\/JPG\/en_US\/10984fc7f1b8147cedaa08ed34adabb8.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Phoibos, Hexarque Reka",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_98\/JPG\/fr_FR\/b044e5a07fec92ee41dadf638f1c3bd0.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K60PWD2WYTEGA63BK95J3SJW",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_98\/JPG\/fr_FR\/b044e5a07fec92ee41dadf638f1c3bd0.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_98\/JPG\/en_US\/10984fc7f1b8147cedaa08ed34adabb8.jpg"
+  },
+  "name": "Phoibos, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "7",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "6",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} Pay {7} less for the next Spell you play this Afternoon."
+  },
+  "collectorNumberFormatted": "SDUCB-027-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

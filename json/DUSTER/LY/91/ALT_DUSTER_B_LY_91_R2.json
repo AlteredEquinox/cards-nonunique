@@ -1,0 +1,244 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": { "text": "\"We're all mad here.\"", "locale": "en_US" },
+            "fr_FR": {
+              "text": "« Nous sommes tous fous, ici. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZMZTXVEFWHC9ADNG5W0H",
+          "text": "\"We're all mad here.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2ZP3NF6WHD9J99HCCFJCEQ570H",
+      "reference": "ALT_DUSTER_B_LY_91_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K8GXPS76KV5TAXJX5C682"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K8H2Y5FE3Y0F3A9C37NQR"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K8H85486BNRXD79K8W5KA"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K8HDCKTN1SFB29RKB81R4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K8HJJ6AFE05XMMCDRCD0Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X49YXV4C1MC1RQFPFPSC74",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K3GD4YHMW8BHTJKS3MAMZ804"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} If I'm [IN_CONTACT], you may have target Character switch Expeditions. (I'm In Contact if another player's Expedition is in my region.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Si je suis [IN_CONTACT], vous pouvez cibler un Personnage. Il change d'Expédition. (Je suis En Contact si l'Expédition d'un autre joueur est dans ma région.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{H} Si estoy [IN_CONTACT], puedes hacer objetivo a un personaje para que se traslade de expedición. (Estoy en contacto si la expedición de otro jugador está en mi región.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Se sono [IN_CONTACT], puoi scegliere come bersaglio un personaggio e fargli cambiare spedizione. (Sono In contatto se la spedizione di un altro giocatore si trova nella mia regione.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{H} Falls ich [IN_CONTACT] bin, darfst du einen Charakter wählen, er wechselt Expeditionen. (Ich bin in Kontakt, falls die Expedition eines anderen Spielers in meiner Region ist.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} If I'm [IN_CONTACT], you may have target Character switch Expeditions. (I'm In Contact if another player's Expedition is in my region.)"
+              }
+            ],
+            "reference": "02009"
+          },
+          "sequence": 0,
+          "id": "01K6X49ZGJ67HKC0VCC4QKK8GP"
+        }
+      ],
+      "value": "{H} If I'm [In Contact], you may have target Character switch Expeditions. (I'm In Contact if another player's Expedition is in my region.)",
+      "id": "01K6X49YXV4C1MC1RQFPFPSC74"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_91\/JPG\/en_US\/4d8ff90c024ce576cdf5a5b881318ca3.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_91\/WEB_b1c5babb75cfe7366f8dfcd7fceba1d0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_91\/WEB_347c85101dcb0bb4f1e14c677e0855d9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_91\/WEB_d82f769211b73272cec9f3fe45d49a9c"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_91_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_91",
+  "reference": "ALT_DUSTER_B_LY_91_R2",
+  "translations": {
+    "en_US": {
+      "name": "Cheshire Cat",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_91\/JPG\/en_US\/4d8ff90c024ce576cdf5a5b881318ca3.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Chat du Cheshire",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_91\/JPG\/fr_FR\/d4830ea5f6584d9cd7959732695efa7f.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": { "name": "Gato de Cheshire", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Stregatto", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Grinsekatze", "image": null, "locale": "de_DE" }
+  },
+  "id": "01JYP9SVPVYZVGXC0YH73Q79KR",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_91\/JPG\/fr_FR\/d4830ea5f6584d9cd7959732695efa7f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_91\/JPG\/en_US\/4d8ff90c024ce576cdf5a5b881318ca3.jpg"
+  },
+  "name": "Cheshire Cat",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "#3#",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} If I'm [In Contact], you may have target Character switch Expeditions. (I'm In Contact if another player's Expedition is in my region.)"
+  },
+  "collectorNumberFormatted": "SDU-046-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

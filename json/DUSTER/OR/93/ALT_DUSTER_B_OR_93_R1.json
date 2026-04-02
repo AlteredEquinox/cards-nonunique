@@ -1,0 +1,394 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Behind the smiles and jubilation, I sense a growing tension…\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Derrière les sourires et la liesse, je sens une tension qui grandit... »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZSTM567C03KMYYNYTMX7",
+          "text": "\"Behind the smiles and jubilation, I sense a growing tension…\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6X2VB7ECAY8A8SK2GRFCD5Q7Q0",
+      "reference": "ALT_DUSTER_B_OR_93_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KK1BA60XJGM3DS0KSZAYN"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KK1HW2XEBRASV908QW67R"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KK1R5M8K28Q9VY3TGEBND"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KK1YSCQWFFJ7KE5NC3858"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KK24ZS0XEE7326K2THPM9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4MN7ZC7AG7FSTDPXD66VV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verteidigerin",
+                          "locale": "de_DE",
+                          "description": "Meine Expedition kann sich am Abend nicht vorwärts bewegen."
+                        },
+                        "en_US": {
+                          "displayWeb": "Defender",
+                          "locale": "en_US",
+                          "description": "My Expedition can't move forward during Dusk."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Defensora",
+                          "locale": "es_ES",
+                          "description": "Mi expedición no puede avanzar durante el anochecer."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Difensore",
+                          "locale": "it_IT",
+                          "description": "La mia spedizione non può avanzare durante il crepuscolo."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Défenseuse",
+                          "locale": "fr_FR",
+                          "description": "Mon Expédition ne peut pas avancer pendant le Crépuscule."
+                        }
+                      },
+                      "id": "01J1QBCJDRVGJCHHMW193GTETB",
+                      "reference": "DEFENDER_FS"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KJXZSBJH248EEE1B4S85T"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "[DEFENDER_FS].", "locale": "en_US" },
+                  "fr_FR": { "text": "[DEFENDER_FS].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[DEFENDER_FS].", "locale": "de_DE" },
+                  "es_ES": { "text": "[DEFENDER_FS].", "locale": "es_ES" },
+                  "it_IT": { "text": "[DEFENDER_FS].", "locale": "it_IT" }
+                },
+                "text": "[DEFENDER_FS]."
+              }
+            ],
+            "reference": "01823"
+          },
+          "sequence": 0,
+          "id": "01K6X4MNSEQQ5CP74MT8RQDKRG"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4MN7ZC7AG7FSTDPXD66VV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Defender",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Defensores",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verteidiger",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Défenseurs",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Difensore",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1QBCK8DC784BYDM4A7000W1",
+                      "reference": "DEFENDER_CHA_P"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KJZP1MTC1ME3R3WBMJWPV"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "If there are two or more cards in your Landmarks, [DEFENDER_CHA_P] Characters don't prevent my Expedition from moving forward.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "S'il y a au moins deux cartes dans vos Repères, les Personnages [DEFENDER_CHA_P] n'empêchent pas mon Expédition d'avancer.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Falls sich mindestens zwei Karten in deinem Wahrzeichen-Bereich befinden, verhindern [DEFENDER_CHA_P]-Charaktere nicht das Vorwärtskommen meiner Expedition.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Si hay dos o más cartas en tus hitos, los personajes [DEFENDER_CHA_P] no evitan que mi expedición avance.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Se ci sono due o più carte nei tuoi fulcri, i personaggi con [DEFENDER_CHA_P] non impediscono alla mia spedizione di avanzare.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "If there are two or more cards in your Landmarks, [DEFENDER_CHA_P] Characters don't prevent my Expedition from moving forward."
+              }
+            ],
+            "reference": "01824"
+          },
+          "sequence": 1,
+          "id": "01K6X4MP8FQ64C13K2E0B43V8H"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4MN7ZC7AG7FSTDPXD66VV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6B0CB85J71NPN1FD6RFNPDM"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": " #{J} Create an [ORDIS_RECRUIT] Soldier token in target Expedition.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{J} Créez un jeton Soldat [ORDIS_RECRUIT] dans une Expédition ciblée.#",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "#{J} Crea una ficha de soldado [ORDIS_RECRUIT] en una expedición objetivo.#",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "#{J} Erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in einer Expedition deiner Wahl.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{J} Crea una pedina Soldato [ORDIS_RECRUIT] in una spedizione bersaglio.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": " #{J} Create an [ORDIS_RECRUIT] Soldier token in target Expedition.#"
+              }
+            ],
+            "reference": "02106"
+          },
+          "sequence": 2,
+          "id": "01K6X4MPQE3Y2RWTMQA15YFGB6"
+        }
+      ],
+      "value": "[Defender].  If there are two or more cards in your Landmarks, [Defender] Characters don't prevent my Expedition from moving forward.  {J} Create an [Ordis Recruit 1\/1\/1] Soldier token in target Expedition.",
+      "id": "01K6X4MN7ZC7AG7FSTDPXD66VV"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_93\/JPG\/en_US\/eb29ec315db7fedea80891277eaf50a9.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_93\/WEB_760b51eb70369eb20a7ba05e07d3886a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_93\/WEB_d4e594ca048edeb9b43cca53d7b8ff43",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_93\/WEB_0b42e267866d7bdeea9f76af3e8745fd"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_93_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_93",
+  "reference": "ALT_DUSTER_B_OR_93_R1",
+  "translations": {
+    "it_IT": {
+      "name": "Sunisa, Guardaspalle Ordis",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Sunisa, guardaespaldas de Ordis",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Sunisa, Ordis-Leibwächterin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Sunisa, Ordis Bodyguard",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_93\/JPG\/en_US\/eb29ec315db7fedea80891277eaf50a9.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Sunisa, Garde du Corps Ordis",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_93\/JPG\/fr_FR\/59d23b361a043fb8f5b039c3f8726e05.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQFGHE7Y1AE4TFHAJK0",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_93\/JPG\/fr_FR\/59d23b361a043fb8f5b039c3f8726e05.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_93\/JPG\/en_US\/eb29ec315db7fedea80891277eaf50a9.jpg"
+  },
+  "name": "Sunisa, Ordis Bodyguard",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "#3#",
+    "MOUNTAIN_POWER": "#3#",
+    "MAIN_EFFECT": "[Defender].  If there are two or more cards in your Landmarks, [Defender] Characters don't prevent my Expedition from moving forward.  #{J} Create an [Ordis Recruit 1\/1\/1] Soldier token in target Expedition.#"
+  },
+  "collectorNumberFormatted": "SDU-082-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

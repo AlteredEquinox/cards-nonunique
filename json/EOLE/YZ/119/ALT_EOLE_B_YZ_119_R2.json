@@ -1,0 +1,303 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"By understanding the evil, we can pull it out at the root.\" — Zaj",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« C'est en comprenant le mal qu'on pourra l'arracher à la racine. » — Zaj",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HZJ7KX7EDBD1NW3J0MFS",
+          "text": "\"By understanding the evil, we can pull it out at the root.\" — Zaj"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HZMFETHDV6QFAQC5QJNA",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HZKSQ7JFQSQ1YJPJR12Z",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HZHA7VGB0WPAHRDT23NW",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HZHV5YQW0S1TJN0XJBBY",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "3PCB1TSR2J8B4SRHB8BSP79YV8",
+      "reference": "ALT_EOLE_B_YZ_119_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CONJURATION",
+      "id": "01HKAGQJMGEVS21MCGWDGG8KW0",
+      "name": "Conjuration"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZJ8BR1NJZXJ51AP9XFTTQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZJ8M21YB52E4ZR56BVR5W"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QJ8ASD496VGNMKQ2RDVJG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01KJ5QJA321VS06F0SK5D7WXWK"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5QJ8ASD496VGNMKQ2RDVJG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Draw #three cards,# then discard a card from your hand.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Piochez #trois cartes,# puis défaussez une carte de votre main.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Pesca #tre carte,# poi scarta una carta dalla tua mano.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Roba #tres cartas# y luego descarta una carta de tu mano.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Ziehe #drei Karten,# dann lege eine Karte aus deiner Hand ab.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Draw #three cards,# then discard a card from your hand."
+              }
+            ],
+            "reference": "02998"
+          },
+          "sequence": 1,
+          "id": "01KJ5QJBMNJDRH7D5DTR8QR3J1"
+        }
+      ],
+      "value": "[[Fleeting]].  Draw three cards, then discard a card from your hand.",
+      "id": "01KJ5QJ8ASD496VGNMKQ2RDVJG"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Nestor Papatriantafyllou" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_119\/JPG\/en_US\/3bd75e8be30d20573846d21f113506c6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_119\/WEB_f6de88da712aa385e804f8e50f0c3fb6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_119\/WEB_4ed5041754f133f10dce9a0cbd6104a2"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_119_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_119",
+  "reference": "ALT_EOLE_B_YZ_119_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Investigare la Corruzione",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_119\/JPG\/it_IT\/00f6e1beb9cf0e2c8975d598f96a1843.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Untersucht den Verfall",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_119\/JPG\/de_DE\/8ab746c51766dc62b9352571e33dc2e5.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Enquêter sur la Corruption",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_119\/JPG\/fr_FR\/b9c461776e4949393e5aaffd5d3fb773.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Investigate the Corruption",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_119\/JPG\/en_US\/3bd75e8be30d20573846d21f113506c6.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Investigar la corrupción",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_119\/JPG\/es_ES\/7f4dcaf6f6729860bfd371e11d2c67d7.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHYA7JD7XMA3K0JRMB6S3",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_119\/JPG\/fr_FR\/b9c461776e4949393e5aaffd5d3fb773.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_119\/JPG\/en_US\/3bd75e8be30d20573846d21f113506c6.jpg"
+  },
+  "name": "Investigate the Corruption",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "#3#",
+    "MAIN_EFFECT": "[[Fleeting]].  Draw #three cards,# then discard a card from your hand."
+  },
+  "collectorNumberFormatted": "ROC-108-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

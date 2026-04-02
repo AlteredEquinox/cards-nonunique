@@ -1,0 +1,275 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "I will never give in to fear!",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je ne céderai pas face à la peur ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KG2J8945A4C9DDDXCXYDSZRX",
+          "text": "I will never give in to fear!"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J89792G5J592G7S6KC9P5",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J894ZBRZ0927MC16KXWCN",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J8914XN41M9K670WJZYW6",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KG2J8920PR865D52SRCSHF9N",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "6RDJHWQGG386KTA7K2YWBXBEVY",
+      "reference": "ALT_EOLE_A_BR_105_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KFRQ5ZCV08J0VS401DQ7KTS4"
+    },
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KFRQ5ZCV08J0VS401DQ7KTS3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJABS45RPDRQSH0QMPFCP8M9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "0\/0\/0 Rust ",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Rust 0\/0\/0",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ruggine 0\/0\/0",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Rost 0\/0\/0",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Ferros 0\/0\/0",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYEJ0233Y9NYXPTFNFZJSA",
+                      "reference": "RUST"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KJABS91CHA539ZN72H8SC1DB"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "À Midi — Si vous contrôlez une Prouesse, créez un jeton [RUST] dans votre Expédition Compagnon.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Zum Mittag — Falls du eine Heldentat kontrollierst, erschaffe eine [RUST]-Marke in deiner Gefährten-Expedition.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Se controlli una Prodezza, crea una pedina [RUST] nella spedizione del tuo compagno.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — Si controlas una proeza, crea una ficha de [RUST] en tu expedición del compañero.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "At Noon — If you control a Feat, create a [RUST] token in your Companion Expedition.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "At Noon — If you control a Feat, create a [RUST] token in your Companion Expedition."
+              }
+            ],
+            "reference": "03030"
+          },
+          "sequence": 0,
+          "id": "01KJABSAB109F1BXJ08S3KHRHS"
+        }
+      ],
+      "value": "At Noon — If you control a Feat, create a [Rust 0\/0\/0] token in your Companion Expedition.",
+      "id": "01KJABS45RPDRQSH0QMPFCP8M9"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Kevin Sidharta" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_BR_105\/JPG\/en_US\/0ca36118cbae3dfb21b1d4be7ede1f5f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_BR_105\/WEB_1c7eb2852e4c0687adabbc334d96ce38"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_BR_105_C",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_105",
+  "reference": "ALT_EOLE_A_BR_105_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Gretel & Rust",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_BR_105\/JPG\/fr_FR\/2c780412e0a62ccf8c134b53439af46a.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Gretel & Rust",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_BR_105\/JPG\/en_US\/0ca36118cbae3dfb21b1d4be7ede1f5f.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Gretel & Rost",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_BR_105\/JPG\/de_DE\/00314a79460cf2b7eef2a52b28b54f6c.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Gretel e Ruggine",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_BR_105\/JPG\/it_IT\/4d8a81b13a15a876c0328f6ee909199d.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Gretel y Ferros",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_BR_105\/JPG\/es_ES\/614cb7a0a89cb608bace71b3bee59dc1.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01KFRQ5ZCTJ7K4MRK3ACBZVQTE",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_BR_105\/JPG\/fr_FR\/2c780412e0a62ccf8c134b53439af46a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_BR_105\/JPG\/en_US\/0ca36118cbae3dfb21b1d4be7ede1f5f.jpg"
+  },
+  "name": "Gretel & Rust",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "RESERVE": "2",
+    "PERMANENT": "3",
+    "MAIN_EFFECT": "At Noon — If you control a Feat, create a [Rust 0\/0\/0] token in your Companion Expedition."
+  },
+  "collectorNumberFormatted": "ROC-A-019-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,215 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "There's something so delectable about nabbing someone else's assets.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Il y a quelque chose de délectable à siffler les atouts d'autrui.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZWJFDMB3HXNQAD7422K0",
+          "text": "There's something so delectable about nabbing someone else's assets."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0BTABZZHAZ90N80PJYV02DF168",
+      "reference": "ALT_DUSTER_B_YZ_90_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KQYJJSD7HPDC22PGKQV3Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQYSASPA36BCCR9XBTEKB"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQYZNPFGPFK3ZA6M477J4"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQZ5X0H509DXDE9W1D4SC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KQZC7Y1EN56FBFRRQMGS5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4RWMDEFJJYAHRBF6943FT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Take control of target Permanent #with Base Cost {2} or less,# putting it in my Expedition if it's an Expedition Permanent. (If it would move to your Reserve or any other personal zone, it goes to its owner's instead.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{H} Prendi il controllo di un permanente bersaglio #con costo base pari o inferiore a {2}# e mettilo nella mia spedizione se è un permanente della spedizione. (Se sta per andare nella tua Riserva o in un'altra area personale qualsiasi, va invece in quella del suo proprietario.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{H} Übernimm die Kontrolle über eine Bleibende Karte deiner Wahl #mit Basiskosten {2} oder weniger# und füge sie meiner Expedition hinzu, falls sie eine Bleibende Expeditionskarte ist. (Falls sie in deine Reserve oder eine andere persönliche Zone gehen würde, geht sie stattdessen in die entsprechende Zone ihres Besitzers.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Gana el control del permanente objetivo con #coste base de {2} o menos.# Ponlo en mi expedición si es un permanente de expedición. (Si fuese a ir a tu reserva o a cualquier otra zona personal, va a la zona correspondiente de su propietario.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Prenez le contrôle d'un Permanent ciblé #de Coût de Base {2} ou moins,# en le plaçant dans mon Expédition si c'est un Permanent d'Expédition. (S'il devait aller dans votre Réserve ou dans une autre zone personnelle, il va dans celle de son propriétaire à la place.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Take control of target Permanent #with Base Cost {2} or less,# putting it in my Expedition if it's an Expedition Permanent. (If it would move to your Reserve or any other personal zone, it goes to its owner's instead.)"
+              }
+            ],
+            "reference": "01861"
+          },
+          "sequence": 0,
+          "id": "01K6X4RX78QFHF6X4SWNGMDYK2"
+        }
+      ],
+      "value": "{H} Take control of target Permanent with Base Cost {2} or less, putting it in my Expedition if it's an Expedition Permanent. (If it would move to your Reserve or any other personal zone, it goes to its owner's instead.)",
+      "id": "01K6X4RWMDEFJJYAHRBF6943FT"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/JPG\/en_US\/0c98bf9ac7a8c94174014ca72f5b22d3.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/WEB_d9ef7aabda5707c390d63001317d2e86",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/WEB_61b5f4bd222eb4ab5fda0b387bf86789",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/WEB_e89dcd9277170968cac50faf90bcb8c6"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_90_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_90",
+  "reference": "ALT_DUSTER_B_YZ_90_R1",
+  "translations": {
+    "es_ES": { "name": "Milady de Winter", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Milady de Winter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/JPG\/en_US\/0c98bf9ac7a8c94174014ca72f5b22d3.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": { "name": "Milady de Winter", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Milady de Winter", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Milady de Winter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/JPG\/fr_FR\/753e08859de9524f5a0b6a2666725d3a.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQQ77MRBTN00YYV9NSD",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/JPG\/fr_FR\/753e08859de9524f5a0b6a2666725d3a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/JPG\/en_US\/0c98bf9ac7a8c94174014ca72f5b22d3.jpg"
+  },
+  "name": "Milady de Winter",
+  "elements": {
+    "MAIN_COST": "#5#",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} Take control of target Permanent #with Base Cost {2} or less,# putting it in my Expedition if it's an Expedition Permanent. (If it would move to your Reserve or any other personal zone, it goes to its owner's instead.)"
+  },
+  "collectorNumberFormatted": "SDU-098-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,310 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Patiently, the Reka waited for their new world tree to grow.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Patiemment, les Reka ont fait pousser leur nouvel arbre-monde.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZP6P89QEM5K5XRBRCX8N",
+          "text": "Patiently, the Reka waited for their new world tree to grow."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "5CV14DNG7C8E18RV2T0J44G7PW",
+      "reference": "ALT_DUSTER_B_MU_102_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "8",
+      "id": "01JZ2KFV65E8HA94HCFZAHY8YG"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "8",
+      "id": "01JZ2KFVCMY1GYET9JX4PTCWJT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4CXJEDX3EHAH55APKM3PV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": "Opponents must pay {1} to target me."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": "Gli avversari devono pagare {1} per scegliermi come bersaglio."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Coriace 1",
+                          "locale": "fr_FR",
+                          "description": "Vos adversaires doivent payer {1} pour me cibler."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": "Los oponentes tienen que pagar {1} para hacerme objetivo."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": "Gegner müssen {1} zahlen, um mich anzuvisieren."
+                        }
+                      },
+                      "id": "01HKAGQBS53BFCG3465BACESCQ",
+                      "reference": "TOUGH_1"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JN9V1BP5CYCWXWC6G45W6ZTD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "[TOUGH_1].", "locale": "de_DE" },
+                  "es_ES": { "text": "[TOUGH_1].", "locale": "es_ES" },
+                  "it_IT": { "text": "[TOUGH_1].", "locale": "it_IT" },
+                  "en_US": { "text": "[TOUGH_1].", "locale": "en_US" },
+                  "fr_FR": { "text": "[TOUGH_1].", "locale": "fr_FR" }
+                },
+                "text": "[TOUGH_1]."
+              }
+            ],
+            "reference": "01221"
+          },
+          "sequence": 0,
+          "id": "01K6X4CY3BCZE0KZ7TST5EKY1R"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4CXJEDX3EHAH55APKM3PV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J} Target Expedition can't move forward this Day.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{J} Une Expédition ciblée ne peut pas avancer ce Jour-ci.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#{J} Eine Expedition deiner Wahl kann sich an diesem Tag nicht vorwärts bewegen.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{J} Una expedición objetivo no puede avanzar este día.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{J} Una spedizione bersaglio non può avanzare in questa giornata.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{J} Target Expedition can't move forward this Day.#"
+              }
+            ],
+            "reference": "01800"
+          },
+          "sequence": 1,
+          "id": "01K6X4CYHYMGK4GBGAN5KXVY0S"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4CXJEDX3EHAH55APKM3PV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWWWXAQZFCP27MFR667J88"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — Draw a card, then create two [MANASEED] tokens in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Zum Mittag — Ziehe eine Karte und erschaffe dann zwei [MANASEED]-Marken in deinem Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Pesca una carta, poi crea due pedine [MANASEED] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — Roba una carta y luego crea dos fichas de [MANASEED] en tus hitos.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Piochez une carte, puis créez deux jetons [MANASEED] dans vos Repères.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — Draw a card, then create two [MANASEED] tokens in your Landmarks."
+              }
+            ],
+            "reference": "01956"
+          },
+          "sequence": 2,
+          "id": "01K6X4CZ05DRTEKN2NQJ3ZFA19"
+        }
+      ],
+      "value": "[Tough 1].  {J} Target Expedition can't move forward this Day.  At Noon — Draw a card, then create two [Manaseed] tokens in your Landmarks.",
+      "id": "01K6X4CXJEDX3EHAH55APKM3PV"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/en_US\/0458f1b9a026afa698cc888c5c98c72f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/WEB_83d6c74126a830f5548992d03fcd3f71",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/WEB_dbc628d75d70a59d07f8ee3ca65e4fdd"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_102_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_102",
+  "reference": "ALT_DUSTER_B_MU_102_R1",
+  "translations": {
+    "es_ES": { "name": "El Naos", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "The Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/en_US\/0458f1b9a026afa698cc888c5c98c72f.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": { "name": "Naos", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Der Naos", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Le Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/fr_FR\/b786ca2cd04725f926294a02e3825de1.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ9BK8D1SR02GDEH1ME",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/fr_FR\/b786ca2cd04725f926294a02e3825de1.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/en_US\/0458f1b9a026afa698cc888c5c98c72f.jpg"
+  },
+  "name": "The Naos",
+  "elements": {
+    "MAIN_COST": "#8#",
+    "RECALL_COST": "#8#",
+    "MAIN_EFFECT": "[Tough 1].  #{J} Target Expedition can't move forward this Day.#  At Noon — Draw a card, then create two [Manaseed] tokens in your Landmarks."
+  },
+  "collectorNumberFormatted": "SDU-072-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

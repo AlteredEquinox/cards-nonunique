@@ -1,0 +1,215 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Respect your household, and she will help you. But if you neglect it, beware!",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Respectez votre foyer, et elle vous aidera. Mais gare à vous si vous l'entretenez mal.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZT64WKBK74X1DJQW1J1F",
+          "text": "Respect your household, and she will help you. But if you neglect it, beware!"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2B782WVFHB99H8SD64DR89HH2F",
+      "reference": "ALT_DUSTER_B_OR_95_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    },
+    {
+      "reference": "SPIRIT",
+      "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
+      "name": "Spirit"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KG53KXCZDD91DWMBAW3T0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KG59AM6HP270P0R79947W"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KG5F4W051FB0FCWWWXYYR"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KG5N084VD28ZF7BT7ZGWB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KG5TWE98QVC2ECK9PXXN4"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4N8GVD7ZMYA50WDAHXHGF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : Pay {1} less for the next Permanent you play this turn, down to a minimum of {1}. (Discard me from Reserve to do this.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Payez {1} de moins pour le prochain Permanent que vous jouez ce tour-ci, jusqu'à un minimum de {1}. (Défaussez-moi de la Réserve pour ça.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Zahle {1} weniger für die nächste Bleibende Karte, die du in dieser Runde spielst, aber mindestens {1}. (Lege mich aus der Reserve ab, um diese Aktion auszuführen.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{D}: Paga {1} menos por el siguiente permanente que juegues este turno, hasta un mínimo de {1}. (Descártame de la reserva para hacer esto.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{D}: paga {1} in meno per il prossimo permanente che giochi in questo turno, fino a un minimo di {1}. (Scartami dalla Riserva per eseguire questa azione.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{D} : Pay {1} less for the next Permanent you play this turn, down to a minimum of {1}. (Discard me from Reserve to do this.)"
+              }
+            ],
+            "reference": "01802"
+          },
+          "sequence": 0,
+          "id": "01K6X4N92KTSKDJWT70RVA31B2"
+        }
+      ],
+      "value": "{D} : Pay {1} less for the next Permanent you play this turn, down to a minimum of {1}. (Discard me from Reserve to do this.)",
+      "id": "01K6X4N8GVD7ZMYA50WDAHXHGF"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Matteo Spirito" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/en_US\/c041c6ff64cb385d6d27edec3fcafeca.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/WEB_516b68f901862760970cda732f05fa19",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/WEB_20e394620d2d3af48e56454789a18a4d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/WEB_ead981e4b02208a030c3562ee1843396"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_95_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_95",
+  "reference": "ALT_DUSTER_B_OR_95_C",
+  "translations": {
+    "es_ES": { "name": "Kikimora", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Kikimora", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Kikimora", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Kikimora",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/fr_FR\/5ec0273e1c8cdd1def035e18eefc1896.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Kikimora",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/en_US\/c041c6ff64cb385d6d27edec3fcafeca.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVQFGHE7Y1AE4TFHAJKF",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/fr_FR\/5ec0273e1c8cdd1def035e18eefc1896.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/en_US\/c041c6ff64cb385d6d27edec3fcafeca.jpg"
+  },
+  "name": "Kikimora",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "0",
+    "ECHO_EFFECT": "{D} : Pay {1} less for the next Permanent you play this turn, down to a minimum of {1}. (Discard me from Reserve to do this.)"
+  },
+  "collectorNumberFormatted": "SDU-074-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,326 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "À travers leur Esprit-Ruche, les Ordis font de la multitude une seule et même volonté.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Through their Hive Mind, Ordis turns the thoughts of the multitude into a unified will.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JH1KAQTA0E8R0JCH2KG62S4K",
+          "text": "Through their Hive Mind, Ordis turns the thoughts of the multitude into a unified will."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "4T12PS33NA9G58BEP87E3ZZPGX",
+      "reference": "ALT_CORE_A_OR_24_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01HKAFJN3HG3TWKYV0E014K01G",
+    "reference": "CORE",
+    "name": "Beyond the Gates"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH0X5FXV5Y2F5897MCWJCYQZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH0X5G0XP9F7XV4JPAKGEDM6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K1Z6Q6ZRWNRWX3BKJRDX81EA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01HTS89N4D1B0FRE8S7E5K8SR5"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "fr_FR": { "text": "$[FLEETING].", "locale": "fr_FR" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01K1Z6Q7A8RN5S2G8VD4ENHE6E"
+        },
+        {
+          "cardElement": "\/card_elements\/01K1Z6Q6ZRWNRWX3BKJRDX81EA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS9RQAY4T91ZVSPXWNT2QQM"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "#Erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in einer Expedition deiner Wahl.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Crea una pedina Soldato [ORDIS_RECRUIT] in una spedizione bersaglio.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Crea una ficha de soldado [ORDIS_RECRUIT] en una expedición objetivo.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Créez un jeton Soldat [ORDIS_RECRUIT] dans une Expédition ciblée.#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#Create an [ORDIS_RECRUIT] Soldier token in target Expedition.#",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "#Create an [ORDIS_RECRUIT] Soldier token in target Expedition.#"
+              }
+            ],
+            "reference": "09762"
+          },
+          "sequence": 1,
+          "id": "01K1Z6Q7JFK26JZV6K6KAG4K29"
+        },
+        {
+          "cardElement": "\/card_elements\/01K1Z6Q6ZRWNRWX3BKJRDX81EA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Manda un personaggio bersaglio con costo dalla mano pari o inferiore a {X} nella Riserva, dove X è il numero di personaggi che controlli.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Schicke einen Charakter deiner Wahl mit Handkosten {X} oder weniger in die Reserve, wobei X die Anzahl der Charaktere ist, die du kontrollierst.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Envía a la reserva un personaje objetivo con coste desde la mano de {X} o menos, donde X equivale al número de personajes que controles.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Envoyez en Réserve un Personnage ciblé avec un Coût de Main {X} ou moins, où X est le nombre de Personnages que vous contrôlez.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "Send to Reserve target Character with Hand Cost {X} or less, where X is the number of Characters you control.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "Send to Reserve target Character with Hand Cost {X} or less, where X is the number of Characters you control."
+              }
+            ],
+            "reference": "09762"
+          },
+          "sequence": 2,
+          "id": "01K1Z6Q7TCYTFENHVGGJVNA39C"
+        }
+      ],
+      "value": "[[Fleeting]]. (Send me to Discard instead of Reserve after my effect resolves.)  Create an [Ordis Recruit 1\/1\/1] Soldier token in target Expedition.  Send to Reserve target Character with Hand Cost {X} or less, where X is the number of Characters you control.",
+      "id": "01K1Z6Q6ZRWNRWX3BKJRDX81EA"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_OR_24\/JPG\/en_US\/142452102e17091c60cf76c95366d3ad.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_OR_24\/WEB_36184aaa96ff90e1dd5c5c72596d94a4",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_OR_24\/WEB_f371a81e1f265b1bccf6e78bca331c93"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_A_OR_24_R1",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_24",
+  "reference": "ALT_CORE_A_OR_24_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Entraînement à l'Esprit d'Équipe",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_OR_24\/JPG\/fr_FR\/16d31b37445dfc5fe2c778a510e0e081.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Addestramento di Squadra",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_OR_24\/JPG\/it_IT\/336ee25d03da5c802c53e9929f749d04.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Teamwork Training",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_OR_24\/JPG\/en_US\/142452102e17091c60cf76c95366d3ad.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Teamwork-Training",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_OR_24\/JPG\/de_DE\/889edf9a210f897cb1ebbfd95fe41150.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Entrenamiento de equipo",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_OR_24\/JPG\/es_ES\/259b98203b00d55d2784ee57a488b43c.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01JH0V0NJC0AJ4VKHT8FDX0VZR",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_OR_24\/JPG\/fr_FR\/16d31b37445dfc5fe2c778a510e0e081.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_OR_24\/JPG\/en_US\/142452102e17091c60cf76c95366d3ad.jpg"
+  },
+  "name": "Teamwork Training",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "#3#",
+    "MAIN_EFFECT": "[[Fleeting]]. (Send me to Discard instead of Reserve after my effect resolves.)  #Create an [Ordis Recruit 1\/1\/1] Soldier token in target Expedition.#  Send to Reserve target Character with Hand Cost {X} or less, where X is the number of Characters you control."
+  },
+  "collectorNumberFormatted": "BTG-144-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

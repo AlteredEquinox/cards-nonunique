@@ -1,0 +1,436 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Notre but est simple : barrer la route au Cauchemar ! » — Isaree",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Our task is simple: block the Nightmare's path!\" — Isaree",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HPP5JX2TZ2BDW5JSV7QC",
+          "text": "\"Our task is simple: block the Nightmare's path!\" — Isaree"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPPDZX0Y1NW48FD0K6JK",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPP9WEFPTAVYNKWAXYG0",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPNX1XBYCP485CE44MK0",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPP1A0V8V706937F0D49",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "6XSMA15F7P9FR8MZHEN0Y3GB1A",
+      "reference": "ALT_EOLE_B_AX_120_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYDJZFQPGE4SX5K44XP0HY"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYDK5JJ2AH2GVN4KW9N1JD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5MW99RSMXZD19AF7PJCR17",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Aérolithe",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Aerolith",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aerolit",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Aerolite",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Aerolito",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V2BFTDBEPJRRHWC5YM548",
+                      "reference": "AEROLITH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7K2JCATNJE2MJC36G0ER66"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{J} S'il n'y a pas de jetons dans vos Repères, créez-y un jeton [AEROLITH].",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{J} If there are no tokens in your Landmarks, create an [AEROLITH] token there.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Falls es keine Marken in deinem Wahrzeichen-Bereich gibt, erschaffe dort eine [AEROLITH]-Marke.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Se non ci sono pedine nei tuoi fulcri, crea una pedina [AEROLITH] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Si no hay fichas en tus hitos, crea una ficha de [AEROLITH] allí.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} If there are no tokens in your Landmarks, create an [AEROLITH] token there."
+              }
+            ],
+            "reference": "02773"
+          },
+          "sequence": 0,
+          "id": "01KJ5MWB07SB8KJ7PKGPJ9PA42"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5MW99RSMXZD19AF7PJCR17",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Lorsque vous passez — S'il y a au moins trois cartes dans vos Repères, accomplissez-moi.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When you pass — If three cards or more are in your Landmarks, complete me.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du passt — Falls es mindestens drei Karten in deinem Wahrzeichen-Bereich gibt, vollbringe mich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando passi — Se ci sono tre o più carte nei tuoi fulcri, eseguimi.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando pases — Si hay tres o más cartas en tus hitos, complétame.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When you pass — If three cards or more are in your Landmarks, complete me."
+              }
+            ],
+            "reference": "02774"
+          },
+          "sequence": 1,
+          "id": "01KJ5MWC0TYEP4S4EZ0RZCY6T3"
+        }
+      ],
+      "value": "{J} If there are no tokens in your Landmarks, create an [Aerolith] token there.  When you pass — If three cards or more are in your Landmarks, complete me.",
+      "id": "01KJ5MW99RSMXZD19AF7PJCR17"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5MWDCBBDE7RH9DH0GZ9Y39",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verstärkt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Boosté",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rinforzato",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "potenciado",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Boosted",
+                          "locale": "en_US",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPV4CM21Y6A6JMRQYBYHG",
+                      "reference": "BOOSTED"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7K2DNPDX3FS96DNVRHZZFB"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7K2D3KPBMWKH3SAG4R9QPV"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "[COMPLETED] : Lorsque vous sacrifiez un Permanent — Un Personnage ciblé non [BOOSTED] dans votre Réserve gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "[COMPLETED]: When you sacrifice a Permanent — Target non-[BOOSTED] Character in your Reserve gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED]: Wenn du eine Bleibende Karte opferst — Ein Charakter deiner Wahl in der Reserve, der nicht [BOOSTED] ist, erhält 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED]: quando sacrifichi un permanente — Un personaggio bersaglio senza [BOOSTED] nella tua Riserva ottiene 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED]: Cuando sacrifiques un permanente — Un personaje no [BOOSTED] objetivo en tu reserva gana 1 potenciador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "[COMPLETED]: When you sacrifice a Permanent — Target non-[BOOSTED] Character in your Reserve gains 1 boost."
+              }
+            ],
+            "reference": "02772"
+          },
+          "sequence": 0,
+          "id": "01KJ5MWEYCT2S1MKZ4B96ATAME"
+        }
+      ],
+      "value": "[[Completed]]: When you sacrifice a Permanent — Target non-[[Boosted]] Character in your Reserve gains 1 boost.",
+      "id": "01KJ5MWDCBBDE7RH9DH0GZ9Y39"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Anh Tung - Ba Vo" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_120\/JPG\/en_US\/9817b5e717e25f9c7b40f347c0106a34.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_120\/WEB_d431e2f636284c42ea1dfaa30d56af4a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_120\/WEB_29520f381c7c93bb7bc6736865c1d25f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_120_E",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "AX_120",
+  "reference": "ALT_EOLE_B_AX_120_E",
+  "translations": {
+    "it_IT": {
+      "name": "Schierare gli Scudi!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_120\/JPG\/it_IT\/8fc61727827c282f53b3d55427cdd366.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Desplegar los escudos",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_120\/JPG\/es_ES\/d4a2c7f26ee4376d1e09b1e692c15c52.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Déployez les Boucliers !",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_120\/JPG\/fr_FR\/53d1da215e2e182c4bfc69f0606b6c76.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Deploy the Shields!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_120\/JPG\/en_US\/9817b5e717e25f9c7b40f347c0106a34.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Schilde hoch!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_120\/JPG\/de_DE\/75aec253c0b11f365f0b57295d347c73.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01K9YWHY8JEYSC49V9HW1SMVK6",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_120\/JPG\/fr_FR\/53d1da215e2e182c4bfc69f0606b6c76.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_120\/JPG\/en_US\/9817b5e717e25f9c7b40f347c0106a34.jpg"
+  },
+  "name": "Deploy the Shields!",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} If there are no tokens in your Landmarks, create an [Aerolith] token there.  When you pass — If three cards or more are in your Landmarks, complete me.",
+    "ECHO_EFFECT": "[[Completed]]: When you sacrifice a Permanent — Target non-[[Boosted]] Character in your Reserve gains 1 boost."
+  },
+  "collectorNumberFormatted": "ROC-017-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,222 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"The Naos has been drained from intensive use!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Le Naos s'épuise à cause de l'exploitation intensive ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZPYHJ61CXW35EABQCCER",
+          "text": "\"The Naos has been drained from intensive use!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5R4GQYTDTN8ZDRQKYFV2TAYGG9",
+      "reference": "ALT_DUSTER_B_MU_90_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DRUID",
+      "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+      "name": "Druid"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KDB2FEPXDP1YKV6HKSY3G"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KDB86ZAQC1NQADM8E0TYS"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KDBDTXW0S21QW254ZB80D"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KDBKBD8YQ3MXS17CPNYKP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KDBS0W1Q9PY6X3MYP4Z4M"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4E9EB4QW6RZQQTMZ4R3D7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} You may exhaust ({T}) target Permanent in play or target card in Reserve. (Exhausted cards can't be played and have no Support abilities.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{J} Puoi consumare ({T}) un permanente bersaglio in gioco o una carta bersaglio nella Riserva. (Le carte consumate non possono essere giocate e non hanno abilità di supporto.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{J} Du darfst eine Bleibende Karte im Spiel oder eine Karte in der Reserve wählen und erschöpfen ({T}). (Erschöpfte Karten können nicht gespielt werden und haben keine Unterstützungsfähigkeiten.)",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez épuiser ({T}) un Permanent ciblé en jeu ou une carte ciblée en Réserve. (Une carte épuisée ne peut pas être jouée et n'a pas de capacité de Soutien.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{J} Puedes agotar ({T}) un permanente objetivo in juego o una carta objetivo en reserva. (Las cartas agotadas no se pueden jugar y no tienen habilidades de apoyo.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} You may exhaust ({T}) target Permanent in play or target card in Reserve. (Exhausted cards can't be played and have no Support abilities.)"
+              }
+            ],
+            "reference": "02059"
+          },
+          "sequence": 0,
+          "id": "01K6X4E9ZQV7D52F7HETS3DX9E"
+        }
+      ],
+      "value": "{J} You may exhaust ({T}) target Permanent in play or target card in Reserve. (Exhausted cards can't be played and have no Support abilities.)",
+      "id": "01K6X4E9EB4QW6RZQQTMZ4R3D7"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_90\/JPG\/en_US\/1e781b33422b7ef9a6bf24e69f49b0ec.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_90\/WEB_f5ea5cee387d0c3a23979e488ad646fc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_90\/WEB_bf543a7c4a20362a0e829cc1deec93c8",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_90\/WEB_a8246330b33d193fa9d586e857140129"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_90_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_90",
+  "reference": "ALT_DUSTER_B_MU_90_C",
+  "translations": {
+    "de_DE": {
+      "name": "Flore, wütende Gärtnerin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Flore, Fuming Gardener",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_90\/JPG\/en_US\/1e781b33422b7ef9a6bf24e69f49b0ec.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Flore, jardinera furibunda",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Flore, Giardiniera Infuriata",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Flore, Maraîchère Furieuse",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_90\/JPG\/fr_FR\/8305c7d18a04412e4206031dd1c9b5da.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ522N4PG7PCMG7VMJX",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_90\/JPG\/fr_FR\/8305c7d18a04412e4206031dd1c9b5da.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_90\/JPG\/en_US\/1e781b33422b7ef9a6bf24e69f49b0ec.jpg"
+  },
+  "name": "Flore, Fuming Gardener",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{J} You may exhaust ({T}) target Permanent in play or target card in Reserve. (Exhausted cards can't be played and have no Support abilities.)"
+  },
+  "collectorNumberFormatted": "SDU-064-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,323 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« C'est du pipeau ? Je ne crois pas, non. »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Don't they say that he who pays the piper calls the tune?\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HR0Q08Z6HQ4XRKQWZ39E",
+          "text": "\"Don't they say that he who pays the piper calls the tune?\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HR15M2HQMSP105GNRVX3",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR0Z55SB4ZG1B9N4CS5Y",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR03J9YQCVPX2ZTHSRMA",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR0HF6T0YZ9D2XABE2M0",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6CB27BA2GX9NDTTX4JZZHBCDZF",
+      "reference": "ALT_EOLE_B_LY_109_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYPXM9KZDTDG1PFJTQ5AC9"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYPXV4FC490617M82ZE9K0"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYPY1V0M8Q1XFVFF9MBAMA"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYPY8MV7EG6S66WMTK3AJ6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYPYF8JR2B1B70TJDCKQPB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NGYW0GXB9P9V4X44CWXN3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} If a {D} ability #was activated this turn,# I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Si une capacité {D} #a été activée ce tour-ci,# je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Falls eine {D} Fähigkeit #in dieser Runde aktiviert wurde,# erhalte ich 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Se un'abilità {D} #è stata attivata in questo turno,# ottengo 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Si #se activó# una habilidad {D} #este turno,# gano 1 potenciador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} If a {D} ability #was activated this turn,# I gain 1 boost."
+              }
+            ],
+            "reference": "02839"
+          },
+          "sequence": 0,
+          "id": "01KJ5NH0HV2V8QHDH8TR5WKH9M"
+        }
+      ],
+      "value": "{J} If a {D} ability was activated this turn, I gain 1 boost.",
+      "id": "01KJ5NGYW0GXB9P9V4X44CWXN3"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NH2JM9Z6CV1MQYHGHQVH4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "#{D} : Der nächste Charakter, den du in dieser Runde spielst, erhält 1 Verstärkung.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{D}: il prossimo personaggio che giochi in questo turno ottiene 1 rinforzo.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{D} : El siguiente personaje que juegues este turno gana 1 potenciador.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{D} : Le prochain Personnage que vous jouez ce tour-ci gagne 1 boost.#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#{D} : The next Character you play this turn gains 1 boost.#",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "#{D} : The next Character you play this turn gains 1 boost.#"
+              }
+            ],
+            "reference": "01295"
+          },
+          "sequence": 0,
+          "id": "01KJ5NH4BZQ24NCBS0NFZ631E6"
+        }
+      ],
+      "value": "{D} : The next Character you play this turn gains 1 boost.",
+      "id": "01KJ5NH2JM9Z6CV1MQYHGHQVH4"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/en_US\/c503d66c7c95d7c54a44acf7218e7ab5.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/WEB_97904ea5ac71a29dd62fcd9c72414223",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/WEB_aaf874ff048067c3ac073cd58e7897a7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/WEB_668c74bd78a5d8663d6ce04a6ef9af3a"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_109_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_109",
+  "reference": "ALT_EOLE_B_LY_109_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Fifre Lyra",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/fr_FR\/e99044fa05d004f1dad9a68ed755b59a.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Lyra-Querpfeifer",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/de_DE\/9224b497ecad2776622f9cf60f40f607.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Flautista de Lyra",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/es_ES\/b7caf1355734077862fb041a4383f8dd.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Lyra Fifer",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/en_US\/c503d66c7c95d7c54a44acf7218e7ab5.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Pifferaio Lyra",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/it_IT\/853e1d451b9ac6b3a6fe60636d82c9ce.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01K9YWHY96Y4NEBMY22W0PNWQD",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/fr_FR\/e99044fa05d004f1dad9a68ed755b59a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_109\/JPG\/en_US\/c503d66c7c95d7c54a44acf7218e7ab5.jpg"
+  },
+  "name": "Lyra Fifer",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#2#",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "#2#",
+    "MAIN_EFFECT": "{J} If a {D} ability #was activated this turn,# I gain 1 boost.",
+    "ECHO_EFFECT": "#{D} : The next Character you play this turn gains 1 boost.#"
+  },
+  "collectorNumberFormatted": "ROC-040-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

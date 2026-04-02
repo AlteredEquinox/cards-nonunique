@@ -1,0 +1,271 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Couloir aérien dégagé ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": { "text": "\"Air corridor clear!\"", "locale": "en_US" }
+          },
+          "id": "01KC94HVH2SGNQ6XSHMH3K5NHJ",
+          "text": "\"Air corridor clear!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVHPSR8Q6CY2SB55FEKQ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVHCS4KAA76PSHA8ZPG6",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HVEY15NY3ENFXDED9HNZ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVGH26NDBJT7G4BA2H1N",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3ZEQ7T91W88W3VTHMFRQPGWHAQ",
+      "reference": "ALT_EOLE_B_OR_111_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ70WQVNE74X4F23267T45"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ714ZBYGJJBQA8X6YK7D7"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ71CX1B020KDWNB6C37B2"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ71MHTKXENW40MQGWKDVF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ71WAQZK4TWKAH3J2YMKW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PN1FZZ0D8D80HJVHA2654",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} I gain 1 boost per other #Animal in your Expeditions, up to a max of 2 boosts on me.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Ich erhalte 1 Verstärkung pro anderem #Tier in deinen Expeditionen, bis maximal 2 Verstärkungen auf mir.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Gano 1 potenciador por cada otro #animal en tus expediciones, hasta un máximo de 2 potenciadores.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne 1 boost par autre #Animal dans vos Expéditions, jusqu'à un max de 2 boosts sur moi.#",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{J} Ottengo 1 rinforzo per ogni altro #Animale nelle tue spedizioni, fino a un massimo di 2.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} I gain 1 boost per other #Animal in your Expeditions, up to a max of 2 boosts on me.#"
+              }
+            ],
+            "reference": "02940"
+          },
+          "sequence": 0,
+          "id": "01KJ5PN3C2P5V4J9WCHVT9HSZM"
+        }
+      ],
+      "value": "{J} I gain 1 boost per other Animal in your Expeditions, up to a max of 2 boosts on me.",
+      "id": "01KJ5PN1FZZ0D8D80HJVHA2654"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/en_US\/6a744bd848be06fe310b35d4289b1ef0.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/WEB_c03272ea11247cf9979671f0cdd10751",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/WEB_18db13ac0ae5b9cf5f02b014d9afdabe",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/WEB_facb9b9df12aa36528323c18869b3d07"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_111_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_111",
+  "reference": "ALT_EOLE_B_OR_111_R2",
+  "translations": {
+    "en_US": {
+      "name": "Wigwagging Kiwi",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/en_US\/6a744bd848be06fe310b35d4289b1ef0.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Kiwi Sbandieratore",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/it_IT\/8157c7b4063a4ef0d10208f4e88ec12e.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Signal-Kiwi",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/de_DE\/a5cf6e0896d2703cc2317cb212c55f35.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Kiwi Sémaphoriste",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/fr_FR\/5d870ff093fa2d3ea2d9f9cfa62ebb9e.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Kiwi bamboleante",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/es_ES\/3d872f67cb391f941a6e9b9ebe007850.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9THTRAX12Z5PHQM6MJ",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/fr_FR\/5d870ff093fa2d3ea2d9f9cfa62ebb9e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/en_US\/6a744bd848be06fe310b35d4289b1ef0.jpg"
+  },
+  "name": "Wigwagging Kiwi",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#1#",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "{J} I gain 1 boost per other #Animal in your Expeditions, up to a max of 2 boosts on me.#"
+  },
+  "collectorNumberFormatted": "ROC-079-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

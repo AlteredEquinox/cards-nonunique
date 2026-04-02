@@ -1,0 +1,251 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Not a failure; just another step towards success.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Pas un échec. Juste un pas de plus vers la réussite.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJHJ35GDNX7EQJ1ZTCS0",
+          "text": "Not a failure; just another step towards success."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "23ZZVMAKR897FR0CG7ANWT1HAM",
+      "reference": "ALT_DUSTER_B_AX_97_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K0NKP96KZ8AANES95SP18"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K0NRADJ0QWJ2R0M8BFGKS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X42B7V7DT7QPR69F2VHCGA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01K6X42BRVQ9KAGBGQPNMXYRTX"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X42B7V7DT7QPR69F2VHCGA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Exhaust ({T}) a card in your Reserve. If you do, send to Reserve target Character with Base Cost {3} or less. (Reserve Cost if it's Fleeting, or Hand Cost if not.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Erschöpfe ({T}) eine Karte in deiner Reserve. Falls du das tust, schicke einen Charakter deiner Wahl mit Basiskosten {3} oder weniger in die Reserve. (Reservekosten, falls er Vergänglich ist, oder Handkosten, falls nicht.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Consuma ({T}) una carta nella tua Riserva. Se lo fai, manda nella Riserva un personaggio bersaglio con costo base pari o inferiore a {3}. (Costo dalla Riserva se ha Fugace, altrimenti costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Agota ({T}) una carta en tu reserva. Si lo haces, envía a la reserva un personaje objetivo con coste base de {3} o menos. (Es el coste desde la reserva si tiene fugacidad o, de lo contrario, el coste desde la mano.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Épuisez ({T}) une carte de votre Réserve. Si vous le faites, envoyez en Réserve un Personnage ciblé de Coût de Base {3} ou moins. (Coût de Réserve s'il est Fugace ou Coût de Main s'il ne l'est pas.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Exhaust ({T}) a card in your Reserve. If you do, send to Reserve target Character with Base Cost {3} or less. (Reserve Cost if it's Fleeting, or Hand Cost if not.)"
+              }
+            ],
+            "reference": "02055"
+          },
+          "sequence": 1,
+          "id": "01K6X42C68X790RXN6HR3BRBHK"
+        }
+      ],
+      "value": "[[Fleeting]].  Exhaust ({T}) a card in your Reserve. If you do, send to Reserve target Character with Base Cost {3} or less. (Reserve Cost if it's Fleeting, or Hand Cost if not.)",
+      "id": "01K6X42B7V7DT7QPR69F2VHCGA"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_97\/JPG\/en_US\/71e8deaa8eff00677c8d3b8f23de1bbc.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_97\/WEB_106b9c86b2b58c05d0385cd5f1ee882d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_97\/WEB_438b225af7b000a00f8f67a4aa2df2e8"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_97_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_97",
+  "reference": "ALT_DUSTER_B_AX_97_R2",
+  "translations": {
+    "en_US": {
+      "name": "Failed Demo",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_97\/JPG\/en_US\/71e8deaa8eff00677c8d3b8f23de1bbc.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Demostración fallida",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Dimostrazione Fallita",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Démonstration Ratée",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_97\/JPG\/fr_FR\/3f8ed1a82d02ad01a445fe33c522d191.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Missglückte Demonstration",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_97\/JPG\/de_DE\/6ad68e7bc8d840cb797fe2f7d0ca02c8.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01JYP9SVP9M4AG8XEDVXXP147A",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_97\/JPG\/fr_FR\/3f8ed1a82d02ad01a445fe33c522d191.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_97\/JPG\/en_US\/71e8deaa8eff00677c8d3b8f23de1bbc.jpg"
+  },
+  "name": "Failed Demo",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "[[Fleeting]].  Exhaust ({T}) a card in your Reserve. If you do, send to Reserve target Character with Base Cost {3} or less. (Reserve Cost if it's Fleeting, or Hand Cost if not.)"
+  },
+  "collectorNumberFormatted": "SDU-013-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,259 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Opulence is a state of grace that forever teeters on the precipice.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'opulence est un état de grâce qui sans cesse surplombe le précipice.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZPT7WE4YGXX06N3WC6XG",
+          "text": "Opulence is a state of grace that forever teeters on the precipice."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1BG015MFFA9GJT0T06AAKWD9R8",
+      "reference": "ALT_DUSTER_B_MU_89_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KAXNAWN2MGYGET10X6H8A"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KAXTPP1WX5XS0GS1YZBS4"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KAY0E6C541G5EF3KJAS3T"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KAY5W87WQDBK36NYBQ4ZY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KAYB50R74HJ9JQFF2YVZ4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4E3NG2XVBPRVQHA6MY610",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWXZDB1AAB9HPM29S51FV3"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J} Create a [MANASEED] token in each player's Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{J} Créez un jeton [MANASEED] dans les Repères de chaque joueur.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#{J} Erschaffe eine [MANASEED]-Marke im Wahrzeichen-Bereich jedes Spielers.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{J} Crea una pedina [MANASEED] nei fulcri di ogni giocatore.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{J} Crea una ficha de [MANASEED] en los hitos de cada jugador.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#{J} Create a [MANASEED] token in each player's Landmarks.#"
+              }
+            ],
+            "reference": "01958"
+          },
+          "sequence": 0,
+          "id": "01K6X4E46B6AWF4HPJ7K7MDNV2"
+        }
+      ],
+      "value": "{J} Create a [Manaseed] token in each player's Landmarks.",
+      "id": "01K6X4E3NG2XVBPRVQHA6MY610"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/JPG\/en_US\/74fa8c6295d3908d3abd6f7ca5d75ce2.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/WEB_41cfc0db6e3a84b6af47dc2bf2bf9207",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/WEB_feb242038d3052b7e66a04cd49aab19f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/WEB_512c0c9071fdb4257a9248c7c553c70f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_89_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_89",
+  "reference": "ALT_DUSTER_B_MU_89_R1",
+  "translations": {
+    "en_US": {
+      "name": "Charitable Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/JPG\/en_US\/74fa8c6295d3908d3abd6f7ca5d75ce2.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Reka caritativo",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/JPG\/es_ES\/baed822fb24170039313e4aebb462345.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Reka Charitable",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/JPG\/fr_FR\/c76492a019c60ab921599e8e43475c8b.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Reka Caritatevole",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/JPG\/it_IT\/bad4cb06b4fe09f6df028af472d50719.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Wohltätiger Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/JPG\/de_DE\/a6a7c42e3838683cb3174a875d1b24e7.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01JYP9SVQ46NZXBMT2J9PCKEXV",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/JPG\/fr_FR\/c76492a019c60ab921599e8e43475c8b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_89\/JPG\/en_US\/74fa8c6295d3908d3abd6f7ca5d75ce2.jpg"
+  },
+  "name": "Charitable Reka",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "#{J} Create a [Manaseed] token in each player's Landmarks.#"
+  },
+  "collectorNumberFormatted": "SDU-056-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,263 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I'm sure the Musubi ritual will help us understand your point of view.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je suis sûre que le rituel du Musubi nous aidera à comprendre votre point de vue. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KJ5PA3F1PWDRJWY6DCKVKZ7W",
+          "text": "\"I'm sure the Musubi ritual will help us understand your point of view.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2NPHJ01N769F4SSGS18BFNYJM0",
+      "reference": "ALT_DUSTERCB_P_OR_97_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "BUREAUCRAT",
+      "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+      "name": "Bureaucrat"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K6ASYCC7VNSWDWP51Z7YJ91V"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K6ASYCJKMPC71YY7YSRG0WJB"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K6ASYCRWH4GBQWJ62H2E3PGG"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K6ASYCZ7DZ107T6Q52TJ3E7E"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K6ASYD5ND3BGZ7N9GMVQ9YY0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH670GE7NF50WAQ7HHNAVJ73",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6X1P4AFK5Q55MW76GZB0SVZ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{J} Erschaffe drei [MANASEED]-Marken in deinem Wahrzeichen-Bereich. Dann, erhalte ich 1 Verstärkung pro Karte in deinem Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Crea tres fichas de [MANASEED] en tus hitos. Luego, gano 1 potenciador por cada carta que haya en tus hitos.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{J} Create three [MANASEED] tokens in your Landmarks. Then, I gain 1 boost per card in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{J} Crea tre pedine [MANASEED] nei tuoi fulcri. Poi, ottengo 1 rinforzo per ogni carta nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Créez trois jetons [MANASEED] dans vos Repères. Puis, je gagne 1 boost par carte dans vos Repères.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Create three [MANASEED] tokens in your Landmarks. Then, I gain 1 boost per card in your Landmarks."
+              }
+            ],
+            "reference": "02099"
+          },
+          "sequence": 0,
+          "id": "01KH670H4JAYRRAT9W2KF0QE7B"
+        }
+      ],
+      "value": "{J} Create three [Manaseed] tokens in your Landmarks. Then, I gain 1 boost per card in your Landmarks.",
+      "id": "01KH670GE7NF50WAQ7HHNAVJ73"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_97\/JPG\/en_US\/be2456e2a5a3e7a55f5d17dd787300b6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_97\/WEB_1fe88c30dac70ad9d4f43456c1c8d97b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_97\/WEB_ed8e5bfd7ae76657258f5b3d43280eb2"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_OR_97_E",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_97",
+  "reference": "ALT_DUSTERCB_P_OR_97_E",
+  "translations": {
+    "es_ES": {
+      "name": "Astrape, hexarca reka",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Astrape, Reka Hexarch",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_97\/JPG\/en_US\/be2456e2a5a3e7a55f5d17dd787300b6.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Astrape, Hexarque Reka",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_97\/JPG\/fr_FR\/c42531e883a5771e957b0406c476f00d.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Astrape, Reka-Hexarchin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Astrape, Esarca Reka",
+      "image": null,
+      "locale": "it_IT"
+    }
+  },
+  "id": "01K60PWD78BPW0NBC61JD309Y9",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_97\/JPG\/fr_FR\/c42531e883a5771e957b0406c476f00d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_OR_97\/JPG\/en_US\/be2456e2a5a3e7a55f5d17dd787300b6.jpg"
+  },
+  "name": "Astrape, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "6",
+    "RECALL_COST": "6",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{J} Create three [Manaseed] tokens in your Landmarks. Then, I gain 1 boost per card in your Landmarks."
+  },
+  "collectorNumberFormatted": "SDUCB-029-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

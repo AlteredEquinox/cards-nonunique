@@ -1,0 +1,255 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"The Empyrean is flooded with Nightmare. It's spilling over.\" — Baba Yaga",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« L'Empyrée est saturé de Cauchemar. Il déborde. » — Baba Yaga",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDKX70ZAXZRE9QKKYTVBZ",
+          "text": "\"The Empyrean is flooded with Nightmare. It's spilling over.\" — Baba Yaga"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "7YMPPGGDV4904A2ZX0MFZVNZ5X",
+      "reference": "ALT_EOLECB_A_YZ_114_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" },
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6SRS5CDQ534K8M8RXQFPV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6SS2WN8XA9M2BZ2RTZ3HJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6SSCPQ1DTVZREHP42EH85"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6SSPBER6Z5TNRSKEMMC5K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6ST13J5BH9EXBTVWDX4Y7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKKX6KQ7Z6MR5SBNZFM207",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#I can't be played# unless six or more cards are in your discard pile.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "#Non puoi giocarmi# a meno che non ci siano sei o più carte nella tua pila degli scarti.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#No puedes jugarme# a menos que haya seis o más cartas en tu pila de descartes.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "#Ich kann nicht gespielt werden,# es sei denn, es befinden sich mindestens sechs Karten auf deinem Ablagestapel.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "#Je ne peux pas être jouée,# sauf s'il y a au moins six cartes dans votre défausse.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#I can't be played# unless six or more cards are in your discard pile."
+              }
+            ],
+            "reference": "02978"
+          },
+          "sequence": 0,
+          "id": "01KJQKKXTBBAQVC9KY5VAEH2J2"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJQKKX6KQ7Z6MR5SBNZFM207",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "{H} Draw a card.", "locale": "en_US" },
+                  "it_IT": {
+                    "text": "{H} Pesca una carta.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": { "text": "{H} Roba una carta.", "locale": "es_ES" },
+                  "de_DE": {
+                    "text": "{H} Ziehe eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Piochez une carte.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Draw a card."
+              }
+            ],
+            "reference": "02989"
+          },
+          "sequence": 1,
+          "id": "01KJQKKYAP7M91QD6ZHRWJ48BJ"
+        }
+      ],
+      "value": "I can't be played unless six or more cards are in your discard pile.  {H} Draw a card.",
+      "id": "01KJQKKX6KQ7Z6MR5SBNZFM207"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/JPG\/en_US\/f11c2f01d3257cf2eb5b124c2520ebac.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/WEB_eeced02704ffc660b357caf9210c13ea",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/WEB_b1ec30be208c4b23d3945677589387a7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/WEB_4793a16552ab93b9512739c974e008bb"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_YZ_114_R1",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_YZ_114_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Baba Yaga Corrompue",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/JPG\/fr_FR\/0c2f1b78736a3567772b150424951ab7.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Corrupted Baba Yaga",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/JPG\/en_US\/f11c2f01d3257cf2eb5b124c2520ebac.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Baba Yagá corrompida",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/JPG\/es_ES\/1f098487cb1c4b6da5984a7a9fa93d91.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Verderbte Baba Jaga",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/JPG\/de_DE\/530717d63b579bfb8b9424d5aa287535.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Baba Yaga Corrotta",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/JPG\/it_IT\/695ec0dee0c73af695747bc14ec73e01.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01KH6E45FNQB51SN6EGRDVZ29H",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/JPG\/fr_FR\/0c2f1b78736a3567772b150424951ab7.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_114\/JPG\/en_US\/f11c2f01d3257cf2eb5b124c2520ebac.jpg"
+  },
+  "name": "Corrupted Baba Yaga",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "#3#",
+    "MOUNTAIN_POWER": "#3#",
+    "MAIN_EFFECT": "#I can't be played# unless six or more cards are in your discard pile.  {H} Draw a card."
+  },
+  "collectorNumberFormatted": "ROCCB-V-104-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

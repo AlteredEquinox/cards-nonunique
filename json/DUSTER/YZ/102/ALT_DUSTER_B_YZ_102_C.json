@@ -1,0 +1,212 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I told you it was a bad idea to drink all that Sap Cola…\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je t'avais dit que c'était pas bon de boire autant de Sap Cola... »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZVC5P5YFGYDVDND615DP",
+          "text": "\"I told you it was a bad idea to drink all that Sap Cola…\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "5W111DW41J9Z7VERE4KJXZ5MY1",
+      "reference": "ALT_DUSTER_B_YZ_102_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KTX70485G8QDRCKWP1XFT"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KTXDCPRWP5HCT0YJM9MSX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4Q60JH08672Z966Y7H44D",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "After You",
+                          "locale": "en_US",
+                          "description": "End your turn as if you had played a card. You may still play cards later this Day."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nach dir",
+                          "locale": "de_DE",
+                          "description": "Beende deine Runde, als ob du eine Karte gespielt hättest. Du darfst auch später an diesem Tag noch eine Karte spielen."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dopo di te",
+                          "locale": "it_IT",
+                          "description": "Termina il tuo turno come se avessi giocato una carta. Puoi comunque giocare carte più avanti in questa giornata."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Después de ti",
+                          "locale": "es_ES",
+                          "description": "Termina tu turno como si hubieras jugado una carta. A lo largo del día actual, puedes jugar más cartas."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Après vous",
+                          "locale": "fr_FR",
+                          "description": "Terminez votre tour comme si vous aviez joué une carte. Vous pouvez encore jouer des cartes plus tard ce Jour-ci."
+                        }
+                      },
+                      "id": "01HKAGXB4C1CCRNYV6K6BFCHMQ",
+                      "reference": "AFTER_YOU"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01JZ2KTYSX1KZ4FXQD09Y6FG7T"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T}, Exhaust a card in your Reserve: $[AFTER_YOU].",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{T}, Épuisez une carte de votre Réserve : $[AFTER_YOU].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{T}, Erschöpfe eine Karte in deiner Reserve: $[AFTER_YOU].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{T}, agota una carta en tu reserva: $[AFTER_YOU].",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{T}, consuma una carta nella tua Riserva: $[AFTER_YOU].",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{T}, Exhaust a card in your Reserve: $[AFTER_YOU]."
+              }
+            ],
+            "reference": "01880"
+          },
+          "sequence": 0,
+          "id": "01K6X4Q6KB1S6AZBDG5W1JRJG5"
+        }
+      ],
+      "value": "{T}, Exhaust a card in your Reserve: [After You]. (End your turn as if you had played a card. You may still play cards later this Day.)",
+      "id": "01K6X4Q60JH08672Z966Y7H44D"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "HuoMiao Studio" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/en_US\/2e71b43a63fb1a393e9b0a75c33c294e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/WEB_5e8eb683154834798210f5c258f17df2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/WEB_777eca288da1249155663ab0abe72976"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_102_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_102",
+  "reference": "ALT_DUSTER_B_YZ_102_C",
+  "translations": {
+    "it_IT": { "name": "Infermeria", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "The Infirmary",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/en_US\/2e71b43a63fb1a393e9b0a75c33c294e.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "La Enfermería", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Die Krankenstation", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "L'Infirmerie",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/fr_FR\/79c7b9dd8d78b7195b4a28d64cc0c585.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQVMSDZXAVTMR6N9G0K",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/fr_FR\/79c7b9dd8d78b7195b4a28d64cc0c585.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/en_US\/2e71b43a63fb1a393e9b0a75c33c294e.jpg"
+  },
+  "name": "The Infirmary",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "MAIN_EFFECT": "{T}, Exhaust a card in your Reserve: [After You]. (End your turn as if you had played a card. You may still play cards later this Day.)"
+  },
+  "collectorNumberFormatted": "SDU-108-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

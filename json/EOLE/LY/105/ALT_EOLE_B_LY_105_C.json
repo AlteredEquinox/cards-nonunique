@@ -1,0 +1,320 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Laissez-moi vous mettre au parfum... »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Allow me to enlighten you…\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HQRJ5NCXTECH7NNYHHG3",
+          "text": "\"Allow me to enlighten you…\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQSS5N1NK5A0YNHGY4T9",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQRRTZA5QTFHGM60TPEW",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQR792TYP02JJB31FMW1",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQRDN97R36A32MDEHDQ5",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "4F4763SRHM8ZWA1EWX8WJ5T5HN",
+      "reference": "ALT_EOLE_B_LY_105_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YWHY94EH283D581NK7YF8Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YWHY94EH283D581NK7YF90"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NDYMSS1D1NF7QF5PS9QMQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T} : Roll a die, then spend any number of my Luck counters to increase the result by that much. On a:",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{T} : Tira un dado. Luego, puedes gastar cualquier número de mis contadores de suerte para aumentar el resultado en esa cantidad. Si sacas:",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{T}: tira un dado, poi spendi un numero qualsiasi dei miei segnalini Fortuna per aumentare il risultato di quel numero. Con:",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{T} : Lancez un dé. Vous pouvez ensuite dépenser n'importe quel nombre de mes compteurs Chance pour augmenter d'autant le résultat. Sur :",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{T} : Würfle einmal, gib dann eine beliebige Anzahl meiner Glückszähler aus, um das Ergebnis um die gleiche Anzahl zu erhöhen. Bei:",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{T} : Roll a die, then spend any number of my Luck counters to increase the result by that much. On a:"
+              }
+            ],
+            "reference": "02999"
+          },
+          "sequence": 0,
+          "id": "01KJ5NE0EPPCDQFB0RZ7QZH84Y"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5NDYMSS1D1NF7QF5PS9QMQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• 4+: You may target a Character in your Expeditions. It activates its {D} ability.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "• 4+ : Vous pouvez cibler un Personnage dans vos Expéditions. Il active sa capacité {D}.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "• 4+: Du darfst einen Charakter in deinen Expeditionen wählen. Er aktiviert seine {D} Fähigkeit.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "• 4 o más: Puedes hacer objetivo a un personaje en tus expediciones. Activa su habilidad {D}.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "• 4+: puoi scegliere come bersaglio un personaggio nelle tue spedizioni e fargli attivare la sua abilità {D}.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "• 4+: You may target a Character in your Expeditions. It activates its {D} ability."
+              }
+            ],
+            "reference": "03023"
+          },
+          "sequence": 1,
+          "id": "01KJ5NE1W5CA55PDE1T0QJQCBT"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5NDYMSS1D1NF7QF5PS9QMQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "• 1–3: Ich erhalte 1 Glückszähler.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• 1-3: ottengo 1 segnalino Fortuna.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• 1-3: Gano 1 contador de suerte.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• 1-3 : Je gagne 1 compteur Chance.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "• 1-3: I gain 1 Luck counter.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "• 1-3: I gain 1 Luck counter."
+              }
+            ],
+            "reference": "02720"
+          },
+          "sequence": 2,
+          "id": "01KJ5NE3DFYQQKKH656XJK9YYT"
+        }
+      ],
+      "value": "{T} : Roll a die, then spend any number of my Luck counters to increase the result by that much. On a:  • 4+: You may target a Character in your Expeditions. It activates its {D} ability.  • 1-3: I gain 1 Luck counter.",
+      "id": "01KJ5NDYMSS1D1NF7QF5PS9QMQ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/JPG\/en_US\/d0ddeeb29c75809cd0875f55103e928a.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/HERO_THUMB_9a34afb184abcfa1108d774b8280be7d"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/HERO_WIDE_84e27443a0c7a701207bc047d9fd8e60"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/WEB_046c781cbc2cbf5572c27016610a21cd"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_105_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_105",
+  "reference": "ALT_EOLE_B_LY_105_C",
+  "translations": {
+    "de_DE": {
+      "name": "Yeong-gi & Glut",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/JPG\/de_DE\/724b2620658011e8b4b207a491b3f01a.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Yeong-gi e Brace",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/JPG\/it_IT\/f408bdf00fdd208a8384734562611c1b.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Yeong-gi y Ascua",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/JPG\/es_ES\/8835b60f70a67e411dfd06231b84392d.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Yeong-gi & Ember",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/JPG\/fr_FR\/7a50ce2e282dc893f9dc3ece57061e89.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Yeong-gi & Ember",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/JPG\/en_US\/d0ddeeb29c75809cd0875f55103e928a.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K9YWHY94EH283D581NK7YF8Y",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/JPG\/fr_FR\/7a50ce2e282dc893f9dc3ece57061e89.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_105\/JPG\/en_US\/d0ddeeb29c75809cd0875f55103e928a.jpg"
+  },
+  "name": "Yeong-gi & Ember",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "{T} : Roll a die, then spend any number of my Luck counters to increase the result by that much. On a:  • 4+: You may target a Character in your Expeditions. It activates its {D} ability.  • 1-3: I gain 1 Luck counter."
+  },
+  "collectorNumberFormatted": "ROC-037-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

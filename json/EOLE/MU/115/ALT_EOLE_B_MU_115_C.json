@@ -1,0 +1,292 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "L'injustice est le terreau du mal.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Injustice is fertile ground for evil.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HSWHT3AZ0ETWN41K748E",
+          "text": "Injustice is fertile ground for evil."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HSX1CH5KTT66T6CXCWAC",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HSWSR0FZEAX8JQ2A103K",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HSW11X4NDP1TJ35X1DV8",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HSW98SSFHVQ5V5YW6ESY",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "50J61S5F369ZJ9K69Q96FNGRZC",
+      "reference": "ALT_EOLE_B_MU_115_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01K9YZ0FKYWYQRWGAPWFP9RSCH"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ0FVASPZVM3A14590NXGD"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ0G2JH4H9NZC7SSH941NK"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ0G9X00N8P0T29E9NBR3E"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ0GK7WZVF72XQ9DXDQ4HS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PCAWNERMXMG93R55STFHG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "PLACEHOLDER", "locale": "en_US" },
+                  "fr_FR": { "text": "PLACEHOLDER", "locale": "fr_FR" },
+                  "de_DE": { "text": "PLACEHOLDER", "locale": "de_DE" },
+                  "es_ES": { "text": "PLACEHOLDER", "locale": "es_ES" },
+                  "it_IT": { "text": "PLACEHOLDER", "locale": "it_IT" }
+                },
+                "text": "PLACEHOLDER"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5PCCW6BAYYYX5BDRX7NV89"
+        }
+      ],
+      "value": "PLACEHOLDER",
+      "id": "01KJ5PCAWNERMXMG93R55STFHG"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PCEJ9HQXAB1ZN5GS79P7F",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "PLACEHOLDER", "locale": "en_US" },
+                  "fr_FR": { "text": "PLACEHOLDER", "locale": "fr_FR" },
+                  "de_DE": { "text": "PLACEHOLDER", "locale": "de_DE" },
+                  "es_ES": { "text": "PLACEHOLDER", "locale": "es_ES" },
+                  "it_IT": { "text": "PLACEHOLDER", "locale": "it_IT" }
+                },
+                "text": "PLACEHOLDER"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5PCGA5YFR91W5XN9344868"
+        }
+      ],
+      "value": "PLACEHOLDER",
+      "id": "01KJ5PCEJ9HQXAB1ZN5GS79P7F"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_115\/JPG\/en_US\/ae59992a336d9b5b655476a8bda55349.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_115\/WEB_e8adcc85c6df30eac901fa2b7653ff49",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_115\/WEB_7c682a8a997b95bcda4a7343b9039c43"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_115_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_115",
+  "reference": "ALT_EOLE_B_MU_115_C",
+  "translations": {
+    "de_DE": {
+      "name": "Plage des Vorurteils",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_115\/JPG\/de_DE\/a6c40878f6d376f7903f9deb6371a544.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Piaga del Pregiudizio",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_115\/JPG\/it_IT\/a32b66de1f91bc3b75186bb7a9a6c3c3.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Plaga del prejuicio",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_115\/JPG\/es_ES\/db13f40705912adf2778bb5d964bf5cd.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Fléau de Préjugé",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_115\/JPG\/fr_FR\/cff051ecf3fda3c90efea09392006e87.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Plague of Prejudice",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_115\/JPG\/en_US\/ae59992a336d9b5b655476a8bda55349.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K9YWHY9JW95SPADVXHFSR40K",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_115\/JPG\/fr_FR\/cff051ecf3fda3c90efea09392006e87.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_115\/JPG\/en_US\/ae59992a336d9b5b655476a8bda55349.jpg"
+  },
+  "name": "Plague of Prejudice",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "PLACEHOLDER",
+    "ECHO_EFFECT": "PLACEHOLDER"
+  },
+  "collectorNumberFormatted": "ROC-069-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

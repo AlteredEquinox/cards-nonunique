@@ -1,0 +1,294 @@
+{
+  "loreEntries": [],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K60PWD2WYTEGA63BK95J3SJR"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K60PWD2WYTEGA63BK95J3SJS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH66P9VRAF1B0Z3ZHWSNSBMK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{T} : Wähle einen Charakter, den du kontrollierst, und würfle dann einmal. Bei:",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{T}: Haz objetivo a un personaje que controles y luego tira un dado. Si sacas:",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{T} : Ciblez un Personnage que vous contrôlez, puis lancez un dé. Sur :",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{T}: Scegli come bersaglio un personaggio che controlli, poi tira un dado. Con:",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "{T} : Target a Character you control, then roll a die. On a:",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "{T} : Target a Character you control, then roll a die. On a:"
+              }
+            ],
+            "reference": "09758"
+          },
+          "sequence": 0,
+          "id": "01KH66PAG8XJ6EBD45QKQ5MCGN"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH66P9VRAF1B0Z3ZHWSNSBMK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6X65E4CV563KG3CASS6AVQS"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• 6+, it gains [ANCHORED].",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "• 6+, il gagne [ANCHORED]. (Au Repos, il ne va pas en Réserve et il perd Ancré.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "• 6+, ottiene [ANCHORED]. (Durante il riposo, non va nella Riserva e perde Ancorato.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "• 6+ erhält er [ANCHORED]. (Während der Ruhepause geht er nicht in die Reserve und verliert Verankert.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "• 6+, gana [ANCHORED]. (Durante el descanso, no va a la reserva y pierde anclaje.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "• 6+, it gains [ANCHORED]."
+              }
+            ],
+            "reference": "02106"
+          },
+          "sequence": 1,
+          "id": "01KH66PB1B6P96V3Z2KKHVRR1R"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH66P9VRAF1B0Z3ZHWSNSBMK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• 2-5, it gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "• 2-5, il gagne 1 boost. (Un boost est un compteur +1\/+1\/+1. Retirez-le lorsqu'il quitte la zone d'Expédition.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "• 2-5, ottiene 1 rinforzo. (Un rinforzo è un segnalino +1\/+1\/+1. Rimuovilo quando lascia l'area delle spedizioni.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "• 2–5 erhält er 1 Verstärkung. (Eine Verstärkung ist ein +1\/+1\/+1-Zähler. Entferne sie, wenn sie die Expeditionszone verlässt.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "• 2-5, gana 1 potenciador. (Un potenciador es un contador +1\/+1\/+1. Retíralo cuando abandone la zona de expedición.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "• 2-5, it gains 1 boost."
+              }
+            ],
+            "reference": "02107"
+          },
+          "sequence": 2,
+          "id": "01KH66PBJDF5EDEAG131WRMYPJ"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH66P9VRAF1B0Z3ZHWSNSBMK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• 1, send it to Reserve.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "• 1, envíalo a la reserva.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "• 1, mandalo nella Riserva.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "• 1 geht er in die Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "• 1, envoyez-le en Réserve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• 1, send it to Reserve."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 3,
+          "id": "01KH66PC3MPMWTMQHHF69V4J9W"
+        }
+      ],
+      "value": "{T} : Target a Character you control, then roll a die. On a:  • 6+, it gains [[Anchored]].  • 2-5, it gains 1 boost.  • 1, send it to Reserve.",
+      "id": "01KH66P9VRAF1B0Z3ZHWSNSBMK"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_01\/JPG\/en_US\/f18ba085f3b1a471f86b8bd6d8a7e920.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_01\/WEB_5a7d7e4266960dfdd0d0609f3396e878"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_LY_01_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_01",
+  "reference": "ALT_DUSTERCB_P_LY_01_C",
+  "translations": {
+    "it_IT": { "name": "Nevenka e Macchia", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Nevenka & Klecks", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Nevenka y Mancha", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Nevenka & Blotch",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_01\/JPG\/en_US\/f18ba085f3b1a471f86b8bd6d8a7e920.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Nevenka & Blotch",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_01\/JPG\/fr_FR\/98640333af8840de723e9b4bcbe325cf.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K60PWD2WYTEGA63BK95J3SJQ",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_01\/JPG\/fr_FR\/98640333af8840de723e9b4bcbe325cf.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_LY_01\/JPG\/en_US\/f18ba085f3b1a471f86b8bd6d8a7e920.jpg"
+  },
+  "name": "Nevenka & Blotch",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "{T} : Target a Character you control, then roll a die. On a:  • 6+, it gains [[Anchored]].  • 2-5, it gains 1 boost.  • 1, send it to Reserve."
+  },
+  "collectorNumberFormatted": "SDUCB-033-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,215 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "There's something so delectable about nabbing someone else's assets.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Il y a quelque chose de délectable à siffler les atouts d'autrui.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZWJFDMB3HXNQAD7422K0",
+          "text": "There's something so delectable about nabbing someone else's assets."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0BTABZZHAZ90N80PJYV02DF168",
+      "reference": "ALT_DUSTER_B_YZ_90_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KQTZGYNNPNN614J3SPV0T"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQV606CZK86HFAEHVRS74"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQVCA1W9TE29RYGKWGJC1"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQVJKKNE6GV6VNKYE1QQ2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KQVSFYX7WEBXHV70FVDFZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4RSH809GRJECYX39NCQ5F",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Take control of target token Permanent, putting it in my Expedition if it's an Expedition Permanent.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{H} Gana el control de la ficha de permanente objetivo. Ponlo en mi expedición si es un permanente de expedición.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Prendi il controllo di un permanente pedina bersaglio e mettilo nella mia spedizione se è un permanente della spedizione.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{H} Übernimm die Kontrolle über eine Bleibende Marke deiner Wahl und füge sie meiner Expedition hinzu, falls sie eine Bleibende Expeditionskarte ist.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Prenez le contrôle d'un jeton Permanent ciblé, en le plaçant dans mon Expédition si c'est un Permanent d'Expédition.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Take control of target token Permanent, putting it in my Expedition if it's an Expedition Permanent."
+              }
+            ],
+            "reference": "01860"
+          },
+          "sequence": 0,
+          "id": "01K6X4RT3RER3H9X9AWCEBC02R"
+        }
+      ],
+      "value": "{H} Take control of target token Permanent, putting it in my Expedition if it's an Expedition Permanent.",
+      "id": "01K6X4RSH809GRJECYX39NCQ5F"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/JPG\/en_US\/48c82f58f91a44f706f0539fb55e909a.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/WEB_d9ef7aabda5707c390d63001317d2e86",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/WEB_61b5f4bd222eb4ab5fda0b387bf86789",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/WEB_e89dcd9277170968cac50faf90bcb8c6"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_90_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_90",
+  "reference": "ALT_DUSTER_B_YZ_90_C",
+  "translations": {
+    "es_ES": { "name": "Milady de Winter", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Milady de Winter", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Milady de Winter", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Milady de Winter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/JPG\/en_US\/48c82f58f91a44f706f0539fb55e909a.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Milady de Winter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/JPG\/fr_FR\/127d37d7a03655fd95a03e3c60eb39fe.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQPPCH9PBMCQBNJZGMZ",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/JPG\/fr_FR\/127d37d7a03655fd95a03e3c60eb39fe.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_90\/JPG\/en_US\/48c82f58f91a44f706f0539fb55e909a.jpg"
+  },
+  "name": "Milady de Winter",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} Take control of target token Permanent, putting it in my Expedition if it's an Expedition Permanent."
+  },
+  "collectorNumberFormatted": "SDU-098-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

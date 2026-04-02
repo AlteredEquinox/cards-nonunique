@@ -1,0 +1,179 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Let's show the Reka the brilliance of Axiom ingenuity!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Montrons aux Reka l'ingéniosité du savoir-faire Axiom ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZHT4H0C2QKHT9ZYHACXX",
+          "text": "\"Let's show the Reka the brilliance of Axiom ingenuity!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "02FMZMYXP28NFA01Z394FNY1DD",
+      "reference": "ALT_DUSTER_B_AX_101_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K13KCKK20W56TS1JZZM4D"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K13R2H682VR3HDVJ0NC2X"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X3YW6SW7PB43A15CSFETPD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{T} : Un Personnage ciblé dans votre Réserve gagne 1 boost. Puis épuisez-le ({T}). (Une carte épuisée ne peut pas être jouée et n'a pas de capacité de Soutien.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{T}: Un personaje objetivo en tu reserva gana 1 potenciador. Luego, agótalo ({T}). (Las cartas agotadas no se pueden jugar y no tienen habilidades de apoyo.)",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{T} : Target Character in your Reserve gains 1 boost. Then exhaust it ({T}). (Exhausted cards can't be played and have no Support abilities.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{T}: un personaggio bersaglio nella tua Riserva ottiene 1 rinforzo. Poi consumalo ({T}). (Le carte consumate non possono essere giocate e non hanno abilità di supporto.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{T} : Ein Charakter deiner Wahl in deiner Reserve erhält 1 Verstärkung. Dann erschöpfe ihn ({T}). (Erschöpfte Karten können nicht gespielt werden und haben keine Unterstützungsfähigkeiten.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{T} : Target Character in your Reserve gains 1 boost. Then exhaust it ({T}). (Exhausted cards can't be played and have no Support abilities.)"
+              }
+            ],
+            "reference": "01677"
+          },
+          "sequence": 0,
+          "id": "01K6X3YWPG8YCTJAJCG8Y2C917"
+        }
+      ],
+      "value": "{T} : Target Character in your Reserve gains 1 boost. Then exhaust it ({T}). (Exhausted cards can't be played and have no Support abilities.)",
+      "id": "01K6X3YW6SW7PB43A15CSFETPD"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/en_US\/bce33381d7e7f7a574a72415545679de.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/WEB_2bd565713b3267086066ccb0a1eea9cc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/WEB_bbd4b9bed194d5b18484e02507505e80"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_101_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_101",
+  "reference": "ALT_DUSTER_B_AX_101_C",
+  "translations": {
+    "de_DE": { "name": "Axiom-Ausstellung", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Exposición de Axiom",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": { "name": "Esposizione Axiom", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "Axiom Exhibit",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/en_US\/bce33381d7e7f7a574a72415545679de.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Exposition Axiom",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/fr_FR\/641a39f1f30007e5eb6cde9e26efd37a.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPA7WEGJQ80HKW2AAPE",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/fr_FR\/641a39f1f30007e5eb6cde9e26efd37a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/en_US\/bce33381d7e7f7a574a72415545679de.jpg"
+  },
+  "name": "Axiom Exhibit",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{T} : Target Character in your Reserve gains 1 boost. Then exhaust it ({T}). (Exhausted cards can't be played and have no Support abilities.)"
+  },
+  "collectorNumberFormatted": "SDU-016-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

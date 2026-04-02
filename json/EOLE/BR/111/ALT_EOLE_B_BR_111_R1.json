@@ -1,0 +1,396 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I only feel alive when I'm on the very edge!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je ne me sens vivante qu'au bord du précipice ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HQ28M4PHQYSG23YKQXRB",
+          "text": "\"I only feel alive when I'm on the very edge!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQ2JRVC8ZEXB8VVJJ8Z5",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQ2DFWHMEXK2NGYSCZMB",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQ1ZBB1PXW4C3MTZE2CJ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQ24A7T8P2GN2J5S593T",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1CXJG2HQFR833VBC4NXZHX8E7W",
+      "reference": "ALT_EOLE_B_BR_111_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYGCRNCN6M851DKN4CJDRE"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYGCZ447PAP715CF9B6X7C"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYGD5QJZK64ZZ35Y25XHJD"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYGDC69T6QWP0NXWSYFFCK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYGDJJVRKTYDX6PX9GDRDM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5N53C72KKX76AMD8D853Y6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7K6SJDEK45TAJMF1CS0RRQ"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01KEH47N1TCAT01B0HQ991JCYB",
+                      "reference": "COMPLETED_LOW"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7K6RZQJK5S2MFXDCDPKYA5"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J}# If you control a #[COMPLETED_LOW]# Feat, #I lose [FLEETING].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# Falls du eine Heldentat kontrollierst, die #[COMPLETED_LOW]# ist, #verliere ich [FLEETING].#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# Si controlas una proeza #[COMPLETED_LOW],# #pierdo [FLEETING].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Si vous contrôlez une Prouesse #[COMPLETED_LOW],# je #perds [FLEETING].#",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# Se controlli una Prodezza #[COMPLETED_LOW]#, #perdo [FLEETING].#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{J}# If you control a #[COMPLETED_LOW]# Feat, #I lose [FLEETING].#"
+              }
+            ],
+            "reference": "02796"
+          },
+          "sequence": 0,
+          "id": "01KJ5N5540Y17T6NZHW3Y886VY"
+        }
+      ],
+      "value": "{J} If you control a [[Completed]] Feat, I lose [[Fleeting]].",
+      "id": "01KJ5N53C72KKX76AMD8D853Y6"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5N56XRRE5XTSKCGFG4PKZ8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{D} : Pay {1} less for the next Feat you play this turn, down to a minimum of {1}.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{D} : Payez {1} de moins pour la prochaine Prouesse que vous jouez ce tour-ci, jusqu'à un minimum de {1}.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#{D} : Zahle {1} weniger für die nächste Heldentat, die du in dieser Runde spielst, aber mindestens {1}.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{D}: paga {1} in meno per la prossima Prodezza che giochi in questo turno, fino a un minimo di {1}.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{D} : Paga {1} menos por la siguiente proeza que juegues este turno, hasta un mínimo de {1}.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#{D} : Pay {1} less for the next Feat you play this turn, down to a minimum of {1}.#"
+              }
+            ],
+            "reference": "02797"
+          },
+          "sequence": 0,
+          "id": "01KJ5N58EHPCGKFSHCCPP72RP6"
+        }
+      ],
+      "value": "{D} : Pay {1} less for the next Feat you play this turn, down to a minimum of {1}.",
+      "id": "01KJ5N56XRRE5XTSKCGFG4PKZ8"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/en_US\/dc4e2e56e4c93acd27fd3fb9d3653587.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/WEB_e21e9820722beb6ff015ea1b2eef0138",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/WEB_29be8336db3df5180cb6c78c2e42847e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/WEB_5be8f055db87f2bc48530bb3307a67ed"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_111_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_111",
+  "reference": "ALT_EOLE_B_BR_111_R1",
+  "translations": {
+    "en_US": {
+      "name": "Carmela, Fast Striker",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/en_US\/dc4e2e56e4c93acd27fd3fb9d3653587.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Carmela, Assalitrice Rapida",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/it_IT\/ac97c69686ee0749d5f1b8e9b37877f4.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Carmela, Stürmerin",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/de_DE\/717dcedafcf94fe677d86569b4875213.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Carmela, Frappeuse Véloce",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/fr_FR\/e40db55069062319ea89c50b0a6eb6a0.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Carmela, atacante rauda",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/es_ES\/77668c70dc7afafb7a3dd5dee1597b39.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY8SMQ00CJ4KJWM551HA",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/fr_FR\/e40db55069062319ea89c50b0a6eb6a0.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/en_US\/dc4e2e56e4c93acd27fd3fb9d3653587.jpg"
+  },
+  "name": "Carmela, Fast Striker",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "#{J}# If you control a #[[Completed]]# Feat, #I lose [[Fleeting]].#",
+    "ECHO_EFFECT": "#{D} : Pay {1} less for the next Feat you play this turn, down to a minimum of {1}.#"
+  },
+  "collectorNumberFormatted": "ROC-028-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

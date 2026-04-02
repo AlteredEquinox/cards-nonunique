@@ -1,0 +1,295 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Its energy field even affects the Aether.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Son champ énergétique affecte même l'Éther.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HTVE0VXVVJGB982KM2WA",
+          "text": "Its energy field even affects the Aether."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HTW0HZD7XJ0CN2HA6F25",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HTVQCGD7W34C647B3VT9",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HTTKCX3BQH49N1A3H1SR",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HTV4SQP4M4N5MQSYH9HZ",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01JNQX5X4AEEJEWFBR2KWF7WB8",
+        "reference": "TOKEN_LANDMARK_PERMANENT",
+        "name": "TOKEN_LANDMARK_PERMANENT"
+      },
+      "id": "01F50ZPRG59HAB21KVM8E9YSFA",
+      "reference": "ALT_EOLE_B_NE_03_C"
+    }
+  ],
+  "cardType": {
+    "reference": "TOKEN_LANDMARK_PERMANENT",
+    "id": "01JN9T9WB3A67XPW9251FVSS60",
+    "name": "Token Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "ORE", "id": "01JPYFRDDD06XC6SP7K6W89CTE", "name": "Ore" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QP55VN9D65X9SSVEDJ299",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M1D4ZPSWHGDWFZJWSC3ER"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Wenn ich geopfert werde — [RESUPPLY]. (Überschüssige Wahrzeichen werden am Ende des Tages geopfert.)",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "When I'm sacrificed — [RESUPPLY]. (Excess Landmarks are sacrificed at the end of the Day.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je suis sacrifié — [RESUPPLY]. (Les Repères excédentaires sont sacrifiés à la fin du Jour.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Quando mi sacrifichi — [RESUPPLY]. (I fulcri in eccesso vengono sacrificati alla fine della giornata.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando me sacrifiques — [RESUPPLY]. (Los hitos sobrantes se sacrifican al final del día.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When I'm sacrificed — [RESUPPLY]. (Excess Landmarks are sacrificed at the end of the Day.)"
+              }
+            ],
+            "reference": "02922"
+          },
+          "sequence": 0,
+          "id": "01KJ5QP7SYRF467PCMWVBD3G5G"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5QP55VN9D65X9SSVEDJ299",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{T}, {1}: sacrificami.",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "{T}, {1} : Sacrifice me.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{T}, {1} : Sacrifícame.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{T}, {1} : Sacrifiez-moi.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{T}, {1} : Opfere mich.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{T}, {1} : Sacrifice me."
+              }
+            ],
+            "reference": "01272"
+          },
+          "sequence": 1,
+          "id": "01KJ5QPAM0KDF8HCWCF93Q3PX3"
+        }
+      ],
+      "value": "When I'm sacrificed — [Resupply]. (Excess Landmarks are sacrificed at the end of the Day.)  {T}, {1} : Sacrifice me.",
+      "id": "01KJ5QP55VN9D65X9SSVEDJ299"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_NE_03\/JPG\/en_US\/431f91590e46f077338ad0b9363c7f0e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_NE_03\/WEB_165b3d436f48bf2b46d54221d388b55c"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_NE_03_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "NE_03",
+  "reference": "ALT_EOLE_B_NE_03_C",
+  "translations": {
+    "it_IT": {
+      "name": "Aerolite",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_NE_03\/JPG\/it_IT\/b47af615bb083c181e61d145ee1fa2d0.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Aerolito",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_NE_03\/JPG\/es_ES\/ed4ff0b5c106d27ba9c70c17c5d8f975.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Aérolithe",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_NE_03\/JPG\/fr_FR\/792f5f19f158d639735c2189033f0c9c.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Aerolith",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_NE_03\/JPG\/en_US\/431f91590e46f077338ad0b9363c7f0e.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Aerolit",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_NE_03\/JPG\/de_DE\/3a4b1e4a7b7fa15eea4345304b182023.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01K9YWHY9BYXCY2EWQ7RT0AGSZ",
+  "mainFaction": {
+    "reference": "NE",
+    "color": "#8f95b2",
+    "id": "01HKAFVTTJFNBREV3V8Z4NR3Z9",
+    "name": "Neutral"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_NE_03\/JPG\/fr_FR\/792f5f19f158d639735c2189033f0c9c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_NE_03\/JPG\/en_US\/431f91590e46f077338ad0b9363c7f0e.jpg"
+  },
+  "name": "Aerolith",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "MAIN_EFFECT": "When I'm sacrificed — [Resupply]. (Excess Landmarks are sacrificed at the end of the Day.)  {T}, {1} : Sacrifice me."
+  },
+  "collectorNumberFormatted": "ROC-115-T-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

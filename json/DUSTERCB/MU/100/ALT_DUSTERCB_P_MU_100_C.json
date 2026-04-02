@@ -1,0 +1,284 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Just good, casual feasting.",
+              "locale": "en_US"
+            },
+            "fr_FR": { "text": "À la bonne franquette.", "locale": "fr_FR" }
+          },
+          "id": "01KJ5PA2W7T49HTNDAFQ450458",
+          "text": "Just good, casual feasting."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "1P8JWVQC0S9D6T1VJJKP6NXKBM",
+      "reference": "ALT_DUSTERCB_P_MU_100_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K6ASSRYAXZMEXM4Y18RRQ7B8"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K6ASSS4B64XK4J8P7CXFS5PT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH66SZ7FFKNKQHBQHBPZ2NXE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Resupplies",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaille",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisce",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22PMAWKFHM9YCE44WE12XZ",
+                      "reference": "RESUPPLIES"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KF1SRPQQ2EBVRQ6DXVPKS"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{J} Cada jugador [RESUPPLIES].",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{J} Each player [RESUPPLIES].",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Chaque joueur [RESUPPLIES].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Jeder Spieler nutzt [RESUPPLIES].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Ogni giocatore [RESUPPLIES].",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} Each player [RESUPPLIES]."
+              }
+            ],
+            "reference": "01791"
+          },
+          "sequence": 0,
+          "id": "01KH66SZWH7FDYEFWGDKJY689B"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH66SZ7FFKNKQHBQHBPZ2NXE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Don",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Gift",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Geschenk",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Regalo",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Regalo",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2KAS1XQ23VAH9DKEBZ90PD",
+                      "reference": "GIFT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6X68G5ASQV931336KJNRP6G"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When an opponent receives a [GIFT] — You may exhaust me ({T}) to give target Character 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Quando fai un [GIFT] — Puoi consumarmi ({T}) per far ottenere 1 rinforzo a un personaggio bersaglio. (Un Regalo avviene se, durante il tuo turno, un avversario pesca una carta, Rifornisce o riceve una pedina.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando hagas un [GIFT] — Puedes agotarme ({T}) para que un personaje objetivo gane 1 potenciador. (Un Regalo ocurre si, durante tu turno, un oponente roba una carta, se reabastece o recibe una ficha.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous faites un [GIFT] — Vous pouvez m'épuiser ({T}) pour donner 1 boost à un Personnage ciblé. (Vous faites un Don si durant votre tour, un adversaire pioche une carte, Ravitaille ou reçoit un jeton.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du ein [GIFT] gibst — Du darfst mich erschöpfen ({T}), um einem Charakter deiner Wahl 1 Verstärkung zu geben. (Ein Geschenk entsteht, wenn ein Gegner während deines Zuges eine Karte zieht, Nachschub nutzt oder eine Marke erhält.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "When an opponent receives a [GIFT] — You may exhaust me ({T}) to give target Character 1 boost."
+              }
+            ],
+            "reference": "02110"
+          },
+          "sequence": 1,
+          "id": "01KH66T0E27VZS9MRWR1WY83TH"
+        }
+      ],
+      "value": "{J} Each player [Resupplies].  When an opponent receives a [Gift] — You may exhaust me ({T}) to give target Character 1 boost.",
+      "id": "01KH66SZ7FFKNKQHBQHBPZ2NXE"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_100\/JPG\/en_US\/6b494b087fb9462aec63a8e264df9362.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_100\/WEB_69aab019514389db29f2afd344a6d2f8",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_100\/WEB_3c052fd1336b4a9c85ab15d696295298"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_MU_100_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_100",
+  "reference": "ALT_DUSTERCB_P_MU_100_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Aire de Pique-nique",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_100\/JPG\/fr_FR\/16cf0cd052e3681ade1603fa7b682b2d.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": { "name": "Prato del Ristoro", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Picknickbereich", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Merendero", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Picnic Area",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_100\/JPG\/en_US\/6b494b087fb9462aec63a8e264df9362.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K60PWD584HS5CXWVBWMKFVRH",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_100\/JPG\/fr_FR\/16cf0cd052e3681ade1603fa7b682b2d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_100\/JPG\/en_US\/6b494b087fb9462aec63a8e264df9362.jpg"
+  },
+  "name": "Picnic Area",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} Each player [Resupplies].  When an opponent receives a [Gift] — You may exhaust me ({T}) to give target Character 1 boost."
+  },
+  "collectorNumberFormatted": "SDUCB-014-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

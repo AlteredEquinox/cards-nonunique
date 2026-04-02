@@ -1,0 +1,251 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Je dois retrouver ma sœur... »",
+              "locale": "fr_FR"
+            },
+            "en_US": { "text": "\"I must find my sister…\"", "locale": "en_US" }
+          },
+          "id": "01KC94HX0AVHY6ZA0JWKNK3AQC",
+          "text": "\"I must find my sister…\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HX106018T99YW6SCZAQC",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HX0NVBFDJPXE2EXQYAW4",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWZERR0YVCZZE3HSQ50J",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HX00P9PDH8ERNE0EECBQ",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
+        "reference": "TOKEN",
+        "name": "Token"
+      },
+      "id": "75GGC238FT9VPSHB8V953CS3NG",
+      "reference": "ALT_EOLE_B_OR_31_C"
+    }
+  ],
+  "cardType": {
+    "reference": "TOKEN",
+    "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
+    "name": "Token Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZCRMA2CJWEEBDGE0V1R1J"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZCRW96DQX3JRBDQ642776"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZCS47FM0X7JERBJK8SX07"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QPJPNGPB1V1P4YGBAMB3D",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "(Si je quitte la zone d'Expédition, retirez-moi du jeu.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "(Falls ich die Expeditionszone verlasse, entferne mich aus dem Spiel.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "(Se lascio l'area delle spedizioni, rimuovimi dalla partita.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "(Si abandono la zona de expedición, retírame del juego.)",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "(If I leave the Expedition zone, remove me from the game.)",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "(If I leave the Expedition zone, remove me from the game.)"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01KJ5QPM6DFSK5GN1S2J9MSHZK"
+        }
+      ],
+      "value": "(If I leave the Expedition zone, remove me from the game.)",
+      "id": "01KJ5QPJPNGPB1V1P4YGBAMB3D"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Khoa Viet" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_31\/JPG\/en_US\/118a3667badb37b5f500131448791b36.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_31\/WEB_cbac24af5bbff765f717054904ea063e"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_31_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_31",
+  "reference": "ALT_EOLE_B_OR_31_C",
+  "translations": {
+    "de_DE": {
+      "name": "Ordis-Rekrut",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_31\/JPG\/de_DE\/f8a35e2c85902074708822c6df14925c.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Recluta Ordis",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_31\/JPG\/it_IT\/0582f90cd3cd19e13cc5da66da4b15f7.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Recluta de Ordis",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_31\/JPG\/es_ES\/7b86ea6f86cd0be31da1ca38124307f8.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Ordis Recruit",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_31\/JPG\/en_US\/118a3667badb37b5f500131448791b36.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Recrue Ordis",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_31\/JPG\/fr_FR\/7d578f491c1b61973298337432fc4116.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHY9Z7MX65T3GFG4CQJMV",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_31\/JPG\/fr_FR\/7d578f491c1b61973298337432fc4116.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_31\/JPG\/en_US\/118a3667badb37b5f500131448791b36.jpg"
+  },
+  "name": "Ordis Recruit",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "(If I leave the Expedition zone, remove me from the game.)"
+  },
+  "collectorNumberFormatted": "ROC-116-T-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

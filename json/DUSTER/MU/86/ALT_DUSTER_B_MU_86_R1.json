@@ -1,0 +1,256 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The pleasure of giving, the joy of receiving.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Plaisir d'offrir, joie de recevoir.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZPETCB41AEN1G92TZ3R1",
+          "text": "The pleasure of giving, the joy of receiving."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4E62NK1D1Z82NRVAH0J8HN3V42",
+      "reference": "ALT_DUSTER_B_MU_86_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DRUID",
+      "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+      "name": "Druid"
+    },
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KB6NEJDGR9FAH0WNA1M0V"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KB6W00YT0V9EG399BZDQV"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KB71BTQJF3WT15C37J4D8"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KB76QVPEZWNKBYF4YFQGW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KB7C5P2TVG1R1PFRJWBRC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4D9E2TPNPH5DS5N5NSCT3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Don",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Gift",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Geschenk",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Regalo",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Regalo",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2KAS1XQ23VAH9DKEBZ90PD",
+                      "reference": "GIFT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6DGE2CTZ0A3KNYFH25YWX11"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you make a [GIFT] — If I have no boosts, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous faites un [GIFT] — Si je n'ai pas de boost, je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Cuando hagas un [GIFT] — Si no tengo potenciadores, gano 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du ein [GIFT] gibst — Falls ich keine Verstärkungen habe, erhalte ich 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando fai un [GIFT] — Se non ho rinforzi, ottengo 1 rinforzo.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "When you make a [GIFT] — If I have no boosts, I gain 1 boost."
+              }
+            ],
+            "reference": "02087"
+          },
+          "sequence": 0,
+          "id": "01K6X4D9Z5Q88HHEGWY4056KA4"
+        }
+      ],
+      "value": "When you make a [Gift] — If I have no boosts, I gain 1 boost.",
+      "id": "01K6X4D9E2TPNPH5DS5N5NSCT3"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_86\/JPG\/en_US\/eb1b7dc6ee47781e87bb2627e27e5ee7.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_86\/WEB_d55a113b0830f32602e8fe67df3eac46",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_86\/WEB_612f0515b1f175066d8a4ba71f816f74",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_86\/WEB_c8aed49207f844cdddef3e882ae81430"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_86_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_86",
+  "reference": "ALT_DUSTER_B_MU_86_R1",
+  "translations": {
+    "es_ES": { "name": "Conejo agricultor", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Rabbit Farmer",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_86\/JPG\/en_US\/eb1b7dc6ee47781e87bb2627e27e5ee7.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Coniglio Agricoltore",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Kaninchenbauer", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Lapin Fermier",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_86\/JPG\/fr_FR\/389d478dba2106e1ba0943710882af9b.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ20ETDCX0K180V4RSB",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_86\/JPG\/fr_FR\/389d478dba2106e1ba0943710882af9b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_86\/JPG\/en_US\/eb1b7dc6ee47781e87bb2627e27e5ee7.jpg"
+  },
+  "name": "Rabbit Farmer",
+  "elements": {
+    "MAIN_COST": "#1#",
+    "RECALL_COST": "#1#",
+    "OCEAN_POWER": "#0#",
+    "FOREST_POWER": "#1#",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "When you make a [Gift] — If I have no boosts, I gain 1 boost."
+  },
+  "collectorNumberFormatted": "SDU-057-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

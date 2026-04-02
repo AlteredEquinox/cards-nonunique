@@ -1,0 +1,212 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": { "text": "><((((°>", "locale": "fr_FR" },
+            "en_US": { "text": "><((((°>", "locale": "en_US" }
+          },
+          "id": "01K3R4M8AYWVNX8EK9NEPHTS2M",
+          "text": "><((((°>"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "2JKDJA8Q238V9A9Z5N3B155SAD",
+      "reference": "ALT_DUSTER_P_LY_65_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZT86T2WK9P7MWV4861JA0GC"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZT86T2WK9P7MWV4861JA0GD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4W35JT5KJTWBZYW0Z5G5B",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "Comienzo la partida con un marcador de terreno de {V}, otro de {M} y otro de {O}.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "I begin the game with one {V}, one {M} and one {O} Terrain Marker.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Ich beginne das Spiel mit einem {V}, einem {M} und einem {O} Geländemarker.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Inizio la partita con un indicatore terreno {V}, uno {M} e uno {O}.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Je commence la partie avec un marqueur Terrain {V}, un {M} et un {O}.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "I begin the game with one {V}, one {M} and one {O} Terrain Marker."
+              }
+            ],
+            "reference": "01316"
+          },
+          "sequence": 0,
+          "id": "01K6X4W3THCP6ZJBSJVMW41KZF"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4W35JT5KJTWBZYW0Z5G5B",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — You may place one of my Markers on target visible region.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Zum Mittag — Du darfst einen meiner Marker auf eine sichtbare Region deiner Wahl platzieren. (Sie erhält das Gelände des Markers und verliert ihre anderen Gelände, bis der Marker entfernt wird.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Puoi posizionare uno dei miei indicatori su una regione bersaglio visibile. (Ottiene il terreno dell'indicatore e perde gli altri suoi terreni finché l'indicatore non viene rimosso.)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Vous pouvez placer l'un de mes marqueurs sur une région visible ciblée. (Elle gagne le terrain du marqueur et perd ses autres terrains jusqu'à ce que ce marqueur soit retiré.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — Puedes colocar uno de mis marcadores en una región visible objetivo. (Gana el terreno del marcador y pierde sus otros terrenos hasta que se retire el marcador.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "At Noon — You may place one of my Markers on target visible region."
+              }
+            ],
+            "reference": "01912"
+          },
+          "sequence": 1,
+          "id": "01K6X4W4BP20CKRNXR02NG7GCV"
+        }
+      ],
+      "value": "I begin the game with one {V}, one {M} and one {O} Terrain Marker.  At Noon — You may place one of my Markers on target visible region.",
+      "id": "01K6X4W35JT5KJTWBZYW0Z5G5B"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_LY_65\/JPG\/en_US\/5a77abdb1faa525ace4daa054106c5d6.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_LY_65\/HERO_THUMB_007988b5762ba29949200bbef9909432"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_LY_65\/HERO_WIDE_26c50d2afaf7f96d394c0f648e3f94c3"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_LY_65\/WEB_b355f0c2fdd8e86cc535ba410d9e2a08"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_P_LY_65_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_65",
+  "reference": "ALT_DUSTER_P_LY_65_C",
+  "translations": {
+    "es_ES": { "name": "Nadir y Burbuja", "image": null, "locale": "es_ES" },
+    "fr_FR": {
+      "name": "Nadir & Bubbles",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_P_LY_65\/JPG\/fr_FR\/4c1e7dd6575e4e82a7eeb3f887c20f93.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": { "name": "Nadir e Bollicina", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Nadir & Blubber", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Nadir & Bubbles",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_P_LY_65\/JPG\/en_US\/5a77abdb1faa525ace4daa054106c5d6.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JZJFZNM63P1HFMX2VCJNTTHS",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_LY_65\/JPG\/fr_FR\/4c1e7dd6575e4e82a7eeb3f887c20f93.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_P_LY_65\/JPG\/en_US\/5a77abdb1faa525ace4daa054106c5d6.jpg"
+  },
+  "name": "Nadir & Bubbles",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "I begin the game with one {V}, one {M} and one {O} Terrain Marker.  At Noon — You may place one of my Markers on target visible region."
+  },
+  "collectorNumberFormatted": "SDU-037-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

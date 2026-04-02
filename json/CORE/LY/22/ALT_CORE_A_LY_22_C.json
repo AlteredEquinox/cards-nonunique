@@ -1,0 +1,224 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Merci d'être mon métronome ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Thank you for being my metronome!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JH1KAE8X6D8BX82FPB13318B",
+          "text": "\"Thank you for being my metronome!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "74TEHH4QPR82MR3XPJC3GGXV1C",
+      "reference": "ALT_CORE_A_LY_22_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    { "reference": "SONG", "id": "01HKAGRNJ8WF0FSG4M2MEW7AJ2", "name": "Song" }
+  ],
+  "cardSet": {
+    "id": "01HKAFJN3HG3TWKYV0E014K01G",
+    "reference": "CORE",
+    "name": "Beyond the Gates"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JH0X57PMRPBW0KHYWRPNY5JM"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JH0X57SWCBR9B75PP5KV4QE4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K1Z6PW87JYBY4MNGV30SFDS5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Si je devais être envoyé en Réserve, défaussez-moi à la place."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Si fuese a ir a la reserva, en vez de eso, descártame."
+                        },
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "If I would be sent to Reserve, discard me instead."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Falls ich in die Reserve geschickt werden soll, lege mich stattdessen ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Se sto per finire nella Riserva, scartami invece."
+                        }
+                      },
+                      "id": "01HKAGPFQ5K77F8PMNJR8FY6PM",
+                      "reference": "FLEETING_CHAR"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS906GF8SXPRFY5KGK24EJ7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Ein Charakter deiner Wahl erhält [FLEETING_CHAR]. (Falls er in die Reserve geschickt werden soll, lege ihn stattdessen ab.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Un personaje objetivo gana [FLEETING_CHAR]. (Si fuese a ir a la reserva, en vez de eso, descártalo.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Un personaggio bersaglio ottiene [FLEETING_CHAR]. (Se sta per finire nella Riserva, scartalo invece.)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Un Personnage ciblé gagne [FLEETING_CHAR]. (S'il devait être envoyé en Réserve, défaussez-le à la place.)",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "Target Character gains [FLEETING_CHAR]. (If it would be sent to Reserve, discard it instead.)",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "Target Character gains [FLEETING_CHAR]. (If it would be sent to Reserve, discard it instead.)"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K1Z6PWJ2W91WDM2GPNRJFR3Z"
+        }
+      ],
+      "value": "Target Character gains [[Fleeting]]. (If it would be sent to Reserve, discard it instead.)",
+      "id": "01K1Z6PW87JYBY4MNGV30SFDS5"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Romain Kurdi" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_LY_22\/JPG\/en_US\/b886b7e6d1520334a877f0d2aed35941.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_LY_22\/WEB_29f29f6e01f00ea7291801209aeade27",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_LY_22\/WEB_e418cd0d8b2cee60283603bd0f527874"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_A_LY_22_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_22",
+  "reference": "ALT_CORE_A_LY_22_C",
+  "translations": {
+    "en_US": {
+      "name": "A Cappella Training",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_LY_22\/JPG\/en_US\/b886b7e6d1520334a877f0d2aed35941.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Gesangstraining",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_LY_22\/JPG\/de_DE\/796d82aa0f7fc7764ddb932d48128b05.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Entrenamiento de a capela",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_LY_22\/JPG\/es_ES\/5e02d8a93b72d147b0e46d6d0761b38b.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Addestramento a Cappella",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_LY_22\/JPG\/it_IT\/ad57a42e6cd4eadc3e0e00b919f8f22a.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Entraînement A Cappella",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_LY_22\/JPG\/fr_FR\/e348d597dbc5ef8a44a9be8b97b7d97c.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JH0V0NJ4VEH80NTCQQJDVQNQ",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_LY_22\/JPG\/fr_FR\/e348d597dbc5ef8a44a9be8b97b7d97c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_LY_22\/JPG\/en_US\/b886b7e6d1520334a877f0d2aed35941.jpg"
+  },
+  "name": "A Cappella Training",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "MAIN_EFFECT": "Target Character gains [[Fleeting]]. (If it would be sent to Reserve, discard it instead.)"
+  },
+  "collectorNumberFormatted": "BTG-082-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

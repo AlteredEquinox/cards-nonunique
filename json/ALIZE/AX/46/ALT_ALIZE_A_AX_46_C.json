@@ -1,0 +1,262 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Depuis les grottes et les crevasses, il geint et nous appelle.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "In the caves and crevices, it wails and calls to us.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JH1NW7YC57KQ9X708TW7DXWG",
+          "text": "In the caves and crevices, it wails and calls to us."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "19CC5KXC018YN8P7V9Z35VSAJZ",
+      "reference": "ALT_ALIZE_A_AX_46_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH1KVZKMWKKVWEE3TRN1NFNF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH1KVZMNF3JFA2BKWZ2YYJGJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SA99JRXXXE2ZFRMPNS21E",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Quando una carta va dal tuo mazzo o dalla tua mano nella Riserva — Ottengo 1 segnalino Prova.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando una carta vaya de tu mazo o de tu mano a la reserva — Gano 1 contador de ordalía.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsqu'une carte va en Réserve depuis votre deck ou votre main — Je gagne 1 compteur Épreuve.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When a card goes from your deck or hand to Reserve — I gain 1 Trial counter.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn eine Karte aus deinem Deck oder deiner Hand in die Reserve geht — Ich erhalte 1 Prüfungszähler.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "When a card goes from your deck or hand to Reserve — I gain 1 Trial counter."
+              }
+            ],
+            "reference": "01143"
+          },
+          "sequence": 0,
+          "id": "01KH6SA9WWCX3ZR42CTNFVHAD5"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH6SA99JRXXXE2ZFRMPNS21E",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Drachenecho 5\/5\/5",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "5\/5\/5 Reflet Draconique",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Dragon Shade 5\/5\/5",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Dragón del eco 5\/5\/5",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Spirito del Drago 5\/5\/5",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1SYC4BA2SXHS1PC4HCV9BNA",
+                      "reference": "DRAGON_SHADE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JMCY03XMMTDVJ3603MFDQDEX"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Wenn ich meinen 3. Prüfungszähler erhalte — Opfere mich. Falls du das tust, erschaffe eine [DRAGON_SHADE]-Illusionsmarke in einer Expedition deiner Wahl und stelle dann alle Karten in deiner Reserve bereit.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando ottengo il mio terzo segnalino Prova — Sacrificami. Se lo fai, crea una pedina Illusione [DRAGON_SHADE] in una spedizione bersaglio, poi ripristina tutte le carte nella tua Riserva.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando gane mi tercer contador de ordalía — Sacrifícame. Si lo haces, crea una ficha de ilusión [DRAGON_SHADE] en una expedición objetivo y luego prepara todas las cartas de tu reserva.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "When I gain my third Trial counter — Sacrifice me. If you do, create a [DRAGON_SHADE] Illusion token in target Expedition, then ready all cards in your Reserve.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je gagne mon troisième compteur Épreuve — Sacrifiez-moi. Si vous le faites, créez un jeton Illusion [DRAGON_SHADE] dans une Expédition ciblée, puis redressez toutes les cartes dans votre Réserve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When I gain my third Trial counter — Sacrifice me. If you do, create a [DRAGON_SHADE] Illusion token in target Expedition, then ready all cards in your Reserve."
+              }
+            ],
+            "reference": "01144"
+          },
+          "sequence": 1,
+          "id": "01KH6SAADD8C1FBR584Q5P804K"
+        }
+      ],
+      "value": "When a card goes from your deck or hand to Reserve — I gain 1 Trial counter.  When I gain my third Trial counter — Sacrifice me. If you do, create a [Dragon Shade 5\/5\/5] Illusion token in target Expedition, then ready all cards in your Reserve.",
+      "id": "01KH6SA99JRXXXE2ZFRMPNS21E"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_46\/JPG\/en_US\/6f024ceb2533efe22e9907496bbfe4f1.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_46\/WEB_85320d5164c0f3452f34c64fce4171cc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_46\/WEB_901b85b07b3899ca68e7df8998ac744b"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_AX_46_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_46",
+  "reference": "ALT_ALIZE_A_AX_46_C",
+  "translations": {
+    "en_US": {
+      "name": "Icebound Hollow",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_46\/JPG\/en_US\/6f024ceb2533efe22e9907496bbfe4f1.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Eisumfangenes Gewölbe",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_46\/JPG\/de_DE\/5f2c139e003a1ba450b4ce0ee1e3ef7e.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Cavità del Gelo Perpetuo",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_46\/JPG\/it_IT\/7645c2867e933c8b69a51407d13155be.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Abismo helado",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_46\/JPG\/es_ES\/37e99c72f18b8215a9e0d0300e101ffc.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Galeries Saisies par les Glaces",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_46\/JPG\/fr_FR\/efdb300a33697032b96d43291f736cd9.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JH1KM57KJQXTD897T69CFCH0",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_46\/JPG\/fr_FR\/efdb300a33697032b96d43291f736cd9.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_46\/JPG\/en_US\/6f024ceb2533efe22e9907496bbfe4f1.jpg"
+  },
+  "name": "Icebound Hollow",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "MAIN_EFFECT": "When a card goes from your deck or hand to Reserve — I gain 1 Trial counter.  When I gain my third Trial counter — Sacrifice me. If you do, create a [Dragon Shade 5\/5\/5] Illusion token in target Expedition, then ready all cards in your Reserve."
+  },
+  "collectorNumberFormatted": "TBF-016-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

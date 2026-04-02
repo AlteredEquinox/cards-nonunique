@@ -1,0 +1,247 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Haha, check it out, it's already stuffed!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Haha, regarde, il est déjà farci ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZKKCKA94PJMZ2S0SB1YF",
+          "text": "\"Haha, check it out, it's already stuffed!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1E52MZQEEY82GAH4K6Y642AGCP",
+      "reference": "ALT_DUSTER_B_BR_94_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K4KM8W8Y7BEAJVSPXJXWM"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K4KT15BMG0XQM488TBWZ0"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K4KZAX3ZV5QFFVPJR09ZX"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K4M4HHDN83ZEXYE085G86"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K4MACQ6DYT9JQJY2V7MCF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X45XQQNQFHGNEG7JC707EW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K4NDAWDPSJJVR9TY9TFWY"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{R} Crea due pedine [MANASEED] nei tuoi fulcri. (Sono permanenti con \"{T}, sacrificami: ripristina una sfera di mana\".)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Crea dos fichas de [MANASEED] en tus hitos. (Son permanentes con «{T}, sacrifícame: Prepara un orbe de maná».)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{R} Erschaffe zwei [MANASEED]-Marken in deinem Wahrzeichen-Bereich. (Sie sind Bleibende Karten mit „{T}, Opfere mich: Stelle eine Manakugel bereit.“)",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "{R} Create two [MANASEED] tokens in your Landmarks. (They are Permanents with \"{T}, Sacrifice me: Ready a Mana Orb.\")",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Créez deux jetons [MANASEED] dans vos Repères. (Ce sont des Permanents avec « {T}, Sacrifiez-moi : redressez un Orbe de Mana. »)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} Create two [MANASEED] tokens in your Landmarks. (They are Permanents with \"{T}, Sacrifice me: Ready a Mana Orb.\")"
+              }
+            ],
+            "reference": "01706"
+          },
+          "sequence": 0,
+          "id": "01K6X45YA7JP1KKKE6JF7VYMWR"
+        }
+      ],
+      "value": "{R} Create two [Manaseed] tokens in your Landmarks. (They are Permanents with \"{T}, Sacrifice me: Ready a Mana Orb.\")",
+      "id": "01K6X45XQQNQFHGNEG7JC707EW"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Victor Canton" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/JPG\/en_US\/6f265bd084699f72e2456e17d05a42dd.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/WEB_e88d5e5ee1ba1a6682a36e72b714bd06",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/WEB_85320146fd25fb8bacbccb540d1e3eb2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/WEB_c8fb4f31c33c6d3ad6f06194f5a3e081"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_94_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_94",
+  "reference": "ALT_DUSTER_B_BR_94_C",
+  "translations": {
+    "es_ES": { "name": "Pescador reka", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Pescatore Reka", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Reka-Fischer", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Pêcheur Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/JPG\/fr_FR\/a7c9dfe969f955e00229011ffe3791bd.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Reka Fisherman",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/JPG\/en_US\/6f265bd084699f72e2456e17d05a42dd.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVPK0ER66G4YGWRBJP65",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/JPG\/fr_FR\/a7c9dfe969f955e00229011ffe3791bd.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/JPG\/en_US\/6f265bd084699f72e2456e17d05a42dd.jpg"
+  },
+  "name": "Reka Fisherman",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{R} Create two [Manaseed] tokens in your Landmarks. (They are Permanents with \"{T}, Sacrifice me: Ready a Mana Orb.\")"
+  },
+  "collectorNumberFormatted": "SDU-031-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,299 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Au sommet, il attend. La liberté. La libération.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "On the summit it waits, for freedom, for release.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JH1NW7ZK7G8GVYJ2ZEQ1BQN3",
+          "text": "On the summit it waits, for freedom, for release."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "2F0JXSYYCR90ZBBN1FEAT5EPGE",
+      "reference": "ALT_ALIZE_A_BR_46_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH1KW53DHC3Q3RWVR58E80JZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH1KW56S2B0GG09FNVJF6375"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SAWHACQ3PMNE8YWT7SMFA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Si je devais être envoyé en Réserve, défaussez-moi à la place."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Si fuese a ir a la reserva, en vez de eso, descártame."
+                        },
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "If I would be sent to Reserve, discard me instead."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Falls ich in die Reserve geschickt werden soll, lege mich stattdessen ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Se sto per finire nella Riserva, scartami invece."
+                        }
+                      },
+                      "id": "01HKAGPFQ5K77F8PMNJR8FY6PM",
+                      "reference": "FLEETING_CHAR"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JMCY0CDCP2ZGCDXV0MM12B0E"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Wenn ein Charakter, den du kontrollierst, [FLEETING_CHAR] erhält — Ich erhalte 1 Prüfungszähler.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando un personaggio che controlli ottiene [FLEETING_CHAR] — Ottengo 1 segnalino Prova.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando un personaje que controles gane [FLEETING_CHAR] — Gano 1 contador de ordalía.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsqu'un Personnage que vous contrôlez gagne [FLEETING_CHAR] — Je gagne 1 compteur Épreuve.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When a Character you control gains [FLEETING_CHAR] — I gain 1 Trial counter.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "When a Character you control gains [FLEETING_CHAR] — I gain 1 Trial counter."
+              }
+            ],
+            "reference": "01146"
+          },
+          "sequence": 0,
+          "id": "01KH6SAX4ND6JGW72ST9PF311M"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH6SAWHACQ3PMNE8YWT7SMFA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Drachenecho 5\/5\/5",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "5\/5\/5 Reflet Draconique",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Dragon Shade 5\/5\/5",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Dragón del eco 5\/5\/5",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Spirito del Drago 5\/5\/5",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1SYC4BA2SXHS1PC4HCV9BNA",
+                      "reference": "DRAGON_SHADE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JMCY0D92P86DH9QJQZ56NB4R"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Wenn ich meinen 3. Prüfungszähler erhalte — Opfere mich. Falls du das tust, erschaffe eine [DRAGON_SHADE]-Illusionsmarke in einer Expedition deiner Wahl, dann erhalten alle Charaktere, die du kontrollierst, 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando ottengo il mio terzo segnalino Prova — Sacrificami. Se lo fai, crea una pedina Illusione [DRAGON_SHADE] in una spedizione bersaglio, poi tutti i personaggi che controlli ottengono 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando gane mi tercer contador de ordalía — Sacrifícame. Si lo haces, crea una ficha de ilusión [DRAGON_SHADE] en una expedición objetivo y luego todos los personajes que controlas ganan 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "When I gain my third Trial counter — Sacrifice me. If you do, create a [DRAGON_SHADE] Illusion token in target Expedition, then all Characters you control gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je gagne mon troisième compteur Épreuve — Sacrifiez-moi. Si vous le faites, créez un jeton Illusion [DRAGON_SHADE] dans une Expédition ciblée, puis tous les Personnages que vous contrôlez gagnent 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When I gain my third Trial counter — Sacrifice me. If you do, create a [DRAGON_SHADE] Illusion token in target Expedition, then all Characters you control gain 1 boost."
+              }
+            ],
+            "reference": "01147"
+          },
+          "sequence": 1,
+          "id": "01KH6SAXNPQ5F5CE7R4HMPECWM"
+        }
+      ],
+      "value": "When a Character you control gains [[Fleeting]] — I gain 1 Trial counter.  When I gain my third Trial counter — Sacrifice me. If you do, create a [Dragon Shade 5\/5\/5] Illusion token in target Expedition, then all Characters you control gain 1 boost.",
+      "id": "01KH6SAWHACQ3PMNE8YWT7SMFA"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Fahmi Fauzi" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_46\/JPG\/en_US\/40586fb16140a0021a77b6dcc991faf8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_46\/WEB_de916ef59377d3936543ab9a03d649fc",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_46\/WEB_649d4765d2c41e66bee884f97c9bc39c"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_BR_46_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_46",
+  "reference": "ALT_ALIZE_A_BR_46_C",
+  "translations": {
+    "en_US": {
+      "name": "Icebound Peak",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_46\/JPG\/en_US\/40586fb16140a0021a77b6dcc991faf8.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Pic Saisi par les Glaces",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_46\/JPG\/fr_FR\/5ea7522287b3e51f0e91351c221835cb.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Pico helado",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_46\/JPG\/es_ES\/5704674d7a2bda7b2f20e18aae6e6820.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Eisumfangener Gipfel",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_46\/JPG\/de_DE\/c0369e997ecef49025cea4197d4230b6.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Vetta del Gelo Perpetuo",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_46\/JPG\/it_IT\/7297a3d9138fd180e8464652f4c4e483.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01JH1KM57PDMD21SDEKDWTRDS7",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_46\/JPG\/fr_FR\/5ea7522287b3e51f0e91351c221835cb.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_BR_46\/JPG\/en_US\/40586fb16140a0021a77b6dcc991faf8.jpg"
+  },
+  "name": "Icebound Peak",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "MAIN_EFFECT": "When a Character you control gains [[Fleeting]] — I gain 1 Trial counter.  When I gain my third Trial counter — Sacrifice me. If you do, create a [Dragon Shade 5\/5\/5] Illusion token in target Expedition, then all Characters you control gain 1 boost."
+  },
+  "collectorNumberFormatted": "TBF-034-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

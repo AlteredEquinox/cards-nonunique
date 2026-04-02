@@ -1,0 +1,386 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Même une vie de sauvée et nous aurons gagné !",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Even one life saved is a victory for us!",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HVYS4970KEJWGQAHJ9SP",
+          "text": "Even one life saved is a victory for us!"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HW0VC3FQTSYC7SDCTW3E",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HW09SMVQQ0XTVPKSPD7M",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVY360X67ZRTWZ3VY024",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVYEDVG4NWVZ36AT4D32",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "40BZCATCMN9NM96NDYRB0CJGTX",
+      "reference": "ALT_EOLE_B_OR_115_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01K9YZ8VJV60S39GK2KXHW8WD7"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01K9YZ8VTMA5PT3M8KR0PAK4H0"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YZ8W2DZJRXQWX5NMS3631C"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ8WA57QBQX914Y14V8SKV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YZ8WHXNT9HFN9B3JS1E51H"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PXQ24AHX6J3M8CCZKTTNC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "s'Élève",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascends",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufsteigend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascende",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Asciende",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V6RJTMG7BZB84M6HA21S4",
+                      "reference": "ASCENDS"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M7PK9KE61ARKNYZM833X9"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J} Each of your Expeditions [ASCENDS].#",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "#{J} Ognuna delle tue spedizioni [ASCENDS].#",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "#{J} Jede deiner Expeditionen ist [ASCENDS].#",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "#{J} Chacune de vos Expéditions [ASCENDS].#",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "#{J} Cada una de tus expediciones [ASCENDS].#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#{J} Each of your Expeditions [ASCENDS].#"
+              }
+            ],
+            "reference": "02949"
+          },
+          "sequence": 0,
+          "id": "01KJ5PXRXSX618CQY43CNAVWZ3"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5PXQ24AHX6J3M8CCZKTTNC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "grâce à l'Élévation",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "due to Ascension",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "per via dell'Ascesa",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "aufgrund von Aufsteigend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "por ascender",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YZ68E7Q6ZTFSPSGRVNWMTM",
+                      "reference": "DUE_TO_ASCENSION"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KHBEZ6D2R9D4MB2FQ881ZX4C"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": " When #both of your Expeditions# move forward [DUE_TO_ASCENSION] — #You win the game.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn sich #beide deiner Expeditionen# [DUE_TO_ASCENSION] vorwärts bewegen — #Du gewinnst das Spiel.#",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque #vos deux Expéditions# avancent [DUE_TO_ASCENSION] — #Vous gagnez la partie.#",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Quando #entrambe le tue spedizioni# avanzano [DUE_TO_ASCENSION] — #Vinci la partita.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando #tus dos expediciones# avancen [DUE_TO_ASCENSION] — #Ganas la partida.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": " When #both of your Expeditions# move forward [DUE_TO_ASCENSION] — #You win the game.#"
+              }
+            ],
+            "reference": "03013"
+          },
+          "sequence": 1,
+          "id": "01KJ5PXTD00N4P4QWTXTG3C9HN"
+        }
+      ],
+      "value": "{J} Each of your Expeditions [Ascends].  When both of your Expeditions move forward [due to Ascension] — You win the game.",
+      "id": "01KJ5PXQ24AHX6J3M8CCZKTTNC"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "DOBA" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/JPG\/en_US\/497413451ec1ff9b47824bdd7c70eabb.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/WEB_a41873f6a30d6262a79c360ced5d5255",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/WEB_3d26d73a63cbbac16ca03a49268ed833",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/WEB_a568c4453c3a2ed292a64cfcd8146f5f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_115_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_115",
+  "reference": "ALT_EOLE_B_OR_115_R2",
+  "translations": {
+    "fr_FR": {
+      "name": "Pégase",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/JPG\/fr_FR\/ca23a4fa20abd9dc65c3b212121635c2.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Pegasus",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/JPG\/de_DE\/a073719acf677f655f6d26bba0efb77c.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Pegaso",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/JPG\/it_IT\/002b29c82349b1a3a9caa02747290d9f.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Pegasus",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/JPG\/en_US\/497413451ec1ff9b47824bdd7c70eabb.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Pegaso",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/JPG\/es_ES\/87944551f95cb809d6774bc5c9987c2a.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9WPVQ8NDEC379ZP719",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/JPG\/fr_FR\/ca23a4fa20abd9dc65c3b212121635c2.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_115\/JPG\/en_US\/497413451ec1ff9b47824bdd7c70eabb.jpg"
+  },
+  "name": "Pegasus",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "#4#",
+    "MAIN_EFFECT": "#{J} Each of your Expeditions [Ascends].#  When #both of your Expeditions# move forward [due to Ascension] — #You win the game.#"
+  },
+  "collectorNumberFormatted": "ROC-087-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

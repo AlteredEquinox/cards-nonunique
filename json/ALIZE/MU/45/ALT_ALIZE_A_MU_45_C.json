@@ -1,0 +1,298 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "On peut le percevoir dans le silence de la forêt, comme un frémissement.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "We can sense it in the woodland silences, like a tremor.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JH1NW82K3WVFJ4DAHX73YD9B",
+          "text": "We can sense it in the woodland silences, like a tremor."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "2NEGTB5KD292J814BCPYF2Y22X",
+      "reference": "ALT_ALIZE_A_MU_45_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH1KWBD7KCWN3GQ9Z2W4G0TA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JH1KWBG3210T1FT3AKHG3H8K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SC2QV09E8995NQA933FK5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Wenn du einen Charakter spielst — Falls er in {V} ist, erhalte ich 1 Prüfungszähler.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando giochi un personaggio — Se è in {V}, ottengo 1 segnalino Prova.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando juegues un personaje — Si está en {V}, gano 1 contador de ordalía.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous jouez un Personnage — S'il est en {V}, je gagne 1 compteur Épreuve.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "When you play a Character — If it's in {V}, I gain 1 Trial counter.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "When you play a Character — If it's in {V}, I gain 1 Trial counter."
+              }
+            ],
+            "reference": "01152"
+          },
+          "sequence": 0,
+          "id": "01KH6SC3BN8Q8DGYQRZXJCCR69"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH6SC2QV09E8995NQA933FK5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Drachenecho 5\/5\/5",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "5\/5\/5 Reflet Draconique",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Dragon Shade 5\/5\/5",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Dragón del eco 5\/5\/5",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Spirito del Drago 5\/5\/5",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1SYC4BA2SXHS1PC4HCV9BNA",
+                      "reference": "DRAGON_SHADE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01J2W95PYWNAYZCE5BZW2DFJR9"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01J2W95Q4QFE9BFPVHHXSRCQ79"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Quando ottengo il mio terzo segnalino prova — Sacrificami. Se lo fai, crea una pedina Illusione [DRAGON_SHADE] in una spedizione bersaglio, poi ottiene [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je gagne mon troisième compteur Épreuve — Sacrifiez-moi. Si vous le faites, créez un jeton Illusion [DRAGON_SHADE] dans une Expédition ciblée, puis il gagne [ANCHORED].",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Cuando gane mi tercer contador de ordalía — Sacrifícame. Si lo haces, crea una ficha de ilusión [DRAGON_SHADE] en una expedición objetivo y luego gana [ANCHORED].",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Wenn ich meinen 3. Prüfungszähler erhalte — Opfere mich. Falls du das tust, erschaffe eine [DRAGON_SHADE]-Illusionsmarke in einer Expedition deiner Wahl, dann erhält sie [ANCHORED].",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "When I gain my third Trial counter — Sacrifice me. If you do, create a [DRAGON_SHADE] Illusion token in target Expedition, then it gains [ANCHORED].",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "When I gain my third Trial counter — Sacrifice me. If you do, create a [DRAGON_SHADE] Illusion token in target Expedition, then it gains [ANCHORED]."
+              }
+            ],
+            "reference": "00723"
+          },
+          "sequence": 1,
+          "id": "01KH6SC3VQ3V5YGGD4QQCBXC38"
+        }
+      ],
+      "value": "When you play a Character — If it's in {V}, I gain 1 Trial counter.  When I gain my third Trial counter — Sacrifice me. If you do, create a [Dragon Shade 5\/5\/5] Illusion token in target Expedition, then it gains [[Anchored]].",
+      "id": "01KH6SC2QV09E8995NQA933FK5"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_45\/JPG\/en_US\/7c9e904f134315de3454da66f95c1494.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_45\/WEB_d0d3adc8e3fdd72f9f874029a69941f5",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_45\/WEB_f5612cf8c587a194f7a9ca3711cade61"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_MU_45_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_45",
+  "reference": "ALT_ALIZE_A_MU_45_C",
+  "translations": {
+    "en_US": {
+      "name": "Icebound Taiga",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_45\/JPG\/en_US\/7c9e904f134315de3454da66f95c1494.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Taiga helada",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_45\/JPG\/es_ES\/777aa7b92cb43c54e2d8ab88cb112e08.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Eisumfangene Taiga",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_45\/JPG\/de_DE\/c2d413aa9e6815ea897dbe17a97cc9f3.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Taiga del Gelo Perpetuo",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_45\/JPG\/it_IT\/4b9c07aa33f5473f1ea628fe85272d06.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Taïga Saisie par les Glaces",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_45\/JPG\/fr_FR\/b3a8518d2623992c584ff86031abb867.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JH1KM57RCH0JHSAJZ657N9A1",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_45\/JPG\/fr_FR\/b3a8518d2623992c584ff86031abb867.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_45\/JPG\/en_US\/7c9e904f134315de3454da66f95c1494.jpg"
+  },
+  "name": "Icebound Taiga",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "MAIN_EFFECT": "When you play a Character — If it's in {V}, I gain 1 Trial counter.  When I gain my third Trial counter — Sacrifice me. If you do, create a [Dragon Shade 5\/5\/5] Illusion token in target Expedition, then it gains [[Anchored]]."
+  },
+  "collectorNumberFormatted": "TBF-068-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

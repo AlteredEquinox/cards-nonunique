@@ -1,0 +1,327 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Trust me, it will all trickle down for everyone's benefit.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Le ruissellement profite à tous, je vous l'assure. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZSPG9JGXA7DMW775HM2Q",
+          "text": "\"Trust me, it will all trickle down for everyone's benefit.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "67A0BVX5T687CT7HBP5H9JZ3SR",
+      "reference": "ALT_DUSTER_B_OR_92_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "BUREAUCRAT",
+      "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+      "name": "Bureaucrat"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJFCAAEJFD3H7YZKV3Y6E"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJFJM7K9F8JESCMYW93KJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KJFREJYDS4PJDFFYJNRRY"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJFYX9RJJEE89B2VY5DFJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KJG5Z6TAPHFQEM6WA5HHP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4ME6Q5C4X5VDA1DVDJDF9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6DGMZZWXP60619SVNZQEDG0"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Dusk — Create a [MANASEED] token in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Au Crépuscule — Créez un jeton [MANASEED] dans vos Repères. (C'est un Permanent avec « {T}, Sacrifiez-moi : redressez un Orbe de Mana. »)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Zum Abend — Erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich. (Sie ist eine Bleibende Karte mit „{T}, Opfere mich: Stelle eine Manakugel bereit.“)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Al anochecer — Crea una ficha de [MANASEED] en tus hitos. (Es un permanente con «{T}, sacrifícame: Prepara un orbe de maná».)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Al crepuscolo — Crea una pedina [MANASEED] nei tuoi fulcri. (È un permanente con \"{T}, sacrificami: ripristina una sfera di mana\".)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "At Dusk — Create a [MANASEED] token in your Landmarks."
+              }
+            ],
+            "reference": "02092"
+          },
+          "sequence": 0,
+          "id": "01K6X4MERV15WBC15J55RJYKS0"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4ME6Q5C4X5VDA1DVDJDF9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KJDQ2MW7469CCPQAKM9F9"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#When I leave the Expedition zone — Create an [ORDIS_RECRUIT] Soldier token in my Expedition.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque je quitte la zone d'Expédition — Créez un jeton Soldat [ORDIS_RECRUIT] dans mon Expédition.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#Wenn ich die Expeditionszone verlasse — Erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in meiner Expedition.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#Cuando abandone la zona de expedición — Crea una ficha de soldado [ORDIS_RECRUIT] en mi expedición.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#Quando lascio l'area delle spedizioni — Crea una pedina Soldato [ORDIS_RECRUIT] nella mia spedizione.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#When I leave the Expedition zone — Create an [ORDIS_RECRUIT] Soldier token in my Expedition.#"
+              }
+            ],
+            "reference": "01820"
+          },
+          "sequence": 1,
+          "id": "01K6X4MF7ZKKA4ZFPBDM1EBSK6"
+        }
+      ],
+      "value": "At Dusk — Create a [Manaseed] token in your Landmarks.  When I leave the Expedition zone — Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition.",
+      "id": "01K6X4ME6Q5C4X5VDA1DVDJDF9"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_92\/JPG\/en_US\/f07af4469c8cd785a9f48d2999d6bb05.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_92\/WEB_4143f0b785270ca58e3e884196b072ff",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_92\/WEB_f683ea5f58d7d2f9438e279b2faf6d30",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_92\/WEB_b949608be2c269b6978b2386fa01b5dc"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_92_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_92",
+  "reference": "ALT_DUSTER_B_OR_92_R2",
+  "translations": {
+    "it_IT": { "name": "Investitore Reka", "image": null, "locale": "it_IT" },
+    "es_ES": { "name": "Inversor reka", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Reka-Investor", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Reka Investor",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_92\/JPG\/en_US\/f07af4469c8cd785a9f48d2999d6bb05.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Investisseur Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_92\/JPG\/fr_FR\/6b0958b1b37aa6a70b2afb99fdccf2db.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQED7AJCPD9W7KJFVHA",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_92\/JPG\/fr_FR\/6b0958b1b37aa6a70b2afb99fdccf2db.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_92\/JPG\/en_US\/f07af4469c8cd785a9f48d2999d6bb05.jpg"
+  },
+  "name": "Reka Investor",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "At Dusk — Create a [Manaseed] token in your Landmarks.  #When I leave the Expedition zone — Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition.#"
+  },
+  "collectorNumberFormatted": "SDU-080-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

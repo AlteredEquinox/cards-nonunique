@@ -1,0 +1,274 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I need to bring this back to Isaree as soon as possible!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je dois rapporter ça à Isaree au plus vite ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HPEX3W5GJE4YSQ6PDXWR",
+          "text": "\"I need to bring this back to Isaree as soon as possible!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPF38Z1QA7F6Z3MD0FR8",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPF0QWSASTYTZZAWAAA8",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPEQ61JE7EZMZ20725GW",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPETK1EFKAPQQ66JB79W",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4YR6JP8XKN8BCT8RYGGJ1GR69G",
+      "reference": "ALT_EOLE_B_AX_109_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYA7R6SB27GN9YDA3SHN4Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYA7YQYRAD8RMN104VC7K3"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYA85JVZFEPBEV6Z7QVT06"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYA8C2CVM3QMM1KZF6JC95"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYA8JB2P1J6YY1QPV6NF03"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5MKAMW6EGG2CK16RSS96K7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you pass — If your hand #is empty,# I gain #2 boosts.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du passt — Falls deine Hand #leer ist,# erhalte ich #2 Verstärkungen.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Cuando pases — Si tu mano #está vacía,# gano #2 potenciadores.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Quando passi — Se la tua mano #è vuota,# ottengo #2 rinforzi.#",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous passez — Si votre main #est vide,# je gagne #2 boosts.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you pass — If your hand #is empty,# I gain #2 boosts.#"
+              }
+            ],
+            "reference": "02753"
+          },
+          "sequence": 0,
+          "id": "01KJ5MKC214AY2TR6EF6X6BWNN"
+        }
+      ],
+      "value": "When you pass — If your hand is empty, I gain 2 boosts.",
+      "id": "01KJ5MKAMW6EGG2CK16RSS96K7"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/JPG\/en_US\/d8658c4251d183c6501b86e81e3378e5.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/WEB_0536984a15fa43839cd1b92091d497cd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/WEB_932ea509d713bd5cde2cd8f4ddc98b5b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/WEB_ee44fa3ea2c048311e8762d4e6314590"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_109_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "AX_109",
+  "reference": "ALT_EOLE_B_AX_109_R1",
+  "translations": {
+    "it_IT": {
+      "name": "Cercatrice Reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/JPG\/it_IT\/10c8a3d18e6718cbf138b4eb0273d48d.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Reka-Sammlerin",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/JPG\/de_DE\/79e0761f28b2ab7c19fbf353542ae0fd.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Récupérateur Reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/JPG\/fr_FR\/a95f4baf4f641a9f34bcdeddd7f5934c.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Reka Scavenger",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/JPG\/en_US\/d8658c4251d183c6501b86e81e3378e5.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Recuperadora reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/JPG\/es_ES\/3d6200b75247150bfb7c67c8932c8623.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY8ER40X6MV5SHSTVD3H",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/JPG\/fr_FR\/a95f4baf4f641a9f34bcdeddd7f5934c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_109\/JPG\/en_US\/d8658c4251d183c6501b86e81e3378e5.jpg"
+  },
+  "name": "Reka Scavenger",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "#1#",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "When you pass — If your hand #is empty,# I gain #2 boosts.#"
+  },
+  "collectorNumberFormatted": "ROC-005-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

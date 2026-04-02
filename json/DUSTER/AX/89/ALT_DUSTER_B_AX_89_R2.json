@@ -1,0 +1,210 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"With this new invention, we can generate a force field to protect the city!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Grâce à cette nouvelle invention, nous pourrons générer un champ de force pour protéger la cité ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJ3HWYS8G4RWX99X42G3",
+          "text": "\"With this new invention, we can generate a force field to protect the city!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5FTNQP9FE98BAR0P0BQYSPMW25",
+      "reference": "ALT_DUSTER_B_AX_89_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2JYZ5YFQE461XGPVX7EDAV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JYZAFP61MP1WVDGXQG2JD"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2JYZEYQ27CYG29898DAXTD"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2JYZKFDTCWX5RRBYRK4PPF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2JYZQYC9PS5KDY9R5MTVWV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4076YJM49N3MKW3PNP4SX",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} I gain 1 boost #per# exhausted Permanent you control and #per# exhausted card in your Reserve, up to a max of 3 boosts on me.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{R} Ottengo 1 rinforzo #per ogni# permanente consumato che controlli e #per ogni# carta consumata nella tua Riserva, fino a un max di 3 rinforzi.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Je gagne 1 boost #par# Permanent épuisé que vous contrôlez et #par# carte épuisée dans votre Réserve, jusqu'à un max de 3 boosts sur moi.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{R} Ich erhalte 1 Verstärkung #pro# erschöpfter Bleibender Karte, die du kontrollierst, und #pro# erschöpfter Karte in deiner Reserve, bis maximal 3 Verstärkungen auf mir.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{R} Gano 1 potenciador #por cada# permanente agotado que controlas y #por cada# carta agotada en tu reserva, hasta un máximo de 3 potenciadores.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{R} I gain 1 boost #per# exhausted Permanent you control and #per# exhausted card in your Reserve, up to a max of 3 boosts on me."
+              }
+            ],
+            "reference": "01659"
+          },
+          "sequence": 0,
+          "id": "01K6X407RZAANV3WHCM6R1YZZW"
+        }
+      ],
+      "value": "{R} I gain 1 boost per exhausted Permanent you control and per exhausted card in your Reserve, up to a max of 3 boosts on me.",
+      "id": "01K6X4076YJM49N3MKW3PNP4SX"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_89\/JPG\/en_US\/b2c6c27898773e5a4c58538cfb5c388e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_89\/WEB_bae80b766f4e4dc3981351a338a485a9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_89\/WEB_b9d7c4b3cbccb4dafbc874c89cab57cd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_89\/WEB_a5fc2f5e998ef7eb2b2be8dba3d1f1e0"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_89_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_89",
+  "reference": "ALT_DUSTER_B_AX_89_R2",
+  "translations": {
+    "de_DE": { "name": "Nikola Tesla", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Nikola Tesla", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Nikola Tesla", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "Nikola Tesla",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_89\/JPG\/en_US\/b2c6c27898773e5a4c58538cfb5c388e.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Nikola Tesla",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_89\/JPG\/fr_FR\/b582f1098a9d899b110907a8e95be498.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVP3C0R8NTNB8RYY6KD7",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_89\/JPG\/fr_FR\/b582f1098a9d899b110907a8e95be498.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_89\/JPG\/en_US\/b2c6c27898773e5a4c58538cfb5c388e.jpg"
+  },
+  "name": "Nikola Tesla",
+  "elements": {
+    "MAIN_COST": "#1#",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#1#",
+    "FOREST_POWER": "#1#",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "{R} I gain 1 boost #per# exhausted Permanent you control and #per# exhausted card in your Reserve, up to a max of 3 boosts on me."
+  },
+  "collectorNumberFormatted": "SDU-005-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

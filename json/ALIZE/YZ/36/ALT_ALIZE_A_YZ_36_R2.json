@@ -1,0 +1,267 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Alone, she was able to turn back the tide.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Même seule, elle parvint à dompter la marée.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01J3JJ8AAMPRAQAHN9GPEC4JGQ",
+          "text": "Alone, she was able to turn back the tide."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "24C5C273F58DJS90NYQ68N6NQ6",
+      "reference": "ALT_ALIZE_A_YZ_36_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01J3GVW6Q7N1VFQXR55WQTTCHC"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVW6TTHD2CHEFJGA30HZ7H"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVW6Y8ZM07MQHWY0X9D7MX"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVW71QJ0TJSRX6WQ9A9FQS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVW756K5CG7BJEM0E0HYN8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SD9AHH9T9NBY3264TAS4P",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{H} Du darfst einen #Charakter# aus deiner Reserve ablegen, um mir #2 Verstärkungen# zu geben.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes descartar un #personaje# de tu reserva para darme #2 potenciadores.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez défausser un #Personnage# de votre Réserve pour me donner #2 boosts.#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{H} You may discard a #Character# from your Reserve to give me #2 boosts.#",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi scartare un #personaggio# dalla tua Riserva per conferirmi #2 rinforzi.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} You may discard a #Character# from your Reserve to give me #2 boosts.#"
+              }
+            ],
+            "reference": "01156"
+          },
+          "sequence": 0,
+          "id": "01KH6SD9Y852K3AQHAKVTE6R2Q"
+        }
+      ],
+      "value": "{H} You may discard a Character from your Reserve to give me 2 boosts.",
+      "id": "01KH6SD9AHH9T9NBY3264TAS4P"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SDAHF97YE1E35G5VH3HAD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "#{D} : Der nächste Charakter, den du in dieser Runde spielst, kostet {1} weniger.# (Lege mich aus der Reserve ab, um diese Aktion auszuführen.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{D}: Il prossimo personaggio che giochi in questo turno costa {1} in meno.# (Scartami dalla Riserva per eseguire questa azione.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{D}: El siguiente personaje que juegues este turno cuesta {1} menos.# (Descártame de la reserva para hacer esto).",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{D} : Le prochain Personnage que vous jouez ce tour coûte {1} de moins.# (Défaussez-moi de la Réserve pour ça.)",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#{D} : The next Character you play this turn costs {1} less.# (Discard me from Reserve to do this.)",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "#{D} : The next Character you play this turn costs {1} less.# (Discard me from Reserve to do this.)"
+              }
+            ],
+            "reference": "00588"
+          },
+          "sequence": 0,
+          "id": "01KH6SDB5ACFEDEJ798G7ARE73"
+        }
+      ],
+      "value": "{D} : The next Character you play this turn costs {1} less. (Discard me from Reserve to do this.)",
+      "id": "01KH6SDAHF97YE1E35G5VH3HAD"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Khoa Viet" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/JPG\/en_US\/28e4661bd5c06dff109b380d28b7aca7.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/WEB_53a82ae2856d12de25810a089441e79c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/WEB_b189d83c138d7ea0198a71f01e0bdbba",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/WEB_16028edda7bf811970b8070d484f358a"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_YZ_36_R2",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_36",
+  "reference": "ALT_ALIZE_A_YZ_36_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Aroro, Salvezza di Asgartha",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/JPG\/it_IT\/6fc9644513bfd1ecf20cddc2838aa6c6.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Aroro, salvadora de Asgartha",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/JPG\/es_ES\/b12d9d3d3b843dd377d7bfb1dadf89cc.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Aroro, Retterin von Asgartha",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/JPG\/de_DE\/ade110be9e1801ec5279dc7a19381d1f.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Aroro, Savior of Asgartha",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/JPG\/en_US\/28e4661bd5c06dff109b380d28b7aca7.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Aroro, Rempart d'Asgartha",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/JPG\/fr_FR\/07099277a3e0f2c8be3d03d4145fe34a.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01J3GV57Y2A8CYZ51W2P61ASYA",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/JPG\/fr_FR\/07099277a3e0f2c8be3d03d4145fe34a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_YZ_36\/JPG\/en_US\/28e4661bd5c06dff109b380d28b7aca7.jpg"
+  },
+  "name": "Aroro, Savior of Asgartha",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} You may discard a #Character# from your Reserve to give me #2 boosts.#",
+    "ECHO_EFFECT": "#{D} : The next Character you play this turn costs {1} less.# (Discard me from Reserve to do this.)"
+  },
+  "collectorNumberFormatted": "TBF-092-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,230 @@
+{
+  "loreEntries": [],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K60PWD4QGVC8C5Q3GZH3683Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K60PWD4QGVC8C5Q3GZH3683R"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH66W0CVXXG8HG9E1G4FAFNF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Don",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Gift",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Geschenk",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Regalo",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Regalo",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2KAS1XQ23VAH9DKEBZ90PD",
+                      "reference": "GIFT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K4ZGRW6NNRW83DJBZ7K08MPY"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "Cuando hagas un [GIFT] — Puedes agotarme ({T}) para recibirlo también. (Un Regalo ocurre si, durante tu turno, un oponente roba una carta, se reabastece o recibe una ficha.)",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "When you make a [GIFT] — You may exhaust me ({T}) to also receive it. (A Gift is when on your turn, an opponent draws a card, Resupplies or receives a token.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous faites un [GIFT] — Vous pouvez m'épuiser ({T}) pour le recevoir aussi. (Vous faites un Don si durant votre tour, un adversaire pioche une carte, Ravitaille ou reçoit un jeton.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du ein [GIFT] gibst — Du darfst mich erschöpfen ({T}), um es auch zu erhalten. (Ein Geschenk entsteht, wenn ein Gegner während deines Zuges eine Karte zieht, Nachschub nutzt oder eine Marke erhält.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando fai un [GIFT] — Puoi consumarmi ({T}) per riceverlo anche tu. (Un Regalo avviene se, durante il tuo turno, l’avversario pesca una carta, si Rifornisce o riceve una pedina.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "When you make a [GIFT] — You may exhaust me ({T}) to also receive it. (A Gift is when on your turn, an opponent draws a card, Resupplies or receives a token.)"
+              }
+            ],
+            "reference": "02046"
+          },
+          "sequence": 0,
+          "id": "01KH66W13116YQP1NVB2SA8GCM"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH66W0CVXXG8HG9E1G4FAFNF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Ignore my ability during the first Day.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Ignorez ma capacité le premier Jour.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Ignoriere meine Fähigkeit am ersten Tag.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Ignora la mia abilità il primo Giorno.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Ignora mi habilidad el primer Día.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "Ignore my ability during the first Day."
+              }
+            ],
+            "reference": "02047"
+          },
+          "sequence": 1,
+          "id": "01KH66W1N7CPTD6YYD7CH7QNZN"
+        }
+      ],
+      "value": "When you make a [Gift] — You may exhaust me ({T}) to also receive it. (A Gift is when on your turn, an opponent draws a card, Resupplies or receives a token.)  Ignore my ability during the first Day.",
+      "id": "01KH66W0CVXXG8HG9E1G4FAFNF"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_85\/JPG\/en_US\/4c9a1e7d3b5f8026c1a3d9e7b5f2c4a8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_85\/WEB_b6902a2699e74065f0a0afd45d78d429"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_MU_85_C_024",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_85",
+  "reference": "ALT_DUSTERCB_P_MU_85_C_024",
+  "translations": {
+    "de_DE": {
+      "name": "Turuun & Benih",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_85\/JPG\/en_US\/4c9a1e7d3b5f8026c1a3d9e7b5f2c4a8.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Turuun & Benih",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_85\/JPG\/en_US\/4c9a1e7d3b5f8026c1a3d9e7b5f2c4a8.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Turuun y Benih",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_85\/JPG\/en_US\/4c9a1e7d3b5f8026c1a3d9e7b5f2c4a8.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Turuun & Benih",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_85\/JPG\/fr_FR\/4c9a1e7d3b5f8026c1a3d9e7b5f2c4a8.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Turuun e Benih",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_85\/JPG\/en_US\/4c9a1e7d3b5f8026c1a3d9e7b5f2c4a8.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01K60PWD4QGVC8C5Q3GZH3683P",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_85\/JPG\/fr_FR\/4c9a1e7d3b5f8026c1a3d9e7b5f2c4a8.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_MU_85\/JPG\/en_US\/4c9a1e7d3b5f8026c1a3d9e7b5f2c4a8.jpg"
+  },
+  "name": "Turuun & Benih",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "When you make a [Gift] — You may exhaust me ({T}) to also receive it. (A Gift is when on your turn, an opponent draws a card, Resupplies or receives a token.)  Ignore my ability during the first Day."
+  },
+  "collectorNumberFormatted": "SDUCB-040-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": true,
+  "isParentSerialized": false
+}

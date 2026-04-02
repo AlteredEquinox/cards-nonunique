@@ -1,0 +1,248 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The secret of illusion lies in misdirection.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Le secret de l'illusion réside dans la diversion.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZVW2CJZ6B0KJMVFG2RTJ",
+          "text": "The secret of illusion lies in misdirection."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "794CMHDN1J9G3RNFHZETR904E7",
+      "reference": "ALT_DUSTER_B_YZ_86_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    },
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KPN7YNF3146FG0P8WV418"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KPNE2SQ70WW4EWHJQJ8PJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KPNM3Q64BE1ZT1C0CHV1B"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KPNT6KWFH7SGV7X5EX2ZV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KPP07H8WYNEWDJX0TM1PT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4QPGP71PP1ZD9HTGJQ9N0",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Mana-Motte 2\/2\/2",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "2\/2\/2 Phalène de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Polilla de maná 2\/2\/2",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Mana Moth 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Falena di Mana 2\/2\/2",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1QBE0WTGPC1NV3KZ8A7GMYT",
+                      "reference": "MANA_MOTH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KPQ9X0JVC247RBMEGQGDQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Create a [MANA_MOTH] Illusion token in #target Expedition.# Then, #the controller of the Expedition facing that Illusion# draws a card.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Créez un jeton Illusion [MANA_MOTH] dans #une Expédition ciblée.# Puis, #le contrôleur de l'Expédition qui fait face à cette Illusion# pioche une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{H} Crea una pedina Illusione [MANA_MOTH] in una #spedizione bersaglio.# Poi, #il controllore della spedizione che affronta l'Illusione# pesca una carta.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Crea una ficha de ilusión [MANA_MOTH] en una #expedición objetivo.# Luego, #el controlador de la expedición enfrentada a esa ilusión# roba una carta.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{H} Erschaffe eine [MANA_MOTH]-Illusionsmarke in einer #Expedition deiner Wahl.# Dann zieht #der kontrollierende Spieler der Expedition, die dieser Illusion gegenübersteht,# eine Karte.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} Create a [MANA_MOTH] Illusion token in #target Expedition.# Then, #the controller of the Expedition facing that Illusion# draws a card."
+              }
+            ],
+            "reference": "01853"
+          },
+          "sequence": 0,
+          "id": "01K6X4QQ3JM0BJRYWZZQZXQ8ZW"
+        }
+      ],
+      "value": "{H} Create a [Mana Moth 2\/2\/2] Illusion token in target Expedition. Then, the controller of the Expedition facing that Illusion draws a card.",
+      "id": "01K6X4QPGP71PP1ZD9HTGJQ9N0"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_86\/JPG\/en_US\/6a82f894f9f3fa4ec7ce3c7ccff06186.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_86\/WEB_9c76d31bd4339d1bb1c368034bce38d2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_86\/WEB_5e5f82679b39f97aeeeba23a39b25ad6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_86\/WEB_708d93a4697d486f1758c415fb70c65b"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_86_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_86",
+  "reference": "ALT_DUSTER_B_YZ_86_R1",
+  "translations": {
+    "en_US": {
+      "name": "Harry Houdini",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_86\/JPG\/en_US\/6a82f894f9f3fa4ec7ce3c7ccff06186.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Harry Houdini", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Harry Houdini", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Harry Houdini", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Harry Houdini",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_86\/JPG\/fr_FR\/4cae6bb91bb6b18ee59d5fa93965bf69.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQN5FRRQ422W8D6RG6P",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_86\/JPG\/fr_FR\/4cae6bb91bb6b18ee59d5fa93965bf69.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_86\/JPG\/en_US\/6a82f894f9f3fa4ec7ce3c7ccff06186.jpg"
+  },
+  "name": "Harry Houdini",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} Create a [Mana Moth 2\/2\/2] Illusion token in #target Expedition.# Then, #the controller of the Expedition facing that Illusion# draws a card."
+  },
+  "collectorNumberFormatted": "SDU-094-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,240 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I'll show you how to work without a net!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je vais vous montrer comment on travaille sans filet ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KJ5PA2JER3GENDY1YQSRXZ05",
+          "text": "\"I'll show you how to work without a net!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1G1YRQA22V9HKVXC3JJNZQ4WWT",
+      "reference": "ALT_DUSTERCB_P_BR_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01K6ASRNQ6XN7B3ZPSHBP7RFRD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01K6ASRNWWZ1J71AVS4C9JWCPE"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K6ASRP2SNX5CJM9YTKFFJNH0"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K6ASRP8RQ0NYNZDE4ACPSY0Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01K6ASRPEG9GEBKCGW7K6VEWHH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH66P77KNZ9VVVGQDTT1CQ14",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Giocami per {1} in meno per ogni altra carta che hai giocato in questo turno.",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "Play me for {1} less per other card you played this turn.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Jugame por {1} menos por cada otra carta que hayas jugado este turno.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Spiele mich für {1} weniger pro andere Karte, die du in dieser Runde gespielt hast.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Jouez-moi pour {1} de moins par autre carte que vous avez jouée ce tour-ci.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Play me for {1} less per other card you played this turn."
+              }
+            ],
+            "reference": "01888"
+          },
+          "sequence": 0,
+          "id": "01KH66P7WSR7RVKJ0P0P0RWPPM"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH66P77KNZ9VVVGQDTT1CQ14",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "{J} Passez.", "locale": "fr_FR" },
+                  "en_US": { "text": "{J} Pass.", "locale": "en_US" },
+                  "de_DE": { "text": "{J} Passe.", "locale": "de_DE" },
+                  "es_ES": { "text": "{J} Pasa.", "locale": "es_ES" },
+                  "it_IT": { "text": "{J} Passa.", "locale": "it_IT" }
+                },
+                "text": "{J} Pass."
+              }
+            ],
+            "reference": "02714"
+          },
+          "sequence": 1,
+          "id": "01KH66P8DS9VBSCXXP84R31KMG"
+        }
+      ],
+      "value": "Play me for {1} less per other card you played this turn.  {J} Pass.",
+      "id": "01KH66P77KNZ9VVVGQDTT1CQ14"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_98\/JPG\/en_US\/4e5bf6a11ea691bcf2253801a97e1e8c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_98\/WEB_2198c406d84040ab2bce9b4627bdbdec",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_98\/WEB_b750f5036d55278764fa49334da773e9"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_BR_98_E",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_98",
+  "reference": "ALT_DUSTERCB_P_BR_98_E",
+  "translations": {
+    "fr_FR": {
+      "name": "Wanax, Hexarque Reka",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_98\/JPG\/fr_FR\/f52844659188d4172a4d12dd7a628e3e.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": { "name": "Wanax, Esarca Reka", "image": null, "locale": "it_IT" },
+    "de_DE": {
+      "name": "Wanax, Reka-Hexarchin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Wanax, hexarca reka",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Wanax, Reka Hexarch",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_98\/JPG\/en_US\/4e5bf6a11ea691bcf2253801a97e1e8c.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K60PWD0DJBPZYC8N950EJPDP",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_98\/JPG\/fr_FR\/f52844659188d4172a4d12dd7a628e3e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_BR_98\/JPG\/en_US\/4e5bf6a11ea691bcf2253801a97e1e8c.jpg"
+  },
+  "name": "Wanax, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "6",
+    "MOUNTAIN_POWER": "6",
+    "MAIN_EFFECT": "Play me for {1} less per other card you played this turn.  {J} Pass."
+  },
+  "collectorNumberFormatted": "SDUCB-026-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

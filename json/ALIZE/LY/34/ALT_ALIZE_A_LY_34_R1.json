@@ -1,0 +1,293 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Of course I'm cheating. That's what magic is all about.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Bien sûr que je triche. La magie, c'est de la triche. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01J3JJBRQEVM2HFZDQB2JK35HR",
+          "text": "\"Of course I'm cheating. That's what magic is all about.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "7ZANB29RZD8V0BMQZK12SFPNP7",
+      "reference": "ALT_ALIZE_A_LY_34_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVQPB954D8HVT3Y5GA7QM"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVQT8B3AD1KNSFV9R0PEK"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01J3GVVQY4FQ7B1BNVSB1EAP3E"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVR25AS3A9A3JY5Q09JEJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVR60E9FFSBCXR4X2HDCR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SB9HJDBVBH23N86V0HJY4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Exhausted Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve, then exhaust it {T}."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Erschöpfter Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve, dann erschöpfe sie {T}."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci-Consuma",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva, poi consumala {T}."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece y agota",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva y luego agótala {T}."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez Épuisé",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve, puis épuisez-la {T}."
+                        }
+                      },
+                      "id": "01J1QB6AA2K2V8S60PJSCJGR46",
+                      "reference": "EXHAUSTED_RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01K1Z6SKE9BNBD6YS79RJC9M2Z"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{H} $[EXHAUSTED_RESUPPLY].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{H} $[EXHAUSTED_RESUPPLY].#",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "#{H} $[EXHAUSTED_RESUPPLY]#.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "#{H} $[EXHAUSTED_RESUPPLY]#.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{H} $[EXHAUSTED_RESUPPLY]#.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{H} $[EXHAUSTED_RESUPPLY].#"
+              }
+            ],
+            "reference": "01971"
+          },
+          "sequence": 0,
+          "id": "01KH6SBA5F4VVSXH7FSG0ED4DN"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH6SB9HJDBVBH23N86V0HJY4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{J} Échangez une carte ciblée de votre Réserve contre une carte de votre main.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{J} Scambia una carta bersaglio dalla tua Riserva con una carta dalla tua mano.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Intercambia la carta objetivo de tu reserva por una carta de tu mano.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{J} Exchange target card from your Reserve with a card from your hand.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Tausche eine Karte deiner Wahl aus deiner Reserve mit einer Karte aus deiner Hand aus.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{J} Exchange target card from your Reserve with a card from your hand."
+              }
+            ],
+            "reference": "01169"
+          },
+          "sequence": 1,
+          "id": "01KH6SBANJ2GSAS94XWE53XJ8A"
+        }
+      ],
+      "value": "{H} [Exhausted Resupply]. (Put the top card of your deck in Reserve, then exhaust it {T}.)  {J} Exchange target card from your Reserve with a card from your hand.",
+      "id": "01KH6SB9HJDBVBH23N86V0HJY4"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/en_US\/b4d6bc8bc5baa234578b90ef4313c175.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/WEB_809cdb8eb021f0a3e85e534f6baaff25",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/WEB_3ab63f553ee38e7b3e3ded1ef916d25e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/WEB_b0794dbb2daefecfe61ec0c2fc3f90fd"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_LY_34_R1",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_34",
+  "reference": "ALT_ALIZE_A_LY_34_R1",
+  "translations": {
+    "en_US": {
+      "name": "Nyala, Gifted Conjurer",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/en_US\/b4d6bc8bc5baa234578b90ef4313c175.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Nyala, begnadete Zauberin",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/de_DE\/709219409f3b8d378f58d25d28eee7c6.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Nyala, hechicera talentosa",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/es_ES\/1ab58ecec66c8347cf2cb2e1b6c9fe3d.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Nyala, Habile Illusionniste",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/fr_FR\/a99cae528bffcc71b8d6c3afd01e648c.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Nyala, Talentuosa Evocatrice",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/it_IT\/e89e4ee69634f17db52a2f7f5f3b062b.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01J3GRD5HN9TFSDEYVNNHSEPYT",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/fr_FR\/a99cae528bffcc71b8d6c3afd01e648c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_LY_34\/JPG\/en_US\/b4d6bc8bc5baa234578b90ef4313c175.jpg"
+  },
+  "name": "Nyala, Gifted Conjurer",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#{H} [Exhausted Resupply].# (Put the top card of your deck in Reserve, then exhaust it {T}.)  {J} Exchange target card from your Reserve with a card from your hand."
+  },
+  "collectorNumberFormatted": "TBF-041-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

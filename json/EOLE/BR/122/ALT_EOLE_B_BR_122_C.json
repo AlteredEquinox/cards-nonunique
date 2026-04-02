@@ -1,0 +1,258 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Don't let them outflank us!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Ne les laissez pas nous prendre à revers ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HQMH2YBNPMDZ8GHFPDME",
+          "text": "\"Don't let them outflank us!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQN1YRMH9MYA2752SVGJ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQMTRSQVFHN0A94292PE",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQM0512KJC2S2S5PTPZF",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQM8QJ7086NRN2HSG0QQ",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "0KB6TXT05F9J4VZDB61JA47XV2",
+      "reference": "ALT_EOLE_B_BR_122_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYMT1XJ8QRSBWJ9M06XBAK"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYMT8KH82T0JQRQ8VB76G7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5N9WZQRXJFGYZS5FS1R6TT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "PLACEHOLDER", "locale": "en_US" },
+                  "fr_FR": { "text": "PLACEHOLDER", "locale": "fr_FR" },
+                  "de_DE": { "text": "PLACEHOLDER", "locale": "de_DE" },
+                  "es_ES": { "text": "PLACEHOLDER", "locale": "es_ES" },
+                  "it_IT": { "text": "PLACEHOLDER", "locale": "it_IT" }
+                },
+                "text": "PLACEHOLDER"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5N9YMMQY7YY20MCWB5S5VR"
+        }
+      ],
+      "value": "PLACEHOLDER",
+      "id": "01KJ5N9WZQRXJFGYZS5FS1R6TT"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NA07YT051BAE6EJ4FXDKK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "PLACEHOLDER", "locale": "en_US" },
+                  "fr_FR": { "text": "PLACEHOLDER", "locale": "fr_FR" },
+                  "de_DE": { "text": "PLACEHOLDER", "locale": "de_DE" },
+                  "es_ES": { "text": "PLACEHOLDER", "locale": "es_ES" },
+                  "it_IT": { "text": "PLACEHOLDER", "locale": "it_IT" }
+                },
+                "text": "PLACEHOLDER"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5NA2058F8AP0AFGFN24824"
+        }
+      ],
+      "value": "PLACEHOLDER",
+      "id": "01KJ5NA07YT051BAE6EJ4FXDKK"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Anh Tung - Ba Vo" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/en_US\/17d94d6392b9d43a4eafcbd6e3d0cda2.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/WEB_bc996c0b08da57ef34b5b2f0ede18d8e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/WEB_0b44a57b77bf294616429e5cb714a045"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_122_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_122",
+  "reference": "ALT_EOLE_B_BR_122_C",
+  "translations": {
+    "es_ES": {
+      "name": "Defender la posición",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/es_ES\/1e7b4d5dc9bd55c4e3479b81ad9528fa.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Haltet die Linie!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/de_DE\/1c902f8964473837d8e723769fe4e187.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Mantenere la Posizione!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/it_IT\/75f3c89c15d4ec1fcb25903004e9ba72.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Hold the Line!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/en_US\/17d94d6392b9d43a4eafcbd6e3d0cda2.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Tenez bon !",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/fr_FR\/e0a33a8ef5ca9411fa6881d2477665f7.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHY918C89A4RCX48RQSE0",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/fr_FR\/e0a33a8ef5ca9411fa6881d2477665f7.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_122\/JPG\/en_US\/17d94d6392b9d43a4eafcbd6e3d0cda2.jpg"
+  },
+  "name": "Hold the Line!",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "PLACEHOLDER",
+    "ECHO_EFFECT": "PLACEHOLDER"
+  },
+  "collectorNumberFormatted": "ROC-033-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

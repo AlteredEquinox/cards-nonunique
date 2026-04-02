@@ -1,0 +1,311 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "It's not easy to lead the way…",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Pas facile de montrer la voie...",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HPDRJ8C80S25X77CJJTB",
+          "text": "It's not easy to lead the way…"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPDY3850Y41W4JJ2FB4V",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPDV6MXB7C3EX509E94P",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPDHH5N9P0HFYZP9H9WS",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPDN07ZCP2HHSSN1QW52",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1CHQXF7EH594YS1A1K70QWBZ0G",
+      "reference": "ALT_EOLE_B_AX_107_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YY9JMCEEBA9643TZQT9MPC"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YY9JTP7XYKRJP25QR1K6VG"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YY9K0QQCGRCAXZ84E5E47R"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YY9K6PEZXBK0RBEACQND8G"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YY9KCP02KJXCXZNJM29862"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5MMC1SPQC6682R0E474S81",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Aérolithe",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Aerolith",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aerolit",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Aerolite",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Aerolito",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V2BFTDBEPJRRHWC5YM548",
+                      "reference": "AEROLITH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7JWX83JWR99939KD9DFN3R"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "#{H}# Vous pouvez mettre une carte de votre main en Réserve pour créer un jeton [AEROLITH] dans vos Repères.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#{H}# You may put a card from your hand in Reserve to create an [AEROLITH] token in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{H}# Du darfst eine Karte aus deiner Hand in die Reserve legen, um eine [AEROLITH]-Marke in deinem Wahrzeichen-Bereich zu erschaffen.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{H}# Puedes colocar una carta de tu mano en la reserva para crear una ficha de [AEROLITH] en tus hitos.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{H}# Puoi mettere una carta dalla tua mano nella Riserva per creare una pedina [AEROLITH] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{H}# You may put a card from your hand in Reserve to create an [AEROLITH] token in your Landmarks."
+              }
+            ],
+            "reference": "02746"
+          },
+          "sequence": 0,
+          "id": "01KJ5MMDT2WSBT93E5VW78TPAX"
+        }
+      ],
+      "value": "{H} You may put a card from your hand in Reserve to create an [Aerolith] token in your Landmarks.",
+      "id": "01KJ5MMC1SPQC6682R0E474S81"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/JPG\/en_US\/a0e7ad68ca70b6f8cde78758049d5319.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/WEB_d0946020f9e959e13063ec33910ff945",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/WEB_31b87dcb0c588bb0daceec33afa5bf60",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/WEB_7e9eff6270d44b643d9bcac20b954c75"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_107_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "AX_107",
+  "reference": "ALT_EOLE_B_AX_107_R2",
+  "translations": {
+    "en_US": {
+      "name": "Hop-o'-my-Thumb",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/JPG\/en_US\/a0e7ad68ca70b6f8cde78758049d5319.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Pollicino",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/JPG\/it_IT\/46bf5ce45669900f00aecec10576d2c6.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Der kleine Däumling",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/JPG\/de_DE\/464761967d6d4a5f2fbf4bdd1bdf16d7.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Petit Poucet",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/JPG\/fr_FR\/46c5de2420263f03c2d252c8fc8d4a67.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Pulgarcito",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/JPG\/es_ES\/ab72234caba5f46ff184069849a39e30.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY8ER40X6MV5SHSTVD32",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/JPG\/fr_FR\/46c5de2420263f03c2d252c8fc8d4a67.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_107\/JPG\/en_US\/a0e7ad68ca70b6f8cde78758049d5319.jpg"
+  },
+  "name": "Hop-o'-my-Thumb",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#1#",
+    "OCEAN_POWER": "#1#",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "#{H}# You may put a card from your hand in Reserve to create an [Aerolith] token in your Landmarks."
+  },
+  "collectorNumberFormatted": "ROC-006-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,322 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I've never felt this close to anyone.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je ne me suis jamais sentie aussi proche de qui que ce soit. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZM2X4AZSYAN45A8SFKG6",
+          "text": "\"I've never felt this close to anyone.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "46WVEDB2KE8THATPV79Z2NSTTW",
+      "reference": "ALT_DUSTER_B_LY_100_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01JZ2K9YYY1RX2J71JBD6JWBG2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01JZ2K9Z478S7NPQR1G3M4CN92"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X47KADZHW5JYE3JFWMJKRZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS90B5HHFKG3X7S4PHYMMTA"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": { "text": "#[FLEETING].#", "locale": "es_ES" },
+                  "it_IT": { "text": "#[FLEETING].#", "locale": "it_IT" },
+                  "de_DE": { "text": "#[FLEETING].#", "locale": "de_DE" },
+                  "fr_FR": { "text": "#[FLEETING].#", "locale": "fr_FR" },
+                  "en_US": { "text": "#[FLEETING].#", "locale": "en_US" }
+                },
+                "text": "#[FLEETING].#"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K6X47KYNSHSNG6ZEWQCBNW6R"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X47KADZHW5JYE3JFWMJKRZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#Do this for each player, starting with you:#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#Faites ceci pour chaque joueur, en commençant par vous :#",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "#Por cada jugador, empezando por ti:#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#Ripeti per ogni giocatore, a cominciare da te:#",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "#Für jeden Spieler, angefangen bei dir:#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "#Do this for each player, starting with you:#"
+              }
+            ],
+            "reference": "02006"
+          },
+          "sequence": 1,
+          "id": "01K6X47MC4QAY91TX9NASHSHMY"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X47KADZHW5JYE3JFWMJKRZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWR7KHE4FAH1GM3TYPB6JT"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• That player reveals the top four cards of their deck. You may play a Character #with Base Cost {3} or less# from these cards for free and it gains [FLEETING], then discard the rest.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "• El jugador revela las cuatro primeras cartas de su mazo. Puedes jugar sin coste un personaje #con coste base de {3} o menos# de entre ellas. Gana [FLEETING]. Luego, descarta el resto.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• Ce joueur révèle les quatre premières cartes de son deck. Vous pouvez jouer gratuitement un Personnage #de Coût de Main {3} ou moins# parmi ces cartes, il gagne [FLEETING], puis défaussez le reste.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "• Der Spieler deckt die obersten vier Karten seines Decks auf. Du darfst einen Charakter #mit Handkosten {3} oder weniger# aus diesen Karten kostenlos spielen und er erhält [FLEETING], dann lege die restlichen Karten ab.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• Quel giocatore rivela le prime quattro carte del suo mazzo. Puoi giocare un personaggio #con costo base pari o inferiore a {3}# tra quelle carte senza pagarne il costo e fargli ottenere [FLEETING], poi scartare il resto.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "• That player reveals the top four cards of their deck. You may play a Character #with Base Cost {3} or less# from these cards for free and it gains [FLEETING], then discard the rest."
+              }
+            ],
+            "reference": "01944"
+          },
+          "sequence": 2,
+          "id": "01K6X47MSKVKZDB8FZAJHGD4N8"
+        }
+      ],
+      "value": "[[Fleeting]].  Do this for each player, starting with you:  • That player reveals the top four cards of their deck. You may play a Character with Base Cost {3} or less from these cards for free and it gains [[Fleeting]], then discard the rest.",
+      "id": "01K6X47KADZHW5JYE3JFWMJKRZ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_100\/JPG\/en_US\/933eb882683df3e0c4372bd021a030b3.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_100\/WEB_002ee4b6fef9a3feb9a0b5c493df4367",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_100\/WEB_977bee2c5f3b7432d4131dada5541639"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_100_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_100",
+  "reference": "ALT_DUSTER_B_LY_100_R1",
+  "translations": {
+    "de_DE": {
+      "name": "Romantische Begegnung",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Encuentro romántico",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": { "name": "Incontro Romantico", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Rencontre Romantique",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_100\/JPG\/fr_FR\/3f02d60447b7f4f2bb766e6718a0dbc6.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Romantic Encounter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_100\/JPG\/en_US\/933eb882683df3e0c4372bd021a030b3.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVPYT09D86WNTEYRBXF6",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_100\/JPG\/fr_FR\/3f02d60447b7f4f2bb766e6718a0dbc6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_100\/JPG\/en_US\/933eb882683df3e0c4372bd021a030b3.jpg"
+  },
+  "name": "Romantic Encounter",
+  "elements": {
+    "MAIN_COST": "#7#",
+    "RECALL_COST": "#7#",
+    "MAIN_EFFECT": "#[[Fleeting]].#  #Do this for each player, starting with you:#  • That player reveals the top four cards of their deck. You may play a Character #with Base Cost {3} or less# from these cards for free and it gains [[Fleeting]], then discard the rest."
+  },
+  "collectorNumberFormatted": "SDU-052-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

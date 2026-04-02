@@ -1,0 +1,222 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Parasitic or symbiotic, life will always find a way to blossom... like this algae.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Parasitisme ou symbiose, la vie trouve toujours un moyen d'éclore.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01J3JJ6ASQCCX9CFRMGKAMY87Z",
+          "text": "Parasitic or symbiotic, life will always find a way to blossom... like this algae."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1CH80TG4S9839A956T5PAM9NCV",
+      "reference": "ALT_ALIZE_A_MU_35_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVTKJ283BW4DTKXP2D8BV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01J3GVVTQ0M4T5M0E46XDMYRTN"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVTTE48XP6ETWBBACP421"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVTYD6PZWSMJBMDT359EJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVV218E98FPZD5K3VGT0M"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6SBSNVPP29HAPJJPY4SZGF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{J} Du darfst einem anderen Charakter deiner Wahl in {V} 2 Verstärkungen geben.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Puedes dar 2 potenciadores a otro personaje objetivo en {V}.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} Puoi conferire 2 rinforzi a un altro personaggio bersaglio in {V}.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez donner 2 boosts à un autre Personnage ciblé en {V}.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{J} You may give 2 boosts to another target Character in {V}.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "{J} You may give 2 boosts to another target Character in {V}."
+              }
+            ],
+            "reference": "01150"
+          },
+          "sequence": 0,
+          "id": "01KH6SBT9ANNF3Q561NR4G0K0V"
+        }
+      ],
+      "value": "{J} You may give 2 boosts to another target Character in {V}.",
+      "id": "01KH6SBSNVPP29HAPJJPY4SZGF"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/JPG\/en_US\/e970e9506f01827d7d9c66911375d861.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/WEB_a1197ad5602732086f1cc63dcb19c209",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/WEB_0bcbb1835b269b8aae2f85c9f6a04b96",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/WEB_40eb2d5402c91437c21636b5b0211122"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_MU_35_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_35",
+  "reference": "ALT_ALIZE_A_MU_35_C",
+  "translations": {
+    "de_DE": {
+      "name": "Saskia, clevere Naturkundlerin",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/JPG\/de_DE\/3247b3607b8419036c3f08cc6680deea.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Saskia, Scaltra Naturalista",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/JPG\/it_IT\/b9de29270810c83334348246d373b311.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Saskia, naturalista sagaz",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/JPG\/es_ES\/5390e1f897a370749536d81a47f90e6b.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Saskia, Sly Naturalist",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/JPG\/en_US\/e970e9506f01827d7d9c66911375d861.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Saskia, Naturaliste Rusée",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/JPG\/fr_FR\/f73ecee56eed17198f10eb0fd01e89fa.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01J3GT7KB9BNEWHACRX9CQ31GG",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/JPG\/fr_FR\/f73ecee56eed17198f10eb0fd01e89fa.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_MU_35\/JPG\/en_US\/e970e9506f01827d7d9c66911375d861.jpg"
+  },
+  "name": "Saskia, Sly Naturalist",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{J} You may give 2 boosts to another target Character in {V}."
+  },
+  "collectorNumberFormatted": "TBF-058-C-EN",
+  "isSuspended": false,
+  "isErrated": true,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

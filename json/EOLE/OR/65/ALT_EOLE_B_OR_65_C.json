@@ -1,0 +1,356 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Those who stand without honor will fall without wings",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "À s'élever sans honneur, on a vite fait d'y perdre des plumes.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HX44RE3RXKZE8BK81BSA",
+          "text": "Those who stand without honor will fall without wings"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HX6A600S4P9ZN09228NY",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HX5Q8EBYKK3FSY8ES05H",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HX3D61ZPYYGWDET5EK44",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HX3SS7KVAFBW17KBW3D1",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "2CYZCXSVQE8X1RD58FEG6VAC7M",
+      "reference": "ALT_EOLE_B_OR_65_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YWHY9R8FGB39BG5FECBRH6"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YWHY9R8FGB39BG5FECBRH7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PGRNMZ6HDY3Y1T4D1QECP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "s'Élève",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascends",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufsteigend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascende",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Asciende",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V6RJTMG7BZB84M6HA21S4",
+                      "reference": "ASCENDS"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KHCQ901BT68MPV0J58SSP4XK"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you are first player, your Hero Expedition [ASCENDS]. (Until Rest, it can move forward even if matched in the terrains of its region.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes le premier joueur, votre Expédition Héros [ASCENDS]. (Jusqu'au Repos, elle peut avancer même en cas de stats égales à l'Expédition adverse sur les terrains de sa région.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Zum Mittag — Falls du der Startspieler bist, ist deine Helden-Expedition [ASCENDS]. (Kann sich bis zur Ruhepause vorwärts bewegen, selbst falls beide über gleich viele Gelände in den Regionen verfügen.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Se sei il primo giocatore, la spedizione del tuo eroe [ASCENDS]. (Fino al riposo, può avanzare anche se i terreni della sua regione eguagliano quelli della spedizione che affronta.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — Si eres el primer jugador, tu expedición del héroe [ASCENDS]. (Hasta el descanso, puede avanzar aunque los terrenos de su región estén igualados con los de la expedición enfrentada.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "At Noon — If you are first player, your Hero Expedition [ASCENDS]. (Until Rest, it can move forward even if matched in the terrains of its region.)"
+              }
+            ],
+            "reference": "03014"
+          },
+          "sequence": 0,
+          "id": "01KJ5PGTHDSN1V2DPXVSNWM9MH"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5PGRNMZ6HDY3Y1T4D1QECP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Élevées",
+                          "locale": "fr_FR",
+                          "description": null
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascended",
+                          "locale": "en_US",
+                          "description": null
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufgestiegenen",
+                          "locale": "de_DE",
+                          "description": null
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascese",
+                          "locale": "it_IT",
+                          "description": null
+                        },
+                        "es_ES": {
+                          "displayWeb": "Ascendidas",
+                          "locale": "es_ES",
+                          "description": null
+                        }
+                      },
+                      "id": "01KFE1WP9H7MX0RSNA5SY3WEM4",
+                      "reference": "ASCENDED_Z"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MCX19CS8YMXK96F6JKMX6"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When one or more of your [ASCENDED_Z] Expeditions moves forward — If there's no Character facing it, draw a card.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Quando una o più delle tue spedizioni [ASCENDED_Z] avanzano — Se non ci sono personaggi che le affrontano, pesca una carta.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Wenn sich mindestens eine deiner [ASCENDED_Z] Expeditionen vorwärts bewegt — Falls es ihr gegenüber keinen Charakter gibt, ziehe eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsqu'au moins une de vos Expéditions [ASCENDED_Z] avance — S'il n'y a aucun Personnage qui lui fait face, piochez une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Cuando una o más de tus expediciones [ASCENDED_Z] avancen — Si no hay ningún personaje enfrentado a ellas, roba una carta.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When one or more of your [ASCENDED_Z] Expeditions moves forward — If there's no Character facing it, draw a card."
+              }
+            ],
+            "reference": "02973"
+          },
+          "sequence": 1,
+          "id": "01KJ5PGWCV41YQB66YBVKXA9Z0"
+        }
+      ],
+      "value": "At Noon — If you are first player, your Hero Expedition [Ascends]. (Until Rest, it can move forward even if matched in the terrains of its region.)  When one or more of your [[Ascended]] Expeditions moves forward — If there's no Character facing it, draw a card.",
+      "id": "01KJ5PGRNMZ6HDY3Y1T4D1QECP"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/JPG\/en_US\/ad13bd64563c92ec5a05951d9858272f.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/HERO_THUMB_decbea4f50e17b962356d8b61e3256d9"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/HERO_WIDE_32f92bae4fe173ec89411fab2f6f34f5"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/WEB_443d99837a0a35ad9a84134c329a1acb"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_65_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_65",
+  "reference": "ALT_EOLE_B_OR_65_C",
+  "translations": {
+    "de_DE": {
+      "name": "Zhen & Zephyr",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/JPG\/de_DE\/0cdeef7135b6adbd5ae70a76a03c4cf5.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Zhen e Zefiro",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/JPG\/it_IT\/37b8876cd89d103a21c33a585105fa9f.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Zhen y Céfiro",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/JPG\/es_ES\/250f57dd726960bc1549ea10251a51bd.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Zhen & Zephyr",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/JPG\/fr_FR\/7570307dfab8d15ac1f177b27b0df00d.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Zhen & Zephyr",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/JPG\/en_US\/ad13bd64563c92ec5a05951d9858272f.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K9YWHY9R8FGB39BG5FECBRH5",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/JPG\/fr_FR\/7570307dfab8d15ac1f177b27b0df00d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_65\/JPG\/en_US\/ad13bd64563c92ec5a05951d9858272f.jpg"
+  },
+  "name": "Zhen & Zephyr",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "At Noon — If you are first player, your Hero Expedition [Ascends]. (Until Rest, it can move forward even if matched in the terrains of its region.)  When one or more of your [[Ascended]] Expeditions moves forward — If there's no Character facing it, draw a card."
+  },
+  "collectorNumberFormatted": "ROC-075-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

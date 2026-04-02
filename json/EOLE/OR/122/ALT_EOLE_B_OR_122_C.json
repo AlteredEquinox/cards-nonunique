@@ -1,0 +1,258 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« La cité est condamnée, priorité aux habitants ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"The city is doomed. Prioritize the people!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HWWQ3485SJNSFYBZF1FA",
+          "text": "\"The city is doomed. Prioritize the people!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWXEZWC5BJ6QA1PEP3JY",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWX39919DDGNPQ19PCWA",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWTFNCYWMDV8WV0AXXV0",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWTTX9PJRD2CMJ961F6R",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "3P5Z08FPCT87SAN3JPM3MMRTX9",
+      "reference": "ALT_EOLE_B_OR_122_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZC5VNZG8KE185YGACAQ0R"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZC63Z90JK3WJCVYK9Z2QX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q02JS73ANHRD42RPDZ2DY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "PLACEHOLDER", "locale": "en_US" },
+                  "fr_FR": { "text": "PLACEHOLDER", "locale": "fr_FR" },
+                  "de_DE": { "text": "PLACEHOLDER", "locale": "de_DE" },
+                  "es_ES": { "text": "PLACEHOLDER", "locale": "es_ES" },
+                  "it_IT": { "text": "PLACEHOLDER", "locale": "it_IT" }
+                },
+                "text": "PLACEHOLDER"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q04N5Q25KA59H4DE53V07"
+        }
+      ],
+      "value": "PLACEHOLDER",
+      "id": "01KJ5Q02JS73ANHRD42RPDZ2DY"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q06JVBFHS8EWG6V4TWG06",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "PLACEHOLDER", "locale": "en_US" },
+                  "fr_FR": { "text": "PLACEHOLDER", "locale": "fr_FR" },
+                  "de_DE": { "text": "PLACEHOLDER", "locale": "de_DE" },
+                  "es_ES": { "text": "PLACEHOLDER", "locale": "es_ES" },
+                  "it_IT": { "text": "PLACEHOLDER", "locale": "it_IT" }
+                },
+                "text": "PLACEHOLDER"
+              }
+            ],
+            "reference": "03005"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q08K6B8CMKNQ4F58CX0CX"
+        }
+      ],
+      "value": "PLACEHOLDER",
+      "id": "01KJ5Q06JVBFHS8EWG6V4TWG06"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Anh Tung - Ba Vo" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/en_US\/d56278e11fdf043871eaa82c71f3f642.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/WEB_8dbd0792c042efab4ee725a6cbef95a9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/WEB_55621729fe4174aba1f7dcea0e122893"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_122_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_122",
+  "reference": "ALT_EOLE_B_OR_122_C",
+  "translations": {
+    "it_IT": {
+      "name": "Evacuare la Città!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/it_IT\/311543b597e8a229d6267133842a5c11.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Evakuiert die Stadt!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/de_DE\/cffd6b00fb21e268718e4426da7290d6.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Evacuar la ciudad",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/es_ES\/b7e944f29bd6423ac4f511c4832a9ac5.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Evacuate the City!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/en_US\/d56278e11fdf043871eaa82c71f3f642.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Évacuez la Ville !",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/fr_FR\/5e8d4bb6fdfe56562257e0c8b1d3650a.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHY9Y08A42G4XQ332A9P0",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/fr_FR\/5e8d4bb6fdfe56562257e0c8b1d3650a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/en_US\/d56278e11fdf043871eaa82c71f3f642.jpg"
+  },
+  "name": "Evacuate the City!",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "PLACEHOLDER",
+    "ECHO_EFFECT": "PLACEHOLDER"
+  },
+  "collectorNumberFormatted": "ROC-090-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,337 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "There always comes a time to reap what we sow.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Vient toujours le temps de récolter le fruit de nos actions.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZQE378T881965GM52XR9",
+          "text": "There always comes a time to reap what we sow."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1G34V7ED948SH85DJ1GXW8SB6H",
+      "reference": "ALT_DUSTER_B_MU_94_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KBEFA7K49DNE8N4XEZ4KV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KBEMWAPX1F1GAF4GQXPFQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KBEV31C4MYBFRYEB9A29G"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KBF0FWCZAQ1ZSV5A3XVFR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KBF5ZB8SKK9EZC5RYY5QK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4FHAYSB35STWXKEJPNKFB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWF0A4TNCBW449CWQPG3SZ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#At Noon — Create a [MANASEED] token in your Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Zum Mittag — Erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#A mezzogiorno — Crea una pedina [MANASEED] nei tuoi fulcri.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Al mediodía — Crea una ficha de [MANASEED] en tus hitos.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#À Midi — Créez un jeton [MANASEED] dans vos Repères.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#At Noon — Create a [MANASEED] token in your Landmarks.#"
+              }
+            ],
+            "reference": "01914"
+          },
+          "sequence": 0,
+          "id": "01K6X4FHWNB1AJ4VBR4XYXVN3A"
+        }
+      ],
+      "value": "At Noon — Create a [Manaseed] token in your Landmarks.",
+      "id": "01K6X4FHAYSB35STWXKEJPNKFB"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4FJDBJB4KZNP83VQV1Z7K",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KBJAZ460X3P2Q2H4058TQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{D}: Crea una ficha de [MANASEED] en los hitos de cada jugador.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{D} : Create a [MANASEED] token in each player's Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Erschaffe eine [MANASEED]-Marke im Wahrzeichen-Bereich jedes Spielers.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: crea una pedina [MANASEED] nei fulcri di ogni giocatore.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Créez un jeton [MANASEED] dans les Repères de chaque joueur.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{D} : Create a [MANASEED] token in each player's Landmarks."
+              }
+            ],
+            "reference": "01764"
+          },
+          "sequence": 0,
+          "id": "01K6X4FK1FGCQ6W290D0F33783"
+        }
+      ],
+      "value": "{D} : Create a [Manaseed] token in each player's Landmarks.",
+      "id": "01K6X4FJDBJB4KZNP83VQV1Z7K"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_94\/JPG\/en_US\/cc9560446d2139a9fb1aa3bdac2de136.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_94\/WEB_6c59cb0d940ea0046a3eada7a181f46b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_94\/WEB_d11898ffdef17cf7035d9719e756f23c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_94\/WEB_88e0ff5b844b4a31393be2951e7ad82a"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_94_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_94",
+  "reference": "ALT_DUSTER_B_MU_94_R1",
+  "translations": {
+    "de_DE": { "name": "Reka-Sammler", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Recolector reka", "image": null, "locale": "es_ES" },
+    "it_IT": {
+      "name": "Addetto al Raccolto Reka",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Reka Gatherer",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_94\/JPG\/en_US\/cc9560446d2139a9fb1aa3bdac2de136.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Cueilleur Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_94\/JPG\/fr_FR\/9cedad3f944baf61b315312d50ae3dde.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ64CQ9P7A1GXC4E2TP",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_94\/JPG\/fr_FR\/9cedad3f944baf61b315312d50ae3dde.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_94\/JPG\/en_US\/cc9560446d2139a9fb1aa3bdac2de136.jpg"
+  },
+  "name": "Reka Gatherer",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "#3#",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#At Noon — Create a [Manaseed] token in your Landmarks.#",
+    "ECHO_EFFECT": "{D} : Create a [Manaseed] token in each player's Landmarks."
+  },
+  "collectorNumberFormatted": "SDU-058-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

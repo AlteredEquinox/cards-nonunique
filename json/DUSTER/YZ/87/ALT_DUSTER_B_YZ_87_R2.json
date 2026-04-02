@@ -1,0 +1,255 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The element of surprise adds extra spice to any tactic.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'élément de surprise est le sel de toute tactique.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZW20Z79F75D3H72CV18S",
+          "text": "The element of surprise adds extra spice to any tactic."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3PCWXPK4P184PVZ1128S0AXZGQ",
+      "reference": "ALT_DUSTER_B_YZ_87_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KQD1QVJ8HW10Y613NTMW6"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQD804VTX65X07ZRQZGMN"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KQDEDXBF2VY1MVYSMW0PH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KQDMQRN6H7KK5K7ZYETF4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KQDTWK94SHEJ1JTFEHWHR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4R39GWJ42RRGVZFN2AHXH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        }
+                      },
+                      "id": "01HPFHC15Y9ARSV51SMJKFZ8CY",
+                      "reference": "RESUPPLY_LOW"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KQB7XMW3FENVVBZJPK1TR"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may exhaust ({T}) target card in Reserve. If #it's in your Reserve,# [RESUPPLY_LOW].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Du darfst eine Karte deiner Wahl in der Reserve erschöpfen ({T}). Falls #sie in deiner Reserve ist,# nutze [RESUPPLY_LOW].",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes agotar ({T}) una carta objetivo en reserva. Si #está en tu reserva,# [RESUPPLY_LOW].",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi consumare ({T}) una carta bersaglio nella Riserva. Se #è nella tua Riserva,# [RESUPPLY_LOW].",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez épuiser ({T}) une carte ciblée en Réserve. Si #elle est dans votre Réserve,# [RESUPPLY_LOW].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may exhaust ({T}) target card in Reserve. If #it's in your Reserve,# [RESUPPLY_LOW]."
+              }
+            ],
+            "reference": "01857"
+          },
+          "sequence": 0,
+          "id": "01K6X4R3VN6WV0VWCD2YPF2BEA"
+        }
+      ],
+      "value": "{H} You may exhaust ({T}) target card in Reserve. If it's in your Reserve, [Resupply].",
+      "id": "01K6X4R39GWJ42RRGVZFN2AHXH"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_87\/JPG\/en_US\/70c9fdc849fb91721dfc8338ce78517c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_87\/WEB_e4367cc3793952ddfd5cbdccdb8acf37",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_87\/WEB_971d52847a24c1c2df727e8930224007",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_87\/WEB_26cb4b563142f827d31666496edd2d64"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_87_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_87",
+  "reference": "ALT_DUSTER_B_YZ_87_R2",
+  "translations": {
+    "es_ES": {
+      "name": "Perseguidor de caza hex",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Hextag Chaser",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_87\/JPG\/en_US\/70c9fdc849fb91721dfc8338ce78517c.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Battitore della Caccia Arcana",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Hexfangen-Häscher", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Chasseur de Hextag",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_87\/JPG\/fr_FR\/b9f9494dd34e5aa5569f5ecdd614d77e.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQPPCH9PBMCQBNJZGMA",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_87\/JPG\/fr_FR\/b9f9494dd34e5aa5569f5ecdd614d77e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_87\/JPG\/en_US\/70c9fdc849fb91721dfc8338ce78517c.jpg"
+  },
+  "name": "Hextag Chaser",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} You may exhaust ({T}) target card in Reserve. If #it's in your Reserve,# [Resupply]."
+  },
+  "collectorNumberFormatted": "SDU-096-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

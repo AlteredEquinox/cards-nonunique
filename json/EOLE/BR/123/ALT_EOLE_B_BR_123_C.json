@@ -1,0 +1,291 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Je ne suis pas si rouillé que ça. »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"I'm not as rusty as that.\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HQQBAM8E8BYMWKW969ZJ",
+          "text": "\"I'm not as rusty as that.\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQQQNRZNKG72F4WDP5VV",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQQHH60Q4WYD21EPMY23",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQPNQG62C9F95Q0W8JPP",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQQ324W267A39HCFHY97",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
+        "reference": "TOKEN",
+        "name": "Token"
+      },
+      "id": "7A5V96MDFF87QA97ZF5J8TAFX9",
+      "reference": "ALT_EOLE_B_BR_123_C"
+    }
+  ],
+  "cardType": {
+    "reference": "TOKEN",
+    "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
+    "name": "Token Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "COMPANION",
+      "id": "01HKAGQPYTEKRYT4PRE9HZHTDA",
+      "name": "Companion"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K9YYNAMBY4ZM1CWZ8DPWPYM3"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K9YYNAV5M813W218NN47GKEM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K9YYNB266BK216SNTN038Y7N"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QNM8R59P4F93HQPW1TV12",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01KEH47N1TCAT01B0HQ991JCYB",
+                      "reference": "COMPLETED_LOW"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KDGQKJN7RAT0YKTDF8MGE"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{J} Ottengo 1 rinforzo per ogni Prodezza [COMPLETED_LOW] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Gano 1 potenciador por cada proeza [COMPLETED_LOW] en tus hitos.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne 1 boost par Prouesse [COMPLETED_LOW] dans vos Repères.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{J} I gain 1 boost per [COMPLETED_LOW] Feat in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Ich erhalte 1 Verstärkung pro Heldentat in deinem Wahrzeichen-Bereich, die [COMPLETED_LOW] ist.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{J} I gain 1 boost per [COMPLETED_LOW] Feat in your Landmarks."
+              }
+            ],
+            "reference": "02830"
+          },
+          "sequence": 0,
+          "id": "01KJ5QNPAWANFWGHZ276SNG41Z"
+        }
+      ],
+      "value": "{J} I gain 1 boost per [[Completed]] Feat in your Landmarks.",
+      "id": "01KJ5QNM8R59P4F93HQPW1TV12"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Tristan Bideau" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_123\/JPG\/en_US\/18b7239a77166b21ee7918926f578e70.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_123\/WEB_155c66296dfc7f2dc0c69eac411f7dc1"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_123_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_123",
+  "reference": "ALT_EOLE_B_BR_123_C",
+  "translations": {
+    "en_US": {
+      "name": "Rust",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_123\/JPG\/en_US\/18b7239a77166b21ee7918926f578e70.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Rost",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_123\/JPG\/de_DE\/407b1b39da9885625809d009bee85fc4.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Ruggine",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_123\/JPG\/it_IT\/36c283f4cb7a9efe0d04582337516edd.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Ferros",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_123\/JPG\/es_ES\/6be3be4723d51755d0506fb9ff4e046f.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Rust",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_123\/JPG\/fr_FR\/74e3b463c757fb233de2c3a091a780f3.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHY918C89A4RCX48RQSE9",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_123\/JPG\/fr_FR\/74e3b463c757fb233de2c3a091a780f3.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_123\/JPG\/en_US\/18b7239a77166b21ee7918926f578e70.jpg"
+  },
+  "name": "Rust",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{J} I gain 1 boost per [[Completed]] Feat in your Landmarks."
+  },
+  "collectorNumberFormatted": "ROC-113-T-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,251 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Doing good sometimes requires sacrifices.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Faire le bien exige parfois des sacrifices.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDKYFW9HD2VSE1B8M1KBY",
+          "text": "Doing good sometimes requires sacrifices."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "7ZMG6DCPVY8YFRKEG0E5NPFNBV",
+      "reference": "ALT_EOLECB_A_YZ_117_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6SX8XC9W7P37Y9NGYATAF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6SXJB9ZRYTAV266M74T1M"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKM0700QXB6SDWHZJQ5ED2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01KJQKM0VJJ95RHHCVZ599VY1V"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJQKM0700QXB6SDWHZJQ5ED2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Discard a card from your hand. If you do, discard target card in play with Base Cost {3} or less.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Descarta una carta de tu mano. Si lo haces, descarta una carta objetivo en juego con coste base de {3} o menos.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Scarta una carta dalla tua mano. Se lo fai, scarta una carta bersaglio in gioco con costo base pari o inferiore a {3}.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Défaussez une carte de votre main. Si vous le faites, défaussez une carte ciblée en jeu de Coût de Base {3} ou moins.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Lege eine Karte aus deiner Hand ab. Falls du das tust: Lege eine Karte deiner Wahl im Spiel mit Basiskosten {3} oder weniger ab.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Discard a card from your hand. If you do, discard target card in play with Base Cost {3} or less."
+              }
+            ],
+            "reference": "02991"
+          },
+          "sequence": 1,
+          "id": "01KJQKM1BZSNMN344R33BSJD14"
+        }
+      ],
+      "value": "[[Fleeting]].  Discard a card from your hand. If you do, discard target card in play with Base Cost {3} or less.",
+      "id": "01KJQKM0700QXB6SDWHZJQ5ED2"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zero Wen" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_117\/JPG\/en_US\/5c9d7a2cabf5e671ba55a95df7e48ada.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_117\/WEB_1770189e478b7a46d05126464701dc3f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_117\/WEB_44aed40b3bfe3fd10b66a759536dcdde"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_YZ_117_C",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_YZ_117_C",
+  "translations": {
+    "en_US": {
+      "name": "For the Greater Good",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_117\/JPG\/en_US\/5c9d7a2cabf5e671ba55a95df7e48ada.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Pour le Bien Commun",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_117\/JPG\/fr_FR\/8a4dcb3ad53ad36bee824d32d6f64a0c.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Por el bien común",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_117\/JPG\/es_ES\/31cd7982908b5e35fb4c46ed18fefcde.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Zum Wohle aller",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_117\/JPG\/de_DE\/581da3bcbba003a73e206e44e765a406.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Per il Bene Superiore",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_117\/JPG\/it_IT\/e016769687da12d59814960018c5cd38.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01KH6E45FNQB51SN6EGRDVZ29M",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_117\/JPG\/fr_FR\/8a4dcb3ad53ad36bee824d32d6f64a0c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_YZ_117\/JPG\/en_US\/5c9d7a2cabf5e671ba55a95df7e48ada.jpg"
+  },
+  "name": "For the Greater Good",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "[[Fleeting]].  Discard a card from your hand. If you do, discard target card in play with Base Cost {3} or less."
+  },
+  "collectorNumberFormatted": "ROCCB-V-109-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

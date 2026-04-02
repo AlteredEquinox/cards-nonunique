@@ -1,0 +1,190 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "There's no age limit on adventure.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Il n'y a pas d'âge pour l'aventure.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01K3R4KPZJHVB5ZENAQTNZWH65",
+          "text": "There's no age limit on adventure."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
+        "reference": "TOKEN",
+        "name": "Token"
+      },
+      "id": "4P3FCJN6KG97JVEECG1TMQW9E7",
+      "reference": "ALT_DUSTER_B_OR_31_C"
+    }
+  ],
+  "cardType": {
+    "reference": "TOKEN",
+    "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
+    "name": "Token Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZJQ0F3CQ25PET90MAVV7FRE"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZJQ0F9TY9TZBB7W32SS8AHD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZJQ0FG7F8YXB2W4KWNG2W1J"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4J62T9VQ9H3VKNPHQH82K",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "(Si je quitte la zone d'Expédition, retirez-moi du jeu.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "(Falls ich die Expeditionszone verlasse, entferne mich aus dem Spiel.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "(Se lascio l'area delle spedizioni, rimuovimi dalla partita.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "(Si abandono la zona de expedición, retírame del juego.)",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "(If I leave the Expedition zone, remove me from the game.)",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "(If I leave the Expedition zone, remove me from the game.)"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K6X4J6MTFJY86XQYYDC9Z1NC"
+        }
+      ],
+      "value": "(If I leave the Expedition zone, remove me from the game.)",
+      "id": "01K6X4J62T9VQ9H3VKNPHQH82K"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Nestor Papatriantafyllou" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_31\/JPG\/en_US\/dc1fd4d0b75d24e1b7ef3f01338692fc.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_31\/WEB_f21f65ab977d55aaebe74223e971813d"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_31_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_31",
+  "reference": "ALT_DUSTER_B_OR_31_C",
+  "translations": {
+    "it_IT": { "name": "Recluta Ordis", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "Ordis Recruit",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_31\/JPG\/en_US\/dc1fd4d0b75d24e1b7ef3f01338692fc.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Recluta de Ordis", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Ordis-Rekrut", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Recrue Ordis",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_31\/JPG\/fr_FR\/8693de147d4e7c95010e60f1b5232081.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JZJFHEWW83KGJBXQ6G6C6ZRY",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_31\/JPG\/fr_FR\/8693de147d4e7c95010e60f1b5232081.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_31\/JPG\/en_US\/dc1fd4d0b75d24e1b7ef3f01338692fc.jpg"
+  },
+  "name": "Ordis Recruit",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "(If I leave the Expedition zone, remove me from the game.)"
+  },
+  "collectorNumberFormatted": "SDU-111-T-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

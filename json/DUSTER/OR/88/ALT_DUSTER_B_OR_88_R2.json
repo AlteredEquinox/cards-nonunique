@@ -1,0 +1,358 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "If a sculptor merely frees the form from the stone, then it never belonged to him in the first place.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Si un sculpteur libère une forme de la pierre, c'est que dès l'origine, elle ne lui a jamais appartenu.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZS3BWZ87VAP5R555ZQEE",
+          "text": "If a sculptor merely frees the form from the stone, then it never belonged to him in the first place."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0P5DJWCP3P9MZA5BSYE48352D7",
+      "reference": "ALT_DUSTER_B_OR_88_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ELEMENTAL",
+      "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+      "name": "Elemental"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KGWBNB96QX76H06W5ERCN"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KGWHT2KGFG78P6GJM2FX9"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KGWR76KC8FCTK96HE0XJ3"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KGWYGMQVCQE609Q58FTMQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KGX59YVMPBA29J3AZ02AR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4K4P8HD9VT1BKWT0YYVK8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verteidigerin",
+                          "locale": "de_DE",
+                          "description": "Meine Expedition kann sich am Abend nicht vorwärts bewegen."
+                        },
+                        "en_US": {
+                          "displayWeb": "Defender",
+                          "locale": "en_US",
+                          "description": "My Expedition can't move forward during Dusk."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Defensora",
+                          "locale": "es_ES",
+                          "description": "Mi expedición no puede avanzar durante el anochecer."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Difensore",
+                          "locale": "it_IT",
+                          "description": "La mia spedizione non può avanzare durante il crepuscolo."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Défenseuse",
+                          "locale": "fr_FR",
+                          "description": "Mon Expédition ne peut pas avancer pendant le Crépuscule."
+                        }
+                      },
+                      "id": "01J1QBCJDRVGJCHHMW193GTETB",
+                      "reference": "DEFENDER_FS"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KGYXN2RNM5ARK4FCBFJ5W"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KGYGRB5FHBVT3F8HFYM2W"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "If I'm [IN_CONTACT], I'm [DEFENDER_FS]. (I'm In Contact if another player's Expedition is in my region.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Si je suis [IN_CONTACT], je suis [DEFENDER_FS]. (Je suis En Contact si l'Expédition d'un autre joueur est dans ma région.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Falls ich [IN_CONTACT] bin, bin ich [DEFENDER_FS]. (Ich bin in Kontakt, falls die Expedition eines anderen Spielers in meiner Region ist.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Si estoy [IN_CONTACT], soy [DEFENDER_FS]. (Estoy en contacto si la expedición de otro jugador está en mi región.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Se sono [IN_CONTACT], ho [DEFENDER_FS]. (Sono In contatto se la spedizione di un altro giocatore si trova nella mia regione.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "If I'm [IN_CONTACT], I'm [DEFENDER_FS]. (I'm In Contact if another player's Expedition is in my region.)"
+              }
+            ],
+            "reference": "01809"
+          },
+          "sequence": 0,
+          "id": "01K6X4K5809M9ZEQ439VWQM66Z"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4K4P8HD9VT1BKWT0YYVK8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KGMNSVSQKMW4QHXGBKQGW"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} If I'm [IN_CONTACT], I gain 2 boosts.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Si je suis [IN_CONTACT], je gagne 2 boosts.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Falls ich [IN_CONTACT] bin, erhalte ich 2 Verstärkungen.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{J} Si estoy [IN_CONTACT], gano 2 potenciadores.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} Se sono [IN_CONTACT], ottengo 2 rinforzi.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} If I'm [IN_CONTACT], I gain 2 boosts."
+              }
+            ],
+            "reference": "01806"
+          },
+          "sequence": 1,
+          "id": "01K6X4K5QA5B8QM8B3T7PDJDS1"
+        }
+      ],
+      "value": "If I'm [In Contact], I'm [Defender]. (I'm In Contact if another player's Expedition is in my region.)  {J} If I'm [In Contact], I gain 2 boosts.",
+      "id": "01K6X4K4P8HD9VT1BKWT0YYVK8"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_88\/JPG\/en_US\/6ca74a3d0b27d652c3c12e985c0c35c7.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_88\/WEB_b464f2b6b247e05bfa2741d8e25455a8",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_88\/WEB_38fdb1c608094124ed03c57414f2401d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_88\/WEB_ac5ff4933f0c8f4fa94b4a73347f05e0"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_88_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_88",
+  "reference": "ALT_DUSTER_B_OR_88_R2",
+  "translations": {
+    "es_ES": { "name": "Galatea", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Galatea", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "Galatea",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_88\/JPG\/en_US\/6ca74a3d0b27d652c3c12e985c0c35c7.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": { "name": "Galatea", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Galatée",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_88\/JPG\/fr_FR\/458cc943ae2f26ce3feb81a775b05a0f.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQDQX4A7DDYRDTFJW41",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_88\/JPG\/fr_FR\/458cc943ae2f26ce3feb81a775b05a0f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_88\/JPG\/en_US\/6ca74a3d0b27d652c3c12e985c0c35c7.jpg"
+  },
+  "name": "Galatea",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "If I'm [In Contact], I'm [Defender]. (I'm In Contact if another player's Expedition is in my region.)  {J} If I'm [In Contact], I gain 2 boosts."
+  },
+  "collectorNumberFormatted": "SDU-075-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

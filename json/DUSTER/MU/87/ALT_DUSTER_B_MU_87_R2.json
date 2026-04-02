@@ -1,0 +1,247 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Here's one for the road.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je vous en mets un de plus pour la route. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZPK4PBG112NE00V03E9P",
+          "text": "\"Here's one for the road.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6W1QVDS5ZC8J1RRD0Z9MC4KR22",
+      "reference": "ALT_DUSTER_B_MU_87_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MERCHANT",
+      "id": "01JZ2JZ7RFPB09RFMMFXBG3GZ5",
+      "name": "Merchant"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KBY18E7PWD6BNYGJX0Q6Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KBY6VPZJ00X3GXJSE1121"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KBYC9YK6Y6313QXXKPQC1"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KBYHWVJVTM8Y7YG0QEPR2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KBYQEAXF7RTMHHQAM0Y0N"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4DMYXXSFB6WMQK1BKP3PR",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWXF61Y7VCJPVWZS4DXZH2"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} Put the top card of your deck #in your Mana zone# (as an exhausted Mana Orb), then create a [MANASEED] token in target opponent's Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Mettez la première carte de votre deck #dans votre zone de Mana# (en tant qu'Orbe de Mana épuisé), puis créez un jeton [MANASEED] dans les Repères d'un adversaire ciblé.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{R} Metti la prima carta del tuo mazzo #nella tua area del mana# (come una sfera di mana consumata), poi crea una pedina [MANASEED] nei fulcri di un avversario bersaglio.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{R} Lege die oberste Karte deines Decks #in deine Manazone# (als erschöpfte Manakugel), erschaffe dann eine [MANASEED]-Marke im Wahrzeichen-Bereich eines Gegners deiner Wahl.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{R} Coloca la primera carta de tu mazo #en tu zona de maná# (como orbe de maná agotado) y luego crea una ficha de [MANASEED] en los hitos del oponente objetivo.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{R} Put the top card of your deck #in your Mana zone# (as an exhausted Mana Orb), then create a [MANASEED] token in target opponent's Landmarks."
+              }
+            ],
+            "reference": "01956"
+          },
+          "sequence": 0,
+          "id": "01K6X4DNG387P6BGA032RQTHHX"
+        }
+      ],
+      "value": "{R} Put the top card of your deck in your Mana zone (as an exhausted Mana Orb), then create a [Manaseed] token in target opponent's Landmarks.",
+      "id": "01K6X4DMYXXSFB6WMQK1BKP3PR"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_87\/JPG\/en_US\/99f13bc30e6613d85adf36ecef3329ae.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_87\/WEB_2fed5f669de07040cbcf8ba2ef37d8e9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_87\/WEB_99dc70d31de829d337421b4730f57732",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_87\/WEB_656f579643ed310d34afb33a15c660b5"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_87_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_87",
+  "reference": "ALT_DUSTER_B_MU_87_R2",
+  "translations": {
+    "es_ES": { "name": "Comerciante reka", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Reka Tradesman",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_87\/JPG\/en_US\/99f13bc30e6613d85adf36ecef3329ae.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": { "name": "Commerciante Reka", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Reka-Handelsmann", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Commerçant Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_87\/JPG\/fr_FR\/fdc2563a20872e32f1ee5bc6ef98d3a7.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ31DPT8H5NDNTSNBN0",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_87\/JPG\/fr_FR\/fdc2563a20872e32f1ee5bc6ef98d3a7.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_87\/JPG\/en_US\/99f13bc30e6613d85adf36ecef3329ae.jpg"
+  },
+  "name": "Reka Tradesman",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#3#",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{R} Put the top card of your deck #in your Mana zone# (as an exhausted Mana Orb), then create a [Manaseed] token in target opponent's Landmarks."
+  },
+  "collectorNumberFormatted": "SDU-059-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

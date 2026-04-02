@@ -1,0 +1,299 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Porte-parole des Hexarques, Phoibos sait amadouer les foules.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "As the spokesman for the Hexarchs, Phoibos knows how to play to the crowd.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KH3ZWM61E9ZQAJY1K4VT3W81",
+          "text": "As the spokesman for the Hexarchs, Phoibos knows how to play to the crowd."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3VE15AW6JG990A9BS9WNNG8M4Y",
+      "reference": "ALT_WCS26_P_LY_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01KGWCP9XAFCTT89T9VRTED92Z",
+    "reference": "WCS26",
+    "name": "World Championship Series 2026"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01KGWE1FBN058Q7HMK5CN0W2SD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KGWE1FMP9W5Q4066KCS5TM3Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KGWE1FXPK0ZDZ013F46T30JD"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KGWE1G6R0ZFG1DH0BYDTWHCG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KGWE1GG20ZY26VY7TWPBX2QF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6AKKSVE4PYWE4YKFTMNG7P",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWERT0Q87VTX9X0NRM6TTJ"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWEREN7W47BNKNGKWFAXPV"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Target opponent reveals a random card from their hand. If I'm [IN_CONTACT], you may immediately play it for free and it gains [FLEETING]. If you don't, discard it.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Ein Gegner deiner Wahl deckt eine zufällige Karte aus seiner Hand auf. Falls ich [IN_CONTACT] bin, darfst du sie sofort kostenlos spielen und sie erhält [FLEETING]. Falls du das nicht tust, lege sie ab.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Un avversario bersaglio rivela una carta casuale dalla sua mano. Se sono [IN_CONTACT], puoi giocarla immediatamente senza pagarne il costo e farle ottenere [FLEETING]. Se non lo fai, scartala.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Un oponente objetivo revela una carta aleatoria de su mano. Si estoy [IN_CONTACT], puedes jugarla inmediatamente sin coste y gana [FLEETING]. Si no lo haces, descártala.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Un adversaire ciblé révèle une carte aléatoire de sa main. Si je suis [IN_CONTACT], vous pouvez immédiatement la jouer gratuitement, et elle gagne [FLEETING]. Si vous ne le faites pas, défaussez-la.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Target opponent reveals a random card from their hand. If I'm [IN_CONTACT], you may immediately play it for free and it gains [FLEETING]. If you don't, discard it."
+              }
+            ],
+            "reference": "01912"
+          },
+          "sequence": 0,
+          "id": "01KH6AKMD4PHT1T1GZV1Q82JBP"
+        }
+      ],
+      "value": "{H} Target opponent reveals a random card from their hand. If I'm [In Contact], you may immediately play it for free and it gains [[Fleeting]]. If you don't, discard it.",
+      "id": "01KH6AKKSVE4PYWE4YKFTMNG7P"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/en_US\/7884a233b7f0c955410523262916a11b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/WEB_e0ae01a197f8651545774f0f1c297779",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/WEB_9f1720857ce4753fd4a3eabcf105e6cd"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_P_LY_98_E",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": null,
+  "reference": "ALT_WCS26_P_LY_98_E",
+  "translations": {
+    "it_IT": {
+      "name": "Phoibos, Esarca Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/it_IT\/5aa36f3aa5a8408274aa48f067d70cfa.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Phoibos, Reka-Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/de_DE\/41fa49efcf0e9e3e9878ffa217233929.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Phoibos, Reka Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/en_US\/7884a233b7f0c955410523262916a11b.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Phoibos, hexarca reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/es_ES\/39418d31e7be2e7cf0818e2659b9236d.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Phoibos, Hexarque Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/fr_FR\/31cd1125ffa651971105f89d4af5e948.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01KGWCPAVDP8Y4M39GCQRSVK5Q",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/fr_FR\/31cd1125ffa651971105f89d4af5e948.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/en_US\/7884a233b7f0c955410523262916a11b.jpg"
+  },
+  "name": "Phoibos, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "7",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "6",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} Target opponent reveals a random card from their hand. If I'm [In Contact], you may immediately play it for free and it gains [[Fleeting]]. If you don't, discard it."
+  },
+  "collectorNumberFormatted": "WCS26-S-005-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

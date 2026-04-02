@@ -1,0 +1,274 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "In with the old, and out comes the new!",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Reconditionner l'ancien pour créer du neuf...",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HPHXENPBJ80CQH2EEHPF",
+          "text": "In with the old, and out comes the new!"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPJ48WQM8A4YC6KYG9SA",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPJ1BBW20SGVWWX1XBYY",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPHQZXT6SK2PMZZ2HX2D",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPHT9TKCBDDAC2JGVP56",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2TN8CEFKG89VMS8MRNY3K4YM7M",
+      "reference": "ALT_EOLE_B_AX_114_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYBRE5PWW1H8MJ702SR59Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYBRM8VYCC9MP29G471DMD"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYBRT9MKFN69T32SQ33M1Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYBS0DECYQ96TYB8ZGDK5R"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYBS6M6JFN7BVTS9JYXKZ5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5MNX9TNA556933B9VWJDW8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez défausser #une carte# de votre Réserve pour piocher une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{H} You may discard #one card# from your Reserve to draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Du darfst #eine Karte# aus deiner Reserve ablegen, um eine Karte zu ziehen.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi scartare #una carta# dalla tua Riserva per pescare una carta.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes descartar #una carta# de tu reserva para robar una carta.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{H} You may discard #one card# from your Reserve to draw a card."
+              }
+            ],
+            "reference": "02762"
+          },
+          "sequence": 0,
+          "id": "01KJ5MNYR37WQER5SZSGKZZDDF"
+        }
+      ],
+      "value": "{H} You may discard one card from your Reserve to draw a card.",
+      "id": "01KJ5MNX9TNA556933B9VWJDW8"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Tristan Bideau" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/JPG\/en_US\/32be91bcf5718ff497bdad369e8710b2.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/WEB_50d6b0aa57e4b223306a0ebb4dc356d0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/WEB_48866131e3a8aca768bbafeac47916b2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/WEB_fc5ed7cc810c2abecb10382ae58b1728"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_114_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "AX_114",
+  "reference": "ALT_EOLE_B_AX_114_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Riciclatrice Reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/JPG\/it_IT\/ae82b4c37f7a287302ce07d69c96e4f8.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Reka-Recyclerin",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/JPG\/de_DE\/691342b064c46620065b1a07387ad02a.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Reka Recycler",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/JPG\/en_US\/32be91bcf5718ff497bdad369e8710b2.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Recicladora reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/JPG\/es_ES\/98970a2a91c3f23e35716280703ba294.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Recycleuse Reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/JPG\/fr_FR\/595084dd59aaa025a99c73c070aff135.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHY8GFR0S2WB31C1J6NNN",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/JPG\/fr_FR\/595084dd59aaa025a99c73c070aff135.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_114\/JPG\/en_US\/32be91bcf5718ff497bdad369e8710b2.jpg"
+  },
+  "name": "Reka Recycler",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "{H} You may discard #one card# from your Reserve to draw a card."
+  },
+  "collectorNumberFormatted": "ROC-008-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

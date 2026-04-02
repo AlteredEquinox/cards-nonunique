@@ -1,0 +1,174 @@
+{
+  "loreEntries": [],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01HKAFJN3HG3TWKYV0E014K01G",
+    "reference": "CORE",
+    "name": "Beyond the Gates"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K1Z7T82X19TJ049KVHCD0SDT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "After You",
+                          "locale": "en_US",
+                          "description": "End your turn as if you had played a card. You may still play cards later this Day."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nach dir",
+                          "locale": "de_DE",
+                          "description": "Beende deine Runde, als ob du eine Karte gespielt hättest. Du darfst auch später an diesem Tag noch eine Karte spielen."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dopo di te",
+                          "locale": "it_IT",
+                          "description": "Termina il tuo turno come se avessi giocato una carta. Puoi comunque giocare carte più avanti in questa giornata."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Después de ti",
+                          "locale": "es_ES",
+                          "description": "Termina tu turno como si hubieras jugado una carta. A lo largo del día actual, puedes jugar más cartas."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Après vous",
+                          "locale": "fr_FR",
+                          "description": "Terminez votre tour comme si vous aviez joué une carte. Vous pouvez encore jouer des cartes plus tard ce Jour-ci."
+                        }
+                      },
+                      "id": "01HKAGXB4C1CCRNYV6K6BFCHMQ",
+                      "reference": "AFTER_YOU"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01HTS9VNMKWNDDWHKRAXZ5AC51"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{T} : $[AFTER_YOU]. Vous pouvez seulement activer cela si vous êtes le premier joueur.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{T}: $[AFTER_YOU]. Puoi eseguire questa azione solo se sei il primo giocatore.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{T}: $[AFTER_YOU]. Solo puedes activar esto si eres el primer jugador.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{T} : $[AFTER_YOU]. Du kannst dies nur aktivieren, falls du der Startspieler bist.",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "{T} : $[AFTER_YOU]. You can only activate this if you are the first player.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "{T} : $[AFTER_YOU]. You can only activate this if you are the first player."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K1Z7T8JHG68TT2YNB9QS0VZ4"
+        }
+      ],
+      "value": "{T} : [After You]. You can only activate this if you are the first player. (End your turn as if you had played a card. You may still play cards later this Day.)",
+      "id": "01K1Z7T82X19TJ049KVHCD0SDT"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": { "nickName": "1.5L" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_P_YZ_01\/JPG\/en_US\/ALT_CORE_P_YZ_01_C_en_US.jpg",
+  "assets": {
+    "HERO_THUMB": ["https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/P-1.png"],
+    "DECK_THUMB": ["https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/P.png"],
+    "CARD": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/YZ_heroes_promo_2023_CMYK.jpg"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_P_YZ_01_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_01",
+  "reference": "ALT_CORE_P_YZ_01_C",
+  "translations": {
+    "de_DE": {
+      "name": "Akesha & Taru",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_YZ_01\/JPG\/de_DE\/ALT_CORE_P_YZ_01_C_de_DE.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Akesha & Taru",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_YZ_01\/JPG\/en_US\/ALT_CORE_P_YZ_01_C_en_US.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Akesha & Taru",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_YZ_01\/JPG\/fr_FR\/ALT_CORE_P_YZ_01_C_fr_FR.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Akesha y Taru",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_YZ_01\/JPG\/es_ES\/ALT_CORE_P_YZ_01_C_es_ES.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Akesha e Taru",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_P_YZ_01\/JPG\/it_IT\/ALT_CORE_P_YZ_01_C_it_IT.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01H552SHTRWXTQXZX2A1EYB4KN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_P_YZ_01\/JPG\/fr_FR\/ALT_CORE_P_YZ_01_C_fr_FR.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_P_YZ_01\/JPG\/en_US\/ALT_CORE_P_YZ_01_C_en_US.jpg"
+  },
+  "name": "Akesha & Taru",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "MAIN_EFFECT": "{T} : [After You]. You can only activate this if you are the first player. (End your turn as if you had played a card. You may still play cards later this Day.)"
+  },
+  "collectorNumberFormatted": null,
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

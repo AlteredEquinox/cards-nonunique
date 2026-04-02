@@ -1,0 +1,545 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« La cité est condamnée, priorité aux habitants ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"The city is doomed. Prioritize the people!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HWWQ3485SJNSFYBZF1FA",
+          "text": "\"The city is doomed. Prioritize the people!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWXEZWC5BJ6QA1PEP3JY",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWX39919DDGNPQ19PCWA",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWTFNCYWMDV8WV0AXXV0",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWTTX9PJRD2CMJ961F6R",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "3P5Z08FPCT87SAN3JPM3MMRTX9",
+      "reference": "ALT_EOLE_B_OR_122_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZCH6MCESZ6BPF3QA5HMP7"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZCHEFXH54X6HMXX939QTS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q0E8A0N7PA12724DV0RYE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MCBZ8A24ZA24T8MQGR1YW"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Élevées",
+                          "locale": "fr_FR",
+                          "description": null
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascended",
+                          "locale": "en_US",
+                          "description": null
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascese",
+                          "locale": "it_IT",
+                          "description": null
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufgestiegen",
+                          "locale": "de_DE",
+                          "description": null
+                        },
+                        "es_ES": {
+                          "displayWeb": "Ascendidas",
+                          "locale": "es_ES",
+                          "description": null
+                        }
+                      },
+                      "id": "01K9YZ45JJAGEPS7Q6D58MMQGR",
+                      "reference": "ASCENDED_P"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MCCN8HGJ01630H0XDZA9N"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Create an [ORDIS_RECRUIT] Soldier token in each of your [ASCENDED_P] Expeditions.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Créez un jeton Soldat [ORDIS_RECRUIT] dans chacune de vos Expéditions [ASCENDED_P].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in jeder deiner Expeditionen, die [ASCENDED_P] sind.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Crea una pedina Soldato [ORDIS_RECRUIT] in ciascuna delle tue spedizioni [ASCENDED_P].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Crea una ficha de soldado [ORDIS_RECRUIT] en cada una de tus expediciones [ASCENDED_P].",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} Create an [ORDIS_RECRUIT] Soldier token in each of your [ASCENDED_P] Expeditions."
+              }
+            ],
+            "reference": "02970"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q0GD7SR8S31D3Z1PRRT7T"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5Q0E8A0N7PA12724DV0RYE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "grâce à l'Élévation",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "due to Ascension",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "per via dell'Ascesa",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "aufgrund von Aufsteigend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "por ascender",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YZ68E7Q6ZTFSPSGRVNWMTM",
+                      "reference": "DUE_TO_ASCENSION"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MCFR2HX7A3NDS8CNJ0ZWG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When one of your Expeditions moves forward [DUE_TO_ASCENSION] — Complete me.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsqu'une de vos Expéditions avance [DUE_TO_ASCENSION] — Accomplissez-moi.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Quando una delle tue spedizioni avanza [DUE_TO_ASCENSION] — Eseguimi.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando una de tus expediciones avance [DUE_TO_ASCENSION] — Complétame.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Wenn sich eine deiner Expeditionen [DUE_TO_ASCENSION] vorwärts bewegt — Vollbringe mich.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "When one of your Expeditions moves forward [DUE_TO_ASCENSION] — Complete me."
+              }
+            ],
+            "reference": "02971"
+          },
+          "sequence": 1,
+          "id": "01KJ5Q0J3KQB52A9QGAZYCERW4"
+        }
+      ],
+      "value": "{J} Create an [Ordis Recruit 1\/1\/1] Soldier token in each of your [[Ascended]] Expeditions.  When one of your Expeditions moves forward [due to Ascension] — Complete me.",
+      "id": "01KJ5Q0E8A0N7PA12724DV0RYE"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q0M7F44D49ZXBDFTRSEFR",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MC4X1DWYGAFF3VP7DHQVB"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "s'Élève",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascends",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufsteigend",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascende",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Asciende",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V6RJTMG7BZB84M6HA21S4",
+                      "reference": "ASCENDS"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MC5K2KNAKBGBZBK1JGYYB"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 2,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MC68Z5BYCNVQPH3XCQ7AV"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[COMPLETED]: At Noon — Your Companion Expedition [ASCENDS], then create an [ORDIS_RECRUIT] Soldier token in it.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED]: a mezzogiorno — La spedizione del tuo compagno [ASCENDS], poi crea una pedina Soldato [ORDIS_RECRUIT] in quella spedizione.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "[COMPLETED] : À Midi — Votre Expédition Compagnon [ASCENDS], puis créez un jeton Soldat [ORDIS_RECRUIT] dans celle-ci.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED]: Zum Mittag — Deine Gefährten-Expedition ist [ASCENDS], dann erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in ihr.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED]: Al mediodía — Tu expedición del compañero [ASCENDS]. Luego, crea una ficha de soldado [ORDIS_RECRUIT] en ella.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "[COMPLETED]: At Noon — Your Companion Expedition [ASCENDS], then create an [ORDIS_RECRUIT] Soldier token in it."
+              }
+            ],
+            "reference": "02969"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q0PA2YZECCPP29W5R67EG"
+        }
+      ],
+      "value": "[[Completed]]: At Noon — Your Companion Expedition [Ascends], then create an [Ordis Recruit 1\/1\/1] Soldier token in it.",
+      "id": "01KJ5Q0M7F44D49ZXBDFTRSEFR"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Anh Tung - Ba Vo" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/en_US\/138fdc2aaee392bbfc9eb968dcb1a85c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/WEB_8dbd0792c042efab4ee725a6cbef95a9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/WEB_55621729fe4174aba1f7dcea0e122893"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_122_E",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_122",
+  "reference": "ALT_EOLE_B_OR_122_E",
+  "translations": {
+    "it_IT": {
+      "name": "Evacuare la Città!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/it_IT\/d95467e581049e42bfd34b1942e1f2bd.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Evakuiert die Stadt!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/de_DE\/54f87fed1926ee3ec03e23ecc2521881.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Evacuar la ciudad",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/es_ES\/2e7fd86062a6db159115d4f08e33d7b5.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Evacuate the City!",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/en_US\/138fdc2aaee392bbfc9eb968dcb1a85c.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Évacuez la Ville !",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/fr_FR\/45e0d3d6b18daed6f79459badb8aecc6.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHY9Z7MX65T3GFG4CQJMN",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/fr_FR\/45e0d3d6b18daed6f79459badb8aecc6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_122\/JPG\/en_US\/138fdc2aaee392bbfc9eb968dcb1a85c.jpg"
+  },
+  "name": "Evacuate the City!",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} Create an [Ordis Recruit 1\/1\/1] Soldier token in each of your [[Ascended]] Expeditions.  When one of your Expeditions moves forward [due to Ascension] — Complete me.",
+    "ECHO_EFFECT": "[[Completed]]: At Noon — Your Companion Expedition [Ascends], then create an [Ordis Recruit 1\/1\/1] Soldier token in it."
+  },
+  "collectorNumberFormatted": "ROC-090-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

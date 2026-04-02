@@ -1,0 +1,236 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Your catch of the day deserves a Manaseed!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Allez, ta pêche du jour vaut bien une Graine ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZM0P7QK6SDVGYTFC66M5",
+          "text": "\"Your catch of the day deserves a Manaseed!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "5CKC70P5Q08CV86JVWZDFJP1XH",
+      "reference": "ALT_DUSTER_B_BR_99_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K5C1XGJD3Z39AM2ZEFFFA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K5C7084QM4E14Y26T6FMW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X47B0PKZ0PNFHTVYPYRSV5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "#Lege die oberste Karte deines Decks in deine Manazone (als erschöpfte Manakugel).#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#Coloca la primera carta de tu mazo en tu zona de maná (como orbe de maná agotado.)#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#Metti la prima carta del tuo mazzo nella tua area del mana.#",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#Mettez la première carte de votre deck dans votre zone de Mana (en tant qu'Orbe de Mana épuisé).#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#Put the top card of your deck in your Mana zone (as an exhausted Mana Orb).#",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "#Put the top card of your deck in your Mana zone (as an exhausted Mana Orb).#"
+              }
+            ],
+            "reference": "01713"
+          },
+          "sequence": 0,
+          "id": "01K6X47BGTMPBWY98BNH9DTE9F"
+        }
+      ],
+      "value": "Put the top card of your deck in your Mana zone (as an exhausted Mana Orb).",
+      "id": "01K6X47B0PKZ0PNFHTVYPYRSV5"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X47C02MFR0P5NJ83Q1YHRA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Der nächste Charakter, der in dieser Runde aus deiner Hand gespielt wird, aktiviert eine seiner {r} Fähigkeiten.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Le prochain Personnage joué de votre main ce tour-ci active l'une de ses capacités {r}.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{D}: El siguiente personaje que juegues desde tu mano este turno activa una de sus habilidades {r}.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{D}: il prossimo personaggio giocato dalla tua mano in questo turno attiva una delle sue abilità {r}.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{D} : The next Character played from your hand this turn activates one of its {r} abilities."
+              }
+            ],
+            "reference": "01909"
+          },
+          "sequence": 0,
+          "id": "01K6X47CG595YF0TJQXM7JFXJK"
+        }
+      ],
+      "value": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+      "id": "01K6X47C02MFR0P5NJ83Q1YHRA"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/en_US\/fa5dd29a0f145903d70a2f4b15d803c3.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/WEB_e6779dca2ea258f67e5221d8bd1db50e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/WEB_7c66b9cb297dd1eee3d1a92655623cef"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_99_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_99",
+  "reference": "ALT_DUSTER_B_BR_99_R1",
+  "translations": {
+    "de_DE": { "name": "Markt-Begegnung", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Market Encounter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/en_US\/fa5dd29a0f145903d70a2f4b15d803c3.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Encuentro en el mercado",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Incontro al Mercato",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Rencontre au Marché",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/fr_FR\/c633d4d9a049f8797e7112fa6b2490cc.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPNWW5BH3NJWZJTJ4FG",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/fr_FR\/c633d4d9a049f8797e7112fa6b2490cc.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/en_US\/fa5dd29a0f145903d70a2f4b15d803c3.jpg"
+  },
+  "name": "Market Encounter",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "#4#",
+    "MAIN_EFFECT": "#Put the top card of your deck in your Mana zone (as an exhausted Mana Orb).#",
+    "ECHO_EFFECT": "{D} : The next Character played from your hand this turn activates one of its {r} abilities."
+  },
+  "collectorNumberFormatted": "SDU-034-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,302 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "À la tête du Consortium, Sphura supervise l'innovation Reka.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "As the head of the Consortium, Sphura oversees all Reka innovation.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KH3ZWM43P9AN3N4YNP1J4S39",
+          "text": "As the head of the Consortium, Sphura oversees all Reka innovation."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4HKV6T7REP9SESRFR8QXYX0RNA",
+      "reference": "ALT_WCS26_P_AX_95_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01KGWCP9XAFCTT89T9VRTED92Z",
+    "reference": "WCS26",
+    "name": "World Championship Series 2026"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KGWE0Z4ZHXYV1293Q61H984V"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KGWE0ZE1EWKH8DQ4J1PHAQNM"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KGWE0ZQ7XZHNVWZEPCT1WV5W"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KGWE100E57PZ6F0135PCC0V7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KGWE109R6SKHV4B4N38CD08X"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6AK51PM6G1G9TJY1FFFT9Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "Juégame por {1} menos si controlas uno permanente agotado.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Giocami per {1} in meno se controlli un permanente consumato.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Spiele mich für {1} weniger, falls du mindestens eine erschöpfte Bleibende Karte kontrollierst.",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "Play me for {1} less if you control an exhausted Permanent.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Jouez-moi pour {1} de moins si vous contrôlez au moins un Permanent épuisé.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Play me for {1} less if you control an exhausted Permanent."
+              }
+            ],
+            "reference": "02000"
+          },
+          "sequence": 0,
+          "id": "01KH6AK5N7QMX9JR675AYPBQAQ"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH6AK51PM6G1G9TJY1FFFT9Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "Juégame por {1} menos si hay una carta agotada en tu reserva.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Spiele mich für {1} weniger, falls sich in deiner Reserve mindestens eine erschöpfte Karte befindet.",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "Play me for {1} less if there's an exhausted card in your Reserve.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Jouez-moi pour {1} de moins s'il y a au moins une carte épuisée dans votre Réserve.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Giocami per {1} in meno se c'è una carta consumata nella tua Riserva.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "Play me for {1} less if there's an exhausted card in your Reserve."
+              }
+            ],
+            "reference": "02001"
+          },
+          "sequence": 1,
+          "id": "01KH6AK65NN7EXXY2NWKAY62J4"
+        },
+        {
+          "cardElement": "\/card_elements\/01KH6AK51PM6G1G9TJY1FFFT9Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} If there are four or more exhausted cards among Permanents you control and cards in your Reserve, ready up to two of them.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{J} Si hay cuatro o más cartas agotadas entre los permanentes que controlas y las cartas en tu reserva, prepara hasta dos de ellas.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{J} Falls sich unter den von dir kontrollierten Bleibenden Karten und den Karten in deiner Reserve mindestens vier erschöpfte Karten befinden, stelle bis zu zwei von ihnen bereit.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{J} S'il y a au moins quatre cartes épuisées parmi les Permanents que vous contrôlez et les cartes de votre Réserve, redressez-en jusqu'à deux.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{J} Se ci sono quattro o più carte consumate tra i permanenti che controlli e le carte nella tua Riserva, ripristina fino a due di quelle carte.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} If there are four or more exhausted cards among Permanents you control and cards in your Reserve, ready up to two of them."
+              }
+            ],
+            "reference": "02002"
+          },
+          "sequence": 2,
+          "id": "01KH6AK6PBS2Z4HWM3B4CQ54JK"
+        }
+      ],
+      "value": "Play me for {1} less if you control an exhausted Permanent.  Play me for {1} less if there's an exhausted card in your Reserve.  {J} If there are four or more exhausted cards among Permanents you control and cards in your Reserve, ready up to two of them.",
+      "id": "01KH6AK51PM6G1G9TJY1FFFT9Y"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/en_US\/32473176fc4163ee652fcea7808f9ffe.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/WEB_7ff2d0ae4352df051f528ecd50cbb339",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/WEB_6f669d95c0f23b9ac54d0c762b7d09df"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_P_AX_95_E",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": null,
+  "reference": "ALT_WCS26_P_AX_95_E",
+  "translations": {
+    "fr_FR": {
+      "name": "Sphura, Hexarque Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/fr_FR\/a653118eed7313c6204074d505188d14.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Sphura, Esarca Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/it_IT\/039ec2225a460f898ca72436b862461c.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Sphura, Reka Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/en_US\/32473176fc4163ee652fcea7808f9ffe.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Sphura, hexarca reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/es_ES\/28e7422b89cdc12882c08336fa2a8745.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Sphura, Reka-Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/de_DE\/5ce7788119fd1c0dac578e3d516d4abb.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01KGWCPAV2BJKD1ZV08X10MHDK",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/fr_FR\/a653118eed7313c6204074d505188d14.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_AX_95\/JPG\/en_US\/32473176fc4163ee652fcea7808f9ffe.jpg"
+  },
+  "name": "Sphura, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "Play me for {1} less if you control an exhausted Permanent.  Play me for {1} less if there's an exhausted card in your Reserve.  {J} If there are four or more exhausted cards among Permanents you control and cards in your Reserve, ready up to two of them."
+  },
+  "collectorNumberFormatted": "WCS26-S-003-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

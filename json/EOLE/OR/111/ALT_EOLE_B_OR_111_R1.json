@@ -1,0 +1,419 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Couloir aérien dégagé ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": { "text": "\"Air corridor clear!\"", "locale": "en_US" }
+          },
+          "id": "01KC94HVH2SGNQ6XSHMH3K5NHJ",
+          "text": "\"Air corridor clear!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVHPSR8Q6CY2SB55FEKQ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVHCS4KAA76PSHA8ZPG6",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HVEY15NY3ENFXDED9HNZ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HVGH26NDBJT7G4BA2H1N",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3ZEQ7T91W88W3VTHMFRQPGWHAQ",
+      "reference": "ALT_EOLE_B_OR_111_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ6V4X7CBDG0S04J8HKYXK"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ6VE0PRZ4J710DPDYJWCD"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ6VNK65H84SBC34MMR24V"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ6VX9VQMSCS6DSN44YM9C"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZ6W52ZAN921BJFSZCE5B8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5PMNQHYKKYZP3RW5P9ZNQA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Élevée",
+                          "locale": "fr_FR",
+                          "description": null
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascended",
+                          "locale": "en_US",
+                          "description": null
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascesa",
+                          "locale": "it_IT",
+                          "description": null
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufgestiegen",
+                          "locale": "de_DE",
+                          "description": null
+                        },
+                        "es_ES": {
+                          "displayWeb": "Ascendida",
+                          "locale": "es_ES",
+                          "description": null
+                        }
+                      },
+                      "id": "01K9YZ581FEN1YFQ924BHV1TWD",
+                      "reference": "ASCENDED_S"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M4WMTV1CW3H5MMA3MMHPC"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} I gain 1 boost per [ASCENDED_S] Expedition you control.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Ich erhalte 1 Verstärkung pro Expedition, die du kontrollierst, die [ASCENDED_S] ist.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne 1 boost par Expédition [ASCENDED_S] que vous contrôlez.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{J} Ottengo 1 rinforzo per ogni spedizione [ASCENDED_S] che controlli.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Gano 1 potenciador por cada expedición [ASCENDED_S] que controles.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} I gain 1 boost per [ASCENDED_S] Expedition you control."
+              }
+            ],
+            "reference": "02938"
+          },
+          "sequence": 0,
+          "id": "01KJ5PMQFWKEJV93SSB5QTPC5R"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5PMNQHYKKYZP3RW5P9ZNQA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "s'Élever",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascend",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufzusteigen",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascendere",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Ascender",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JPYFWA5SHKSC7ZY20JSW7G60",
+                      "reference": "ASCEND_INF"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M54FT0QX3Q4819J97ZZMN"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Élevées",
+                          "locale": "fr_FR",
+                          "description": null
+                        },
+                        "en_US": {
+                          "displayWeb": "Ascended",
+                          "locale": "en_US",
+                          "description": null
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ascese",
+                          "locale": "it_IT",
+                          "description": null
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aufgestiegen",
+                          "locale": "de_DE",
+                          "description": null
+                        },
+                        "es_ES": {
+                          "displayWeb": "Ascendidas",
+                          "locale": "es_ES",
+                          "description": null
+                        }
+                      },
+                      "id": "01K9YZ45JJAGEPS7Q6D58MMQGR",
+                      "reference": "ASCENDED_P"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7M53T37GESNY1FDWE2FJQ5"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#If one of your [ASCENDED_P] Expeditions would attempt to [ASCEND_INF] again, I also gain 1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "#Si una de tus expediciones [ASCENDED_P] fuese a intentar [ASCEND_INF] de nuevo, gano además 1 potenciador.#",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "#Falls eine deiner Expeditionen, die [ASCENDED_P] sind, versuchen würde, wieder [ASCEND_INF], erhalte ich auch 1 Verstärkung.#",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "#Si une de vos Expéditions [ASCENDED_P] devait essayer de [ASCEND_INF] à nouveau, je gagne aussi 1 boost.#",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "#Se una delle tue spedizioni [ASCENDED_P] sta per [ASCEND_INF] di nuovo, ottengo anche 1 rinforzo.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#If one of your [ASCENDED_P] Expeditions would attempt to [ASCEND_INF] again, I also gain 1 boost.#"
+              }
+            ],
+            "reference": "02940"
+          },
+          "sequence": 1,
+          "id": "01KJ5PMS5RJWWJAY1H0V0PXP1Q"
+        }
+      ],
+      "value": "{J} I gain 1 boost per [[Ascended]] Expedition you control.  If one of your [[Ascended]] Expeditions would attempt to [Ascend] again, I also gain 1 boost.",
+      "id": "01KJ5PMNQHYKKYZP3RW5P9ZNQA"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/en_US\/49e8796d23796b77ae318dd203983a5f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/WEB_c03272ea11247cf9979671f0cdd10751",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/WEB_18db13ac0ae5b9cf5f02b014d9afdabe",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/WEB_facb9b9df12aa36528323c18869b3d07"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_111_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_111",
+  "reference": "ALT_EOLE_B_OR_111_R1",
+  "translations": {
+    "it_IT": {
+      "name": "Kiwi Sbandieratore",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/it_IT\/25f62ef7d7fa332828564c3a146a0ac0.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Signal-Kiwi",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/de_DE\/9b76220f021c99d99237e561442d0e03.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Wigwagging Kiwi",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/en_US\/49e8796d23796b77ae318dd203983a5f.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Kiwi Sémaphoriste",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/fr_FR\/e58949cead87fc353d8aedfae0f79685.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Kiwi bamboleante",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/es_ES\/7f13bfc1ff31a410147cc1ea078a2fbd.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9THTRAX12Z5PHQM6MF",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/fr_FR\/e58949cead87fc353d8aedfae0f79685.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_111\/JPG\/en_US\/49e8796d23796b77ae318dd203983a5f.jpg"
+  },
+  "name": "Wigwagging Kiwi",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#1#",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "{J} I gain 1 boost per [[Ascended]] Expedition you control.  #If one of your [[Ascended]] Expeditions would attempt to [Ascend] again, I also gain 1 boost.#"
+  },
+  "collectorNumberFormatted": "ROC-079-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

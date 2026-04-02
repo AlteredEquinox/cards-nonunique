@@ -1,0 +1,293 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Without this suit, diving into the Tumult would be a death sentence.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Sans ce scaphandre, plonger dans le Tumulte serait suicidaire.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZKNS09TH7A2H7BY1C2JJ",
+          "text": "Without this suit, diving into the Tumult would be a death sentence."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5WFR5SRDRA94BRZ35B9VK1BJRS",
+      "reference": "ALT_DUSTER_B_BR_95_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "TRAINER",
+      "id": "01HKAGQ07R8R2DAC69RKNZ5SA6",
+      "name": "Trainer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K33JNBY8NYYYY1FJYVB02"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K33QEZ67WTBY9X9TJKHXA"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2K33W9P2QSD1VGPZ6B478X"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2K3414YXVZ5XTSRMY7TP6M"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K345Y33BW0WBR7N0EECXJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X46AERPQJXCH4MQ9MZ5387",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Foncer",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Rush",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Forcieren",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Incalzare",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Presionar",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V64QPQM2T8R3TDKAJY866",
+                      "reference": "RUSH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K356255KZDRGJRG08FF1F"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "#{J}# Du darfst [RUSH] für einen Charakter nutzen. Falls er aus deiner Hand gespielt wird, aktiviert er eine seiner {r} Fähigkeiten.",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "#{J}# You may [RUSH] a Character. If played from your hand, it activates one of its {r} abilities.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# Puoi [RUSH] un personaggio. Se lo giochi dalla tua mano, attiva una delle sue abilità {r}.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Vous pouvez [RUSH] avec un Personnage. S'il est joué de votre main, il active l'une de ses capacités {r}.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# Puedes [RUSH] con un personaje. Si lo juegas desde la mano, activa una de sus habilidades {r}.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#{J}# You may [RUSH] a Character. If played from your hand, it activates one of its {r} abilities."
+              }
+            ],
+            "reference": "01693"
+          },
+          "sequence": 0,
+          "id": "01K6X46B1FDR6SEE4YGJ9B35M1"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X46AERPQJXCH4MQ9MZ5387",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} I gain #1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Je gagne #1 boost.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{R} Ich erhalte #1 Verstärkung.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{R} Gano #1 potenciador.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{R} Ottengo #1 rinforzo.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{R} I gain #1 boost.#"
+              }
+            ],
+            "reference": "01694"
+          },
+          "sequence": 1,
+          "id": "01K6X46BF5K5Q6T0D93MQYPF5P"
+        }
+      ],
+      "value": "{J} You may [Rush] a Character. If played from your hand, it activates one of its {r} abilities.  {R} I gain 1 boost.",
+      "id": "01K6X46AERPQJXCH4MQ9MZ5387"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_95\/JPG\/en_US\/9e981521dc70ec9969cfa752ea265386.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_95\/WEB_03c149c7f760ae0fe3fa54fbfeb1fe87",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_95\/WEB_d7f233a3fac620ce2aaaade6e9f0878f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_95\/WEB_dd262c6545946e9cbf8cc978cdea689d"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_95_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_95",
+  "reference": "ALT_DUSTER_B_BR_95_R1",
+  "translations": {
+    "en_US": {
+      "name": "Deep-Cloud Instructor",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_95\/JPG\/en_US\/9e981521dc70ec9969cfa752ea265386.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Instructor aéreo", "image": null, "locale": "es_ES" },
+    "it_IT": {
+      "name": "Istruttore d'Alta Quota",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Wolkenschicht-Lehrer",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Nimbo-Instructeur",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_95\/JPG\/fr_FR\/0c0fc692f04c4ba631e9e7a451076086.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPK0ER66G4YGWRBJP6H",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_95\/JPG\/fr_FR\/0c0fc692f04c4ba631e9e7a451076086.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_95\/JPG\/en_US\/9e981521dc70ec9969cfa752ea265386.jpg"
+  },
+  "name": "Deep-Cloud Instructor",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#3#",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#{J}# You may [Rush] a Character. If played from your hand, it activates one of its {r} abilities.  {R} I gain #1 boost.#"
+  },
+  "collectorNumberFormatted": "SDU-025-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,311 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Ne trouves-tu pas que j'ai de grandes dents ? »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"My, what big teeth I have!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HTBGG21HS353WCX4M571",
+          "text": "\"My, what big teeth I have!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HTC2SC9KJPBAZADH91Z6",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HTBSFFT6N2ZANNEV1ANX",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT9NXK8T2MDST5W4NAJ7",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HT9Y286RGJY2K1Q5E96W",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5K7ZVZY4H29A6R9SGHEVAM4X8M",
+      "reference": "ALT_EOLE_B_MU_120_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ33EKFZR1HAAYFP67QC00"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ33P3S3C748V4F6QC7J3S"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K9YZ33XMTJ2JFR0ARD1EKD3X"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ34535CES16ECHRCC05R4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ34CJCSCN786W6T1N8P6H"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5P6H70R8SBQY6393DMNHMJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KJ5MJ6H9VSFPCJG0BR7YNR6A"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} [SABOTAGE] a Character with {V} less than or equal to mine. (You may discard one such target from any Reserve.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} [SABOTAGE] un Personnage avec une statistique {V} inférieure ou égale à la mienne. (Vous pouvez défausser une telle cible de n'importe quelle Réserve.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Nutze [SABOTAGE] bei einem Charakter, dessen {V} gleich oder niedriger als meines ist. (Du darfst eine solche Karte aus einer beliebigen Reserve ablegen.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} [SABOTAGE] un personaje con {V} menor o igual que el mío. (Puedes descartar una carta como esa de cualquier reserva.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} [SABOTAGE] un personaggio con {V} pari o inferiore alla mia. (Puoi scartare una carta di questo tipo da qualsiasi Riserva.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} [SABOTAGE] a Character with {V} less than or equal to mine. (You may discard one such target from any Reserve.)"
+              }
+            ],
+            "reference": "03025"
+          },
+          "sequence": 0,
+          "id": "01KJ5P6KDR71Q9YGGQ3K9S1YJY"
+        }
+      ],
+      "value": "{H} [Sabotage] a Character with {V} less than or equal to mine. (You may discard one such target from any Reserve.)",
+      "id": "01KJ5P6H70R8SBQY6393DMNHMJ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/en_US\/73f930ee97c0f43ea171baf1f093a0c4.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/WEB_ace71e26d24291c988686d371b716e7e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/WEB_7356ac0222f93582807333c379b98dbe",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/WEB_5e2d8e06a35288ce852b11b5e85b1572"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_120_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "MU_120",
+  "reference": "ALT_EOLE_B_MU_120_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Le Grand Méchant Loup",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/fr_FR\/03a43ecdc8f2a1e8a4d82f90506b48ed.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "The Big Bad Wolf",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/en_US\/73f930ee97c0f43ea171baf1f093a0c4.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Der große böse Wolf",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/de_DE\/3e3c15632cecc572b5517cd06cba138b.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Lupo Cattivo",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/it_IT\/613b37468ab317633fa71fb912c2127f.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "El Lobo Feroz",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/es_ES\/7dfdfac66a701e300cd1c8745d0a13db.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9N0WQ2GPBPPZEKFSAM",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/fr_FR\/03a43ecdc8f2a1e8a4d82f90506b48ed.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_120\/JPG\/en_US\/73f930ee97c0f43ea171baf1f093a0c4.jpg"
+  },
+  "name": "The Big Bad Wolf",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} [Sabotage] a Character with {V} less than or equal to mine. (You may discard one such target from any Reserve.)"
+  },
+  "collectorNumberFormatted": "ROC-063-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

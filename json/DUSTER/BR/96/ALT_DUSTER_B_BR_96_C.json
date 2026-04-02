@@ -1,0 +1,247 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Even the brightest day of sunshine has its clouds.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Sans nuage, point de bonheur.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZKRBZ2RC6FXB5721TA58",
+          "text": "Even the brightest day of sunshine has its clouds."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "660PR66B0M9VEASA1M527E5A0Y",
+      "reference": "ALT_DUSTER_B_BR_96_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K4W991QGE2WDEGNRPD6TH"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K4WE9VRXG717FE083XN16"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K4WKCWGX8BSYMGBN6QAYB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K4WRBP3S62CEYYHT2P9TX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K4WX8B3HP2H25VEV9556R"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X46GWVNKJVT7173Z59B22Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K4Y0FQG7KA2TDCEVGS6CA"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{J} Puedes pasar. Si no lo haces, crea una ficha de [MANASEED] en los hitos de un oponente objetivo. (Es un permanente con «{T}, sacrifícame: Prepara un orbe de maná».)",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{J} You may pass. If you don't, create a [MANASEED] token in target opponent's Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez passer. Si vous ne le faites pas, créez un jeton [MANASEED] dans les Repères d'un adversaire ciblé. (C'est un Permanent avec « {T}, Sacrifiez-moi : redressez un Orbe de Mana. »)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Du darfst passen. Falls du das nicht tust, erschaffe eine [MANASEED]-Marke im Wahrzeichen-Bereich eines Gegners deiner Wahl. (Sie ist eine Bleibende Karte mit „{T}, Opfere mich: Stelle eine Manakugel bereit.“)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Puoi passare. Se non lo fai, crea una pedina [MANASEED] nei fulcri di un avversario bersaglio. (È un permanente con \"{T}, sacrificami: ripristina una sfera di mana\".)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} You may pass. If you don't, create a [MANASEED] token in target opponent's Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")"
+              }
+            ],
+            "reference": "01708"
+          },
+          "sequence": 0,
+          "id": "01K6X46HD9861WX09NRBQCASS3"
+        }
+      ],
+      "value": "{J} You may pass. If you don't, create a [Manaseed] token in target opponent's Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")",
+      "id": "01K6X46GWVNKJVT7173Z59B22Y"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_96\/JPG\/en_US\/d2a5f379682e37a5da0fd24ae94a038b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_96\/WEB_47caab160be68f22f0900daddc3fe730",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_96\/WEB_1cd913c470313e4d5dd9c09109401c01",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_96\/WEB_037355361994f97b6e6e5f657a793bfe"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_96_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_96",
+  "reference": "ALT_DUSTER_B_BR_96_C",
+  "translations": {
+    "es_ES": { "name": "Néfele", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Nefele", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Nephele", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Néphélé",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_96\/JPG\/fr_FR\/54e1a69acd56882b1a2a36152cf4a7c3.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Nephele",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_96\/JPG\/en_US\/d2a5f379682e37a5da0fd24ae94a038b.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVPK0ER66G4YGWRBJP6Q",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_96\/JPG\/fr_FR\/54e1a69acd56882b1a2a36152cf4a7c3.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_96\/JPG\/en_US\/d2a5f379682e37a5da0fd24ae94a038b.jpg"
+  },
+  "name": "Nephele",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "5",
+    "FOREST_POWER": "5",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{J} You may pass. If you don't, create a [Manaseed] token in target opponent's Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")"
+  },
+  "collectorNumberFormatted": "SDU-032-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

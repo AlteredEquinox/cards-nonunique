@@ -1,0 +1,272 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Here, far from the crowd, is where fruitful negotiations are held between Reka and Asgarthans.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "C'est ici, loin de la foule, que de fructueuses négociations se tiennent entre Reka et Asgarthi.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZRFE1KWS8CFR0P9B452W",
+          "text": "Here, far from the crowd, is where fruitful negotiations are held between Reka and Asgarthans."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "38HQDN13K78JRTK1ZSH8N6HZBF",
+      "reference": "ALT_DUSTER_B_OR_102_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KN9V685FQ9CDV9F0QRPBD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KNA1PBBT7B70B607CN55D"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4J33JA9V63HCKTYRBHFTS",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KN6DGFCRK8TZ98KT3SJBP"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "{J} #[RESUPPLY].#", "locale": "en_US" },
+                  "fr_FR": { "text": "{J} #[RESUPPLY].#", "locale": "fr_FR" },
+                  "de_DE": { "text": "{J} #[RESUPPLY].#", "locale": "de_DE" },
+                  "es_ES": { "text": "{J} #[RESUPPLY].#", "locale": "es_ES" },
+                  "it_IT": { "text": "{J} #[RESUPPLY].#", "locale": "it_IT" }
+                },
+                "text": "{J} #[RESUPPLY].#"
+              }
+            ],
+            "reference": "01840"
+          },
+          "sequence": 0,
+          "id": "01K6X4J3MS9YQVAK4PKB66HQZA"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4J33JA9V63HCKTYRBHFTS",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K6N6S3D8A37E0NPHXE5VZKTY"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{T} : Wähle eine Expedition und erschaffe dann darin eine [ORDIS_RECRUIT]-Soldatenmarke #pro Karte in deinem Wahrzeichen-Bereich, bis maximal drei.#",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{T} : Ciblez une Expédition, puis créez-y un jeton Soldat [ORDIS_RECRUIT] #par carte dans vos Repères, jusqu'à trois par activation.#",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{T}: scegli come bersaglio una spedizione, poi crea in quella spedizione una pedina Soldato [ORDIS_RECRUIT] #per ogni carta nei tuoi fulcri, fino a un max di tre per attivazione.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{T}: Haz objetivo a una expedición y luego crea una ficha de soldado [ORDIS_RECRUIT] en ella #por cada carta en tus hitos, hasta un máximo de tres por activación.#",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{T} : Target an Expedition, then create one [ORDIS_RECRUIT] Soldier token in it #per card in your Landmarks, up to three per activation.#",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "{T} : Target an Expedition, then create one [ORDIS_RECRUIT] Soldier token in it #per card in your Landmarks, up to three per activation.#"
+              }
+            ],
+            "reference": "02099"
+          },
+          "sequence": 1,
+          "id": "01K6X4J43TQPBXMMJSXW25MPRW"
+        }
+      ],
+      "value": "{J} [Resupply].  {T} : Target an Expedition, then create one [Ordis Recruit 1\/1\/1] Soldier token in it per card in your Landmarks, up to three per activation.",
+      "id": "01K6X4J33JA9V63HCKTYRBHFTS"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/JPG\/en_US\/467dd4ced5b9c12214c2583abed55fd8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/WEB_2729b00f35a2579f8fa186ebf038554a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/WEB_fdd59b68d45c1e93d37008e312cbc276"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_102_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_102",
+  "reference": "ALT_DUSTER_B_OR_102_R2",
+  "translations": {
+    "es_ES": { "name": "El Consulado", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Consolato", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Das Konsulat", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "The Consulate",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/JPG\/en_US\/467dd4ced5b9c12214c2583abed55fd8.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Le Consulat",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/JPG\/fr_FR\/a7584ebf66fbc5466aa8e410fe882fc5.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQJY7C35HBC6NGE1NB8",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/JPG\/fr_FR\/a7584ebf66fbc5466aa8e410fe882fc5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/JPG\/en_US\/467dd4ced5b9c12214c2583abed55fd8.jpg"
+  },
+  "name": "The Consulate",
+  "elements": {
+    "MAIN_COST": "#5#",
+    "RECALL_COST": "#5#",
+    "MAIN_EFFECT": "{J} #[Resupply].#  {T} : Target an Expedition, then create one [Ordis Recruit 1\/1\/1] Soldier token in it #per card in your Landmarks, up to three per activation.#"
+  },
+  "collectorNumberFormatted": "SDU-089-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

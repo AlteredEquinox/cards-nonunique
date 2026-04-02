@@ -1,0 +1,299 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Je ne suis jamais plus à l'aise que sous le feu des projecteurs. »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"I'm never more comfortable than when I'm in the spotlight.\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JZ37ZNQN8X22BXB6WB5Y4961",
+          "text": "\"I'm never more comfortable than when I'm in the spotlight.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3YVH8Y9JCQ8WKVK9MDPRNBTJ12",
+      "reference": "ALT_DUSTER_B_LY_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01JZJPFVJKTNWV48DCWM502J79"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZJPFVRWPKTW0SQQX781472C"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JZJPFVYAHG4YAFVPSB7GJP3Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JZJPFW3TBV3CKYESKVEWVXSJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZJPFW9MY5K4Y3M1QS7Z87Y9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4C07T0FARSGGDX7RBPTWT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWERT0Q87VTX9X0NRM6TTJ"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWEREN7W47BNKNGKWFAXPV"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Target opponent reveals a random card from their hand. If I'm [IN_CONTACT], you may immediately play it for free and it gains [FLEETING]. If you don't, discard it.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Ein Gegner deiner Wahl deckt eine zufällige Karte aus seiner Hand auf. Falls ich [IN_CONTACT] bin, darfst du sie sofort kostenlos spielen und sie erhält [FLEETING]. Falls du das nicht tust, lege sie ab.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Un avversario bersaglio rivela una carta casuale dalla sua mano. Se sono [IN_CONTACT], puoi giocarla immediatamente senza pagarne il costo e farle ottenere [FLEETING]. Se non lo fai, scartala.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Un oponente objetivo revela una carta aleatoria de su mano. Si estoy [IN_CONTACT], puedes jugarla inmediatamente sin coste y gana [FLEETING]. Si no lo haces, descártala.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Un adversaire ciblé révèle une carte aléatoire de sa main. Si je suis [IN_CONTACT], vous pouvez immédiatement la jouer gratuitement, et elle gagne [FLEETING]. Si vous ne le faites pas, défaussez-la.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Target opponent reveals a random card from their hand. If I'm [IN_CONTACT], you may immediately play it for free and it gains [FLEETING]. If you don't, discard it."
+              }
+            ],
+            "reference": "01912"
+          },
+          "sequence": 0,
+          "id": "01K6X4C0RHZPBWZM5RZP74STJR"
+        }
+      ],
+      "value": "{H} Target opponent reveals a random card from their hand. If I'm [In Contact], you may immediately play it for free and it gains [[Fleeting]]. If you don't, discard it.",
+      "id": "01K6X4C07T0FARSGGDX7RBPTWT"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_98\/JPG\/en_US\/5608f61c83e837f795e8570dd2d16cee.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_98\/WEB_0cb7e01293cda465b3da8644e1367895",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_98\/WEB_1a1355d6567b4f3227d618cd251caf7f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_98_E",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_98",
+  "reference": "ALT_DUSTER_B_LY_98_E",
+  "translations": {
+    "it_IT": {
+      "name": "Phoibos, Esarca Reka",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Phoibos, Reka Hexarch",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_98\/JPG\/en_US\/5608f61c83e837f795e8570dd2d16cee.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Phoibos, hexarca reka",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Phoibos, Reka-Hexarch",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Phoibos, Hexarque Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_98\/JPG\/fr_FR\/595271095707cb6cae47de93728f2c33.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPXTWN7CSV6RBV03C0H",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_98\/JPG\/fr_FR\/595271095707cb6cae47de93728f2c33.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_98\/JPG\/en_US\/5608f61c83e837f795e8570dd2d16cee.jpg"
+  },
+  "name": "Phoibos, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "7",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "6",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} Target opponent reveals a random card from their hand. If I'm [In Contact], you may immediately play it for free and it gains [[Fleeting]]. If you don't, discard it."
+  },
+  "collectorNumberFormatted": "SDU-050-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

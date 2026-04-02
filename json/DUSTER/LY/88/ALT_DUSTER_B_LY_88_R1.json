@@ -1,0 +1,259 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The shortest distance between two points is a straight line.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "C'est clairement dans ses cordes.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZMPNHDHTQTBCK21DD3NQ",
+          "text": "The shortest distance between two points is a straight line."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2FDP520YE88NY9MSRNQG1QW3Z7",
+      "reference": "ALT_DUSTER_B_LY_88_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K6JSHY4FB97EDQSNG8EF1"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K6JZ4WDPZHWEEJGZ29P6R"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K6K4APTZGK4V0S6B8DFPN"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K6K9TDGGW8R6XTS1CTQFT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K6KFF2AGNSJY9NJWZCGR4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X48Y1FWJV1D3Q5NGHKD1Y0",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWSBS0Y8V8QB7WS2HR2D44"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{H} If I'm in {O}, create a [MANASEED] token in your Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{H} Falls ich in {O} bin, erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{H} Se sono in {O}, crea una pedina [MANASEED] nei tuoi fulcri.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{H} Si estoy en {O}, crea una ficha de [MANASEED] en tus hitos.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{H} Si je suis en {O}, créez un jeton [MANASEED] dans vos Repères.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{H} If I'm in {O}, create a [MANASEED] token in your Landmarks.#"
+              }
+            ],
+            "reference": "01945"
+          },
+          "sequence": 0,
+          "id": "01K6X48YMH1SSX3TCG7MEPGXSP"
+        }
+      ],
+      "value": "{H} If I'm in {O}, create a [Manaseed] token in your Landmarks.",
+      "id": "01K6X48Y1FWJV1D3Q5NGHKD1Y0"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/JPG\/en_US\/f33541d3e152ac05756939692568d699.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/WEB_2b4d1466ea2173022efe3330427ff14e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/WEB_e8c4143d6d19e0e0d93216bbde8311cd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/WEB_fff73ade08339b4aaff93f5f09b14495"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_88_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_88",
+  "reference": "ALT_DUSTER_B_LY_88_R1",
+  "translations": {
+    "en_US": {
+      "name": "Reka Zipliner",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/JPG\/en_US\/f33541d3e152ac05756939692568d699.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Glissecorde Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/JPG\/fr_FR\/d3245db23a9b5a58336023542eb3d103.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Viaggiatrice dei Cavi Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/JPG\/it_IT\/79217e30331daa80f2278087e80c13b8.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Reka-Ziplinerin",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/JPG\/de_DE\/b10847dd79b17b430642cf5932df3dcf.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Tirolinista reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/JPG\/es_ES\/d800eacbaa8c976f58e4411f97dc0ce5.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01JYP9SVPTWRP6MSB5E1RSJWYT",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/JPG\/fr_FR\/d3245db23a9b5a58336023542eb3d103.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_88\/JPG\/en_US\/f33541d3e152ac05756939692568d699.jpg"
+  },
+  "name": "Reka Zipliner",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "#2#",
+    "MOUNTAIN_POWER": "#2#",
+    "MAIN_EFFECT": "#{H} If I'm in {O}, create a [Manaseed] token in your Landmarks.#"
+  },
+  "collectorNumberFormatted": "SDU-040-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

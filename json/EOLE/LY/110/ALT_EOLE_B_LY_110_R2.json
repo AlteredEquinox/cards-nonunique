@@ -1,0 +1,357 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Elle a plus d'une corde à son arc !",
+              "locale": "fr_FR"
+            },
+            "en_US": { "text": "She knows the ropes!", "locale": "en_US" }
+          },
+          "id": "01KC94HR22WG2QZ28T2P0KSF76",
+          "text": "She knows the ropes!"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HR3KZ05SH3NEGA8E5PCR",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR36AP33CK1CS2HJQPCZ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR1M8ENZC5QQHN4GCPRD",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HR1V7G4YWCGA1CJFPEXF",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3NG7SZYAXT9T5VQCFNKR4B5NFA",
+      "reference": "ALT_EOLE_B_LY_110_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYQG22SFYMK3KNFY34RB05"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYQG8ZXSRXFC0YNESMTBN1"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYQGFV63GF63MV111JA2HN"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYQGPP3N3Q4Q1X12V023KY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYQGXFWEG65A09PX4D3A90"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NNEQ6CPG247KSA83187FD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J} Target Character with a {D} ability in play or in Reserve gains 1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{J} Un Personnage ciblé avec une capacité {D} en jeu ou en Réserve gagne 1 boost.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#{J} Ein Charakter deiner Wahl mit einer {D} Fähigkeit im Spiel oder in der Reserve erhält 1 Verstärkung.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{J} Un personaggio bersaglio con un'abilità {D} in gioco o nella Riserva ottiene 1 rinforzo.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{J} Un personaje objetivo con una habilidad {D} en juego o en reserva gana 1 potenciador.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#{J} Target Character with a {D} ability in play or in Reserve gains 1 boost.#"
+              }
+            ],
+            "reference": "02842"
+          },
+          "sequence": 0,
+          "id": "01KJ5NNGCG7YBW948N142SQQ7R"
+        }
+      ],
+      "value": "{J} Target Character with a {D} ability in play or in Reserve gains 1 boost.",
+      "id": "01KJ5NNEQ6CPG247KSA83187FD"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NNJ9BBF3ARZ504MJX0XJ8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Schlafend",
+                          "locale": "de_DE",
+                          "description": "Am Abend ignoriere meine Statistiken. Während der Ruhepause gehe ich nicht in die Reserve und verliere Schlafend."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dormiente",
+                          "locale": "it_IT",
+                          "description": "Durante il crepuscolo, ignora le mie statistiche. Durante il riposo, non vado nella Riserva e perdo Dormiente."
+                        },
+                        "en_US": {
+                          "displayWeb": "Asleep",
+                          "locale": "en_US",
+                          "description": "During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Endormi",
+                          "locale": "fr_FR",
+                          "description": "Ignorez mes statistiques pendant le Crépuscule. Au Repos, je ne vais pas en Réserve et je perds Endormi."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sueño",
+                          "locale": "es_ES",
+                          "description": "Durante el anochecer, ignora mis estadísticas. Durante el descanso, no voy a la reserva y pierdo sueño."
+                        }
+                      },
+                      "id": "01HKAGPDSXJC9J9QJ4Y1DBK28E",
+                      "reference": "ASLEEP"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KG1JNTGHT6TRG82YM1WKE"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : The next Character you play this turn gains 1 boost and [ASLEEP].",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Le prochain Personnage que vous jouez ce tour-ci gagne 1 boost et [ASLEEP].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Der nächste Charakter, den du in dieser Runde spielst, erhält 1 Verstärkung und [ASLEEP].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: il prossimo personaggio che giochi in questo turno ottiene 1 rinforzo e [ASLEEP].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{D} : El siguiente personaje que juegues este turno gana 1 potenciador y [ASLEEP].",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{D} : The next Character you play this turn gains 1 boost and [ASLEEP]."
+              }
+            ],
+            "reference": "02841"
+          },
+          "sequence": 0,
+          "id": "01KJ5NNKTNQX0JPVP2NQ3P8Q3K"
+        }
+      ],
+      "value": "{D} : The next Character you play this turn gains 1 boost and [[Asleep]].",
+      "id": "01KJ5NNJ9BBF3ARZ504MJX0XJ8"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Saeed Jalabi" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/JPG\/en_US\/7ea60c254a91e192e9419d68cce5581c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/WEB_707ccb0e483f48d82b030e1bf130c021",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/WEB_9eb5afab05469008e6910bb1c3769a25",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/WEB_b88157f7e14c8d60ce4b42f1aab34472"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_110_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_110",
+  "reference": "ALT_EOLE_B_LY_110_R2",
+  "translations": {
+    "de_DE": {
+      "name": "Reka-Seiltänzerin",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/JPG\/de_DE\/6d9c5b558027dd34a3479a45379ddfc0.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Danzacuerdas reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/JPG\/es_ES\/9af3ce5567fc723e4f1b76de97bcd4f2.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Reka Ropedancer",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/JPG\/en_US\/7ea60c254a91e192e9419d68cce5581c.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Dansecorde Reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/JPG\/fr_FR\/5e756552f2776c044425691ba563607b.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Funambola Reka",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/JPG\/it_IT\/795d4a4531eb0bf315ae9b9642315c4b.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01K9YWHY96Y4NEBMY22W0PNWQS",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/JPG\/fr_FR\/5e756552f2776c044425691ba563607b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_110\/JPG\/en_US\/7ea60c254a91e192e9419d68cce5581c.jpg"
+  },
+  "name": "Reka Ropedancer",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "#3#",
+    "OCEAN_POWER": "#2#",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "#{J} Target Character with a {D} ability in play or in Reserve gains 1 boost.#",
+    "ECHO_EFFECT": "{D} : The next Character you play this turn gains 1 boost and [[Asleep]]."
+  },
+  "collectorNumberFormatted": "ROC-044-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

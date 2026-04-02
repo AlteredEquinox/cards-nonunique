@@ -1,0 +1,259 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Vous passerez que d'une seule manière : de vie à trépas ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Getting past me means going through hell—with no way back.\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KHBKDKCHSS1BCZHJRMQS36RV",
+          "text": "\"Getting past me means going through hell—with no way back.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1DTTNH7AX89M2SBPWRHG8STM1V",
+      "reference": "ALT_EOLECB_A_BR_117_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6Q0A0QPH6YTK4EDZGGC6N"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KHB6Q0KM2C1EQ05XQRMTX8HT"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01KHB6Q0X0Q8VYFHEVS0V87TVB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6Q16H2X4CQ46KAPRE5KQH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KHB6Q1G5VQJ6SH8R3TST3S73"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKHACCVJVZE1TNH00640CW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7K9QMC8YA0PT5FQV4ZY3S5"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{H} [SABOTAGE] une carte de Coût de Réserve {2} ou moins.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{H} [SABOTAGE] a card with Reserve Cost {2} or less.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Nutze [SABOTAGE] bei einer Karte mit Reservekosten {2} oder weniger.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} [SABOTAGE] una carta con costo dalla Riserva pari o inferiore a {2}.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} [SABOTAGE] una carta con coste desde la reserva de {2} o menos.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{H} [SABOTAGE] a card with Reserve Cost {2} or less."
+              }
+            ],
+            "reference": "02808"
+          },
+          "sequence": 0,
+          "id": "01KJQKHAZQCVZ5NVVZ0SQEDK52"
+        }
+      ],
+      "value": "{H} [Sabotage] a card with Reserve Cost {2} or less.",
+      "id": "01KJQKHACCVJVZE1TNH00640CW"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "DOBA" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/JPG\/en_US\/09d45f729926f563a94fef031a180bc7.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/WEB_00ff90f37df5c19f2013c7f44b2b98bb",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/WEB_07ea910c9bed12ead85e4822c29c8f0d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/WEB_29d6a17ccd51e55dd158e8ecd98689af"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_BR_117_C",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_BR_117_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Sentinelle Implacable",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/JPG\/fr_FR\/9c15231681309b26acee4893cdbe729d.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Centinela severa",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/JPG\/es_ES\/126c2d2a22c7783ff8a6b1f2c7b81603.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Unbeugsame Wache",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/JPG\/de_DE\/b3277752321aef9acae8b45413ba40df.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Sentinella Austera",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/JPG\/it_IT\/521307e30ff5612036bb87aeb98c06ba.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Stern Sentinel",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/JPG\/en_US\/09d45f729926f563a94fef031a180bc7.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01KH6E45A18TRPZMC0SJVATD0A",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/JPG\/fr_FR\/9c15231681309b26acee4893cdbe729d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_BR_117\/JPG\/en_US\/09d45f729926f563a94fef031a180bc7.jpg"
+  },
+  "name": "Stern Sentinel",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} [Sabotage] a card with Reserve Cost {2} or less."
+  },
+  "collectorNumberFormatted": "ROCCB-V-027-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

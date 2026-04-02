@@ -1,0 +1,333 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Happiness is always within reach, if you know how to savor it. Care for a smoothie?\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Le bonheur est à la portée de qui sait le goûter. Vous voulez un smoothie ? »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZT0QYRBZZSSAP3N1RSD5",
+          "text": "\"Happiness is always within reach, if you know how to savor it. Care for a smoothie?\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3ZAFB2WSYZ98P8F22G5WB3M93X",
+      "reference": "ALT_DUSTER_B_OR_94_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KKH96RS3Y5ZQ18D057ED0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KKHF5EHTYR69HFFDGCV7V"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KKHN31PYWZF2QQ0TSS06M"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KKHV05BDMGE9EPRH5J4KQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KKJ0ZMRV8YR01XRAT3MT1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4N4DDGT60Q32HDXT3ZG4D",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TX3MW47J9KZWJ3V6PWFSEF"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Create a [MANASEED] token in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Créez un jeton [MANASEED] dans vos Repères.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Crea una pedina [MANASEED] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Crea una ficha de [MANASEED] en tus hitos.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} Create a [MANASEED] token in your Landmarks."
+              }
+            ],
+            "reference": "01966"
+          },
+          "sequence": 0,
+          "id": "01K6X4N4Z6FJKJYE90TKR31SBV"
+        }
+      ],
+      "value": "{J} Create a [Manaseed] token in your Landmarks.",
+      "id": "01K6X4N4DDGT60Q32HDXT3ZG4D"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4N5GBE9FXH9RWGTWW6G2W",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K4ZHEP71V0XDM32A354KP9J7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{D} : Create a [ORDIS_RECRUIT] Soldier token in target Expedition.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{D} : Erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in einer Expedition deiner Wahl.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{D}: Crea una ficha de soldado [ORDIS_RECRUIT] en una expedición objetivo.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{D} : Créez un jeton Soldat [ORDIS_RECRUIT] dans une Expédition ciblée.#",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "#{D}: crea una pedina Soldato [ORDIS_RECRUIT] in una spedizione bersaglio.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{D} : Create a [ORDIS_RECRUIT] Soldier token in target Expedition.#"
+              }
+            ],
+            "reference": "02070"
+          },
+          "sequence": 0,
+          "id": "01K6X4N62BG5YJ10VMVYQ0HYC8"
+        }
+      ],
+      "value": "{D} : Create a [Ordis Recruit 1\/1\/1] Soldier token in target Expedition.",
+      "id": "01K6X4N5GBE9FXH9RWGTWW6G2W"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_94\/JPG\/en_US\/a48874fc7622908e452f213a4d8ea153.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_94\/WEB_24611317b98242c312923475f1b04fcd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_94\/WEB_fdd9a67660c6380f20d4d4a2ca9196b8",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_94\/WEB_32d29eceef7e819fb0c533d15e6e5f62"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_94_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_94",
+  "reference": "ALT_DUSTER_B_OR_94_R2",
+  "translations": {
+    "en_US": {
+      "name": "Reka Caterer",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_94\/JPG\/en_US\/a48874fc7622908e452f213a4d8ea153.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Proveedora reka", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Cameriera Reka", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Reka-Gastronomin", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Serveuse Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_94\/JPG\/fr_FR\/72f4cc3d50523defeb43078a6acb70af.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQFGHE7Y1AE4TFHAJKC",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_94\/JPG\/fr_FR\/72f4cc3d50523defeb43078a6acb70af.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_94\/JPG\/en_US\/a48874fc7622908e452f213a4d8ea153.jpg"
+  },
+  "name": "Reka Caterer",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "#3#",
+    "MOUNTAIN_POWER": "#3#",
+    "MAIN_EFFECT": "{J} Create a [Manaseed] token in your Landmarks.",
+    "ECHO_EFFECT": "#{D} : Create a [Ordis Recruit 1\/1\/1] Soldier token in target Expedition.#"
+  },
+  "collectorNumberFormatted": "SDU-083-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

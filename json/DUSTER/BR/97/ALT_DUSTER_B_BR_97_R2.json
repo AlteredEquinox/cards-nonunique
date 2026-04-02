@@ -1,0 +1,255 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Yeah, you've still got a few things to learn…\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Ouaip, t'as encore des trucs à apprendre... »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZKTS00N21ZJM22R3553Q",
+          "text": "\"Yeah, you've still got a few things to learn…\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6RFWYF02R29HAB3P0RY57QD527",
+      "reference": "ALT_DUSTER_B_BR_97_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "TRAINER",
+      "id": "01HKAGQ07R8R2DAC69RKNZ5SA6",
+      "name": "Trainer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K40B70FJA2F8VQDWK1SEQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K40G3CEJSKMB1PPBTZ364"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K40P07EVAXC3BFG4ZHNM9"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K40V1TQA9R17SE239MBSD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K410MJ08FT35XFRD8RQYM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X46YYF34684A7QKJ9SS913",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Foncer",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Rush",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Forcieren",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Incalzare",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Presionar",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V64QPQM2T8R3TDKAJY866",
+                      "reference": "RUSH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K3YZY754XGPVXXKJ58BNN"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J}# You may [RUSH]. If you would play a card from Reserve this way, you may pay its Hand Cost instead of its Reserve Cost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# Du darfst [RUSH] nutzen. Falls du auf diese Weise eine Karte aus der Reserve spielen würdest, darfst du ihre Handkosten anstelle ihrer Reservekosten bezahlen.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# Puedes [RUSH]. Si fueses a jugar una carta desde la reserva de esta manera, puedes pagar su coste desde la mano en lugar de su coste desde la reserva.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# Puoi [RUSH]. Se stai per giocare una carta dalla Riserva in questo modo, puoi pagare il suo costo dalla mano invece del suo costo dalla Riserva.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Vous pouvez [RUSH]. Si vous jouez une carte de votre Réserve de cette manière, vous pouvez payer son Coût de Main à la place de son Coût de Réserve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{J}# You may [RUSH]. If you would play a card from Reserve this way, you may pay its Hand Cost instead of its Reserve Cost."
+              }
+            ],
+            "reference": "01700"
+          },
+          "sequence": 0,
+          "id": "01K6X46ZN311RZV18JVN71FY3X"
+        }
+      ],
+      "value": "{J} You may [Rush]. If you would play a card from Reserve this way, you may pay its Hand Cost instead of its Reserve Cost.",
+      "id": "01K6X46YYF34684A7QKJ9SS913"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_97\/JPG\/en_US\/2ae212d2558b4f6b9b6b8effbe839eb4.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_97\/WEB_05005324da2ae4bdac893431c296efc0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_97\/WEB_e2b4842f367090ed49e82d1988eb1e9b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_97\/WEB_25d01a2f9d98fe2a8e01c166e6326fe1"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_97_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_97",
+  "reference": "ALT_DUSTER_B_BR_97_R2",
+  "translations": {
+    "en_US": {
+      "name": "Haven Trainer",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_97\/JPG\/en_US\/2ae212d2558b4f6b9b6b8effbe839eb4.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Entrenador del Refugio",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Addestratore del Rifugio",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Haven-Trainer", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Entraîneur de Havre",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_97\/JPG\/fr_FR\/025b2c827728ca09446e7706dc248ab3.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPM76ZHZ11ZWCF0564S",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_97\/JPG\/fr_FR\/025b2c827728ca09446e7706dc248ab3.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_97\/JPG\/en_US\/2ae212d2558b4f6b9b6b8effbe839eb4.jpg"
+  },
+  "name": "Haven Trainer",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#{J}# You may [Rush]. If you would play a card from Reserve this way, you may pay its Hand Cost instead of its Reserve Cost."
+  },
+  "collectorNumberFormatted": "SDU-028-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

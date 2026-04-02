@@ -1,0 +1,311 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I only feel alive when I'm on the very edge!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je ne me sens vivante qu'au bord du précipice ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HQ28M4PHQYSG23YKQXRB",
+          "text": "\"I only feel alive when I'm on the very edge!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQ2JRVC8ZEXB8VVJJ8Z5",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQ2DFWHMEXK2NGYSCZMB",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HQ1ZBB1PXW4C3MTZE2CJ",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HQ24A7T8P2GN2J5S593T",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1CXJG2HQFR833VBC4NXZHX8E7W",
+      "reference": "ALT_EOLE_B_BR_111_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYG8TKHTTJGF7Q8QRMYWM0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYG90XQ0EJE3H3AP99VG99"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYG976VN68PQ3FM45JVJ4C"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYG9DHHAQRQCZRHB7DMV2Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K9YYG9KY4MN74SM3GJZ6YWP3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5N4THVAT4XQPP487ED9D7F",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7K6K9JNWXJ9CH3H40VEQ08"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} I gain [FLEETING] unless you control a Feat. (If I would be sent to Reserve, discard me instead.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Je gagne [FLEETING], sauf si vous contrôlez une Prouesse. (Si je devais être envoyé en Réserve, défaussez-moi à la place.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{H} Ottengo [FLEETING] a meno che non controlli una Prodezza. (Se sto per finire nella Riserva, scartami invece.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Gano [FLEETING] a menos que controles una proeza. (Si fuese a ir a la reserva, en vez de eso, descártame.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{H} Ich erhalte [FLEETING], es sei denn, du kontrollierst eine Heldentat. (Falls ich in die Reserve geschickt werden soll, lege mich stattdessen ab.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} I gain [FLEETING] unless you control a Feat. (If I would be sent to Reserve, discard me instead.)"
+              }
+            ],
+            "reference": "02795"
+          },
+          "sequence": 0,
+          "id": "01KJ5N4WKRSZRMDZT82KDSNGXF"
+        }
+      ],
+      "value": "{H} I gain [[Fleeting]] unless you control a Feat. (If I would be sent to Reserve, discard me instead.)",
+      "id": "01KJ5N4THVAT4XQPP487ED9D7F"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/en_US\/90eb3b8f1b2bbcc2f68ee3b97832ebf7.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/WEB_e21e9820722beb6ff015ea1b2eef0138",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/WEB_29be8336db3df5180cb6c78c2e42847e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/WEB_5be8f055db87f2bc48530bb3307a67ed"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_111_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "BR_111",
+  "reference": "ALT_EOLE_B_BR_111_C",
+  "translations": {
+    "en_US": {
+      "name": "Carmela, Fast Striker",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/en_US\/90eb3b8f1b2bbcc2f68ee3b97832ebf7.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Carmela, Assalitrice Rapida",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/it_IT\/54e85200d7c79f843abdd28276ed4f5d.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Carmela, Stürmerin",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/de_DE\/2c30141a65ba346aa9af9639a7bfd31c.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Carmela, Frappeuse Véloce",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/fr_FR\/c305103bc6e240c857c8708a8091c2a1.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Carmela, atacante rauda",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/es_ES\/d49f25d06b0cdd9dca4fd85d740ef615.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY8SMQ00CJ4KJWM551H7",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/fr_FR\/c305103bc6e240c857c8708a8091c2a1.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_BR_111\/JPG\/en_US\/90eb3b8f1b2bbcc2f68ee3b97832ebf7.jpg"
+  },
+  "name": "Carmela, Fast Striker",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "{H} I gain [[Fleeting]] unless you control a Feat. (If I would be sent to Reserve, discard me instead.)"
+  },
+  "collectorNumberFormatted": "ROC-028-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

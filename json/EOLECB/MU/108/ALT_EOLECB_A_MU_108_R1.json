@@ -1,0 +1,302 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "You should never set a wolf to guard the sheep.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Tu n'aurais pas dû confier au loup la garde de la brebis. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KHBKDKJCRDAR9EDB03V6EJE6",
+          "text": "You should never set a wolf to guard the sheep."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3ZQ3XG4PPH9P4ANB7SN5PJWNMK",
+      "reference": "ALT_EOLECB_A_MU_108_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    },
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01KH6E44GRCVN6CHNG9FY4KNXQ",
+    "reference": "EOLECB",
+    "name": "Roots of Corruption - Collector Booster"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6R2MGWC0T7HEX0TMYGKC2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6R2Y1QSW4KY2EPN0GMD44"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01KHB6R37GB23Y2WKYXSGGDJM2"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01KHB6R3H3NGRFKH39BD7WAB1B"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01KHB6R3THZRPFB1P0K4S12B72"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJQKJ9ZXY567BKX6PDXBH5R8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#I can't be played# unless there's an Animal in an opponent's Expedition.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#Je ne peux pas être joué,# sauf s'il y a un Animal dans l'Expédition d'un adversaire.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#Ich kann nicht gespielt werden,# es sei denn, in einer Expedition eines Gegners ist ein Tier.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Non puoi giocarmi# a meno che non ci sia un Animale in una spedizione dell'avversario.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#No puedes jugarme# a menos que haya un animal en una expedición del oponente.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#I can't be played# unless there's an Animal in an opponent's Expedition."
+              }
+            ],
+            "reference": "02881"
+          },
+          "sequence": 0,
+          "id": "01KJQKJAKD8WF245F72PH91JJR"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJQKJ9ZXY567BKX6PDXBH5R8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Dotouffu 1\/1\/1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Woollyback 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Wollrücken 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Lanuvola 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Lanudo 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V1RZ960JE3XMHMM4G1Y3D",
+                      "reference": "WOOLLYBACK"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KS21MJPKQNRDTYK7MNXFD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#When I leave the Expedition zone — Create a [WOOLLYBACK] Animal token in my Expedition.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Wenn ich die Expeditionszone verlasse — Erschaffe eine [WOOLLYBACK]-Tiermarke in meiner Expedition.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Quando lascio l'area delle spedizioni — Crea una pedina Animale [WOOLLYBACK] nella mia spedizione.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Cuando abandone la zona de expedición — Crea una ficha de animal [WOOLLYBACK] en mi expedición.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque je quitte la zone d'Expédition — Créez un jeton Animal [WOOLLYBACK] dans mon Expédition.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#When I leave the Expedition zone — Create a [WOOLLYBACK] Animal token in my Expedition.#"
+              }
+            ],
+            "reference": "02882"
+          },
+          "sequence": 1,
+          "id": "01KJQKJB3DXMTNG0WZ1B7AN60S"
+        }
+      ],
+      "value": "I can't be played unless there's an Animal in an opponent's Expedition.  When I leave the Expedition zone — Create a [Woollyback 1\/1\/1] Animal token in my Expedition.",
+      "id": "01KJQKJ9ZXY567BKX6PDXBH5R8"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/JPG\/en_US\/6c11d8c24b2b43193ab40011a82f197e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/WEB_ec38d6b68b20e17304a85d660e276c2d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/WEB_9aafb7187d7d3d81a78e62be210b0cb9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/WEB_1b3bc78b6565a468a94fff8b25a82b3e"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_MU_108_R1",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": null,
+  "reference": "ALT_EOLECB_A_MU_108_R1",
+  "translations": {
+    "en_US": {
+      "name": "Corrupted Woollyback",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/JPG\/en_US\/6c11d8c24b2b43193ab40011a82f197e.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Dotouffu Corrompu",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/JPG\/fr_FR\/3fb00e65d311947d70e2418b48390f3f.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Lanudo corrompido",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/JPG\/es_ES\/1d1b91ff944a919b4919ddc8f8b68a0b.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Verderbter Wollrücken",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/JPG\/de_DE\/7712229beeeec00e0c16326392731d6f.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Lanuvola Corrotta",
+      "image": "Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/JPG\/it_IT\/ebf452c1a61271a7ac336d401f7737b2.jpg",
+      "locale": "it_IT"
+    }
+  },
+  "id": "01KH6E45CV870QRJYZ1B0NJ0QW",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/JPG\/fr_FR\/3fb00e65d311947d70e2418b48390f3f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLECB\/CARDS\/ALT_EOLECB_A_MU_108\/JPG\/en_US\/6c11d8c24b2b43193ab40011a82f197e.jpg"
+  },
+  "name": "Corrupted Woollyback",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "#0#",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "#0#",
+    "MAIN_EFFECT": "#I can't be played# unless there's an Animal in an opponent's Expedition.  #When I leave the Expedition zone — Create a [Woollyback 1\/1\/1] Animal token in my Expedition.#"
+  },
+  "collectorNumberFormatted": "ROCCB-V-058-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

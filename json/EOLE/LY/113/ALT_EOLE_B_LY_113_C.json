@@ -1,0 +1,394 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Il n'est jamais tard à l'horloge du paresseux.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"I'm not lazy, I'm just conserving energy.\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HR9TPVHY8QZBT3GEW7X2",
+          "text": "\"I'm not lazy, I'm just conserving energy.\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRA7V3HPTVFND6VANSFC",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HRA1B9D9MP1QXA92S6XE",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HR88SP3K5WN2XZ7CMVS2",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HR9CKJ6JNBK6BBGHCFT7",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0HCVAWQXS997NA4PA144Y62WKC",
+      "reference": "ALT_EOLE_B_LY_113_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYRG81N26V8FMFG9HPAE0A"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYRGF0CAMC75FQ35QXC69D"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYRGNXZ8NM6688PC8E0BST"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYRGWNEJZF9ZZHXPBSWP8J"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YYRH3GEV41BJS2PKJSQ1R8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NJM71424GNXDDVM89XAPF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Schlafend",
+                          "locale": "de_DE",
+                          "description": "Am Abend ignoriere meine Statistiken. Während der Ruhepause gehe ich nicht in die Reserve und verliere Schlafend."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dormiente",
+                          "locale": "it_IT",
+                          "description": "Durante il crepuscolo, ignora le mie statistiche. Durante il riposo, non vado nella Riserva e perdo Dormiente."
+                        },
+                        "en_US": {
+                          "displayWeb": "Asleep",
+                          "locale": "en_US",
+                          "description": "During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Endormi",
+                          "locale": "fr_FR",
+                          "description": "Ignorez mes statistiques pendant le Crépuscule. Au Repos, je ne vais pas en Réserve et je perds Endormi."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sueño",
+                          "locale": "es_ES",
+                          "description": "Durante el anochecer, ignora mis estadísticas. Durante el descanso, no voy a la reserva y pierdo sueño."
+                        }
+                      },
+                      "id": "01HKAGPDSXJC9J9QJ4Y1DBK28E",
+                      "reference": "ASLEEP"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01HTS96EM655NAW4SJYMS0CD24"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{H} Ich erhalte $[ASLEEP].",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Je gagne $[ASLEEP].",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{H} Ottengo $[ASLEEP].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": { "text": "{H} Gano $[ASLEEP].", "locale": "es_ES" },
+                  "en_US": {
+                    "text": "{H} I gain $[ASLEEP].",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "{H} I gain $[ASLEEP]."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01KJ5NJNYX8RA4MNVVXFCGQVYW"
+        }
+      ],
+      "value": "{H} I gain [[Asleep]]. (During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep.)",
+      "id": "01KJ5NJM71424GNXDDVM89XAPF"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NJQK74816JGQ8STKRB2D1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "After You",
+                          "locale": "en_US",
+                          "description": "End your turn as if you had played a card. You may still play cards later this Day."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nach dir",
+                          "locale": "de_DE",
+                          "description": "Beende deine Runde, als ob du eine Karte gespielt hättest. Du darfst auch später an diesem Tag noch eine Karte spielen."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dopo di te",
+                          "locale": "it_IT",
+                          "description": "Termina il tuo turno come se avessi giocato una carta. Puoi comunque giocare carte più avanti in questa giornata."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Después de ti",
+                          "locale": "es_ES",
+                          "description": "Termina tu turno como si hubieras jugado una carta. A lo largo del día actual, puedes jugar más cartas."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Après vous",
+                          "locale": "fr_FR",
+                          "description": "Terminez votre tour comme si vous aviez joué une carte. Vous pouvez encore jouer des cartes plus tard ce Jour-ci."
+                        }
+                      },
+                      "id": "01HKAGXB4C1CCRNYV6K6BFCHMQ",
+                      "reference": "AFTER_YOU"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KHCPM2NJPAC1MAV970TA7K15"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : [AFTER_YOU]. (End your turn as if you had played a card.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : [AFTER_YOU]. (Terminez votre tour comme si vous aviez joué une carte.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{D} : [AFTER_YOU]. (Beende deine Runde, als ob du eine Karte gespielt hättest.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: [AFTER_YOU]. (Termina il tuo turno come se avessi giocato una carta.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{D}: [AFTER_YOU]. (Termina tu turno como si hubieras jugado una carta.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{D} : [AFTER_YOU]. (End your turn as if you had played a card.)"
+              }
+            ],
+            "reference": "03009"
+          },
+          "sequence": 0,
+          "id": "01KJ5NJSE73WHAAF51YWXA7A2X"
+        }
+      ],
+      "value": "{D} : [After You]. (End your turn as if you had played a card.)",
+      "id": "01KJ5NJQK74816JGQ8STKRB2D1"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/JPG\/en_US\/c70350b940238d606df90d97a42db3ae.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/WEB_259f76528bce9b845786987ec6595c78",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/WEB_913c7144ce27fe91a1bf037824d06e33",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/WEB_6f388e41723857d32d99951700a6ce29"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_113_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_113",
+  "reference": "ALT_EOLE_B_LY_113_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Paresseux Bienfaiteur",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/JPG\/fr_FR\/f96ad31d3d1479ca8920a2dafc7ad571.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Bradipo Generoso",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/JPG\/it_IT\/6b3ecbdfa33ee78ff70d3073e62f479c.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Spendables Faultier",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/JPG\/de_DE\/1cf903f8a242c1ae8c7a3cd0bb999169.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Perezoso generoso",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/JPG\/es_ES\/96cdf01bd4dd90d9a6a1d43dfc66b380.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Bestowing Sloth",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/JPG\/en_US\/c70350b940238d606df90d97a42db3ae.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K9YWHY97HEAH2YAQS6EZ72GR",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/JPG\/fr_FR\/f96ad31d3d1479ca8920a2dafc7ad571.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_113\/JPG\/en_US\/c70350b940238d606df90d97a42db3ae.jpg"
+  },
+  "name": "Bestowing Sloth",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} I gain [[Asleep]]. (During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep.)",
+    "ECHO_EFFECT": "{D} : [After You]. (End your turn as if you had played a card.)"
+  },
+  "collectorNumberFormatted": "ROC-042-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

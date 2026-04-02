@@ -1,0 +1,281 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Anger is often the fruit of frustration.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "La colère est souvent le fruit de la frustration.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZTSTV0ZTKPH38DX97PXP",
+          "text": "Anger is often the fruit of frustration."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "752CTQZ1CK8K7VAJKA3NE8HRWV",
+      "reference": "ALT_DUSTER_B_OR_99_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KMHHJ7N20R1FNNQ4A8AJ0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KMHR6S34QWD2CFC317W5Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4PF5FE9EEPCQBGE44957Q",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "01K6X4PFRA1GZWPG891KG99H0W"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4PF5FE9EEPCQBGE44957Q",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TX4V337EH1NJPMWX3H5CB9"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Discard target Character or Permanent. #If its Base Cost was {2} or less,# create a [MANASEED] token in your Landmarks. (Its Base Cost is the Reserve Cost if it's Fleeting. Otherwise, it's the Hand Cost.)",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Scarta un personaggio o un permanente bersaglio. #Se il suo costo base era pari o inferiore a {2},# crea una pedina [MANASEED] nei tuoi fulcri. (Il suo costo base corrisponde al costo dalla Riserva se ha Fugace, altrimenti al costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Descarta un personaje o permanente objetivo. #Si su coste base era {2} o menos,# crea una ficha de [MANASEED] en tus hitos. (Su coste base es su coste desde la reserva si tiene fugacidad o, si no, su coste desde la mano.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Défaussez un Personnage ou Permanent ciblé. #Si son Coût de Base était {2} ou moins,# créez un jeton [MANASEED] dans vos Repères. (Son Coût de Base est le Coût de Réserve s'il est Fugace, le Coût de Main sinon.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Lege einen Charakter oder eine Bleibende Karte deiner Wahl ab. #Falls die Basiskosten {2} oder weniger betrugen,# erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich. (Basiskosten sind Reservekosten, falls die Karte Vergänglich ist, andernfalls Handkosten.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Discard target Character or Permanent. #If its Base Cost was {2} or less,# create a [MANASEED] token in your Landmarks. (Its Base Cost is the Reserve Cost if it's Fleeting. Otherwise, it's the Hand Cost.)"
+              }
+            ],
+            "reference": "01968"
+          },
+          "sequence": 1,
+          "id": "01K6X4PG7HSWRTT4BJTA0FSX4B"
+        }
+      ],
+      "value": "[[Fleeting]].  Discard target Character or Permanent. If its Base Cost was {2} or less, create a [Manaseed] token in your Landmarks. (Its Base Cost is the Reserve Cost if it's Fleeting. Otherwise, it's the Hand Cost.)",
+      "id": "01K6X4PF5FE9EEPCQBGE44957Q"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_99\/JPG\/en_US\/010fca1a31572c65bb55952c6452e933.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_99\/WEB_569d78c84b0f5d0fff830f97d19fd25d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_99\/WEB_97c43658c1ae5fa2a0a480d4873c3cbc"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_99_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_99",
+  "reference": "ALT_DUSTER_B_OR_99_R1",
+  "translations": {
+    "de_DE": { "name": "Wütender Mob", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Angry Crowd",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_99\/JPG\/en_US\/010fca1a31572c65bb55952c6452e933.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Turba furiosa", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Folla Inferocita", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Foule en Colère",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_99\/JPG\/fr_FR\/d5716c8495e9532bde4a1278b4499c87.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQH97MMVJJCN470P3ET",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_99\/JPG\/fr_FR\/d5716c8495e9532bde4a1278b4499c87.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_99\/JPG\/en_US\/010fca1a31572c65bb55952c6452e933.jpg"
+  },
+  "name": "Angry Crowd",
+  "elements": {
+    "MAIN_COST": "#4#",
+    "RECALL_COST": "#4#",
+    "MAIN_EFFECT": "[[Fleeting]].  Discard target Character or Permanent. #If its Base Cost was {2} or less,# create a [Manaseed] token in your Landmarks. (Its Base Cost is the Reserve Cost if it's Fleeting. Otherwise, it's the Hand Cost.)"
+  },
+  "collectorNumberFormatted": "SDU-087-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

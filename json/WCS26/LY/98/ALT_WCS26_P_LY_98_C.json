@@ -1,0 +1,223 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Porte-parole des Hexarques, Phoibos sait amadouer les foules.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "As the spokesman for the Hexarchs, Phoibos knows how to play to the crowd.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KH3ZWM61E9ZQAJY1K4VT3W81",
+          "text": "As the spokesman for the Hexarchs, Phoibos knows how to play to the crowd."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3VE15AW6JG990A9BS9WNNG8M4Y",
+      "reference": "ALT_WCS26_P_LY_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01KGWCP9XAFCTT89T9VRTED92Z",
+    "reference": "WCS26",
+    "name": "World Championship Series 2026"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01KGWE1BRPAK724QH04D5V95VV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KGWE1C1SSH21KX7VRTTQZBMA"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KGWE1CART37T28K66PWEE14B"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KGWE1CKWP5A73KW4VD8GRPZW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KGWE1CWZ8DNQ0CASEZ0F6TGX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6AKGGR4GB1J9J3PHSAZ8SS",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "Placeholder", "locale": "fr_FR" },
+                  "en_US": {
+                    "text": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{T}: pesca una carta, poi scarta una carta dalla tua mano. Puoi eseguire questa azione solo se sei il primo giocatore.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{T} : Ziehe eine Karte, dann lege eine Karte aus deiner Hand ab. Du kannst dies nur aktivieren, falls du der Startspieler bist.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{T} : Roba una carta y luego descarta una carta de tu mano. Solo puedes activar esto si eres el primer jugador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player."
+              }
+            ],
+            "reference": "02997"
+          },
+          "sequence": 0,
+          "id": "01KH6AKH44W39ATP5A1ST57W6Q"
+        }
+      ],
+      "value": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player.",
+      "id": "01KH6AKGGR4GB1J9J3PHSAZ8SS"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/en_US\/bf95981ad4441ccd0552753bfe8b2ce0.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/WEB_e0ae01a197f8651545774f0f1c297779",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/WEB_9f1720857ce4753fd4a3eabcf105e6cd"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_P_LY_98_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": null,
+  "reference": "ALT_WCS26_P_LY_98_C",
+  "translations": {
+    "it_IT": {
+      "name": "Phoibos, Esarca Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/it_IT\/bed5c1f5245a79394728410820545b02.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Phoibos, Reka-Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/de_DE\/a2bd1abc22b807f45bda489146ebbb54.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Phoibos, Reka Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/en_US\/bf95981ad4441ccd0552753bfe8b2ce0.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Phoibos, hexarca reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/es_ES\/9667749181460fe812eb36223c3d449d.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Phoibos, Hexarque Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/fr_FR\/a4aaef3cb61992fb3e6e7fc91d7ba359.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01KGWCPAVDP8Y4M39GCQRSVK5M",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/fr_FR\/a4aaef3cb61992fb3e6e7fc91d7ba359.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_LY_98\/JPG\/en_US\/bf95981ad4441ccd0552753bfe8b2ce0.jpg"
+  },
+  "name": "Phoibos, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "7",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "6",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player."
+  },
+  "collectorNumberFormatted": "WCS26-S-005-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

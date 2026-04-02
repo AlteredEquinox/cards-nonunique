@@ -1,0 +1,282 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Haha, check it out, it's already stuffed!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Haha, regarde, il est déjà farci ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01K4Z6KZ645HXZ2Q1N7E65E24H",
+          "text": "\"Haha, check it out, it's already stuffed!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6RCJ74333S9R2AZTWSQNJS5TW2",
+      "reference": "ALT_DUSTEROP_B_BR_94_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K4YGEBN10S3MMN6J9CW5B4AC",
+    "reference": "DUSTEROP",
+    "name": "Seeds of Unity - Organized Play"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K4YMSRQ8X45SAE0C2PJ5HC95"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01K4YMSRX8A5C25P26CQZ01JHW"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01K4YMSS369NNHTJK8BHBYJSR8"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K4YMSS96888VJM8GDCR0NF1S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K4YMSSF5R0ZTH54QZ8AVZZQR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K8NP05NMGWPN7F86SS7NPPMR",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "#{R} Draw a card.#", "locale": "en_US" },
+                  "de_DE": {
+                    "text": "#{R} Ziehe eine Karte.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{R} Roba una carta.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{R} Pesca una carta.#",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#{R} Piochez une carte.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{R} Draw a card.#"
+              }
+            ],
+            "reference": "01707"
+          },
+          "sequence": 0,
+          "id": "01K8NP064WNENZFETJBZV4P1WF"
+        },
+        {
+          "cardElement": "\/card_elements\/01K8NP05NMGWPN7F86SS7NPPMR",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWDM2DVQQ3148H5P2HTWXG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} Create two [MANASEED] tokens in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{R} Crea dos fichas de [MANASEED] en tus hitos.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{R} Erschaffe zwei [MANASEED]-Marken in deinem Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} Crea due pedine [MANASEED] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Créez deux jetons [MANASEED] dans vos Repères.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} Create two [MANASEED] tokens in your Landmarks."
+              }
+            ],
+            "reference": "01907"
+          },
+          "sequence": 1,
+          "id": "01K8NP06HBTSAC7HH80XVTATEF"
+        }
+      ],
+      "value": "{R} Draw a card.  {R} Create two [Manaseed] tokens in your Landmarks.",
+      "id": "01K8NP05NMGWPN7F86SS7NPPMR"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_BR_94\/JPG\/en_US\/09b8f82d9afbcc0d445536c35c82f69b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_BR_94\/WEB_91596123d59f294dbbeb9aff581cd127",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_BR_94\/WEB_3828768266179e92715d2ffd967a3c9f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_BR_94\/WEB_fae33cab4f78c1272d1d680e165016e4"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_BR_94_R1",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_94",
+  "reference": "ALT_DUSTEROP_P_BR_94_R1",
+  "translations": {
+    "it_IT": { "name": "Pescatore Reka", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Pêcheur Reka",
+      "image": "Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_BR_94\/JPG\/fr_FR\/5ccfbe6df152a9a562cc5ecb54376d35.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Reka Fisherman",
+      "image": "Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_BR_94\/JPG\/en_US\/09b8f82d9afbcc0d445536c35c82f69b.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": { "name": "Reka-Fischer", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Pescador reka", "image": null, "locale": "es_ES" }
+  },
+  "id": "01K4YGECGVR8KHDVDJ345YYJ0S",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_BR_94\/JPG\/fr_FR\/5ccfbe6df152a9a562cc5ecb54376d35.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_BR_94\/JPG\/en_US\/09b8f82d9afbcc0d445536c35c82f69b.jpg"
+  },
+  "name": "Reka Fisherman",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "#3#",
+    "MOUNTAIN_POWER": "#3#",
+    "MAIN_EFFECT": "#{R} Draw a card.#  {R} Create two [Manaseed] tokens in your Landmarks."
+  },
+  "collectorNumberFormatted": "SDUOP-008-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

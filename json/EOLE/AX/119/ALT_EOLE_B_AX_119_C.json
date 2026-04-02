@@ -1,0 +1,276 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "A single pebble can cause quite a ripple.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Un simple galet peut causer bien des remous.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HPND1XABWHMYSF0XVEDZ",
+          "text": "A single pebble can cause quite a ripple."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPNNYJQKAS54R7QJ8PSH",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPNHPGY69BKSAV4TK569",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HPN51B5NWN1PJFCNXCJ1",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HPN9WM1MAAJ6N9YE09WK",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "3M8NDBEJHE9GRSZFGM6EKMN8EW",
+      "reference": "ALT_EOLE_B_AX_119_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    { "reference": "BOON", "id": "01HKAGPHVVK20XKBXKCZNGRTFD", "name": "Boon" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYD0E33EF6GP6W8FG0T9T5"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YYD0MCYHDWEFZDF24HJN61"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5MTJ7B2K8C462SMJDSGVW1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Aérolithe",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Aerolith",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Aerolit",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Aerolite",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Aerolito",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V2BFTDBEPJRRHWC5YM548",
+                      "reference": "AEROLITH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7K1X0T38CMAQC5MB5X0EFP"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Crea una pedina [AEROLITH] nei tuoi fulcri. (È un permanente con \"Quando mi sacrifichi — Rifornisci. {T}, {1}: sacrificami.\")",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Créez un jeton [AEROLITH] dans vos Repères. (C'est un Permanent avec « Lorsque je suis sacrifié — Ravitaillez. {T}, {1} : Sacrifiez-moi. »)",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "Create an [AEROLITH] token in your Landmarks. (It's a Permanent with \"When I'm sacrificed — Resupply. {T}, {1}: Sacrifice me.\")",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "Crea una ficha de [AEROLITH] en tus hitos. (Es un permanente con \"Cuando me sacrifiques — Reabastece. {T}, {1}: Sacrifícame.\")",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Erschaffe eine [AEROLITH]-Marke in deinem Wahrzeichen-Bereich. (Sie ist eine Bleibende Karte mit „Wenn ich geopfert werde — Nachschub. {T}, {1}: Opfere mich.“)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Create an [AEROLITH] token in your Landmarks. (It's a Permanent with \"When I'm sacrificed — Resupply. {T}, {1}: Sacrifice me.\")"
+              }
+            ],
+            "reference": "02769"
+          },
+          "sequence": 0,
+          "id": "01KJ5MTKPF1Z5DZK9GQD1CD8MG"
+        }
+      ],
+      "value": "Create an [Aerolith] token in your Landmarks. (It's a Permanent with \"When I'm sacrificed — Resupply. {T}, {1}: Sacrifice me.\")",
+      "id": "01KJ5MTJ7B2K8C462SMJDSGVW1"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/en_US\/e36109cb5192672906bf03bd3b47c69c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/WEB_cf7786ce7c118d620c380a0088db2d95",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/WEB_eb793fc04a59f02beaefc271ca6c5b41"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_119_C",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "AX_119",
+  "reference": "ALT_EOLE_B_AX_119_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Un Pavé dans la Mare",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/fr_FR\/a1fd23fb66f0a1ef2943f30517f0f042.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Sassolino nello Stagno",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/it_IT\/f99158e754188ccf397f1726bdf9e47f.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Ein Kiesel im Teich",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/de_DE\/53d4f4d4606a77ff0942a2fb491101d4.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Una piedra en el estanque",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/es_ES\/9763ccd7b875d04f576e854d1249fbe0.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "A Pebble in the Pond",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/en_US\/e36109cb5192672906bf03bd3b47c69c.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K9YWHY8JEYSC49V9HW1SMVJT",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/fr_FR\/a1fd23fb66f0a1ef2943f30517f0f042.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_AX_119\/JPG\/en_US\/e36109cb5192672906bf03bd3b47c69c.jpg"
+  },
+  "name": "A Pebble in the Pond",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "MAIN_EFFECT": "Create an [Aerolith] token in your Landmarks. (It's a Permanent with \"When I'm sacrificed — Resupply. {T}, {1}: Sacrifice me.\")"
+  },
+  "collectorNumberFormatted": "ROC-015-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

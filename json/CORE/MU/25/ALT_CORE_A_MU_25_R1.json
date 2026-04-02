@@ -1,0 +1,273 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Ne pense pas que tu es, sache que tu es.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Don't think you are, know you are.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01JH1KAE9WEBFTSKY6EWMXQB12",
+          "text": "Don't think you are, know you are."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "4TCWJ47P3H94RRNJF367FPQ081",
+      "reference": "ALT_CORE_A_MU_25_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    { "reference": "BOON", "id": "01HKAGPHVVK20XKBXKCZNGRTFD", "name": "Boon" }
+  ],
+  "cardSet": {
+    "id": "01HKAFJN3HG3TWKYV0E014K01G",
+    "reference": "CORE",
+    "name": "Beyond the Gates"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JH0X5C7WHAGZKSPA1AD67ECZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JH0X5CB84C21Y6W6GW1HBMMT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K1Z6Q23WZA7XVM18GX7A4RCJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS9CV7BT6120NR8J2V3JWGH"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "Un personaggio bersaglio con costo dalla mano pari o inferiore a {3} ottiene [ANCHORED]. (Durante il riposo, non va nella Riserva e perde Ancorato.)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Un Personnage ciblé de Coût de Main {3} ou moins gagne [ANCHORED]. (Au Repos, il ne va pas en Réserve et il perd Ancré.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Un personaje objetivo con coste desde la mano de {3} o menos gana [ANCHORED]. (Durante el descanso, no va a la reserva y pierde anclaje.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Ein Charakter deiner Wahl mit Handkosten {3} oder weniger erhält [ANCHORED]. (Während der Ruhepause geht er nicht in die Reserve und verliert Verankert.)",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "Target Character with Hand Cost {3} or less gains [ANCHORED]. (During Rest, it doesn't go to Reserve and it loses Anchored.)",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "Target Character with Hand Cost {3} or less gains [ANCHORED]. (During Rest, it doesn't go to Reserve and it loses Anchored.)"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K1Z6Q2EXVBZSFZSD9Y9ST781"
+        }
+      ],
+      "value": "Target Character with Hand Cost {3} or less gains [[Anchored]]. (During Rest, it doesn't go to Reserve and it loses Anchored.)",
+      "id": "01K1Z6Q23WZA7XVM18GX7A4RCJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K1Z6Q2QWPTE3ZM65YWS3X7NE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "#{D}: Il prossimo personaggio che giochi in questo turno ottiene 1 rinforzo.# (Scartami dalla Riserva per eseguire questa azione.)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#{D} : Le prochain Personnage que vous jouez ce tour gagne 1 boost.# (Défaussez-moi de la Réserve pour ça.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "#{D}: El siguiente personaje que juegues este turno gana 1 potenciador.# (Descártame de la reserva para hacer esto.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "#{D} : Der nächste Charakter, den du in dieser Runde spielst, erhält 1 Verstärkung.# (Lege mich aus der Reserve ab, um diese Aktion auszuführen.)",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "#{D} : The next Character you play this turn gains 1 boost.# (Discard me from Reserve to do this.)",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "#{D} : The next Character you play this turn gains 1 boost.# (Discard me from Reserve to do this.)"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K1Z6Q31RD2WADHSQTGSSVRPC"
+        }
+      ],
+      "value": "{D} : The next Character you play this turn gains 1 boost. (Discard me from Reserve to do this.)",
+      "id": "01K1Z6Q2QWPTE3ZM65YWS3X7NE"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_MU_25\/JPG\/en_US\/7d41f26343913975c4fd1f54912da7d0.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_MU_25\/WEB_750456ba6e179080361751c99046dcb5",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_MU_25\/WEB_1e2af3197b6e16172270756879d7be5f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_A_MU_25_R1",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_25",
+  "reference": "ALT_CORE_A_MU_25_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Entraînement à la Méditation",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_MU_25\/JPG\/fr_FR\/36b7fb61bfa05d6798d745a8e90fad4d.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Meditation Training",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_MU_25\/JPG\/en_US\/7d41f26343913975c4fd1f54912da7d0.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Meditationstraining",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_MU_25\/JPG\/de_DE\/5c42d7e359897b940a8b97d7d66129c2.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Addestramento di Meditazione",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_MU_25\/JPG\/it_IT\/2a9ef0581fa7b23fb98c485136805f6a.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Entrenamiento de meditación",
+      "image": "Art\/CORE\/CARDS\/ALT_CORE_A_MU_25\/JPG\/es_ES\/bcc179e81d0ce839a504d4e491f15f35.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01JH0V0NJ8CKDDXQV57V239347",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_MU_25\/JPG\/fr_FR\/36b7fb61bfa05d6798d745a8e90fad4d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_MU_25\/JPG\/en_US\/7d41f26343913975c4fd1f54912da7d0.jpg"
+  },
+  "name": "Meditation Training",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#2#",
+    "MAIN_EFFECT": "Target Character with Hand Cost {3} or less gains [[Anchored]]. (During Rest, it doesn't go to Reserve and it loses Anchored.)",
+    "ECHO_EFFECT": "#{D} : The next Character you play this turn gains 1 boost.# (Discard me from Reserve to do this.)"
+  },
+  "collectorNumberFormatted": "BTG-117-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

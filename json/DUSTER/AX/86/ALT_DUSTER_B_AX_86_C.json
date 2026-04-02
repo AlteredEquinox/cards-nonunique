@@ -1,0 +1,215 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "HashtagDanceTillUDrop HashtagOzmaLoveLove",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "HashtagDanceTillUDrop HashtagOzmaCœurCœur",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZHYRDJB4JV9642KYY2K4",
+          "text": "HashtagDanceTillUDrop HashtagOzmaLoveLove"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2HSVGGMZM69CATZTJEZCH6ZHRJ",
+      "reference": "ALT_DUSTER_B_AX_86_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    },
+    {
+      "reference": "ROBOT",
+      "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+      "name": "Robot"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JZ0YWE2TZ8255WKK4KSQP"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JZ13P3BCVWE1TD2PHAGY1"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JZ187J8MKWS0E70WHWBP1"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2JZ1CS5KW3VHZ3CC9JEHKZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2JZ1HATFNN981N57ZBZR9M"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X3ZBKZ28KXYB1RP5KD33JH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Exhaust ({T}) a Permanent you control or a card in your Reserve. (Exhausted cards can't be played and have no Support abilities.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Épuisez ({T}) un Permanent que vous contrôlez ou une carte dans votre Réserve. (Une carte épuisée ne peut pas être jouée et n'a pas de capacité de Soutien.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Erschöpfe ({T}) eine Bleibende Karte, die du kontrollierst, oder eine Karte in deiner Reserve. (Erschöpfte Karten können nicht gespielt werden und haben keine Unterstützungsfähigkeiten.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Agota ({T}) un permanente que controlas o una carta en tu reserva. (Las cartas agotadas no se pueden jugar y no tienen habilidades de apoyo.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Consuma ({T}) un permanente che controlli o una carta nella tua Riserva. (Le carte consumate non possono essere giocate e non hanno abilità di supporto.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} Exhaust ({T}) a Permanent you control or a card in your Reserve. (Exhausted cards can't be played and have no Support abilities.)"
+              }
+            ],
+            "reference": "01660"
+          },
+          "sequence": 0,
+          "id": "01K6X3ZC3NK2DH7P6A7Y7JDKSP"
+        }
+      ],
+      "value": "{H} Exhaust ({T}) a Permanent you control or a card in your Reserve. (Exhausted cards can't be played and have no Support abilities.)",
+      "id": "01K6X3ZBKZ28KXYB1RP5KD33JH"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_86\/JPG\/en_US\/69f8973b7b0a433f2a7ae1d62b8bc060.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_86\/WEB_a17a0a4d92599cb077054cab7675df41",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_86\/WEB_c8d6701fe31b66ee0a888b61cad76188",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_86\/WEB_f8ef9dec89bb3ee8bafa9897e7f4af9a"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_86_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_86",
+  "reference": "ALT_DUSTER_B_AX_86_C",
+  "translations": {
+    "en_US": {
+      "name": "Tik-Tok",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_86\/JPG\/en_US\/69f8973b7b0a433f2a7ae1d62b8bc060.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Tik-Tok", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Tic-Toc", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Tik-Tok", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Tik-Tok",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_86\/JPG\/fr_FR\/41624efc755d38860d5b28d2f98746ab.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVP0MEHA94HCPTJCN5MA",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_86\/JPG\/fr_FR\/41624efc755d38860d5b28d2f98746ab.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_86\/JPG\/en_US\/69f8973b7b0a433f2a7ae1d62b8bc060.jpg"
+  },
+  "name": "Tik-Tok",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} Exhaust ({T}) a Permanent you control or a card in your Reserve. (Exhausted cards can't be played and have no Support abilities.)"
+  },
+  "collectorNumberFormatted": "SDU-006-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

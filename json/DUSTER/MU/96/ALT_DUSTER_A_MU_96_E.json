@@ -1,0 +1,374 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Responsable du Naos, Ploutos contrôle la distribution de ses fruits au peuple.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Ploutos watches over the Naos and controls the distribution of its fruit to the people.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01K3R4K3XS51M8ZMK22DPQA1RQ",
+          "text": "Ploutos watches over the Naos and controls the distribution of its fruit to the people."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "65AQ3R4RHE8MQ9QV0EPEQG94G5",
+      "reference": "ALT_DUSTER_A_MU_96_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DRUID",
+      "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+      "name": "Druid"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01JZJPMBHK2PKTM1SCDZP7K0ZA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "01JZJPMBQE2QD7VD6F7JQ7QC8T"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZJPMBX616E14R6D8BZ5TFWW"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZJPMC2WMP39RT9MNXQBAMP7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZJPMC8R3BKQVSHW22N8P2BE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X3Y5WMKYD0V6YENWH11HK7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Ravitaille Épuisé",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Exhausted Resupplies",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Erschöpfter Nachschub",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece y agota",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisce-Consuma",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22QBV6YMATSR9JY692AXZB",
+                      "reference": "EXHAUSTED_RESUPPLIES"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KEBKMZMC8907NPKEPCSZN"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{J} El jugador objetivo [EXHAUSTED_RESUPPLIES].",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{J} Target player [EXHAUSTED_RESUPPLIES].",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Un joueur ciblé [EXHAUSTED_RESUPPLIES].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} Ein Spieler deiner Wahl nutzt [EXHAUSTED_RESUPPLIES].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Un giocatore bersaglio [EXHAUSTED_RESUPPLIES].",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} Target player [EXHAUSTED_RESUPPLIES]."
+              }
+            ],
+            "reference": "01785"
+          },
+          "sequence": 0,
+          "id": "01K6X3Y6FWK3X0FVEHYG7XEPK7"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X3Y5WMKYD0V6YENWH11HK7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K4ZGS1XVP352FSNMVAZQVGQ2"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Don",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Gift",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Geschenk",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Regalo",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Regalo",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2KAS1XQ23VAH9DKEBZ90PD",
+                      "reference": "GIFT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K4ZGS1J87CQ17FXYPN9DB7Z7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you make a [GIFT] — Target Character gains [ANCHORED].",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Quando fai un [GIFT] — Un personaggio bersaglio ottiene [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando hagas un [GIFT] — Un personaje objetivo gana [ANCHORED].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous faites un [GIFT] — Un Personnage ciblé gagne [ANCHORED].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du ein [GIFT] gibst — Ein Charakter deiner Wahl erhält [ANCHORED].",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "When you make a [GIFT] — Target Character gains [ANCHORED]."
+              }
+            ],
+            "reference": "02049"
+          },
+          "sequence": 1,
+          "id": "01K6X3Y6WGB7AFCHNTKBRRP2WY"
+        }
+      ],
+      "value": "{J} Target player [Exhausted Resupplies].  When you make a [Gift] — Target Character gains [[Anchored]].",
+      "id": "01K6X3Y5WMKYD0V6YENWH11HK7"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_MU_96\/JPG\/en_US\/3886f4726100f9a8506ef2f919de85f8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_MU_96\/WEB_a1bc6fff1791de770f8598d029d8e471",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_MU_96\/WEB_7d6f253c81dc3c1f3fd60d783bdfa468"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_A_MU_96_E",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_96",
+  "reference": "ALT_DUSTER_A_MU_96_E",
+  "translations": {
+    "it_IT": {
+      "name": "Ploutos, Esarca Reka",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Ploutos, Reka-Hexarch",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Ploutos, Reka Hexarch",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_A_MU_96\/JPG\/en_US\/3886f4726100f9a8506ef2f919de85f8.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Ploutos, hexarca reka",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Ploutos, Hexarque Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_A_MU_96\/JPG\/fr_FR\/3b934f74df3296177e7e256b8a5fac30.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JZJEM5M2CPDZ6MTNWWQ5TNBV",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_MU_96\/JPG\/fr_FR\/3b934f74df3296177e7e256b8a5fac30.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_MU_96\/JPG\/en_US\/3886f4726100f9a8506ef2f919de85f8.jpg"
+  },
+  "name": "Ploutos, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "7",
+    "RECALL_COST": "7",
+    "OCEAN_POWER": "5",
+    "FOREST_POWER": "5",
+    "MOUNTAIN_POWER": "5",
+    "MAIN_EFFECT": "{J} Target player [Exhausted Resupplies].  When you make a [Gift] — Target Character gains [[Anchored]]."
+  },
+  "collectorNumberFormatted": "SDU-067-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

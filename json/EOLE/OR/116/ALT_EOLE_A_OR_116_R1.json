@@ -1,0 +1,311 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "To be afraid of being different is to destroy individuality.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "La peur de la différence détruit l'individualité.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KG2J8DK9C3SV6RK6HHPR9RRX",
+          "text": "To be afraid of being different is to destroy individuality."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8DQ4Y2NEC57S8WZQ670C",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8DMG9QGGGZ2BWNK148JC",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8DEMVK0CE2V9XHNT5S2Y",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8DGX7X0118Q7E4ZWRRTC",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2TNAC0B3DR9ARRYWMQPH695Z6C",
+      "reference": "ALT_EOLE_A_OR_116_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KG010KFBNHM8FGJH69WM5AET"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG010KPYZSP0QK0AR901JHRT"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG010KYG3STHN7KDX7GRNE3D"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KG010M60BDR7SJ21XYCGZXVC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG010MDVB5MY1612M60VY9ZV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QWDC3MMGDGS1DZZMHHXVY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7JTM7H85FDJ1N794F8HECD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez défausser un Personnage ciblé de Coût de Base #{1} ou moins.# Si vous le faites, créez un jeton Soldat [ORDIS_RECRUIT] dans son Expédition.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{H} You may discard target Character with Base Cost #{1} or less.# If you do, create an [ORDIS_RECRUIT] Soldier token in its Expedition.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{H} Puedes descartar un personaje objetivo con coste base de #{1} o menos.# Si lo haces, crea una ficha de soldado [ORDIS_RECRUIT] en su expedición.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Puoi scartare un personaggio bersaglio con costo base #pari o inferiore a {1}.# Se lo fai, crea una pedina Soldato [ORDIS_RECRUIT] nella sua spedizione.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{H} Du darfst einen Charakter deiner Wahl mit Basiskosten #{1} oder weniger# ablegen. Falls du das tust, erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in seiner Expedition.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} You may discard target Character with Base Cost #{1} or less.# If you do, create an [ORDIS_RECRUIT] Soldier token in its Expedition."
+              }
+            ],
+            "reference": "02730"
+          },
+          "sequence": 0,
+          "id": "01KJ5QWEQ2QSR2EVDCW5D36XJC"
+        }
+      ],
+      "value": "{H} You may discard target Character with Base Cost {1} or less. If you do, create an [Ordis Recruit 1\/1\/1] Soldier token in its Expedition.",
+      "id": "01KJ5QWDC3MMGDGS1DZZMHHXVY"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Nestor Papatriantafyllou" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/JPG\/en_US\/d022386a16bf09e0b0331780529cd8a8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/WEB_8fdbacf2bae4f644f345fbbc65eae50a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/WEB_9a0f04bf471fbe2f96cd3d656dea4584",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/WEB_807866f5b3d4e2cc827f67b8f57ffe60"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_OR_116_R1",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_116",
+  "reference": "ALT_EOLE_A_OR_116_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Stigmate de la Banalité",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/JPG\/fr_FR\/c9f4091522851552994da953906e53aa.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Stigma della Banalità",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/JPG\/it_IT\/4924835e92e7ccb9d170fc4988be921e.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Stigma of Banality",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/JPG\/en_US\/d022386a16bf09e0b0331780529cd8a8.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Stigma der Banalität",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/JPG\/de_DE\/5d4fc43f1d1d4e2a8eac72d1dad9efa9.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Estigma de la banalidad",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/JPG\/es_ES\/4c4305b0e21868179cc05a78b675ab4c.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01KFRQ5ZDANZ7BESXNR1GTZZ85",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/JPG\/fr_FR\/c9f4091522851552994da953906e53aa.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_116\/JPG\/en_US\/d022386a16bf09e0b0331780529cd8a8.jpg"
+  },
+  "name": "Stigma of Banality",
+  "elements": {
+    "MAIN_COST": "#4#",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "#4#",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} You may discard target Character with Base Cost #{1} or less.# If you do, create an [Ordis Recruit 1\/1\/1] Soldier token in its Expedition."
+  },
+  "collectorNumberFormatted": "ROC-V-086-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

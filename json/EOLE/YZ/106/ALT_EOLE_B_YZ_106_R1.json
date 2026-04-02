@@ -1,0 +1,307 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Be careful, the Nightmare's darkness can taint any idea.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Prenez garde, la noirceur du Cauchemar peut souiller chaque idée. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HXDTXRT2Y26XA2C2J3MM",
+          "text": "\"Be careful, the Nightmare's darkness can taint any idea.\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HXG1TCMKBBWF72NPW1B0",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HXFNNBABT9HW4FCKANCD",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HXD4N0NAYT4EEY0Y0QGK",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HXDFD6T55AB7V7XX64C0",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3V62ASDFVH9M7V92RQ8M0TFS6X",
+      "reference": "ALT_EOLE_B_YZ_106_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZD5608WVB5M2F2T3TN5J8"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K9YZD5E0CH6BQ9H782X6EBXE"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZD5P1HGSZTK4HAW340G0W"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZD5Y75TKZBFT5ADWCAXD4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K9YZD668ZEWFG14EVZKFHP17"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q476SMCGRRXPYAGNRA560",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MDENSMMB82ETMKQA54K19"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} I gain [FLEETING] unless you discarded a card from your hand #or your Reserve# this turn.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{H} Gano [FLEETING] a menos que hayas descartado una carta de tu mano #o de tu reserva# este turno.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{H} Ich erhalte [FLEETING], es sei denn, du hast in dieser Runde eine Karte aus deiner Hand #oder deiner Reserve# abgelegt.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Je gagne [FLEETING], sauf si vous avez défaussé une carte de votre main #ou de votre Réserve# ce tour-ci.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{H} Ottengo [FLEETING] a meno che tu non abbia scartato una carta dalla tua mano #o dalla tua Riserva# in questo turno.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} I gain [FLEETING] unless you discarded a card from your hand #or your Reserve# this turn."
+              }
+            ],
+            "reference": "02975"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q48VA57SZQ65GZF9VZAE0"
+        }
+      ],
+      "value": "{H} I gain [[Fleeting]] unless you discarded a card from your hand or your Reserve this turn.",
+      "id": "01KJ5Q476SMCGRRXPYAGNRA560"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Gamon Studio" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/JPG\/en_US\/9a509fdffde35c83718048592e4679cd.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/WEB_bc8a0b481cf49bc98fe643a4844bebe2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/WEB_26bbee8e97479a430d507ce429b2fc4b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/WEB_4ae075134f848caecbdfb8085ca07ee7"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_106_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "YZ_106",
+  "reference": "ALT_EOLE_B_YZ_106_R1",
+  "translations": {
+    "fr_FR": {
+      "name": "Occultiste du Qorgan",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/JPG\/fr_FR\/4c29f50726844893dc950ee68e59ae44.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Qorgan-Okkultist",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/JPG\/de_DE\/bb59b925f6f595de24b9d25dc677ee53.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Occultista del Qorgan",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/JPG\/it_IT\/5ad0af32bf800f6206c7b734ea92aebc.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Ocultista del Qorgan",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/JPG\/es_ES\/a3f9143a0391fa5dbb455ef7085d32fb.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Qorgan Occultist",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/JPG\/en_US\/9a509fdffde35c83718048592e4679cd.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01K9YWHYA2N3JQA6C71X1C974R",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/JPG\/fr_FR\/4c29f50726844893dc950ee68e59ae44.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_YZ_106\/JPG\/en_US\/9a509fdffde35c83718048592e4679cd.jpg"
+  },
+  "name": "Qorgan Occultist",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "#2#",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{H} I gain [[Fleeting]] unless you discarded a card from your hand #or your Reserve# this turn."
+  },
+  "collectorNumberFormatted": "ROC-095-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

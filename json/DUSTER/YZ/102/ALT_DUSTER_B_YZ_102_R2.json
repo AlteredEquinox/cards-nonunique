@@ -1,0 +1,272 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I told you it was a bad idea to drink all that Sap Cola…\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je t'avais dit que c'était pas bon de boire autant de Sap Cola... »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZVC5P5YFGYDVDND615DP",
+          "text": "\"I told you it was a bad idea to drink all that Sap Cola…\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "5W111DW41J9Z7VERE4KJXZ5MY1",
+      "reference": "ALT_DUSTER_B_YZ_102_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KV31F1283HBC90PYVZHMF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KV389VDHJDG99DBWAX13S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4QB6XTV4D7TYW2M4H782D",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8BEM15SC7MGY43M1D33NK"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": { "text": "#{J} [RESUPPLY].#", "locale": "it_IT" },
+                  "es_ES": { "text": "#{J} [RESUPPLY].#", "locale": "es_ES" },
+                  "de_DE": { "text": "#{J} [RESUPPLY].#", "locale": "de_DE" },
+                  "fr_FR": { "text": "#{J} [RESUPPLY].#", "locale": "fr_FR" },
+                  "en_US": { "text": "#{J} [RESUPPLY].#", "locale": "en_US" }
+                },
+                "text": "#{J} [RESUPPLY].#"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K6X4QBS0X5S092E2WGJS1B2Q"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4QB6XTV4D7TYW2M4H782D",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "After You",
+                          "locale": "en_US",
+                          "description": "End your turn as if you had played a card. You may still play cards later this Day."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nach dir",
+                          "locale": "de_DE",
+                          "description": "Beende deine Runde, als ob du eine Karte gespielt hättest. Du darfst auch später an diesem Tag noch eine Karte spielen."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dopo di te",
+                          "locale": "it_IT",
+                          "description": "Termina il tuo turno come se avessi giocato una carta. Puoi comunque giocare carte più avanti in questa giornata."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Después de ti",
+                          "locale": "es_ES",
+                          "description": "Termina tu turno como si hubieras jugado una carta. A lo largo del día actual, puedes jugar más cartas."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Après vous",
+                          "locale": "fr_FR",
+                          "description": "Terminez votre tour comme si vous aviez joué une carte. Vous pouvez encore jouer des cartes plus tard ce Jour-ci."
+                        }
+                      },
+                      "id": "01HKAGXB4C1CCRNYV6K6BFCHMQ",
+                      "reference": "AFTER_YOU"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TX5FSPKRS2YX14Z988RWBP"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T}, Exhaust a card in your Reserve: [AFTER_YOU].",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{T}, Épuisez une carte de votre Réserve : [AFTER_YOU].",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{T}, Erschöpfe eine Karte in deiner Reserve: [AFTER_YOU].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{T}, consuma una carta nella tua Riserva: [AFTER_YOU].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{T}, agota una carta en tu reserva: [AFTER_YOU].",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{T}, Exhaust a card in your Reserve: [AFTER_YOU]."
+              }
+            ],
+            "reference": "01969"
+          },
+          "sequence": 1,
+          "id": "01K6X4QC8FRRA4V0A7MG81REP5"
+        }
+      ],
+      "value": "{J} [Resupply].  {T}, Exhaust a card in your Reserve: [After You].",
+      "id": "01K6X4QB6XTV4D7TYW2M4H782D"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/en_US\/94ef4d237e70a64b81fdf67105f272ae.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/WEB_5e8eb683154834798210f5c258f17df2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/WEB_777eca288da1249155663ab0abe72976"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_102_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_102",
+  "reference": "ALT_DUSTER_B_YZ_102_R2",
+  "translations": {
+    "it_IT": { "name": "Infermeria", "image": null, "locale": "it_IT" },
+    "en_US": {
+      "name": "The Infirmary",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/en_US\/94ef4d237e70a64b81fdf67105f272ae.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "La Enfermería", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Die Krankenstation", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "L'Infirmerie",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/fr_FR\/1159896ac2e6ef63775fd964ffc0bef9.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQVMSDZXAVTMR6N9G0S",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/fr_FR\/1159896ac2e6ef63775fd964ffc0bef9.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/en_US\/94ef4d237e70a64b81fdf67105f272ae.jpg"
+  },
+  "name": "The Infirmary",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "MAIN_EFFECT": "#{J} [Resupply].#  {T}, Exhaust a card in your Reserve: [After You]."
+  },
+  "collectorNumberFormatted": "SDU-108-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

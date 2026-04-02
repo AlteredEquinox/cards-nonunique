@@ -1,0 +1,216 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": { "text": "\"Red card! Out!\"", "locale": "en_US" },
+            "fr_FR": {
+              "text": "« Carton rouge, expulsion ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZX49W6QCGWQMMD53ZWHZ",
+          "text": "\"Red card! Out!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "79EKWFS0NT8978YT0W3GZYXZER",
+      "reference": "ALT_DUSTER_B_YZ_93_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "BUREAUCRAT",
+      "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+      "name": "Bureaucrat"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2KRH9RYSQEC0XBYG52ZQNE"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KRHG1ENP8TKAV7TWYJGZG"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KRHPT1WPA60AJV66W4DHT"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KRHX24KYD2WCQEG8DWHJG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KRJ43S4RKF9C5EZB7B7KE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4ST4ACJZFXGYXZ0N1GCP1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Discard target Character. If its Base Cost was {3} or more, its controller draws a card. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Défaussez un Personnage ciblé. Si son Coût de Base était de {3} ou plus, son contrôleur pioche une carte. (Son Coût de Base est le Coût de Réserve s'il est Fugace, le Coût de Main sinon.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{H} Descarta un personaje objetivo. Si el coste base era {3} o más, su controlador roba una carta. (Su coste base es su coste desde la reserva si tiene fugacidad o su coste desde la mano.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{H} Lege einen Charakter deiner Wahl ab. Falls die Basiskosten {3} oder mehr betrugen, zieht der kontrollierende Spieler eine Karte. (Basiskosten sind Reservekosten, falls Vergänglich, oder Handkosten, falls nicht.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Scarta un personaggio bersaglio. Se il suo costo base era pari o superiore a {3}, il suo controllore pesca una carta. (Il suo costo base corrisponde al costo dalla Riserva se ha Fugace, altrimenti al costo dalla mano.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} Discard target Character. If its Base Cost was {3} or more, its controller draws a card. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)"
+              }
+            ],
+            "reference": "02021"
+          },
+          "sequence": 0,
+          "id": "01K6X4STSCCGR44X0AN6BYX3WE"
+        }
+      ],
+      "value": "{H} Discard target Character. If its Base Cost was {3} or more, its controller draws a card. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)",
+      "id": "01K6X4ST4ACJZFXGYXZ0N1GCP1"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Abigael Giroud" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_93\/JPG\/en_US\/088a882df34f4ae93d35e69f61299cfb.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_93\/WEB_09e37e05d1910d562c59706c128eb2ce",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_93\/WEB_a3ac1ed5c57b6b6ba2522aa0c98e24b6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_93\/WEB_92ad7cd76ed8dc710004ddc87826b826"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_93_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_93",
+  "reference": "ALT_DUSTER_B_YZ_93_C",
+  "translations": {
+    "en_US": {
+      "name": "Partial Referee",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_93\/JPG\/en_US\/088a882df34f4ae93d35e69f61299cfb.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Árbitro sesgada", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Arbitro Corrotto", "image": null, "locale": "it_IT" },
+    "de_DE": {
+      "name": "Parteiische Schiedsrichterin",
+      "image": null,
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Arbitre Partiale",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_93\/JPG\/fr_FR\/520be5f1976b0018402f63d92a3639ef.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQQ77MRBTN00YYV9NT5",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_93\/JPG\/fr_FR\/520be5f1976b0018402f63d92a3639ef.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_93\/JPG\/en_US\/088a882df34f4ae93d35e69f61299cfb.jpg"
+  },
+  "name": "Partial Referee",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "{H} Discard target Character. If its Base Cost was {3} or more, its controller draws a card. (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)"
+  },
+  "collectorNumberFormatted": "SDU-100-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

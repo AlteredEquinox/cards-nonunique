@@ -1,0 +1,215 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Thanks to MY new invention, the city is safe!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Grâce à MA nouvelle invention, la cité est protégée ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZJ54GN52Q2ENG98JKK89",
+          "text": "\"Thanks to MY new invention, the city is safe!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5R44BFSVBM8Q2S7DAE6A4DNMKX",
+      "reference": "ALT_DUSTER_B_AX_90_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K0ABRYAM8DST5XRC4SJ5V"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K0AGCXPSQT0ASYP4FBK98"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K0AMYC93SPKE5BPWBP4VH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K0AT5AK49WJ1KDP3R7YMZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01JZ2K0AZ2SR46HYZ0HS77XSK1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X409WDQJKS2FAS8SX28VR0",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} You may discard a Character from your Reserve. If you do, I activate one of its {r} abilities as if it was mine.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Du darfst einen Charakter aus deiner Reserve ablegen. Falls du das tust, aktiviere ich eine seiner {r} Fähigkeiten, als wäre sie meine.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Puoi scartare un personaggio dalla tua Riserva. Se lo fai, attivo una delle sue abilità {r} come se fosse mia.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Puedes descartar un personaje de tu reserva. Si lo haces, activo una de sus habilidades {r} como si fuese mía.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez défausser un Personnage de votre Réserve. Si vous le faites, j'active une de ses capacités {r}, comme si c'était la mienne.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} You may discard a Character from your Reserve. If you do, I activate one of its {r} abilities as if it was mine."
+              }
+            ],
+            "reference": "02053"
+          },
+          "sequence": 0,
+          "id": "01K6X40ABZZZMTFBGB34WNXK9E"
+        }
+      ],
+      "value": "{J} You may discard a Character from your Reserve. If you do, I activate one of its {r} abilities as if it was mine.",
+      "id": "01K6X409WDQJKS2FAS8SX28VR0"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Victor Canton" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_90\/JPG\/en_US\/7331917a9e7e77941a5232d51a8ace99.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_90\/WEB_711636d5385cffc258e9f117eadba8ae",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_90\/WEB_46eb9406b6efbb07e5997daccaa59dc0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_90\/WEB_462f2b38150b2071dc5c07d6f0c922e1"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_90_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_90",
+  "reference": "ALT_DUSTER_B_AX_90_C",
+  "translations": {
+    "it_IT": { "name": "Thomas Edison", "image": null, "locale": "it_IT" },
+    "es_ES": { "name": "Thomas Edison", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Thomas Edison", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Thomas Edison",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_90\/JPG\/en_US\/7331917a9e7e77941a5232d51a8ace99.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Thomas Edison",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_90\/JPG\/fr_FR\/87da135b4498f503eb77964f00bb11a0.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVP3C0R8NTNB8RYY6KDA",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_90\/JPG\/fr_FR\/87da135b4498f503eb77964f00bb11a0.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_90\/JPG\/en_US\/7331917a9e7e77941a5232d51a8ace99.jpg"
+  },
+  "name": "Thomas Edison",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "5",
+    "FOREST_POWER": "5",
+    "MOUNTAIN_POWER": "5",
+    "MAIN_EFFECT": "{J} You may discard a Character from your Reserve. If you do, I activate one of its {r} abilities as if it was mine."
+  },
+  "collectorNumberFormatted": "SDU-012-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

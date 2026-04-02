@@ -1,0 +1,264 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Respect your household, and she will help you. But if you neglect it, beware!",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Respectez votre foyer, et elle vous aidera. Mais gare à vous si vous l'entretenez mal.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZT64WKBK74X1DJQW1J1F",
+          "text": "Respect your household, and she will help you. But if you neglect it, beware!"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2B782WVFHB99H8SD64DR89HH2F",
+      "reference": "ALT_DUSTER_B_OR_95_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    },
+    {
+      "reference": "SPIRIT",
+      "id": "01HKAGQ2CRATX32S1PS2GBXYV7",
+      "name": "Spirit"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KG8A7Y0WPGAPK8V9RHZGB"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KG8G89EE599Q62C5T889X"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KG8NX7CGEAWPXZ80S1GTA"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01JZ2KG8VKBMG0GWM1Z90WDZ90"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2KG91BN85CPNP828NJ1VTK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4NBHW9SXR5A2F5XN7R464",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#When you play a Permanent — If I have no boosts, I gain 1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque vous jouez un Permanent — Si je n'ai pas de boost, je gagne 1 boost.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#Wenn du eine Bleibende Karte spielst — Falls ich keine Verstärkungen habe, erhalte ich 1 Verstärkung.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#Cuando juegues un permanente — Si no tengo potenciadores, gano 1 potenciador.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#Quando giochi un permanente — Se non ho rinforzi, ottengo 1 rinforzo.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#When you play a Permanent — If I have no boosts, I gain 1 boost.#"
+              }
+            ],
+            "reference": "01803"
+          },
+          "sequence": 0,
+          "id": "01K6X4NC3QN1ED8S1RJPJ5VHF6"
+        }
+      ],
+      "value": "When you play a Permanent — If I have no boosts, I gain 1 boost.",
+      "id": "01K6X4NBHW9SXR5A2F5XN7R464"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4NCNKRDJMNYCF8HH063EC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : Pay {1} less for the next Permanent you play this turn, down to a minimum of {1}.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Payez {1} de moins pour le prochain Permanent que vous jouez ce tour-ci, jusqu'à un minimum de {1}.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Zahle {1} weniger für die nächste Bleibende Karte, die du in dieser Runde spielst, aber mindestens {1}.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: paga {1} in meno per il prossimo permanente che giochi in questo turno, fino a un minimo di {1}.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{D}: Paga {1} menos por el siguiente permanente que juegues este turno, hasta un mínimo de {1}.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{D} : Pay {1} less for the next Permanent you play this turn, down to a minimum of {1}."
+              }
+            ],
+            "reference": "01804"
+          },
+          "sequence": 0,
+          "id": "01K6X4ND7J8FHZ7H5FQWTGKQA3"
+        }
+      ],
+      "value": "{D} : Pay {1} less for the next Permanent you play this turn, down to a minimum of {1}.",
+      "id": "01K6X4NCNKRDJMNYCF8HH063EC"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/en_US\/1338d6b2192ca63bb1e844783c909d18.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/WEB_516b68f901862760970cda732f05fa19",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/WEB_20e394620d2d3af48e56454789a18a4d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/WEB_ead981e4b02208a030c3562ee1843396"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_95_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_95",
+  "reference": "ALT_DUSTER_B_OR_95_R1",
+  "translations": {
+    "de_DE": { "name": "Kikimora", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Kikimora",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/en_US\/1338d6b2192ca63bb1e844783c909d18.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Kikimora", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Kikimora", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Kikimora",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/fr_FR\/2d164305d845ebad5a54920a22357dd9.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQFGHE7Y1AE4TFHAJKJ",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/fr_FR\/2d164305d845ebad5a54920a22357dd9.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/en_US\/1338d6b2192ca63bb1e844783c909d18.jpg"
+  },
+  "name": "Kikimora",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "#1#",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "#When you play a Permanent — If I have no boosts, I gain 1 boost.#",
+    "ECHO_EFFECT": "{D} : Pay {1} less for the next Permanent you play this turn, down to a minimum of {1}."
+  },
+  "collectorNumberFormatted": "SDU-074-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

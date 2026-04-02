@@ -1,0 +1,202 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "3000 mètres... 2900 mètres ... 2800 mètres...",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "10,000 feet... 9,500 feet... 9,000 feet...",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KH3ZWMDD60BJBZVCA59J5YSH",
+          "text": "10,000 feet... 9,500 feet... 9,000 feet..."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
+        "reference": "TOKEN",
+        "name": "Token"
+      },
+      "id": "6Y926YB7S08W9VSSYEZ1P9DWMY",
+      "reference": "ALT_WCS26_A_AX_31_C"
+    }
+  ],
+  "cardType": {
+    "reference": "TOKEN",
+    "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
+    "name": "Token Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ROBOT",
+      "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+      "name": "Robot"
+    }
+  ],
+  "cardSet": {
+    "id": "01KGWCP9XAFCTT89T9VRTED92Z",
+    "reference": "WCS26",
+    "name": "World Championship Series 2026"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KGWE0ERE4TQ2ZHJYVRDEQ2JT"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KGWE0ES70SYJNTPHE5Y0YAEE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KGWE0ESNJVX27AF119JB53RK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6AJHW94E4Q5PHSCM1QSSYA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "(Si je quitte la zone d'Expédition, retirez-moi du jeu.)",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "(Falls ich die Expeditionszone verlasse, entferne mich aus dem Spiel.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "(Se lascio l'area delle spedizioni, rimuovimi dalla partita.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "(Si abandono la zona de expedición, retírame del juego.)",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "(If I leave the Expedition zone, remove me from the game.)",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "(If I leave the Expedition zone, remove me from the game.)"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01KH6AJTPMGX6CRB8E5PS91HA5"
+        }
+      ],
+      "value": "(If I leave the Expedition zone, remove me from the game.)",
+      "id": "01KH6AJHW94E4Q5PHSCM1QSSYA"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_A_AX_31\/JPG\/en_US\/dc9e89003404e4485f4d12cb257fc865.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_A_AX_31\/WEB_abe0298ebae89f684c5f0c21e669ae20"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_A_AX_31_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": null,
+  "reference": "ALT_WCS26_A_AX_31_C",
+  "translations": {
+    "fr_FR": {
+      "name": "Scarabot",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_A_AX_31\/JPG\/fr_FR\/92a88335f3355ee0f18a0df792eea866.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Brassbug",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_A_AX_31\/JPG\/en_US\/dc9e89003404e4485f4d12cb257fc865.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Ottonblatta",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_A_AX_31\/JPG\/it_IT\/1c5cb4a1f774d4eaf39b14c33825ae80.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Bicholata",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_A_AX_31\/JPG\/es_ES\/e527bddf6fb313bdd5a59c8d0ff2f56d.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Blechkäfer",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_A_AX_31\/JPG\/de_DE\/e4ebcd92ce35aaef862de6d1af202acc.jpg",
+      "locale": "de_DE"
+    }
+  },
+  "id": "01KGWCPAV6A3W6WYR6A68PYWMJ",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_A_AX_31\/JPG\/fr_FR\/92a88335f3355ee0f18a0df792eea866.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_A_AX_31\/JPG\/en_US\/dc9e89003404e4485f4d12cb257fc865.jpg"
+  },
+  "name": "Brassbug",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "(If I leave the Expedition zone, remove me from the game.)"
+  },
+  "collectorNumberFormatted": "WCS26-S-001-T-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

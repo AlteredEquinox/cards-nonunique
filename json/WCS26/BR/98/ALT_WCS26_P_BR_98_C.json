@@ -1,0 +1,218 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "Wanax dirige les Maraudeurs, qui bravent le Tumulte pour y pêcher des merveilles.",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "Wanax leads the Marauders into the Tumult to bring home wondrous catches.",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KH3ZWM53EZRWH1FRYG2H8FAS",
+          "text": "Wanax leads the Marauders into the Tumult to bring home wondrous catches."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4GXNW0YXX380VB6975G8ZH43FY",
+      "reference": "ALT_WCS26_P_BR_98_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
+  "cardSet": {
+    "id": "01KGWCP9XAFCTT89T9VRTED92Z",
+    "reference": "WCS26",
+    "name": "World Championship Series 2026"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KGWE13X91N7H37P60QTVQ75D"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "01KGWE146EP1YPPVT0EWVCT7FN"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KGWE14FNJWK0YSYBC3WYD4RE"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KGWE14RSWZKAYB0RQP7K17DA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01KGWE151ZKGE2Q4QGB1ASXGBR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6AK9BRCRHRSQ78YADN2J0B",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "Placeholder", "locale": "fr_FR" },
+                  "en_US": {
+                    "text": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{T}: pesca una carta, poi scarta una carta dalla tua mano. Puoi eseguire questa azione solo se sei il primo giocatore.",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "{T} : Ziehe eine Karte, dann lege eine Karte aus deiner Hand ab. Du kannst dies nur aktivieren, falls du der Startspieler bist.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{T} : Roba una carta y luego descarta una carta de tu mano. Solo puedes activar esto si eres el primer jugador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player."
+              }
+            ],
+            "reference": "02997"
+          },
+          "sequence": 0,
+          "id": "01KH6AK9ZG3DTNGETW3HBM8RFP"
+        }
+      ],
+      "value": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player.",
+      "id": "01KH6AK9BRCRHRSQ78YADN2J0B"
+    }
+  ],
+  "isPublic": false,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/en_US\/633707384c97ae70dbf9c122554ecbeb.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/WEB_043deb649725027cce40b4e5c7db84d9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/WEB_a35ada9f40a5351e141085c9c7f0834f"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_P_BR_98_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": null,
+  "reference": "ALT_WCS26_P_BR_98_C",
+  "translations": {
+    "it_IT": {
+      "name": "Wanax, Esarca Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/it_IT\/d7e70a349972474e8e33578e6637d2da.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Wanax, Reka Hexarch",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/en_US\/633707384c97ae70dbf9c122554ecbeb.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Wanax, hexarca reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/es_ES\/924d6b354a9eea157b9ab37ca6682027.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Wanax, Reka-Hexarchin",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/de_DE\/6024eabb9947291e6381404a14faec1c.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Wanax, Hexarque Reka",
+      "image": "Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/fr_FR\/1fe1dd827312e78e811746eaefb8ae44.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01KGWCPAV7T65XTNS2F3GKVXN5",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/fr_FR\/1fe1dd827312e78e811746eaefb8ae44.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_BR_98\/JPG\/en_US\/633707384c97ae70dbf9c122554ecbeb.jpg"
+  },
+  "name": "Wanax, Reka Hexarch",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "6",
+    "MOUNTAIN_POWER": "6",
+    "MAIN_EFFECT": "{T} : Draw a card, then discard a card from your hand. You can only activate this if you are first player."
+  },
+  "collectorNumberFormatted": "WCS26-S-004-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

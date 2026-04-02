@@ -1,0 +1,397 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« Ne rompez pas les rangs ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": { "text": "\"Don't break ranks!\"", "locale": "en_US" }
+          },
+          "id": "01KC94HWQKWXMKS0MZ5FCAV5N4",
+          "text": "\"Don't break ranks!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWSKJHB1B1FGFY3SNXFC",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWS5A4GN36MBP3BRZA4N",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWQ0PN238J5AMTSVVNRT",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HWQATE206V1SWHN94RZS",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "36RY5FFJ668619MTT00KC5284K",
+      "reference": "ALT_EOLE_B_OR_121_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZBY9WEY6T2WBAT8RQW62M"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZBYHYX49G5JDB47CEK7EB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q1S0R8AWS8GTPG6HYT2V9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Mana-Motte 2\/2\/2",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "2\/2\/2 Phalène de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Polilla de maná 2\/2\/2",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Mana Moth 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Falena di Mana 2\/2\/2",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1QBE0WTGPC1NV3KZ8A7GMYT",
+                      "reference": "MANA_MOTH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MBVDJVNF99T1YYSY8XDCG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Create a #[MANA_MOTH] Illusion# token in each of your Expeditions.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Erschaffe eine #[MANA_MOTH]-Illusionsmarke# in jeder deiner Expeditionen.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Créez un jeton Illusion #[MANA_MOTH]# dans chacune de vos Expéditions.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{J} Crea una ficha de ilusión #[MANA_MOTH] #en cada una de tus expediciones.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{J} Crea una pedina #Illusione [MANA_MOTH]# in ciascuna delle tue spedizioni.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{J} Create a #[MANA_MOTH] Illusion# token in each of your Expeditions."
+              }
+            ],
+            "reference": "02968"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q1V7J5Q8X1Y2C2SZX66N1"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5Q1S0R8AWS8GTPG6HYT2V9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#At Noon# — If #six or more cards are in your discard pile,# complete me.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#À Midi# — S'il y a #au moins six cartes dans votre défausse,# accomplissez-moi.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#Zum Mittag# — Falls sich #mindestens sechs Karten auf deinem Ablagestapel befinden,# vollbringe mich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#A mezzogiorno# — Se ci sono #sei o più carte nella tua pila degli scarti,# eseguimi.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Al mediodía# — Si hay #seis o más cartas en tu pila de descartes,# complétame.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#At Noon# — If #six or more cards are in your discard pile,# complete me."
+              }
+            ],
+            "reference": "02696"
+          },
+          "sequence": 1,
+          "id": "01KJ5Q1WQHB41Q5GKBWD82CMKB"
+        }
+      ],
+      "value": "{J} Create a [Mana Moth 2\/2\/2] Illusion token in each of your Expeditions.  At Noon — If six or more cards are in your discard pile, complete me.",
+      "id": "01KJ5Q1S0R8AWS8GTPG6HYT2V9"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5Q1YRBGZSFHAQBBG1QNW84",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MBC2GHGJGWKCBFFH2J4J4"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[COMPLETED]: When you create a token Character — You may exhaust me ({T}) to give it 1 boost. ",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED]: Cuando crees una ficha de personaje — Puedes agotarme ({T}) para darle 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED]: Wenn du einen Marken-Charakter erschaffst — Du darfst mich erschöpfen ({T}), um ihm 1 Verstärkung zu geben.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "[COMPLETED] : Lorsque vous créez un jeton Personnage — Vous pouvez m'épuiser ({T}) pour lui donner 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED]: quando crei una pedina personaggio — Puoi consumarmi ({T}) per conferirle 1 rinforzo.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "[COMPLETED]: When you create a token Character — You may exhaust me ({T}) to give it 1 boost. "
+              }
+            ],
+            "reference": "02965"
+          },
+          "sequence": 0,
+          "id": "01KJ5Q20VA9FF4Q000YSRGHP12"
+        }
+      ],
+      "value": "[[Completed]]: When you create a token Character — You may exhaust me ({T}) to give it 1 boost.",
+      "id": "01KJ5Q1YRBGZSFHAQBBG1QNW84"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Kevin Sidharta" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_121\/JPG\/en_US\/a1cc854dfd32b78b89375a84a369852e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_121\/WEB_534c61284de94502f6722729abed6bde",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_121\/WEB_778eff79405e875b41f3bbb2fc1b2fff"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_121_R2",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_121",
+  "reference": "ALT_EOLE_B_OR_121_R2",
+  "translations": {
+    "it_IT": {
+      "name": "Coprire la Ritirata",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_121\/JPG\/it_IT\/e36e44ea96739ffb1a9eb98374213580.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Sichert den Rückzug",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_121\/JPG\/de_DE\/e092d24b6854197d07b59c68aac262ed.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Cubrir la retirada",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_121\/JPG\/es_ES\/8ee8a5b49919b67a35ba7e9048d02229.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Cover the Retreat",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_121\/JPG\/en_US\/a1cc854dfd32b78b89375a84a369852e.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Couvrir la Retraite",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_121\/JPG\/fr_FR\/51b5fb6071029b3be81114522547f882.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHY9Y08A42G4XQ332A9NX",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_121\/JPG\/fr_FR\/51b5fb6071029b3be81114522547f882.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_OR_121\/JPG\/en_US\/a1cc854dfd32b78b89375a84a369852e.jpg"
+  },
+  "name": "Cover the Retreat",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "#3#",
+    "MAIN_EFFECT": "{J} Create a #[Mana Moth 2\/2\/2] Illusion# token in each of your Expeditions.  #At Noon# — If #six or more cards are in your discard pile,# complete me.",
+    "ECHO_EFFECT": "[[Completed]]: When you create a token Character — You may exhaust me ({T}) to give it 1 boost."
+  },
+  "collectorNumberFormatted": "ROC-092-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

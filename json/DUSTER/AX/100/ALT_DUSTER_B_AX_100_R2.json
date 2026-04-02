@@ -1,0 +1,196 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "At this convention, the Reka show off their scientific superiority.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Dans cette convention, les Reka démontrent leur supériorité scientifique.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZHRP1H93X8QTN7PZJSQ2",
+          "text": "At this convention, the Reka show off their scientific superiority."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "30TX45MQ8N8FFA2564BHY5NT96",
+      "reference": "ALT_DUSTER_B_AX_100_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K1F18F4D9TE0SBS3M2CMG"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K1F5Y00GK6ZS3X2YK94SA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X3YSW9JW4G52M3QXNYEGYY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "#{J} Épuisez-moi.#", "locale": "fr_FR" },
+                  "es_ES": { "text": "#{J} Agótame.#", "locale": "es_ES" },
+                  "it_IT": { "text": "#{J} Consumami.#", "locale": "it_IT" },
+                  "en_US": { "text": "#{J} Exhaust me.#", "locale": "en_US" },
+                  "de_DE": {
+                    "text": "#{J} Erschöpfe mich.#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "#{J} Exhaust me.#"
+              }
+            ],
+            "reference": "01681"
+          },
+          "sequence": 0,
+          "id": "01K6X3YTBZ73X01C33945ZWH3Y"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X3YSW9JW4G52M3QXNYEGYY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T} : Put a card from your hand in Reserve, #then exhaust it ({T}).# If you do, draw a card.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": { "text": "#{J} Épuisez-moi.#", "locale": "fr_FR" },
+                  "de_DE": {
+                    "text": "#{J} Erschöpfe mich.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": { "text": "#{J} Agótame.#", "locale": "es_ES" },
+                  "it_IT": { "text": "#{J} Consumami.#", "locale": "it_IT" }
+                },
+                "text": "{T} : Put a card from your hand in Reserve, #then exhaust it ({T}).# If you do, draw a card."
+              }
+            ],
+            "reference": "02083"
+          },
+          "sequence": 1,
+          "id": "01K6X3YTRXZWPBCSQ4PZGQ9PQN"
+        }
+      ],
+      "value": "{J} Exhaust me.  {T} : Put a card from your hand in Reserve, then exhaust it ({T}). If you do, draw a card.",
+      "id": "01K6X3YSW9JW4G52M3QXNYEGYY"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/en_US\/bbc414ffd45f39c7dee062bd7d052c13.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/WEB_90015fa45e86ebb70a5a5a5bf7d2ea9b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/WEB_09a99157db54683ecaf5168d1348ab57"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_100_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_100",
+  "reference": "ALT_DUSTER_B_AX_100_R2",
+  "translations": {
+    "de_DE": { "name": "Wissenschaftsmesse", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Feria científica", "image": null, "locale": "es_ES" },
+    "it_IT": {
+      "name": "Fiera della Scienza",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Science Fair",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/en_US\/bbc414ffd45f39c7dee062bd7d052c13.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Foire scientifique",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/fr_FR\/891404fd418f0812992bef81e5e3117c.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPA7WEGJQ80HKW2AAPB",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/fr_FR\/891404fd418f0812992bef81e5e3117c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/en_US\/bbc414ffd45f39c7dee062bd7d052c13.jpg"
+  },
+  "name": "Science Fair",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "#3#",
+    "MAIN_EFFECT": "#{J} Exhaust me.#  {T} : Put a card from your hand in Reserve, #then exhaust it ({T}).# If you do, draw a card."
+  },
+  "collectorNumberFormatted": "SDU-017-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

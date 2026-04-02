@@ -1,0 +1,273 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Your catch of the day deserves a Manaseed!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Allez, ta pêche du jour vaut bien une Graine ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZM0P7QK6SDVGYTFC66M5",
+          "text": "\"Your catch of the day deserves a Manaseed!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "5CKC70P5Q08CV86JVWZDFJP1XH",
+      "reference": "ALT_DUSTER_B_BR_99_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K58J6EXTEV6Z2Z8KEXJS2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K58QD3D77M2VHXJAVXSBE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X477REEFX3GV9SFBGWWEC3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K59V3AN0SP6H5VG1DETHM"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Create a [MANASEED] token in your Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich. (Sie ist eine Bleibende Karte mit „{T}, Opfere mich: Stelle eine Manakugel bereit.“)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Crea una pedina [MANASEED] nei tuoi fulcri. (È un permanente con \"{T}, sacrificami: ripristina una sfera di mana\".)",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "Créez un jeton [MANASEED] dans vos Repères. (C'est un Permanent avec « {T}, Sacrifiez-moi : redressez un Orbe de Mana. »)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Crea una ficha de [MANASEED] en tus hitos. (Es un permanente con «{T}, sacrifícame: Prepara un orbe de maná».)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "Create a [MANASEED] token in your Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")"
+              }
+            ],
+            "reference": "01712"
+          },
+          "sequence": 0,
+          "id": "01K6X478CZ3ZKQVP7CM23DP1XD"
+        }
+      ],
+      "value": "Create a [Manaseed] token in your Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")",
+      "id": "01K6X477REEFX3GV9SFBGWWEC3"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X478WZAZ7K3VSDJG1WSGGK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Der nächste Charakter, der in dieser Runde aus deiner Hand gespielt wird, aktiviert eine seiner {r} Fähigkeiten.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Le prochain Personnage joué de votre main ce tour-ci active l'une de ses capacités {r}.",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{D}: El siguiente personaje que juegues desde tu mano este turno activa una de sus habilidades {r}.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{D}: il prossimo personaggio giocato dalla tua mano in questo turno attiva una delle sue abilità {r}.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{D} : The next Character played from your hand this turn activates one of its {r} abilities."
+              }
+            ],
+            "reference": "01909"
+          },
+          "sequence": 0,
+          "id": "01K6X479EMXHYR1J8ZEJCX85RX"
+        }
+      ],
+      "value": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+      "id": "01K6X478WZAZ7K3VSDJG1WSGGK"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/en_US\/85f5ca698baf5ecf9b7fa80b79e4129d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/WEB_e6779dca2ea258f67e5221d8bd1db50e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/WEB_7c66b9cb297dd1eee3d1a92655623cef"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_99_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_99",
+  "reference": "ALT_DUSTER_B_BR_99_C",
+  "translations": {
+    "es_ES": {
+      "name": "Encuentro en el mercado",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Incontro al Mercato",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "de_DE": { "name": "Markt-Begegnung", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Rencontre au Marché",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/fr_FR\/91ead8fc2e69a56f84523a26b49e321c.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Market Encounter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/en_US\/85f5ca698baf5ecf9b7fa80b79e4129d.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVPM76ZHZ11ZWCF05655",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/fr_FR\/91ead8fc2e69a56f84523a26b49e321c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/en_US\/85f5ca698baf5ecf9b7fa80b79e4129d.jpg"
+  },
+  "name": "Market Encounter",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "Create a [Manaseed] token in your Landmarks. (It's a Permanent with \"{T}, Sacrifice me: Ready a Mana Orb.\")",
+    "ECHO_EFFECT": "{D} : The next Character played from your hand this turn activates one of its {r} abilities."
+  },
+  "collectorNumberFormatted": "SDU-034-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,311 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Basira’s husband has been called back to treat the wounded animals.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'époux de Basira a été rappelé pour s'occuper des animaux blessés.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KC94HSZE1A0TJA2667FGBPBT",
+          "text": "Basira’s husband has been called back to treat the wounded animals."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HSZYY08AWBZY6R7GZ4N5",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HSZPA6RRK2EK9C0ZJTEH",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HSYXP4CB2Y7DMZNBMMA3",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HSZ6C9ZYKCHAWAD12WHW",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "5PME46X7R19H0BC44XTR6GQNR1",
+      "reference": "ALT_EOLE_B_MU_116_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DRUID",
+      "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+      "name": "Druid"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ10KT8DVS5YX75P8MT29Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ10V39RXH4ZB40386CDHX"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YZ112E184YQS0SCV4BPAXM"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01K9YZ119T5DZSFWH4VG3EM1BD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K9YZ11H24RCYPNQG1XEKK5G2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5P9SEHNH3B7M7QRY5WNZRH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7KX1CYKZ37K8QP245HEPZV"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J}# [RESUPPLY]. If you put an Animal in Reserve this way, it gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# [RESUPPLY]. Si colocas un animal en reserva de esta manera, gana 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# [RESUPPLY]. Falls du ein Tier auf diese Weise in die Reserve schickst, erhält es 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# [RESUPPLY]. Si vous mettez un Animal en Réserve de cette façon, il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# [RESUPPLY]. Se metti un Animale nella Riserva in questo modo, ottiene 1 rinforzo.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{J}# [RESUPPLY]. If you put an Animal in Reserve this way, it gains 1 boost."
+              }
+            ],
+            "reference": "02898"
+          },
+          "sequence": 0,
+          "id": "01KJ5P9V8GSBTZMZZRX3GH7CRY"
+        }
+      ],
+      "value": "{J} [Resupply]. If you put an Animal in Reserve this way, it gains 1 boost.",
+      "id": "01KJ5P9SEHNH3B7M7QRY5WNZRH"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Zaeliven" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/JPG\/en_US\/7e019767675e38622442c0e51cd2b696.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/WEB_8484153739adc63b07f38a0f649e158d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/WEB_6e97be2255a72eb87f31c5ac3e6c5812",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/WEB_44ca74c1d405a81f1372f9f23a0eb00d"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_116_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "MU_116",
+  "reference": "ALT_EOLE_B_MU_116_R1",
+  "translations": {
+    "en_US": {
+      "name": "Wildlife Medic",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/JPG\/en_US\/7e019767675e38622442c0e51cd2b696.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Wildtier-Heiler",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/JPG\/de_DE\/ef58d6a09dcbfa65614c416b9f265df9.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Medico della Natura",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/JPG\/it_IT\/5cdd753ad2912fa97e93e01c67d27d62.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Veterinario de fauna salvaje",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/JPG\/es_ES\/92fc763a2f54903feaa25095f0a307c3.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Médecin des Bêtes",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/JPG\/fr_FR\/0e6d8a8ff4db22f3e713f496198d4a13.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01K9YWHY9KEY99BAS4N957233K",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/JPG\/fr_FR\/0e6d8a8ff4db22f3e713f496198d4a13.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_MU_116\/JPG\/en_US\/7e019767675e38622442c0e51cd2b696.jpg"
+  },
+  "name": "Wildlife Medic",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "#3#",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "#{J}# [Resupply]. If you put an Animal in Reserve this way, it gains 1 boost."
+  },
+  "collectorNumberFormatted": "ROC-066-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

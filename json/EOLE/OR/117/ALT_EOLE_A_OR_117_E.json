@@ -1,0 +1,384 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Intolerance is a mask for fear.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'intolérance est le masque de la peur.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KG2J8E0FT0Z4298G4CQM9QZY",
+          "text": "Intolerance is a mask for fear."
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8E404GMGBHE1V7100JTB",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8E1MXRKMVXE2ZE5YGZXP",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8DX6G4VQZ58C3MNPTAZ1",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KG2J8DY497MTVY6M2AN0Y3NX",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "4KXRBQVQQ59CSS2GMNB89C7EPA",
+      "reference": "ALT_EOLE_A_OR_117_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CORRUPTION",
+      "id": "01KA0YFDBT5GF5YYW6RP9VJ0GB",
+      "name": "Corruption"
+    }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "EXALTED",
+    "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
+    "name": "Exalted"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KG010SHGSWJ5YJQ2WFQA3RWN"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KG010SS6V53STW71MWHD0WKT"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KG010T0XRCKYW5SKQWRCWZ9S"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KG010T8GCY5F2KVV81SY447X"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01KG010TGBM16944MA9EM0RZCX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5QWYR984HJRSQV1NQGD9CZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{H} Sacrifiez un Personnage. Puis, en fonction du nombre de Personnages dans vos Expéditions :",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{H} Sacrifice a Character. Then, depending on the number of Characters in your Expeditions:",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "{H} Sacrifica un personaggio. Poi, in base al numero di personaggi nelle tue spedizioni:",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Sacrifica un personaje. Luego, en función del número de personajes en tus expediciones:",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{H} Opfere einen Charakter. Dann, abhängig von der Anzahl an Charakteren in deinen Expeditionen:",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{H} Sacrifice a Character. Then, depending on the number of Characters in your Expeditions:"
+              }
+            ],
+            "reference": "02731"
+          },
+          "sequence": 0,
+          "id": "01KJ5QX019W912NN7ZDSD0BATN"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5QWYR984HJRSQV1NQGD9CZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "• 2+ : Piochez une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": { "text": "• 2+: Draw a card.", "locale": "en_US" },
+                  "de_DE": {
+                    "text": "• 2+: Ziehe eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "• 2 o más: Roba una carta.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "• 2+: pesca una carta.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "• 2+: Draw a card."
+              }
+            ],
+            "reference": "02732"
+          },
+          "sequence": 1,
+          "id": "01KJ5QX16RQ49FRQKQA3SVMP0D"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5QWYR984HJRSQV1NQGD9CZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "• 4+ : Je gagne aussi 2 boosts.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "• 4+: I also gain 2 boosts.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• 4+: Ich erhalte auch 2 Verstärkungen.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• 4+: ottengo anche 2 rinforzi.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• 4 o más: También gano 2 potenciadores.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "• 4+: I also gain 2 boosts."
+              }
+            ],
+            "reference": "02733"
+          },
+          "sequence": 2,
+          "id": "01KJ5QX2EHWX5PS47AW6PSKN53"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5QWYR984HJRSQV1NQGD9CZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "• 6+ : Chaque autre Personnage dans vos Expéditions gagne aussi 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "• 6+: Each other Character in your Expeditions also gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• 6+: Jeder andere Charakter in deinen Expeditionen erhält auch 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• 6+: anche ogni altro personaggio nelle tue spedizioni ottiene 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• 6 o más: Cada otro personaje en tus expediciones también gana 1 potenciador.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "• 6+: Each other Character in your Expeditions also gains 1 boost."
+              }
+            ],
+            "reference": "02734"
+          },
+          "sequence": 3,
+          "id": "01KJ5QX3JMGGS607P87H063AFJ"
+        }
+      ],
+      "value": "{H} Sacrifice a Character. Then, depending on the number of Characters in your Expeditions:  • 2+: Draw a card.  • 4+: I also gain 2 boosts.  • 6+: Each other Character in your Expeditions also gains 1 boost.",
+      "id": "01KJ5QWYR984HJRSQV1NQGD9CZ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Anh Tung" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_117\/JPG\/en_US\/6187d4bc748afcdae4606a22be7d828c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_117\/WEB_46d8d92a65fb2d463012d8ffcc6bde3f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_117\/WEB_30927fbdea77beaf30461e4f93e234f1"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_OR_117_E",
+  "isExclusive": true,
+  "isOwnerless": true,
+  "cardFamilyReference": "OR_117",
+  "reference": "ALT_EOLE_A_OR_117_E",
+  "translations": {
+    "it_IT": {
+      "name": "Piaga dell'Intolleranza",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_117\/JPG\/it_IT\/ea62cc168ad4770bf4a4f4b086340b44.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Plague of Intolerance",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_117\/JPG\/en_US\/6187d4bc748afcdae4606a22be7d828c.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Fléau d'Intolérance",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_117\/JPG\/fr_FR\/a493d04d0a43c31c6da26886ee70f652.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Plage der Intoleranz",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_117\/JPG\/de_DE\/125d1dfb02539ca6119fb4a0709bc239.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "Plaga de la intolerancia",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_117\/JPG\/es_ES\/833b5a6f616e26c41dac275c19a22a82.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01KFRQ5ZDANZ7BESXNR1GTZZ8E",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_117\/JPG\/fr_FR\/a493d04d0a43c31c6da26886ee70f652.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_A_OR_117\/JPG\/en_US\/6187d4bc748afcdae4606a22be7d828c.jpg"
+  },
+  "name": "Plague of Intolerance",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "{H} Sacrifice a Character. Then, depending on the number of Characters in your Expeditions:  • 2+: Draw a card.  • 4+: I also gain 2 boosts.  • 6+: Each other Character in your Expeditions also gains 1 boost."
+  },
+  "collectorNumberFormatted": "ROC-V-085-E-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

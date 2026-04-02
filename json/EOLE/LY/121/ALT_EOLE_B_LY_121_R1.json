@@ -1,0 +1,363 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "fr_FR": {
+              "text": "« S'il n'y a pas de fumée sans feu, avec nous, vous allez être servis ! »",
+              "locale": "fr_FR"
+            },
+            "en_US": {
+              "text": "\"Where there's smoke, there's fire… and we're proof of that!\"",
+              "locale": "en_US"
+            }
+          },
+          "id": "01KC94HRV3FERJ1T8WTDXEFMA7",
+          "text": "\"Where there's smoke, there's fire… and we're proof of that!\""
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
+            "reference": "STORY",
+            "subject": "Story"
+          },
+          "translations": {
+            "en_US": { "text": "#N\/A", "locale": "en_US" },
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
+          },
+          "id": "01KC94HRWNXDZ68NKM1ZW8FZNH",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
+            "reference": "INSPIRATION",
+            "subject": "Inspiration"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRW8TCV2YCDWXV6D71FK",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01H19024M31D80P12EJCYX9GB0",
+            "reference": "NARRATOR",
+            "subject": "Narrator"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRTNM2KA5P2P767TKNDC",
+          "text": "#N\/A"
+        },
+        {
+          "loreEntryElementType": {
+            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
+            "reference": "DATE",
+            "subject": "Date"
+          },
+          "translations": {
+            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+            "en_US": { "text": "#N\/A", "locale": "en_US" }
+          },
+          "id": "01KC94HRTW5RZT1XHDBS68A6NX",
+          "text": "#N\/A"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01J20ZZP61FEFQ4613REH25WRT",
+        "reference": "LANDMARK_PERMANENT",
+        "name": "LANDMARK_PERMANENT"
+      },
+      "id": "57KQATE0MH9YC9K6Y35HHV6TCZ",
+      "reference": "ALT_EOLE_B_LY_121_C"
+    }
+  ],
+  "cardType": {
+    "reference": "LANDMARK_PERMANENT",
+    "id": "01J1Q78N4S1E64PN4T7GB4T59F",
+    "name": "Landmark Permanent"
+  },
+  "cardSubTypes": [
+    { "reference": "FEAT", "id": "01KA0Z8VM97X93CWTMFTM976E4", "name": "Feat" }
+  ],
+  "cardSet": {
+    "id": "01K9YWHXF2T6GJJDWAK333TJGV",
+    "reference": "EOLE",
+    "name": "Roots of Corruption"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYW5BZ7ZKSEXGF90BZVXZB"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01K9YYW5K80X1F62SW8D8YR923"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NZ8R5SN7VNN3Y2JVP20HG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} #Draw a card, then put a card from your hand in Reserve.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} #Piochez une carte, puis mettez une carte de votre main en Réserve.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{J} #Ziehe eine Karte, dann lege eine Karte aus deiner Hand in die Reserve.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} #Pesca una carta, poi metti una carta dalla tua mano nella Riserva.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} #Roba una carta y luego coloca una carta de tu mano en reserva.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} #Draw a card, then put a card from your hand in Reserve.#"
+              }
+            ],
+            "reference": "02870"
+          },
+          "sequence": 0,
+          "id": "01KJ5NZANG53928VEZ884N4QDY"
+        },
+        {
+          "cardElement": "\/card_elements\/01KJ5NZ8R5SN7VNN3Y2JVP20HG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When two {D} abilities are activated on one of your turns — Complete me.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque deux capacités {D} sont activées pendant l'un de vos tours — Accomplissez-moi.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Wenn zwei {D} Fähigkeiten in einer deiner Runden aktiviert werden — Vollbringe mich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Quando due abilità {D} sono attivate in uno dei tuoi turni — Eseguimi.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando dos habilidades {D} se activen en uno de tus turnos — Complétame.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When two {D} abilities are activated on one of your turns — Complete me."
+              }
+            ],
+            "reference": "02869"
+          },
+          "sequence": 1,
+          "id": "01KJ5NZC9FWWNEMF6FK87BRD6G"
+        }
+      ],
+      "value": "{J} Draw a card, then put a card from your hand in Reserve.  When two {D} abilities are activated on one of your turns — Complete me.",
+      "id": "01KJ5NZ8R5SN7VNN3Y2JVP20HG"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KJ5NZDVGMJHJEV09X4080N45",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Accomplie",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Completed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Eseguita",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vollbracht",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Completada",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01K9YYDGN54D4PHVKNMQW4R9NQ",
+                      "reference": "COMPLETED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KHBEM4JAX51X3C18ZE7TA8ZJ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[COMPLETED], {T} : The next time a {D} ability is activated this turn, target Character #in play or in Reserve# gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "[COMPLETED], {T} : La prochaine fois qu'une capacité {D} est activée ce tour-ci, un Personnage ciblé #en jeu ou en Réserve# gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "[COMPLETED], {T}: la prossima volta che un'abilità {D} viene attivata in questo turno, un personaggio bersaglio #in gioco o nella Riserva# ottiene 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[COMPLETED], {T} : La siguiente vez que una habilidad {D} se active este turno, un personaje objetivo #en juego o en reserva# gana 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "[COMPLETED], {T} : Das nächste Mal, wenn eine {D} Fähigkeit in dieser Runde aktiviert wird, erhält ein Charakter deiner Wahl #im Spiel oder in der Reserve# 1 Verstärkung.",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "[COMPLETED], {T} : The next time a {D} ability is activated this turn, target Character #in play or in Reserve# gains 1 boost."
+              }
+            ],
+            "reference": "03007"
+          },
+          "sequence": 0,
+          "id": "01KJ5NZFGNEHXMCY8RN3GESP6N"
+        }
+      ],
+      "value": "[[Completed]], {T} : The next time a {D} ability is activated this turn, target Character in play or in Reserve gains 1 boost.",
+      "id": "01KJ5NZDVGMJHJEV09X4080N45"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Justice Wong" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_121\/JPG\/en_US\/20dbc7d9d26a941bff22d7910466ff30.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_121\/WEB_dd4c9f2df4493caec1fa3210f278995f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_121\/WEB_363101ffcf306aa6de0e3a1b249ae698"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_121_R1",
+  "isExclusive": false,
+  "isOwnerless": true,
+  "cardFamilyReference": "LY_121",
+  "reference": "ALT_EOLE_B_LY_121_R1",
+  "translations": {
+    "de_DE": {
+      "name": "Räuchert sie aus",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_121\/JPG\/de_DE\/7693f74f7947c524381195172b3d385d.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Enfumez-les",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_121\/JPG\/fr_FR\/53d81402c710cd1a6236a86657ebc503.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Smoke Them Out",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_121\/JPG\/en_US\/20dbc7d9d26a941bff22d7910466ff30.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Stanare col Fumo",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_121\/JPG\/it_IT\/569235c8265957baa71425a482bfebe0.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Expulsar con humo",
+      "image": "Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_121\/JPG\/es_ES\/3eefb1e16a255bc188ce031e90bd156f.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01K9YWHY9BYXCY2EWQ7RT0AGSK",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_121\/JPG\/fr_FR\/53d81402c710cd1a6236a86657ebc503.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/EOLE\/CARDS\/ALT_EOLE_B_LY_121\/JPG\/en_US\/20dbc7d9d26a941bff22d7910466ff30.jpg"
+  },
+  "name": "Smoke Them Out",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "MAIN_EFFECT": "{J} #Draw a card, then put a card from your hand in Reserve.#  When two {D} abilities are activated on one of your turns — Complete me.",
+    "ECHO_EFFECT": "[[Completed]], {T} : The next time a {D} ability is activated this turn, target Character #in play or in Reserve# gains 1 boost."
+  },
+  "collectorNumberFormatted": "ROC-054-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

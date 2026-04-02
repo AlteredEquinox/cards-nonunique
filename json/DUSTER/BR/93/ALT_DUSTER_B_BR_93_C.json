@@ -1,0 +1,207 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I think I've found a good spot!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je crois que j'ai trouvé un bon spot ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZKH7WNGQR7SJE3AGGJJP",
+          "text": "\"I think I've found a good spot!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0FMK0767048Y7BAJME6AWG3JK4",
+      "reference": "ALT_DUSTER_B_BR_93_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K26ZBAPT3885QX1TNZGR8"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K274YE9M0RAPC5ZQKYXS5"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K27A3BWJJTRC5EXDTD604"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K27FTCJGNWXZ5JMPTT1KC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K27NMPPR2G9ZA03B4F9F5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X45KB3FH72Q910VBAW9RN4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{R} Ich erhalte 1 Verstärkung.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "{R} Ottengo 1 rinforzo.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Gano 1 potenciador.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": { "text": "{R} I gain 1 boost.", "locale": "en_US" }
+                },
+                "text": "{R} I gain 1 boost."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K6X45KZM8N7NQG2EKE3MDGZZ"
+        }
+      ],
+      "value": "{R} I gain 1 boost.",
+      "id": "01K6X45KB3FH72Q910VBAW9RN4"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Christophe Young" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/en_US\/eddf412af9ed0490b78c36631f207789.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/WEB_a953628d78730e0b7626066cd75d4a51",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/WEB_302726a029deac47b380b43ecda23cc6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/WEB_3a8623e33792614ac23b1d3831d3ff89"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_93_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_93",
+  "reference": "ALT_DUSTER_B_BR_93_C",
+  "translations": {
+    "de_DE": { "name": "Bravos-Ausguckerin", "image": null, "locale": "de_DE" },
+    "es_ES": { "name": "Vigía de Bravos", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Bravos Lookout",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/en_US\/eddf412af9ed0490b78c36631f207789.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": { "name": "Vedetta Bravos", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Vigie Bravos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/fr_FR\/58e278293634e8393f42825680af4b94.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPJM1BFRD0VTVMMV0W5",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/fr_FR\/58e278293634e8393f42825680af4b94.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/en_US\/eddf412af9ed0490b78c36631f207789.jpg"
+  },
+  "name": "Bravos Lookout",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{R} I gain 1 boost."
+  },
+  "collectorNumberFormatted": "SDU-022-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

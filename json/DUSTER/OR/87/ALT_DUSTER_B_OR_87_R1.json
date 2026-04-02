@@ -1,0 +1,291 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"Souvenirs are memories incarnate. Treasure them.\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Il n'y a pas plus précieux qu'un bon souvenir. »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZRY6N3E6YAFS9FXTSRYJ",
+          "text": "\"Souvenirs are memories incarnate. Treasure them.\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "1NZC5DFWYR8WXBKGPBX9YJ45CP",
+      "reference": "ALT_DUSTER_B_OR_87_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "MERCHANT",
+      "id": "01JZ2JZ7RFPB09RFMMFXBG3GZ5",
+      "name": "Merchant"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KHP4TK63AGT3PT5098Q1S"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KHPB2MVNVBBJ0CBQ5MPS0"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KHPHC1N045Z370N5YPQ2C"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KHPQ6MDHT6JBHV3036AGC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KHPX2JWQBB2W2XK12CDE6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4JQJ8475T2YW96MPH3EHD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Resupplies",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaille",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisce",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22PMAWKFHM9YCE44WE12XZ",
+                      "reference": "RESUPPLIES"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KHRGKETWPBKW0YT010832"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KHR51AM39W23JVEKCW60P"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{J} Du darfst #eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich erschaffen.# Falls du das tust, nutzt ein Gegner deiner Wahl [RESUPPLIES].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Puoi #creare una pedina [MANASEED] nei tuoi fulcri.# Se lo fai, un avversario bersaglio [RESUPPLIES].",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "{J} You may #create a [MANASEED] token in your Landmarks.# If you do, target opponent [RESUPPLIES].",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez #créer un jeton [MANASEED] dans vos Repères.# Si vous le faites, un adversaire ciblé [RESUPPLIES].",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "{J} Puedes #crear una ficha de [MANASEED] en tus hitos.# Si lo haces, el oponente objetivo [RESUPPLIES].",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{J} You may #create a [MANASEED] token in your Landmarks.# If you do, target opponent [RESUPPLIES]."
+              }
+            ],
+            "reference": "01814"
+          },
+          "sequence": 0,
+          "id": "01K6X4JR3Y2ZKK2S601DQCH8RV"
+        }
+      ],
+      "value": "{J} You may create a [Manaseed] token in your Landmarks. If you do, target opponent [Resupplies].",
+      "id": "01K6X4JQJ8475T2YW96MPH3EHD"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/en_US\/e3b847100ed67410a420f00ef70c32b6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/WEB_52737694b5b44fa22dcfa9a2a8331068",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/WEB_c7b0d5a9d85b13439ee58961ee16fa0b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/WEB_a7599a8df95f3efd8ac8193703a26d0d"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_87_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "OR_87",
+  "reference": "ALT_DUSTER_B_OR_87_R1",
+  "translations": {
+    "it_IT": {
+      "name": "Venditore di Souvenir",
+      "image": null,
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Souvenir Seller",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/en_US\/e3b847100ed67410a420f00ef70c32b6.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Vendedor de souvenirs",
+      "image": null,
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Vendeur de souvenirs",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/fr_FR\/2bd1ea22b4352d2f629748b278d59223.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": { "name": "Souvenirverkäufer", "image": null, "locale": "de_DE" }
+  },
+  "id": "01JYP9SVQDQX4A7DDYRDTFJW3N",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/fr_FR\/2bd1ea22b4352d2f629748b278d59223.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/en_US\/e3b847100ed67410a420f00ef70c32b6.jpg"
+  },
+  "name": "Souvenir Seller",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "#3#",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "#3#",
+    "MOUNTAIN_POWER": "#3#",
+    "MAIN_EFFECT": "{J} You may #create a [Manaseed] token in your Landmarks.# If you do, target opponent [Resupplies]."
+  },
+  "collectorNumberFormatted": "SDU-078-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

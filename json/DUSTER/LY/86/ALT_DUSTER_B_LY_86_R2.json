@@ -1,0 +1,210 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "After that, he'll sleep like a log, and that's no lie.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Même en buvant du jus d'orange, il a la gueule de bois.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZMGTQNV68MPXF09H4S4D",
+          "text": "After that, he'll sleep like a log, and that's no lie."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6J0GN3B6R39HRR1AEF25YXCA7E",
+      "reference": "ALT_DUSTER_B_LY_86_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ROBOT",
+      "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+      "name": "Robot"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K67BJD4SQ15F842EYKJZ3"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K67J7B1S1ZXVZCQSY87HR"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K67QX63PXT2E6QP3ZQJQA"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K67X0BWWJVKEG0RG832BD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K6825AVJXPND2TMNRE8S1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X48GX44XWGDMVEZVB9J6CE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{R} If there are three or more base statistics of 0 among Characters you control, draw a card.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{R} S'il y a au moins trois statistiques de base 0 parmi les Personnages que vous contrôlez, piochez une carte.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#{R} Falls es unter den Charakteren, die du kontrollierst, mindestens drei Basisstatistiken von 0 gibt, ziehe eine Karte.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{R} Si hay al menos tres estadísticas básicas de 0 entre personajes que controles, roba una carta.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{R} Se ci sono tre o più statistiche base pari a 0 tra i personaggi che controlli, pesca una carta.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{R} If there are three or more base statistics of 0 among Characters you control, draw a card.#"
+              }
+            ],
+            "reference": "01721"
+          },
+          "sequence": 0,
+          "id": "01K6X48HFDB1MZ9D5RHTCHZ8D4"
+        }
+      ],
+      "value": "{R} If there are three or more base statistics of 0 among Characters you control, draw a card.",
+      "id": "01K6X48GX44XWGDMVEZVB9J6CE"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_86\/JPG\/en_US\/dcfcb3dc5f0888b782a0a599a4c7e90a.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_86\/WEB_bb758a7daf0cea20faf05f4b8e74fbfa",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_86\/WEB_25ba8c82a461046c772aab1351e240a9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_86\/WEB_14c190deaed8a2509498304fb4951a04"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_86_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_86",
+  "reference": "ALT_DUSTER_B_LY_86_R2",
+  "translations": {
+    "it_IT": { "name": "Pinocchio", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Pinocchio", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Pinocchio",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_86\/JPG\/en_US\/dcfcb3dc5f0888b782a0a599a4c7e90a.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "Pinocho", "image": null, "locale": "es_ES" },
+    "fr_FR": {
+      "name": "Pinocchio",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_86\/JPG\/fr_FR\/05b6f49d2fd4623d9fa4935e51b5870a.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPSEMT27YANR1F20EGH",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_86\/JPG\/fr_FR\/05b6f49d2fd4623d9fa4935e51b5870a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_86\/JPG\/en_US\/dcfcb3dc5f0888b782a0a599a4c7e90a.jpg"
+  },
+  "name": "Pinocchio",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "#{R} If there are three or more base statistics of 0 among Characters you control, draw a card.#"
+  },
+  "collectorNumberFormatted": "SDU-038-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

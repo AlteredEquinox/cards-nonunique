@@ -1,0 +1,229 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The idea of the butterfly resides within the caterpillar",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'idée du papillon se trouve déjà dans la chenille.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JNRGC4MYQ3QNS0S0DJ2P9502",
+          "text": "The idea of the butterfly resides within the caterpillar"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "044FGQ1EAT9N49QB17QPBVY1NN",
+      "reference": "ALT_CYCLONE_B_YZ_65_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+    "reference": "CYCLONE",
+    "name": "Skybound Odyssey"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JN9HNDYHP5AYER5YSMR6TTW4"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JN9HNDYHP5AYER5YSMR6TTW5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KGQE230SFEN22B8QM0PX9DJ3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Mana-Motte 2\/2\/2",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "2\/2\/2 Phalène de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Polilla de maná 2\/2\/2",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Mana Moth 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Falena di Mana 2\/2\/2",
+                          "locale": "it_IT",
+                          "description": ""
+                        }
+                      },
+                      "id": "01J1QBE0WTGPC1NV3KZ8A7GMYT",
+                      "reference": "MANA_MOTH"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JS20WTMRTEKB9PGRW3J1GYB6"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you play a Spell with Base Cost {4} or more — You may exhaust me ({T}) to create a [MANA_MOTH] Illusion token in your Hero Expedition. If the Base Cost was {7} or more, also draw a card. (Reserve Cost if from Reserve, Hand Cost otherwise.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous jouez un Sort de Coût de Base {4} ou plus — Vous pouvez m'épuiser ({T}) pour créer un jeton Illusion [MANA_MOTH] dans votre Expédition Héros. Si le Coût de Base était d'au moins {7}, piochez aussi une carte. (Coût de Main, ou Coût de Réserve si joué depuis la Réserve.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Quando giochi un incantesimo con costo base pari o superiore a {4} — Puoi consumarmi ({T}) per creare una pedina Illusione [MANA_MOTH] nella spedizione del tuo eroe. Se il costo base era pari o superiore a {7}, pesca anche una carta. (Costo dalla Riserva se nella Riserva, altrimenti costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando juegues un hechizo con coste base de {4} o más — Puedes agotarme ({T}) para crear una ficha de ilusión [MANA_MOTH] en tu expedición del héroe. Si el coste base era {7} o más, roba también una carta. (Si se juega desde la reserva, es su coste desde esta, si no, su coste desde la mano.)",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du einen Zauber mit Basiskosten {4} oder mehr spielst — Du darfst mich erschöpfen ({T}), um eine [MANA_MOTH]-Illusionsmarke in deiner Helden-Expedition zu erschaffen. Falls die Basiskosten {7} oder mehr betrugen, ziehe auch eine Karte. (Reservekosten, falls aus der Reserve, andernfalls Handkosten.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "When you play a Spell with Base Cost {4} or more — You may exhaust me ({T}) to create a [MANA_MOTH] Illusion token in your Hero Expedition. If the Base Cost was {7} or more, also draw a card. (Reserve Cost if from Reserve, Hand Cost otherwise.)"
+              }
+            ],
+            "reference": "01601"
+          },
+          "sequence": 0,
+          "id": "01KGQE23QA0AH1FKEA44FSJKFM"
+        }
+      ],
+      "value": "When you play a Spell with Base Cost {4} or more — You may exhaust me ({T}) to create a [Mana Moth 2\/2\/2] Illusion token in your Hero Expedition. If the Base Cost was {7} or more, also draw a card. (Reserve Cost if from Reserve, Hand Cost otherwise.)",
+      "id": "01KGQE230SFEN22B8QM0PX9DJ3"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/JPG\/en_US\/6e8cca215deb735be56177a1cfd09ca8.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/HERO_THUMB_fd33d29efb99b887faf25e45a2fc406e"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/HERO_WIDE_451752a95b81b9f71aeb49e8cbe8b151"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/WEB_a781b95e511aae868a9ff2b8dcdac7c6"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CYCLONE_B_YZ_65_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_65",
+  "reference": "ALT_CYCLONE_B_YZ_65_C",
+  "translations": {
+    "en_US": {
+      "name": "Moyo & Silk",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/JPG\/en_US\/6e8cca215deb735be56177a1cfd09ca8.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "Moyo y Seda",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/JPG\/es_ES\/473641dec6a850558b3f86180a4599ab.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Moyo & Seide",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/JPG\/de_DE\/dca790ce8686399bbe3ef31c34ee32f0.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Moyo e Seta",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/JPG\/it_IT\/85b420beac0185501433935c19a923ae.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Moyo & Silk",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/JPG\/fr_FR\/ae6e015b084a96d2fcf5ad71a264a6b5.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JN9HNDYHP5AYER5YSMR6TTW3",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/JPG\/fr_FR\/ae6e015b084a96d2fcf5ad71a264a6b5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_YZ_65\/JPG\/en_US\/6e8cca215deb735be56177a1cfd09ca8.jpg"
+  },
+  "name": "Moyo & Silk",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "When you play a Spell with Base Cost {4} or more — You may exhaust me ({T}) to create a [Mana Moth 2\/2\/2] Illusion token in your Hero Expedition. If the Base Cost was {7} or more, also draw a card. (Reserve Cost if from Reserve, Hand Cost otherwise.)"
+  },
+  "collectorNumberFormatted": "SKY-091-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,211 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Maleros should have been wary of the outsider.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Maleros aurait dû se méfier de l'outsider.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01KJ5PA3NCCE6GS2598T5ZSR4J",
+          "text": "Maleros should have been wary of the outsider."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "3CG8VCD13J86SRQ63PMJMZDEFB",
+      "reference": "ALT_DUSTERCB_P_YZ_88_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" },
+    {
+      "reference": "SCHOLAR",
+      "id": "01HKAGRGA2AC23BM29GTJ6XPYE",
+      "name": "Scholar"
+    }
+  ],
+  "cardSet": {
+    "id": "01K60PWBQRTWXF3M650SKAQEBE",
+    "reference": "DUSTERCB",
+    "name": "Seeds of Unity - Collector Booster"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K6ASYJCWHH0BNZNSVGZACWR2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K6ASYJK76E2J3QVT5HXF294X"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01K6ASYJSKSCJBKYWYAWGR0VAQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K6ASYJZT5P8MZ0Z6N5JHKTMN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01K6ASYK63GVF4XX4HM5P0HNKW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH672V5WHPRPMB4KDK2P8C5J",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you play a Spell with Base Cost {4} or more — If I have no boosts, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Wenn du einen Zauber mit Basiskosten {4} oder mehr spielst — Falls ich keine Verstärkungen habe, erhalte ich 1 Verstärkung. (Es gelten die Reservekosten, wenn aus der Reserve gespielt wird, oder die Handkosten, falls nicht.)",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous jouez un Sort de Coût de Base {4} ou plus — Si je n'ai pas de boost, je gagne 1 boost. (C'est le Coût de Main, ou le Coût de Réserve s'il est joué depuis la Réserve.)",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "Quando giochi un incantesimo con costo base pari o superiore a {4} — Se non ho rinforzi, ottengo 1 rinforzo. (Corrisponde al costo dalla Riserva se è giocato dalla Riserva, altrimenti al costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Cuando juegues un hechizo con coste base de {4} o más — Si no tengo potenciadores, gano 1 potenciador. (Es su coste desde la reserva si se juega desde la reserva o, de lo contrario, es su coste desde la mano.)",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When you play a Spell with Base Cost {4} or more — If I have no boosts, I gain 1 boost."
+              }
+            ],
+            "reference": "02114"
+          },
+          "sequence": 0,
+          "id": "01KH672VWGVD78837NP0YP6PB3"
+        }
+      ],
+      "value": "When you play a Spell with Base Cost {4} or more — If I have no boosts, I gain 1 boost.",
+      "id": "01KH672V5WHPRPMB4KDK2P8C5J"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "P", "name": "Promotion" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_88\/JPG\/en_US\/53ce5a9d3d525f492bbd4d0c8e57cc60.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_88\/WEB_0986b9452d10c2bb19c86b3d87896279",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_88\/WEB_190a7d399fe3be95008a685a6f879545",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_88\/WEB_b8ecd05572500b12518842aa37b586e8"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_YZ_88_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_88",
+  "reference": "ALT_DUSTERCB_P_YZ_88_C",
+  "translations": {
+    "es_ES": { "name": "Novato estudioso", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Studious Rookie",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_88\/JPG\/en_US\/53ce5a9d3d525f492bbd4d0c8e57cc60.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Novice Studieux",
+      "image": "Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_88\/JPG\/fr_FR\/f700d22378200916eb5f2a285bb5931c.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": { "name": "Eifriger Neuling", "image": null, "locale": "de_DE" },
+    "it_IT": { "name": "Novizio Studioso", "image": null, "locale": "it_IT" }
+  },
+  "id": "01K60PWD8XHVM4QMH6K3B0W2TS",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_88\/JPG\/fr_FR\/f700d22378200916eb5f2a285bb5931c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTERCB\/CARDS\/ALT_DUSTERCB_P_YZ_88\/JPG\/en_US\/53ce5a9d3d525f492bbd4d0c8e57cc60.jpg"
+  },
+  "name": "Studious Rookie",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "When you play a Spell with Base Cost {4} or more — If I have no boosts, I gain 1 boost."
+  },
+  "collectorNumberFormatted": "SDUCB-021-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

@@ -1,0 +1,229 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The language of nature has no use for words",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Le langage de la nature n'a que faire des mots.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JNRGBZM2A1PPBKTZMENPTCH3",
+          "text": "The language of nature has no use for words"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
+        "reference": "HERO",
+        "name": "Hero"
+      },
+      "id": "2T2N39EZDH8CQ8WC4GAZ40AT7N",
+      "reference": "ALT_CYCLONE_B_MU_65_C"
+    }
+  ],
+  "cardType": {
+    "reference": "HERO",
+    "id": "01GE7AC9WGQTNRP28T63FH8TZD",
+    "name": "Hero"
+  },
+  "cardSubTypes": [],
+  "cardSet": {
+    "id": "01JN9HN8N6WR959TS2XEJWWZ4P",
+    "reference": "CYCLONE",
+    "name": "Skybound Odyssey"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JN9HNDY05NCV3BRWW5404TQS"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JN9HNDY05NCV3BRWW5404TQT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KGQDMWFAXVY9GGKDPBJBY3J3",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Dotouffu 1\/1\/1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Woollyback 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Wollrücken 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Lanuvola 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Lanudo 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V1RZ960JE3XMHMM4G1Y3D",
+                      "reference": "WOOLLYBACK"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JN9VDB50VBAD2FZSTVB66B0C"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you are first player, create a [WOOLLYBACK] Animal token in target opponent's Companion Expedition, then draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Zum Mittag — Falls du der Startspieler bist, erschaffe eine [WOOLLYBACK]-Tiermarke in der Gefährten-Expedition eines Gegners deiner Wahl, ziehe dann eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes le premier joueur, créez un jeton Animal [WOOLLYBACK] dans l'Expédition Compagnon d'un adversaire ciblé, puis piochez une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Se sei il primo giocatore, crea una pedina Animale [WOOLLYBACK] nella spedizione del compagno di un avversario bersaglio, poi pesca una carta.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — Si eres el primer jugador, crea una ficha de animal [WOOLLYBACK] en la expedición del compañero del oponente objetivo y luego roba una carta.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "At Noon — If you are first player, create a [WOOLLYBACK] Animal token in target opponent's Companion Expedition, then draw a card."
+              }
+            ],
+            "reference": "01357"
+          },
+          "sequence": 0,
+          "id": "01KGQDMX6JZTRXF07BX97F4106"
+        }
+      ],
+      "value": "At Noon — If you are first player, create a [Woollyback 1\/1\/1] Animal token in target opponent's Companion Expedition, then draw a card.",
+      "id": "01KGQDMWFAXVY9GGKDPBJBY3J3"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": { "nickName": "Ba Vo" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/JPG\/en_US\/9bcc790061cb36e74d1a904c62a4a810.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/HERO_THUMB_d9005ac3a3e57afe607984cb4e69831e"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/HERO_WIDE_3b9afee0767f8fc8b801c38c0da6813b"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/WEB_26e501aa6986394c7a0bc28a605d4f87"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CYCLONE_B_MU_65_C",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_65",
+  "reference": "ALT_CYCLONE_B_MU_65_C",
+  "translations": {
+    "en_US": {
+      "name": "Kauri & Puff",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/JPG\/en_US\/9bcc790061cb36e74d1a904c62a4a810.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Kauri & Flausch",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/JPG\/de_DE\/a86c7fb3754661e95617573e515a0317.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Kauri e Batuffolo",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/JPG\/it_IT\/3d1d01dc99472a5e0f68e35bb0728617.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Kauri y Pompón",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/JPG\/es_ES\/32e1daa25e028855610a0209107b9e46.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Kauri & Puff",
+      "image": "Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/JPG\/fr_FR\/806e4912c75c6c9ae1524602a09d95b9.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JN9HNDY05NCV3BRWW5404TQR",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/JPG\/fr_FR\/806e4912c75c6c9ae1524602a09d95b9.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CYCLONE\/CARDS\/ALT_CYCLONE_B_MU_65\/JPG\/en_US\/9bcc790061cb36e74d1a904c62a4a810.jpg"
+  },
+  "name": "Kauri & Puff",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "MAIN_EFFECT": "At Noon — If you are first player, create a [Woollyback 1\/1\/1] Animal token in target opponent's Companion Expedition, then draw a card."
+  },
+  "collectorNumberFormatted": "SKY-055-H-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

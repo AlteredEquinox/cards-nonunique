@@ -1,0 +1,259 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "\"I think I've found a good spot!\"",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "« Je crois que j'ai trouvé un bon spot ! »",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZKH7WNGQR7SJE3AGGJJP",
+          "text": "\"I think I've found a good spot!\""
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "0FMK0767048Y7BAJME6AWG3JK4",
+      "reference": "ALT_DUSTER_B_BR_93_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2K2CE83F8DHZMAKHQ3ZEF2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2K2CKK7WATMKF5MRZ88NVK"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K2CRMDKCRPD8RMJGHY4R0"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01JZ2K2CXEKZ18Z3X2S94A56KE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2K2D29BG60PJ33FYPJ0KJQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X45SV8CAKREZ0H7QAGKNGV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": {
+                    "text": "{R} Ottengo #2 rinforzi.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Gano #2 potenciadores.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Je gagne #2 boosts.#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{R} I gain #2 boosts.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} Ich erhalte #2 Verstärkungen.#",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "{R} I gain #2 boosts.#"
+              }
+            ],
+            "reference": "01122"
+          },
+          "sequence": 0,
+          "id": "01K6X45TCJWQKE8CBEMKEZRGSJ"
+        }
+      ],
+      "value": "{R} I gain 2 boosts.",
+      "id": "01K6X45SV8CAKREZ0H7QAGKNGV"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X45TXGQ8CY8HVAT7XT6ZBZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{D} : The next Character played from your hand this turn activates one of its {r} abilities.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{D} : Le prochain Personnage joué de votre main ce tour-ci active l'une de ses capacités {r}.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#{D} : Der nächste Charakter, der in dieser Runde aus deiner Hand gespielt wird, aktiviert eine seiner {r} Fähigkeiten.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{D}: il prossimo personaggio giocato dalla tua mano in questo turno attiva una delle sue abilità {r}.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{D}: El siguiente personaje que juegues desde tu mano este turno activa una de sus habilidades {r}.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "#{D} : The next Character played from your hand this turn activates one of its {r} abilities.#"
+              }
+            ],
+            "reference": "01939"
+          },
+          "sequence": 0,
+          "id": "01K6X45VH6NPMBR16HXSMNYRM7"
+        }
+      ],
+      "value": "{D} : The next Character played from your hand this turn activates one of its {r} abilities.",
+      "id": "01K6X45TXGQ8CY8HVAT7XT6ZBZ"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/en_US\/bff7bd0b94e63a7b5094dd109946d863.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/WEB_a953628d78730e0b7626066cd75d4a51",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/WEB_302726a029deac47b380b43ecda23cc6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/WEB_3a8623e33792614ac23b1d3831d3ff89"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_93_R2",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "BR_93",
+  "reference": "ALT_DUSTER_B_BR_93_R2",
+  "translations": {
+    "it_IT": { "name": "Vedetta Bravos", "image": null, "locale": "it_IT" },
+    "es_ES": { "name": "Vigía de Bravos", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Bravos-Ausguckerin", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "Vigie Bravos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/fr_FR\/e4a9c492fc095a19647e8836624f012c.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Bravos Lookout",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/en_US\/bff7bd0b94e63a7b5094dd109946d863.jpg",
+      "locale": "en_US"
+    }
+  },
+  "id": "01JYP9SVPK0ER66G4YGWRBJP62",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/fr_FR\/e4a9c492fc095a19647e8836624f012c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/en_US\/bff7bd0b94e63a7b5094dd109946d863.jpg"
+  },
+  "name": "Bravos Lookout",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#4#",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{R} I gain #2 boosts.#",
+    "ECHO_EFFECT": "#{D} : The next Character played from your hand this turn activates one of its {r} abilities.#"
+  },
+  "collectorNumberFormatted": "SDU-022-F-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

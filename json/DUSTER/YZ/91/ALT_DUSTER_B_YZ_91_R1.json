@@ -1,0 +1,327 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "The energy of the crowd is what drives the greatest victories.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "C'est dans les tribunes que se trouve l'énergie de la victoire.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZWRCFPT40X5PPHHZR3F0",
+          "text": "The energy of the crowd is what drives the greatest victories."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "2JCB3HDDW3861SQ0S7JX6FKXXE",
+      "reference": "ALT_DUSTER_B_YZ_91_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KQKHGS60MNPHF49WM9FCC"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQKREJXT62WDCXZD402Z6"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KQKZEN184A8PYEFWKTS0F"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQM5ZHNWSVJSCKKB9BACC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01JZ2KQMC8CWQETHK7R3E34HSF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4S6B561BAQT68DD32QRY5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Graine de Mana",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Manaseed",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Manasaaten",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Seme di Mana",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Semilla de maná",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2JY8R46WCZFBS94WVYSSXW",
+                      "reference": "MANASEED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWG9H7YPJZH993K7WWPA73"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Create a [MANASEED] token in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Créez un jeton [MANASEED] dans vos Repères.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{H} Erschaffe eine [MANASEED]-Marke in deinem Wahrzeichen-Bereich.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Crea una pedina [MANASEED] nei tuoi fulcri.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Crea una ficha de [MANASEED] en tus hitos.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{H} Create a [MANASEED] token in your Landmarks."
+              }
+            ],
+            "reference": "01922"
+          },
+          "sequence": 0,
+          "id": "01K6X4S708VSZAYND6V5XADTY3"
+        }
+      ],
+      "value": "{H} Create a [Manaseed] token in your Landmarks.",
+      "id": "01K6X4S6B561BAQT68DD32QRY5"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4S7K37PD11A8R1T0A82KW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "After You",
+                          "locale": "en_US",
+                          "description": "End your turn as if you had played a card. You may still play cards later this Day."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nach dir",
+                          "locale": "de_DE",
+                          "description": "Beende deine Runde, als ob du eine Karte gespielt hättest. Du darfst auch später an diesem Tag noch eine Karte spielen."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dopo di te",
+                          "locale": "it_IT",
+                          "description": "Termina il tuo turno come se avessi giocato una carta. Puoi comunque giocare carte più avanti in questa giornata."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Después de ti",
+                          "locale": "es_ES",
+                          "description": "Termina tu turno como si hubieras jugado una carta. A lo largo del día actual, puedes jugar más cartas."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Après vous",
+                          "locale": "fr_FR",
+                          "description": "Terminez votre tour comme si vous aviez joué une carte. Vous pouvez encore jouer des cartes plus tard ce Jour-ci."
+                        }
+                      },
+                      "id": "01HKAGXB4C1CCRNYV6K6BFCHMQ",
+                      "reference": "AFTER_YOU"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K1TWGCXZNTQ1ZY2JS5PX43EQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{D} : [AFTER_YOU].#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{D} : [AFTER_YOU].#",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": { "text": "#{D}: [AFTER_YOU].#", "locale": "it_IT" },
+                  "de_DE": {
+                    "text": "#{D} : [AFTER_YOU].#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": { "text": "#{D}: [AFTER_YOU].#", "locale": "es_ES" }
+                },
+                "text": "#{D} : [AFTER_YOU].#"
+              }
+            ],
+            "reference": "01923"
+          },
+          "sequence": 0,
+          "id": "01K6X4S866G7KT6Z4NRPG7NW1E"
+        }
+      ],
+      "value": "{D} : [After You].",
+      "id": "01K6X4S7K37PD11A8R1T0A82KW"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_91\/JPG\/en_US\/41d53d8ffa3fd257fc349a1aa28b4629.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_91\/WEB_48062d7fdacad617e724756ee02c009c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_91\/WEB_7506339c259a16cc344d8d9de8c8e938",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_91\/WEB_3a5bec3dcd95426ce7efd35862314406"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_91_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_91",
+  "reference": "ALT_DUSTER_B_YZ_91_R1",
+  "translations": {
+    "es_ES": { "name": "Hincha reka", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Tifoso Reka", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Reka-Fan", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Reka Supporter",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_91\/JPG\/en_US\/41d53d8ffa3fd257fc349a1aa28b4629.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Supporter Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_91\/JPG\/fr_FR\/72afd756940dcbe3cf77c81f3fd4f3d6.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQQ77MRBTN00YYV9NSP",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_91\/JPG\/fr_FR\/72afd756940dcbe3cf77c81f3fd4f3d6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_91\/JPG\/en_US\/41d53d8ffa3fd257fc349a1aa28b4629.jpg"
+  },
+  "name": "Reka Supporter",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} Create a [Manaseed] token in your Landmarks.",
+    "ECHO_EFFECT": "#{D} : [After You].#"
+  },
+  "collectorNumberFormatted": "SDU-097-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

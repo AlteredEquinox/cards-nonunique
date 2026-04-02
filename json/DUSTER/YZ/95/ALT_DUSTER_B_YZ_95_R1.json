@@ -1,0 +1,259 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Time to switch things up a bit.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "C'est l'heure de faire tourner un peu les effectifs.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZXGTJTYDG4K8C4NTFQ27",
+          "text": "Time to switch things up a bit."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
+        "reference": "SPELL",
+        "name": "Spell"
+      },
+      "id": "2W3MYJPP09804VZKHWQCPNK7HJ",
+      "reference": "ALT_DUSTER_B_YZ_95_C"
+    }
+  ],
+  "cardType": {
+    "reference": "SPELL",
+    "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
+    "name": "Spell"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    },
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KSDKASZNEMB3FFRDH2BZQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KSDTXY83XX7980VNPXXR7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4TCBDGQRY033HS4TGS4MY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Send to Reserve target Character with Base Cost {4} or less, then exhaust it ({T}). (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Envoyez en Réserve un Personnage ciblé de Coût de Base {4} ou moins, puis épuisez-le ({T}). (Son Coût de Base est le Coût de Réserve s'il est Fugace, le Coût de Main sinon.)",
+                    "locale": "fr_FR"
+                  },
+                  "es_ES": {
+                    "text": "Envía a la reserva un personaje objetivo con coste base de {4} o menos y luego agótalo ({T}). (Su coste base es su coste desde la reserva si tiene fugacidad o su coste desde la mano.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Manda nella Riserva un personaggio bersaglio con costo base pari o inferiore a {4}, poi consumalo ({T}). (Il suo costo base corrisponde al costo dalla Riserva se ha Fugace, altrimenti al costo dalla mano.)",
+                    "locale": "it_IT"
+                  },
+                  "de_DE": {
+                    "text": "Schicke einen Charakter deiner Wahl mit Basiskosten {4} oder weniger in die Reserve, dann erschöpfe ihn ({T}). (Basiskosten sind Reservekosten, falls Vergänglich, oder Handkosten, falls nicht.)",
+                    "locale": "de_DE"
+                  }
+                },
+                "text": "Send to Reserve target Character with Base Cost {4} or less, then exhaust it ({T}). (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)"
+              }
+            ],
+            "reference": "02023"
+          },
+          "sequence": 0,
+          "id": "01K6X4TCYHK95VG0MJ1PW4MB68"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4TCBDGQRY033HS4TGS4MY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KSHFSN9BCSJC51Y9BH2K2"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Then, I gain [FLEETING] #unless there are two or more exhausted cards in Reserve.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Puis, je gagne [FLEETING] #sauf s'il y a au moins deux cartes épuisées en Réserve.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "Dann erhalte ich [FLEETING], #es sei denn, mindestens zwei erschöpfte Karten sind in der Reserve.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Luego, gano [FLEETING] #a menos que haya dos o más cartas agotadas en reserva.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Poi, ottengo [FLEETING] #a meno che non ci siano due o più carte consumate nella Riserva.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "Then, I gain [FLEETING] #unless there are two or more exhausted cards in Reserve.#"
+              }
+            ],
+            "reference": "01872"
+          },
+          "sequence": 1,
+          "id": "01K6X4TDEZMNZJJA60AY4999AD"
+        }
+      ],
+      "value": "Send to Reserve target Character with Base Cost {4} or less, then exhaust it ({T}). (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)  Then, I gain [[Fleeting]] unless there are two or more exhausted cards in Reserve.",
+      "id": "01K6X4TCBDGQRY033HS4TGS4MY"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_95\/JPG\/en_US\/692e9081347285314ceec1518298ec0f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_95\/WEB_bf11568b3617f4e6614e05dc2914bfad",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_95\/WEB_94754dfb31f1903ffa639e29749ce907"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_95_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "YZ_95",
+  "reference": "ALT_DUSTER_B_YZ_95_R1",
+  "translations": {
+    "de_DE": { "name": "Auswechseln!", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Time Out!",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_95\/JPG\/en_US\/692e9081347285314ceec1518298ec0f.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": { "name": "¡Tiempo muerto!", "image": null, "locale": "es_ES" },
+    "it_IT": { "name": "Time Out!", "image": null, "locale": "it_IT" },
+    "fr_FR": {
+      "name": "Temps Mort !",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_95\/JPG\/fr_FR\/32a6527b9d3ef46efabf143a79f18902.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQRAXHJ05SE0PQHC9ZN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_95\/JPG\/fr_FR\/32a6527b9d3ef46efabf143a79f18902.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_95\/JPG\/en_US\/692e9081347285314ceec1518298ec0f.jpg"
+  },
+  "name": "Time Out!",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "MAIN_EFFECT": "Send to Reserve target Character with Base Cost {4} or less, then exhaust it ({T}). (Its Base Cost is the Reserve Cost if Fleeting, or the Hand Cost if not.)  Then, I gain [[Fleeting]] #unless there are two or more exhausted cards in Reserve.#"
+  },
+  "collectorNumberFormatted": "SDU-103-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

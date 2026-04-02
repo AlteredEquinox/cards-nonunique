@@ -1,0 +1,222 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "Energy and persistence conquer all things.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "L'énergie et la persévérance surmontent tous les obstacles.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01J3JJDBE42Z4E0KW8NYD34SY0",
+          "text": "Energy and persistence conquer all things."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "7WP7Q8M79M8K5SX6F27TCKWSRT",
+      "reference": "ALT_ALIZE_A_AX_35_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
+  "cardSet": {
+    "id": "01J1Q4NZCDCGMFTFKASM8H29N6",
+    "reference": "ALIZE",
+    "name": "Trial by Frost"
+  },
+  "rarity": {
+    "reference": "COMMON",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
+    "name": "Common"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVDJ4CC0H2H9XVEE4C3M7"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVDP0770JR12X35N5ATYJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVDSJB9J5F5GFFB9JTM0H"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVDX47GVHAKQFXMNP8EDG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01J3GVVE0VGJ8GHDGMRXV2N5AC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01KH6S9PJVYQQF64PZT31KYBBK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "Puedes jugar cartas agotadas de tu reserva.",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "Du darfst erschöpfte Karten aus deiner Reserve spielen.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Vous pouvez jouer les cartes épuisées de votre Réserve.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "You may play exhausted cards from your Reserve.",
+                    "locale": "en_US"
+                  },
+                  "it_IT": {
+                    "text": "Puoi giocare carte consumate dalla tua Riserva.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "You may play exhausted cards from your Reserve."
+              }
+            ],
+            "reference": "00419"
+          },
+          "sequence": 0,
+          "id": "01KH6S9ZPNXGCC30ZTH0RZCM39"
+        }
+      ],
+      "value": "You may play exhausted cards from your Reserve.",
+      "id": "01KH6S9PJVYQQF64PZT31KYBBK"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "A", "name": "AltArt" },
+  "illustrator": { "nickName": "Taras Susak" },
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/en_US\/4d3866d16f8ea46f7020e88437445acc.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/WEB_633225e9bf5942ef82fcff9bc8f94a36",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/WEB_e92f1de750c6aa55a18e88d28cb32cc1",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/WEB_9824bd19b9054c72c900b1d98a94def5"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_AX_35_C",
+  "isExclusive": true,
+  "isOwnerless": false,
+  "cardFamilyReference": "AX_35",
+  "reference": "ALT_ALIZE_A_AX_35_C",
+  "translations": {
+    "en_US": {
+      "name": "Vaike, Energy Pioneer",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/en_US\/4d3866d16f8ea46f7020e88437445acc.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Vaike, l'Énergéticienne",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/fr_FR\/c527e2f49be74af55ad0aec0e90b2302.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Vaike, Energie-Pionierin",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/de_DE\/798a242f144518a439b5fdd7da0e8491.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Vaike, Pioniera dell'Energia",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/it_IT\/b52e79fe13b4a5a440aa13dd85b025b8.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "Vaike, pionera de la energía",
+      "image": "Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/es_ES\/fcc1e23d0b87bdf9d8cdd5be340cd5d7.jpg",
+      "locale": "es_ES"
+    }
+  },
+  "id": "01J3GQBCXE936A2VRZPQ28B83V",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/fr_FR\/c527e2f49be74af55ad0aec0e90b2302.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/ALIZE\/CARDS\/ALT_ALIZE_A_AX_35\/JPG\/en_US\/4d3866d16f8ea46f7020e88437445acc.jpg"
+  },
+  "name": "Vaike, Energy Pioneer",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "You may play exhausted cards from your Reserve."
+  },
+  "collectorNumberFormatted": "TBF-005-C-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

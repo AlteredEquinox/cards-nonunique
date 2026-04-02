@@ -1,0 +1,281 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "With Turuun on its back, it carries a branch of the Spindle Tree in its beak.",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Turuun sur son dos, il porte dans son bec une branche du Fuseau.",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZQJ8B2DXAQY7AAS5656D",
+          "text": "With Turuun on its back, it carries a branch of the Spindle Tree in its beak."
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "6SXPVGQX5N9X899RZ89MYJZC1H",
+      "reference": "ALT_DUSTER_B_MU_95_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KDPQPV2TRFF8AHH6ZPAS2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KDPX8A4YZC4Y5PHHZ3DXV"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KDQ2T7DMX63YEA9KSSQSQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "01JZ2KDQ8E87WMEKXAP5686EE8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01JZ2KDQE7PTBH0JQGYHPQCQNJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4FWH3R1EK26XMTQCVR22T",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": "Opponents must pay {1} to target me."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": "Gli avversari devono pagare {1} per scegliermi come bersaglio."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Coriace 1",
+                          "locale": "fr_FR",
+                          "description": "Vos adversaires doivent payer {1} pour me cibler."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": "Los oponentes tienen que pagar {1} para hacerme objetivo."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": "Gegner müssen {1} zahlen, um mich anzuvisieren."
+                        }
+                      },
+                      "id": "01HKAGQBS53BFCG3465BACESCQ",
+                      "reference": "TOUGH_1"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01HTS8N2T89NHZPAPFJ7B2P0BT"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "#$[TOUGH_1].#", "locale": "de_DE" },
+                  "es_ES": { "text": "#$[TOUGH_1].#", "locale": "es_ES" },
+                  "it_IT": { "text": "#$[TOUGH_1].#", "locale": "it_IT" },
+                  "en_US": { "text": "#$[TOUGH_1].#", "locale": "en_US" },
+                  "fr_FR": { "text": "#$[TOUGH_1].#", "locale": "fr_FR" }
+                },
+                "text": "#$[TOUGH_1].#"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "01K6X4FX2XYA1QCMRZ02K6M1DJ"
+        }
+      ],
+      "value": "[Tough 1]. (Opponents must pay {1} to target me.)",
+      "id": "01K6X4FWH3R1EK26XMTQCVR22T"
+    },
+    {
+      "cardElementType": {
+        "reference": "ECHO_EFFECT",
+        "id": "01H3CC15N8DB3H650XME16304G"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4FXM4Z63WY5GF53RVH937",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{D}: Cada jugador roba una carta.",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{D} : Each player draws a card.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{D} : Chaque joueur pioche une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "{D} : Jeder Spieler zieht eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{D}: ogni giocatore pesca una carta.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{D} : Each player draws a card."
+              }
+            ],
+            "reference": "01781"
+          },
+          "sequence": 0,
+          "id": "01K6X4FY5ASQF1KZ5VJD3AJ5HB"
+        }
+      ],
+      "value": "{D} : Each player draws a card.",
+      "id": "01K6X4FXM4Z63WY5GF53RVH937"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_95\/JPG\/en_US\/d69fd0ea8d8f8e0f3966ca7c43d41a3d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_95\/WEB_963dba6192eeb1acbf6351fcccb24397",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_95\/WEB_650ecc2bd0efd7c5a6cfc81889788cbf",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_95\/WEB_608e3af5746bf095c56a4e04bb4f1358"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_95_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "MU_95",
+  "reference": "ALT_DUSTER_B_MU_95_R1",
+  "translations": {
+    "it_IT": { "name": "Dapeng", "image": null, "locale": "it_IT" },
+    "es_ES": { "name": "Dapeng", "image": null, "locale": "es_ES" },
+    "de_DE": { "name": "Dapeng", "image": null, "locale": "de_DE" },
+    "en_US": {
+      "name": "Dapeng",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_95\/JPG\/en_US\/d69fd0ea8d8f8e0f3966ca7c43d41a3d.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Dapeng",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_95\/JPG\/fr_FR\/594d6863b6ed5477f8dcc8ccd97589fd.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVQ64CQ9P7A1GXC4E2TZ",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_95\/JPG\/fr_FR\/594d6863b6ed5477f8dcc8ccd97589fd.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_95\/JPG\/en_US\/d69fd0ea8d8f8e0f3966ca7c43d41a3d.jpg"
+  },
+  "name": "Dapeng",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#[Tough 1].# (Opponents must pay {1} to target me.)",
+    "ECHO_EFFECT": "{D} : Each player draws a card."
+  },
+  "collectorNumberFormatted": "SDU-065-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}

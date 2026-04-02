@@ -1,0 +1,322 @@
+{
+  "loreEntries": [
+    {
+      "loreEntryElements": [
+        {
+          "loreEntryElementType": {
+            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+            "reference": "FLAVOR_TEXT",
+            "subject": "Flavor Text"
+          },
+          "translations": {
+            "en_US": {
+              "text": "There's something a bit unusual about this set…",
+              "locale": "en_US"
+            },
+            "fr_FR": {
+              "text": "Ce set a quelque chose de particulier...",
+              "locale": "fr_FR"
+            }
+          },
+          "id": "01JZ37ZNM8EVNTY9S7Y7QENEQ7",
+          "text": "There's something a bit unusual about this set…"
+        }
+      ],
+      "loreEntryType": {
+        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
+        "reference": "CHARACTER",
+        "name": "Character"
+      },
+      "id": "31JJYN5VSM9QNAAJFC9J6M7JFR",
+      "reference": "ALT_DUSTER_B_LY_97_C"
+    }
+  ],
+  "cardType": {
+    "reference": "CHARACTER",
+    "id": "01H19NWA92A4ERAC4ATMSZNASS",
+    "name": "Character"
+  },
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
+  "cardSet": {
+    "id": "01K56FXHFTGF3DQ8XE8Q8Y5JG8",
+    "reference": "DUSTER",
+    "name": "Seeds of Unity"
+  },
+  "rarity": {
+    "reference": "RARE",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T5",
+    "name": "Rare"
+  },
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JZ2K98M8PW7M5B7MJ75H4EKR"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JZ2K98TJQSM4X0MEGMF83SS0"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JZ2K98ZZAJQGWVJ4N8YNK2NH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JZ2K9956C0M55F1YT6HKWHJF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "01JZ2K99ADFBRMH4BEVNPQQQ33"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/01K6X4BPVY0N62N3ARH6XCSS44",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K971XVAHM99MYQ1QEK5B0"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "Vous pouvez me jouer pour {2} de moins dans une Expédition qui est [IN_CONTACT]. (Elle est En Contact si l'Expédition d'un autre joueur est dans sa région.)",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "You may play me for {2} less in an Expedition that's [IN_CONTACT]. (It's In Contact if there is another player's Expedition in its region.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Du darfst mich für {2} weniger in einer Expedition spielen, die [IN_CONTACT] ist. (Sie ist in Kontakt, falls sich in ihrer Region die Expedition eines anderen Spielers befindet.)",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Puedes jugarme por {2} menos en una expedición que esté [IN_CONTACT]. (Está en contacto si la expedición de otro jugador está en su región.)",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "Puoi giocarmi per {2} in meno in una spedizione [IN_CONTACT]. (È In contatto se nella sua regione c'è la spedizione di un altro giocatore.)",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "You may play me for {2} less in an Expedition that's [IN_CONTACT]. (It's In Contact if there is another player's Expedition in its region.)"
+              }
+            ],
+            "reference": "01744"
+          },
+          "sequence": 0,
+          "id": "01K6X4BQCK9Y3PVG3CDB5W9MTH"
+        },
+        {
+          "cardElement": "\/card_elements\/01K6X4BPVY0N62N3ARH6XCSS44",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "En Contact",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "In Contact",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "in Kontakt",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "In contatto",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "En contacto",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2K1TVKGP20KCF39EHRDBE7",
+                      "reference": "IN_CONTACT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2K9ATBHZ5HXGMZZC6D0FG1"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J} If each of your Expeditions is [IN_CONTACT], draw a card.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{J} Si chacune de vos Expéditions est [IN_CONTACT], piochez une carte.#",
+                    "locale": "fr_FR"
+                  },
+                  "de_DE": {
+                    "text": "#{J} Falls jede deiner Expeditionen [IN_CONTACT] ist, ziehe eine Karte.#",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "#{J} Si cada una de tus expediciones está [IN_CONTACT], roba una carta.#",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "#{J} Se ciascuna delle tue spedizioni è [IN_CONTACT], pesca una carta.#",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#{J} If each of your Expeditions is [IN_CONTACT], draw a card.#"
+              }
+            ],
+            "reference": "01746"
+          },
+          "sequence": 1,
+          "id": "01K6X4BQTZAGF6AT32J1RH97H4"
+        }
+      ],
+      "value": "You may play me for {2} less in an Expedition that's [In Contact]. (It's In Contact if there is another player's Expedition in its region.)  {J} If each of your Expeditions is [In Contact], draw a card.",
+      "id": "01K6X4BPVY0N62N3ARH6XCSS44"
+    }
+  ],
+  "isPublic": true,
+  "serializedNumber": null,
+  "cardProduct": { "reference": "B", "name": "Booster" },
+  "illustrator": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_97\/JPG\/en_US\/cd97ce1eb40e8cb0d44fb720149538bb.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_97\/WEB_dc1a365977110dbd95d8b0b3191f2a10",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_97\/WEB_9df641506af1c45bb83ffdf065385c39",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_97\/WEB_23c72b74f1a4b6d2d5f4b6c06a5c6698"
+    ]
+  },
+  "lowerPrice": 0,
+  "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_97_R1",
+  "isExclusive": false,
+  "isOwnerless": false,
+  "cardFamilyReference": "LY_97",
+  "reference": "ALT_DUSTER_B_LY_97_R1",
+  "translations": {
+    "es_ES": { "name": "DJ de Lyra", "image": null, "locale": "es_ES" },
+    "en_US": {
+      "name": "Lyra DJ",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_97\/JPG\/en_US\/cd97ce1eb40e8cb0d44fb720149538bb.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": { "name": "DJ Lyra", "image": null, "locale": "it_IT" },
+    "de_DE": { "name": "Lyra-DJ", "image": null, "locale": "de_DE" },
+    "fr_FR": {
+      "name": "DJ Lyra",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_97\/JPG\/fr_FR\/9db0fbdce9ecdbff21961dfdfd2e9e03.jpg",
+      "locale": "fr_FR"
+    }
+  },
+  "id": "01JYP9SVPXTWN7CSV6RBV03C08",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_97\/JPG\/fr_FR\/9db0fbdce9ecdbff21961dfdfd2e9e03.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_97\/JPG\/en_US\/cd97ce1eb40e8cb0d44fb720149538bb.jpg"
+  },
+  "name": "Lyra DJ",
+  "elements": {
+    "MAIN_COST": "6",
+    "RECALL_COST": "6",
+    "OCEAN_POWER": "6",
+    "FOREST_POWER": "6",
+    "MOUNTAIN_POWER": "6",
+    "MAIN_EFFECT": "You may play me for {2} less in an Expedition that's [In Contact]. (It's In Contact if there is another player's Expedition in its region.)  #{J} If each of your Expeditions is [In Contact], draw a card.#"
+  },
+  "collectorNumberFormatted": "SDU-049-R-EN",
+  "isSuspended": false,
+  "isErrated": false,
+  "isBanned": false,
+  "isSerialized": false,
+  "isParentSerialized": false
+}
