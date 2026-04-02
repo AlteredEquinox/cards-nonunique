@@ -2,6 +2,8 @@
 
 This repository contains all the cards data of non-unique cards of the Altered TCG.
 
+Data and assets are available in en_US and fr_FR locales.
+
 **TODO** : Add link to unique exports repositories.
 
 ## JSON data
@@ -19,4 +21,16 @@ json/
 
 ## Assets
 
-**TODO**
+JPG exports are available in the `assets` directory.
+
+Structure is the following:
+
+```
+assets/
+  <SET>/
+    CARDS/
+      <CARD_ID>/
+        JPG/
+          <LANGUAGE>/
+            <hash>.jpg
+```
