@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Let's wrap up today's visit with a taste of some local specialties.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Et nous clôturons notre visite avec une dégustation des spécialités locales. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZ9MBMW9TQ2GNVYKNZKE",
-          "text": "\"Let's wrap up today's visit with a taste of some local specialties.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1ZQYTMF2HN8W2BB906TBYMX5YH",
-      "reference": "ALT_DUSTEROP_B_LY_87_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Let's wrap up today's visit with a taste of some local specialties.\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Wir beenden unseren Besuch mit einer Kostprobe lokaler Spezialitäten.“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Concludiamo la visita di oggi con un assaggio delle specialità locali.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Y para terminar la visita de hoy, una degustación de algunas especialidades locales».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Et nous clôturons notre visite avec une dégustation des spécialités locales. »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZ9MBMW9TQ2GNVYKNZKE",
+      "text": "\"Let's wrap up today's visit with a taste of some local specialties.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "003",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": { "nickName": "DOBA" },
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_LY_87_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_87",
   "reference": "ALT_DUSTEROP_P_LY_87_C",
   "translations": {
     "de_DE": { "name": "Reka-Führerin", "image": null, "locale": "de_DE" },

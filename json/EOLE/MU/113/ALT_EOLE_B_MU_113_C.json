@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Karhu, my old friend, wake from your slumber.\" — Rin",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Karhu, vieil ami, sors de ta torpeur. » — Rin",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HSP8PDQVJ80CYMT1GGGB",
-          "text": "\"Karhu, my old friend, wake from your slumber.\" — Rin"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HSPRDCS0XMS54XB93NTF",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HSPGH30XXJWB0RD54ZXE",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HSNQ2QJGVDRH4FTE6HM7",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HSP0VTN2P90V1KN4MASM",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0HMHRGA2F18D58M1YA5WE6QMXZ",
-      "reference": "ALT_EOLE_B_MU_113_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Karhu, my old friend, wake from your slumber.\" — Rin",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Karhu, vieil ami, sors de ta torpeur. » — Rin",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "\"Karhu, vecchio amico, destati dal sonno.\" — Rin",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Karhu, viejo amigo, sal de tu letargo». —Rin",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "„Karhu, alter Freund, erwache aus deinem Schlummer.“ — Rin",
+          "locale": "de_DE"
+        }
+      },
+      "id": "01KC94HSP8PDQVJ80CYMT1GGGB",
+      "text": "\"Karhu, my old friend, wake from your slumber.\" — Rin"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -201,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "064",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Matteo Spirito" },
@@ -216,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_113_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "MU_113",
   "reference": "ALT_EOLE_B_MU_113_C",
   "translations": {
     "it_IT": {

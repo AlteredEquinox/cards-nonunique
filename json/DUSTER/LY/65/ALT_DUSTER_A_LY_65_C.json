@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« Je me suis inspiré de Klimt. J'espère que ça va vous plaire... »",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"I took my inspiration from Klimt. I hope you like it…\"",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JZ37ZHC9BT6YECHYTR8CMKHA",
-          "text": "\"I took my inspiration from Klimt. I hope you like it…\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6J0FBN6ZEH9DFVDHGQQBAQSMGZ",
-      "reference": "ALT_DUSTER_A_LY_65_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Ho preso ispirazione da Klimt. Spero che ti piaccia...\"",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "« Je me suis inspiré de Klimt. J'espère que ça va vous plaire... »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Ich habe mich von Klimt inspirieren lassen. Ich hoffe, es gefällt euch …“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«Me he inspirado en Klimt. Espero que te guste…».",
+          "locale": "es_ES"
+        },
+        "en_US": {
+          "text": "\"I took my inspiration from Klimt. I hope you like it…\"",
+          "locale": "en_US"
+        }
+      },
+      "id": "01JZ37ZHC9BT6YECHYTR8CMKHA",
+      "text": "\"I took my inspiration from Klimt. I hope you like it…\""
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -154,9 +162,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "037",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
-  "illustrator": { "nickName": "Ba Vo" },
+  "illustrator": { "nickName": "Zero Wen" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_LY_65\/JPG\/en_US\/18490ce85cfac3381ac7586d56d7d023.jpg",
   "assets": {
     "HERO_THUMB": [
@@ -173,7 +182,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_A_LY_65_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_65",
   "reference": "ALT_DUSTER_A_LY_65_C",
   "translations": {
     "es_ES": { "name": "Nadir y Burbuja", "image": null, "locale": "es_ES" },

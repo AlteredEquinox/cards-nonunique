@@ -1,38 +1,43 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"It's happy hour all the time here!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Ici c'est tout le temps l'Happy Hour ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA2NYWM94B8B92N3BEV5V",
-          "text": "\"It's happy hour all the time here!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7Z3C7SQVEA8QC9YPFWZ2W222RN",
-      "reference": "ALT_DUSTERCB_P_LY_89_C"
+      "translations": {
+        "es_ES": { "text": "«¿Qué te pongo?».", "locale": "es_ES" },
+        "it_IT": {
+          "text": "\"Qui si fa festa a tutte le ore!\"",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "„Hier ist jede Stunde Happy Hour!“",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"It's happy hour all the time here!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Ici c'est tout le temps l'Happy Hour ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA2NYWM94B8B92N3BEV5V",
+      "text": "\"It's happy hour all the time here!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -234,6 +239,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "012",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -249,7 +255,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_LY_89_R1",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_89",
   "reference": "ALT_DUSTERCB_P_LY_89_R1",
   "translations": {
     "it_IT": { "name": "Barista Reka", "image": null, "locale": "it_IT" },

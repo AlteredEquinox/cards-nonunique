@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The language of nature has no use for words",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Le langage de la nature n'a que faire des mots.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JNRGBZM2A1PPBKTZMENPTCH3",
-          "text": "The language of nature has no use for words"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2T2N39EZDH8CQ8WC4GAZ40AT7N",
-      "reference": "ALT_CYCLONE_B_MU_65_C"
+      "translations": {
+        "en_US": {
+          "text": "The language of nature has no use for words",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Die Sprache der Natur kennt keine Worte.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Il linguaggio della natura non ha bisogno di parole.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "El lenguaje de la naturaleza no necesita palabras.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Le langage de la nature n'a que faire des mots.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JNRGBZM2A1PPBKTZMENPTCH3",
+      "text": "The language of nature has no use for words"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -153,6 +161,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "055",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
@@ -172,7 +181,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CYCLONE_B_MU_65_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_65",
   "reference": "ALT_CYCLONE_B_MU_65_C",
   "translations": {
     "en_US": {

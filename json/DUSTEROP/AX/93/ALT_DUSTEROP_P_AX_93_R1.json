@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"A disruptive smoothie to knock the competition off balance!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Un smoothie disruptif, pour couper l'herbe sous le pied de la concurrence ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZ3DWJFBHY30GSPY50AV",
-          "text": "\"A disruptive smoothie to knock the competition off balance!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7G39GE1MQR9JEAWPFK7W16TXMT",
-      "reference": "ALT_DUSTEROP_B_AX_93_C"
+      "translations": {
+        "de_DE": {
+          "text": "„Ein revolutionärer Smoothie, der die Konkurrenz vom Hocker haut!“",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"A disruptive smoothie to knock the competition off balance!\"",
+          "locale": "en_US"
+        },
+        "it_IT": {
+          "text": "\"Un frappè così delizioso che lo beve anche la concorrenza!\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¡Un batido revolucionario para romper los esquemas de la competencia!».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Un smoothie disruptif, pour couper l'herbe sous le pied de la concurrence ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZ3DWJFBHY30GSPY50AV",
+      "text": "\"A disruptive smoothie to knock the competition off balance!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -284,9 +292,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "007",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Nestor Papatriantafyllou" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_AX_93\/JPG\/en_US\/e2632158af9040e69276aba342eacfb2.jpg",
   "assets": {
     "WEB": [
@@ -299,7 +308,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_AX_93_R1",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_93",
   "reference": "ALT_DUSTEROP_P_AX_93_R1",
   "translations": {
     "es_ES": { "name": "Magnate reka", "image": null, "locale": "es_ES" },

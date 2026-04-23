@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"I'll show you how to work without a net!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Je vais vous montrer comment on travaille sans filet ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA2JER3GENDY1YQSRXZ05",
-          "text": "\"I'll show you how to work without a net!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1G1YRQA22V9HKVXC3JJNZQ4WWT",
-      "reference": "ALT_DUSTERCB_P_BR_98_C"
+      "translations": {
+        "es_ES": {
+          "text": "«¡Te voy a enseñar a trabajar sin red!».",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "\"Ti mostrerò come lavorare senza rete!\"",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "„Ich zeige dir, wie es ohne Netz geht!“",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"I'll show you how to work without a net!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Je vais vous montrer comment on travaille sans filet ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA2JER3GENDY1YQSRXZ05",
+      "text": "\"I'll show you how to work without a net!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -172,6 +180,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "026",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -186,7 +195,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_BR_98_E",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_98",
   "reference": "ALT_DUSTERCB_P_BR_98_E",
   "translations": {
     "fr_FR": {

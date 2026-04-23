@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Parfois, même le destin a besoin d'un petit coup de pouce !",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Even fate appreciates a helping hand!",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HRXPN82825ARCSSBB3QQ",
-          "text": "Even fate appreciates a helping hand!"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HRZ8ZWRVFSHQB8EHXB4B",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HRXXBNCS969RG6V3YC8K",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HRX8JDME5R23M4XKDRMT",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HRXFBW1ZR72TJ335WNM0",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZP61FEFQ4613REH25WRT",
-        "reference": "LANDMARK_PERMANENT",
-        "name": "LANDMARK_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "493J69VNC69WM88K2JH9FA1QDR",
-      "reference": "ALT_EOLE_B_LY_122_C"
+      "translations": {
+        "fr_FR": {
+          "text": "Parfois, même le destin a besoin d'un petit coup de pouce !",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Even fate appreciates a helping hand!",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Selbst das Schicksal mag helfende Hände!",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Perfino il fato non disdegna una mano amica!",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "A veces, incluso el destino necesita un empujoncito.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HRXPN82825ARCSSBB3QQ",
+      "text": "Even fate appreciates a helping hand!"
     }
   ],
   "cardType": {
     "reference": "LANDMARK_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente hito" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
+      "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+    },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
@@ -293,6 +249,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "053",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung - Ba Vo" },
@@ -307,7 +264,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_122_E",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "LY_122",
   "reference": "ALT_EOLE_B_LY_122_E",
   "translations": {
     "fr_FR": {

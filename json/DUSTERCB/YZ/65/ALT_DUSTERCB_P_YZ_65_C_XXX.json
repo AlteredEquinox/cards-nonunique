@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The idea of the butterfly resides within the caterpillar",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "L'idée du papillon se trouve déjà dans la chenille.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA3KCFR213N61A79R2RXC",
-          "text": "The idea of the butterfly resides within the caterpillar"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "09NWRZECG28FBBTZJBHS7P971K",
-      "reference": "ALT_DUSTERCB_P_YZ_65_C_XXX"
+      "translations": {
+        "es_ES": {
+          "text": "La idea de la mariposa reside en la oruga.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "L'idea della farfalla risiede nel bruco.",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "Die Idee des Schmetterlings steckt schon in der Raupe.",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "The idea of the butterfly resides within the caterpillar",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "L'idée du papillon se trouve déjà dans la chenille.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA3KCFR213N61A79R2RXC",
+      "text": "The idea of the butterfly resides within the caterpillar"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -49,6 +57,7 @@
   },
   "cardElements": [],
   "isPublic": true,
+  "collectorNumber": "042",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -62,7 +71,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_YZ_65_C_XXX",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_65",
   "reference": "ALT_DUSTERCB_P_YZ_65_C_XXX",
   "translations": {
     "en_US": {

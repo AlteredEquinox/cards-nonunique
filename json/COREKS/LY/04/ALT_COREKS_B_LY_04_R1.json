@@ -1,57 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Voir passer une martengale est toujours un bon présage.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Spotting a martengale is always a good omen.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01HPME7ZAZQR4VQWGBA9KPT6A2",
-          "text": "Spotting a martengale is always a good omen."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Onzième signe du Nouveau Zodiaque : la Martengale\n23 octobre - 22 novembre\n\nReprésenté par une martre ailée aux longues oreilles, on dit du signe de la Martengale qu'il symbolise l'inconstance, l'impermanence des choses. Il a pour élément l'air.\n\nL'individu Martengale est par nature insaisissable et pétri de paradoxes : indépendant, il n'aime pourtant pas être seul ; avide de nouveauté, il a cependant un grand sens des traditions. Tout comme son animal totem, il aime sortir des sentiers battus, mais revient toujours à son point d'origine. On dit souvent qu'un individu Martengale est chanceux, mais c'est généralement qu'il préfère rebondir plutôt que de s'apitoyer sur son sort. Adaptable, il sait pourtant faire preuve d'une grande détermination, et peut parfois s'entêter lorsque la situation l'y contraint. Affublé d'une peur panique de l'ennui, il manifeste un besoin implacable de liberté, quitte à faire des paris osés qui défient tous les pronostics.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Eleventh sign of the New Zodiac: the Martengale\nOctober 23 - November 22\n\nDepicted as a winged marten with long ears, it's said that the Martengale symbolizes instability and impermanence. Its element is air.\n\nThose born under the sign of the Martengale are elusive by nature and full of contradictions: They are independent but don't like to be alone, and like innovation but have a strong sense of tradition. Like their spirit animal, they enjoy venturing off the beaten track but always come back to where they started from. It's often said that Martengales are lucky, but it's usually because they prefer to bounce back quickly rather than sit around feeling sorry for themselves. They are adaptable, but still show strong determination, and can sometimes be stubborn when the situation requires it. Terrified of being bored, they display a relentless need for freedom, even if it means raising the stakes to a level that defies all odds.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01HPME7ZBTTF3QNASZA2A3AJXS",
-          "text": "Eleventh sign of the New Zodiac: the Martengale\nOctober 23 - November 22\n\nDepicted as a winged marten with long ears, it's said that the Martengale symbolizes instability and impermanence. Its element is air.\n\nThose born under the sign of the Martengale are elusive by nature and full of contradictions: They are independent but don't like to be alone, and like innovation but have a strong sense of tradition. Like their spirit animal, they enjoy venturing off the beaten track but always come back to where they started from. It's often said that Martengales are lucky, but it's usually because they prefer to bounce back quickly rather than sit around feeling sorry for themselves. They are adaptable, but still show strong determination, and can sometimes be stubborn when the situation requires it. Terrified of being bored, they display a relentless need for freedom, even if it means raising the stakes to a level that defies all odds."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "01HPMB781RYN9PSX97HSDFAW13",
-      "reference": "ALT_COREKS_B_LY_04_C"
+      "translations": {
+        "es_ES": {
+          "text": "Ver a una martengala siempre es un buen presagio.",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "Der Anblick eines Martengale ist immer ein gutes Omen.",
+          "locale": "de_DE"
+        },
+        "fr_FR": {
+          "text": "Voir passer une martengale est toujours un bon présage.",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "Avvistare una martingala è sempre di buon auspicio.",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "Spotting a martengale is always a good omen.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01HPME7ZAZQR4VQWGBA9KPT6A2",
+      "text": "Spotting a martengale is always a good omen."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -221,9 +210,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Nestor Papatriantafyllou" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/COREKS\/CARDS\/ALT_CORE_B_LY_04\/JPG\/en_US\/34223b51de271ff32642ce733f5ba3e1.jpg",
   "assets": {
     "WEB": [
@@ -236,7 +226,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_COREKS_B_LY_04_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_04",
   "reference": "ALT_COREKS_B_LY_04_R1",
   "translations": {
     "de_DE": {

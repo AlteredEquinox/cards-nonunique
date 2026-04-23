@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "My mind is an impregnable fortress!",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Mon esprit est une forteresse imprenable ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KG2J8ECS32F478F1G9AV6YY3",
-          "text": "My mind is an impregnable fortress!"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8EG1NWPSQ1BF8A5QJGPD",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8EDRV1AAD0Q4JH0EQYRR",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8E9HZE2QMDAN0JXKNHYZ",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8EADG13RKZVC7VC1ZWKE",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1305CDAKKA9NFR5ZZ6K9G90X72",
-      "reference": "ALT_EOLE_A_OR_65_C"
+      "translations": {
+        "en_US": {
+          "text": "My mind is an impregnable fortress!",
+          "locale": "en_US"
+        },
+        "es_ES": {
+          "text": "«¡Mi mente es una fortaleza inexpugnable!».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Mon esprit est une forteresse imprenable ! »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Mein Geist ist eine uneinnehmbare Festung!“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "La mia mente è una fortezza inespugnabile!",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KG2J8ECS32F478F1G9AV6YY3",
+      "text": "My mind is an impregnable fortress!"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -280,6 +236,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "A-075",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Tristan Bideau" },
@@ -293,7 +250,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_OR_65_C",
   "isExclusive": true,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_65",
   "reference": "ALT_EOLE_A_OR_65_C",
   "translations": {
     "fr_FR": {

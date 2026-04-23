@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"In my memory, you're there every time I cross paths with a Leviathan.\" — Sol",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Dans ma mémoire, tu es toujours présent, à chaque fois que je croise un Léviathan. » - Sol",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJRWD5TW6C76S0SR9MM0",
-          "text": "\"In my memory, you're there every time I cross paths with a Leviathan.\" — Sol"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "78Q0QY51E08HESTX7DFPNG9Q88",
-      "reference": "ALT_DUSTER_B_BR_101_C"
+      "translations": {
+        "en_US": {
+          "text": "\"In my memory, you're there every time I cross paths with a Leviathan.\" — Sol",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Dans ma mémoire, tu es toujours présent, à chaque fois que je croise un Léviathan. » - Sol",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Du bist stets in meiner Erinnerung, wenn ich einem Leviathan begegne.“ – Sol",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Nei miei ricordi, sei sempre presente ogni volta che incontro un leviatano.\" — Sol",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Estás presente en mi memoria cada vez que me cruzo con un leviatán». ―Sol",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZJRWD5TW6C76S0SR9MM0",
+      "text": "\"In my memory, you're there every time I cross paths with a Leviathan.\" — Sol"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,9 +157,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Zero Wen" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_101\/JPG\/en_US\/9b74b65b3af69bd7944e11698230e45a.jpg",
   "assets": {
     "WEB": [
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_101_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_101",
   "reference": "ALT_DUSTER_B_BR_101_R1",
   "translations": {
     "es_ES": {

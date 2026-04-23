@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"The more I visit this city, the more I love it.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Plus je la visite, plus cette cité me passionne. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZSD3PD753BYHHYBNKCR1",
-          "text": "\"The more I visit this city, the more I love it.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0PHXWH18DT9CAA6404443P14BH",
-      "reference": "ALT_DUSTER_B_OR_90_C"
+      "translations": {
+        "en_US": {
+          "text": "\"The more I visit this city, the more I love it.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Plus je la visite, plus cette cité me passionne. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Je öfter ich diese Stadt besuche, desto mehr verliebe ich mich in sie.“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Più visito questa città, più mi piace.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Cuanto más visito esta ciudad, más me gusta».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZSD3PD753BYHHYBNKCR1",
+      "text": "\"The more I visit this city, the more I love it.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -154,6 +162,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "077",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
@@ -169,7 +178,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_90_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_90",
   "reference": "ALT_DUSTER_B_OR_90_C",
   "translations": {
     "en_US": {

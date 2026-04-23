@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Congratulations. Forcing me to take the field is no small feat.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Félicitations. Me forcer à entrer sur le terrain n'est pas un mince exploit. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZXAD68TAVP58RCB5B0YR",
-          "text": "\"Congratulations. Forcing me to take the field is no small feat.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3QD18VE5G59M9TRNHNNHVF43QD",
-      "reference": "ALT_DUSTER_B_YZ_94_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Congratulations. Forcing me to take the field is no small feat.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Félicitations. Me forcer à entrer sur le terrain n'est pas un mince exploit. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Glückwunsch. Mich auf das Spielfeld zu zwingen ist keine kleine Errungenschaft.“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Congratulazioni. Convincermi a scendere in campo non è un'impresa da poco.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Enhorabuena. Obligarme a salir al campo no es cosa menor».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZXAD68TAVP58RCB5B0YR",
+      "text": "\"Congratulations. Forcing me to take the field is no small feat.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -154,9 +162,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Justice Wong" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_94\/JPG\/en_US\/06132bdcdda399f03b4b25796e2e3c21.jpg",
   "assets": {
     "WEB": [
@@ -168,7 +177,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_94_E",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_94",
   "reference": "ALT_DUSTER_B_YZ_94_E",
   "translations": {
     "it_IT": {

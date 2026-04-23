@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Close the breach? I was just getting warmed up…\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Sceller la brèche ? Je commençais tout juste à m'échauffer... »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94J019TRRVNWF5A4JSAQGE",
-          "text": "\"Close the breach? I was just getting warmed up…\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94J03F2DPBJ7YPK9KQNSEH",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94J01N7X5G7NBJ8EGMJNB1",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94J00DCP0B6HYBGKFTM590",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94J00XBXMS0W8AD4A1Y6XJ",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZP61FEFQ4613REH25WRT",
-        "reference": "LANDMARK_PERMANENT",
-        "name": "LANDMARK_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "68WHQZ27QY9NSSCCB2QQVSVZEN",
-      "reference": "ALT_EOLE_B_YZ_122_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Close the breach? I was just getting warmed up…\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Sceller la brèche ? Je commençais tout juste à m'échauffer... »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Die Bresche schließen? Ich bin gerade erst warm geworden …“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Chiudere la breccia? Ho appena iniziato a scaldarmi...\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¿Cerrar la brecha? Justo cuando empezaba a entrar en calor...».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94J019TRRVNWF5A4JSAQGE",
+      "text": "\"Close the breach? I was just getting warmed up…\""
     }
   ],
   "cardType": {
     "reference": "LANDMARK_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente hito" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
+      "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+    },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
@@ -329,6 +285,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "110",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung - Ba Vo" },
@@ -343,7 +300,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_122_E",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_122",
   "reference": "ALT_EOLE_B_YZ_122_E",
   "translations": {
     "en_US": {

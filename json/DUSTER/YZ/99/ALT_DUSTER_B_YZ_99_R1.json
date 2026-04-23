@@ -1,38 +1,34 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« Coup dur pour le joueur Reka ! »",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"The Reka player is out!\"",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JZ37ZY9KADR726N1S9DFRTNC",
-          "text": "\"The Reka player is out!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "60QAXRBNP692QTM7K0T9MDJF8P",
-      "reference": "ALT_DUSTER_B_YZ_99_C"
+      "translations": {
+        "fr_FR": {
+          "text": "« Coup dur pour le joueur Reka ! »",
+          "locale": "fr_FR"
+        },
+        "de_DE": { "text": "„Der Reka-Spieler ist raus!“", "locale": "de_DE" },
+        "it_IT": { "text": "Preso! Giocatore eliminato!", "locale": "it_IT" },
+        "es_ES": { "text": "¡Cazado! ¡Jugador eliminado!", "locale": "es_ES" },
+        "en_US": { "text": "\"The Reka player is out!\"", "locale": "en_US" }
+      },
+      "id": "01JZ37ZY9KADR726N1S9DFRTNC",
+      "text": "\"The Reka player is out!\""
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -206,9 +202,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Justice Wong" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_99\/JPG\/en_US\/0d30e5516260a2d79d081182fe9b6e57.jpg",
   "assets": {
     "WEB": [
@@ -220,7 +217,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_99_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_99",
   "reference": "ALT_DUSTER_B_YZ_99_R1",
   "translations": {
     "en_US": {

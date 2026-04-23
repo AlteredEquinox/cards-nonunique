@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"You're not the only ones who can use substitution.\" — Moyo",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Vous n'êtes pas les seuls à pouvoir user de substitution. » - Moyo",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZV01C71GTQH9RTDBX6SD",
-          "text": "\"You're not the only ones who can use substitution.\" — Moyo"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7CHY1XKPCD8WB89J95CPNSCTTV",
-      "reference": "ALT_DUSTER_B_YZ_100_C"
+      "translations": {
+        "en_US": {
+          "text": "\"You're not the only ones who can use substitution.\" — Moyo",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Vous n'êtes pas les seuls à pouvoir user de substitution. » - Moyo",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Ihr seid nicht die Einzigen, die Substitution nutzen können.“ – Moyo",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Non siete gli unici a poter effettuare una sostituzione.\" — Moyo",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«No sois los únicos que podéis hacer uso de la sustitución». —Moyo",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZV01C71GTQH9RTDBX6SD",
+      "text": "\"You're not the only ones who can use substitution.\" — Moyo"
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -197,9 +205,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Fahmi Fauzi" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_100\/JPG\/en_US\/2100dc6916b5301a806e8e8b80dbaf32.jpg",
   "assets": {
     "WEB": [
@@ -211,7 +220,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_100_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_100",
   "reference": "ALT_DUSTER_B_YZ_100_R1",
   "translations": {
     "es_ES": { "name": "Señuelo de polilla", "image": null, "locale": "es_ES" },

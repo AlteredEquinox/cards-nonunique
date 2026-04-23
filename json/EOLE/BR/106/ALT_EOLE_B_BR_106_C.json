@@ -1,90 +1,43 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "It moves and strikes like lightning.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Il passe et frappe comme l'éclair.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HPVX47QKEDFDTDR74CQR",
-          "text": "It moves and strikes like lightning."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPW9HNPBG8E9TAHAJEEW",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HPW38ZB6W783CEK08YBE",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPVHHZWKCKMDGNPBWJY7",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPVQ84TMT9THT5RZBCC0",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "78PPTZTBWQ8578JJ0ZWARJS801",
-      "reference": "ALT_EOLE_B_BR_106_C"
+      "translations": {
+        "en_US": {
+          "text": "It moves and strikes like lightning.",
+          "locale": "en_US"
+        },
+        "de_DE": { "text": "Es schlägt ein wie der Blitz.", "locale": "de_DE" },
+        "fr_FR": {
+          "text": "Il passe et frappe comme l'éclair.",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "Si muove e colpisce come un fulmine.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Se mueve y golpea como el rayo.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HPVX47QKEDFDTDR74CQR",
+      "text": "It moves and strikes like lightning."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -238,6 +191,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "020",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jamin Amaral Fernandez" },
@@ -253,7 +207,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_106_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_106",
   "reference": "ALT_EOLE_B_BR_106_C",
   "translations": {
     "en_US": {

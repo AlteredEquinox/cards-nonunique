@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "A single pebble can cause quite a ripple.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Un simple galet peut causer bien des remous.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HPND1XABWHMYSF0XVEDZ",
-          "text": "A single pebble can cause quite a ripple."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HPNNYJQKAS54R7QJ8PSH",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPNHPGY69BKSAV4TK569",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HPN51B5NWN1PJFCNXCJ1",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPN9WM1MAAJ6N9YE09WK",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3M8NDBEJHE9GRSZFGM6EKMN8EW",
-      "reference": "ALT_EOLE_B_AX_119_C"
+      "translations": {
+        "en_US": {
+          "text": "A single pebble can cause quite a ripple.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Un simple galet peut causer bien des remous.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Ein einziger Kiesel kann große Wellen schlagen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Un singolo sassolino può generare una grande onda.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Una simple piedra puede generar grandes ondas.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HPND1XABWHMYSF0XVEDZ",
+      "text": "A single pebble can cause quite a ripple."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -245,6 +201,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "015",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
@@ -259,7 +216,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_119_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "AX_119",
   "reference": "ALT_EOLE_B_AX_119_R1",
   "translations": {
     "fr_FR": {

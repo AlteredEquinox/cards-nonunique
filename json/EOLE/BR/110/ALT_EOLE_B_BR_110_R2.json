@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Come on! If we give up, it's game over!\" — Kebba",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Du nerf, baisser les bras signifie la fin ! » — Kebba",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HQ1B2KAF4J2JBG1V4K2Z",
-          "text": "\"Come on! If we give up, it's game over!\" — Kebba"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQ1MXKB06409SZ17M59M",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQ1F93WCY9YTAP1RCEJS",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQ0Y5JZ4V43DJ6EN9DJ8",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQ16B4G6AFKXPY6N02W4",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "237KEJRD0C945T9AZEM4RNXV9A",
-      "reference": "ALT_EOLE_B_BR_110_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Come on! If we give up, it's game over!\" — Kebba",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Du nerf, baisser les bras signifie la fin ! » — Kebba",
+          "locale": "fr_FR"
+        },
+        "es_ES": {
+          "text": "«¡Ánimo! ¡Si nos rendimos, será nuestro fin!». —Kebba",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "„Komm schon! Wenn wir aufgeben, verlieren wir!“ — Kebba",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Forza! Se ci arrendiamo ora, è finita!\" — Kebba",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KC94HQ1B2KAF4J2JBG1V4K2Z",
+      "text": "\"Come on! If we give up, it's game over!\" — Kebba"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -201,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "021",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Martin Mottet" },
@@ -216,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_110_R2",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_110",
   "reference": "ALT_EOLE_B_BR_110_R2",
   "translations": {
     "en_US": {

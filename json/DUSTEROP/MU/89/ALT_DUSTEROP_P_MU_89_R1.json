@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Opulence is a state of grace that forever teeters on the precipice.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "L'opulence est un état de grâce qui sans cesse surplombe le précipice.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZBKM5G1W7NFTAMRSCKX",
-          "text": "Opulence is a state of grace that forever teeters on the precipice."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2B2MTFWCZ88Y3SHS9VCFDWTVBR",
-      "reference": "ALT_DUSTEROP_B_MU_89_C"
+      "translations": {
+        "en_US": {
+          "text": "Opulence is a state of grace that forever teeters on the precipice.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Opulenz ist ein Zustand der Gnade, der ständig am Abgrund balanciert.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "L'opulenza è uno stato di grazia che vacilla costantemente sull'orlo del precipizio.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "La opulencia es un estado de gracia que siempre se tambalea al borde del precipicio.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "L'opulence est un état de grâce qui sans cesse surplombe le précipice.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZBKM5G1W7NFTAMRSCKX",
+      "text": "Opulence is a state of grace that forever teeters on the precipice."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,9 +194,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Ba Vo" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_MU_89\/JPG\/en_US\/14e9a2b06ab368bf062ed012fcf21b25.jpg",
   "assets": {
     "WEB": [
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_MU_89_R1",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_89",
   "reference": "ALT_DUSTEROP_P_MU_89_R1",
   "translations": {
     "fr_FR": {

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The Reka draw all of their riches from its Juice.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "C'est de son Suc que les Reka tirent leur richesse.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K3R4KNJNZEV7E5674NTFMNFS",
-          "text": "The Reka draw all of their riches from its Juice."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01JNQX5X4AEEJEWFBR2KWF7WB8",
-        "reference": "TOKEN_LANDMARK_PERMANENT",
-        "name": "TOKEN_LANDMARK_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0NNJNY1B5V8VBT19F9D1V55AJ4",
-      "reference": "ALT_DUSTER_B_NE_04_C"
+      "translations": {
+        "en_US": {
+          "text": "The Reka draw all of their riches from its Juice.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "C'est de son Suc que les Reka tirent leur richesse.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Die Reka beziehen ihren Reichtum aus ihrem Saft.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Tutta la ricchezza dei Reka proviene dal suo succo.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "De su Jugo los Reka extraen todas sus riquezas.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01K3R4KNJNZEV7E5674NTFMNFS",
+      "text": "The Reka draw all of their riches from its Juice."
     }
   ],
   "cardType": {
     "reference": "TOKEN_LANDMARK_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha Hito Permanente" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro Pedina" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenmarke" },
+      "en_US": { "locale": "en_US", "name": "Token Landmark Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Repère Permanent" }
+    },
     "id": "01JN9T9WB3A67XPW9251FVSS60",
     "name": "Token Landmark Permanent"
   },
@@ -100,6 +108,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "110",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
@@ -113,7 +122,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_NE_04_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "NE_04",
   "reference": "ALT_DUSTER_B_NE_04_C",
   "translations": {
     "de_DE": { "name": "Manasaaten", "image": null, "locale": "de_DE" },

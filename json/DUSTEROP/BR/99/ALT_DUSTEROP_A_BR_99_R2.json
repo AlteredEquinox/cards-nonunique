@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Get in, loser! We're going shopping!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Bon alors, tu viens ? On va faire du shopping ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZ7TX7CHFQQAW426T2YH",
-          "text": "\"Get in, loser! We're going shopping!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4480Q43D3V9PSRD300REECHFFJ",
-      "reference": "ALT_DUSTEROP_B_BR_99_C"
+      "translations": {
+        "de_DE": {
+          "text": "„Steig ein, du Loser! Wir gehen einkaufen!“",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"Get in, loser! We're going shopping!\"",
+          "locale": "en_US"
+        },
+        "it_IT": {
+          "text": "\"Salta su! Andiamo a fare compere!\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¡Sube, pardillo, nos vamos de compras!».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Bon alors, tu viens ? On va faire du shopping ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZ7TX7CHFQQAW426T2YH",
+      "text": "\"Get in, loser! We're going shopping!\""
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -207,9 +215,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Zero Wen" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_A_BR_99\/JPG\/en_US\/a28de82102eb87b3331aacdf05a7d399.jpg",
   "assets": {
     "WEB": [
@@ -221,7 +230,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_A_BR_99_R2",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_99",
   "reference": "ALT_DUSTEROP_A_BR_99_R2",
   "translations": {
     "fr_FR": {

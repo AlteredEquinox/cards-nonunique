@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"The little one is mine! He shall live to run with the pack and to hunt with the pack!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Le petit d'homme est mien ! Il vivra pour courir avec le clan, et pour chasser avec le clan ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KHBKDKKFK5DAP71QART4ZSXM",
-          "text": "\"The little one is mine! He shall live to run with the pack and to hunt with the pack!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7DVS5HXEFW85AR4BXEHS32K9G5",
-      "reference": "ALT_EOLECB_A_MU_110_C"
+      "translations": {
+        "en_US": {
+          "text": "\"The little one is mine! He shall live to run with the pack and to hunt with the pack!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Le petit d'homme est mien ! Il vivra pour courir avec le clan, et pour chasser avec le clan ! »",
+          "locale": "fr_FR"
+        },
+        "es_ES": {
+          "text": "«¡El pequeño es mío! ¡Vivirá para correr y cazar con la manada!».",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "„Der Kleine gehört mir! Er wird mit dem Rudel laufen und mit dem Rudel jagen!“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Il piccoletto è mio! Vivrà per correre con il branco e per cacciare con il branco!\"",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KHBKDKKFK5DAP71QART4ZSXM",
+      "text": "\"The little one is mine! He shall live to run with the pack and to hunt with the pack!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "V-061",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Jefrey Yonathan" },
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_MU_110_C",
   "isExclusive": true,
   "isOwnerless": true,
-  "cardFamilyReference": null,
   "reference": "ALT_EOLECB_A_MU_110_C",
   "translations": {
     "en_US": {

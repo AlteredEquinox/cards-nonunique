@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"The noblest pleasure is the joy of understanding.\" — Leonardo da Vinci",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Le plaisir le plus noble est la joie de comprendre. » - Léonard de Vinci",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJC4C3HY3BCJVK5EJF62",
-          "text": "\"The noblest pleasure is the joy of understanding.\" — Leonardo da Vinci"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2TM492P50W9YWS3YX2G2W1J2P1",
-      "reference": "ALT_DUSTER_B_AX_94_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Il piacere più nobile è la gioia di comprendere.\" — Leonardo da Vinci",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"The noblest pleasure is the joy of understanding.\" — Leonardo da Vinci",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Die schönste Freude ist die Freude des Verstehens.“ – Leonardo da Vinci",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«El placer más noble es la alegría de comprender». ―Leonardo da Vinci",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Le plaisir le plus noble est la joie de comprendre. » - Léonard de Vinci",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JZ37ZJC4C3HY3BCJVK5EJF62",
+      "text": "\"The noblest pleasure is the joy of understanding.\" — Leonardo da Vinci"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -191,6 +199,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "004",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Atanas Lozanski" },
@@ -206,7 +215,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_94_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_94",
   "reference": "ALT_DUSTER_B_AX_94_C",
   "translations": {
     "de_DE": { "name": "Leonardo da Vinci", "image": null, "locale": "de_DE" },

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The Moths are especially attracted by the Sap of the Undergrowth.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Les Phalènes sont particulièrement attirées par la Sève du Sous-bois.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JBT1AAVX1PQGXSV0VDVFTD34",
-          "text": "The Moths are especially attracted by the Sap of the Undergrowth."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
-        "reference": "TOKEN",
-        "name": "Token"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7T1Q1AQB6A9QDA3FBQ5XQ2W7Z6",
-      "reference": "ALT_BISE_B_YZ_47_C"
+      "translations": {
+        "de_DE": {
+          "text": "Die Motten werden vor allem vom Harz des Dickichts angezogen.",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "Las polillas se sienten especialmente atraídas por la savia de la Maleza.",
+          "locale": "es_ES"
+        },
+        "en_US": {
+          "text": "The Moths are especially attracted by the Sap of the Undergrowth.",
+          "locale": "en_US"
+        },
+        "it_IT": {
+          "text": "Le falene sono attratte soprattutto dalla linfa del sottobosco.",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "Les Phalènes sont particulièrement attirées par la Sève du Sous-bois.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JBT1AAVX1PQGXSV0VDVFTD34",
+      "text": "The Moths are especially attracted by the Sap of the Undergrowth."
     }
   ],
   "cardType": {
     "reference": "TOKEN",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha de personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Pedina Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Marken-Charakter" },
+      "en_US": { "locale": "en_US", "name": "Token Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Personnage" }
+    },
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
@@ -131,6 +139,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "105",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
@@ -144,7 +153,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_B_YZ_47_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_47",
   "reference": "ALT_BISE_B_YZ_47_C",
   "translations": {
     "en_US": {

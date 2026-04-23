@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Ignorance is the crucible of evil.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "L'ignorance est le creuset du mal.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KG2J8FRSFCRB8EQSH3XY94JD",
-          "text": "Ignorance is the crucible of evil."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8FVR93XC3R7NQ3JQ8NVH",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8FSH0QCJA7CC3KB08R7X",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8FNHEP6TZGVX6TGKK0T9",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8FPP05TTGYW984MHYSFW",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1ZAFYBVPEC9H8B0MRZCXAWC7G5",
-      "reference": "ALT_EOLE_A_YZ_116_C"
+      "translations": {
+        "es_ES": {
+          "text": "La ignorancia es el crisol del mal.",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "Unwissenheit ist der Ursprung des Bösen.",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "Ignorance is the crucible of evil.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "L'ignorance est le creuset du mal.",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "L'ignoranza è il crogiolo del male.",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KG2J8FRSFCRB8EQSH3XY94JD",
+      "text": "Ignorance is the crucible of evil."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -201,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "V-105",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Taras Susak" },
@@ -210,7 +167,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_YZ_116_E",
   "isExclusive": true,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_116",
   "reference": "ALT_EOLE_A_YZ_116_E",
   "translations": {
     "fr_FR": {

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Respect your household, and she will help you. But if you neglect it, beware!",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Respectez votre foyer, et elle vous aidera. Mais gare à vous si vous l'entretenez mal.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZT64WKBK74X1DJQW1J1F",
-          "text": "Respect your household, and she will help you. But if you neglect it, beware!"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2B782WVFHB99H8SD64DR89HH2F",
-      "reference": "ALT_DUSTER_B_OR_95_C"
+      "translations": {
+        "en_US": {
+          "text": "Respect your household, and she will help you. But if you neglect it, beware!",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Respectez votre foyer, et elle vous aidera. Mais gare à vous si vous l'entretenez mal.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Respektiere dein Zuhause und sie wird dir helfen. Aber wehe dir, du vernachlässigst es!",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Rispetta la tua casa e lei ti aiuterà. Ma se la trascuri, guai a te!",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Respeta tu hogar, y ella te ayudará. ¡Pero ay de ti si descuidas tu morada!",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZT64WKBK74X1DJQW1J1F",
+      "text": "Respect your household, and she will help you. But if you neglect it, beware!"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -202,9 +210,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Matteo Spirito" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_95\/JPG\/en_US\/1c30d4dca5132a6784f0cc663db3a9c3.jpg",
   "assets": {
     "WEB": [
@@ -217,7 +226,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_95_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_95",
   "reference": "ALT_DUSTER_B_OR_95_R2",
   "translations": {
     "es_ES": { "name": "Kikimora", "image": null, "locale": "es_ES" },

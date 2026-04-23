@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Recoudre le tissu de la réalité, pour éviter une nouvelle Confluence...",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Stitching the fabric of reality back together to avoid another Confluence…",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HXW7R52AEM049D50EQWK",
-          "text": "Stitching the fabric of reality back together to avoid another Confluence…"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HXXAF4FSAXZNF7BT573V",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HXWSBX13QB8XT9ZDWND4",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HXT0GD4CAS4CZHYTKTVP",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HXVHR09QWQRNCP41KWJV",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0NFSVNGTNP8S39RSPTEM8NY2EN",
-      "reference": "ALT_EOLE_B_YZ_109_C"
+      "translations": {
+        "fr_FR": {
+          "text": "Recoudre le tissu de la réalité, pour éviter une nouvelle Confluence...",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Stitching the fabric of reality back together to avoid another Confluence…",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Ich flicke das Gefüge der Realität, um eine weitere Konfluenz zu verhindern.“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Ricuciamo il tessuto della realtà per evitare una nuova Confluenza...",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Cose el tejido de la realidad para evitar una nueva Confluencia...",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HXW7R52AEM049D50EQWK",
+      "text": "Stitching the fabric of reality back together to avoid another Confluence…"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -154,6 +110,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "101",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
@@ -169,7 +126,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_109_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_109",
   "reference": "ALT_EOLE_B_YZ_109_C",
   "translations": {
     "fr_FR": {

@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Sometimes it's wiser to be afraid of your own shadow…",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Il est parfois sage d'avoir peur de son ombre...",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HQ76Y5T05WED13318EED",
-          "text": "Sometimes it's wiser to be afraid of your own shadow…"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HQ7KF3SSHFC06XXM57BD",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQ7E7DCP1F5YE0FF5SED",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQ61ZNN690XCBG6E6ZNK",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQ70JPV7HRVA7CKTYX6V",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "51M5GVDN4E8F1B43C885K317WH",
-      "reference": "ALT_EOLE_B_BR_114_C"
+      "translations": {
+        "en_US": {
+          "text": "Sometimes it's wiser to be afraid of your own shadow…",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Manchmal sollte man den eigenen Schatten fürchten …",
+          "locale": "de_DE"
+        },
+        "fr_FR": {
+          "text": "Il est parfois sage d'avoir peur de son ombre...",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "A volte è più saggio aver paura della propria ombra...",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "A veces conviene hasta tener miedo de tu propia sombra...",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HQ76Y5T05WED13318EED",
+      "text": "Sometimes it's wiser to be afraid of your own shadow…"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -224,6 +180,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "030",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
@@ -239,7 +196,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_114_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_114",
   "reference": "ALT_EOLE_B_BR_114_C",
   "translations": {
     "it_IT": {

@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Contact in sector 3. Try to outflank on the other side!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Accrochage dans le secteur 3, débordez sur l'autre flanc ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HPZMVEMFS1MWREQ7FD1H",
-          "text": "\"Contact in sector 3. Try to outflank on the other side!\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPZZNX6X72T9H2E9ZW9H",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPZTV2E2E9C1XFY31VHT",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HPZAJ4EHSHRMC0T9ADHT",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPZFYQVK9QKRW9PZ4ZE6",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0VCS6TK52J8VQV9YC70T34CPZS",
-      "reference": "ALT_EOLE_B_BR_109_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Contact in sector 3. Try to outflank on the other side!\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Kontakt in Sektor 3. Flankieren wir sie von der anderen Seite!“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Contatto nel settore 3. Provate ad aggirarli dall'altro lato!\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Contacto en el sector 3. ¡Rodead el flanco opuesto!».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Accrochage dans le secteur 3, débordez sur l'autre flanc ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KC94HPZMVEMFS1MWREQ7FD1H",
+      "text": "\"Contact in sector 3. Try to outflank on the other side!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -238,6 +194,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "024",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Kevin Sidharta" },
@@ -253,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_109_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_109",
   "reference": "ALT_EOLE_B_BR_109_R1",
   "translations": {
     "it_IT": {

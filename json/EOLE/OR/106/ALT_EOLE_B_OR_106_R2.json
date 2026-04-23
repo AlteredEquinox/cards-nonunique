@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« Allez, en selle ! Il va falloir voler en formation serrée si on veut évacuer le plus de monde possible ! »",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"Come on, saddle up! We need to fly in tight formation to evacuate as many as possible!\"",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HTYPTF3FJSXTT2XS2C9S",
-          "text": "\"Come on, saddle up! We need to fly in tight formation to evacuate as many as possible!\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTZ99PPXY9B47EJPJFRJ",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTYZ47H6GVE738ARF6S2",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTY4PDY2JN1Y4WNZYTCZ",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTYDPMRQTHX87XAR7GMQ",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "23DJPCQEGS993B0715EN39NAZ4",
-      "reference": "ALT_EOLE_B_OR_106_C"
+      "translations": {
+        "fr_FR": {
+          "text": "« Allez, en selle ! Il va falloir voler en formation serrée si on veut évacuer le plus de monde possible ! »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "\"Come on, saddle up! We need to fly in tight formation to evacuate as many as possible!\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Los, sattel auf! Wir müssen dicht fliegen, um so viele zu evakuieren wie möglich!“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Forza, in sella! Dobbiamo volare in formazione compatta per evacuare quante più persone!\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¡Vamos, a montar! ¡Tendremos que volar en formación cerrada si queremos evacuar al mayor número de personas posible!».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HTYPTF3FJSXTT2XS2C9S",
+      "text": "\"Come on, saddle up! We need to fly in tight formation to evacuate as many as possible!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -286,6 +242,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "077",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
@@ -301,7 +258,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_106_R2",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_106",
   "reference": "ALT_EOLE_B_OR_106_R2",
   "translations": {
     "fr_FR": {

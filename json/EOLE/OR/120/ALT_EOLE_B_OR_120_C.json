@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Les demandes d'assistance fusent au son de bruissements d'ailes.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Requests for assistance pour in at the sound of beating wings.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HWKTGF2G3CJV160201AJ",
-          "text": "Requests for assistance pour in at the sound of beating wings."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWP0X83HKGPMJHPEK76Y",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWMAY553HD3P8NZD6GDC",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWJVQW6P0E822P81RQCV",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWKE3DS7Y623WZFMAPYZ",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5PPVT37ZA49FT82Y19TPV66JB3",
-      "reference": "ALT_EOLE_B_OR_120_C"
+      "translations": {
+        "fr_FR": {
+          "text": "Les demandes d'assistance fusent au son de bruissements d'ailes.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Requests for assistance pour in at the sound of beating wings.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Beim Geräusch schlagender Flügel erschallen Hilferufe.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Le richieste di aiuto affluiscono al suono di un battito d'ali.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Las peticiones de ayuda abundan al son del batir de alas.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HWKTGF2G3CJV160201AJ",
+      "text": "Requests for assistance pour in at the sound of beating wings."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -307,6 +263,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "089",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
@@ -321,7 +278,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_120_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_120",
   "reference": "ALT_EOLE_B_OR_120_C",
   "translations": {
     "en_US": {

@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« Lancez l'ordre de repli à tous les navires ! »",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"Give the order for all ships to retreat!\"",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HV50DR9P6PR51DAXH3P1",
-          "text": "\"Give the order for all ships to retreat!\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV5JF0BV4XDY3A4Q5ART",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV59YT2ATF25RK5SY10T",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV4DEBEW0AVCR566WJ9F",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV4Q5AJ63PK8EYFN383V",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2NRYQ8S18Z8A1T55QCBD2HV640",
-      "reference": "ALT_EOLE_B_OR_108_C"
+      "translations": {
+        "fr_FR": {
+          "text": "« Lancez l'ordre de repli à tous les navires ! »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "\"Give the order for all ships to retreat!\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Befehl an alle Schiffe: Rückzug!“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Date l'ordine di ritirata a tutte le navi!\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¡Dad la orden de retirada a todas las naves!».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HV50DR9P6PR51DAXH3P1",
+      "text": "\"Give the order for all ships to retreat!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -274,6 +230,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "076",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Victor Canton" },
@@ -289,7 +246,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_108_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_108",
   "reference": "ALT_EOLE_B_OR_108_C",
   "translations": {
     "it_IT": {

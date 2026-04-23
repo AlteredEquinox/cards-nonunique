@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The torture of the Naos must cease.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "La torture du Naos doit cesser.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZQ6260A32K3HBP2R20A0",
-          "text": "The torture of the Naos must cease."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "050VH10V5D9T59ANV6A6EBNKQW",
-      "reference": "ALT_DUSTER_B_MU_92_C"
+      "translations": {
+        "en_US": {
+          "text": "The torture of the Naos must cease.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "La torture du Naos doit cesser.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Das Leid des Naos muss aufhören.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "La tortura del Naos deve cessare.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "La tortura del Naos debe cesar.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZQ6260A32K3HBP2R20A0",
+      "text": "The torture of the Naos must cease."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -372,9 +380,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Khoa Viet" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/JPG\/en_US\/8e3efa6907951b52e21a92701908190d.jpg",
   "assets": {
     "WEB": [
@@ -387,7 +396,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_92_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_92",
   "reference": "ALT_DUSTER_B_MU_92_R1",
   "translations": {
     "es_ES": { "name": "Hija de Naos", "image": null, "locale": "es_ES" },

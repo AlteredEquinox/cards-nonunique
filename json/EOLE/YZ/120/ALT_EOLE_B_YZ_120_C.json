@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Need someone to slam the gate in their faces?\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Besoin de quelqu'un pour leur claquer la porte au nez ? »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HZQTNAP7SSNBTX77BB46",
-          "text": "\"Need someone to slam the gate in their faces?\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HZRNYYY3GKFQ0MF26C8K",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HZR6524VM7YE1HPVW496",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HZNHV6RFB5DNFCZ22EW0",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HZQDVJ2P31PNRWBDK5XT",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4CYZERD14H9Z2VANQVFVDQZ3VJ",
-      "reference": "ALT_EOLE_B_YZ_120_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Need someone to slam the gate in their faces?\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Besoin de quelqu'un pour leur claquer la porte au nez ? »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Braucht ihr jemanden, der ihnen das Tor vor der Nase zuschlägt?“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Vi serve qualcuno che gli sbatta il cancello in faccia?\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¿Necesitas a alguien que les dé con la puerta en las narices?».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HZQTNAP7SSNBTX77BB46",
+      "text": "\"Need someone to slam the gate in their faces?\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -234,6 +190,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "102",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
@@ -249,7 +206,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_120_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_120",
   "reference": "ALT_EOLE_B_YZ_120_C",
   "translations": {
     "fr_FR": {

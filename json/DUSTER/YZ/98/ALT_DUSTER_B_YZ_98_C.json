@@ -1,32 +1,31 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": { "text": "\"Maaaaaleros!\"", "locale": "en_US" },
-            "fr_FR": { "text": "« Maaaaaleros ! »", "locale": "fr_FR" }
-          },
-          "id": "01JZ37ZY3QDHDP5PYHYYE6TMK4",
-          "text": "\"Maaaaaleros!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "13Z3K1CFK28BFA1X1DFPQA0FHG",
-      "reference": "ALT_DUSTER_B_YZ_98_C"
+      "translations": {
+        "en_US": { "text": "\"Maaaaaleros!\"", "locale": "en_US" },
+        "it_IT": { "text": "\"Maaaaaleros!\"", "locale": "it_IT" },
+        "fr_FR": { "text": "« Maaaaaleros ! »", "locale": "fr_FR" },
+        "es_ES": { "text": "«¡Maaaaaleros!».", "locale": "es_ES" },
+        "de_DE": { "text": "„Maaaaaleros!“", "locale": "de_DE" }
+      },
+      "id": "01JZ37ZY3QDHDP5PYHYYE6TMK4",
+      "text": "\"Maaaaaleros!\""
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -311,6 +310,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "106",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
@@ -325,7 +325,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_98_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_98",
   "reference": "ALT_DUSTER_B_YZ_98_C",
   "translations": {
     "it_IT": { "name": "Colpo di Grazia", "image": null, "locale": "it_IT" },

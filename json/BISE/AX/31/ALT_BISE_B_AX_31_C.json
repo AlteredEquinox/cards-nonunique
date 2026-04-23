@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Les Scarabots semblent évoluer avec leur environnement.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "The Brassbugs seem to be evolving along with their environment.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JBT1A42KXSHT1RW0BJQXTH5G",
-          "text": "The Brassbugs seem to be evolving along with their environment."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
-        "reference": "TOKEN",
-        "name": "Token"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "58SM0KBK688QKR5K8GCTA2G224",
-      "reference": "ALT_BISE_B_AX_31_C"
+      "translations": {
+        "de_DE": {
+          "text": "Diese Blechkäfer entwickeln sich mit ihrer Umwelt.",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "Parece que los bicholatas evolucionan junto con su entorno.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "Sembra che le ottonblatte si evolvano insieme al loro ambiente.",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "Les Scarabots semblent évoluer avec leur environnement.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "The Brassbugs seem to be evolving along with their environment.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01JBT1A42KXSHT1RW0BJQXTH5G",
+      "text": "The Brassbugs seem to be evolving along with their environment."
     }
   ],
   "cardType": {
     "reference": "TOKEN",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha de personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Pedina Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Marken-Charakter" },
+      "en_US": { "locale": "en_US", "name": "Token Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Personnage" }
+    },
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
@@ -131,6 +139,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "103",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
@@ -144,7 +153,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_B_AX_31_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "AX_31",
   "reference": "ALT_BISE_B_AX_31_C",
   "translations": {
     "it_IT": {

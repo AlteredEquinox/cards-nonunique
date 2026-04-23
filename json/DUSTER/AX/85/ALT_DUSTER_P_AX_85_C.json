@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "La plus belle mécanique est celle du vivant.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Living creatures are the most beautiful mechanisms of all.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01K3R4M7T82M0J29QTK4PS6PVG",
-          "text": "Living creatures are the most beautiful mechanisms of all."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1TW720638C9NTB35WZV5Y704NY",
-      "reference": "ALT_DUSTER_P_AX_85_C"
+      "translations": {
+        "fr_FR": {
+          "text": "La plus belle mécanique est celle du vivant.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Living creatures are the most beautiful mechanisms of all.",
+          "locale": "en_US"
+        },
+        "it_IT": {
+          "text": "I meccanismi più affascinanti di tutti sono le creature viventi.",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "Lebewesen sind die schönsten Mechanismen überhaupt.",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "Los seres vivos son el mecanismo más bello de todos.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01K3R4M7T82M0J29QTK4PS6PVG",
+      "text": "Living creatures are the most beautiful mechanisms of all."
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -116,6 +124,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "001",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": { "nickName": "Tristan Bideau" },
@@ -135,7 +144,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_P_AX_85_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_85",
   "reference": "ALT_DUSTER_P_AX_85_C",
   "translations": {
     "en_US": {

@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Hold out for as long as possible. That's all that matters.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Tenir, le plus longtemps possible. C'est tout ce qui compte. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HWEBNAZBE6T138KYQSDS",
-          "text": "\"Hold out for as long as possible. That's all that matters.\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWGH4DQCRFPY85VQMXKW",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWG6ZHGSNR35XYN9E1SX",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWDQG33PZEARMER75MG6",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWE162NJZHK5Z3G4SM2T",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZP61FEFQ4613REH25WRT",
-        "reference": "LANDMARK_PERMANENT",
-        "name": "LANDMARK_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4JWZXPV2YP8TZTFRS6B44K21F1",
-      "reference": "ALT_EOLE_B_OR_119_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Hold out for as long as possible. That's all that matters.\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Haltet durch, solange ihr könnt. Um jeden Preis.“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Resistere il più a lungo possibile. È tutto ciò che conta.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Aguantar todo lo posible: eso es lo único que importa».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Tenir, le plus longtemps possible. C'est tout ce qui compte. »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KC94HWEBNAZBE6T138KYQSDS",
+      "text": "\"Hold out for as long as possible. That's all that matters.\""
     }
   ],
   "cardType": {
     "reference": "LANDMARK_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente hito" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
+      "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+    },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
@@ -351,6 +307,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "093",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Saeed Jalabi" },
@@ -365,7 +322,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_119_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_119",
   "reference": "ALT_EOLE_B_OR_119_C",
   "translations": {
     "en_US": {

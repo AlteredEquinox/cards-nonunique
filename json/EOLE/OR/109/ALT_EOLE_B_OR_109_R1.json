@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« Je vous avais averti du péril qui vous attendait. » — Ayxas",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"I warned you of the danger you were heading into.\" — Ayxas",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HV89Y12KEDTS1HHMAC9K",
-          "text": "\"I warned you of the danger you were heading into.\" — Ayxas"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV8WJWBK9443ZJYPA4D5",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV8KDEWZEEGA1CQ0C2K4",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV7PF6X1T77287NBY29B",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV80DYNVY9V3KSRJG4WR",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1YEBFHXTJF8HV8Z7VJCBY3RW3M",
-      "reference": "ALT_EOLE_B_OR_109_C"
+      "translations": {
+        "fr_FR": {
+          "text": "« Je vous avais averti du péril qui vous attendait. » — Ayxas",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Ich habe dich vor der Gefahr gewarnt.“ — Ayxas",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"I warned you of the danger you were heading into.\" — Ayxas",
+          "locale": "en_US"
+        },
+        "es_ES": {
+          "text": "«Te advertí del peligro que te aguardaba». —Ayxas",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "\"Ti avevo avvertito del pericolo a cui andavi incontro.\" — Ayxas",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KC94HV89Y12KEDTS1HHMAC9K",
+      "text": "\"I warned you of the danger you were heading into.\" — Ayxas"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -279,6 +235,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "083",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
@@ -294,7 +251,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_109_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_109",
   "reference": "ALT_EOLE_B_OR_109_R1",
   "translations": {
     "fr_FR": {

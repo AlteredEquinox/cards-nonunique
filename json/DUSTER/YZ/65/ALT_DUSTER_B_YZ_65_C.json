@@ -1,32 +1,31 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01JZ37ZVP64Z76JM2NCTWR9HRD",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7MWDHS3NPH8VZSBEDKBAVWSPTS",
-      "reference": "ALT_DUSTER_B_YZ_85_C"
+      "translations": {
+        "en_US": { "text": "#N\/A", "locale": "en_US" },
+        "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
+        "it_IT": { "text": "#N\/A", "locale": "it_IT" },
+        "es_ES": { "text": "#N\/A", "locale": "es_ES" },
+        "de_DE": { "text": "#N\/A", "locale": "de_DE" }
+      },
+      "id": "01JZ37ZVP64Z76JM2NCTWR9HRD",
+      "text": "#N\/A"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -147,6 +146,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "091",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
@@ -166,7 +166,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_65_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_65",
   "reference": "ALT_DUSTER_B_YZ_65_C",
   "translations": {
     "de_DE": { "name": "Moyo & Seide", "image": null, "locale": "de_DE" },

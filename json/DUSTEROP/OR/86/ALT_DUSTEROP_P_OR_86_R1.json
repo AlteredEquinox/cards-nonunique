@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Form ever follows function. This is the law.\" — Louis Sullivan",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« La forme suit la fonction. Et telle est la loi. » - Louis Sullivan",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZH0GPP7W2XJMWBZ9AC6",
-          "text": "\"Form ever follows function. This is the law.\" — Louis Sullivan"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "143QYYZWVD8KSRTDX9BSJ2QR9T",
-      "reference": "ALT_DUSTEROP_B_OR_86_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Form ever follows function. This is the law.\" — Louis Sullivan",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Die Form folgt immer der Funktion. Das ist das Gesetz.“ – Louis Sullivan",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"La forma segue la funzione. È la legge.\" — Louis Sullivan",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«La forma responde a la función. Esa es la ley». —Louis Sullivan",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« La forme suit la fonction. Et telle est la loi. » - Louis Sullivan",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZH0GPP7W2XJMWBZ9AC6",
+      "text": "\"Form ever follows function. This is the law.\" — Louis Sullivan"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,9 +157,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Kevin Sidharta" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_OR_86\/JPG\/en_US\/2140eed250a46842ca0df19e86940960.jpg",
   "assets": {
     "WEB": [
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_OR_86_R1",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_86",
   "reference": "ALT_DUSTEROP_P_OR_86_R1",
   "translations": {
     "fr_FR": {

@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Who could be better at playing cat and mouse?",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Qui mieux que lui pour jouer au chat et à la souris ?",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HPWW824Y54F25GJ33Q18",
-          "text": "Who could be better at playing cat and mouse?"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPY2JYYGMAWQCMC8N2XG",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPXPXCDXRG0G5N6ZGQ21",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPWJCBVE7FBBTXGVBPFW",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HPWPYFEJ4K76VZ8AQD5T",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2T4668B1T68RV9N4S4KFG7F3FE",
-      "reference": "ALT_EOLE_B_BR_107_C"
+      "translations": {
+        "en_US": {
+          "text": "Who could be better at playing cat and mouse?",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Wer wäre besser bei Katz-und-Maus-Spielen?",
+          "locale": "de_DE"
+        },
+        "fr_FR": {
+          "text": "Qui mieux que lui pour jouer au chat et à la souris ?",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "Nessuno lo batte nel gioco del gatto e del topo.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "¿Quién mejor que él para jugar al gato y el ratón?",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HPWW824Y54F25GJ33Q18",
+      "text": "Who could be better at playing cat and mouse?"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -239,6 +195,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "023",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Julien Carrasco" },
@@ -254,7 +211,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_107_R2",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_107",
   "reference": "ALT_EOLE_B_BR_107_R2",
   "translations": {
     "fr_FR": {

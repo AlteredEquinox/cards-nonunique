@@ -1,38 +1,37 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Here's one for the road.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Je vous en mets un de plus pour la route. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZPK4PBG112NE00V03E9P",
-          "text": "\"Here's one for the road.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6W1QVDS5ZC8J1RRD0Z9MC4KR22",
-      "reference": "ALT_DUSTER_B_MU_87_C"
+      "translations": {
+        "en_US": { "text": "\"Here's one for the road.\"", "locale": "en_US" },
+        "de_DE": { "text": "„Bitte sehr: für unterwegs.“", "locale": "de_DE" },
+        "it_IT": {
+          "text": "\"Prendetene uno in più per il viaggio.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": { "text": "«Toma, una para el camino».", "locale": "es_ES" },
+        "fr_FR": {
+          "text": "« Je vous en mets un de plus pour la route. »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JZ37ZPK4PBG112NE00V03E9P",
+      "text": "\"Here's one for the road.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,9 +185,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Jefrey Yonathan" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_87\/JPG\/en_US\/dc8fe1ba58c185562ec95e5cad4ecf78.jpg",
   "assets": {
     "WEB": [
@@ -201,7 +201,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_87_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_87",
   "reference": "ALT_DUSTER_B_MU_87_R1",
   "translations": {
     "es_ES": { "name": "Comerciante reka", "image": null, "locale": "es_ES" },

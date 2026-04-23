@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Reka cable-cars are the safest way to get around the city.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Les funiculaires Reka sont le moyen le plus sûr pour se déplacer en ville.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZM84D1ARZ7YQAC3XQHV1",
-          "text": "Reka cable-cars are the safest way to get around the city."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZP61FEFQ4613REH25WRT",
-        "reference": "LANDMARK_PERMANENT",
-        "name": "LANDMARK_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "00X2MJ5ND28CP9VMSY8FKSYF8K",
-      "reference": "ALT_DUSTER_B_LY_102_C"
+      "translations": {
+        "en_US": {
+          "text": "Reka cable-cars are the safest way to get around the city.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Les funiculaires Reka sont le moyen le plus sûr pour se déplacer en ville.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Die Seilbahnen der Reka sind die sicherste Art, sich in der Stadt fortzubewegen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "La funivia Reka è il modo più sicuro di muoversi per la città.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Los teleféricos Reka son la forma más segura de moverse por la ciudad.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZM84D1ARZ7YQAC3XQHV1",
+      "text": "Reka cable-cars are the safest way to get around the city."
     }
   ],
   "cardType": {
     "reference": "LANDMARK_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente hito" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
+      "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+    },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
@@ -156,9 +164,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Anh Tung" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/JPG\/en_US\/6d40858e3871976d62af1d1da69014ff.jpg",
   "assets": {
     "WEB": [
@@ -170,7 +179,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_102_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_102",
   "reference": "ALT_DUSTER_B_LY_102_R2",
   "translations": {
     "de_DE": { "name": "Seilbahn-Station", "image": null, "locale": "de_DE" },

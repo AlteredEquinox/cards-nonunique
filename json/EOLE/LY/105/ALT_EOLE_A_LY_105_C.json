@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Surrender to the burn of true terror!",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Laisse-toi consumer par la vraie terreur ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KG2J8AF6J5CGCP61616Z6QRP",
-          "text": "Surrender to the burn of true terror!"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8AJYSGB7JKEJBDS76Y5H",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8AGEJDS75MS5ZECHQK13",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8ABYBN8KAEQ4V6DJDRVV",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8AD2ZYQ56T949R1JN4SV",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4EMZFMSD8R81AB6NMNTAEVGBGH",
-      "reference": "ALT_EOLE_A_LY_105_C"
+      "translations": {
+        "en_US": {
+          "text": "Surrender to the burn of true terror!",
+          "locale": "en_US"
+        },
+        "es_ES": {
+          "text": "«¡Que el verdadero terror te consuma!».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Laisse-toi consumer par la vraie terreur ! »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Ergib dich der heißen Glut der Angst!“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Lasciati consumare dal fuoco del vero terrore!",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KG2J8AF6J5CGCP61616Z6QRP",
+      "text": "Surrender to the burn of true terror!"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -244,6 +200,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "A-037",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Tristan Bideau" },
@@ -257,7 +214,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_LY_105_C",
   "isExclusive": true,
   "isOwnerless": true,
-  "cardFamilyReference": "LY_105",
   "reference": "ALT_EOLE_A_LY_105_C",
   "translations": {
     "fr_FR": {

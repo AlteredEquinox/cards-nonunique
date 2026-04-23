@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Behind the smiles and jubilation, I sense a growing tension…\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Derrière les sourires et la liesse, je sens une tension qui grandit... »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZSTM567C03KMYYNYTMX7",
-          "text": "\"Behind the smiles and jubilation, I sense a growing tension…\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6X2VB7ECAY8A8SK2GRFCD5Q7Q0",
-      "reference": "ALT_DUSTER_B_OR_93_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Dietro i sorrisi e il giubilo, sento crescere la tensione...\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"Behind the smiles and jubilation, I sense a growing tension…\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Derrière les sourires et la liesse, je sens une tension qui grandit... »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Hinter dem Lachen und dem Jubel spüre ich eine wachsende Anspannung …“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«Detrás de las sonrisas y el júbilo, percibo que se acrecienta la tensión…».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZSTM567C03KMYYNYTMX7",
+      "text": "\"Behind the smiles and jubilation, I sense a growing tension…\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -321,9 +329,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Tristan Bideau" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_93\/JPG\/en_US\/ef157912a1c58fdd33beaec19b71c0b9.jpg",
   "assets": {
     "WEB": [
@@ -336,7 +345,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_93_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_93",
   "reference": "ALT_DUSTER_B_OR_93_R2",
   "translations": {
     "it_IT": {

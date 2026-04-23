@@ -1,32 +1,31 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": { "text": "Comment ça, faute ?", "locale": "fr_FR" },
-            "en_US": { "text": "What foul?!", "locale": "en_US" }
-          },
-          "id": "01K4Z6KZK6F9HFQB757NGNYW4P",
-          "text": "What foul?!"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "06M2QF667Z9M4REZJ4BZGTJJQQ",
-      "reference": "ALT_DUSTEROP_B_YZ_89_C"
+      "translations": {
+        "it_IT": { "text": "Quale fallo?!", "locale": "it_IT" },
+        "fr_FR": { "text": "Comment ça, faute ?", "locale": "fr_FR" },
+        "en_US": { "text": "What foul?!", "locale": "en_US" },
+        "de_DE": { "text": "Welches Foul?!", "locale": "de_DE" },
+        "es_ES": { "text": "¡Árbitro, falta!", "locale": "es_ES" }
+      },
+      "id": "01K4Z6KZK6F9HFQB757NGNYW4P",
+      "text": "What foul?!"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -216,6 +215,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "006",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": { "nickName": "Justice Wong" },
@@ -231,7 +231,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_YZ_89_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_89",
   "reference": "ALT_DUSTEROP_P_YZ_89_C",
   "translations": {
     "it_IT": { "name": "Simulatore", "image": null, "locale": "it_IT" },

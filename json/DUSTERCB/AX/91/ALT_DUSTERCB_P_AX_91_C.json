@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Sap Cola! Pepsap! Guaranteed sugar-free!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Sap Cola ! Pepsap ! Garanti sans sucre ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA29VGXGRQ9DP6TJXRKVK",
-          "text": "\"Sap Cola! Pepsap! Guaranteed sugar-free!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "31EV8C1QRG8H9A6QQRVKNPBS93",
-      "reference": "ALT_DUSTERCB_P_AX_91_C"
+      "translations": {
+        "es_ES": {
+          "text": "«¡Savia Cola, Pepsavia! Sin azúcar, ¡garantizado!».",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "\"Gingerlinfa! Linfasoda! Senza zuccheri, garantito!\"",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "„Harz-Cola! Fant-Harz! Garantiert zuckerfrei!“",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"Sap Cola! Pepsap! Guaranteed sugar-free!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Sap Cola ! Pepsap ! Garanti sans sucre ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA29VGXGRQ9DP6TJXRKVK",
+      "text": "\"Sap Cola! Pepsap! Guaranteed sugar-free!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -191,6 +199,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "002",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -206,7 +215,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_AX_91_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_91",
   "reference": "ALT_DUSTERCB_P_AX_91_C",
   "translations": {
     "it_IT": {

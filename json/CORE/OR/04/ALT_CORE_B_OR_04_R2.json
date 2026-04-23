@@ -1,57 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Les paroles s'envolent, les écrits aussi.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Words mean more than what is set down on paper.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01HNJH5Z6BZCT55J4DG48EXCMC",
-          "text": "Words mean more than what is set down on paper."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "NOTICE D'UTILISATION\nRédigez votre message sur une ou plusieurs feuilles d'origami standards, format 15 x 15 cm ou 20 x 20 cm\nInscrivez au recto le nom de l'expéditeur\nInscrivez au verso le nom du destinataire\nRéalisez votre pliage conformément au département ou service à contacter (consultez la liste ci-jointe)\nApposez le Glyphe \"Vie\" sur le Héraut de Papier réalisé\nDonnez à l'oral vos instructions personnalisées\nNotifiez l'envoi à votre destinataire à travers votre Gestalt (procédure optionnelle)\n\nGrue                     Sanctum\nPélican                 Kurung\nLapin                    Havre\nTortue                   Tribunal\nColéoptère           Aegis\nAbeille                  Talaria\nFourmi                 Offices cléricaux\nGrenouille            Offices notariaux\nPapillon                Palais de l'Astérion\nLibellule               Guilde des Historiens\nFleur de Lotus      Refuge de l'Écorce\n\nPour consulter les codifications des sous-officines, référez-vous à la circulaire 80-PA1020.\n\nAttention : tout défaut de pliage peut entraîner une erreur de classement ou d'aiguillage, avec à la clé de potentiels retards de délivrance.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "INSTRUCTIONS\nWrite your message on one or more standard 15 x 15 cm or 20 x 20 cm origami sheets\nWrite the sender's name on the front\nWrite the recipient's name on the back\nFold it in compliance with the department or service being contacted (refer to attached list)\nAffix the \"Life\" Glyph on the completed Paper Herald\nGive personalized instructions orally\nNotify the recipient of the delivery through your Gestalt (optional)\n\nCrane                     Sanctum\nPelican                   Kurung\nRabbit                    Haven\nTortoise                 Court\nBeetle                    Aegis\nBee                       Talaria\nAnt                       Clerical offices\nFrog                     Notary offices\nButterfly                Asterion Palace\nDragonfly               Historians' Guild\nLotus Flower          Bark Refuge\n\nFor sub-office codes, refer to circular 80-PA1020.\n\nImportant: Any folding error could result in sorting or routing errors, leading to potential delivery delays.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01HNJH5Z7QATK2PVDFDT2C3PT3",
-          "text": "INSTRUCTIONS\nWrite your message on one or more standard 15 x 15 cm or 20 x 20 cm origami sheets\nWrite the sender's name on the front\nWrite the recipient's name on the back\nFold it in compliance with the department or service being contacted (refer to attached list)\nAffix the \"Life\" Glyph on the completed Paper Herald\nGive personalized instructions orally\nNotify the recipient of the delivery through your Gestalt (optional)\n\nCrane                     Sanctum\nPelican                   Kurung\nRabbit                    Haven\nTortoise                 Court\nBeetle                    Aegis\nBee                       Talaria\nAnt                       Clerical offices\nFrog                     Notary offices\nButterfly                Asterion Palace\nDragonfly               Historians' Guild\nLotus Flower          Bark Refuge\n\nFor sub-office codes, refer to circular 80-PA1020.\n\nImportant: Any folding error could result in sorting or routing errors, leading to potential delivery delays."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "01HNGY508XBE0RHFZF26V58AHA",
-      "reference": "ALT_CORE_B_OR_04_C"
+      "translations": {
+        "fr_FR": {
+          "text": "Les paroles s'envolent, les écrits aussi.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Worte bedeuten mehr als das, was auf dem Papier steht.",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "Las palabras dicen mucho más que lo que ves escrito en el papel.",
+          "locale": "es_ES"
+        },
+        "en_US": {
+          "text": "Words mean more than what is set down on paper.",
+          "locale": "en_US"
+        },
+        "it_IT": {
+          "text": "Le parole significano più di quanto è scritto sulla carta.",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01HNJH5Z6BZCT55J4DG48EXCMC",
+      "text": "Words mean more than what is set down on paper."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -205,9 +194,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_B_OR_04\/JPG\/en_US\/0b0738309bd1649c883a1bf1b1881112.jpg",
   "assets": {
     "WEB": [
@@ -220,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_B_OR_04_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_04",
   "reference": "ALT_CORE_B_OR_04_R2",
   "translations": {
     "fr_FR": {

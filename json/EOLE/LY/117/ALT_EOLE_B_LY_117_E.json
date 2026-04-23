@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« L'âme ne se rend pas au désespoir sans avoir épuisé toutes les illusions. » - Victor Hugo",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"The soul does not give itself up to despair until it has exhausted all illusions.\" – Victor Hugo",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HRHWCDF77P08QS2C1P32",
-          "text": "\"The soul does not give itself up to despair until it has exhausted all illusions.\" – Victor Hugo"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HRJW4K950J3DHJM4CZ91",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HRJ3Z50XDR8Y45TCCBC6",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HRHDWC4N3043ACDQ2MGF",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HRHNEK5D8W00GJE8BDGH",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7W75XP244M9PJR4E90YRRTJVQP",
-      "reference": "ALT_EOLE_B_LY_117_C"
+      "translations": {
+        "fr_FR": {
+          "text": "« L'âme ne se rend pas au désespoir sans avoir épuisé toutes les illusions. » - Victor Hugo",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "\"The soul does not give itself up to despair until it has exhausted all illusions.\" – Victor Hugo",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Die Seele ergibt sich der Verzweiflung nicht, ehe sie nicht alle Illusionen erschöpft hat.“ — Victor Hugo",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"L'anima non si abbandona alla disperazione se non dopo aver esaurito tutte le illusioni.\" — Victor Hugo",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«El alma no se rinde a la desesperación sin antes haber agotado todas las ilusiones». —Victor Hugo",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HRHWCDF77P08QS2C1P32",
+      "text": "\"The soul does not give itself up to despair until it has exhausted all illusions.\" – Victor Hugo"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -309,6 +265,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "048",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
@@ -323,7 +280,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_117_E",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "LY_117",
   "reference": "ALT_EOLE_B_LY_117_E",
   "translations": {
     "it_IT": {

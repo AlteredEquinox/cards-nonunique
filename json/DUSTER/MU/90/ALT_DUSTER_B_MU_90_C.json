@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"The Naos has been drained from intensive use!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Le Naos s'épuise à cause de l'exploitation intensive ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZPYHJ61CXW35EABQCCER",
-          "text": "\"The Naos has been drained from intensive use!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5R4GQYTDTN8ZDRQKYFV2TAYGG9",
-      "reference": "ALT_DUSTER_B_MU_90_C"
+      "translations": {
+        "en_US": {
+          "text": "\"The Naos has been drained from intensive use!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Le Naos s'épuise à cause de l'exploitation intensive ! »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Der Naos ist durch intensive Nutzung ausgelaugt!“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Il Naos è stato prosciugato da uno sfruttamento implacabile!\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¡El Naos se ha agotado a causa de su explotación intensiva!».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZPYHJ61CXW35EABQCCER",
+      "text": "\"The Naos has been drained from intensive use!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "064",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zaeliven" },
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_90_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_90",
   "reference": "ALT_DUSTER_B_MU_90_C",
   "translations": {
     "de_DE": {

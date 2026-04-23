@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"I can get in anywhere, VIP list or not.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Pas besoin d'être sur la liste VIP, j'ai toujours mes entrées. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZMWV01KWE4FYK381W42P",
-          "text": "\"I can get in anywhere, VIP list or not.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6FE67H19E6825SZW6T45Y0FWJ6",
-      "reference": "ALT_DUSTER_B_LY_90_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Posso entrare ovunque, lista VIP o no.\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"I can get in anywhere, VIP list or not.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Pas besoin d'être sur la liste VIP, j'ai toujours mes entrées. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Ich komme überall rein, egal ob auf der VIP-Liste oder nicht.“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«No me hace falta estar en la lista VIP. Tengo mis formas de entrar».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZMWV01KWE4FYK381W42P",
+      "text": "\"I can get in anywhere, VIP list or not.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -182,6 +190,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "042",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
@@ -197,7 +206,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_90_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_90",
   "reference": "ALT_DUSTER_B_LY_90_C",
   "translations": {
     "it_IT": {

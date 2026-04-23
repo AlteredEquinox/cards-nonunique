@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "She gets the substitutes fired up so they're ready to take the field.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Elle dynamise les remplaçants pour qu'ils soient prêts à aller sur le terrain.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA3Y9Z4VSB6XBKHFVHWYF",
-          "text": "She gets the substitutes fired up so they're ready to take the field."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "36FY29NBXP83C903KKNF80CB3Z",
-      "reference": "ALT_DUSTERCB_P_YZ_96_C"
+      "translations": {
+        "es_ES": {
+          "text": "Espabila a los suplentes para que estén listos para saltar al campo.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "Si assicura che le riserve siano cariche per scendere in campo.",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "Sie motiviert die Ersatzspieler, damit sie bereit für das Spielfeld sind.",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "She gets the substitutes fired up so they're ready to take the field.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Elle dynamise les remplaçants pour qu'ils soient prêts à aller sur le terrain.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA3Y9Z4VSB6XBKHFVHWYF",
+      "text": "She gets the substitutes fired up so they're ready to take the field."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "023",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_YZ_96_R1",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_96",
   "reference": "ALT_DUSTERCB_P_YZ_96_R1",
   "translations": {
     "es_ES": { "name": "Mascota del equipo", "image": null, "locale": "es_ES" },

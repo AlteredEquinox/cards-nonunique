@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "If the Juice gives life, then it must take it from somewhere.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Si le Suc rend la vie, il la puise forcément ailleurs.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA30S7B0WC0626BNTSMCQ",
-          "text": "If the Juice gives life, then it must take it from somewhere."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6E3VST6QRS92ET4WY2XAJ1KPGW",
-      "reference": "ALT_DUSTERCB_P_MU_88_C"
+      "translations": {
+        "es_ES": {
+          "text": "Si el Jugo da la vida, de algún lugar la tiene que sacar.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "Se il succo dà vita, da qualche parte deve pur prenderla.",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "Wenn der Saft Leben gibt, muss er es irgendwoher nehmen.",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "If the Juice gives life, then it must take it from somewhere.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Si le Suc rend la vie, il la puise forcément ailleurs.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA30S7B0WC0626BNTSMCQ",
+      "text": "If the Juice gives life, then it must take it from somewhere."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -261,6 +269,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "016",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -276,7 +285,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_MU_88_R1",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_88",
   "reference": "ALT_DUSTERCB_P_MU_88_R1",
   "translations": {
     "it_IT": { "name": "Botanica Muna", "image": null, "locale": "it_IT" },

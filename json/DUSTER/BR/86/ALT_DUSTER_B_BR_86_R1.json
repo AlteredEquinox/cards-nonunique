@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The second big jump is where the fun really starts.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "C'est à partir du deuxième saut qu'on prend son pied.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZK0Y2G9B8GSAZV0PFE1D",
-          "text": "The second big jump is where the fun really starts."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "50HT749TSH80Y86SFDRZBXZDEB",
-      "reference": "ALT_DUSTER_B_BR_86_C"
+      "translations": {
+        "en_US": {
+          "text": "The second big jump is where the fun really starts.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "C'est à partir du deuxième saut qu'on prend son pied.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Ab dem zweiten Sprung wird man erst richtig warm.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "È dal secondo salto che ci si diverte davvero.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Es a partir del segundo salto cuando de verdad empieza la diversión.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZK0Y2G9B8GSAZV0PFE1D",
+      "text": "The second big jump is where the fun really starts."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -191,9 +199,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Matteo Spirito" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/en_US\/fc4fbfd69812d9f6563375ffa57f1a59.jpg",
   "assets": {
     "WEB": [
@@ -206,7 +215,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_86_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_86",
   "reference": "ALT_DUSTER_B_BR_86_R1",
   "translations": {
     "en_US": {

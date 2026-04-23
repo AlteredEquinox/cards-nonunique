@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Basira’s husband has been called back to treat the wounded animals.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "L'époux de Basira a été rappelé pour s'occuper des animaux blessés.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HSZE1A0TJA2667FGBPBT",
-          "text": "Basira’s husband has been called back to treat the wounded animals."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HSZYY08AWBZY6R7GZ4N5",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HSZPA6RRK2EK9C0ZJTEH",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HSYXP4CB2Y7DMZNBMMA3",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HSZ6C9ZYKCHAWAD12WHW",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5PME46X7R19H0BC44XTR6GQNR1",
-      "reference": "ALT_EOLE_B_MU_116_C"
+      "translations": {
+        "en_US": {
+          "text": "Basira’s husband has been called back to treat the wounded animals.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "L'époux de Basira a été rappelé pour s'occuper des animaux blessés.",
+          "locale": "fr_FR"
+        },
+        "es_ES": {
+          "text": "Han reclamado al marido de Basira para tratar a los animales heridos.",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "Basiras Ehemann wurde zurückgerufen, um die verwundeten Tiere zu behandeln.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Il marito di Basira è stato richiamato per curare gli animali feriti.",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KC94HSZE1A0TJA2667FGBPBT",
+      "text": "Basira’s husband has been called back to treat the wounded animals."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -238,6 +194,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "066",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zaeliven" },
@@ -253,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_116_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "MU_116",
   "reference": "ALT_EOLE_B_MU_116_R1",
   "translations": {
     "en_US": {

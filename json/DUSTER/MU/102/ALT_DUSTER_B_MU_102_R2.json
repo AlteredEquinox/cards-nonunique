@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Patiently, the Reka waited for their new world tree to grow.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Patiemment, les Reka ont fait pousser leur nouvel arbre-monde.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZP6P89QEM5K5XRBRCX8N",
-          "text": "Patiently, the Reka waited for their new world tree to grow."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZP61FEFQ4613REH25WRT",
-        "reference": "LANDMARK_PERMANENT",
-        "name": "LANDMARK_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5CV14DNG7C8E18RV2T0J44G7PW",
-      "reference": "ALT_DUSTER_B_MU_102_C"
+      "translations": {
+        "en_US": {
+          "text": "Patiently, the Reka waited for their new world tree to grow.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Patiemment, les Reka ont fait pousser leur nouvel arbre-monde.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Geduldig warteten die Reka, bis ihr neuer Weltenbaum heranwuchs.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "I Reka hanno atteso con pazienza che crescesse il loro nuovo albero del mondo.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Pacientemente, los Reka esperaron a que creciera su nuevo árbol del mundo.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZP6P89QEM5K5XRBRCX8N",
+      "text": "Patiently, the Reka waited for their new world tree to grow."
     }
   ],
   "cardType": {
     "reference": "LANDMARK_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente hito" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
+      "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+    },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
@@ -253,9 +261,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/en_US\/5846e61e39b6f66e1fe9954b98d3843d.jpg",
   "assets": {
     "WEB": [
@@ -267,7 +276,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_102_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_102",
   "reference": "ALT_DUSTER_B_MU_102_R2",
   "translations": {
     "es_ES": { "name": "El Naos", "image": null, "locale": "es_ES" },

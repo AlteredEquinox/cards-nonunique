@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "There always comes a time to reap what we sow.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Vient toujours le temps de récolter le fruit de nos actions.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZQE378T881965GM52XR9",
-          "text": "There always comes a time to reap what we sow."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1G34V7ED948SH85DJ1GXW8SB6H",
-      "reference": "ALT_DUSTER_B_MU_94_C"
+      "translations": {
+        "en_US": {
+          "text": "There always comes a time to reap what we sow.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Vient toujours le temps de récolter le fruit de nos actions.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Es gibt immer eine Zeit, in der wir ernten, was wir säen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Arriva sempre il momento di raccogliere ciò che si semina.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Siempre llega el momento de recoger lo que se siembra.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZQE378T881965GM52XR9",
+      "text": "There always comes a time to reap what we sow."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,6 +194,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "058",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Bastien Jez" },
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_94_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_94",
   "reference": "ALT_DUSTER_B_MU_94_C",
   "translations": {
     "de_DE": { "name": "Reka-Sammler", "image": null, "locale": "de_DE" },

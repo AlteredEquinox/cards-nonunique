@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Those who stand without honor will fall without wings",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "À s'élever sans honneur, on a vite fait d'y perdre des plumes.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JNRGC1TW9G85C34XSKW56V0B",
-          "text": "Those who stand without honor will fall without wings"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1S54MQ3B0F9ZBB8BS9M14GG162",
-      "reference": "ALT_CYCLONE_B_OR_65_C"
+      "translations": {
+        "en_US": {
+          "text": "Those who stand without honor will fall without wings",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Wer ohne Ehre dasteht, wird ohne Flügel fallen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Chi cammina senza onore cadrà senza ali.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Aquellos sin honor caerán sin alas.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "À s'élever sans honneur, on a vite fait d'y perdre des plumes.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JNRGC1TW9G85C34XSKW56V0B",
+      "text": "Those who stand without honor will fall without wings"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -191,6 +199,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "073",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -210,7 +219,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CYCLONE_B_OR_65_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_65",
   "reference": "ALT_CYCLONE_B_OR_65_C",
   "translations": {
     "de_DE": {

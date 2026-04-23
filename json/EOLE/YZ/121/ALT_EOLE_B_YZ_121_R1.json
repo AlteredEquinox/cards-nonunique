@@ -1,87 +1,34 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« La peur ne passera pas ! »",
-              "locale": "fr_FR"
-            },
-            "en_US": { "text": "\"Fear shall not pass!\"", "locale": "en_US" }
-          },
-          "id": "01KC94HZX43TWAAWFS8ENMSF5C",
-          "text": "\"Fear shall not pass!\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HZY0XNEYPG0NYCHYZSPE",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HZXM7FRJEDRJSA2Y84ER",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HZV2VKS2M970FXMBY9SG",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HZVFGMKMYEC37DZEVRWY",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZP61FEFQ4613REH25WRT",
-        "reference": "LANDMARK_PERMANENT",
-        "name": "LANDMARK_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "19BW4S9GAK8THSFZZM4N7MFN6W",
-      "reference": "ALT_EOLE_B_YZ_121_C"
+      "translations": {
+        "fr_FR": { "text": "« La peur ne passera pas ! »", "locale": "fr_FR" },
+        "en_US": { "text": "\"Fear shall not pass!\"", "locale": "en_US" },
+        "de_DE": {
+          "text": "„Die Angst kommt hier nicht vorbei!“",
+          "locale": "de_DE"
+        },
+        "it_IT": { "text": "\"La paura non passerà!\"", "locale": "it_IT" },
+        "es_ES": { "text": "«¡El miedo no pasará!».", "locale": "es_ES" }
+      },
+      "id": "01KC94HZX43TWAAWFS8ENMSF5C",
+      "text": "\"Fear shall not pass!\""
     }
   ],
   "cardType": {
     "reference": "LANDMARK_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente hito" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
+      "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+    },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
@@ -326,6 +273,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "112",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
@@ -340,7 +288,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_121_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_121",
   "reference": "ALT_EOLE_B_YZ_121_R1",
   "translations": {
     "it_IT": {

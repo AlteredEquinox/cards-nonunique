@@ -1,90 +1,43 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« T'as pas d'autres chats à fouetter ? »",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"Time to let the cat out of the bag!\"",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HRSPYMWTV6Y7YDJ0ZB04",
-          "text": "\"Time to let the cat out of the bag!\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HRT4YZQX63F72099J6R8",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HRSXVHWJ5C9ZNEZKTW3Z",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HRQVJBB6A88FQE3CTSAY",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HRSFNH6NXXFVRRRCWXYW",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "25FVMRP4QE8MC8GH2XFVQ2RWSJ",
-      "reference": "ALT_EOLE_B_LY_120_C"
+      "translations": {
+        "fr_FR": {
+          "text": "« T'as pas d'autres chats à fouetter ? »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "\"Time to let the cat out of the bag!\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Zeit, die Katze aus dem Sack zu lassen!“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"È il momento di far uscire il gatto dal sacco!\"",
+          "locale": "it_IT"
+        },
+        "es_ES": { "text": "«No me des gato por liebre».", "locale": "es_ES" }
+      },
+      "id": "01KC94HRSPYMWTV6Y7YDJ0ZB04",
+      "text": "\"Time to let the cat out of the bag!\""
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -211,6 +164,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "052",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Gamon Studio" },
@@ -225,7 +179,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_120_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "LY_120",
   "reference": "ALT_EOLE_B_LY_120_R1",
   "translations": {
     "it_IT": {

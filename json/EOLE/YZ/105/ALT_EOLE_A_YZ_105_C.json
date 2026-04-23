@@ -1,90 +1,43 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Do you really want a staring contest?",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Vous voulez vraiment qu'on fasse un duel de regard ? »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KG2J8ESHPE3X4VJ54P7QEKEV",
-          "text": "Do you really want a staring contest?"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8EWHFF9HY6EC3JCJ4ETZ",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8ETAT6ANW54KTAPCE0NN",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8EP20RFD66XQ9T8T3H64",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8EQ1CHSJ65CFTPXW8AYB",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0NRDTEM5A591GT6BT9QZE48KKJ",
-      "reference": "ALT_EOLE_A_YZ_105_C"
+      "translations": {
+        "en_US": {
+          "text": "Do you really want a staring contest?",
+          "locale": "en_US"
+        },
+        "es_ES": {
+          "text": "«¿De verdad quieres que tengamos un duelo de miradas?».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Vous voulez vraiment qu'on fasse un duel de regard ? »",
+          "locale": "fr_FR"
+        },
+        "de_DE": { "text": "„Lust auf ein Blickduell?“", "locale": "de_DE" },
+        "it_IT": {
+          "text": "Vuoi davvero sfidarmi a chi distoglie lo sguardo per primo?",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KG2J8ESHPE3X4VJ54P7QEKEV",
+      "text": "Do you really want a staring contest?"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -241,6 +194,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "A-094",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -254,7 +208,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_YZ_105_C",
   "isExclusive": true,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_105",
   "reference": "ALT_EOLE_A_YZ_105_C",
   "translations": {
     "fr_FR": {

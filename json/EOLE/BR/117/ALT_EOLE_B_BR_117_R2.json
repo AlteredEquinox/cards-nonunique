@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Getting past me means going through hell—with no way back.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Vous passerez que d'une seule manière : de vie à trépas ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HQBNPDR0F6KRWWP6S1A7",
-          "text": "\"Getting past me means going through hell—with no way back.\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQBZ0B1FW03PBF5PASV7",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQBTESFSQJAXJ72N7VH9",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HQBATQE9T81KR13DC6AN",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQBFEMM0NVSBT2PHZQ8S",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0SZZPZ7M2097TA622REH21H1Q2",
-      "reference": "ALT_EOLE_B_BR_117_C"
+      "translations": {
+        "de_DE": {
+          "text": "„An mir vorbei heißt: durch die Hölle gehen, ohne Rückweg.“",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"Getting past me means going through hell—with no way back.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Vous passerez que d'une seule manière : de vie à trépas ! »",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "\"Chi vuole superarmi dovrà sfidare l'inferno, senza possibilità di ritorno.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«El único paso que daréis será el de la vida a la muerte».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HQBNPDR0F6KRWWP6S1A7",
+      "text": "\"Getting past me means going through hell—with no way back.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -238,6 +194,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "027",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
@@ -253,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_117_R2",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_117",
   "reference": "ALT_EOLE_B_BR_117_R2",
   "translations": {
     "it_IT": {

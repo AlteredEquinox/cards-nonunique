@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« Ne sais-tu pas que brebis qui bêle attire le loup ? »",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"When the wolf is at the door, the sheep are in danger.\"",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HSSA2TRXSXNGS2FGSM4X",
-          "text": "\"When the wolf is at the door, the sheep are in danger.\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HST1RFX31416GR30AYS1",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HSSM7GH7HJW8CMK66RQP",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HSRVDTC503W3E1R2E5YH",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HSS24VGGX0W7PAQFDJDN",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5CRA1JVBAC9RJBA9Q3GSAFYN4X",
-      "reference": "ALT_EOLE_B_MU_114_C"
+      "translations": {
+        "fr_FR": {
+          "text": "« Ne sais-tu pas que brebis qui bêle attire le loup ? »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "\"When the wolf is at the door, the sheep are in danger.\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Wenn der Wolf vor der Tür steht, zittern die Schafe.“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Quando il lupo è alle porte, le pecore sono in pericolo.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Oveja que bala... lobo que atrae».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HSSA2TRXSXNGS2FGSM4X",
+      "text": "\"When the wolf is at the door, the sheep are in danger.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -201,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "067",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Victor Canton" },
@@ -216,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_114_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "MU_114",
   "reference": "ALT_EOLE_B_MU_114_C",
   "translations": {
     "de_DE": {

@@ -1,90 +1,40 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Bon, revenons à nos moutons.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"Yes, I know I look a little sheepish.\"",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HTR23K374RJ5R13GGFEJ",
-          "text": "\"Yes, I know I look a little sheepish.\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTRNR2ZNTNY607PS9C59",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTRC234P4GG7GCDDFN4G",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTP6B4NTZWSVGYHBNQB6",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTQMF1555S76FXTXPEKR",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
-        "reference": "TOKEN",
-        "name": "Token"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4BFG3WKZXC8FG8R5A9CP72WHPR",
-      "reference": "ALT_EOLE_B_MU_83_C"
+      "translations": {
+        "fr_FR": { "text": "Bon, revenons à nos moutons.", "locale": "fr_FR" },
+        "en_US": {
+          "text": "\"Yes, I know I look a little sheepish.\"",
+          "locale": "en_US"
+        },
+        "de_DE": { "text": "„Garantiert 100 % Wolle.“", "locale": "de_DE" },
+        "it_IT": {
+          "text": "\"Sì, lo so che ricordo vagamente una pecora.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Oveja que duerme, se la lleva la corriente.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HTR23K374RJ5R13GGFEJ",
+      "text": "\"Yes, I know I look a little sheepish.\""
     }
   ],
   "cardType": {
     "reference": "TOKEN",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha de personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Pedina Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Marken-Charakter" },
+      "en_US": { "locale": "en_US", "name": "Token Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Personnage" }
+    },
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
@@ -183,6 +133,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "114",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Seppyo" },
@@ -196,7 +147,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_83_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "MU_83",
   "reference": "ALT_EOLE_B_MU_83_C",
   "translations": {
     "fr_FR": {

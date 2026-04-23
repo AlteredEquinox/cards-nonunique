@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"The more I visit this city, the more I love it.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Plus je la visite, plus cette cité me passionne. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA3A6RM0DVTM4CZGG1ET0",
-          "text": "\"The more I visit this city, the more I love it.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1ZK9MBWS1793MSEFGP3H8PH6YX",
-      "reference": "ALT_DUSTERCB_P_OR_90_C"
+      "translations": {
+        "es_ES": {
+          "text": "«Cuanto más visito esta ciudad, más me gusta».",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "\"Più visito questa città, più mi piace.\"",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "„Je öfter ich diese Stadt besuche, desto mehr verliebe ich mich in sie.“",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"The more I visit this city, the more I love it.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Plus je la visite, plus cette cité me passionne. »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA3A6RM0DVTM4CZGG1ET0",
+      "text": "\"The more I visit this city, the more I love it.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -154,6 +162,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "017",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -169,7 +178,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_OR_90_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_90",
   "reference": "ALT_DUSTERCB_P_OR_90_C",
   "translations": {
     "es_ES": { "name": "Turista de Ordis", "image": null, "locale": "es_ES" },

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "If the Juice gives life, then it must take it from somewhere.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Si le Suc rend la vie, il la puise forcément ailleurs.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZPPK1X6K1TRCAPJ0TPVS",
-          "text": "If the Juice gives life, then it must take it from somewhere."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0EGC56HW6W8DZ8H69DTP815H1S",
-      "reference": "ALT_DUSTER_B_MU_88_C"
+      "translations": {
+        "en_US": {
+          "text": "If the Juice gives life, then it must take it from somewhere.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Si le Suc rend la vie, il la puise forcément ailleurs.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Wenn der Saft Leben gibt, muss er es irgendwoher nehmen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Se il succo dà vita, da qualche parte deve pur prenderla.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Si el Jugo da la vida, de algún lugar la tiene que sacar.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZPPK1X6K1TRCAPJ0TPVS",
+      "text": "If the Juice gives life, then it must take it from somewhere."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -261,9 +269,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Matteo Spirito" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_88\/JPG\/en_US\/1b6dbeed370dc768dfa415b58285100f.jpg",
   "assets": {
     "WEB": [
@@ -276,7 +285,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_88_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_88",
   "reference": "ALT_DUSTER_B_MU_88_R2",
   "translations": {
     "de_DE": { "name": "Muna-Botanikerin", "image": null, "locale": "de_DE" },

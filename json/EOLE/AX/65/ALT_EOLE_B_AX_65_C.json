@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "C'est à la science d'être au service du peuple, pas l'inverse.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Science's role is to serve the people, not the other way around",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HPS6VPJRQTE02MVBK9MZ",
-          "text": "Science's role is to serve the people, not the other way around"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPSFF5EQ7DV3878RAYFP",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPSB713PA8P862S0Q5TF",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPRTHSA3GMTV6PHAWZ24",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HPS05FWGJ2BJ6WS3XJZK",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2P5V8D31M49ZWT1GAZV4WM13YD",
-      "reference": "ALT_EOLE_B_AX_65_C"
+      "translations": {
+        "de_DE": {
+          "text": "Wissenschaft soll den Menschen dienen, nicht umgekehrt.",
+          "locale": "de_DE"
+        },
+        "fr_FR": {
+          "text": "C'est à la science d'être au service du peuple, pas l'inverse.",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "La scienza deve servire il popolo, non il contrario.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "La ciencia está al servicio de las personas, no al revés.",
+          "locale": "es_ES"
+        },
+        "en_US": {
+          "text": "Science's role is to serve the people, not the other way around",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KC94HPS6VPJRQTE02MVBK9MZ",
+      "text": "Science's role is to serve the people, not the other way around"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -205,6 +161,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "001",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
@@ -224,7 +181,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_65_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "AX_65",
   "reference": "ALT_EOLE_B_AX_65_C",
   "translations": {
     "it_IT": {

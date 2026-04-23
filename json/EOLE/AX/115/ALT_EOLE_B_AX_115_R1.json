@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Everything contains a need to grow, be it a grain of rice or human being.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "La soif de croître existe en toute chose, du grain de riz à l'être humain.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HPJKDPATQXRX5CSQ9Y4R",
-          "text": "Everything contains a need to grow, be it a grain of rice or human being."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPJTT4YWDHY2GYKXM2D3",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPJPGBCNSTW9FV6H49F3",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPJCA34YPYC6J38QH6KD",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPJFYHZKXER11HY2SG4V",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3NGZ4Z2V3A95TTXMTX4Q91Q0SK",
-      "reference": "ALT_EOLE_B_AX_115_C"
+      "translations": {
+        "en_US": {
+          "text": "Everything contains a need to grow, be it a grain of rice or human being.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Alles will wachsen, ein Reiskorn genauso wie ein Mensch.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Ogni cosa ha in sé il desiderio di crescere, che sia un chicco di riso o un essere umano.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "El deseo de crecer existe en todas las cosas, desde un grano de arroz hasta un ser humano.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "La soif de croître existe en toute chose, du grain de riz à l'être humain.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KC94HPJKDPATQXRX5CSQ9Y4R",
+      "text": "Everything contains a need to grow, be it a grain of rice or human being."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -243,6 +199,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "013",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Julien Carrasco" },
@@ -258,7 +215,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_115_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "AX_115",
   "reference": "ALT_EOLE_B_AX_115_R1",
   "translations": {
     "it_IT": {

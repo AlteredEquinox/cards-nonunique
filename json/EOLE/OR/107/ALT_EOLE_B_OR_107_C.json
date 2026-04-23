@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Elles ont toujours inspiré la peur. En bande, elles inspirent l'épouvante.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "They have always instilled fear. As a group, they instill terror.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HV1VKT1CDZ92DATPN91J",
-          "text": "They have always instilled fear. As a group, they instill terror."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HV2D25P38FM0GV8DW8G6",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV24J6REEEAT7MTCT9W1",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV1871H1H17QB9PMZA51",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HV1JPBH9Z0MZ6C55FC8A",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "61ZKNQ3ZTR9H7B3TMN0599XQXF",
-      "reference": "ALT_EOLE_B_OR_107_C"
+      "translations": {
+        "fr_FR": {
+          "text": "Elles ont toujours inspiré la peur. En bande, elles inspirent l'épouvante.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "They have always instilled fear. As a group, they instill terror.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Unheimlich waren sie schon immer. Als Gruppe sind sie reiner Terror.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Hanno sempre instillato paura. In gruppo, però, scatenano il terrore.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Siempre han inspirado miedo, pero, en bandada, inspiran terror.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HV1VKT1CDZ92DATPN91J",
+      "text": "They have always instilled fear. As a group, they instill terror."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -318,6 +274,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "080",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -333,7 +290,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_107_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_107",
   "reference": "ALT_EOLE_B_OR_107_C",
   "translations": {
     "fr_FR": {

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Parasitic or symbiotic, life will always find a way to blossom... like this algae.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Parasitisme ou symbiose, la vie trouve toujours un moyen d'éclore.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01J3JJ6ASQCCX9CFRMGKAMY87Z",
-          "text": "Parasitic or symbiotic, life will always find a way to blossom... like this algae."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1CH80TG4S9839A956T5PAM9NCV",
-      "reference": "ALT_ALIZE_A_MU_35_C"
+      "translations": {
+        "en_US": {
+          "text": "Parasitic or symbiotic, life will always find a way to blossom... like this algae.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Parasitisme ou symbiose, la vie trouve toujours un moyen d'éclore.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Ob Parasitismus oder Symbiose, das Leben findet immer seinen Weg, so wie diese Algen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Parassitismo o simbiosi, la vita troverà sempre un modo per sbocciare, come questa alga.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Con parasitismo o simbiosis, la vida siempre encontrará una forma de florecer, como esta alga.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01J3JJ6ASQCCX9CFRMGKAMY87Z",
+      "text": "Parasitic or symbiotic, life will always find a way to blossom... like this algae."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "058",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_A_MU_35_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_35",
   "reference": "ALT_ALIZE_A_MU_35_C",
   "translations": {
     "de_DE": {

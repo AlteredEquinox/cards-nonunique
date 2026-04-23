@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "This way, we're all on the same wavelength.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Pour rester sur la même longueur d'ondes.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZM5BJCW1Z3GBNH20HAS9",
-          "text": "This way, we're all on the same wavelength."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZ2WM1WQ8ARN68RNGJZCB",
-        "reference": "EXPEDITION_PERMANENT",
-        "name": "EXPEDITION_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0H25H3N1C48VE9130T1JHGKS8Q",
-      "reference": "ALT_DUSTER_B_LY_101_C"
+      "translations": {
+        "en_US": {
+          "text": "This way, we're all on the same wavelength.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Pour rester sur la même longueur d'ondes.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "So bleiben wir alle auf einer Wellenlänge.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Così siamo tutti sulla stessa lunghezza d'onda.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Para que estemos todos en la misma onda.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZM5BJCW1Z3GBNH20HAS9",
+      "text": "This way, we're all on the same wavelength."
     }
   ],
   "cardType": {
     "reference": "EXPEDITION_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente de expedición" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Spedizione" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Expeditionskarte" },
+      "en_US": { "locale": "en_US", "name": "Expedition Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent d’Expédition" }
+    },
     "id": "01J1Q7ASAYXTSM3DH772C70PV5",
     "name": "Expedition Permanent"
   },
@@ -193,6 +201,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "053",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "HuoMiao Studio" },
@@ -207,7 +216,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_101_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_101",
   "reference": "ALT_DUSTER_B_LY_101_C",
   "translations": {
     "de_DE": { "name": "Reka-Headset", "image": null, "locale": "de_DE" },

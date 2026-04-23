@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Ladies and gentlemen, you are about to experience some turbulence.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Mesdames, messieurs, vous traversez actuellement ma zone de turbulences. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA2G65X03RGDMW4N89G6C",
-          "text": "\"Ladies and gentlemen, you are about to experience some turbulence.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7BWM2Q0W369WQA4N3VM737AZC6",
-      "reference": "ALT_DUSTERCB_P_BR_91_C"
+      "translations": {
+        "es_ES": {
+          "text": "«Vamos a atravesar una zona de turbulencias... ¡Las mías!».",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "\"Signore e signori, state per attraversare una turbolenza. Non c'è bisogno di ringraziarmi.\"",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "„Meine Damen und Herren, machen Sie sich auf Turbulenzen gefasst. Durch mich.“",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"Ladies and gentlemen, you are about to experience some turbulence.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Mesdames, messieurs, vous traversez actuellement ma zone de turbulences. »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA2G65X03RGDMW4N89G6C",
+      "text": "\"Ladies and gentlemen, you are about to experience some turbulence.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -191,6 +199,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "008",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -206,7 +215,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_BR_91_R1",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_91",
   "reference": "ALT_DUSTERCB_P_BR_91_R1",
   "translations": {
     "fr_FR": {

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Not a failure; just another step towards success.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Pas un échec. Juste un pas de plus vers la réussite.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJHJ35GDNX7EQJ1ZTCS0",
-          "text": "Not a failure; just another step towards success."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "23ZZVMAKR897FR0CG7ANWT1HAM",
-      "reference": "ALT_DUSTER_B_AX_97_C"
+      "translations": {
+        "en_US": {
+          "text": "Not a failure; just another step towards success.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Pas un échec. Juste un pas de plus vers la réussite.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Jeder Misserfolg ist nur ein weiterer Schritt zum Erfolg.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Non è un fallimento, ma soltanto un altro passo verso il successo.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "No es un fracaso, sino un paso más hacia el éxito.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZJHJ35GDNX7EQJ1ZTCS0",
+      "text": "Not a failure; just another step towards success."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -182,9 +190,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_97\/JPG\/en_US\/71e8deaa8eff00677c8d3b8f23de1bbc.jpg",
   "assets": {
     "WEB": [
@@ -196,7 +205,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_97_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_97",
   "reference": "ALT_DUSTER_B_AX_97_R2",
   "translations": {
     "en_US": {

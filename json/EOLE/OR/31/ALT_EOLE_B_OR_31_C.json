@@ -1,87 +1,43 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« Je dois retrouver ma sœur... »",
-              "locale": "fr_FR"
-            },
-            "en_US": { "text": "\"I must find my sister…\"", "locale": "en_US" }
-          },
-          "id": "01KC94HX0AVHY6ZA0JWKNK3AQC",
-          "text": "\"I must find my sister…\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HX106018T99YW6SCZAQC",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HX0NVBFDJPXE2EXQYAW4",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWZERR0YVCZZE3HSQ50J",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HX00P9PDH8ERNE0EECBQ",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
-        "reference": "TOKEN",
-        "name": "Token"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "75GGC238FT9VPSHB8V953CS3NG",
-      "reference": "ALT_EOLE_B_OR_31_C"
+      "translations": {
+        "fr_FR": {
+          "text": "« Je dois retrouver ma sœur... »",
+          "locale": "fr_FR"
+        },
+        "en_US": { "text": "\"I must find my sister…\"", "locale": "en_US" },
+        "de_DE": {
+          "text": "„Ich muss meine Schwester finden …“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Devo trovare mia sorella...\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Tengo que encontrar a mi hermana…».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HX0AVHY6ZA0JWKNK3AQC",
+      "text": "\"I must find my sister…\""
     }
   ],
   "cardType": {
     "reference": "TOKEN",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha de personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Pedina Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Marken-Charakter" },
+      "en_US": { "locale": "en_US", "name": "Token Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Personnage" }
+    },
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
@@ -180,6 +136,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "116",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
@@ -193,7 +150,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_31_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_31",
   "reference": "ALT_EOLE_B_OR_31_C",
   "translations": {
     "de_DE": {

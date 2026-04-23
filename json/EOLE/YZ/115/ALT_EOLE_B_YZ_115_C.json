@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Falsehoods behind the mask, hidden under the guise of truth…",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Des mensonges, sous le masque de la vérité...",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HYW288TDEKY4WTQGDTQA",
-          "text": "Falsehoods behind the mask, hidden under the guise of truth…"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HYYHVT80TDTNN8206FJ5",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HYWGJETTFXTYE3T6Y57A",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HYVBDG9APRVG462KYC3R",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HYVQQ9FBSXTBW35NZ5E3",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4JN3RPSK419M5BVSWWPNVNSF01",
-      "reference": "ALT_EOLE_B_YZ_115_C"
+      "translations": {
+        "en_US": {
+          "text": "Falsehoods behind the mask, hidden under the guise of truth…",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Des mensonges, sous le masque de la vérité...",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Lügen im Gewand der Wahrheit …",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Menzogne, sotto le spoglie della verità...",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Mentiras, bajo la apariencia de verdades...",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HYW288TDEKY4WTQGDTQA",
+      "text": "Falsehoods behind the mask, hidden under the guise of truth…"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -323,6 +279,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "106",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
@@ -338,7 +295,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_115_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_115",
   "reference": "ALT_EOLE_B_YZ_115_C",
   "translations": {
     "en_US": {

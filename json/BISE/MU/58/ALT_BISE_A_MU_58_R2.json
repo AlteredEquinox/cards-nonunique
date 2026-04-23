@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Notre mascotte est toujours dispo pour quelques selfies.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Our mascot will always be available for a few selfies.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JBT1A3YQXEFAQP0GJ4DCR6VX",
-          "text": "Our mascot will always be available for a few selfies."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "379B93XKEQ8A9VQ23MAQ5DZ3GW",
-      "reference": "ALT_BISE_A_MU_58_C"
+      "translations": {
+        "es_ES": {
+          "text": "Nuestra mascota siempre estará disponible para unos cuantos selfis.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Notre mascotte est toujours dispo pour quelques selfies.",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "La nostra mascotte sarà sempre disponibile per qualche selfie.",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "Our mascot will always be available for a few selfies.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Unser Maskottchen steht gerne für Selfies bereit.",
+          "locale": "de_DE"
+        }
+      },
+      "id": "01JBT1A3YQXEFAQP0GJ4DCR6VX",
+      "text": "Our mascot will always be available for a few selfies."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -299,6 +307,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "063",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -314,7 +323,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_A_MU_58_R2",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_58",
   "reference": "ALT_BISE_A_MU_58_R2",
   "translations": {
     "it_IT": {

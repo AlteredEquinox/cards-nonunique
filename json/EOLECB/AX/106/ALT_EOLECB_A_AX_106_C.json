@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Perfect for slipping under the radar.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Parfaite pour passer sous les radars.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KHBKDK51TKW4VTA487WHCPMD",
-          "text": "Perfect for slipping under the radar."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "659S93NYJ28NC9X9YTXEB1MB5W",
-      "reference": "ALT_EOLECB_A_AX_106_C"
+      "translations": {
+        "en_US": {
+          "text": "Perfect for slipping under the radar.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Parfaite pour passer sous les radars.",
+          "locale": "fr_FR"
+        },
+        "es_ES": {
+          "text": "Expertas en pasar desapercibidas.",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "Perfekt, um unterm Radar zu bleiben.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Ideale per passare inosservati.",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KHBKDK51TKW4VTA487WHCPMD",
+      "text": "Perfect for slipping under the radar."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "V-002",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Khoa Viet" },
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLECB_A_AX_106_C",
   "isExclusive": true,
   "isOwnerless": true,
-  "cardFamilyReference": null,
   "reference": "ALT_EOLECB_A_AX_106_C",
   "translations": {
     "en_US": {

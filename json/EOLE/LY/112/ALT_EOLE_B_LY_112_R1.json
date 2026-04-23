@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Le rubis sur son front ? Plutôt un charbon ardent.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Is that a ruby on its forehead or a burning lump of coal?",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HR78T3ZRQ0S5V4H5KQ3F",
-          "text": "Is that a ruby on its forehead or a burning lump of coal?"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HR7R79P06X13V9KD2TXR",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HR7GJ8DCBV83STHBQ7EF",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HR6NVQ7KGAYEH3QPMT5E",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HR6ZNZK1MNX37ZRY1Q7X",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3J1NRYHGDA810A1KPPTD7STVSH",
-      "reference": "ALT_EOLE_B_LY_112_C"
+      "translations": {
+        "fr_FR": {
+          "text": "Le rubis sur son front ? Plutôt un charbon ardent.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Is that a ruby on its forehead or a burning lump of coal?",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Ist das ein Rubin auf seiner Stirn oder glühende Kohle?",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Sulla fronte ha un rubino o un tizzone di carbone ardente?",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "¿Ese rubí que lleva en la frente? Solo es un carbón al rojo vivo.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HR78T3ZRQ0S5V4H5KQ3F",
+      "text": "Is that a ruby on its forehead or a burning lump of coal?"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -243,6 +199,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "041",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -258,7 +215,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_LY_112_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "LY_112",
   "reference": "ALT_EOLE_B_LY_112_R1",
   "translations": {
     "it_IT": {

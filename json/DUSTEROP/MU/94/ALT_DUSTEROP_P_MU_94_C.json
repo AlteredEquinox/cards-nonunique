@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "There always comes a time to reap what we sow.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Vient toujours le temps de récolter le fruit de nos actions.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZCPKB61X0ZKFPMR1SB7",
-          "text": "There always comes a time to reap what we sow."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7H11HB41KN8P98KJT1S6SG68KZ",
-      "reference": "ALT_DUSTEROP_B_MU_94_C"
+      "translations": {
+        "en_US": {
+          "text": "There always comes a time to reap what we sow.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Es gibt immer eine Zeit, in der wir ernten, was wir säen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Arriva sempre il momento di raccogliere ciò che si semina.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Siempre llega el momento de recoger lo que se siembra.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Vient toujours le temps de récolter le fruit de nos actions.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZCPKB61X0ZKFPMR1SB7",
+      "text": "There always comes a time to reap what we sow."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,6 +194,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "004",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": { "nickName": "Bastien Jez" },
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_MU_94_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_94",
   "reference": "ALT_DUSTEROP_P_MU_94_C",
   "translations": {
     "es_ES": { "name": "Recolector reka", "image": null, "locale": "es_ES" },

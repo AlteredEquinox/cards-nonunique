@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "HashtagDanceTillUDrop HashtagOzmaLoveLove",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "HashtagDanceTillUDrop HashtagOzmaCœurCœur",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZHYRDJB4JV9642KYY2K4",
-          "text": "HashtagDanceTillUDrop HashtagOzmaLoveLove"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2HSVGGMZM69CATZTJEZCH6ZHRJ",
-      "reference": "ALT_DUSTER_B_AX_86_C"
+      "translations": {
+        "en_US": {
+          "text": "HashtagDanceTillUDrop HashtagOzmaLoveLove",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "HashtagDanceTillUDrop HashtagOzmaHerzHerz",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "HashtagBallaFinoAllAlba HashtagCuoriciniPerOzma",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "HashtagBailaHastaReventar HashtagOzmaAmorAmor",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "HashtagDanceTillUDrop HashtagOzmaCœurCœur",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JZ37ZHYRDJB4JV9642KYY2K4",
+      "text": "HashtagDanceTillUDrop HashtagOzmaLoveLove"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -154,9 +162,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_86\/JPG\/en_US\/5cf90a0a6dd934be35dd577841c9ef20.jpg",
   "assets": {
     "WEB": [
@@ -169,7 +178,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_86_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_86",
   "reference": "ALT_DUSTER_B_AX_86_R1",
   "translations": {
     "de_DE": { "name": "Tik-Tok", "image": null, "locale": "de_DE" },

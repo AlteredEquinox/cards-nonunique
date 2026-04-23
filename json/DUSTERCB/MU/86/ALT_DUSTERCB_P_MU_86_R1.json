@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The pleasure of giving, the joy of receiving.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Plaisir d'offrir, joie de recevoir.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA2ZEY2YCF2EKG79VA266",
-          "text": "The pleasure of giving, the joy of receiving."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0VBE3ZBJGD8JXAC5WN8JW8B3QG",
-      "reference": "ALT_DUSTERCB_P_MU_86_C"
+      "translations": {
+        "es_ES": {
+          "text": "El placer de dar, la alegría de recibir.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "Il piacere di dare, la gioia di ricevere.",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "Die Freude am Geben, die Freude am Empfangen.",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "The pleasure of giving, the joy of receiving.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Plaisir d'offrir, joie de recevoir.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA2ZEY2YCF2EKG79VA266",
+      "text": "The pleasure of giving, the joy of receiving."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -191,6 +199,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "015",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -206,7 +215,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_MU_86_R1",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_86",
   "reference": "ALT_DUSTERCB_P_MU_86_R1",
   "translations": {
     "it_IT": {

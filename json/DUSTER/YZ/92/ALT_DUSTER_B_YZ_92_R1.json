@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The art of surprise is showing up where you're not expected.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "L'art de la surprise, c'est d'être là où on ne vous attend pas.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZWYBFZZ9XH3WKNYB1XQA",
-          "text": "The art of surprise is showing up where you're not expected."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5KMZS8X6TN9XSAVWWC3AEDQDDH",
-      "reference": "ALT_DUSTER_B_YZ_92_C"
+      "translations": {
+        "en_US": {
+          "text": "The art of surprise is showing up where you're not expected.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "L'art de la surprise, c'est d'être là où on ne vous attend pas.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Die Kunst der Überraschung besteht darin, dort aufzutauchen, wo man am wenigsten erwartet wird.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "L'arte della sorpresa è presentarsi dove nessuno ti aspetta.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "El arte de la sorpresa consiste en aparecer donde no se te espera.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZWYBFZZ9XH3WKNYB1XQA",
+      "text": "The art of surprise is showing up where you're not expected."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -239,9 +247,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Gamon Studio" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_92\/JPG\/en_US\/37bfab8acf965a7e5c789cb0c3e7b86e.jpg",
   "assets": {
     "WEB": [
@@ -254,7 +263,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_92_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_92",
   "reference": "ALT_DUSTER_B_YZ_92_R1",
   "translations": {
     "es_ES": { "name": "Mochizuki Chiyome", "image": null, "locale": "es_ES" },

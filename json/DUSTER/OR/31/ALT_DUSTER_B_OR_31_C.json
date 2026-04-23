@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "There's no age limit on adventure.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Il n'y a pas d'âge pour l'aventure.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K3R4KPZJHVB5ZENAQTNZWH65",
-          "text": "There's no age limit on adventure."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
-        "reference": "TOKEN",
-        "name": "Token"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4P3FCJN6KG97JVEECG1TMQW9E7",
-      "reference": "ALT_DUSTER_B_OR_31_C"
+      "translations": {
+        "en_US": {
+          "text": "There's no age limit on adventure.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Il n'y a pas d'âge pour l'aventure.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Es gibt keine Altersbegrenzung fürs Abenteuer.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Non ci sono limiti di età per l'avventura.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "No hay límite de edad para la aventura.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01K3R4KPZJHVB5ZENAQTNZWH65",
+      "text": "There's no age limit on adventure."
     }
   ],
   "cardType": {
     "reference": "TOKEN",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha de personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Pedina Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Marken-Charakter" },
+      "en_US": { "locale": "en_US", "name": "Token Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Personnage" }
+    },
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
@@ -131,6 +139,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "111",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Nestor Papatriantafyllou" },
@@ -144,7 +153,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_31_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_31",
   "reference": "ALT_DUSTER_B_OR_31_C",
   "translations": {
     "it_IT": { "name": "Recluta Ordis", "image": null, "locale": "it_IT" },

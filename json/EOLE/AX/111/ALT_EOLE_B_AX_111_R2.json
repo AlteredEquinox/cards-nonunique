@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Building walls, to keep the monsters at bay.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Ériger des murs, pour garder les monstres au-dehors.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HPG2MDWW5BJAM68J0FFE",
-          "text": "Building walls, to keep the monsters at bay."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPG85V7149RZAA2G7FAE",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPG50KH12N9W31YVZAWQ",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPFV44HKZVABPAFPVNZY",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPFZTA06CMNDW04ZPFE3",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0SVQ9ES1N49EXVRFP1ZCBCEQ8X",
-      "reference": "ALT_EOLE_B_AX_111_C"
+      "translations": {
+        "en_US": {
+          "text": "Building walls, to keep the monsters at bay.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Wir errichten Mauern, um Monster fernzuhalten.",
+          "locale": "de_DE"
+        },
+        "fr_FR": {
+          "text": "Ériger des murs, pour garder les monstres au-dehors.",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "Erigiamo mura per respingere i mostri.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Para mantener a raya a los monstruos, se han de erigir muros.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HPG2MDWW5BJAM68J0FFE",
+      "text": "Building walls, to keep the monsters at bay."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -238,6 +194,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "007",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
@@ -253,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_111_R2",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "AX_111",
   "reference": "ALT_EOLE_B_AX_111_R2",
   "translations": {
     "it_IT": {

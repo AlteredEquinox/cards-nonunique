@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The weight of duty is sometimes so great that such interludes feel like salvation…",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "De tels intermèdes sont parfois salvateurs...",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZ8NVC56NSZQRVEY5CC3",
-          "text": "The weight of duty is sometimes so great that such interludes feel like salvation…"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0H7W9470898R4RJTZAPW03CHH8",
-      "reference": "ALT_DUSTEROP_B_LY_100_C"
+      "translations": {
+        "de_DE": {
+          "text": "Die auf uns lastende Pflicht ist manchmal so groß, dass sich solche Momente wie eine Erlösung anfühlen …",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "El peso del deber es tal que, en ocasiones, estos interludios se viven como una verdadera salvación.",
+          "locale": "es_ES"
+        },
+        "en_US": {
+          "text": "The weight of duty is sometimes so great that such interludes feel like salvation…",
+          "locale": "en_US"
+        },
+        "it_IT": {
+          "text": "A volte il peso del dovere è così opprimente che interludi come questo sembrano una salvezza...",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "De tels intermèdes sont parfois salvateurs...",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZ8NVC56NSZQRVEY5CC3",
+      "text": "The weight of duty is sometimes so great that such interludes feel like salvation…"
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -159,6 +167,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "016",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Gamon Studio" },
@@ -173,7 +182,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_A_LY_100_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_100",
   "reference": "ALT_DUSTEROP_A_LY_100_C",
   "translations": {
     "fr_FR": {

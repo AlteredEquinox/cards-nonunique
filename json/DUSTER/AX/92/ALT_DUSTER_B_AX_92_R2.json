@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "In the wild rush to find new uses for Manaseeds, it seems the sky's the limit…",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "La course folle aux utilisations des Graines de Mana ne semblait pas connaître de limite.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJ8DXG3MVMS5ECM6QH63",
-          "text": "In the wild rush to find new uses for Manaseeds, it seems the sky's the limit…"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "31KVS5FCZD973AQ79Y65C94VKW",
-      "reference": "ALT_DUSTER_B_AX_92_C"
+      "translations": {
+        "en_US": {
+          "text": "In the wild rush to find new uses for Manaseeds, it seems the sky's the limit…",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "La course folle aux utilisations des Graines de Mana ne semblait pas connaître de limite.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Die Suche nach neuen Einsatzformen für Manasaaten kennt keine Grenzen …",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Nella frenetica ricerca di nuovi utilizzi per i semi di mana, sembra che non ci siano limiti...",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "La desenfrenada carrera por encontrar nuevos usos para las semillas de maná parecía no tener límites…",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZJ8DXG3MVMS5ECM6QH63",
+      "text": "In the wild rush to find new uses for Manaseeds, it seems the sky's the limit…"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,9 +194,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Victor Canton" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_92\/JPG\/en_US\/458061152935084dbb6fd97adfeef986.jpg",
   "assets": {
     "WEB": [
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_92_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_92",
   "reference": "ALT_DUSTER_B_AX_92_R2",
   "translations": {
     "es_ES": { "name": "Bioingeniera reka", "image": null, "locale": "es_ES" },

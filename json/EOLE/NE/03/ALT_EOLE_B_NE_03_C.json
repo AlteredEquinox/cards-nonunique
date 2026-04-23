@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Its energy field even affects the Aether.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Son champ énergétique affecte même l'Éther.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HTVE0VXVVJGB982KM2WA",
-          "text": "Its energy field even affects the Aether."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTW0HZD7XJ0CN2HA6F25",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HTVQCGD7W34C647B3VT9",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTTKCX3BQH49N1A3H1SR",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HTV4SQP4M4N5MQSYH9HZ",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01JNQX5X4AEEJEWFBR2KWF7WB8",
-        "reference": "TOKEN_LANDMARK_PERMANENT",
-        "name": "TOKEN_LANDMARK_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "01F50ZPRG59HAB21KVM8E9YSFA",
-      "reference": "ALT_EOLE_B_NE_03_C"
+      "translations": {
+        "en_US": {
+          "text": "Its energy field even affects the Aether.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Sein Energiefeld beeinflusst sogar den Äther.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Il suo campo di forza influenza perfino l'etere.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Su campo energético afecta incluso al éter.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Son champ énergétique affecte même l'Éther.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KC94HTVE0VXVVJGB982KM2WA",
+      "text": "Its energy field even affects the Aether."
     }
   ],
   "cardType": {
     "reference": "TOKEN_LANDMARK_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha Hito Permanente" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro Pedina" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenmarke" },
+      "en_US": { "locale": "en_US", "name": "Token Landmark Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Repère Permanent" }
+    },
     "id": "01JN9T9WB3A67XPW9251FVSS60",
     "name": "Token Landmark Permanent"
   },
@@ -227,6 +183,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "115",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
@@ -240,7 +197,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_NE_03_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "NE_03",
   "reference": "ALT_EOLE_B_NE_03_C",
   "translations": {
     "it_IT": {

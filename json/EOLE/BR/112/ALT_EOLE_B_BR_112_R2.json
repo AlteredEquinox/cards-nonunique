@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"I've found a way! A gap just two klicks away, straight ahead!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« J'ai trouvé un chemin ! Trouée à deux klicks d'ici, en azimut brutal ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HQ44Q9NMA7M2J6QCCR5P",
-          "text": "\"I've found a way! A gap just two klicks away, straight ahead!\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQ4PNVQPTX18MGZCWRJG",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQ4EGCVB3GEF1SQ29HCQ",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HQ2YGNWX8D3EQYN6551R",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HQ3Y67B9CDV291RWY916",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "72RW5EE0Z581HTGY1JSBGZ3A8S",
-      "reference": "ALT_EOLE_B_BR_112_C"
+      "translations": {
+        "en_US": {
+          "text": "\"I've found a way! A gap just two klicks away, straight ahead!\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Ich hab einen Weg gefunden! Geradeaus ist eine Lücke, nur zwei Kilometer entfernt.“",
+          "locale": "de_DE"
+        },
+        "fr_FR": {
+          "text": "« J'ai trouvé un chemin ! Trouée à deux klicks d'ici, en azimut brutal ! »",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "\"Ho trovato una via! Un varco ad appena due chilometri da qui!\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¡He encontrado un camino! Hay una brecha a dos kilómetros de aquí, a las doce en punto».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HQ44Q9NMA7M2J6QCCR5P",
+      "text": "\"I've found a way! A gap just two klicks away, straight ahead!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -249,6 +205,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "022",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Fahmi Fauzi" },
@@ -264,7 +221,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_112_R2",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_112",
   "reference": "ALT_EOLE_B_BR_112_R2",
   "translations": {
     "fr_FR": {

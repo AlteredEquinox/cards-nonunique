@@ -1,35 +1,34 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": { "text": "\"Red card! Out!\"", "locale": "en_US" },
-            "fr_FR": {
-              "text": "« Carton rouge, expulsion ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZX49W6QCGWQMMD53ZWHZ",
-          "text": "\"Red card! Out!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "79EKWFS0NT8978YT0W3GZYXZER",
-      "reference": "ALT_DUSTER_B_YZ_93_C"
+      "translations": {
+        "en_US": { "text": "\"Red card! Out!\"", "locale": "en_US" },
+        "fr_FR": { "text": "« Carton rouge, expulsion ! »", "locale": "fr_FR" },
+        "de_DE": { "text": "„Rote Karte! Raus!“", "locale": "de_DE" },
+        "it_IT": { "text": "\"Cartellino rosso! Fuori!\"", "locale": "it_IT" },
+        "es_ES": {
+          "text": "«¡Tarjeta roja! ¡Fuera del campo!».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZX49W6QCGWQMMD53ZWHZ",
+      "text": "\"Red card! Out!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -151,9 +150,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Abigael Giroud" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_93\/JPG\/en_US\/4ea2917573d696fe1903c678121640f8.jpg",
   "assets": {
     "WEB": [
@@ -166,7 +166,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_93_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_93",
   "reference": "ALT_DUSTER_B_YZ_93_R1",
   "translations": {
     "de_DE": {

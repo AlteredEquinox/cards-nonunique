@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Souvenirs are memories incarnate. Treasure them.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Il n'y a pas plus précieux qu'un bon souvenir. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZRY6N3E6YAFS9FXTSRYJ",
-          "text": "\"Souvenirs are memories incarnate. Treasure them.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1NZC5DFWYR8WXBKGPBX9YJ45CP",
-      "reference": "ALT_DUSTER_B_OR_87_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"I souvenir sono l'incarnazione dei ricordi. Fanne tesoro.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«No hay nada más valioso que un bonito souvenir».",
+          "locale": "es_ES"
+        },
+        "en_US": {
+          "text": "\"Souvenirs are memories incarnate. Treasure them.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Il n'y a pas plus précieux qu'un bon souvenir. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Nichts ist kostbarer als eine schöne Erinnerung. Bewahre sie.“",
+          "locale": "de_DE"
+        }
+      },
+      "id": "01JZ37ZRY6N3E6YAFS9FXTSRYJ",
+      "text": "\"Souvenirs are memories incarnate. Treasure them.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,9 +194,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Zero Wen" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_87\/JPG\/en_US\/dfb9f64872c080ebc08462fae5384cdc.jpg",
   "assets": {
     "WEB": [
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_87_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_87",
   "reference": "ALT_DUSTER_B_OR_87_R2",
   "translations": {
     "it_IT": {

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The lowest point of the wave is where she draws all her strength.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "C'est au creux de la vague qu'elle puise sa force.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZKA5YQBBFAPGTRZR7WNT",
-          "text": "The lowest point of the wave is where she draws all her strength."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6D4PE5H5519PBAGYMMGJYBVJQT",
-      "reference": "ALT_DUSTER_B_BR_90_C"
+      "translations": {
+        "en_US": {
+          "text": "The lowest point of the wave is where she draws all her strength.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "C'est au creux de la vague qu'elle puise sa force.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Die Welle schöpft ihre Kraft an ihrem tiefsten Punkt.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "È nel punto più basso dell'onda che trova la sua forza.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "En el valle de la ola es donde saca toda su fuerza.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZKA5YQBBFAPGTRZR7WNT",
+      "text": "The lowest point of the wave is where she draws all her strength."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -222,6 +230,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "023",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "HuoMiao Studio" },
@@ -237,7 +246,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_90_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_90",
   "reference": "ALT_DUSTER_B_BR_90_C",
   "translations": {
     "en_US": {

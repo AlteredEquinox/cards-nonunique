@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "From Kelon to Sap to Manaseed, the Axiom never stop experimenting with alternative energy sources.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Kélon, Sève ou Graine, les Axiom ne cessent d'expérimenter sur des énergies alternatives.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJ096C53VA20K3K8V9AR",
-          "text": "From Kelon to Sap to Manaseed, the Axiom never stop experimenting with alternative energy sources."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3X3R7C69498YYV72AMGE0H6BT9",
-      "reference": "ALT_DUSTER_B_AX_87_C"
+      "translations": {
+        "en_US": {
+          "text": "From Kelon to Sap to Manaseed, the Axiom never stop experimenting with alternative energy sources.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Kélon, Sève ou Graine, les Axiom ne cessent d'expérimenter sur des énergies alternatives.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Kelon, Harz, Manasaaten – die Axiom experimentieren stets mit alternativen Energiequellen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Dal kelon alla linfa, fino ai semi di mana: gli Axiom non smettono mai di sperimentare con fonti di energia alternative.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Ya sea el kelón, la savia o las semillas de maná, los Axiom nunca dejan de experimentar con fuentes de energía alternativas.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZJ096C53VA20K3K8V9AR",
+      "text": "From Kelon to Sap to Manaseed, the Axiom never stop experimenting with alternative energy sources."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,9 +157,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_87\/JPG\/en_US\/e1fb85beea5202b2206e8a8ea87026e8.jpg",
   "assets": {
     "WEB": [
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_87_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_87",
   "reference": "ALT_DUSTER_B_AX_87_R2",
   "translations": {
     "de_DE": { "name": "Axiom-Maschinist", "image": null, "locale": "de_DE" },

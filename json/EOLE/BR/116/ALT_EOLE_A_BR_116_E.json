@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The only thing more dangerous than ignorance is arrogance.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "La seule chose plus dangereuse que l'ignorance est l'arrogance.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KG2J8A3S6AEWV4QNC8BAHW09",
-          "text": "The only thing more dangerous than ignorance is arrogance."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8A6NCHN07WY7KDW2BCMH",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8A5QDY1KPZ7YKXP6ZHMN",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8A0VAED38SM5JK1VVC8J",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8A2TGPJB559RW86CR9PG",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "41YKF7DWEX9VY8DWCHY0P74HGS",
-      "reference": "ALT_EOLE_A_BR_116_C"
+      "translations": {
+        "es_ES": {
+          "text": "Lo único más peligroso que la ignorancia es la arrogancia.",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "Gefährlicher als Unwissenheit ist nur die Arroganz.",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "The only thing more dangerous than ignorance is arrogance.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "La seule chose plus dangereuse que l'ignorance est l'arrogance.",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "La sola cosa più pericolosa dell'ignoranza è l'arroganza.",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KG2J8A3S6AEWV4QNC8BAHW09",
+      "text": "The only thing more dangerous than ignorance is arrogance."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -431,6 +387,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "V-031",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Taras Susak" },
@@ -440,7 +397,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_BR_116_E",
   "isExclusive": true,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_116",
   "reference": "ALT_EOLE_A_BR_116_E",
   "translations": {
     "fr_FR": {

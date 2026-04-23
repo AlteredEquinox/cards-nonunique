@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Moyo uses it to capture the essence of illusion.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Par son biais, Moyo capture l'essence de l'illusion.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZV6CZSWC7HM1BHWF0VVR",
-          "text": "Moyo uses it to capture the essence of illusion."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZ2WM1WQ8ARN68RNGJZCB",
-        "reference": "EXPEDITION_PERMANENT",
-        "name": "EXPEDITION_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2FQN805CX79NSA6MNVNVN2D43D",
-      "reference": "ALT_DUSTER_B_YZ_101_C"
+      "translations": {
+        "en_US": {
+          "text": "Moyo uses it to capture the essence of illusion.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Par son biais, Moyo capture l'essence de l'illusion.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Moyo benutzt ihn, um die Essenz einer Illusion einzufangen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Moyo la usa per catturare l'essenza dell'illusione.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Con ella, Moyo captura la esencia de la ilusión.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZV6CZSWC7HM1BHWF0VVR",
+      "text": "Moyo uses it to capture the essence of illusion."
     }
   ],
   "cardType": {
     "reference": "EXPEDITION_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente de expedición" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Spedizione" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Expeditionskarte" },
+      "en_US": { "locale": "en_US", "name": "Expedition Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent d’Expédition" }
+    },
     "id": "01J1Q7ASAYXTSM3DH772C70PV5",
     "name": "Expedition Permanent"
   },
@@ -193,9 +201,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "HuoMiao Studio" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_101\/JPG\/en_US\/043f05f7c6b487dae0fffd77aa924b02.jpg",
   "assets": {
     "WEB": [
@@ -207,7 +216,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_101_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_101",
   "reference": "ALT_DUSTER_B_YZ_101_R1",
   "translations": {
     "en_US": {

@@ -1,87 +1,31 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« Débarquement en cours ! »",
-              "locale": "fr_FR"
-            },
-            "en_US": { "text": "\"Landing in progress!\"", "locale": "en_US" }
-          },
-          "id": "01KC94HWAWEVYY7W1MMAQGPHR9",
-          "text": "\"Landing in progress!\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWCPV5CN4824EBRQE0KM",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWB7H1JHHPD3ZDYY38XJ",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWA8V3W0BCZEFKHNW26H",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HWAJ0EZBGP1ZRBWHQ264",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3Q5NHHS8DB9MC8JJW0X3G9MZ41",
-      "reference": "ALT_EOLE_B_OR_118_C"
+      "translations": {
+        "fr_FR": { "text": "« Débarquement en cours ! »", "locale": "fr_FR" },
+        "en_US": { "text": "\"Landing in progress!\"", "locale": "en_US" },
+        "de_DE": { "text": "„Landung läuft!“", "locale": "de_DE" },
+        "it_IT": { "text": "\"Atterraggio in corso!\"", "locale": "it_IT" },
+        "es_ES": { "text": "«¡Desembarco en curso!».", "locale": "es_ES" }
+      },
+      "id": "01KC94HWAWEVYY7W1MMAQGPHR9",
+      "text": "\"Landing in progress!\""
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -329,6 +273,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "088",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
@@ -343,7 +288,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_118_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_118",
   "reference": "ALT_EOLE_B_OR_118_C",
   "translations": {
     "it_IT": {

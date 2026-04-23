@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Can such entities be found near all world trees?",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "De telles entités existent-elles à proximité de tous les arbres-mondes ?",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZQTHM04E8Y1K4QESZ6W1",
-          "text": "Can such entities be found near all world trees?"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6E3HQWS0Q59QCRAAAMZPTJ45YE",
-      "reference": "ALT_DUSTER_B_MU_97_C"
+      "translations": {
+        "en_US": {
+          "text": "Can such entities be found near all world trees?",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "De telles entités existent-elles à proximité de tous les arbres-mondes ?",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Gibt es solche Wesen in der Nähe aller Weltbäume?",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Entità come queste si possono trovare vicino a tutti gli alberi del mondo?",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "¿Existirán entes como este en las inmediaciones de todos los árboles del mundo?",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZQTHM04E8Y1K4QESZ6W1",
+      "text": "Can such entities be found near all world trees?"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -284,9 +292,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Zaeliven" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_97\/JPG\/en_US\/948bc8286422abfd7aa4b740087152fd.jpg",
   "assets": {
     "WEB": [
@@ -299,7 +308,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_97_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_97",
   "reference": "ALT_DUSTER_B_MU_97_R2",
   "translations": {
     "de_DE": { "name": "Sohn von Naos", "image": null, "locale": "de_DE" },

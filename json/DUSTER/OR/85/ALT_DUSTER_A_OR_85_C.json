@@ -1,68 +1,77 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "I am the beating heart of the swarm, the architect of the hive.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Je suis le cœur de l'essaim, l'architecte de la ruche.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZHHNZAAHXHRQR1CVF0QF",
-          "text": "I am the beating heart of the swarm, the architect of the hive."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0Y47MG0ZFJ95EVAZER4HGKP6GV",
-      "reference": "ALT_DUSTER_B_OR_85_C"
+      "translations": {
+        "en_US": {
+          "text": "I am the beating heart of the swarm, the architect of the hive.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Je suis le cœur de l'essaim, l'architecte de la ruche.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Ich bin das schlagende Herz des Schwarms, der Architekt des Insektenstocks.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Sono il cuore pulsante dello sciame, l'architetto dell'alveare.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Soy el corazón palpitante del enjambre, el arquitecto de la colmena.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZHHNZAAHXHRQR1CVF0QF",
+      "text": "I am the beating heart of the swarm, the architect of the hive."
     },
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« C'est un honneur d'avoir été choisi pour sculpter avec vous ce monument commun. »",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"It's an honor to have been chosen to sculpt this shared monument with you.\"",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JZ37ZHK03S7XXK7T3TR8BWV7",
-          "text": "\"It's an honor to have been chosen to sculpt this shared monument with you.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1TR2R69S2T8N19BBBDZSYPMCWF",
-      "reference": "ALT_DUSTER_A_OR_85_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"È un onore essere stato scelto per scolpire questo monumento condiviso con voi.\"",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "« C'est un honneur d'avoir été choisi pour sculpter avec vous ce monument commun. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Es ist mir eine Ehre, dieses gemeinsame Denkmal mit dir zu erschaffen.“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«Es un honor haber sido elegido para esculpir con vosotros este monumento común».",
+          "locale": "es_ES"
+        },
+        "en_US": {
+          "text": "\"It's an honor to have been chosen to sculpt this shared monument with you.\"",
+          "locale": "en_US"
+        }
+      },
+      "id": "01JZ37ZHK03S7XXK7T3TR8BWV7",
+      "text": "\"It's an honor to have been chosen to sculpt this shared monument with you.\""
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -146,9 +155,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "073",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
-  "illustrator": { "nickName": "Zero Wen" },
+  "illustrator": { "nickName": "Justice Wong" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_A_OR_85\/JPG\/en_US\/781eda320d90839d1ee7cb1c6a584b40.jpg",
   "assets": {
     "HERO_THUMB": [
@@ -165,7 +175,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_A_OR_85_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_85",
   "reference": "ALT_DUSTER_A_OR_85_C",
   "translations": {
     "it_IT": { "name": "Matz e Arnia", "image": null, "locale": "it_IT" },

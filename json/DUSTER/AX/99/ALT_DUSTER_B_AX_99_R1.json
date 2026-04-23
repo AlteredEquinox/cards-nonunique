@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "All the power of the Foundry distilled into this miracle of technology.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Toute la puissance de la Fonderie, concentrée dans cette merveille de technologie.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJN6J468KF752H3K86ZD",
-          "text": "All the power of the Foundry distilled into this miracle of technology."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZ2WM1WQ8ARN68RNGJZCB",
-        "reference": "EXPEDITION_PERMANENT",
-        "name": "EXPEDITION_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7S2CDZ6WZP8VWB91DG5QFF2NNW",
-      "reference": "ALT_DUSTER_B_AX_99_C"
+      "translations": {
+        "en_US": {
+          "text": "All the power of the Foundry distilled into this miracle of technology.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Toute la puissance de la Fonderie, concentrée dans cette merveille de technologie.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Die ganze Kraft der Gießerei ist in dieses Wunderwerk der Technologie eingeflossen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Tutta la potenza della Fonderia distillata in questo miracolo tecnologico.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Todo el poder de la Fundición destilado en este milagro de la tecnología.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZJN6J468KF752H3K86ZD",
+      "text": "All the power of the Foundry distilled into this miracle of technology."
     }
   ],
   "cardType": {
     "reference": "EXPEDITION_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente de expedición" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Spedizione" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Expeditionskarte" },
+      "en_US": { "locale": "en_US", "name": "Expedition Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent d’Expédition" }
+    },
     "id": "01J1Q7ASAYXTSM3DH772C70PV5",
     "name": "Expedition Permanent"
   },
@@ -118,9 +126,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Anh Tung" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_99\/JPG\/en_US\/002e4e847999da2ac2a3e22e968b7685.jpg",
   "assets": {
     "WEB": [
@@ -132,7 +141,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_99_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_99",
   "reference": "ALT_DUSTER_B_AX_99_R1",
   "translations": {
     "es_ES": {

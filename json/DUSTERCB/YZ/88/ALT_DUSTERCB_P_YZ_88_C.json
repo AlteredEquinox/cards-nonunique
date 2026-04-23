@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Maleros should have been wary of the outsider.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Maleros aurait dû se méfier de l'outsider.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA3NCCE6GS2598T5ZSR4J",
-          "text": "Maleros should have been wary of the outsider."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3CG8VCD13J86SRQ63PMJMZDEFB",
-      "reference": "ALT_DUSTERCB_P_YZ_88_C"
+      "translations": {
+        "es_ES": {
+          "text": "Maleros debería haber desconfiado del forastero.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "Maleros avrebbe dovuto diffidare dell'estraneo.",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "Maleros hätte den Außenseiter besser im Blick behalten sollen.",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "Maleros should have been wary of the outsider.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Maleros aurait dû se méfier de l'outsider.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA3NCCE6GS2598T5ZSR4J",
+      "text": "Maleros should have been wary of the outsider."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -150,6 +158,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "021",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -165,7 +174,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_YZ_88_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_88",
   "reference": "ALT_DUSTERCB_P_YZ_88_C",
   "translations": {
     "es_ES": { "name": "Novato estudioso", "image": null, "locale": "es_ES" },

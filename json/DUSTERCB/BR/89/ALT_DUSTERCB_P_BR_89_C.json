@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "One of the many amazing Chimaeras that inhabit the Sea of Tumult.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "L'une des étonnantes Chimères qui peuplent la Mer de Tumulte.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA2F8GHXPJDFZGKQY1EN2",
-          "text": "One of the many amazing Chimaeras that inhabit the Sea of Tumult."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "68G4DDDHEP9ERA24W4Z5JQTJ6M",
-      "reference": "ALT_DUSTERCB_P_BR_89_C"
+      "translations": {
+        "es_ES": {
+          "text": "Una de las asombrosas quimeras que habitan el Mar del Tumulto.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "Una delle tante straordinarie chimere che popolano il Mare del Tumulto.",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "Eine der vielen wunderlichen Chimären, die das Meer des Tumults bewohnen.",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "One of the many amazing Chimaeras that inhabit the Sea of Tumult.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "L'une des étonnantes Chimères qui peuplent la Mer de Tumulte.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA2F8GHXPJDFZGKQY1EN2",
+      "text": "One of the many amazing Chimaeras that inhabit the Sea of Tumult."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "005",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_BR_89_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_89",
   "reference": "ALT_DUSTERCB_P_BR_89_C",
   "translations": {
     "it_IT": { "name": "Kedarm", "image": null, "locale": "it_IT" },

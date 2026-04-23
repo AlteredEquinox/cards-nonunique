@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Without this suit, diving into the Tumult would be a death sentence.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Sans ce scaphandre, plonger dans le Tumulte serait suicidaire.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZ6ZWG3T4BXQJS4AA6SA",
-          "text": "Without this suit, diving into the Tumult would be a death sentence."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7X4D3D2AAR9KVBSACSCBKBVM1D",
-      "reference": "ALT_DUSTEROP_B_BR_95_C"
+      "translations": {
+        "en_US": {
+          "text": "Without this suit, diving into the Tumult would be a death sentence.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Ohne diesen Anzug wäre das Eintauchen in den Tumult ein sicheres Todesurteil.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Senza questa tuta, immergersi nel Tumulto equivarrebbe a una condanna a morte.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Sin esta escafandra, sumergirse en el Tumulto sería un acto suicida.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Sans ce scaphandre, plonger dans le Tumulte serait suicidaire.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZ6ZWG3T4BXQJS4AA6SA",
+      "text": "Without this suit, diving into the Tumult would be a death sentence."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -224,6 +232,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "002",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": { "nickName": "Victor Canton" },
@@ -239,7 +248,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_BR_95_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_95",
   "reference": "ALT_DUSTEROP_P_BR_95_C",
   "translations": {
     "es_ES": { "name": "Instructor aéreo", "image": null, "locale": "es_ES" },

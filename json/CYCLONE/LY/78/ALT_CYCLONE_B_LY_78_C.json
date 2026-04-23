@@ -1,70 +1,31 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Création et transformation.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Creation and transformation.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JNRGBZ4H1KE7ZX9GCQT06T1P",
-          "text": "Creation and transformation."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "\"Il part dans le néant, où tout n'est que chaos ;\r\nEntrant dans le Tumulte, il en accepte l'essence ;\r\nMieux, il s'en réjouit, lui confiant tous ses sens ;\r\nIl laisse pénétrer l'énergie, dans son âme, sur sa peau ;\r\n\r\nÀ l'instant, sur le vif, la mutation s'opère ;\r\nL'initié enthousiaste, comprend que sa nature ;\r\nLoin d'être figée, unique, n'en est qu'une signature ;\r\nMultiple et changeante, sans cesse se régénère ;\r\n\r\nIl accepte le fardeau de sa vive mutation ;\r\nSigne de sa Faction, source de son pouvoir ;\r\nDe tous il souhaite la joie, ainsi que les émouvoir ;\r\nDe la magie qu'il crée, l'art est son expression ;\r\n\r\nRevenu de ce voyage, dans une dimension autre ;\r\nIl veut louer l'Ignescence, la force du changement ;\r\nAu regard de la puissance de ses sentiments ;\r\nDu Tumulte sculpté, il en devient l'apôtre.\"\r",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"He departs into the void and the chaos within;\r\nEntering the Tumult, he embraces its essence;\r\nHe delights in it, trusting it with every sense;\r\nHe absorbs the energy, into soul and onto skin;\r\n\r\nIn that instant, that moment, the transformation takes place;\r\nThe eager initiate now understands that his nature;\r\nFar from being fixed and unique, is just a signature;\r\nMany-faced and ever-changing, it constantly regenerates;\r\n\r\nHe accepts the burden of his intense transformation;\r\nThe sign of his Faction and the source of its might;\r\nFor all, he wants only to bring joy and to excite;\r\nFrom the magic he creates, art is its expression;\r\n\r\nReturning from this journey and into a new dimension;\r\nHe celebrates Ignescence, and the change it brings;\r\nAnd inspired by the power of all these feelings;\r\nFrom the Tumult reshaped, he becomes its champion.\"\r",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JNRGBZ5TJXYGTV6B5XNEF7N0",
-          "text": "\"He departs into the void and the chaos within;\r\nEntering the Tumult, he embraces its essence;\r\nHe delights in it, trusting it with every sense;\r\nHe absorbs the energy, into soul and onto skin;\r\n\r\nIn that instant, that moment, the transformation takes place;\r\nThe eager initiate now understands that his nature;\r\nFar from being fixed and unique, is just a signature;\r\nMany-faced and ever-changing, it constantly regenerates;\r\n\r\nHe accepts the burden of his intense transformation;\r\nThe sign of his Faction and the source of its might;\r\nFor all, he wants only to bring joy and to excite;\r\nFrom the magic he creates, art is its expression;\r\n\r\nReturning from this journey and into a new dimension;\r\nHe celebrates Ignescence, and the change it brings;\r\nAnd inspired by the power of all these feelings;\r\nFrom the Tumult reshaped, he becomes its champion.\"\r"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "INCONNU", "locale": "fr_FR" },
-            "en_US": { "text": "UNKNOWN", "locale": "en_US" }
-          },
-          "id": "01JNRGBZ3RW9YE1MGFPVQBQZG2",
-          "text": "UNKNOWN"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5N1EBC5APB9TTVVCDNNDFA507X",
-      "reference": "ALT_CYCLONE_B_LY_78_C"
+      "translations": {
+        "de_DE": { "text": "Schöpfung und Verwandlung.", "locale": "de_DE" },
+        "it_IT": { "text": "Creazione e trasformazione.", "locale": "it_IT" },
+        "es_ES": { "text": "Creación y transformación.", "locale": "es_ES" },
+        "fr_FR": { "text": "Création et transformation.", "locale": "fr_FR" },
+        "en_US": { "text": "Creation and transformation.", "locale": "en_US" }
+      },
+      "id": "01JNRGBZ4H1KE7ZX9GCQT06T1P",
+      "text": "Creation and transformation."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -327,6 +288,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "050",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ed Chee, S.Yong, Stephen" },
@@ -341,7 +303,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CYCLONE_B_LY_78_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_78",
   "reference": "ALT_CYCLONE_B_LY_78_C",
   "translations": {
     "es_ES": {

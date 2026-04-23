@@ -1,32 +1,40 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": { "text": "Pretty in pink.", "locale": "en_US" },
-            "fr_FR": { "text": "La vie en rose.", "locale": "fr_FR" }
-          },
-          "id": "01JZ37ZNV5CYDJHDVNDZE2Z186",
-          "text": "Pretty in pink."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5Y9AZRVNEF8M7T0134J4GZGP35",
-      "reference": "ALT_DUSTER_B_LY_99_C"
+      "translations": {
+        "en_US": { "text": "Pretty in pink.", "locale": "en_US" },
+        "fr_FR": { "text": "La vie en rose.", "locale": "fr_FR" },
+        "de_DE": {
+          "text": "Durch eine rosafarbene Brille.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Per vedere il mondo dipinto di rosa.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "¡A quién no le gusta ver la vida de color de rosa!",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZNV5CYDJHDVNDZE2Z186",
+      "text": "Pretty in pink."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -251,9 +259,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "DOBA" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_99\/JPG\/en_US\/5278b996258c5a68b68d3f6e6ce7c800.jpg",
   "assets": {
     "WEB": [
@@ -265,7 +274,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_99_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_99",
   "reference": "ALT_DUSTER_B_LY_99_R1",
   "translations": {
     "es_ES": { "name": "¡A pintar de rosa!", "image": null, "locale": "es_ES" },

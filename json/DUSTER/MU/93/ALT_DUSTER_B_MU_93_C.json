@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« Quoi qu'ils en disent, le Naos souffre, tout comme le Nilam avant lui ! »",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"No matter what they say, the Naos is suffering, just like the Nilam before it!\"",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JZ37ZQ9REP0Q8YK71J13BMN4",
-          "text": "\"No matter what they say, the Naos is suffering, just like the Nilam before it!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "719CH0MSSD9ESR96N85B09DKQ2",
-      "reference": "ALT_DUSTER_B_MU_93_C"
+      "translations": {
+        "es_ES": {
+          "text": "«Digan lo que digan, ¡el Naos está sufriendo, igual que lo hizo el Nilam!».",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "„Egal, was sie behaupten – der Naos leidet, genau wie der Nilam vor ihm!“",
+          "locale": "de_DE"
+        },
+        "fr_FR": {
+          "text": "« Quoi qu'ils en disent, le Naos souffre, tout comme le Nilam avant lui ! »",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "\"Checché ne dicano, il Naos sta soffrendo, proprio come il Nilam prima di esso!\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"No matter what they say, the Naos is suffering, just like the Nilam before it!\"",
+          "locale": "en_US"
+        }
+      },
+      "id": "01JZ37ZQ9REP0Q8YK71J13BMN4",
+      "text": "\"No matter what they say, the Naos is suffering, just like the Nilam before it!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "061",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zaeliven" },
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_93_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_93",
   "reference": "ALT_DUSTER_B_MU_93_C",
   "translations": {
     "de_DE": { "name": "Hesperidin", "image": null, "locale": "de_DE" },

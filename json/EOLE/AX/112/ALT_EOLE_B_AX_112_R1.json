@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "It's by shunning differences that true monsters are born.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "C'est du rejet des mélanges que naissent les véritables monstres.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HPGP04QKXYV3FQC8R5QW",
-          "text": "It's by shunning differences that true monsters are born."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPGX2RTJR81Y0BWF44EP",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPGS9DSHRDAT1B6VEX9B",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPGF5V22Q0JEMV1AVYZ2",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPGJ2HT49CBPQJ49RFE1",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2V76ZVNBKE8Q5RPAKG2G7N1ATC",
-      "reference": "ALT_EOLE_B_AX_112_C"
+      "translations": {
+        "en_US": {
+          "text": "It's by shunning differences that true monsters are born.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "C'est du rejet des mélanges que naissent les véritables monstres.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Wer Unterschiede nicht zulässt, züchtet echte Monster heran.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "È rifuggendo le diversità che nascono i veri mostri.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Del rechazo de las diferencias nacen los verdaderos monstruos.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HPGP04QKXYV3FQC8R5QW",
+      "text": "It's by shunning differences that true monsters are born."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -201,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "010",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Gamon Studio" },
@@ -216,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_112_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "AX_112",
   "reference": "ALT_EOLE_B_AX_112_R1",
   "translations": {
     "it_IT": {

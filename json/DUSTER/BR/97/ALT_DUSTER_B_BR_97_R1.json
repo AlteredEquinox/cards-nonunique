@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Yeah, you've still got a few things to learn…\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Ouaip, t'as encore des trucs à apprendre... »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZKTS00N21ZJM22R3553Q",
-          "text": "\"Yeah, you've still got a few things to learn…\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6RFWYF02R29HAB3P0RY57QD527",
-      "reference": "ALT_DUSTER_B_BR_97_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Yeah, you've still got a few things to learn…\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Ouaip, t'as encore des trucs à apprendre... »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Ja, du musst noch einiges lernen …“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Eh sì, hai ancora molto da imparare...\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Sí, aún te quedan cosas por aprender…».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZKTS00N21ZJM22R3553Q",
+      "text": "\"Yeah, you've still got a few things to learn…\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,9 +194,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Khoa Viet" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_97\/JPG\/en_US\/3fa051f0dbfb6208d1f2cff0b436b501.jpg",
   "assets": {
     "WEB": [
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_97_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_97",
   "reference": "ALT_DUSTER_B_BR_97_R1",
   "translations": {
     "it_IT": {

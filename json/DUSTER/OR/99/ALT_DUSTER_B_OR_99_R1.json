@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Anger is often the fruit of frustration.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "La colère est souvent le fruit de la frustration.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZTSTV0ZTKPH38DX97PXP",
-          "text": "Anger is often the fruit of frustration."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "752CTQZ1CK8K7VAJKA3NE8HRWV",
-      "reference": "ALT_DUSTER_B_OR_99_C"
+      "translations": {
+        "en_US": {
+          "text": "Anger is often the fruit of frustration.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "La colère est souvent le fruit de la frustration.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Wut ist oft die Frucht von Frustration.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "La rabbia è spesso il frutto della frustrazione.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "La ira suele ser fruto de la frustración.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZTSTV0ZTKPH38DX97PXP",
+      "text": "Anger is often the fruit of frustration."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -224,9 +232,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Justice Wong" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_99\/JPG\/en_US\/010fca1a31572c65bb55952c6452e933.jpg",
   "assets": {
     "WEB": [
@@ -238,7 +247,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_99_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_99",
   "reference": "ALT_DUSTER_B_OR_99_R1",
   "translations": {
     "de_DE": { "name": "Wütender Mob", "image": null, "locale": "de_DE" },

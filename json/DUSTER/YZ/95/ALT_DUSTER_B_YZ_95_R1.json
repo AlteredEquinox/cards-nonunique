@@ -1,38 +1,40 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Time to switch things up a bit.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "C'est l'heure de faire tourner un peu les effectifs.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZXGTJTYDG4K8C4NTFQ27",
-          "text": "Time to switch things up a bit."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2W3MYJPP09804VZKHWQCPNK7HJ",
-      "reference": "ALT_DUSTER_B_YZ_95_C"
+      "translations": {
+        "en_US": {
+          "text": "Time to switch things up a bit.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "C'est l'heure de faire tourner un peu les effectifs.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Zeit, die Karten neu zu mischen.",
+          "locale": "de_DE"
+        },
+        "it_IT": { "text": "È ora di fare qualche cambio.", "locale": "it_IT" },
+        "es_ES": { "text": "Hora de hacer algunos cambios.", "locale": "es_ES" }
+      },
+      "id": "01JZ37ZXGTJTYDG4K8C4NTFQ27",
+      "text": "Time to switch things up a bit."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -202,9 +204,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Gamon Studio" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_95\/JPG\/en_US\/692e9081347285314ceec1518298ec0f.jpg",
   "assets": {
     "WEB": [
@@ -216,7 +219,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_95_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_95",
   "reference": "ALT_DUSTER_B_YZ_95_R1",
   "translations": {
     "de_DE": { "name": "Auswechseln!", "image": null, "locale": "de_DE" },

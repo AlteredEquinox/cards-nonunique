@@ -1,32 +1,31 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": { "text": "We are your escort.", "locale": "en_US" },
-            "fr_FR": { "text": "Nous sommes votre escorte.", "locale": "fr_FR" }
-          },
-          "id": "01JBT1A8PDG1EZSRTFWE4MZQKE",
-          "text": "We are your escort."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
-        "reference": "TOKEN",
-        "name": "Token"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3HFV4PQYHD86YRYAKEK9FB96W9",
-      "reference": "ALT_BISE_B_OR_31_C"
+      "translations": {
+        "de_DE": { "text": "Wir sind eure Eskorte.", "locale": "de_DE" },
+        "es_ES": { "text": "Somos tu escolta.", "locale": "es_ES" },
+        "it_IT": { "text": "Siamo la tua scorta.", "locale": "it_IT" },
+        "en_US": { "text": "We are your escort.", "locale": "en_US" },
+        "fr_FR": { "text": "Nous sommes votre escorte.", "locale": "fr_FR" }
+      },
+      "id": "01JBT1A8PDG1EZSRTFWE4MZQKE",
+      "text": "We are your escort."
     }
   ],
   "cardType": {
     "reference": "TOKEN",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha de personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Pedina Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Marken-Charakter" },
+      "en_US": { "locale": "en_US", "name": "Token Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Personnage" }
+    },
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
@@ -125,6 +124,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "104",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -138,7 +138,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_B_OR_31_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_31",
   "reference": "ALT_BISE_B_OR_31_C",
   "translations": {
     "es_ES": {

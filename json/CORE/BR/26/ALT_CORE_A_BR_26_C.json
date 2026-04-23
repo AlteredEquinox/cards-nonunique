@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "100 pompes, 100 abdos, 100 squats,10 km de course à pied et le désir de faire ses preuves : l'entraînement typique des Bravos. ",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "100 crunches, 100 push-ups, 100 squats, a 10-km run and a desire to prove yourself. Just your typical morning of Bravos training.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JH1KAE7VMJF3C793PRX3W2ZR",
-          "text": "100 crunches, 100 push-ups, 100 squats, a 10-km run and a desire to prove yourself. Just your typical morning of Bravos training."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6Q5EFJSNVN95G9GKCEM0SHQWQN",
-      "reference": "ALT_CORE_A_BR_26_C"
+      "translations": {
+        "de_DE": {
+          "text": "100 Crunches, 100 Liegestütze, 100 Kniebeugen, ein 10-Kilometer-Lauf und der Wunsch, sich zu beweisen: ein ganz normaler Bravos-Trainingsmorgen.",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "100 abdominales, 100 flexiones, 100 sentadillas, correr 10 kilómetros y el deseo de ponerte a prueba. La típica rutina de entrenamiento matutino en Bravos.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "100 addominali, 100 flessioni, 100 squat, 10 chilometri di corsa e il desiderio di metterti alla prova: una tipica mattinata di allenamento dei Bravos.",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "100 pompes, 100 abdos, 100 squats,10 km de course à pied et le désir de faire ses preuves : l'entraînement typique des Bravos. ",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "100 crunches, 100 push-ups, 100 squats, a 10-km run and a desire to prove yourself. Just your typical morning of Bravos training.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01JH1KAE7VMJF3C793PRX3W2ZR",
+      "text": "100 crunches, 100 push-ups, 100 squats, a 10-km run and a desire to prove yourself. Just your typical morning of Bravos training."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -155,6 +163,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "058",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Justice Wong" },
@@ -169,7 +178,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_A_BR_26_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_26",
   "reference": "ALT_CORE_A_BR_26_C",
   "translations": {
     "de_DE": {

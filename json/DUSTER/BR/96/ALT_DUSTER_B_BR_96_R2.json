@@ -1,38 +1,40 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Even the brightest day of sunshine has its clouds.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Sans nuage, point de bonheur.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZKRBZ2RC6FXB5721TA58",
-          "text": "Even the brightest day of sunshine has its clouds."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "660PR66B0M9VEASA1M527E5A0Y",
-      "reference": "ALT_DUSTER_B_BR_96_C"
+      "translations": {
+        "en_US": {
+          "text": "Even the brightest day of sunshine has its clouds.",
+          "locale": "en_US"
+        },
+        "fr_FR": { "text": "Sans nuage, point de bonheur.", "locale": "fr_FR" },
+        "de_DE": { "text": "Ohne Wolken kein Glück.", "locale": "de_DE" },
+        "it_IT": {
+          "text": "Anche la giornata più soleggiata ha le sue nuvole.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Estar en las nubes tiene sus cosas buenas.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZKRBZ2RC6FXB5721TA58",
+      "text": "Even the brightest day of sunshine has its clouds."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,9 +188,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Taras Susak" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_96\/JPG\/en_US\/7cde7cdbe465390453119f79df5889d5.jpg",
   "assets": {
     "WEB": [
@@ -201,7 +204,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_96_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_96",
   "reference": "ALT_DUSTER_B_BR_96_R2",
   "translations": {
     "de_DE": { "name": "Nephele", "image": null, "locale": "de_DE" },

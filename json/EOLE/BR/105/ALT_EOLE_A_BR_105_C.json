@@ -1,90 +1,37 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "I will never give in to fear!",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Je ne céderai pas face à la peur ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KG2J8945A4C9DDDXCXYDSZRX",
-          "text": "I will never give in to fear!"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J89792G5J592G7S6KC9P5",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J894ZBRZ0927MC16KXWCN",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8914XN41M9K670WJZYW6",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8920PR865D52SRCSHF9N",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6RDJHWQGG386KTA7K2YWBXBEVY",
-      "reference": "ALT_EOLE_A_BR_105_C"
+      "translations": {
+        "en_US": { "text": "I will never give in to fear!", "locale": "en_US" },
+        "es_ES": { "text": "«¡No cederé ante el miedo!».", "locale": "es_ES" },
+        "fr_FR": {
+          "text": "« Je ne céderai pas face à la peur ! »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Ich werde der Angst niemals nachgeben!“",
+          "locale": "de_DE"
+        },
+        "it_IT": { "text": "Non cederò mai alla paura!", "locale": "it_IT" }
+      },
+      "id": "01KG2J8945A4C9DDDXCXYDSZRX",
+      "text": "I will never give in to fear!"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -205,6 +152,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "A-019",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Kevin Sidharta" },
@@ -218,7 +166,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_BR_105_C",
   "isExclusive": true,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_105",
   "reference": "ALT_EOLE_A_BR_105_C",
   "translations": {
     "fr_FR": {

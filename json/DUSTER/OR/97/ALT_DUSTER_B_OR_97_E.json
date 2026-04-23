@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"I'm sure the Musubi ritual will help us understand your point of view.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Je suis sûre que le rituel du Musubi nous aidera à comprendre votre point de vue. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZTG6VHKDS1JCNB1CKBF1",
-          "text": "\"I'm sure the Musubi ritual will help us understand your point of view.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1JDDFWQG4P8BSTK6ATBRFGMG7E",
-      "reference": "ALT_DUSTER_B_OR_97_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Sono sicura che il rituale del Musubi ci aiuterà a comprendere il vostro punto di vista.\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"I'm sure the Musubi ritual will help us understand your point of view.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Je suis sûre que le rituel du Musubi nous aidera à comprendre votre point de vue. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Ich bin sicher, das Musubi-Ritual wird uns helfen, eure Weltsicht zu verstehen.“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«Seguro que el ritual del Musubi nos ayudará a comprender vuestro punto de vista».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZTG6VHKDS1JCNB1CKBF1",
+      "text": "\"I'm sure the Musubi ritual will help us understand your point of view.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -191,9 +199,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Tristan Bideau" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_97\/JPG\/en_US\/d65bb96051b5c86c317b34bcdfebcb43.jpg",
   "assets": {
     "WEB": [
@@ -205,7 +214,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_97_E",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_97",
   "reference": "ALT_DUSTER_B_OR_97_E",
   "translations": {
     "en_US": {

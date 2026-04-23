@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Science's role is to serve the people, not the other way around",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "C'est à la science d'être au service du peuple, pas l'inverse.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JNRGBVT0E1YVYHRMW197VSJN",
-          "text": "Science's role is to serve the people, not the other way around"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "76431VX8GK8EPR0MKA19Y8ZQ22",
-      "reference": "ALT_CYCLONE_B_AX_65_C"
+      "translations": {
+        "en_US": {
+          "text": "Science's role is to serve the people, not the other way around",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Wissenschaft soll den Menschen dienen, nicht umgekehrt.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "La scienza deve servire il popolo, non il contrario.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "La ciencia está al servicio de las personas, no al revés.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "C'est à la science d'être au service du peuple, pas l'inverse.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JNRGBVT0E1YVYHRMW197VSJN",
+      "text": "Science's role is to serve the people, not the other way around"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -153,6 +161,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "001",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
@@ -172,7 +181,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CYCLONE_B_AX_65_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_65",
   "reference": "ALT_CYCLONE_B_AX_65_C",
   "translations": {
     "de_DE": {

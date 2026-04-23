@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Hate is a spear pointed at one's own heart",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "La haine est une lance tournée vers son propre cœur.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JNRGBWQAR2RGXT37DHCQYQ63",
-          "text": "Hate is a spear pointed at one's own heart"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1HES24W5YB9HWBB03CXBV6XHKW",
-      "reference": "ALT_CYCLONE_B_BR_65_C"
+      "translations": {
+        "en_US": {
+          "text": "Hate is a spear pointed at one's own heart",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Hass ist ein Speer, der auf das eigene Herz gerichtet ist.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "L'odio è una lancia puntata al proprio cuore.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "El odio es una lanza que apunta a tu propio corazón.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "La haine est une lance tournée vers son propre cœur.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JNRGBWQAR2RGXT37DHCQYQ63",
+      "text": "Hate is a spear pointed at one's own heart"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -153,6 +161,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "019",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
@@ -172,7 +181,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CYCLONE_B_BR_65_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_65",
   "reference": "ALT_CYCLONE_B_BR_65_C",
   "translations": {
     "es_ES": {

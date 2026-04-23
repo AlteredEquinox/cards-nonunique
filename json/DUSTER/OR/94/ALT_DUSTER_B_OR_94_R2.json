@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Happiness is always within reach, if you know how to savor it. Care for a smoothie?\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Le bonheur est à la portée de qui sait le goûter. Vous voulez un smoothie ? »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZT0QYRBZZSSAP3N1RSD5",
-          "text": "\"Happiness is always within reach, if you know how to savor it. Care for a smoothie?\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3ZAFB2WSYZ98P8F22G5WB3M93X",
-      "reference": "ALT_DUSTER_B_OR_94_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"La felicità è sempre a portata di mano, se sai come assaporarla. Ti va un frappè?\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"Happiness is always within reach, if you know how to savor it. Care for a smoothie?\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Le bonheur est à la portée de qui sait le goûter. Vous voulez un smoothie ? »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Glück bedeutet, genießen zu können. Wie wäre es mit einem Smoothie?“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«La felicidad siempre está al alcance de la mano, si sabes saborearla. ¿Te apetece un batido?».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZT0QYRBZZSSAP3N1RSD5",
+      "text": "\"Happiness is always within reach, if you know how to savor it. Care for a smoothie?\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -271,9 +279,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Damian Audino" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_94\/JPG\/en_US\/a48874fc7622908e452f213a4d8ea153.jpg",
   "assets": {
     "WEB": [
@@ -286,7 +295,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_94_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_94",
   "reference": "ALT_DUSTER_B_OR_94_R2",
   "translations": {
     "en_US": {

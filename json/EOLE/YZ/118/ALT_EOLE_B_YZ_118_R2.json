@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Our role is to create a diversion so a small group can make it to the breach.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Notre rôle est de faire diversion pour qu'un petit groupe atteigne la brèche. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HZDZ44P7FGMXX11P0T3D",
-          "text": "\"Our role is to create a diversion so a small group can make it to the breach.\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HZEXVTBV6NJZH2QM58NQ",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HZEGV7TS4AZBZQH8PHS0",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HZBCZEWJSNKN57EQ04EN",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HZBZ0GS1CN32FDNS4237",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3NYGXNCP5K8X0RPPGDJMBWRRAB",
-      "reference": "ALT_EOLE_B_YZ_118_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Our role is to create a diversion so a small group can make it to the breach.\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Wir sorgen für Ablenkung, damit eine kleine Gruppe die Bresche erreicht.“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Il nostro compito è creare un diversivo, affinché un piccolo gruppo possa raggiungere la breccia.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Nuestro cometido es crear una distracción para que un pequeño grupo logre alcanzar la brecha».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Notre rôle est de faire diversion pour qu'un petit groupe atteigne la brèche. »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KC94HZDZ44P7FGMXX11P0T3D",
+      "text": "\"Our role is to create a diversion so a small group can make it to the breach.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -197,6 +153,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "098",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jefrey Yonathan" },
@@ -212,7 +169,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_118_R2",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_118",
   "reference": "ALT_EOLE_B_YZ_118_R2",
   "translations": {
     "it_IT": {

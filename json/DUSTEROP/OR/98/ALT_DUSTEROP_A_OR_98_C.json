@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"I don't give a damn about your so-called administrative delays!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« J'en ai rien à battre de vos soi-disant lenteurs administratives ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZJ41N6ZSHBGVYE7MDGE",
-          "text": "\"I don't give a damn about your so-called administrative delays!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5AP03FM02B81FB22CCQ907K4Q4",
-      "reference": "ALT_DUSTEROP_B_OR_98_C"
+      "translations": {
+        "de_DE": {
+          "text": "„Ihre ‚Verzögerungen in der Verwaltung‘ interessieren mich einen feuchten Kehricht!“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«¡Me importan un bledo tus supuestos retrasos administrativos!».",
+          "locale": "es_ES"
+        },
+        "en_US": {
+          "text": "\"I don't give a damn about your so-called administrative delays!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« J'en ai rien à battre de vos soi-disant lenteurs administratives ! »",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "\"Non mi importa niente delle tue presunte lungaggini burocratiche!\"",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01K4Z6KZJ41N6ZSHBGVYE7MDGE",
+      "text": "\"I don't give a damn about your so-called administrative delays!\""
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -187,6 +195,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "018",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_A_OR_98_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_98",
   "reference": "ALT_DUSTEROP_A_OR_98_C",
   "translations": {
     "fr_FR": {

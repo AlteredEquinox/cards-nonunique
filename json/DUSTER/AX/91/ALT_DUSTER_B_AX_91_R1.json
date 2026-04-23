@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Sap Cola! Pepsap! Guaranteed sugar-free!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Sap Cola ! Pepsap ! Garanti sans sucre ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJ6R32S6SGM4G0HYKZZ7",
-          "text": "\"Sap Cola! Pepsap! Guaranteed sugar-free!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0TK3QEMMZG8KMRK13V3KN783CT",
-      "reference": "ALT_DUSTER_B_AX_91_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Gingerlinfa! Linfasoda! Senza zuccheri, garantito!\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"Sap Cola! Pepsap! Guaranteed sugar-free!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Sap Cola ! Pepsap ! Garanti sans sucre ! »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Harz-Cola! Fant-Harz! Garantiert zuckerfrei!“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«¡Savia Cola, Pepsavia! Sin azúcar, ¡garantizado!».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZJ6R32S6SGM4G0HYKZZ7",
+      "text": "\"Sap Cola! Pepsap! Guaranteed sugar-free!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -191,9 +199,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Anh Tung" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_91\/JPG\/en_US\/9e49f22040d3e84d8d46a800444a338f.jpg",
   "assets": {
     "WEB": [
@@ -206,7 +215,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_91_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_91",
   "reference": "ALT_DUSTER_B_AX_91_R1",
   "translations": {
     "es_ES": { "name": "Robot expendedor", "image": null, "locale": "es_ES" },

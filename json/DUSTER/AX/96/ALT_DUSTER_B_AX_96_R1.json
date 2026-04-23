@@ -1,38 +1,43 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Does this physical shell define me?\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Cette enveloppe me définit-elle ? »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJFR75GPPNQKSZCJY12B",
-          "text": "\"Does this physical shell define me?\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4ENAW7H84V8EJS1GXH2HSAC2EN",
-      "reference": "ALT_DUSTER_B_AX_96_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Does this physical shell define me?\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Werde ich von meiner körperlichen Hülle definiert?“",
+          "locale": "de_DE"
+        },
+        "es_ES": { "text": "«¿Me define este armazón?».", "locale": "es_ES" },
+        "fr_FR": {
+          "text": "« Cette enveloppe me définit-elle ? »",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "\"È questo involucro fisico a definire chi sono?\"",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01JZ37ZJFR75GPPNQKSZCJY12B",
+      "text": "\"Does this physical shell define me?\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,9 +154,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Taras Susak" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/en_US\/f238f26f7a361bb8142b68a80af1e0ae.jpg",
   "assets": {
     "WEB": [
@@ -164,7 +170,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_96_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_96",
   "reference": "ALT_DUSTER_B_AX_96_R1",
   "translations": {
     "de_DE": { "name": "Die Hülle", "image": null, "locale": "de_DE" },

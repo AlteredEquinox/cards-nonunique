@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"You're not on the list. Please move along.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« N'insistez pas, vous n'êtes pas sur la liste. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZSH5WF6S6W644WF2P0FY",
-          "text": "\"You're not on the list. Please move along.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "50BG26489E99SR69N0B6WDF6HV",
-      "reference": "ALT_DUSTER_B_OR_91_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Non sei sulla lista. Non insistere.\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"You're not on the list. Please move along.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« N'insistez pas, vous n'êtes pas sur la liste. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Sie stehen nicht auf der Liste. Bitte gehen Sie weiter.“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«No está en la lista. Le ruego que se vaya».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZSH5WF6S6W644WF2P0FY",
+      "text": "\"You're not on the list. Please move along.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,9 +194,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Aleksandr Leskinen" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_91\/JPG\/en_US\/7ce18c89d68a70fb2d738ae055ac0cc7.jpg",
   "assets": {
     "WEB": [
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_91_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_91",
   "reference": "ALT_DUSTER_B_OR_91_R2",
   "translations": {
     "it_IT": {

@@ -1,38 +1,40 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Even the brightest day of sunshine has its clouds.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Sans nuage, point de bonheur.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA2HB5GWQXP3G281Q487K",
-          "text": "Even the brightest day of sunshine has its clouds."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "10RP3GD8068FBSSS44AM7CEZD0",
-      "reference": "ALT_DUSTERCB_P_BR_96_C"
+      "translations": {
+        "es_ES": {
+          "text": "Estar en las nubes tiene sus cosas buenas.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "Anche la giornata più soleggiata ha le sue nuvole.",
+          "locale": "it_IT"
+        },
+        "de_DE": { "text": "Ohne Wolken kein Glück.", "locale": "de_DE" },
+        "en_US": {
+          "text": "Even the brightest day of sunshine has its clouds.",
+          "locale": "en_US"
+        },
+        "fr_FR": { "text": "Sans nuage, point de bonheur.", "locale": "fr_FR" }
+      },
+      "id": "01KJ5PA2HB5GWQXP3G281Q487K",
+      "text": "Even the brightest day of sunshine has its clouds."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,6 +188,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "006",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -201,7 +204,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_BR_96_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_96",
   "reference": "ALT_DUSTERCB_P_BR_96_C",
   "translations": {
     "it_IT": { "name": "Nefele", "image": null, "locale": "it_IT" },

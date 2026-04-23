@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Sans pratique, le don d'Altération n'est rien.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Without practice, the gift of Alteration will come to nothing.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JH1KAEBRC8EPMD1NN2M2T7ME",
-          "text": "Without practice, the gift of Alteration will come to nothing."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "77B9BMDXYT9KTASANP53QTXA49",
-      "reference": "ALT_CORE_A_YZ_19_C"
+      "translations": {
+        "de_DE": {
+          "text": "Ohne Übung ist die Gabe der Alteration nutzlos.",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "Si no se practica, el don de la alteración no sirve de nada.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "Senza la pratica, il dono dell'alterazione non porta a nulla.",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "Sans pratique, le don d'Altération n'est rien.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Without practice, the gift of Alteration will come to nothing.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01JH1KAEBRC8EPMD1NN2M2T7ME",
+      "text": "Without practice, the gift of Alteration will come to nothing."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -107,6 +115,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "169",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "HuoMiao Studio" },
@@ -121,7 +130,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_A_YZ_19_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_19",
   "reference": "ALT_CORE_A_YZ_19_C",
   "translations": {
     "fr_FR": {

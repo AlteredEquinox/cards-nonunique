@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "At this convention, the Reka show off their scientific superiority.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Dans cette convention, les Reka démontrent leur supériorité scientifique.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZHRP1H93X8QTN7PZJSQ2",
-          "text": "At this convention, the Reka show off their scientific superiority."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZP61FEFQ4613REH25WRT",
-        "reference": "LANDMARK_PERMANENT",
-        "name": "LANDMARK_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "30TX45MQ8N8FFA2564BHY5NT96",
-      "reference": "ALT_DUSTER_B_AX_100_C"
+      "translations": {
+        "en_US": {
+          "text": "At this convention, the Reka show off their scientific superiority.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Dans cette convention, les Reka démontrent leur supériorité scientifique.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Hier stellen die Reka ihre wissenschaftliche Überlegenheit zur Schau.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "In questo convegno spicca la superiorità scientifica dei Reka.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "En esta convención, los Reka hacen gala de su superioridad científica.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZHRP1H93X8QTN7PZJSQ2",
+      "text": "At this convention, the Reka show off their scientific superiority."
     }
   ],
   "cardType": {
     "reference": "LANDMARK_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente hito" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
+      "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+    },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
@@ -135,9 +143,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/en_US\/bbc414ffd45f39c7dee062bd7d052c13.jpg",
   "assets": {
     "WEB": [
@@ -149,7 +158,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_100_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_100",
   "reference": "ALT_DUSTER_B_AX_100_R2",
   "translations": {
     "de_DE": { "name": "Wissenschaftsmesse", "image": null, "locale": "de_DE" },

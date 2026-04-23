@@ -1,35 +1,37 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "A truly stunning discovery…",
-              "locale": "en_US"
-            },
-            "fr_FR": { "text": "Une loi bien assommante...", "locale": "fr_FR" }
-          },
-          "id": "01KJ5PA33RNWC8Y073030B2HTG",
-          "text": "A truly stunning discovery…"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7ZD0NZJCTN9GY89867S3P52D27",
-      "reference": "ALT_DUSTERCB_P_MU_99_C"
+      "translations": {
+        "es_ES": {
+          "text": "Un descubrimiento realmente asombroso…",
+          "locale": "es_ES"
+        },
+        "it_IT": { "text": "La scienza colpisce ancora...", "locale": "it_IT" },
+        "de_DE": {
+          "text": "Eine wirklich schwerwiegende Entdeckung …",
+          "locale": "de_DE"
+        },
+        "en_US": { "text": "A truly stunning discovery…", "locale": "en_US" },
+        "fr_FR": { "text": "Une loi bien assommante...", "locale": "fr_FR" }
+      },
+      "id": "01KJ5PA33RNWC8Y073030B2HTG",
+      "text": "A truly stunning discovery…"
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -254,6 +256,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "013",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -268,7 +271,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_MU_99_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_99",
   "reference": "ALT_DUSTERCB_P_MU_99_C",
   "translations": {
     "de_DE": { "name": "Newtons Gesetz", "image": null, "locale": "de_DE" },

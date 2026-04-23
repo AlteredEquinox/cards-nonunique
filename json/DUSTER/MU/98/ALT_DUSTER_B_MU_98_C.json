@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Let us offer the Musubi to the Reka, so that new Exalts might be born!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Offrons le Musubi aux Reka, que naissent de nouveaux Exalts ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZQYNHY13P4YCXFHRRYXK",
-          "text": "\"Let us offer the Musubi to the Reka, so that new Exalts might be born!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "3WADGS50GS92JR04K13R9ZSQNR",
-      "reference": "ALT_DUSTER_B_MU_98_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Let us offer the Musubi to the Reka, so that new Exalts might be born!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Offrons le Musubi aux Reka, que naissent de nouveaux Exalts ! »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Lasst uns den Reka die Musubi anbieten, damit neue Erhabene geboren werden!“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Offriamo il Musubi ai Reka, affinché possano nascere nuovi Elevati!\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¡Ofrezcamos el Musubi a los Reka para que nazcan nuevos Exaltados!».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZQYNHY13P4YCXFHRRYXK",
+      "text": "\"Let us offer the Musubi to the Reka, so that new Exalts might be born!\""
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -123,6 +131,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "069",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
@@ -137,7 +146,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_98_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_98",
   "reference": "ALT_DUSTER_B_MU_98_C",
   "translations": {
     "de_DE": { "name": "Seelen-Begegnung", "image": null, "locale": "de_DE" },

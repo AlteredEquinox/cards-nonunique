@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "It was Talos's role to protect the statue from prying eyes.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "C'est à Talos qu'il incombait de protéger la statue des regards indiscrets.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZTAPC6HAZ9YFRHX7DNSE",
-          "text": "It was Talos's role to protect the statue from prying eyes."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7YGKJX6RYR8KQADVQE8GGBYZ3Y",
-      "reference": "ALT_DUSTER_B_OR_96_C"
+      "translations": {
+        "en_US": {
+          "text": "It was Talos's role to protect the statue from prying eyes.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "C'est à Talos qu'il incombait de protéger la statue des regards indiscrets.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Es war Talos’ Verantwortung, die Statue vor neugierigen Blicken zu schützen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Spettava a Talos proteggere la statua da occhi indiscreti.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "A Talos se le encomendó proteger a la estatua de miradas indiscretas.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZTAPC6HAZ9YFRHX7DNSE",
+      "text": "It was Talos's role to protect the statue from prying eyes."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -246,9 +254,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Taras Susak" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_96\/JPG\/en_US\/beb7f68f9506cb73025eea4c8616a359.jpg",
   "assets": {
     "WEB": [
@@ -261,7 +270,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_96_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_96",
   "reference": "ALT_DUSTER_B_OR_96_R1",
   "translations": {
     "it_IT": { "name": "Talos", "image": null, "locale": "it_IT" },

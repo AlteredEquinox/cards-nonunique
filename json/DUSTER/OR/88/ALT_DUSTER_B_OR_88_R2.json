@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "If a sculptor merely frees the form from the stone, then it never belonged to him in the first place.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Si un sculpteur libère une forme de la pierre, c'est que dès l'origine, elle ne lui a jamais appartenu.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZS3BWZ87VAP5R555ZQEE",
-          "text": "If a sculptor merely frees the form from the stone, then it never belonged to him in the first place."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0P5DJWCP3P9MZA5BSYE48352D7",
-      "reference": "ALT_DUSTER_B_OR_88_C"
+      "translations": {
+        "en_US": {
+          "text": "If a sculptor merely frees the form from the stone, then it never belonged to him in the first place.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Si un sculpteur libère une forme de la pierre, c'est que dès l'origine, elle ne lui a jamais appartenu.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Wenn ein Bildhauer eine Form nur aus dem Stein löst, dann hat sie ihm nie wirklich gehört.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Se uno scultore si limita a liberare una forma dalla pietra, essa non gli è mai appartenuta.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Si un escultor se limita a liberar la forma de la piedra, es que nunca le perteneció.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZS3BWZ87VAP5R555ZQEE",
+      "text": "If a sculptor merely frees the form from the stone, then it never belonged to him in the first place."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -297,9 +305,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Nestor Papatriantafyllou" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_88\/JPG\/en_US\/6ca74a3d0b27d652c3c12e985c0c35c7.jpg",
   "assets": {
     "WEB": [
@@ -312,7 +321,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_88_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_88",
   "reference": "ALT_DUSTER_B_OR_88_R2",
   "translations": {
     "es_ES": { "name": "Galatea", "image": null, "locale": "es_ES" },

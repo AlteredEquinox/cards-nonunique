@@ -1,87 +1,40 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "L'hostilité invite le préjudice.",
-              "locale": "fr_FR"
-            },
-            "en_US": { "text": "Hostility breeds harm.", "locale": "en_US" }
-          },
-          "id": "01KC94HT2B3A9ZGTN0KEKHQW1Y",
-          "text": "Hostility breeds harm."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HT2V9EDCPS7YVYS2KZYP",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HT2KDWTCZBBQNWV47VGG",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HT1JJG03AR1BYMAFA6KF",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HT232R64PPJACH38BJ58",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "00K6W1W2RX8SG8CJBK3WD2XPDQ",
-      "reference": "ALT_EOLE_B_MU_117_C"
+      "translations": {
+        "fr_FR": {
+          "text": "L'hostilité invite le préjudice.",
+          "locale": "fr_FR"
+        },
+        "en_US": { "text": "Hostility breeds harm.", "locale": "en_US" },
+        "de_DE": { "text": "Feindseligkeit sät Unglück.", "locale": "de_DE" },
+        "it_IT": {
+          "text": "Dall'ostilità germoglia il male.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "La hostilidad conduce a la violencia.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HT2B3A9ZGTN0KEKHQW1Y",
+      "text": "Hostility breeds harm."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -276,6 +229,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "068",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zaeliven" },
@@ -291,7 +245,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_117_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "MU_117",
   "reference": "ALT_EOLE_B_MU_117_R1",
   "translations": {
     "en_US": {

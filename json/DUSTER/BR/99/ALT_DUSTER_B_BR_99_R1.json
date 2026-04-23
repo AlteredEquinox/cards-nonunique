@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Your catch of the day deserves a Manaseed!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Allez, ta pêche du jour vaut bien une Graine ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZM0P7QK6SDVGYTFC66M5",
-          "text": "\"Your catch of the day deserves a Manaseed!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5CKC70P5Q08CV86JVWZDFJP1XH",
-      "reference": "ALT_DUSTER_B_BR_99_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Il tuo pescato del giorno merita un seme di mana!\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"Your catch of the day deserves a Manaseed!\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Dein Fang des Tages verdient eine Manasaat!“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«¡Una semilla de maná bien merecida por tu captura del día!».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Allez, ta pêche du jour vaut bien une Graine ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JZ37ZM0P7QK6SDVGYTFC66M5",
+      "text": "\"Your catch of the day deserves a Manaseed!\""
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -170,9 +178,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Justice Wong" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_99\/JPG\/en_US\/fa5dd29a0f145903d70a2f4b15d803c3.jpg",
   "assets": {
     "WEB": [
@@ -184,7 +193,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_99_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_99",
   "reference": "ALT_DUSTER_B_BR_99_R1",
   "translations": {
     "de_DE": { "name": "Markt-Begegnung", "image": null, "locale": "de_DE" },

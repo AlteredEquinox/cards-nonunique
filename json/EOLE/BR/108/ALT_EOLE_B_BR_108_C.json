@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Are you sure you want to add fuel to the fire?\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Vous êtes sûrs de vouloir jeter de l'huile sur le feu ? »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HPYPV19KJZR85DAQXQE9",
-          "text": "\"Are you sure you want to add fuel to the fire?\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPZ0B2GZ3Q05AZJD81GA",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPYV3X5BY1WYW9WNQ130",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPYDGZ3SSNRYT312QZ6X",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HPYJB8GMGM2JT3HFM43B",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6P85EG2Z5J9X0SJ5QPPXB7K5KP",
-      "reference": "ALT_EOLE_B_BR_108_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Are you sure you want to add fuel to the fire?\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Willst du wirklich noch Öl ins Feuer gießen?“",
+          "locale": "de_DE"
+        },
+        "fr_FR": {
+          "text": "« Vous êtes sûrs de vouloir jeter de l'huile sur le feu ? »",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "\"Vuoi davvero gettare benzina sul fuoco?\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¿Seguro que quieres echar más leña al fuego?».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HPYPV19KJZR85DAQXQE9",
+      "text": "\"Are you sure you want to add fuel to the fire?\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -318,6 +274,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "026",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Gamon Studio" },
@@ -333,7 +290,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_BR_108_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_108",
   "reference": "ALT_EOLE_B_BR_108_C",
   "translations": {
     "fr_FR": {

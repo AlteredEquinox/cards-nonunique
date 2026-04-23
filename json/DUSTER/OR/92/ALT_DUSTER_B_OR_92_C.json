@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Trust me, it will all trickle down for everyone's benefit.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Le ruissellement profite à tous, je vous l'assure. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZSPG9JGXA7DMW775HM2Q",
-          "text": "\"Trust me, it will all trickle down for everyone's benefit.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "67A0BVX5T687CT7HBP5H9JZ3SR",
-      "reference": "ALT_DUSTER_B_OR_92_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Credimi, i miei investimenti porteranno beneficio a tutti.\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"Trust me, it will all trickle down for everyone's benefit.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Le ruissellement profite à tous, je vous l'assure. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Vertrauen Sie mir, es wird zum Wohle aller sein.“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«Bajadme los impuestos y veréis como todos salen ganando».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZSPG9JGXA7DMW775HM2Q",
+      "text": "\"Trust me, it will all trickle down for everyone's benefit.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -191,6 +199,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "080",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
@@ -206,7 +215,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_92_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_92",
   "reference": "ALT_DUSTER_B_OR_92_C",
   "translations": {
     "it_IT": { "name": "Investitore Reka", "image": null, "locale": "it_IT" },

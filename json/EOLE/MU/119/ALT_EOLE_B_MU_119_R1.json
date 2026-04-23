@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Il est l'heure de laisser entrer le loup dans la bergerie !",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "If you run with the wolves, you'd best learn to howl!",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HT8FFS7QNGA5P7BZQWAY",
-          "text": "If you run with the wolves, you'd best learn to howl!"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HT90JFRJWR1YHCFMWKMG",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HT8RYKWPW497AAYNAY5Z",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HT6G1GVPG619P3VPJ023",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HT7X5CAATPG7G1992MST",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "18YSZMQT9Y8J2RKQYC66N8WZ79",
-      "reference": "ALT_EOLE_B_MU_119_C"
+      "translations": {
+        "fr_FR": {
+          "text": "Il est l'heure de laisser entrer le loup dans la bergerie !",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "If you run with the wolves, you'd best learn to howl!",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Wer mit Wölfen läuft, sollte auch mitheulen können!",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Se corri con i lupi, devi imparare a ululare!",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "El que con lobos anda, a aullar se enseña.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HT8FFS7QNGA5P7BZQWAY",
+      "text": "If you run with the wolves, you'd best learn to howl!"
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -235,6 +191,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "071",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
@@ -249,7 +206,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_119_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "MU_119",
   "reference": "ALT_EOLE_B_MU_119_R1",
   "translations": {
     "fr_FR": {

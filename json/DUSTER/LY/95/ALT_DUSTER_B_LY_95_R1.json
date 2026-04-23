@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Floor -2, room 217. Welcome to the Underlook Hostel.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Étage -2, chambre 217. Bienvenue à l'auberge Underlook. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZNDNYDVAPG9WQBKMHH67",
-          "text": "\"Floor -2, room 217. Welcome to the Underlook Hostel.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "323FYK7NAE8D1T9R6F7S0XGQ5W",
-      "reference": "ALT_DUSTER_B_LY_95_C"
+      "translations": {
+        "en_US": {
+          "text": "\"Floor -2, room 217. Welcome to the Underlook Hostel.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Étage -2, chambre 217. Bienvenue à l'auberge Underlook. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„2. Untergeschoss, Zimmer 217. Willkommen im Underlook Hotel.“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Piano -2, stanza 217. Benvenuti all'Hotel Sguardobasso.\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Planta -2, habitación 217. Que disfrute de su estancia en el Hotel Infravista».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZNDNYDVAPG9WQBKMHH67",
+      "text": "\"Floor -2, room 217. Welcome to the Underlook Hostel.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -222,9 +230,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Anh Tung" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_95\/JPG\/en_US\/a21b8ac21f1d6948862109706ed01a79.jpg",
   "assets": {
     "WEB": [
@@ -237,7 +246,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_95_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_95",
   "reference": "ALT_DUSTER_B_LY_95_R1",
   "translations": {
     "es_ES": { "name": "Conserje nocturno", "image": null, "locale": "es_ES" },

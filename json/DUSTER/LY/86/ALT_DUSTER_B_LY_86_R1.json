@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "After that, he'll sleep like a log, and that's no lie.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Même en buvant du jus d'orange, il a la gueule de bois.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZMGTQNV68MPXF09H4S4D",
-          "text": "After that, he'll sleep like a log, and that's no lie."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6J0GN3B6R39HRR1AEF25YXCA7E",
-      "reference": "ALT_DUSTER_B_LY_86_C"
+      "translations": {
+        "en_US": {
+          "text": "After that, he'll sleep like a log, and that's no lie.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Même en buvant du jus d'orange, il a la gueule de bois.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Nach diesem Cocktail wird er garantiert wie ein Holzklotz schlafen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Dopo quel drink potrebbe sentirsi la testa pesante... dopotutto è fatta di pino.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Después de esto va a dormir como un tronco.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZMGTQNV68MPXF09H4S4D",
+      "text": "After that, he'll sleep like a log, and that's no lie."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,9 +157,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Victor Canton" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_86\/JPG\/en_US\/49ad4ec74758c03d657f7a67ee662c7c.jpg",
   "assets": {
     "WEB": [
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_86_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_86",
   "reference": "ALT_DUSTER_B_LY_86_R1",
   "translations": {
     "es_ES": { "name": "Pinocho", "image": null, "locale": "es_ES" },

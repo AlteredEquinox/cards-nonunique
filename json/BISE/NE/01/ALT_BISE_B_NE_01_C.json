@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Mana is the cement that binds ideas and reality.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Mana is the cement that binds ideas and reality.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JBT1A8AYD39KEFCH8WABW1X3",
-          "text": "Mana is the cement that binds ideas and reality."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J21DT90AFB9Y6TNNK7CTA4DR",
-        "reference": "TOKEN_MANA",
-        "name": "Mana"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7636DX0C7C9Q7BVPC6FS04Y45E",
-      "reference": "ALT_BISE_B_NE_01_C"
+      "translations": {
+        "en_US": {
+          "text": "Mana is the cement that binds ideas and reality.",
+          "locale": "en_US"
+        },
+        "it_IT": {
+          "text": "Mana is the cement that binds ideas and reality.",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "Mana is the cement that binds ideas and reality.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Mana is the cement that binds ideas and reality.",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "Mana is the cement that binds ideas and reality.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JBT1A8AYD39KEFCH8WABW1X3",
+      "text": "Mana is the cement that binds ideas and reality."
     }
   ],
   "cardType": {
     "reference": "TOKEN_MANA",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Maná" },
+      "it_IT": { "locale": "it_IT", "name": "Mana" },
+      "de_DE": { "locale": "de_DE", "name": "Mana" },
+      "en_US": { "locale": "en_US", "name": "Mana" },
+      "fr_FR": { "locale": "fr_FR", "name": "Mana" }
+    },
     "id": "01H0FV1VGP4ACD3DFEJW3PWTQT",
     "name": "Mana"
   },
@@ -98,6 +106,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "106",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -111,7 +120,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_B_NE_01_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "NE_01",
   "reference": "ALT_BISE_B_NE_01_C",
   "translations": {
     "es_ES": {

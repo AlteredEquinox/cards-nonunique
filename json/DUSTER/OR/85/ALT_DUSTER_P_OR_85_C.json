@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"It's an honor to have been chosen to sculpt this shared monument with you.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« C'est un honneur d'avoir été choisi pour sculpter avec vous ce monument commun. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K3R4M8WQAP2R5NHM611SGNN3",
-          "text": "\"It's an honor to have been chosen to sculpt this shared monument with you.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2CH0EKYV9Q9CTRK0RX7RR1BYDZ",
-      "reference": "ALT_DUSTER_P_OR_85_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"È un onore essere stato scelto per scolpire questo monumento condiviso con voi.\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"It's an honor to have been chosen to sculpt this shared monument with you.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« C'est un honneur d'avoir été choisi pour sculpter avec vous ce monument commun. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Es ist mir eine Ehre, dieses gemeinsame Denkmal mit dir zu erschaffen.“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«Es un honor haber sido elegido para esculpir con vosotros este monumento común».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01K3R4M8WQAP2R5NHM611SGNN3",
+      "text": "\"It's an honor to have been chosen to sculpt this shared monument with you.\""
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -154,6 +162,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "073",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": { "nickName": "Justice Wong" },
@@ -173,7 +182,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_P_OR_85_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_85",
   "reference": "ALT_DUSTER_P_OR_85_C",
   "translations": {
     "es_ES": { "name": "Matz y Colmena", "image": null, "locale": "es_ES" },

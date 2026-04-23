@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "He will fight like the devil, despite his fear.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Malgré la peur, il se démènera comme un beau diable.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HY5N4R42HAYWJSBWEHCM",
-          "text": "He will fight like the devil, despite his fear."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HY6DMREKHHTNFJHDAYPS",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HY61BHMSRF4S6C23Y037",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HY3BVFXTVW1E9NP5MQFS",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HY4X71BGADW0P8K8A4CX",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5F4AMHAKRA8EAA0J258N5J2BP7",
-      "reference": "ALT_EOLE_B_YZ_111_C"
+      "translations": {
+        "en_US": {
+          "text": "He will fight like the devil, despite his fear.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Trotz seiner Angst kämpft er auf Teufel komm raus.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Si batterà come un diavolo, nonostante la paura.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "A pesar del miedo, luchará como un verdadero diablo.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Malgré la peur, il se démènera comme un beau diable.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KC94HY5N4R42HAYWJSBWEHCM",
+      "text": "He will fight like the devil, despite his fear."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -201,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "097",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
@@ -216,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_111_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_111",
   "reference": "ALT_EOLE_B_YZ_111_R1",
   "translations": {
     "fr_FR": {

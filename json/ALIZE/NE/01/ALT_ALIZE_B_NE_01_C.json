@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Mana is the cement that binds ideas and reality.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Le Mana est le ciment qui lie la substance des idées à celle de la réalité.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01J21J27N9JBK1ZWEBBGKWP144",
-          "text": "Mana is the cement that binds ideas and reality."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J21DT90AFB9Y6TNNK7CTA4DR",
-        "reference": "TOKEN_MANA",
-        "name": "Mana"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0GDH6N9C1M9S18BYY61MF8BHPE",
-      "reference": "ALT_ALIZE_B_NE_01_C"
+      "translations": {
+        "it_IT": {
+          "text": "Il mana è il cemento che lega le idee alla realtà.",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "Mana is the cement that binds ideas and reality.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Mana ist die Substanz, die Ideen und Realität zusammenhält.",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "El maná es el vínculo que une las ideas y la realidad.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Le Mana est le ciment qui lie la substance des idées à celle de la réalité.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01J21J27N9JBK1ZWEBBGKWP144",
+      "text": "Mana is the cement that binds ideas and reality."
     }
   ],
   "cardType": {
     "reference": "TOKEN_MANA",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Maná" },
+      "it_IT": { "locale": "it_IT", "name": "Mana" },
+      "de_DE": { "locale": "de_DE", "name": "Mana" },
+      "en_US": { "locale": "en_US", "name": "Mana" },
+      "fr_FR": { "locale": "fr_FR", "name": "Mana" }
+    },
     "id": "01H0FV1VGP4ACD3DFEJW3PWTQT",
     "name": "Mana"
   },
@@ -98,6 +106,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "108",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "HuoMiao Studio" },
@@ -111,7 +120,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_ALIZE_B_NE_01_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "NE_01",
   "reference": "ALT_ALIZE_B_NE_01_C",
   "translations": {
     "es_ES": {

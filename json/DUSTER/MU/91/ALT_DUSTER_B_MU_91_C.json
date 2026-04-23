@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"By crossing the fruits of the two world trees, we could obtain a fertile specimen.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« En croisant les fruits des deux arbres-mondes, on pourrait obtenir un spécimen fertile. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZQ2G0Q5VNKQ8NRCAB9R9",
-          "text": "\"By crossing the fruits of the two world trees, we could obtain a fertile specimen.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1H6N95P43V96W8EZ8T8393K70Y",
-      "reference": "ALT_DUSTER_B_MU_91_C"
+      "translations": {
+        "en_US": {
+          "text": "\"By crossing the fruits of the two world trees, we could obtain a fertile specimen.\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Wenn wir die Früchte der beiden Weltenbäume kreuzen, könnten wir einen lebensfähigen Sprössling erhalten.“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Incrociando i frutti dei due alberi del mondo, potremmo ottenere un esemplare fertile.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Al cruzar los frutos de los dos árboles del mundo, podríamos obtener un espécimen fértil».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« En croisant les fruits des deux arbres-mondes, on pourrait obtenir un spécimen fertile. »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JZ37ZQ2G0Q5VNKQ8NRCAB9R9",
+      "text": "\"By crossing the fruits of the two world trees, we could obtain a fertile specimen.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,6 +194,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "063",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Matteo Spirito" },
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_91_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_91",
   "reference": "ALT_DUSTER_B_MU_91_C",
   "translations": {
     "de_DE": { "name": "Reka-Agronomin", "image": null, "locale": "de_DE" },

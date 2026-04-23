@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Constancy is for insensitive clods alone.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« La constance n'est bonne que pour les ridicules. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZNGYCFZ3JEMMX717ZTM3",
-          "text": "\"Constancy is for insensitive clods alone.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "103DCHSTV99B29W0QVRV9C25DF",
-      "reference": "ALT_DUSTER_B_LY_96_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"La costanza è la virtù dei ridicoli.\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"Constancy is for insensitive clods alone.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« La constance n'est bonne que pour les ridicules. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Beständigkeit ist nur etwas für lächerliche Trottel.“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«¿No es verdad, ángel de amor, que en esta apartada orilla más pura la luna brilla y se respira mejor?».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZNGYCFZ3JEMMX717ZTM3",
+      "text": "\"Constancy is for insensitive clods alone.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -186,9 +194,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Justice Wong" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_96\/JPG\/en_US\/c0bff95b150771bef175ce97131e7416.jpg",
   "assets": {
     "WEB": [
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_96_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_96",
   "reference": "ALT_DUSTER_B_LY_96_R1",
   "translations": {
     "it_IT": { "name": "Don Giovanni", "image": null, "locale": "it_IT" },

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Pour apprendre à créer, il faut d'abord apprendre à réparer.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "To learn to create, first learn to fix.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JH1KAE6XN70MYC5M121WXJTV",
-          "text": "To learn to create, first learn to fix."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "60B5RMWJQ89Y2ADDXRDDMXYN7Q",
-      "reference": "ALT_CORE_A_AX_22_C"
+      "translations": {
+        "de_DE": {
+          "text": "Um das Erschaffen zu lernen, muss man zuerst das Reparieren lernen.",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "Para aprender a crear, primero tienes que aprender a arreglar.",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "Per imparare a creare bisogna prima imparare ad aggiustare.",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "Pour apprendre à créer, il faut d'abord apprendre à réparer.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "To learn to create, first learn to fix.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01JH1KAE6XN70MYC5M121WXJTV",
+      "text": "To learn to create, first learn to fix."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -118,9 +126,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Kevin Sidharta" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/CORE\/CARDS\/ALT_CORE_A_AX_22\/JPG\/en_US\/8e188e0c60c0d82429514acf43d9b745.jpg",
   "assets": {
     "WEB": [
@@ -132,7 +141,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_CORE_A_AX_22_R1",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_22",
   "reference": "ALT_CORE_A_AX_22_R1",
   "translations": {
     "fr_FR": {

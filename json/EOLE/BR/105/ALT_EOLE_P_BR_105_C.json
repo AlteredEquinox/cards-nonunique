@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"If you underestimate me, my victory will be all the sweeter.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Si tu me sous-estimes, ça va te coûter bonbon. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KG2J8GFC84Y93NZB5R3MG34F",
-          "text": "\"If you underestimate me, my victory will be all the sweeter.\""
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8GJWQTPN9Q93A5B1NF7M",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8GHWX5VVJGXPEZSAXYFK",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8GC4HVBXA41Z2RXKQS05",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8GEF4A5EJ7TK8HWQ75NV",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0M905DAFK58VDSM552KD8WF423",
-      "reference": "ALT_EOLE_P_BR_105_C"
+      "translations": {
+        "en_US": {
+          "text": "\"If you underestimate me, my victory will be all the sweeter.\"",
+          "locale": "en_US"
+        },
+        "es_ES": {
+          "text": "«Si me subestimas, mi victoria será aún más dulce».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Si tu me sous-estimes, ça va te coûter bonbon. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Unterschätzt mich ruhig, dann schmeckt mein Sieg umso süßer.“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"Se mi sottovaluti, la mia vittoria sarà ancora più dolce.\"",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KG2J8GFC84Y93NZB5R3MG34F",
+      "text": "\"If you underestimate me, my victory will be all the sweeter.\""
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -205,6 +161,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "X-019",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": { "nickName": "Tristan Bideau" },
@@ -218,7 +175,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_P_BR_105_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_105",
   "reference": "ALT_EOLE_P_BR_105_C",
   "translations": {
     "fr_FR": {

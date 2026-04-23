@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Its shell has inspired the shields’ design.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Les boucliers sont inspirés de sa carapace.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HPFE2VQHZE4TZ2WW3BE1",
-          "text": "Its shell has inspired the shields’ design."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HPFM9B9GFMXP6A6TR34M",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPFH2CS14ZG8ABK3R9GY",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPF82SFV7TAGEKNQXVMX",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPFB5JG0W8B71SY0V75T",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5E72TN051P8QSVHGXK0XM53W98",
-      "reference": "ALT_EOLE_B_AX_110_C"
+      "translations": {
+        "en_US": {
+          "text": "Its shell has inspired the shields’ design.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Sein Panzer hat den Entwurf der Schilde inspiriert.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Il suo guscio è fonte di ispirazione per il design degli scudi.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Su caparazón inspiró el diseño de los escudos.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Les boucliers sont inspirés de sa carapace.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KC94HPFE2VQHZE4TZ2WW3BE1",
+      "text": "Its shell has inspired the shields’ design."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -201,6 +157,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "003",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
@@ -216,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_110_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "AX_110",
   "reference": "ALT_EOLE_B_AX_110_R1",
   "translations": {
     "it_IT": {

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"I'll show you how to work without a net!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Je vais vous montrer comment on travaille sans filet ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZKXH32XMZW7AVPPM72ME",
-          "text": "\"I'll show you how to work without a net!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "1AHP6KAEZ89SR9F1889YEZWKAE",
-      "reference": "ALT_DUSTER_B_BR_98_C"
+      "translations": {
+        "en_US": {
+          "text": "\"I'll show you how to work without a net!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Je vais vous montrer comment on travaille sans filet ! »",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "\"Ti mostrerò come lavorare senza rete!\"",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«¡Te voy a enseñar a trabajar sin red!».",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "„Ich zeige dir, wie es ohne Netz geht!“",
+          "locale": "de_DE"
+        }
+      },
+      "id": "01JZ37ZKXH32XMZW7AVPPM72ME",
+      "text": "\"I'll show you how to work without a net!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -187,9 +195,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Taras Susak" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_98\/JPG\/en_US\/ce3067d367aad6cbd88240b29ab98d91.jpg",
   "assets": {
     "WEB": [
@@ -201,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_98_E",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_98",
   "reference": "ALT_DUSTER_B_BR_98_E",
   "translations": {
     "en_US": {

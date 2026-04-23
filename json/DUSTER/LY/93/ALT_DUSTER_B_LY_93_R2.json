@@ -1,38 +1,43 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Hop in, it's a guaranteed five-star experience!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Allez grimpe, c'est du 5 étoiles garanti ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZN7B3T0ZTWACB111C2ZY",
-          "text": "\"Hop in, it's a guaranteed five-star experience!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6R36MNQCV08NCR03TCVXHGAJ43",
-      "reference": "ALT_DUSTER_B_LY_93_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Salta su, sarà un'esperienza indimenticabile!\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"Hop in, it's a guaranteed five-star experience!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Allez grimpe, c'est du 5 étoiles garanti ! »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Steig ein: für dein garantiertes Fünf-Sterne-Erlebnis!“",
+          "locale": "de_DE"
+        },
+        "es_ES": { "text": "«¡Monta, que vas a alucinar!».", "locale": "es_ES" }
+      },
+      "id": "01JZ37ZN7B3T0ZTWACB111C2ZY",
+      "text": "\"Hop in, it's a guaranteed five-star experience!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -225,9 +230,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Damian Audino" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_93\/JPG\/en_US\/617e5e3258fa8dd784814e477a426d41.jpg",
   "assets": {
     "WEB": [
@@ -240,7 +246,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_LY_93_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_93",
   "reference": "ALT_DUSTER_B_LY_93_R2",
   "translations": {
     "de_DE": {

@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Unfortunately for you, I didn't come alone!",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Malheureusement pour toi, je ne suis pas venu seul ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KG2J8CTWJ1A6N0EP0CDGZ5CS",
-          "text": "Unfortunately for you, I didn't come alone!"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8CXXR1BJ4V9VX8G5HZ0E",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8CVMVNNMNGGM1212NRZG",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KG2J8CQJD442R1GF446G4XN1",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KG2J8CRRBJMKE3WRZTM2N2YQ",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4MWEFZSWM68H1R7CRQ9KGS914M",
-      "reference": "ALT_EOLE_A_MU_65_C"
+      "translations": {
+        "en_US": {
+          "text": "Unfortunately for you, I didn't come alone!",
+          "locale": "en_US"
+        },
+        "es_ES": {
+          "text": "«¡Por desgracia para ti, no he venido solo!».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Malheureusement pour toi, je ne suis pas venu seul ! »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Pech für euch, ich bin nicht allein gekommen!“",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Sfortunatamente per te, non sono venuta da sola!",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KG2J8CTWJ1A6N0EP0CDGZ5CS",
+      "text": "Unfortunately for you, I didn't come alone!"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -205,6 +161,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "A-056",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Justice Wong" },
@@ -218,7 +175,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_A_MU_65_C",
   "isExclusive": true,
   "isOwnerless": true,
-  "cardFamilyReference": "MU_65",
   "reference": "ALT_EOLE_A_MU_65_C",
   "translations": {
     "en_US": {

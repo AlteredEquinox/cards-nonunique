@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "An essential accessory for any Leviathan rider.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "L'accessoire indispensable des chevaucheurs de Léviathans.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJTRT4R5X1QQR6VR01BH",
-          "text": "An essential accessory for any Leviathan rider."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J20ZZ2WM1WQ8ARN68RNGJZCB",
-        "reference": "EXPEDITION_PERMANENT",
-        "name": "EXPEDITION_PERMANENT"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2JV7RYY71T8SB8FWE1EMSAJ48A",
-      "reference": "ALT_DUSTER_B_BR_102_C"
+      "translations": {
+        "en_US": {
+          "text": "An essential accessory for any Leviathan rider.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "L'accessoire indispensable des chevaucheurs de Léviathans.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Ein Must-have für jeden Leviathan-Reiter.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Un accessorio essenziale per ogni cavaliere di leviatani.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Un accesorio indispensable para cualquier jinete de leviatanes.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZJTRT4R5X1QQR6VR01BH",
+      "text": "An essential accessory for any Leviathan rider."
     }
   ],
   "cardType": {
     "reference": "EXPEDITION_PERMANENT",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Permanente de expedición" },
+      "it_IT": { "locale": "it_IT", "name": "Permanente Spedizione" },
+      "de_DE": { "locale": "de_DE", "name": "Bleibende Expeditionskarte" },
+      "en_US": { "locale": "en_US", "name": "Expedition Permanent" },
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent d’Expédition" }
+    },
     "id": "01J1Q7ASAYXTSM3DH772C70PV5",
     "name": "Expedition Permanent"
   },
@@ -229,9 +237,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Jean-Baptiste Andrier" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_102\/JPG\/en_US\/0694f3838f9d45e37321d69396282d73.jpg",
   "assets": {
     "WEB": [
@@ -243,7 +252,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_102_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_102",
   "reference": "ALT_DUSTER_B_BR_102_R1",
   "translations": {
     "it_IT": {

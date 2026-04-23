@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Haha, check it out, it's already stuffed!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Haha, regarde, il est déjà farci ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZ645HXZ2Q1N7E65E24H",
-          "text": "\"Haha, check it out, it's already stuffed!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6RCJ74333S9R2AZTWSQNJS5TW2",
-      "reference": "ALT_DUSTEROP_B_BR_94_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Ah ah, guarda qua, è già ripieno!\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"Haha, check it out, it's already stuffed!\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Haha, schau mal, der ist schon ausgestopft!“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«Ja, ja, mira, ¡si ya viene relleno!».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Haha, regarde, il est déjà farci ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZ645HXZ2Q1N7E65E24H",
+      "text": "\"Haha, check it out, it's already stuffed!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -221,9 +229,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "008",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Victor Canton" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_P_BR_94\/JPG\/en_US\/09b8f82d9afbcc0d445536c35c82f69b.jpg",
   "assets": {
     "WEB": [
@@ -236,7 +245,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_BR_94_R1",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_94",
   "reference": "ALT_DUSTEROP_P_BR_94_R1",
   "translations": {
     "it_IT": { "name": "Pescatore Reka", "image": null, "locale": "it_IT" },

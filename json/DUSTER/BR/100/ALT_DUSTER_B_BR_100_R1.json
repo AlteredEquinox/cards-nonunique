@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "There's no slipping through the net this time.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Cette fois, impossible de passer entre les mailles du filet.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJQ05YY7TKA998KGJC10",
-          "text": "There's no slipping through the net this time."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5K2EX6P7CT83RVCZBWKTKTTMZN",
-      "reference": "ALT_DUSTER_B_BR_100_C"
+      "translations": {
+        "en_US": {
+          "text": "There's no slipping through the net this time.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Cette fois, impossible de passer entre les mailles du filet.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Diesmal wird nichts durch das Netz schlüpfen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Di sicuro questa volta nessuno ha preso un granchio.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Este «pez» sí que no se escapa de la red.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZJQ05YY7TKA998KGJC10",
+      "text": "There's no slipping through the net this time."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -197,9 +205,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "DOBA" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/en_US\/db3f473b118fcc0c571d2313172576ea.jpg",
   "assets": {
     "WEB": [
@@ -211,7 +220,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_100_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "BR_100",
   "reference": "ALT_DUSTER_B_BR_100_R1",
   "translations": {
     "es_ES": { "name": "La captura del día", "image": null, "locale": "es_ES" },

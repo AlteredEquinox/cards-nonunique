@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Si vous êtes perdu, prêtez l'oreille aux annonces de la scène centrale.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "If you're lost, listen out for the announcements from the central stage.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01JBT1A3Y04RX6V6EC2P9REBVJ",
-          "text": "If you're lost, listen out for the announcements from the central stage."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2KQZCGTQSF9QVVB9C0SFSNHVBR",
-      "reference": "ALT_BISE_A_LY_53_C"
+      "translations": {
+        "es_ES": {
+          "text": "Si te pierdes, presta atención a los anuncios del escenario central.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Si vous êtes perdu, prêtez l'oreille aux annonces de la scène centrale.",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "Se non sai dove sei, ascolta bene gli annunci dal palco centrale.",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "If you're lost, listen out for the announcements from the central stage.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Wenn du dich verlaufen hast, achte auf die Durchsagen von der Hauptbühne.",
+          "locale": "de_DE"
+        }
+      },
+      "id": "01JBT1A3Y04RX6V6EC2P9REBVJ",
+      "text": "If you're lost, listen out for the announcements from the central stage."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -285,6 +293,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "041",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Zaeliven" },
@@ -300,7 +309,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_BISE_A_LY_53_R2",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_53",
   "reference": "ALT_BISE_A_LY_53_R2",
   "translations": {
     "en_US": {

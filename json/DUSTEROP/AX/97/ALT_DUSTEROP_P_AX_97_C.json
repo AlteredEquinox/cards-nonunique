@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Not a failure; just another step towards success.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Pas un échec. Juste un pas de plus vers la réussite.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZ4ABE353HKR1FQZAKC9",
-          "text": "Not a failure; just another step towards success."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0AQT6KAQ4K8BDRHZPH1NK6MK0E",
-      "reference": "ALT_DUSTEROP_B_AX_97_C"
+      "translations": {
+        "de_DE": {
+          "text": "Jeder Misserfolg ist nur ein weiterer Schritt zum Erfolg.",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "Not a failure; just another step towards success.",
+          "locale": "en_US"
+        },
+        "it_IT": {
+          "text": "Non è un fallimento, ma soltanto un altro passo verso il successo.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "No es un fracaso, sino un paso más hacia el éxito.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Pas un échec. Juste un pas de plus vers la réussite.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZ4ABE353HKR1FQZAKC9",
+      "text": "Not a failure; just another step towards success."
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -182,6 +190,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "001",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
@@ -196,7 +205,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_P_AX_97_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_97",
   "reference": "ALT_DUSTEROP_P_AX_97_C",
   "translations": {
     "fr_FR": {

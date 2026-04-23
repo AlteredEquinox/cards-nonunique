@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"With this new invention, we can generate a force field to protect the city!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Grâce à cette nouvelle invention, nous pourrons générer un champ de force pour protéger la cité ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZJ3HWYS8G4RWX99X42G3",
-          "text": "\"With this new invention, we can generate a force field to protect the city!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5FTNQP9FE98BAR0P0BQYSPMW25",
-      "reference": "ALT_DUSTER_B_AX_89_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Con questa nuova invenzione, possiamo generare un campo di forza in grado di proteggere la città!\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"With this new invention, we can generate a force field to protect the city!\"",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Mit dieser neuen Erfindung können wir ein Kraftfeld zum Schutz der Stadt erzeugen!“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«¡Con este nuevo invento, podemos generar un campo de fuerza para proteger la ciudad!».",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "« Grâce à cette nouvelle invention, nous pourrons générer un champ de force pour protéger la cité ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01JZ37ZJ3HWYS8G4RWX99X42G3",
+      "text": "\"With this new invention, we can generate a force field to protect the city!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -149,9 +157,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Fahmi Fauzi" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_89\/JPG\/en_US\/51df5d4c609512780b9bbcb060c833cf.jpg",
   "assets": {
     "WEB": [
@@ -164,7 +173,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_AX_89_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "AX_89",
   "reference": "ALT_DUSTER_B_AX_89_R1",
   "translations": {
     "en_US": {

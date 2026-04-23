@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Fine politicienne, Astrape prend le pouls de la nation Reka.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Astrape is a skilled politician with her finger on the pulse of the Reka nation.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KH3ZWMA4CFGKD5A48DXKQA5P",
-          "text": "Astrape is a skilled politician with her finger on the pulse of the Reka nation."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "661NED3GX4810RC5EPPKBDHQNG",
-      "reference": "ALT_WCS26_P_OR_97_C"
+      "translations": {
+        "es_ES": {
+          "text": "Astrape es una hábil política que conoce el pulso de la nación Reka.",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "Astrape ist eine erfahrene Politikerin, die den Finger stets am Puls der Reka hat.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Astrape è un'abile politica; non le sfugge niente sulla nazione dei Reka.",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "Fine politicienne, Astrape prend le pouls de la nation Reka.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Astrape is a skilled politician with her finger on the pulse of the Reka nation.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KH3ZWMA4CFGKD5A48DXKQA5P",
+      "text": "Astrape is a skilled politician with her finger on the pulse of the Reka nation."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -191,9 +199,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "S-007",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Taras Susak" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/WCS26\/CARDS\/ALT_WCS26_P_OR_97\/JPG\/en_US\/83a9df97d67a9bbba717a383b3c27322.jpg",
   "assets": {
     "WEB": [
@@ -205,7 +214,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_P_OR_97_E",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": null,
   "reference": "ALT_WCS26_P_OR_97_E",
   "translations": {
     "fr_FR": {

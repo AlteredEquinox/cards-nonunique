@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Son vol est silencieux et ses serres sont acérées.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Its flight is silent and its talons sharp.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HVQTBG2103SAK6BJM52X",
-          "text": "Its flight is silent and its talons sharp."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HVREGSXSFPDPW4YW7WGK",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HVR3MR06QA37XXMN2DSF",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HVQ6WJX7KXSFCHX0QJ40",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HVQGSHZSYGVY1Y7YDFQA",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0QD9Z8V32Z8FK8AYF94RN4SASW",
-      "reference": "ALT_EOLE_B_OR_113_C"
+      "translations": {
+        "fr_FR": {
+          "text": "Son vol est silencieux et ses serres sont acérées.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Its flight is silent and its talons sharp.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Ihr Flug ist lautlos, ihre Krallen scharf.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Il suo volo è silenzioso e i suoi artigli sono affilati.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Su vuelo es silencioso y sus garras, afiladas.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HVQTBG2103SAK6BJM52X",
+      "text": "Its flight is silent and its talons sharp."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -238,6 +194,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "082",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Kevin Sidharta" },
@@ -253,7 +210,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_113_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_113",
   "reference": "ALT_EOLE_B_OR_113_R1",
   "translations": {
     "it_IT": {

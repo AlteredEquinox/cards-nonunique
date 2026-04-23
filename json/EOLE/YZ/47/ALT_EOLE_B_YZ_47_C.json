@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "By their very nature, Moths are prone to corruption.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Par leur nature, les Phalènes sont poreuses à la corruption.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94J06NM9WTA85D0A2AS92S",
-          "text": "By their very nature, Moths are prone to corruption."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94J07GVX6NCXFA92WT383Y",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94J074G5XGPBHKK0SNF67A",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94J04MVRTKFX1KXCDJ1CQ3",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94J050GY76XKE24XH85KJX",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
-        "reference": "TOKEN",
-        "name": "Token"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4152RATQB29PPSGHW0ER5Q2WT0",
-      "reference": "ALT_EOLE_B_YZ_47_C"
+      "translations": {
+        "en_US": {
+          "text": "By their very nature, Moths are prone to corruption.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Motten sind von Natur aus anfällig für den Verfall.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Per loro natura, le falene sono inclini alla corruzione.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Por su naturaleza, las polillas son propensas a la corrupción.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "Par leur nature, les Phalènes sont poreuses à la corruption.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KC94J06NM9WTA85D0A2AS92S",
+      "text": "By their very nature, Moths are prone to corruption."
     }
   ],
   "cardType": {
     "reference": "TOKEN",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha de personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Pedina Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Marken-Charakter" },
+      "en_US": { "locale": "en_US", "name": "Token Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Personnage" }
+    },
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
@@ -183,6 +139,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "117",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
@@ -196,7 +153,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_YZ_47_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_47",
   "reference": "ALT_EOLE_B_YZ_47_C",
   "translations": {
     "en_US": {

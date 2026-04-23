@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Through the Musubi, we will be linked to the Naos!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Grâce au Musubi, nous nous lierons au Naos ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K4Z6KZDNQPYQXRWDRR1HAM07",
-          "text": "\"Through the Musubi, we will be linked to the Naos!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "65DXAHTH3V9ANSC0X7DC0GY793",
-      "reference": "ALT_DUSTEROP_B_MU_98_C"
+      "translations": {
+        "de_DE": {
+          "text": "„Durch die Musubi verbinden wir uns mit dem Naos!“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«¡Mediante el Musubi, nos uniremos al Naos!».",
+          "locale": "es_ES"
+        },
+        "en_US": {
+          "text": "\"Through the Musubi, we will be linked to the Naos!\"",
+          "locale": "en_US"
+        },
+        "it_IT": {
+          "text": "\"Attraverso il Musubi saremo connessi al Naos!\"",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "« Grâce au Musubi, nous nous lierons au Naos ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01K4Z6KZDNQPYQXRWDRR1HAM07",
+      "text": "\"Through the Musubi, we will be linked to the Naos!\""
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -183,9 +191,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
-  "illustrator": null,
+  "illustrator": { "nickName": "DOBA" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTEROP\/CARDS\/ALT_DUSTEROP_A_MU_98\/JPG\/en_US\/43ac5fe2e15c658ed55ac7307f24080d.jpg",
   "assets": {
     "WEB": [
@@ -197,7 +206,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTEROP_A_MU_98_R2",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_98",
   "reference": "ALT_DUSTEROP_A_MU_98_R2",
   "translations": {
     "de_DE": { "name": "Seelen-Begegnung", "image": null, "locale": "de_DE" },

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Hop in, it's a guaranteed five-star experience!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Allez grimpe, c'est du 5 étoiles garanti ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA2RKQ6E1TMYBJ3NZTRFD",
-          "text": "\"Hop in, it's a guaranteed five-star experience!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6KJAJG795R8Q8VXZ9X85BXNGTS",
-      "reference": "ALT_DUSTERCB_P_LY_93_C"
+      "translations": {
+        "es_ES": {
+          "text": "«¡Monta, que vas a alucinar!».",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "\"Salta su, sarà un'esperienza indimenticabile!\"",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "„Steig ein: für dein garantiertes Fünf-Sterne-Erlebnis!“",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"Hop in, it's a guaranteed five-star experience!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Allez grimpe, c'est du 5 étoiles garanti ! »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA2RKQ6E1TMYBJ3NZTRFD",
+      "text": "\"Hop in, it's a guaranteed five-star experience!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -225,6 +233,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "009",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -240,7 +249,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_LY_93_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "LY_93",
   "reference": "ALT_DUSTERCB_P_LY_93_C",
   "translations": {
     "it_IT": { "name": "Diocle, Auriga", "image": null, "locale": "it_IT" },

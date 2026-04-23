@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Moths are at the core of Yzmir strategy.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Les phalènes sont au cœur de la stratégie Yzmir.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K3R4KZJC5498JA5M1XE408G5",
-          "text": "Moths are at the core of Yzmir strategy."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
-        "reference": "TOKEN",
-        "name": "Token"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7YJ63Q9CEC9Q5VPD9C7ZVW0FNF",
-      "reference": "ALT_DUSTER_B_YZ_47_C"
+      "translations": {
+        "en_US": {
+          "text": "Moths are at the core of Yzmir strategy.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Les phalènes sont au cœur de la stratégie Yzmir.",
+          "locale": "fr_FR"
+        },
+        "it_IT": {
+          "text": "Le falene sono al centro delle strategie degli Yzmir.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Las polillas son la pieza central de la estrategia de los Yzmir.",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "Motten bilden das wichtigste Element der Strategie der Yzmir.",
+          "locale": "de_DE"
+        }
+      },
+      "id": "01K3R4KZJC5498JA5M1XE408G5",
+      "text": "Moths are at the core of Yzmir strategy."
     }
   ],
   "cardType": {
     "reference": "TOKEN",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha de personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Pedina Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Marken-Charakter" },
+      "en_US": { "locale": "en_US", "name": "Token Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Personnage" }
+    },
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
@@ -131,6 +139,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "112",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
@@ -144,7 +153,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_47_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "YZ_47",
   "reference": "ALT_DUSTER_B_YZ_47_C",
   "translations": {
     "en_US": {

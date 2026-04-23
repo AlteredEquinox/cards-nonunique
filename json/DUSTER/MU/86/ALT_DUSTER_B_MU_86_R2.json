@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "The pleasure of giving, the joy of receiving.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Plaisir d'offrir, joie de recevoir.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZPETCB41AEN1G92TZ3R1",
-          "text": "The pleasure of giving, the joy of receiving."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4E62NK1D1Z82NRVAH0J8HN3V42",
-      "reference": "ALT_DUSTER_B_MU_86_C"
+      "translations": {
+        "en_US": {
+          "text": "The pleasure of giving, the joy of receiving.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Plaisir d'offrir, joie de recevoir.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Die Freude am Geben, die Freude am Empfangen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Il piacere di dare, la gioia di ricevere.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "El placer de dar, la alegría de recibir.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZPETCB41AEN1G92TZ3R1",
+      "text": "The pleasure of giving, the joy of receiving."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -191,9 +199,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Ba Vo" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_86\/JPG\/en_US\/87cc869de35a631a75c25ee25c9683a7.jpg",
   "assets": {
     "WEB": [
@@ -206,7 +215,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_86_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_86",
   "reference": "ALT_DUSTER_B_MU_86_R2",
   "translations": {
     "de_DE": { "name": "Kaninchenbauer", "image": null, "locale": "de_DE" },

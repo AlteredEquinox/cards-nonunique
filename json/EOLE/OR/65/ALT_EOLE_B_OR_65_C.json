@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Those who stand without honor will fall without wings",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "À s'élever sans honneur, on a vite fait d'y perdre des plumes.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HX44RE3RXKZE8BK81BSA",
-          "text": "Those who stand without honor will fall without wings"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HX6A600S4P9ZN09228NY",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HX5Q8EBYKK3FSY8ES05H",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HX3D61ZPYYGWDET5EK44",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HX3SS7KVAFBW17KBW3D1",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "2CYZCXSVQE8X1RD58FEG6VAC7M",
-      "reference": "ALT_EOLE_B_OR_65_C"
+      "translations": {
+        "en_US": {
+          "text": "Those who stand without honor will fall without wings",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Wer ohne Ehre dasteht, wird ohne Flügel fallen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Chi cammina senza onore cadrà senza ali.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Aquellos sin honor caerán sin alas.",
+          "locale": "es_ES"
+        },
+        "fr_FR": {
+          "text": "À s'élever sans honneur, on a vite fait d'y perdre des plumes.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KC94HX44RE3RXKZE8BK81BSA",
+      "text": "Those who stand without honor will fall without wings"
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -280,6 +236,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "075",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -299,7 +256,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_65_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_65",
   "reference": "ALT_EOLE_B_OR_65_C",
   "translations": {
     "de_DE": {

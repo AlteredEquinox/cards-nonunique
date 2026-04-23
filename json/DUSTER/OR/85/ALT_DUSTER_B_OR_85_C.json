@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "I am the beating heart of the swarm, the architect of the hive.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Je suis le cœur de l'essaim, l'architecte de la ruche.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZHHNZAAHXHRQR1CVF0QF",
-          "text": "I am the beating heart of the swarm, the architect of the hive."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNE2ZDSBVNHKJ8P47G3GACVQ",
-        "reference": "HERO",
-        "name": "Hero"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "0Y47MG0ZFJ95EVAZER4HGKP6GV",
-      "reference": "ALT_DUSTER_B_OR_85_C"
+      "translations": {
+        "en_US": {
+          "text": "I am the beating heart of the swarm, the architect of the hive.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Je suis le cœur de l'essaim, l'architecte de la ruche.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Ich bin das schlagende Herz des Schwarms, der Architekt des Insektenstocks.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Sono il cuore pulsante dello sciame, l'architetto dell'alveare.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Soy el corazón palpitante del enjambre, el arquitecto de la colmena.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZHHNZAAHXHRQR1CVF0QF",
+      "text": "I am the beating heart of the swarm, the architect of the hive."
     }
   ],
   "cardType": {
     "reference": "HERO",
+    "translations": {
+      "de_DE": { "locale": "de_DE", "name": "Held" },
+      "en_US": { "locale": "en_US", "name": "Hero" },
+      "fr_FR": { "locale": "fr_FR", "name": "Héros" },
+      "es_ES": { "locale": "es_ES", "name": "Héroe de" },
+      "it_IT": { "locale": "it_IT", "name": "Eroe" }
+    },
     "id": "01GE7AC9WGQTNRP28T63FH8TZD",
     "name": "Hero"
   },
@@ -154,6 +162,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "073",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
@@ -173,7 +182,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_85_C",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_85",
   "reference": "ALT_DUSTER_B_OR_85_C",
   "translations": {
     "it_IT": { "name": "Matz e Arnia", "image": null, "locale": "it_IT" },

@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Halua returns as the protector of the Naos.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Halua reprend sa place de protecteur du Naos.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01K3R4K7BPH5REVP2D0XMWCS5J",
-          "text": "Halua returns as the protector of the Naos."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
-        "reference": "TOKEN",
-        "name": "Token"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "7JWJ764G1P9B0BNQMWJ2EHY5P9",
-      "reference": "ALT_DUSTER_B_BR_83_C"
+      "translations": {
+        "en_US": {
+          "text": "Halua returns as the protector of the Naos.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Halua reprend sa place de protecteur du Naos.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Halua kehrt als Beschützer des Naos zurück.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Halua riprende il suo posto come protettore del Naos.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Halua retoma su labor de proteger el Naos.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01K3R4K7BPH5REVP2D0XMWCS5J",
+      "text": "Halua returns as the protector of the Naos."
     }
   ],
   "cardType": {
     "reference": "TOKEN",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha de personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Pedina Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Marken-Charakter" },
+      "en_US": { "locale": "en_US", "name": "Token Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Personnage" }
+    },
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
@@ -173,6 +181,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "109",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Fahmi Fauzi" },
@@ -186,7 +195,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_BR_83_C",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "BR_83",
   "reference": "ALT_DUSTER_B_BR_83_C",
   "translations": {
     "it_IT": { "name": "Halua", "image": null, "locale": "it_IT" },

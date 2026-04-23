@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Your goods are now Hexarch property.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Vos marchandises sont désormais la propriété des Hexarques. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZTN9R2NDEQZYDMT0KZ07",
-          "text": "\"Your goods are now Hexarch property.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "300JWNDJMD90GTAYFWWVV91305",
-      "reference": "ALT_DUSTER_B_OR_98_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"A partire da ora, i tuoi beni appartengono agli esarchi.\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"Your goods are now Hexarch property.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Vos marchandises sont désormais la propriété des Hexarques. »",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Ihre Waren sind jetzt Eigentum der Hexarchen.“",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«Tus bienes son ahora propiedad de los hexarcas».",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZTN9R2NDEQZYDMT0KZ07",
+      "text": "\"Your goods are now Hexarch property.\""
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -224,9 +232,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Fahmi Fauzi" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_98\/JPG\/en_US\/a35b7d98b0d850fadb3985a8cbb21eff.jpg",
   "assets": {
     "WEB": [
@@ -238,7 +247,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_OR_98_R2",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "OR_98",
   "reference": "ALT_DUSTER_B_OR_98_R2",
   "translations": {
     "en_US": {

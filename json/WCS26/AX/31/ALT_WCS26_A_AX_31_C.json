@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "3000 mètres... 2900 mètres ... 2800 mètres...",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "10,000 feet... 9,500 feet... 9,000 feet...",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KH3ZWMDD60BJBZVCA59J5YSH",
-          "text": "10,000 feet... 9,500 feet... 9,000 feet..."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4Z5J75JCWRB6V94E57W3",
-        "reference": "TOKEN",
-        "name": "Token"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "6Y926YB7S08W9VSSYEZ1P9DWMY",
-      "reference": "ALT_WCS26_A_AX_31_C"
+      "translations": {
+        "de_DE": {
+          "text": "10.000 Fuß … 9.500 Fuß … 9.000 Fuß …",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "3000 metros... 2500 metros... 2000 metros...",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "3000 metri... 2900 metri... 2800 metri...",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "3000 mètres... 2900 mètres ... 2800 mètres...",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "10,000 feet... 9,500 feet... 9,000 feet...",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KH3ZWMDD60BJBZVCA59J5YSH",
+      "text": "10,000 feet... 9,500 feet... 9,000 feet..."
     }
   ],
   "cardType": {
     "reference": "TOKEN",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Ficha de personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Pedina Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Marken-Charakter" },
+      "en_US": { "locale": "en_US", "name": "Token Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Jeton Personnage" }
+    },
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
@@ -131,6 +139,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "S-001",
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Zaeliven" },
@@ -144,7 +153,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_A_AX_31_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": null,
   "reference": "ALT_WCS26_A_AX_31_C",
   "translations": {
     "fr_FR": {

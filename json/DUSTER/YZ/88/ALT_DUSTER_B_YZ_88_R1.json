@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "Maleros should have been wary of the outsider.",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Maleros aurait dû se méfier de l'outsider.",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZW7T1VG4EC5XZPAC9D67",
-          "text": "Maleros should have been wary of the outsider."
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5AK3DBRTWN8DVRS2KQ0RQ3WQ1K",
-      "reference": "ALT_DUSTER_B_YZ_88_C"
+      "translations": {
+        "en_US": {
+          "text": "Maleros should have been wary of the outsider.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Maleros aurait dû se méfier de l'outsider.",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Maleros hätte den Außenseiter besser im Blick behalten sollen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Maleros avrebbe dovuto diffidare dell'estraneo.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Maleros debería haber desconfiado del forastero.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01JZ37ZW7T1VG4EC5XZPAC9D67",
+      "text": "Maleros should have been wary of the outsider."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -150,9 +158,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "HuoMiao Studio" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_88\/JPG\/en_US\/01779171bc070b1d282f8d85e5fe8455.jpg",
   "assets": {
     "WEB": [
@@ -165,7 +174,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_YZ_88_R1",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_88",
   "reference": "ALT_DUSTER_B_YZ_88_R1",
   "translations": {
     "en_US": {

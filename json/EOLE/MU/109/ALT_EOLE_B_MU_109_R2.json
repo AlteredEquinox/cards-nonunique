@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "« L'inconnu est un des principaux éléments de la peur. » — Jack London",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "\"The unknown was one of the chief elements that went into the making of fear.\" — Jack London",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HS9A2XAWWPTT044SAC6J",
-          "text": "\"The unknown was one of the chief elements that went into the making of fear.\" — Jack London"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HS9T7GG0XXE2KZ7M8XP0",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HS9J6063WHY8X5A1AYX1",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HS8JC795PBJ4SEM5VJ8J",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HS934H6RPBJZ9V1R7SFE",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "4Q9BAYF0V79PYASGGQQBF304FM",
-      "reference": "ALT_EOLE_B_MU_109_C"
+      "translations": {
+        "fr_FR": {
+          "text": "« L'inconnu est un des principaux éléments de la peur. » — Jack London",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "\"The unknown was one of the chief elements that went into the making of fear.\" — Jack London",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "„Das Unbekannte war eines der Hauptelemente, aus denen sich die Furcht zusammensetzte.“ — Jack London",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "«Lo desconocido es uno de los principales elementos del miedo». —Jack London",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "\"L'ignoto fu uno degli elementi principali che contribuirono a creare la paura.\" — Jack London",
+          "locale": "it_IT"
+        }
+      },
+      "id": "01KC94HS9A2XAWWPTT044SAC6J",
+      "text": "\"The unknown was one of the chief elements that went into the making of fear.\" — Jack London"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -286,6 +242,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "060",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jefrey Yonathan" },
@@ -301,7 +258,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_109_R2",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "MU_109",
   "reference": "ALT_EOLE_B_MU_109_R2",
   "translations": {
     "it_IT": {

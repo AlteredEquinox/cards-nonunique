@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"Congratulations. Forcing me to take the field is no small feat.\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Félicitations. Me forcer à entrer sur le terrain n'est pas un mince exploit. »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KJ5PA3VKRKE4X83YEJ3T3722",
-          "text": "\"Congratulations. Forcing me to take the field is no small feat.\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5GE6Q0EKG382Z8AEB1189GC611",
-      "reference": "ALT_DUSTERCB_P_YZ_94_C"
+      "translations": {
+        "es_ES": {
+          "text": "«Enhorabuena. Obligarme a salir al campo no es cosa menor».",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "\"Congratulazioni. Convincermi a scendere in campo non è un'impresa da poco.\"",
+          "locale": "it_IT"
+        },
+        "de_DE": {
+          "text": "„Glückwunsch. Mich auf das Spielfeld zu zwingen ist keine kleine Errungenschaft.“",
+          "locale": "de_DE"
+        },
+        "en_US": {
+          "text": "\"Congratulations. Forcing me to take the field is no small feat.\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Félicitations. Me forcer à entrer sur le terrain n'est pas un mince exploit. »",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KJ5PA3VKRKE4X83YEJ3T3722",
+      "text": "\"Congratulations. Forcing me to take the field is no small feat.\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -154,6 +162,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "030",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": null,
@@ -168,7 +177,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTERCB_P_YZ_94_E",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": "YZ_94",
   "reference": "ALT_DUSTERCB_P_YZ_94_E",
   "translations": {
     "es_ES": {

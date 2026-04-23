@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "L'injustice est le terreau du mal.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Injustice is fertile ground for evil.",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KC94HSWHT3AZ0ETWN41K748E",
-          "text": "Injustice is fertile ground for evil."
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HSX1CH5KTT66T6CXCWAC",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HSWSR0FZEAX8JQ2A103K",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HSW11X4NDP1TJ35X1DV8",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HSW98SSFHVQ5V5YW6ESY",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "50J61S5F369ZJ9K69Q96FNGRZC",
-      "reference": "ALT_EOLE_B_MU_115_C"
+      "translations": {
+        "fr_FR": {
+          "text": "L'injustice est le terreau du mal.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Injustice is fertile ground for evil.",
+          "locale": "en_US"
+        },
+        "de_DE": {
+          "text": "Ungerechtigkeit ist der Nährboden des Bösen.",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "L'ingiustizia è terreno fertile per la malvagità.",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "La injusticia es el caldo de cultivo del mal.",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HSWHT3AZ0ETWN41K748E",
+      "text": "Injustice is fertile ground for evil."
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -276,6 +232,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "069",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
@@ -290,7 +247,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_MU_115_E",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "MU_115",
   "reference": "ALT_EOLE_B_MU_115_E",
   "translations": {
     "de_DE": {

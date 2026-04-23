@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "If Aerolith can defy gravity, it can also deny evil!",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "Si l'Aérolithe permet de renverser la gravité, elle permet aussi de repousser le mal !",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HPMPV1SVXPEJGYJ5ZY9W",
-          "text": "If Aerolith can defy gravity, it can also deny evil!"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HPMYWDW6MD58EC2MTXTG",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HPMTGSGK0KH9QDMM4CYN",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPMBRH8SM3RP129C7T2D",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "en_US": { "text": "#N\/A", "locale": "en_US" },
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" }
-          },
-          "id": "01KC94HPMFXSDDWQ5WFD6YF742",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YWDQJMHNXV999HX7V1P",
-        "reference": "SPELL",
-        "name": "Spell"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "36VY6TJTH48V7B18SF18380YR5",
-      "reference": "ALT_EOLE_B_AX_118_C"
+      "translations": {
+        "en_US": {
+          "text": "If Aerolith can defy gravity, it can also deny evil!",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Si l'Aérolithe permet de renverser la gravité, elle permet aussi de repousser le mal !",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "Wenn Aerolit der Schwerkraft trotzt, trotzt es auch dem Bösen!",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "Se l'aerolite può sfidare la gravità, può anche opporsi alla malvagità!",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "Si el aerolito permite burlar la gravedad, ¡también servirá para repeler el mal!",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HPMPV1SVXPEJGYJ5ZY9W",
+      "text": "If Aerolith can defy gravity, it can also deny evil!"
     }
   ],
   "cardType": {
     "reference": "SPELL",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Hechizo" },
+      "it_IT": { "locale": "it_IT", "name": "Incantesimo" },
+      "de_DE": { "locale": "de_DE", "name": "Zauber" },
+      "en_US": { "locale": "en_US", "name": "Spell" },
+      "fr_FR": { "locale": "fr_FR", "name": "Sort" }
+    },
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
@@ -272,6 +228,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "016",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
@@ -286,7 +243,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_AX_118_R1",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "AX_118",
   "reference": "ALT_EOLE_B_AX_118_R1",
   "translations": {
     "fr_FR": {

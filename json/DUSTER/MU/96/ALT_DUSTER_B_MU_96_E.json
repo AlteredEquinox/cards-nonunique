@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"My worker bees will increase our harvests!\"",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Mes butineuses augmenteront le rendement de nos cueillettes ! »",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01JZ37ZQNYHM1B72TQ48ZSER2Y",
-          "text": "\"My worker bees will increase our harvests!\""
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "65FFA2GRPE9CFT8RNHN1B3WQ6X",
-      "reference": "ALT_DUSTER_B_MU_96_C"
+      "translations": {
+        "it_IT": {
+          "text": "\"Le mie api operaie aumenteranno il raccolto!\"",
+          "locale": "it_IT"
+        },
+        "en_US": {
+          "text": "\"My worker bees will increase our harvests!\"",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Mes butineuses augmenteront le rendement de nos cueillettes ! »",
+          "locale": "fr_FR"
+        },
+        "es_ES": {
+          "text": "«¡Mis abejas obreras aumentarán el rendimiento de nuestras cosechas!».",
+          "locale": "es_ES"
+        },
+        "de_DE": {
+          "text": "„Meine Arbeiterbienen werden unsere Ernten steigern!“",
+          "locale": "de_DE"
+        }
+      },
+      "id": "01JZ37ZQNYHM1B72TQ48ZSER2Y",
+      "text": "\"My worker bees will increase our harvests!\""
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -302,9 +310,10 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
-  "illustrator": null,
+  "illustrator": { "nickName": "Kevin Sidharta" },
   "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_96\/JPG\/en_US\/c180628d7f3121855032ad7a2249aa07.jpg",
   "assets": {
     "WEB": [
@@ -316,7 +325,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_DUSTER_B_MU_96_E",
   "isExclusive": false,
   "isOwnerless": false,
-  "cardFamilyReference": "MU_96",
   "reference": "ALT_DUSTER_B_MU_96_E",
   "translations": {
     "de_DE": {

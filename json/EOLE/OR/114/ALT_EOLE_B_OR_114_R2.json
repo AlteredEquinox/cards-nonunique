@@ -1,90 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "en_US": {
-              "text": "\"I know they will all be driven out, except for those who die.\" — Jeanne",
-              "locale": "en_US"
-            },
-            "fr_FR": {
-              "text": "« Je sais qu'ils seront tous boutés, excepté ceux qui périront. » — Jeanne",
-              "locale": "fr_FR"
-            }
-          },
-          "id": "01KC94HVV6GDEPPC9B4E5WTF5S",
-          "text": "\"I know they will all be driven out, except for those who die.\" — Jeanne"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AE2ZSVVYP6SDJXN8Q5DVF",
-            "reference": "STORY",
-            "subject": "Story"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HVX11K1X9DCJY8RJ1BHE",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AFCC93PF6T4EYVTXXYJY9",
-            "reference": "INSPIRATION",
-            "subject": "Inspiration"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HVVGEMMNKFE61J1B74FR",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01H19024M31D80P12EJCYX9GB0",
-            "reference": "NARRATOR",
-            "subject": "Narrator"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HVTG926N8F59M9CME12P",
-          "text": "#N\/A"
-        },
-        {
-          "loreEntryElementType": {
-            "id": "01GS7V4ZMD4F2Q0EVQ2GSSJHE2",
-            "reference": "DATE",
-            "subject": "Date"
-          },
-          "translations": {
-            "fr_FR": { "text": "#N\/A", "locale": "fr_FR" },
-            "en_US": { "text": "#N\/A", "locale": "en_US" }
-          },
-          "id": "01KC94HVTTPB5ZQVM7GBGT5GDE",
-          "text": "#N\/A"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01HNGY4YPR0FVZVYWD8YFE0PHP",
-        "reference": "CHARACTER",
-        "name": "Character"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "47M6H9NH5B8RNR1XYKJXBN9QP3",
-      "reference": "ALT_EOLE_B_OR_114_C"
+      "translations": {
+        "en_US": {
+          "text": "\"I know they will all be driven out, except for those who die.\" — Jeanne",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Je sais qu'ils seront tous boutés, excepté ceux qui périront. » — Jeanne",
+          "locale": "fr_FR"
+        },
+        "de_DE": {
+          "text": "„Sie werden alle vertrieben, bis auf jene, die sterben.“ — Jeanne",
+          "locale": "de_DE"
+        },
+        "it_IT": {
+          "text": "\"So che saranno tutti scacciati, eccetto coloro che periranno.\" — Giovanna",
+          "locale": "it_IT"
+        },
+        "es_ES": {
+          "text": "«Sé que todos serán expulsados, excepto los que mueran». —Jeanne",
+          "locale": "es_ES"
+        }
+      },
+      "id": "01KC94HVV6GDEPPC9B4E5WTF5S",
+      "text": "\"I know they will all be driven out, except for those who die.\" — Jeanne"
     }
   ],
   "cardType": {
     "reference": "CHARACTER",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Personaje" },
+      "it_IT": { "locale": "it_IT", "name": "Personaggio" },
+      "de_DE": { "locale": "de_DE", "name": "Charakter" },
+      "en_US": { "locale": "en_US", "name": "Character" },
+      "fr_FR": { "locale": "fr_FR", "name": "Personnage" }
+    },
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
@@ -366,6 +322,7 @@
     }
   ],
   "isPublic": true,
+  "collectorNumber": "084",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
@@ -381,7 +338,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_EOLE_B_OR_114_R2",
   "isExclusive": false,
   "isOwnerless": true,
-  "cardFamilyReference": "OR_114",
   "reference": "ALT_EOLE_B_OR_114_R2",
   "translations": {
     "fr_FR": {

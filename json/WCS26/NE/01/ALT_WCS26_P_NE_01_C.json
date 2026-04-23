@@ -1,38 +1,46 @@
 {
   "loreEntries": [
     {
-      "loreEntryElements": [
-        {
-          "loreEntryElementType": {
-            "id": "01GR6AENPX6HQP8G16KNV7BNA2",
-            "reference": "FLAVOR_TEXT",
-            "subject": "Flavor Text"
-          },
-          "translations": {
-            "fr_FR": {
-              "text": "Mana is the cement that binds ideas and reality.",
-              "locale": "fr_FR"
-            },
-            "en_US": {
-              "text": "Winner Online Weekly Tournament 2026",
-              "locale": "en_US"
-            }
-          },
-          "id": "01KH3ZWMED9V0CW4JY6Q87SPCD",
-          "text": "Winner Online Weekly Tournament 2026"
-        }
-      ],
-      "loreEntryType": {
-        "id": "01J21DT90AFB9Y6TNNK7CTA4DR",
-        "reference": "TOKEN_MANA",
-        "name": "Mana"
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
       },
-      "id": "5FVKH3S5XA9C0TK99QW6RFFPV2",
-      "reference": "ALT_WCS26_P_NE_01_C"
+      "translations": {
+        "de_DE": {
+          "text": "Winner Online Weekly Tournament 2026",
+          "locale": "de_DE"
+        },
+        "es_ES": {
+          "text": "Winner Online Weekly Tournament 2026",
+          "locale": "es_ES"
+        },
+        "it_IT": {
+          "text": "Winner Online Weekly Tournament 2026",
+          "locale": "it_IT"
+        },
+        "fr_FR": {
+          "text": "Mana is the cement that binds ideas and reality.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Winner Online Weekly Tournament 2026",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KH3ZWMED9V0CW4JY6Q87SPCD",
+      "text": "Winner Online Weekly Tournament 2026"
     }
   ],
   "cardType": {
     "reference": "TOKEN_MANA",
+    "translations": {
+      "es_ES": { "locale": "es_ES", "name": "Maná" },
+      "it_IT": { "locale": "it_IT", "name": "Mana" },
+      "de_DE": { "locale": "de_DE", "name": "Mana" },
+      "en_US": { "locale": "en_US", "name": "Mana" },
+      "fr_FR": { "locale": "fr_FR", "name": "Mana" }
+    },
     "id": "01H0FV1VGP4ACD3DFEJW3PWTQT",
     "name": "Mana"
   },
@@ -49,6 +57,7 @@
   },
   "cardElements": [],
   "isPublic": true,
+  "collectorNumber": "S-010",
   "serializedNumber": null,
   "cardProduct": { "reference": "P", "name": "Promotion" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -62,7 +71,6 @@
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_WCS26_P_NE_01_C",
   "isExclusive": true,
   "isOwnerless": false,
-  "cardFamilyReference": null,
   "reference": "ALT_WCS26_P_NE_01_C",
   "translations": {
     "en_US": {
