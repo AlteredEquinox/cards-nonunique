@@ -2,7 +2,7 @@
 
 This repository contains all the cards data of non-unique cards of the Altered TCG.
 
-Data and assets are available in en_US and fr_FR locales.
+Data and assets are available in en_US, fr_FR, es_ES; de_DE and it_IT locales.
 
 **TODO** : Add link to unique exports repositories.
 
