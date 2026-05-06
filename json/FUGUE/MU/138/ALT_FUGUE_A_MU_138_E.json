@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DEITY",
+      "id": "01HKAGPAJFS4YDQVKY6AB16614",
+      "name": "Deity"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,225 @@
     "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
     "name": "Exalted"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5TARS5A99W953905HT9D803QDF"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "2SEEAGG5F89KC9CH5ZMGG2M74M"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5QQQQDZY1890P9ZMZSD079R3QH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0H2DR8Q1PB933TFWQND6EJJ19R"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "506XGHGZ1X99XA7XR8ZT5G59CX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/37H6H2MGNK919AHFG2DAFPTF9X",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "de_DE",
+                          "description": "TEMPLE"
+                        },
+                        "it_IT": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "it_IT",
+                          "description": "TEMPLE"
+                        },
+                        "es_ES": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "es_ES",
+                          "description": "TEMPLE"
+                        },
+                        "en_US": {
+                          "displayWeb": "Temple",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "5B2NFWR68W9RNTGMGCFK6C37XY",
+                      "reference": "TEMPLE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "69165HHCCW8QY9ZZRQNW81J09J"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": { "text": "[TEMPLE] {2}.", "locale": "es_ES" },
+                  "en_US": { "text": "[TEMPLE] {2}.", "locale": "en_US" },
+                  "fr_FR": { "text": "[TEMPLE] {2}.", "locale": "fr_FR" },
+                  "de_DE": { "text": "[TEMPLE] {2}.", "locale": "de_DE" },
+                  "it_IT": { "text": "[TEMPLE] {2}.", "locale": "it_IT" }
+                },
+                "text": "[TEMPLE] {2}."
+              }
+            ],
+            "reference": "ALT_FUGUE_A_AX_138_C_0"
+          },
+          "sequence": 0,
+          "id": "4943MG23HS910VJRHF7FJN5DMT"
+        },
+        {
+          "cardElement": "\/card_elements\/37H6H2MGNK919AHFG2DAFPTF9X",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — Each Character in your Expeditions gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — Each Character in your Expeditions gain 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — Each Character in your Expeditions gain 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — Each Character in your Expeditions gain 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Chaque Personnage dans vos Expéditions gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — Each Character in your Expeditions gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_138_C_1"
+          },
+          "sequence": 1,
+          "id": "6XYJQBN87898RS4SKYQYKNWXF2"
+        }
+      ],
+      "value": "[Temple] {2}.  At Noon — Each Character in your Expeditions gain 1 boost.",
+      "id": "37H6H2MGNK919AHFG2DAFPTF9X"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Zero Wen" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_MU_138\/JPG\/en_US\/ebdd42ea4a5027d22deb719f415e16c9.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_A_MU_138_E",
   "isExclusive": true,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_A_MU_138_E",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_MU_138\/JPG\/es_ES\/fa9fe2282739db3b2a84ccf93d9c1cc1.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_MU_138\/JPG\/de_DE\/13be72b8421bf8faf7b8592c4f833c7b.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Artémis, Déesse de la Chasse",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_MU_138\/JPG\/fr_FR\/2418f1585847733d1fb47f9cc0961524.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Artemis, Goddess of the Hunt",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_MU_138\/JPG\/en_US\/ebdd42ea4a5027d22deb719f415e16c9.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Artemis, Goddess of the Hunt",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_MU_138\/JPG\/it_IT\/fc1f1cd7c55efa98c14959669c2fa3b2.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "2Q6WBBCTGW9MCR9TE448VT6H65",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_MU_138\/JPG\/fr_FR\/2418f1585847733d1fb47f9cc0961524.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_MU_138\/JPG\/en_US\/ebdd42ea4a5027d22deb719f415e16c9.jpg"
+  },
+  "name": "Artemis, Goddess of the Hunt",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "[Temple] {2}.  At Noon — Each Character in your Expeditions gain 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-A-065-E-EN",
   "isSuspended": false,
   "isErrated": false,

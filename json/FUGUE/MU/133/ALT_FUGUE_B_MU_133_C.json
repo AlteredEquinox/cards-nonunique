@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Quand tout espoir est perdu, il y a souvent une main secourable qui nous aide à nous relever.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "When all hope is lost, there is often a helping hand to lift us back up.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A6SVRGD5A3TT4EM65QB9",
+      "text": "When all hope is lost, there is often a helping hand to lift us back up."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,121 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5NPEN1XGYQ992BRD4AJ39GG0KZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7JDBAR15KK9CHTT5KNP2T6N7BN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6DJKMW51J580FRR3NZETEEBJH7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "103W6MY3XW829V7KX12YW0YMPS"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7DVNVTT5H18ADB30F57XKEKV8Y"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Eilene Cherie" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/en_US\/3cf726ddbe72fcce1ac912f8c0c77010.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/WEB_f870404c4789163fed24e09fc8af9bb5",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/WEB_62631c0e282e9cf0929e14c202d64502",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/WEB_608f711f916a49efa14f6be95316db4c"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_133_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_133_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Ino",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/en_US\/3cf726ddbe72fcce1ac912f8c0c77010.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/es_ES\/f1eade635b5fff7dd335ac99acfe3a89.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/it_IT\/4f489a4d8b01c91ef4fa6475f63f8ac9.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Ino",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/de_DE\/cf3b8edc3ab6b5e44fe38b70b5d1dacc.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Ino",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/fr_FR\/83974e9803a762b92547b07760c08ea5.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "71XCWA21RZ9VP9A829ET5P63D6",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/fr_FR\/83974e9803a762b92547b07760c08ea5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/en_US\/3cf726ddbe72fcce1ac912f8c0c77010.jpg"
+  },
+  "name": "Ino",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "2"
+  },
   "collectorNumberFormatted": "NEJ-057-C-EN",
   "isSuspended": false,
   "isErrated": false,

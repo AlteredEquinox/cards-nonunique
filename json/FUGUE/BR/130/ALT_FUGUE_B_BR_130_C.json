@@ -23,24 +23,250 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ",
+        "name": "RESERVE"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97CEC4RJMM7NFSV3HANSHX"
+    },
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6",
+        "name": "LANDMARKS"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97CEC4RJMM7NFSV3HANSHY"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "5BXB901RCZ8FZRKCTDA235WHFQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "069MGC4EP893T8AHA5Q222TFGN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "2N2J38S3NM8VS98SNQKYV8ZH90"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1Z05N14PRP892BFNB3J1SZS8XR",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "de_DE",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "it_IT": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "it_IT",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "es_ES": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "es_ES",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "en_US": {
+                          "displayWeb": "Signature token",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "2FJ0FYF21B9YMVK8YCJD7GEVS7",
+                      "reference": "SIGNATURE_TOKEN"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "4ZTFAC1MZ88T7R1FHK8GHMB1JG"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Blazing Booda 3\/3\/3",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "BLAZING_BOODA",
+                          "locale": "de_DE",
+                          "description": "BLAZING_BOODA"
+                        },
+                        "it_IT": {
+                          "displayWeb": "BLAZING_BOODA",
+                          "locale": "it_IT",
+                          "description": "BLAZING_BOODA"
+                        },
+                        "es_ES": {
+                          "displayWeb": "BLAZING_BOODA",
+                          "locale": "es_ES",
+                          "description": "BLAZING_BOODA"
+                        }
+                      },
+                      "id": "5113B08SA48K8AV3SEM2ZAQC6T",
+                      "reference": "BLAZING_BOODA"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "75SR792S5Y9K1S66ZNC3MVFNH1"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [BLAZING_BOODA] in your Reserve. (It's a Companion with Reserve Cost {2}.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [BLAZING_BOODA] in your Reserve. (It's a Companion with Reserve Cost {2}.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [BLAZING_BOODA] in your Reserve. (It's a Companion with Reserve Cost {2}.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [BLAZING_BOODA] in your Reserve. (It's a Companion with Reserve Cost {2}.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes premier joueur, créez mon [SIGNATURE_TOKEN] : [BLAZING_BOODA] dans votre Réserve. (C'est un Compagnon de Coût de Réserve {2}.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [BLAZING_BOODA] in your Reserve. (It's a Companion with Reserve Cost {2}.)"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_130_C_0"
+          },
+          "sequence": 0,
+          "id": "6RHRATQ99C9DY9BSGCTB5R6XSP"
+        }
+      ],
+      "value": "At Noon — If you're first player, create my [Signature token]: [Blazing Booda 3\/3\/3] in your Reserve. (It's a Companion with Reserve Cost {2}.)",
+      "id": "1Z05N14PRP892BFNB3J1SZS8XR"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/JPG\/en_US\/86ec33c6b419d15be11148d894e042fe.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/HERO_THUMB_3ce5253a69b41c41244008e89a7a8969"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/HERO_WIDE_9a52fc494dcc39c2a90ba8171fe7a6b8"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/WEB_e4d77fd896f61dcf9e4b1680467c63c8"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_130_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_130_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/JPG\/it_IT\/e6451df89271c760eed3627e5ce4745f.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Kojo Écuyer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/JPG\/fr_FR\/ab7ae1d9d9fc0cd200606ee6cb00025a.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Squire Kojo",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/JPG\/de_DE\/928c7d941c375e295c0612a09bd8ef4d.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Squire Kojo",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/JPG\/en_US\/86ec33c6b419d15be11148d894e042fe.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/JPG\/es_ES\/790a3ad00b59b9b45a365aa2f47ad4fd.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "2A8EAE8JAY9E5S5H2EFVQKHYCA",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/JPG\/fr_FR\/ab7ae1d9d9fc0cd200606ee6cb00025a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_130\/JPG\/en_US\/86ec33c6b419d15be11148d894e042fe.jpg"
+  },
+  "name": "Squire Kojo",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "RESERVE": "2",
+    "PERMANENT": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "At Noon — If you're first player, create my [Signature token]: [Blazing Booda 3\/3\/3] in your Reserve. (It's a Companion with Reserve Cost {2}.)"
+  },
   "collectorNumberFormatted": "NEJ-019-H-EN",
   "isSuspended": false,
   "isErrated": false,

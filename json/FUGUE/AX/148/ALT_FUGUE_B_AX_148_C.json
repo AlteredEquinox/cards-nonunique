@@ -12,7 +12,18 @@
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ROBOT",
+      "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+      "name": "Robot"
+    },
+    {
+      "reference": "COMPANION",
+      "id": "01HKAGQPYTEKRYT4PRE9HZHTDA",
+      "name": "Companion"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +34,207 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1XNJMAA8GT8MFTTM0JFAGJT4X1"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5YZ751EHW38T5SPY8Q30NVKJ8R"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6J82Z4R88S84PRK51ZPE1CX6ZH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "409CQCRYV885RRCMP3P033E80W"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3HA3NJTWQ280F9G4DEG82BFRGY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4ENJ1Y0N4K8ZRS07EREHG29TS8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "I cost {2} less if you played a Construction this Day.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "I cost {2} less if you played a Construction this Day.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "I cost {2} less if you played a Construction this Day.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "I cost {2} less if you played a Construction this Day.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Je coûte {2} de moins si vous avez joué une Construction ce Jour.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "I cost {2} less if you played a Construction this Day."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_148_C_0"
+          },
+          "sequence": 0,
+          "id": "2QG8HJ9MSN8XBRJYZ5A0XP8SPP"
+        },
+        {
+          "cardElement": "\/card_elements\/4ENJ1Y0N4K8ZRS07EREHG29TS8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "(Je suis créé en Réserve. Vous pouvez me jouer en Expédition. Retirez-moi du jeu si je devais aller ailleurs.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_148_C_1"
+          },
+          "sequence": 1,
+          "id": "2SGQPGNTDA8A8846W57GJ5WRBQ"
+        }
+      ],
+      "value": "I cost {2} less if you played a Construction this Day.  (I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+      "id": "4ENJ1Y0N4K8ZRS07EREHG29TS8"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_148\/JPG\/en_US\/1f9045a345f02924198869d8f0d5a148.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_148\/WEB_b01b577ce2626205da12a5c13e4bdc23"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_148_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_148_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Oddball",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_148\/JPG\/en_US\/1f9045a345f02924198869d8f0d5a148.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Oddball",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_148\/JPG\/fr_FR\/69c80e0ef1b306de913492801efe197d.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_148\/JPG\/it_IT\/fe5138b3c9e9af6f0f4ac8fcd5612002.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_148\/JPG\/es_ES\/32d5514ad544cb3aa7f43133ad8f724b.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Oddball",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_148\/JPG\/de_DE\/a38cbeda2c2d53858d177ac60037ec6f.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "6NFQA5N9D58QHRYD7D3F1ZJKS7",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_148\/JPG\/fr_FR\/69c80e0ef1b306de913492801efe197d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_148\/JPG\/en_US\/1f9045a345f02924198869d8f0d5a148.jpg"
+  },
+  "name": "Oddball",
+  "elements": {
+    "MAIN_COST": "",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "I cost {2} less if you played a Construction this Day.  (I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)"
+  },
   "collectorNumberFormatted": "NEJ-109-T-EN",
   "isSuspended": false,
   "isErrated": false,

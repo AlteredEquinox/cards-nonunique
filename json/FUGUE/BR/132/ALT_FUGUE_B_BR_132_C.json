@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Achille et Patrocle partageaient beaucoup de choses, dont leur courage, leur ténacité, ou leur tente.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Achilles and Patroclus shared many things, including courage, tenacity, and a tent.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A4H8GF34B7QE5KKDNDNM",
+      "text": "Achilles and Patroclus shared many things, including courage, tenacity, and a tent."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,121 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "0XC20QFBKY9KFBXBKQQ2ASTQ1R"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4NMQ378EEX83RTK9KTX6K09JJ1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7JK7FEWYRM9FJRGVTF90QJAGC7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6DV8MH9BNG96CACG6NBP8W3C36"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5TBBQZDFYS82AR9Z2CDMZ740A9"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/en_US\/60ac0212b199e6b56e368538bdf827e8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/WEB_389dd9a9745fc518b5b5b12d00cd2132",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/WEB_d0b4b5a6a111d6cb5b2e8fbd2e5254c3",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/WEB_20474a4258e96c5dc786c560343d006b"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_132_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_132_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Patroclus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/en_US\/60ac0212b199e6b56e368538bdf827e8.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Patrocle",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/fr_FR\/abf68ed04f59fd9f138e6b05f66fbd1c.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/es_ES\/c97d0cdc8ad1ff5d19ac45f8a7603d87.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/it_IT\/8ba71626fd2a1eb809fce0908de8b950.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Patroclus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/de_DE\/3fd1e171a0db0b69a5be00ca09021205.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "195Q1J2DE38Q989NJX4FWKFC36",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/fr_FR\/abf68ed04f59fd9f138e6b05f66fbd1c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/en_US\/60ac0212b199e6b56e368538bdf827e8.jpg"
+  },
+  "name": "Patroclus",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3"
+  },
   "collectorNumberFormatted": "NEJ-023-C-EN",
   "isSuspended": false,
   "isErrated": false,

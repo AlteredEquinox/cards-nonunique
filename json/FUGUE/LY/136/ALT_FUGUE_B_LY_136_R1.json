@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,208 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "24KXVFPC8X8E5SNMMFB457PGC8"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1TJ8E8R1369YR9TFHCWNK35DJE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "087V6EJZ4P9NAVB1R9KKBWARDV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7S0RK6GF4J96ZA5P5RYD5925FY"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "245QJ3E5528ACV71Z495ZNVX0B"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4TAW5E7BC48PST8086954KH7PV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "496YR9530P8WR8GRPXVJ2FED9G"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Roll a die. You may target a Character #with Base Cost less than or equal to the die's result.# It gains [FLEETING].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Roll a die. You may target a Character #with Base Cost less than or equal to the die's result.# It gains [FLEETING].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Roll a die. You may target a Character #with Base Cost less than or equal to the die's result.# It gains [FLEETING].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Roll a die. You may target a Character #with Base Cost less than or equal to the die's result.# It gains [FLEETING].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Lancez un dé. Vous pouvez cibler un Personnage #dont le Coût de Base est inférieur ou égal au résultat.# Il gagne [FLEETING].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Roll a die. You may target a Character #with Base Cost less than or equal to the die's result.# It gains [FLEETING]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_136_R1_0"
+          },
+          "sequence": 0,
+          "id": "7X91E1F2YQ9Q7S46VGEB8TMTYE"
+        }
+      ],
+      "value": "{H} Roll a die. You may target a Character with Base Cost less than or equal to the die's result. It gains [[Fleeting]].",
+      "id": "4TAW5E7BC48PST8086954KH7PV"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jamin Amaral Fernandez" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/en_US\/2c8ad3e031e70d9f21c99613ed83c6d1.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/WEB_c1b8c1b8d029943de55e90a31cefd82f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/WEB_a41edc6b36ef49ae9c125dd1aa3f0b0b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/WEB_af613f92e07c4d73589d7961d7308ff8"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_136_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_136_R1",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Demodocus, Weaver of Tales",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/en_US\/2c8ad3e031e70d9f21c99613ed83c6d1.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/it_IT\/010683354644f61711e5bb48e7142ec7.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/es_ES\/2f02c4ecd9cded7bced4dedc9d5ed58e.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Démodocus, Tisseur de Récits",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/fr_FR\/f4ac44022163ee9c01c4ad7c06774ceb.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Demodocus, Weaver of Tales",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/de_DE\/cb4d0159c0208e54182c31c3274c4e65.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "6E65FRP27E8M2AFG7R9KPFTPT3",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/fr_FR\/f4ac44022163ee9c01c4ad7c06774ceb.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/en_US\/2c8ad3e031e70d9f21c99613ed83c6d1.jpg"
+  },
+  "name": "Demodocus, Weaver of Tales",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} Roll a die. You may target a Character #with Base Cost less than or equal to the die's result.# It gains [[Fleeting]]."
+  },
   "collectorNumberFormatted": "NEJ-044-R-EN",
   "isSuspended": false,
   "isErrated": false,

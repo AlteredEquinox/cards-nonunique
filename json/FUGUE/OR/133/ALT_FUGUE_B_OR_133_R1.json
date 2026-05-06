@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,208 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "72TPY5AB5W9ETB1EPAGVAR9E9S"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7K6J6T28549FWS3F8VNGKPPV0X"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "31N8JED4FV8F494X1GK1ZPX3M2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "43YYYZ25QH9SRA23CD4QDGJSAE"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1BD65DHN4C99KAHE9ZK3BTP8ZV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6SPNBNVNPM9P98CE4KEM5P6BZH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "5VBW7SSSSM9HXTTZ9DF6MCZ61A"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Créez un jeton Soldat [ORDIS_RECRUIT] dans mon Expédition.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_133_C_0"
+          },
+          "sequence": 0,
+          "id": "7XJRM129RG9C0ASTKQ4B719QT8"
+        }
+      ],
+      "value": "{R} Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition.",
+      "id": "6SPNBNVNPM9P98CE4KEM5P6BZH"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/JPG\/en_US\/b2619562fb801f3e368fa2ec7fc580e5.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/WEB_ce6fcaf0004ab809f82e3c61e8901b0c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/WEB_09fa78f48f7e3370279895fc20ede2da",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/WEB_ef660530711a0d6d7b79efef65e4ee46"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_133_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_133_R1",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Paris",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/JPG\/en_US\/b2619562fb801f3e368fa2ec7fc580e5.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Paris",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/JPG\/de_DE\/431fae7e9e403a6363fcdbb118409b70.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Pâris",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/JPG\/fr_FR\/7315c43d25054ccc7fa2612e64edfb3f.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/JPG\/es_ES\/e2d27f9bb1879e69100813d7ed5ceeea.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/JPG\/it_IT\/ae3aabcd7b46890e3901b91405242539.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "4F5XNV9B598K1ASKQ059FCN60R",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/JPG\/fr_FR\/7315c43d25054ccc7fa2612e64edfb3f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_133\/JPG\/en_US\/b2619562fb801f3e368fa2ec7fc580e5.jpg"
+  },
+  "name": "Paris",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "#2#",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{R} Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition."
+  },
   "collectorNumberFormatted": "NEJ-075-R-EN",
   "isSuspended": false,
   "isErrated": false,

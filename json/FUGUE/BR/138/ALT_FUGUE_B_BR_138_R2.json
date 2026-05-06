@@ -1,5 +1,19 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": { "text": "Garder la flamme allumée...", "locale": "fr_FR" },
+        "en_US": { "text": "Keeping the flame alive...", "locale": "en_US" }
+      },
+      "id": "01KN46A4R3AA9AVD9HPMJS3AZZ",
+      "text": "Keeping the flame alive..."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +26,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ELEMENTAL",
+      "id": "01HKAGPA0G5NVDVVXS31BBX2AS",
+      "name": "Elemental"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +43,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "11M2SD7FW687JV2YF1WP5V84QN"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4SW188Y9M284ZRK3XJASKAJ5KB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4KD1P6SMCQ865ASP5X03N70CMS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1GCVEAT31F8RBV8GM6QD1ECDWT"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7JJJTGF0W38TQVXK2BEETVBV06"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7G1A87RND98NS8KS0Q6DYET8R2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} You may put me in your Mana zone (as an exhausted Mana Orb).",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} You may put me in your Mana zone (as an exhausted Mana Orb).",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} You may put me in your Mana zone (as an exhausted Mana Orb).",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} You may put me in your Mana zone (as an exhausted Mana Orb).",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Vous pouvez me mettre dans votre zone de Mana (en tant qu'Orbe de Mana épuisé).",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} You may put me in your Mana zone (as an exhausted Mana Orb)."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_138_C_0"
+          },
+          "sequence": 0,
+          "id": "10JAG6RR658S59MPY3EKNH6D0F"
+        }
+      ],
+      "value": "{R} You may put me in your Mana zone (as an exhausted Mana Orb).",
+      "id": "7G1A87RND98NS8KS0Q6DYET8R2"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/JPG\/en_US\/de22fe6c012c6bd36500ad1b60c162c6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/WEB_fcb288983788c2c6badd514c51b90b79",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/WEB_c645ca5b331bffc1838b0d0867df33cd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/WEB_a75888b6d8af07cdaa933999500143fe"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_138_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_138_R2",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/JPG\/it_IT\/ab5f52e62f80428453d585829f33985b.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Djinn du Foyer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/JPG\/fr_FR\/48fda946a554faa6ba6417db6a46fa1e.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/JPG\/es_ES\/70d863fdd91982bef024b3f069e7d270.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Hearth Jinn",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/JPG\/de_DE\/c2e08f3291e3a891b25bc8926dfe8c7a.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Hearth Jinn",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/JPG\/en_US\/de22fe6c012c6bd36500ad1b60c162c6.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "4MD6MHYGRH8CNARXKJ6V57NK3G",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-029-R-EN",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/JPG\/fr_FR\/48fda946a554faa6ba6417db6a46fa1e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_138\/JPG\/en_US\/de22fe6c012c6bd36500ad1b60c162c6.jpg"
+  },
+  "name": "Hearth Jinn",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#2#",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{R} You may put me in your Mana zone (as an exhausted Mana Orb)."
+  },
+  "collectorNumberFormatted": "NEJ-029-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

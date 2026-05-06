@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Je croyais qu'avoir Odysseus comme guide était censé nous éviter les dangers... »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“I thought the point of having Odysseus as guide was to avoid all these perils...\"",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A4NJ3ED0W6FW6GMQGCVZ",
+      "text": "“I thought the point of having Odysseus as guide was to avoid all these perils...\""
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +54,245 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1CBPZ7NAWW9H49S38MJZSEYYAC"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6E5FS8EN9E80K8Y41NFJDAXKPQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3FC7NGSC92840V43GBYZQD366A"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6GBJ036GN18D7SEFXHZ78BRJ83"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4BRK1SJPHJ8TBV8VZZZP5894TX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3Z9G8CEKGT9JNS5CPDK18E5YG8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "70DAPXWPQM9BZTD4V8VPDYM2AF"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        }
+                      },
+                      "id": "01HPFHC15Y9ARSV51SMJKFZ8CY",
+                      "reference": "RESUPPLY_LOW"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "2F11YX05GZ8GMTTYX257C2W71W"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} [SABOTAGE]. #If you discarded a card with Reserve Cost {1} or less this way, [RESUPPLY_LOW].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} [SABOTAGE]. #If you discarded a card with Reserve Cost {1} or less this way, [RESUPPLY_LOW].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} [SABOTAGE]. #If you discarded a card with Reserve Cost {1} or less this way, [RESUPPLY_LOW].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} [SABOTAGE]. #If you discarded a card with Reserve Cost {1} or less this way, [RESUPPLY_LOW].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} [SABOTAGE]. #Si vous avez défaussé une carte de Coût de Réserve {1} ou moins de cette façon, [RESUPPLY_LOW].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} [SABOTAGE]. #If you discarded a card with Reserve Cost {1} or less this way, [RESUPPLY_LOW].#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_136_R1_0"
+          },
+          "sequence": 0,
+          "id": "6SEHDJVDM4802RCZ9PD5AK7SN6"
+        }
+      ],
+      "value": "{R} [Sabotage]. If you discarded a card with Reserve Cost {1} or less this way, [Resupply].",
+      "id": "3Z9G8CEKGT9JNS5CPDK18E5YG8"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Alexandre Bonvalot" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/en_US\/cfedf15fc5e15f98b8eb86c53f118996.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/WEB_db3c56505df0fcccb80b2b1ca063c1d3",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/WEB_55162b2ccf271ea7727ed2c8929cc755",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/WEB_51e0ce9e808c88f28ba94c6a7dc449d9"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_136_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_136_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/es_ES\/155692f6c77954dd960db6fba401bc83.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Eurylochus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/de_DE\/d1aff9131e09aa6f84cfc673eb9a5c2f.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Eurylochus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/en_US\/cfedf15fc5e15f98b8eb86c53f118996.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/it_IT\/5a1251998b599012480769e90d2faeb9.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Euryloque",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/fr_FR\/0c3ec6c506e96f5b7f3d6c8473a1c30f.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "1C0G8GZ0S09C0AWGQA0ZV83HGH",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-025-R-EN",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/fr_FR\/0c3ec6c506e96f5b7f3d6c8473a1c30f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/en_US\/cfedf15fc5e15f98b8eb86c53f118996.jpg"
+  },
+  "name": "Eurylochus",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "#1#",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{R} [Sabotage]. #If you discarded a card with Reserve Cost {1} or less this way, [Resupply].#"
+  },
+  "collectorNumberFormatted": "NEJ-025-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

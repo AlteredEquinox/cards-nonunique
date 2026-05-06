@@ -4,8 +4,6 @@ This repository contains all the cards data of non-unique cards of the Altered T
 
 Data and assets are available in en_US, fr_FR, es_ES; de_DE and it_IT locales.
 
-**TODO** : Add link to unique exports repositories.
-
 ## JSON data
 
 JSON exports are available in the `json` directory.

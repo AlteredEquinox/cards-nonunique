@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "en_US": {
+          "text": "“Uju stopped Altrun, and so did I, when I became Atsadi's Squire.\" — Kojo",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "« Uju a arrêté l'Altrun, et moi aussi, quand je suis devenu l'Écuyer d'Atsadi. » — Kojo",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KN46A4J792GMFKTYBE7WQQEY",
+      "text": "“Uju stopped Altrun, and so did I, when I became Atsadi's Squire.\" — Kojo"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,208 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6F1XH03WKN9B0ADQNJ02MDWW6H"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "46GQHYVAZP82SBZJ3WN9G1PMWV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "504XPQFNGY96X8XXDPMGD870YT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3QSEYD6B929K1RZJ5HQA8Q3VQX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2B7AB1Z4PT9AXV1XWCC680HWWW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4PVXTDRNAZ9ENA7D1STTGQB0G0",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "6EMPY3488G9S1SDMGRX7X03T1D"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} I gain [FLEETING] unless there's a Companion in your Expeditions.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} I gain [FLEETING] unless there's a Companion in your Expeditions.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} I gain [FLEETING] unless there's a Companion in your Expeditions.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} I gain [FLEETING] unless there's a Companion in your Expeditions.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Je gagne [FLEETING] sauf s'il y a un Compagnon dans vos Expéditions.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} I gain [FLEETING] unless there's a Companion in your Expeditions."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_133_C_0"
+          },
+          "sequence": 0,
+          "id": "65GTDWSCHJ85QB320X193MXYTY"
+        }
+      ],
+      "value": "{H} I gain [[Fleeting]] unless there's a Companion in your Expeditions.",
+      "id": "4PVXTDRNAZ9ENA7D1STTGQB0G0"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/JPG\/en_US\/af9d819b0736546224c00baaeb43e07a.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/WEB_1f679b261c2800acda35a813e9823b19",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/WEB_08cd2612a23b0a523ab728e7cc2f262b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/WEB_005dc974ca213fe2c5c441a2ddccfbb7"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_133_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_133_R1",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/JPG\/it_IT\/94dc8b7f29bf1aeb792ec86b4c4f0360.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Défenseur d’Altrun",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/JPG\/fr_FR\/c35a81c4e263fc337fadbefd73b3f70d.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Altrun Linebacker",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/JPG\/de_DE\/8fefd62d6bc98160dd84d6c23d1b76ad.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/JPG\/es_ES\/2a369f6c82fc5886effd7de2159d3d4e.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Altrun Linebacker",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/JPG\/en_US\/af9d819b0736546224c00baaeb43e07a.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "0GBW4034TW9W8B8CHMAQB3NN29",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/JPG\/fr_FR\/c35a81c4e263fc337fadbefd73b3f70d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_133\/JPG\/en_US\/af9d819b0736546224c00baaeb43e07a.jpg"
+  },
+  "name": "Altrun Linebacker",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "#3#",
+    "MAIN_EFFECT": "{H} I gain [[Fleeting]] unless there's a Companion in your Expeditions."
+  },
   "collectorNumberFormatted": "NEJ-024-R-EN",
   "isSuspended": false,
   "isErrated": false,

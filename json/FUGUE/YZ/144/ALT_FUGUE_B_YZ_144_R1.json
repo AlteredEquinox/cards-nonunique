@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« J’ai dû sacrifier mon hôte pour muer. Il m’en faut un autre... »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“I had to sacrifice my host to molt. I need another...”",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46AC1WMFCEA955H2EW6KYQ",
+      "text": "“I had to sacrifice my host to molt. I need another...”"
+    }
+  ],
   "cardType": {
     "reference": "SPELL",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONJURATION",
+      "id": "01HKAGQJMGEVS21MCGWDGG8KW0",
+      "name": "Conjuration"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,268 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "3FHDA7A1WT95CT3717GRFY71ER"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "2D0KETR68D9Q88QWZ7CACXYSSE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "26VK43E4838R4SJ5MV2EQMC1CS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0682W403328QK9K0QKGK81E659"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5B5QQAG20H8RT9976HPBJ5A4TX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/523FB2XVQG9MQANNQHYPK7CQPC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "5EJ6VVAT3S8HQ8VBTCBYNZA4NN"
+        },
+        {
+          "cardElement": "\/card_elements\/523FB2XVQG9MQANNQHYPK7CQPC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#You may sacrifice a Character to play me for {1} less.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#You may sacrifice a Character to play me for {1} less.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#You may sacrifice a Character to play me for {1} less.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#You may sacrifice a Character to play me for {1} less.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Vous pouvez sacrifier un Personnage pour me jouer pour {1} de moins.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#You may sacrifice a Character to play me for {1} less.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_144_R1_1"
+          },
+          "sequence": 1,
+          "id": "6MJ22HBKWY8X2R6RADEQWTZSF9"
+        },
+        {
+          "cardElement": "\/card_elements\/523FB2XVQG9MQANNQHYPK7CQPC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Draw a card, then create your Hero's Signature token in your Reserve.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Draw a card, then create your Hero's Signature token in your Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Draw a card, then create your Hero's Signature token in your Reserve.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Draw a card, then create your Hero's Signature token in your Reserve.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Piochez une carte, puis créez le jeton Signature de votre Héros dans votre Réserve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Draw a card, then create your Hero's Signature token in your Reserve."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_144_C_1"
+          },
+          "sequence": 2,
+          "id": "2JD226PVCK962T56M1XGARXG0E"
+        }
+      ],
+      "value": "[[Fleeting]].  You may sacrifice a Character to play me for {1} less.  Draw a card, then create your Hero's Signature token in your Reserve.",
+      "id": "523FB2XVQG9MQANNQHYPK7CQPC"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_144\/JPG\/en_US\/84f2680edfd4ed0fb0ef0ed85cfe6c5e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_144\/WEB_ece8272f4d4fed554460e78c2bce4a00",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_144\/WEB_7ba58594b580e16ce76ae9f27a41a648"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_144_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_144_R1",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_144\/JPG\/es_ES\/45860c889dd9844e1f25d7a941139e32.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_144\/JPG\/it_IT\/ecf1a50c4be4eeee5465a7df8d4c5bca.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Maw's Molting",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_144\/JPG\/de_DE\/da1efeb8f47b2157f948232d121df887.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Mue de Maw",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_144\/JPG\/fr_FR\/ce29fd42b559eb81f04a7fe578953f48.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Maw's Molting",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_144\/JPG\/en_US\/84f2680edfd4ed0fb0ef0ed85cfe6c5e.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "63XNEPA4HQ8M29T5JD6QB0BD26",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_144\/JPG\/fr_FR\/ce29fd42b559eb81f04a7fe578953f48.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_144\/JPG\/en_US\/84f2680edfd4ed0fb0ef0ed85cfe6c5e.jpg"
+  },
+  "name": "Maw's Molting",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  #You may sacrifice a Character to play me for {1} less.#  Draw a card, then create your Hero's Signature token in your Reserve."
+  },
   "collectorNumberFormatted": "NEJ-104-R-EN",
   "isSuspended": false,
   "isErrated": false,

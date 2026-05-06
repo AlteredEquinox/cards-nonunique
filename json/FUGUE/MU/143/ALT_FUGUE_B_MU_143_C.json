@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,165 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "605HRGGTTB80W9A7JW7BD4XAYJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7ZHXXG2CXX9MMRSQSGBHX63C64"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "15BZ5JA0P98ZJAYNQHZ637KD3G"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6TX647AT49880AB0XD1A1DG6ZA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6MCXS92YWX985A3VQHF1347FN2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/10BQT17HM38DC9T84BSXGK5JEW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": " Your Companions have: \"{R} I gain 1 boost.\"",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": " Your Companions have: \"{R} I gain 1 boost.\"",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": " Your Companions have: \"{R} I gain 1 boost.\"",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": " Your Companions have: \"{R} I gain 1 boost.\"",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Vos Compagnons ont : « {R} Je gagne 1 boost. »",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": " Your Companions have: \"{R} I gain 1 boost.\""
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_143_R1_1"
+          },
+          "sequence": 0,
+          "id": "2FKAG9Z21W9KE85WBJARCNJRSK"
+        }
+      ],
+      "value": "Your Companions have: \"{R} I gain 1 boost.\"",
+      "id": "10BQT17HM38DC9T84BSXGK5JEW"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/en_US\/a9041a3ad6f5ce13fb62cad721ef1338.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_143_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_143_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Horn of Plenty",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/de_DE\/2b1f12b1516ef56ae5a06eed4d8bae71.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/it_IT\/dfce92d4575a446052037ca7b0ec4641.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/es_ES\/68d73b17d4247d9f0acf57b2f1b18b0e.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Corne d’Abondance",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/fr_FR\/66f25fee97569b9478e50cd2e074ca8b.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Horn of Plenty",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/en_US\/a9041a3ad6f5ce13fb62cad721ef1338.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "4WTE125M6X8B5TPFD6T0P1M76R",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/fr_FR\/66f25fee97569b9478e50cd2e074ca8b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/en_US\/a9041a3ad6f5ce13fb62cad721ef1338.jpg"
+  },
+  "name": "Horn of Plenty",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "Your Companions have: \"{R} I gain 1 boost.\""
+  },
   "collectorNumberFormatted": "NEJ-071-C-EN",
   "isSuspended": false,
   "isErrated": false,

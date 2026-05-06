@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "en_US": {
+          "text": "He calls it justice. Most call it war.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Il nomme cela justice. La plupart appellent cela la guerre.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KN46A923M3DWEDZWTZ4JJ3R3",
+      "text": "He calls it justice. Most call it war."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    },
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +54,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "5FRQNPKM9Z8BR9SMEER1JZ8BD2"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "2VHNEJYF2A91VB451X6DMXTY9P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "2S2CHTBEJJ82DS8RQYGY6FMQPP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "0EN6TPA3689ZYBJMBG60XBJ6NQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "1WS850KVYV8CYBZ046A1MDWRSR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4CS8YHM7CT9T69B0A51EKG60AK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J}# You may discard a Character from your Reserve to draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# You may discard a Character from your Reserve to draw a card.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# You may discard a Character from your Reserve to draw a card.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# You may discard a Character from your Reserve to draw a card.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Vous pouvez défausser un Personnage de votre Réserve pour piocher une carte.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{J}# You may discard a Character from your Reserve to draw a card."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_137_R1_0"
+          },
+          "sequence": 0,
+          "id": "09AV83BT358Q49QYCSDCCNR27F"
+        }
+      ],
+      "value": "{J} You may discard a Character from your Reserve to draw a card.",
+      "id": "4CS8YHM7CT9T69B0A51EKG60AK"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/JPG\/en_US\/ce6c5771b8aaf5309648a25a59123297.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/WEB_db4f99e37e5d7d585f1bd1ee02f71138",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/WEB_77e30828ec6c017823c64bb4df25a9f3",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/WEB_b4913e6943bcd5258b2201377628cf02"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_137_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_137_R2",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/JPG\/it_IT\/3237fa5808c2bd2ecf686a1762513066.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Ménélas, le Belliqueux",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/JPG\/fr_FR\/abb7992520c308e4ae4ce029a5176b6d.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/JPG\/es_ES\/b12cf9bdd7015ee4e5dc8d3e53667e0d.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Menelaus, Bringer of War",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/JPG\/de_DE\/0c23e81f31535fc8f61f9bfdff90b33f.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Menelaus, Bringer of War",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/JPG\/en_US\/ce6c5771b8aaf5309648a25a59123297.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "705M9TNXBB92FSV2B3CPWQ0S9G",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-084-R-EN",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/JPG\/fr_FR\/abb7992520c308e4ae4ce029a5176b6d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_137\/JPG\/en_US\/ce6c5771b8aaf5309648a25a59123297.jpg"
+  },
+  "name": "Menelaus, Bringer of War",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "#4#",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#{J}# You may discard a Character from your Reserve to draw a card."
+  },
+  "collectorNumberFormatted": "NEJ-084-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

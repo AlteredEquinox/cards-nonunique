@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,230 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "3TNHT89FC78MKVYEAGCWX6S0RN"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "2BXJ8Q64ZK84YAWNHQGYWKM8WS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7FBKX6CR4Q9T0R4W63GGA11AT8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5M8PBE534S8TABPDTVMX1P4HYT"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7H7MM47D5G959R21SHH4AEDDBJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3HB8JC0SK78CY878Q6Y31TQEB4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "330TKB1K0F9XZVT6PFR3KA9JE4"
+        },
+        {
+          "cardElement": "\/card_elements\/3HB8JC0SK78CY878Q6Y31TQEB4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Sacrifice a Character. If you do, target opponent sacrifices a Character that it was facing.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Sacrifice a Character. If you do, target opponent sacrifices a Character that it was facing.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Sacrifice a Character. If you do, target opponent sacrifices a Character that it was facing.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Sacrifice a Character. If you do, target opponent sacrifices a Character that it was facing.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Sacrifiez un Personnage. Si vous le faites, un adversaire ciblé sacrifie un Personnage qui lui faisait face.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Sacrifice a Character. If you do, target opponent sacrifices a Character that it was facing."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_132_C_1"
+          },
+          "sequence": 1,
+          "id": "62WZS8Q7YX8EK9K5Q0NVAGA93X"
+        }
+      ],
+      "value": "[[Fleeting]].  Sacrifice a Character. If you do, target opponent sacrifices a Character that it was facing.",
+      "id": "3HB8JC0SK78CY878Q6Y31TQEB4"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Nestor Papatriantafyllou" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_132\/JPG\/en_US\/8e4e5fe98e29b9ed9e456938c0f33708.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_132\/WEB_475d39e2265385dddd5c4117c2f0cb41",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_132\/WEB_8232d8d01e6bd2a3add3424a5a30d766"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_132_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_132_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_132\/JPG\/it_IT\/b4bcc63ced620436d3dc4b9e572f4913.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Offrande aux Dieux",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_132\/JPG\/fr_FR\/ec0b275c64cc45698dff6de354a5359f.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Offering to the Gods",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_132\/JPG\/de_DE\/11e1123eafd55728f7da1d64b6238ce2.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Offering to the Gods",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_132\/JPG\/en_US\/8e4e5fe98e29b9ed9e456938c0f33708.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_132\/JPG\/es_ES\/25e8e7f17c6c4648226453a7a7de4ee4.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "33158KQZ17858R9SBZZ8TR24HP",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_132\/JPG\/fr_FR\/ec0b275c64cc45698dff6de354a5359f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_132\/JPG\/en_US\/8e4e5fe98e29b9ed9e456938c0f33708.jpg"
+  },
+  "name": "Offering to the Gods",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Sacrifice a Character. If you do, target opponent sacrifices a Character that it was facing."
+  },
   "collectorNumberFormatted": "NEJ-105-C-EN",
   "isSuspended": false,
   "isErrated": false,

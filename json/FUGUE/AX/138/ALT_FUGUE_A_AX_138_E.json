@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DEITY",
+      "id": "01HKAGPAJFS4YDQVKY6AB16614",
+      "name": "Deity"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,225 @@
     "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
     "name": "Exalted"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1H9ATAC5RC9V2B55X4GMK00G4V"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3GD13HTB0491Z9GNYMG0X13715"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "16RXS1BK6E8JFRBSXM0PQ81ZYY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6CQ5CC3EVA8N2S90XB1MJQR7Y9"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6GBYDBVSAE8G38HAMD12ZNYQEA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3J4T1D3DZY9GWBMG49SS5SD3QZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "de_DE",
+                          "description": "TEMPLE"
+                        },
+                        "it_IT": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "it_IT",
+                          "description": "TEMPLE"
+                        },
+                        "es_ES": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "es_ES",
+                          "description": "TEMPLE"
+                        },
+                        "en_US": {
+                          "displayWeb": "Temple",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "5B2NFWR68W9RNTGMGCFK6C37XY",
+                      "reference": "TEMPLE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "69165HHCCW8QY9ZZRQNW81J09J"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": { "text": "[TEMPLE] {2}.", "locale": "es_ES" },
+                  "en_US": { "text": "[TEMPLE] {2}.", "locale": "en_US" },
+                  "fr_FR": { "text": "[TEMPLE] {2}.", "locale": "fr_FR" },
+                  "de_DE": { "text": "[TEMPLE] {2}.", "locale": "de_DE" },
+                  "it_IT": { "text": "[TEMPLE] {2}.", "locale": "it_IT" }
+                },
+                "text": "[TEMPLE] {2}."
+              }
+            ],
+            "reference": "ALT_FUGUE_A_AX_138_C_0"
+          },
+          "sequence": 0,
+          "id": "3VRYSG9FCY9K4A8E92BEN91JP7"
+        },
+        {
+          "cardElement": "\/card_elements\/3J4T1D3DZY9GWBMG49SS5SD3QZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you pass — You may pay {1} to draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When you pass — You may pay {1} to draw a card.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When you pass — You may pay {1} to draw a card.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When you pass — You may pay {1} to draw a card.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous passez — Vous pouvez payer {1} pour piocher une carte.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you pass — You may pay {1} to draw a card."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_138_C_1"
+          },
+          "sequence": 1,
+          "id": "6AWGRWNBS29QFRPYHKDBYAAQ87"
+        }
+      ],
+      "value": "[Temple] {2}.  When you pass — You may pay {1} to draw a card.",
+      "id": "3J4T1D3DZY9GWBMG49SS5SD3QZ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Saeed Jalabi" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_138\/JPG\/en_US\/3684b7ec1e19a48428111bb9241c52e3.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_A_AX_138_E",
   "isExclusive": true,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_A_AX_138_E",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Héphaïstos, Dieu de la Forge",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_138\/JPG\/fr_FR\/7c14bfb9006d81b7c54ef1a3bbdcfcaf.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_138\/JPG\/es_ES\/8baa7851e26f843e2ce6db5d030e30fd.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_138\/JPG\/de_DE\/27797eb2c995a0d5c105285bb050ae02.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Hephaestus, God of the Forge",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_138\/JPG\/it_IT\/b40d289b997a3cb7858da66bae0aafa9.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Hephaestus, God of the Forge",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_138\/JPG\/en_US\/3684b7ec1e19a48428111bb9241c52e3.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "50CDANWWKZ8BST2TZT5GY2HPC2",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_138\/JPG\/fr_FR\/7c14bfb9006d81b7c54ef1a3bbdcfcaf.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_138\/JPG\/en_US\/3684b7ec1e19a48428111bb9241c52e3.jpg"
+  },
+  "name": "Hephaestus, God of the Forge",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "[Temple] {2}.  When you pass — You may pay {1} to draw a card."
+  },
   "collectorNumberFormatted": "NEJ-A-009-E-EN",
   "isSuspended": false,
   "isErrated": false,

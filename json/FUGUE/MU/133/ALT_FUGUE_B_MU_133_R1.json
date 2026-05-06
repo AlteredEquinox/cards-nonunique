@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Quand tout espoir est perdu, il y a souvent une main secourable qui nous aide à nous relever.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "When all hope is lost, there is often a helping hand to lift us back up.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A6SVRGD5A3TT4EM65QB9",
+      "text": "When all hope is lost, there is often a helping hand to lift us back up."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,171 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4FS9176F889ZN8PHWNWV5T7EDQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6RDCR2T3A88RQ8CMQQ186E6QM1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2YBK7BQMHQ9FD996ZG3R60H348"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "10MCDGZCDF9M5TXW2KWA7W61C1"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6B3CNKNRK18209R45SYD030FJG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7G4XDS2WA592DRC0AJ759MXB52",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{H} Target opponent draws a card.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{H} Target opponent draws a card.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{H} Target opponent draws a card.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{H} Target opponent draws a card.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{H} Un adversaire ciblé pioche une carte.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{H} Target opponent draws a card.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_133_R1_0"
+          },
+          "sequence": 0,
+          "id": "75CNN17SZX97D8F3PE9163NX6C"
+        }
+      ],
+      "value": "{H} Target opponent draws a card.",
+      "id": "7G4XDS2WA592DRC0AJ759MXB52"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Eilene Cherie" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/en_US\/62586418e29bb36b22a0126713122cb9.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/WEB_f870404c4789163fed24e09fc8af9bb5",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/WEB_62631c0e282e9cf0929e14c202d64502",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/WEB_608f711f916a49efa14f6be95316db4c"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_133_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_133_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Ino",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/de_DE\/a48c94f3bbfdc28468eb89f613e9d204.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/it_IT\/ee9c3c1b1bfc772947bfaaf4f405df8e.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Ino",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/en_US\/62586418e29bb36b22a0126713122cb9.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/es_ES\/6ddb46edd05ecca877d0a0a42ef5abbf.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Ino",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/fr_FR\/c706859f7bf5793b98a9deb56932423d.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "5MKQSJSCZT9GM93SZXN8DZG8R6",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/fr_FR\/c706859f7bf5793b98a9deb56932423d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/en_US\/62586418e29bb36b22a0126713122cb9.jpg"
+  },
+  "name": "Ino",
+  "elements": {
+    "MAIN_COST": "#1#",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#{H} Target opponent draws a card.#"
+  },
   "collectorNumberFormatted": "NEJ-057-R-EN",
   "isSuspended": false,
   "isErrated": false,

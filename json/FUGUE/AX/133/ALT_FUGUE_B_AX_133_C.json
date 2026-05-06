@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Le crash fut violent, et les dégâts considérables.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "The crash was violent, and the damage was considerable.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A41SA5T1V5VW2Y9N1260",
+      "text": "The crash was violent, and the damage was considerable."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "MESSENGER",
+      "id": "01HKAGPRRNK7X4TZEBYSPK6DDC",
+      "name": "Messenger"
+    },
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +54,193 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1G2E8WZRDZ9XQ93D4BNSYX22RF"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "678Q8YZA7F9RHA6GTQDHSJZC4A"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4V19WB5N5W95X9WZKDH1A9288R"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3NFJJX40M68DGSDJJGA2R8XJBQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6Y4855TSK98C1R5N5M4SGTBP2T"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3PATFN5EX88XFRH7CK4Y0V6DWW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01HTS8VZ2W78CMBXSZFXEAFTED"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": { "text": "{H} $[RESUPPLY].", "locale": "it_IT" },
+                  "de_DE": { "text": "{H} $[RESUPPLY].", "locale": "de_DE" },
+                  "es_ES": { "text": "{H} $[RESUPPLY].", "locale": "es_ES" },
+                  "fr_FR": { "text": "{H} $[RESUPPLY].", "locale": "fr_FR" },
+                  "en_US": { "text": "{H} $[RESUPPLY].", "locale": "en_US" }
+                },
+                "text": "{H} $[RESUPPLY]."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "7C78PSMX079XMBQXTZAC5A7828"
+        }
+      ],
+      "value": "{H} [Resupply]. (Put the top card of your deck in Reserve.)",
+      "id": "3PATFN5EX88XFRH7CK4Y0V6DWW"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/JPG\/en_US\/84cc5d56419ccc6216762e9cb3854c5c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/WEB_81bd402c512996af5c9eef00f9a5cc7e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/WEB_1d625ca9c5fb26a4bbf49dd20dd95cc9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/WEB_cdb9a57cd27e437b8b47a77099108bfe"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_133_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_133_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "Axiom Recoverer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/JPG\/it_IT\/ec77137545dd318c0b1793a8c12e5659.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Axiom Recoverer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/JPG\/en_US\/84cc5d56419ccc6216762e9cb3854c5c.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/JPG\/de_DE\/bb6fe9545f3c0af16b8a9c34cab27849.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Épaviste Axiom",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/JPG\/fr_FR\/4064064d07f00c0cc8bfa8704fa453ab.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/JPG\/es_ES\/ee5f489aa7740c7c64275887ef093418.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "4E3K1EVK40969BBEZWB3ZK9SQ9",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/JPG\/fr_FR\/4064064d07f00c0cc8bfa8704fa453ab.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_133\/JPG\/en_US\/84cc5d56419ccc6216762e9cb3854c5c.jpg"
+  },
+  "name": "Axiom Recoverer",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} [Resupply]. (Put the top card of your deck in Reserve.)"
+  },
   "collectorNumberFormatted": "NEJ-003-C-EN",
   "isSuspended": false,
   "isErrated": false,

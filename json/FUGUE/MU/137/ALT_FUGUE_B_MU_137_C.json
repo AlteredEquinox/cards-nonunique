@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Il nous reste du chemin à parcourir. »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“We still have a long way to go.”",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A75QDF9P8FYN5WQZZQ5A",
+      "text": "“We still have a long way to go.”"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DRUID",
+      "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+      "name": "Druid"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,171 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7GPK544925963R8J3WPGD4Z0YB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "50YEY0DWGX81N9V2Z0M0ZJ5988"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "37888WWWD09QXR7DZ8FRJ6XM6Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7M445N48E28F4V6PG80P7TVW63"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "2GRHMFMWMF87Y8Z1G4F4GEG7WR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3EW6HXWPBX859AR5K1RTGZT2Q6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Target Character in your Reserve gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Target Character in your Reserve gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Target Character in your Reserve gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Target Character in your Reserve gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Un Personnage ciblé dans votre Réserve gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Target Character in your Reserve gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_137_C_0"
+          },
+          "sequence": 0,
+          "id": "03AMT02Z7D8H2VJ5MXBYDGEMH2"
+        }
+      ],
+      "value": "{J} Target Character in your Reserve gains 1 boost.",
+      "id": "3EW6HXWPBX859AR5K1RTGZT2Q6"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Victor Canton" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/JPG\/en_US\/19ab107872eb739af27d6efd31ed7007.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/WEB_5db44466ce036e5ecd0f86ecfbac8213",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/WEB_2ed1f4c0dd62bd737fe45129c9257b06",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/WEB_44c1cf2dafd761db17ddaf5dd683cdb9"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_137_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_137_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Eumaeus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/JPG\/en_US\/19ab107872eb739af27d6efd31ed7007.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/JPG\/es_ES\/d9d3706ba598a9973b211de2e036be61.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Eumée",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/JPG\/fr_FR\/b2623b0feddaf6cfa3f858244fa62e5e.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Eumaeus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/JPG\/de_DE\/994758dfe3b250b9186a29cba429c6d6.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/JPG\/it_IT\/179140aae350463a69b7fd60c6d546c2.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "2ENM0M0PYP925TW4K4YBD61Q8A",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/JPG\/fr_FR\/b2623b0feddaf6cfa3f858244fa62e5e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_137\/JPG\/en_US\/19ab107872eb739af27d6efd31ed7007.jpg"
+  },
+  "name": "Eumaeus",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{J} Target Character in your Reserve gains 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-064-C-EN",
   "isSuspended": false,
   "isErrated": false,

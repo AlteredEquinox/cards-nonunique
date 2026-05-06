@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,208 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4HW9K9YEZW89Y9DG76YAGRJNDS"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4RV9GD0N8R9BQV6VK5CNFK22M2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6RQGJQM6X78448GPHHAWES2R5K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7262K3YN0E9F5TBQHG4D64BP30"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "719VZ4ESB69DKA2TZ3X0NJXWB9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7F46P346Q597F9SJ1NM8Z74CRT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "4PNT12CQZ781ABPDRVJP9D5AXQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may target an [ANCHORED] Character. It gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may target an [ANCHORED] Character. It gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may target an [ANCHORED] Character. It gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may target an [ANCHORED] Character. It gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez cibler un Personnage [ANCHORED]. Il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may target an [ANCHORED] Character. It gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_132_C_0"
+          },
+          "sequence": 0,
+          "id": "1V47QXB34D8ZKBRY721JDWE63A"
+        }
+      ],
+      "value": "{H} You may target an [[Anchored]] Character. It gains 1 boost.",
+      "id": "7F46P346Q597F9SJ1NM8Z74CRT"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Nestor Papatriantafyllou" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/en_US\/426a6d05ed2dce8e3f6db02ee2e50ed3.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/WEB_156298e4351258a3b2816ce5c44dcb9b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/WEB_fbbe7d3039551ee7f377e94c3b0357bf",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/WEB_68ab5037523b95abac6caa8c20d4718d"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_132_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_132_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/it_IT\/2d02e007159ece42ab470bc3e7297370.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Silenus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/en_US\/426a6d05ed2dce8e3f6db02ee2e50ed3.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Silenus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/de_DE\/4ba06e0d2f5cf9b05450cb7263c8d5ea.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Silène",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/fr_FR\/c64c8e667263d9a1f978c64ef532b247.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/es_ES\/e93ae3368728f885fd86eb632a701b83.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "6YMBSYSW1K99JV7F8RK7P2ZSWW",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/fr_FR\/c64c8e667263d9a1f978c64ef532b247.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/en_US\/426a6d05ed2dce8e3f6db02ee2e50ed3.jpg"
+  },
+  "name": "Silenus",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} You may target an [[Anchored]] Character. It gains 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-058-C-EN",
   "isSuspended": false,
   "isErrated": false,

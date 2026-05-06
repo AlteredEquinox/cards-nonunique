@@ -1,5 +1,22 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Ruine annoncée, ignorée de tous.",
+          "locale": "fr_FR"
+        },
+        "en_US": { "text": "Doom foretold, never heeded.", "locale": "en_US" }
+      },
+      "id": "01KN46AAM11NRDQ0AH75FX2PK7",
+      "text": "Doom foretold, never heeded."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +29,9 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +42,208 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6RMXR5XEKB9TKTPXWNMY57B43V"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1MFNFWF40X8A6TJGKHCY54BTK2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2EW2YR32H780285Z47ZDM5313V"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "14R17EZF4M9FBVND0Y4RYWZKTD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3XKSN16DXR8CYT5N91RRVM7TCC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/0VBJ3ECWH89BVRAZT8WXG31DWJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "12YKR873RS9X0TJ8309ARZ7468"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may reveal a Spell with Hand Cost {4} or more from your hand. If you don't, I gain [FLEETING].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may reveal a Spell with Hand Cost {4} or more from your hand. If you don't, I gain [FLEETING].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may reveal a Spell with Hand Cost {4} or more from your hand. If you don't, I gain [FLEETING].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may reveal a Spell with Hand Cost {4} or more from your hand. If you don't, I gain [FLEETING].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez révéler un Sort de Coût de Main {4} ou plus de votre main. Si vous ne le faites pas, je gagne [FLEETING].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may reveal a Spell with Hand Cost {4} or more from your hand. If you don't, I gain [FLEETING]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_133_C_0"
+          },
+          "sequence": 0,
+          "id": "4F90E1EHTH9WT9GCC0WQ4B301E"
+        }
+      ],
+      "value": "{H} You may reveal a Spell with Hand Cost {4} or more from your hand. If you don't, I gain [[Fleeting]].",
+      "id": "0VBJ3ECWH89BVRAZT8WXG31DWJ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Eilene Cherie" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/JPG\/en_US\/7576286bd30223f4a7dc5832e7da6b8f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/WEB_1205ff271508782c81d8c2890d0fb46d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/WEB_504208891f42c4514d9811d0b362df73",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/WEB_ba46b453e96319457eb9df5b18d65ba9"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_133_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_133_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Cassandre, Prophétesse Maudite",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/JPG\/fr_FR\/58180a7363b0057208fbcc046e0ca967.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Cassandra, Cursed Prophetess",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/JPG\/en_US\/7576286bd30223f4a7dc5832e7da6b8f.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/JPG\/it_IT\/8f6cee7042d3b66e0e471a8c86eba7d1.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/JPG\/es_ES\/2a2a1a36978abb19a3f78aee50268df1.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Cassandra, Cursed Prophetess",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/JPG\/de_DE\/dea8ad2283bab214c8ecf86125267225.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "7ZYRA2DNR795NR8ZR7WRFYRJMR",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/JPG\/fr_FR\/58180a7363b0057208fbcc046e0ca967.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_133\/JPG\/en_US\/7576286bd30223f4a7dc5832e7da6b8f.jpg"
+  },
+  "name": "Cassandra, Cursed Prophetess",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} You may reveal a Spell with Hand Cost {4} or more from your hand. If you don't, I gain [[Fleeting]]."
+  },
   "collectorNumberFormatted": "NEJ-097-C-EN",
   "isSuspended": false,
   "isErrated": false,

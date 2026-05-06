@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DRUID",
+      "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+      "name": "Druid"
+    },
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +34,307 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7ZD8NPXJJV8K5SVB8BTWBAF8YA"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "09WRTGJ1HZ8VRRAZWTMYZP6TFA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3QE8VE489F8TV92KGHEVV32WTK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "38GZGGB5C1966SBB5CGX6VK5NH"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "5N30ZQFV868CBAKBDAK4N2X7ZN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/09MVKQ3CH890EBM5A21H29BTTF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": "Opponents must pay {1} to target me."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": "Gli avversari devono pagare {1} per scegliermi come bersaglio."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Coriace 1",
+                          "locale": "fr_FR",
+                          "description": "Vos adversaires doivent payer {1} pour me cibler."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": "Los oponentes tienen que pagar {1} para hacerme objetivo."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": "Gegner müssen {1} zahlen, um mich anzuvisieren."
+                        }
+                      },
+                      "id": "01HKAGQBS53BFCG3465BACESCQ",
+                      "reference": "TOUGH_1"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K9YYHHEJZJE5SFPXY5V8MBRS"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "#[TOUGH_1].#", "locale": "en_US" },
+                  "fr_FR": { "text": "#[TOUGH_1].#", "locale": "fr_FR" },
+                  "de_DE": { "text": "#[TOUGH_1].#", "locale": "de_DE" },
+                  "it_IT": { "text": "#[TOUGH_1].#", "locale": "it_IT" },
+                  "es_ES": { "text": "#[TOUGH_1].#", "locale": "es_ES" }
+                },
+                "text": "#[TOUGH_1].#"
+              }
+            ],
+            "reference": "02180"
+          },
+          "sequence": 0,
+          "id": "30TR62EC039XSVEQY8D4JDPA53"
+        },
+        {
+          "cardElement": "\/card_elements\/09MVKQ3CH890EBM5A21H29BTTF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "6RSX2BXZG59WBR7DFDRJP7E56J"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} I gain 2 boosts and [ANCHORED].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} I gain 2 boosts and [ANCHORED].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} I gain 2 boosts and [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} I gain 2 boosts and [ANCHORED].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne 2 boosts et [ANCHORED].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} I gain 2 boosts and [ANCHORED]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_139_C_0"
+          },
+          "sequence": 1,
+          "id": "6N6RGYTN9R8PK968VRXHCR4BS9"
+        },
+        {
+          "cardElement": "\/card_elements\/09MVKQ3CH890EBM5A21H29BTTF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — I lose #1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — I lose #1 boost.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — I lose #1 boost.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — I lose #1 boost.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Je perds #1 boost.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — I lose #1 boost.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_139_R1_2"
+          },
+          "sequence": 2,
+          "id": "7FJPDP49A09Z2AFTJ7Q504CVSQ"
+        }
+      ],
+      "value": "[Tough 1].  {J} I gain 2 boosts and [[Anchored]].  At Noon — I lose 1 boost.",
+      "id": "09MVKQ3CH890EBM5A21H29BTTF"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/JPG\/en_US\/bb002192ad32f3b2ae2b91d44a063094.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/WEB_293954f36d962808a95520fe53bd6771",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/WEB_e2a3294c61a2edeafe779fcf374de5bf",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/WEB_fec986efadefeeb41f58ad6e4fddb3ab"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_139_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_139_R2",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Hellequin Trapper",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/JPG\/en_US\/bb002192ad32f3b2ae2b91d44a063094.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/JPG\/es_ES\/e2638110a3689b21f59de36cb3af413a.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Hellequin Trapper",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/JPG\/de_DE\/46aa0ed6630ba5fa5c79b1c32fae1fa1.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/JPG\/it_IT\/a67db3e82feaa463f10b458894f927e4.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Trappeur Hellequin",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/JPG\/fr_FR\/81a6a8834ec9a3d370977fb9930ab5f9.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "4NK6K6XKYE8FPA7MC4R2NWWEKM",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-066-R-EN",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/JPG\/fr_FR\/81a6a8834ec9a3d370977fb9930ab5f9.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_139\/JPG\/en_US\/bb002192ad32f3b2ae2b91d44a063094.jpg"
+  },
+  "name": "Hellequin Trapper",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#[Tough 1].#  {J} I gain 2 boosts and [[Anchored]].  At Noon — I lose #1 boost.#"
+  },
+  "collectorNumberFormatted": "NEJ-066-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

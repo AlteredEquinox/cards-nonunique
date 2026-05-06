@@ -23,24 +23,288 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ",
+        "name": "RESERVE"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97DNSM30843ZEB14FWPT9C"
+    },
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6",
+        "name": "LANDMARKS"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97DNSM30843ZEB14FWPT9D"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7DXKERMS2A8G6T0DJQXTW7HJMB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "24MX6D5XJ992HVVG6YYRBY8XVM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "317B9MZKQA9BQS302N67CSFT0H"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3VS52VD1GK9YWA4YDQ2WT23NC6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T}, Sacrifice a Character: Target Character gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{T}, Sacrifice a Character: Target Character gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{T}, Sacrifice a Character: Target Character gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{T}, Sacrifice a Character: Target Character gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{T}, Sacrifiez un Personnage : un Personnage ciblé gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{T}, Sacrifice a Character: Target Character gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_130_C_0"
+          },
+          "sequence": 0,
+          "id": "6NZ1WCV1FP8GZSX8PBR10YTF1X"
+        },
+        {
+          "cardElement": "\/card_elements\/3VS52VD1GK9YWA4YDQ2WT23NC6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "de_DE",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "it_IT": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "it_IT",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "es_ES": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "es_ES",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "en_US": {
+                          "displayWeb": "Signature token",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "2FJ0FYF21B9YMVK8YCJD7GEVS7",
+                      "reference": "SIGNATURE_TOKEN"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "358AJWQDVC84RSAK085C9FY7Y8"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "MOLTED_MAW",
+                          "locale": "de_DE",
+                          "description": "MOLTED_MAW"
+                        },
+                        "it_IT": {
+                          "displayWeb": "MOLTED_MAW",
+                          "locale": "it_IT",
+                          "description": "MOLTED_MAW"
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Molted Maw 0\/0\/0",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "MOLTED_MAW",
+                          "locale": "es_ES",
+                          "description": "MOLTED_MAW"
+                        }
+                      },
+                      "id": "56WYSKY3J18CPVSEC35JE4JCFP",
+                      "reference": "MOLTED_MAW"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "4S7Q19Q3139KC9XKNDG4KB05PZ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [MOLTED_MAW] in your Reserve (It's a Companion with Reserve Cost {1} and \"When you sacrifice a Character — I gain 1 boost.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [MOLTED_MAW] in your Reserve (It's a Companion with Reserve Cost {1} and \"When you sacrifice a Character — I gain 1 boost.\")",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [MOLTED_MAW] in your Reserve (It's a Companion with Reserve Cost {1} and \"When you sacrifice a Character — I gain 1 boost.\")",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [MOLTED_MAW] in your Reserve (It's a Companion with Reserve Cost {1} and \"When you sacrifice a Character — I gain 1 boost.\")",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes premier joueur, créez mon [SIGNATURE_TOKEN] : [MOLTED_MAW] dans votre Réserve. (C'est un Compagnon avec un Coût de Réserve de {1} et : « Lorsque vous sacrifiez un Personnage — je gagne 1 boost. »)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [MOLTED_MAW] in your Reserve (It's a Companion with Reserve Cost {1} and \"When you sacrifice a Character — I gain 1 boost.\")"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_130_C_1"
+          },
+          "sequence": 1,
+          "id": "3HVF32AVE784JAZ5NTCRSZ8DDC"
+        }
+      ],
+      "value": "{T}, Sacrifice a Character: Target Character gains 1 boost.  At Noon — If you're first player, create my [Signature token]: [Molted Maw 0\/0\/0] in your Reserve (It's a Companion with Reserve Cost {1} and \"When you sacrifice a Character — I gain 1 boost.\")",
+      "id": "3VS52VD1GK9YWA4YDQ2WT23NC6"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/JPG\/en_US\/c9ed834f671f76982b8915af3fc88690.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/HERO_THUMB_2177d18bc1723132d8c59a3a022a0241"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/HERO_WIDE_d83ae6f3f01bbc62cd397678aa7f8266"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/WEB_3d0f8243b5234f87ff5ab08e8289813c"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_130_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_130_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Gray",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/JPG\/de_DE\/9a4eb9724edc11970702a4b839fc782d.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Gray",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/JPG\/fr_FR\/708a03c7526ca03bc5e08beaf0b40704.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Gray",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/JPG\/en_US\/c9ed834f671f76982b8915af3fc88690.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/JPG\/it_IT\/bc3fed38d38120f3bdf478aeb93c69e9.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/JPG\/es_ES\/a6a508fbde5328d95f11d2285a60d1ce.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "2XYXRDMZ1M8GGB9KPZFNSXK523",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/JPG\/fr_FR\/708a03c7526ca03bc5e08beaf0b40704.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_130\/JPG\/en_US\/c9ed834f671f76982b8915af3fc88690.jpg"
+  },
+  "name": "Gray",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "RESERVE": "2",
+    "PERMANENT": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "{T}, Sacrifice a Character: Target Character gains 1 boost.  At Noon — If you're first player, create my [Signature token]: [Molted Maw 0\/0\/0] in your Reserve (It's a Companion with Reserve Cost {1} and \"When you sacrifice a Character — I gain 1 boost.\")"
+  },
   "collectorNumberFormatted": "NEJ-091-H-EN",
   "isSuspended": false,
   "isErrated": false,

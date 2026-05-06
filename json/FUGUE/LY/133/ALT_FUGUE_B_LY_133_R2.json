@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Votre périple sera ardu. Profitez donc de cette halte, et de notre hospitalité. »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“Your journey will be arduous. Take this respite, and enjoy our hospitality.”",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A5E2TBQQC8JEJYGT9ETQ",
+      "text": "“Your journey will be arduous. Take this respite, and enjoy our hospitality.”"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +49,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1G5M4GX78A8MC82B0TDTM2AC2K"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "51S3KTGHW49B4BYTFPZ2ZXYBZQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "2VY49057X383NA30MSCSZT9E4V"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7KDMEWVTF78A7STM8YTF616K9V"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3TCXKJBEB08QQBSCQ7VTSNWV85"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6VVZQ0A2MC9Q48KK0SP1JZ896P",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{H} Reveal the top card of your deck. If it's a Spell, I gain 1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{H} Reveal the top card of your deck. If it's a Spell, I gain 1 boost.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{H} Reveal the top card of your deck. If it's a Spell, I gain 1 boost.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{H} Reveal the top card of your deck. If it's a Spell, I gain 1 boost.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{H} Révélez la carte du dessus de votre deck. Si c'est un Sort, je gagne 1 boost.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{H} Reveal the top card of your deck. If it's a Spell, I gain 1 boost.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_133_R2_0"
+          },
+          "sequence": 0,
+          "id": "0A779JK3H99ND84QVS9DH0G10Q"
+        }
+      ],
+      "value": "{H} Reveal the top card of your deck. If it's a Spell, I gain 1 boost.",
+      "id": "6VVZQ0A2MC9Q48KK0SP1JZ896P"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/en_US\/8c51ca4418cf98092dcf45c782110280.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/WEB_721a5bf3acc8ed77e26ae205625ce2b7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/WEB_4d8a044559dc690baa1c1f6343c0a81e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/WEB_6ae16a2f962bd63027f1955f8055a872"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_133_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_133_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/es_ES\/de21305f19c10d5aeb47043233704c1b.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Noblesse de Schérie",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/fr_FR\/96e3630821bd34932d246210e1ac937b.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Scheria's Royalty",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/de_DE\/28d0116423b70efb145adb085e818db5.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/it_IT\/5966df34c7aa48f9df4b260af1a092f2.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Scheria's Royalty",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/en_US\/8c51ca4418cf98092dcf45c782110280.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "59WSBR519F8RBV73ZRKCTFZBN2",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-043-R-EN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/fr_FR\/96e3630821bd34932d246210e1ac937b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/en_US\/8c51ca4418cf98092dcf45c782110280.jpg"
+  },
+  "name": "Scheria's Royalty",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "#{H} Reveal the top card of your deck. If it's a Spell, I gain 1 boost.#"
+  },
+  "collectorNumberFormatted": "NEJ-043-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,165 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "2YMR9QWNJP88XT18CMYBXBSW2M"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "29EWBF8BT89KB87ENS9WTKNV3S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6NYSQ0EM0M8CKB6XAJ4VN64M46"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "0DTS9AN80H8ZZ9EC0B524BZMRF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "2F7B700GB799BSMVZ3TH50Y85D"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/0WVQEA1VQQ8KHBVPCCS7796CXV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "If you would create a token, create #two# in the same place instead.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "If you would create a token, create #two# in the same place instead.",
+                    "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "Si vous deviez créer un jeton, #à la place créez-en deux# au même endroit.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "If you would create a token, create #two# in the same place instead.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "If you would create a token, create #two# in the same place instead.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "If you would create a token, create #two# in the same place instead."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_139_R1_0"
+          },
+          "sequence": 0,
+          "id": "1CH2BGHTEG9DPTXR2BKJRMA23H"
+        }
+      ],
+      "value": "If you would create a token, create two in the same place instead.",
+      "id": "0WVQEA1VQQ8KHBVPCCS7796CXV"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_OR_139\/JPG\/en_US\/e03e5731c8018ee2e379d2a3b78cce8c.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_A_OR_139_R1",
   "isExclusive": true,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_A_OR_139_R1",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "Troy",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_OR_139\/JPG\/it_IT\/6bf447e3c2fc8400bd8304a4646fb67d.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_OR_139\/JPG\/es_ES\/580b226a894ba0d612fe3542d589eb0f.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_OR_139\/JPG\/de_DE\/cf01647645418d52a17c2f1ce6743f30.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Troy",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_OR_139\/JPG\/en_US\/e03e5731c8018ee2e379d2a3b78cce8c.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Troie",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_OR_139\/JPG\/fr_FR\/47490d2910d20b79e6f5f7c88fe859f5.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "3ZVXHPM01H9W581G759M66ABZA",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_OR_139\/JPG\/fr_FR\/47490d2910d20b79e6f5f7c88fe859f5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_OR_139\/JPG\/en_US\/e03e5731c8018ee2e379d2a3b78cce8c.jpg"
+  },
+  "name": "Troy",
+  "elements": {
+    "MAIN_COST": "#7#",
+    "RECALL_COST": "#7#",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "If you would create a token, create #two# in the same place instead."
+  },
   "collectorNumberFormatted": "NEJ-A-089-R-EN",
   "isSuspended": false,
   "isErrated": false,

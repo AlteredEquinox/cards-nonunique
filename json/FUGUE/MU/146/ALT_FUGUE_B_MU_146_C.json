@@ -12,7 +12,9 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +25,239 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "179WWJPPJG886T04V1EVGF45GM"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "0DHCAKP5R48CPVGN9H466KE1J4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "3SCRWKDDHF826SGED5JT5FEC5R"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "207RZC3KTF9Z0BP37K3KFWG5BX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3DDR8JN0XR8BJBMYQJS86EVK4Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2S7ANQJB5V8F5T77QCWTJ0WEN2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{J} Ziehe eine Karte.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Pesca una carta.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": { "text": "{J} Roba una carta.", "locale": "es_ES" },
+                  "fr_FR": {
+                    "text": "{J} Piochez une carte.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": { "text": "{J} Draw a card.", "locale": "en_US" }
+                },
+                "text": "{J} Draw a card."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "63EJYYJPQF99DTY1WR5AJMT6S1"
+        },
+        {
+          "cardElement": "\/card_elements\/2S7ANQJB5V8F5T77QCWTJ0WEN2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "4Q7KP9T2WB8ASR04M5ZYKASBHG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "If an [ANCHORED] Character would leave your Expeditions during the Afternoon, you may sacrifice me to have it lose [ANCHORED] instead.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "If an [ANCHORED] Character would leave your Expeditions during the Afternoon, you may sacrifice me to have it lose [ANCHORED] instead.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "If an [ANCHORED] Character would leave your Expeditions during the Afternoon, you may sacrifice me to have it lose [ANCHORED] instead.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "If an [ANCHORED] Character would leave your Expeditions during the Afternoon, you may sacrifice me to have it lose [ANCHORED] instead.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Si un Personnage [ANCHORED] devait quitter vos Expéditions durant l'Après-midi, vous pouvez me sacrifier pour qu'il perde [ANCHORED] à la place.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "If an [ANCHORED] Character would leave your Expeditions during the Afternoon, you may sacrifice me to have it lose [ANCHORED] instead."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_146_C_1"
+          },
+          "sequence": 1,
+          "id": "535RK0928Y9GV90YWCN8W1ZZFZ"
+        }
+      ],
+      "value": "{J} Draw a card.  If an [[Anchored]] Character would leave your Expeditions during the Afternoon, you may sacrifice me to have it lose [[Anchored]] instead.",
+      "id": "2S7ANQJB5V8F5T77QCWTJ0WEN2"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Giovanni Calore " },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/en_US\/4def08bf0510d51e74c84788f1fe4abe.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/WEB_d8aec8eacadeaf1bbb4a638ddd2bb8e4",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/WEB_dd35a39ad91f7961e6eec5427c177ea7"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_146_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_146_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Sanctuaire de Calypso",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/fr_FR\/af17b20863397062d8937271a0ee6f91.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/it_IT\/467f0f7f3e3b5dbb57fc873c2e16a72d.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Fane of Calypso",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/de_DE\/c06187abcb3a8a6e01dc8c2d181ea8cd.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Fane of Calypso",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/en_US\/4def08bf0510d51e74c84788f1fe4abe.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/es_ES\/7516965a71203cd3d7756cc59e0cd276.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "5346HH6CDC966BD3PM8TF75ZFA",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/fr_FR\/af17b20863397062d8937271a0ee6f91.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/en_US\/4def08bf0510d51e74c84788f1fe4abe.jpg"
+  },
+  "name": "Fane of Calypso",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "{J} Draw a card.  If an [[Anchored]] Character would leave your Expeditions during the Afternoon, you may sacrifice me to have it lose [[Anchored]] instead."
+  },
   "collectorNumberFormatted": "NEJ-072-C-EN",
   "isSuspended": false,
   "isErrated": false,

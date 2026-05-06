@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,230 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "75BKJSDF2J8CQVXRJ8YJ539HY9"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "3Q1HA4VK2F801B1TQP9HECJV18"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1VCSZRYPKK99TVV5XHT1E4QYKK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0TZAAPMHN39ZMR9X8Q9E4KYP0G"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7G624DK3YY8Z3SEDA2GM6DQXYT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7FEMR742DH89Q8RWERQM3F9T4J",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "350RAP5MBQ91Q9G1XENHSRPNTF"
+        },
+        {
+          "cardElement": "\/card_elements\/7FEMR742DH89Q8RWERQM3F9T4J",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Send target Character with a {O} statistic of 4 or less to Reserve.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Send target Character with a {O} statistic of 4 or less to Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Send target Character with a {O} statistic of 4 or less to Reserve.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Send target Character with a {O} statistic of 4 or less to Reserve.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Envoyez en Réserve un Personnage ciblé de stat {O} 4 ou inférieure.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Send target Character with a {O} statistic of 4 or less to Reserve."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_143_C_1"
+          },
+          "sequence": 1,
+          "id": "3JWZKEP0458TFVAWY051SDCNZE"
+        }
+      ],
+      "value": "[[Fleeting]].  Send target Character with a {O} statistic of 4 or less to Reserve.",
+      "id": "7FEMR742DH89Q8RWERQM3F9T4J"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Kevin Sidharta" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_143\/JPG\/en_US\/528fc38f236b0767c7638e59f74aac2b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_143\/WEB_1bd2084c2939b2b4130dfae5b9b2b5bf",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_143\/WEB_383acd0f8621effa1e1c3a9051aafef6"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_143_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_143_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Poseidon's Fury",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_143\/JPG\/en_US\/528fc38f236b0767c7638e59f74aac2b.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Fureur de Poséidon",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_143\/JPG\/fr_FR\/19662e318f72e5922c7607efc0106e67.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Poseidon's Fury",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_143\/JPG\/de_DE\/1c9a5efa75347282a3ae503dd7257a1a.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_143\/JPG\/es_ES\/1873a1f5787a49c7e13c2bf8201518ba.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_143\/JPG\/it_IT\/6e905de5b8f1760e6ac551244cb2cab3.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "1QPVMD20FA9HBTQDDXV9RC3P21",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_143\/JPG\/fr_FR\/19662e318f72e5922c7607efc0106e67.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_143\/JPG\/en_US\/528fc38f236b0767c7638e59f74aac2b.jpg"
+  },
+  "name": "Poseidon's Fury",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Send target Character with a {O} statistic of 4 or less to Reserve."
+  },
   "collectorNumberFormatted": "NEJ-013-C-EN",
   "isSuspended": false,
   "isErrated": false,

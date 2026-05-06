@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "TITAN",
+      "id": "01HKAGQ9QZA1N8YNZH7CYPBDVR",
+      "name": "Titan"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,246 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "2WAJTAB3Z292GBP33Z5MPEBWWG"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "0R2KY8DMEH8Z7APJX1C7RGES4N"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "3648FKDZCG9TCBKV8TRKHANQM7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "2065X7YPY88MHR0CV9TE9E3VXY"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "3RRBXVF2J48FZTRY934Z4NB9TH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3XW7W6TM608HBAZ1BV9B4SVTNG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "455CGATQZ889E9P4GTQC0JQRPK"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[GIGANTIC]. (I'm considered present in each of your Expeditions.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "[GIGANTIC]. (I'm considered present in each of your Expeditions.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "[GIGANTIC]. (I'm considered present in each of your Expeditions.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[GIGANTIC]. (I'm considered present in each of your Expeditions.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "[GIGANTIC]. (Je suis considérée présente dans chacune de vos Expéditions.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "[GIGANTIC]. (I'm considered present in each of your Expeditions.)"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_139_C_0"
+          },
+          "sequence": 0,
+          "id": "1WPKZHK5NF967TMQ1FHE6ZND84"
+        },
+        {
+          "cardElement": "\/card_elements\/3XW7W6TM608HBAZ1BV9B4SVTNG",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Roll a die. I gain X boosts, where X is the result.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Roll a die. I gain X boosts, where X is the result.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Roll a die. I gain X boosts, where X is the result.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Roll a die. I gain X boosts, where X is the result.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Lancez un dé. Je gagne X boosts, X étant le resultat.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Roll a die. I gain X boosts, where X is the result."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_139_C_1"
+          },
+          "sequence": 1,
+          "id": "73YCYGC46Z9879DJMHDGRXYJ3D"
+        }
+      ],
+      "value": "[Gigantic]. (I'm considered present in each of your Expeditions.)  {J} Roll a die. I gain X boosts, where X is the result.",
+      "id": "3XW7W6TM608HBAZ1BV9B4SVTNG"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/en_US\/6868823e805c095b078ced91a397b67b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/WEB_1a2e9c7082a9e56c9e19f1da90376572",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/WEB_75a3bfd0c7241e10ef21aa45edd53c3d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/WEB_594664543508804ae13727102d486968"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_139_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_139_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/it_IT\/4796ddf40fbbc2d9c94879cf3be9291a.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Laestrygonian Queen",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/en_US\/6868823e805c095b078ced91a397b67b.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Reine Lestrygone",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/fr_FR\/58e6091b8682dc7c5f67c1fdf7978f32.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/es_ES\/a40d4854c8d9b6db86f2ca0b05baf5fd.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Laestrygonian Queen",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/de_DE\/05cb0ad76ced19695ad3619866b851bb.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "14ZKW5KX3J9QDRK6JC0EZ66BQ7",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/fr_FR\/58e6091b8682dc7c5f67c1fdf7978f32.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/en_US\/6868823e805c095b078ced91a397b67b.jpg"
+  },
+  "name": "Laestrygonian Queen",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "[Gigantic]. (I'm considered present in each of your Expeditions.)  {J} Roll a die. I gain X boosts, where X is the result."
+  },
   "collectorNumberFormatted": "NEJ-050-C-EN",
   "isSuspended": false,
   "isErrated": false,

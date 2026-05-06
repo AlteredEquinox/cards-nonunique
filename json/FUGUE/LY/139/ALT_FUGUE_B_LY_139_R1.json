@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "TITAN",
+      "id": "01HKAGQ9QZA1N8YNZH7CYPBDVR",
+      "name": "Titan"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,320 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "4W9CQMT72F9GHSQJJG3R1J9EEY"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "0KKQRT99ZV9JYA0CRWQHVS2PP1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "0XQ1KEFT8E9GJT9TPFXGR6PHR6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "5YD64826358E997931HJTV3FM9"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "502J2N3SJV9NQVXFS93TKSPSSQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7J3NGV07VB8T19KPK251GP3QQX",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JN9V13HX5HAR44VG7PJZF6E7"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": "Opponents must pay {1} to target me."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": "Gli avversari devono pagare {1} per scegliermi come bersaglio."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Coriace 1",
+                          "locale": "fr_FR",
+                          "description": "Vos adversaires doivent payer {1} pour me cibler."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": "Los oponentes tienen que pagar {1} para hacerme objetivo."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": "Gegner müssen {1} zahlen, um mich anzuvisieren."
+                        }
+                      },
+                      "id": "01HKAGQBS53BFCG3465BACESCQ",
+                      "reference": "TOUGH_1"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JN9V13SAT4YKN3237DEHSFYQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[GIGANTIC], #[TOUGH_1].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "[GIGANTIC], #[TOUGH_1].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "[GIGANTIC], #[TOUGH_1].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[GIGANTIC], #[TOUGH_1].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "[GIGANTIC], #[TOUGH_1].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "[GIGANTIC], #[TOUGH_1].#"
+              }
+            ],
+            "reference": "01216"
+          },
+          "sequence": 0,
+          "id": "392NYZR5848VQRMGSQ0C48RYHR"
+        },
+        {
+          "cardElement": "\/card_elements\/7J3NGV07VB8T19KPK251GP3QQX",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#If you would roll one or more dice, instead roll that many dice plus one and ignore the roll of your choice.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#If you would roll one or more dice, instead roll that many dice plus one and ignore the roll of your choice.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#If you would roll one or more dice, instead roll that many dice plus one and ignore the roll of your choice.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#If you would roll one or more dice, instead roll that many dice plus one and ignore the roll of your choice.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Si vous deviez lancer au moins un dé, lancez un dé supplémentaire et ignorez le résultat du dé de votre choix.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#If you would roll one or more dice, instead roll that many dice plus one and ignore the roll of your choice.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_139_R1_1"
+          },
+          "sequence": 1,
+          "id": "47XKJDSVDY8RQBSPQ79ZPD8XE2"
+        },
+        {
+          "cardElement": "\/card_elements\/7J3NGV07VB8T19KPK251GP3QQX",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Roll a die. I gain X boosts, where X is the result.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Roll a die. I gain X boosts, where X is the result.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Roll a die. I gain X boosts, where X is the result.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Roll a die. I gain X boosts, where X is the result.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Lancez un dé. Je gagne X boosts, X étant le resultat.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Roll a die. I gain X boosts, where X is the result."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_139_C_1"
+          },
+          "sequence": 2,
+          "id": "5GS078G36D86ERJ8J2JH0YNKYG"
+        }
+      ],
+      "value": "[Gigantic], [Tough 1].  If you would roll one or more dice, instead roll that many dice plus one and ignore the roll of your choice.  {J} Roll a die. I gain X boosts, where X is the result.",
+      "id": "7J3NGV07VB8T19KPK251GP3QQX"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/en_US\/120766449cd5a9aab606b440e176fcae.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/WEB_1a2e9c7082a9e56c9e19f1da90376572",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/WEB_75a3bfd0c7241e10ef21aa45edd53c3d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/WEB_594664543508804ae13727102d486968"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_139_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_139_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Laestrygonian Queen",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/de_DE\/0369d2be1f41b6c37da3e7663d8ea78d.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/es_ES\/7fd1ff963dd8c6dd9e78a344d09fc002.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Reine Lestrygone",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/fr_FR\/617305acddbbb120efec10c4778022e2.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/it_IT\/2ef7d23e0d641c8d7edd5bc4e059e447.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Laestrygonian Queen",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/en_US\/120766449cd5a9aab606b440e176fcae.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "733EMZEK2P95XS763JPTD69K7C",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/fr_FR\/617305acddbbb120efec10c4778022e2.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_139\/JPG\/en_US\/120766449cd5a9aab606b440e176fcae.jpg"
+  },
+  "name": "Laestrygonian Queen",
+  "elements": {
+    "MAIN_COST": "#6#",
+    "RECALL_COST": "#6#",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "[Gigantic], #[Tough 1].#  #If you would roll one or more dice, instead roll that many dice plus one and ignore the roll of your choice.#  {J} Roll a die. I gain X boosts, where X is the result."
+  },
   "collectorNumberFormatted": "NEJ-050-R-EN",
   "isSuspended": false,
   "isErrated": false,

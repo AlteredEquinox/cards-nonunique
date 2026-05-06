@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,231 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "26P9DYD64492BTXJEZYKV0HA25"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1XGV610YDK8XYACQ8CFCDD8QHW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7MFPRA5ZRB8AATH7GPGV9ARR5A"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7CPV1CCCYG9KSAJQ8NYN80RTDD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "076NXNYC8H8CK9WAE9RMZ29BCD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2DW9EQTRFW8J8V6R7XZAC9MVZV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "39CMMTJ3AM99XB79VY390XEJ72"
+        },
+        {
+          "cardElement": "\/card_elements\/2DW9EQTRFW8J8V6R7XZAC9MVZV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#Discard# target Character with Base Cost #{1} or less.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Discard# target Character with Base Cost #{1} or less.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Discard# target Character with Base Cost #{1} or less.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Discard# target Character with Base Cost #{1} or less.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Défaussez# un Personnage ciblé de Coût de Base #{1} ou moins.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#Discard# target Character with Base Cost #{1} or less.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_141_R1_1"
+          },
+          "sequence": 1,
+          "id": "55FTYDH969953RE94Z0A8VT51V"
+        }
+      ],
+      "value": "[[Fleeting]].  Discard target Character with Base Cost {1} or less.",
+      "id": "2DW9EQTRFW8J8V6R7XZAC9MVZV"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_141\/JPG\/en_US\/d4e0c9c3bc8efe8aad660da87513f8c6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_141\/WEB_d1bbecc1077ef5366c78f9fe50d411f6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_141\/WEB_00ebe6023b9c6668a7eb564e48050620"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_141_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_141_R2",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Déferlante",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_141\/JPG\/fr_FR\/3160208acd5b026c737afd413d322502.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_141\/JPG\/it_IT\/161d2061384e049828b0169f068d0da8.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_141\/JPG\/es_ES\/37435854df17f9951d2fb74b51927574.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Wave Away",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_141\/JPG\/en_US\/d4e0c9c3bc8efe8aad660da87513f8c6.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Wave Away",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_141\/JPG\/de_DE\/e28a56ed47a40f73fb58fdcd11c9dc32.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "651BBESGAE8199EKBG7D1A5P4A",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-102-R-EN",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_141\/JPG\/fr_FR\/3160208acd5b026c737afd413d322502.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_141\/JPG\/en_US\/d4e0c9c3bc8efe8aad660da87513f8c6.jpg"
+  },
+  "name": "Wave Away",
+  "elements": {
+    "MAIN_COST": "#1#",
+    "RECALL_COST": "#1#",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  #Discard# target Character with Base Cost #{1} or less.#"
+  },
+  "collectorNumberFormatted": "NEJ-102-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

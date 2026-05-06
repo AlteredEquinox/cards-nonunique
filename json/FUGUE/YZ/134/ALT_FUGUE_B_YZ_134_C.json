@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "C'est en vies humaines qu'on mesure le coût de la guerre.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "The cost of war is measured in human lives.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46AAQBSBWEW0YZWNPHEBBZ",
+      "text": "The cost of war is measured in human lives."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,9 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +45,121 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "5ZDS7MDBYV8S38F6ZGJWVDSV9J"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "748VB402AW98QRYZN77HTJMC61"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "73HRXF1T6A81VS7QTJXBAQNPPZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4R4E2PPQX38HKRCW8NW3PFDVN4"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "0QKG8BJ4EQ9K9B78VYXA1H1XEF"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/JPG\/en_US\/2dcc4662bdc5f48d10771f72af408f5a.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/WEB_29435bb044d49af018e329d2e1faa2e3",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/WEB_1dc1bc18f7a265e17816c1049104e321",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/WEB_4770d4bbf5c08beaec5187b1a8e41014"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_134_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_134_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Polyxena",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/JPG\/en_US\/2dcc4662bdc5f48d10771f72af408f5a.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Polyxène",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/JPG\/fr_FR\/af36ccb111315e8819410cd81e847f19.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/JPG\/it_IT\/9f67e54fcbd9a2d5bda4f9e46c7f1840.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/JPG\/es_ES\/c0184d26856449943cb20c02e9fc2e31.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Polyxena",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/JPG\/de_DE\/efe86cab5d3a66da10cdd7ce00018601.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "3T96XXG6N28B9B3EB41MKTC26E",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/JPG\/fr_FR\/af36ccb111315e8819410cd81e847f19.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_134\/JPG\/en_US\/2dcc4662bdc5f48d10771f72af408f5a.jpg"
+  },
+  "name": "Polyxena",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "1"
+  },
   "collectorNumberFormatted": "NEJ-092-C-EN",
   "isSuspended": false,
   "isErrated": false,

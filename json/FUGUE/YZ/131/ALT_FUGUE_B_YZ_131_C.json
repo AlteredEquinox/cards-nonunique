@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,171 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7Z41B4VH689D8SQ95BGD00K9PM"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "23ADZ36TFK8SBV4T1A8EEP5301"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "5AHGQRM0CC8NP99J7VZ1A3V61X"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "2N1VX4AF1P8VD9QSVEMGT08XW9"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6HMBNCA83Z84489T2BJDZ0TR5S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2PWEZKY2ZR9KEVWQ44KFA41FFE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When I'm sacrificed — Target Character in your Expeditions gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When I'm sacrificed — Target Character in your Expeditions gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When I'm sacrificed — Target Character in your Expeditions gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When I'm sacrificed — Target Character in your Expeditions gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je suis sacrifiée — Un Personnage ciblé dans vos Expéditions gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When I'm sacrificed — Target Character in your Expeditions gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_131_C_0"
+          },
+          "sequence": 0,
+          "id": "3QB20V3XTK8TSRPZ9NC3GSMH8K"
+        }
+      ],
+      "value": "When I'm sacrificed — Target Character in your Expeditions gains 1 boost.",
+      "id": "2PWEZKY2ZR9KEVWQ44KFA41FFE"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zaeliven" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/JPG\/en_US\/6703b5f8dd4316dbcb04e2891371ceb9.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/WEB_7f11ecff5eee28bddd83ab6a71362f10",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/WEB_b1b682372939488f24afd066fb3373b0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/WEB_88a7b8967454d1f15daa10433e3f0f1c"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_131_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_131_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/JPG\/es_ES\/1c9b34a1d98e00cdf82a13278af3dd3a.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Fleeing Goose",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/JPG\/en_US\/6703b5f8dd4316dbcb04e2891371ceb9.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Oie Fuyarde",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/JPG\/fr_FR\/6df9e2217c6f7a5f360a84ac50bdb5d8.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Fleeing Goose",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/JPG\/de_DE\/c2645d8ad2801af994adcb26b8390744.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/JPG\/it_IT\/066a210c68836388bc2212530c64a107.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "7T59P899S687JSCCQV71W43CQS",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/JPG\/fr_FR\/6df9e2217c6f7a5f360a84ac50bdb5d8.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_131\/JPG\/en_US\/6703b5f8dd4316dbcb04e2891371ceb9.jpg"
+  },
+  "name": "Fleeing Goose",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "When I'm sacrificed — Target Character in your Expeditions gains 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-093-C-EN",
   "isSuspended": false,
   "isErrated": false,

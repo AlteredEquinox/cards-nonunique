@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,305 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "0NP0W1WGJC8AJ964QX04WR66Q2"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1EE6J35QKV8JG8TG9BP84HY6SK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6AVH6PES1C89EA4F10G2YE6WWB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4EY2NWWEEE88P8ZNMEBC0AR54D"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4V8CN1Z3TC9GFA0Z4KQ5ASSGE2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7B8YDKRC919K2VA34SWM26EYAP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "731E7F4TZM8TN955YY9NP4RX5F"
+        },
+        {
+          "cardElement": "\/card_elements\/7B8YDKRC919K2VA34SWM26EYAP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "6AANG5MG2385F89R0YXPYBXQX5"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "You may play me for {1} less. If you do, I can only target a [GIGANTIC] Character.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "You may play me for {1} less. If you do, I can only target a [GIGANTIC] Character.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "You may play me for {1} less. If you do, I can only target a [GIGANTIC] Character.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "You may play me for {1} less. If you do, I can only target a [GIGANTIC] Character.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Vous pouvez me jouer pour {1} de moins. Si vous le faites, je ne peux cibler qu'un Personnage [GIGANTIC].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "You may play me for {1} less. If you do, I can only target a [GIGANTIC] Character."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_142_C_1"
+          },
+          "sequence": 1,
+          "id": "5G147P44A39FWVTGSH6RRN0C6A"
+        },
+        {
+          "cardElement": "\/card_elements\/7B8YDKRC919K2VA34SWM26EYAP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Send target Character with minimum Base Cost {3} to Reserve.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Send target Character with minimum Base Cost {3} to Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Send target Character with minimum Base Cost {3} to Reserve.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Send target Character with minimum Base Cost {3} to Reserve.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Envoyez en Réserve un Personnage ciblé de Coût de Base minimum {3}.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Send target Character with minimum Base Cost {3} to Reserve."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_142_C_2"
+          },
+          "sequence": 2,
+          "id": "6F0D6MFV8H9J4APJZ3SXB2J73N"
+        }
+      ],
+      "value": "[[Fleeting]].  You may play me for {1} less. If you do, I can only target a [Gigantic] Character.  Send target Character with minimum Base Cost {3} to Reserve.",
+      "id": "7B8YDKRC919K2VA34SWM26EYAP"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_142\/JPG\/en_US\/47d2e2aa2da5e0efdf659a7b159063b7.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_142\/WEB_a8cf55a99b1c14ea21838a182c3ccfaa",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_142\/WEB_0a2488f3520f2e1b8d44c39995a190f2"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_142_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_142_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Coup Aveuglant",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_142\/JPG\/fr_FR\/a0f9033a6847644237841901e022fe2d.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Blinding Blow",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_142\/JPG\/en_US\/47d2e2aa2da5e0efdf659a7b159063b7.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Blinding Blow",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_142\/JPG\/de_DE\/08b405d7a420aa633bf275cc4cbdc5c3.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_142\/JPG\/it_IT\/c1a24f42ce882dfe23c91d1473774895.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_142\/JPG\/es_ES\/4c08ddd19b21cbdda9796230f6d32f73.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "52QTDTFSY79YWB5TP2X73VK5R8",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_142\/JPG\/fr_FR\/a0f9033a6847644237841901e022fe2d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_142\/JPG\/en_US\/47d2e2aa2da5e0efdf659a7b159063b7.jpg"
+  },
+  "name": "Blinding Blow",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  You may play me for {1} less. If you do, I can only target a [Gigantic] Character.  Send target Character with minimum Base Cost {3} to Reserve."
+  },
   "collectorNumberFormatted": "NEJ-088-C-EN",
   "isSuspended": false,
   "isErrated": false,

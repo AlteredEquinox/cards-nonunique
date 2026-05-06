@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,171 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "67HSJ3AF268JCTHF5XZ10SM0CM"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "2Z41KYDWE78E49762X1Z6SQBMT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "4E3E0J73BD8RHAVJ1ZPHFXWD19"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "49REC6Q6YF9NKAN02H9JBFTB4J"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "30N14K1CAK88W9FS8FBSRR6Z8E"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/459JJ44FSD8W7SSAMXQ7J5GPE2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} You may discard a card from your Reserve to draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} You may discard a card from your Reserve to draw a card.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} You may discard a card from your Reserve to draw a card.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} You may discard a card from your Reserve to draw a card.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Vous pouvez défausser une carte de votre Réserve pour piocher une carte.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} You may discard a card from your Reserve to draw a card."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_132_C_0"
+          },
+          "sequence": 0,
+          "id": "3J90BK7CHC89PBHVM7Z9S3P97P"
+        }
+      ],
+      "value": "{R} You may discard a card from your Reserve to draw a card.",
+      "id": "459JJ44FSD8W7SSAMXQ7J5GPE2"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/JPG\/en_US\/17d1d80968afc5ed500dc0e4fd658a6c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/WEB_f813c9dd02e4b9af6741546817ad62f8",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/WEB_5f5e12a6e92ea299db4b9642f08f4452",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/WEB_9429139c746305e29c19272836f8a1f5"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_132_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_132_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/JPG\/it_IT\/1d0dda1ab90b06696dd74f38dd6ddcbd.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Reef Dolphin",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/JPG\/en_US\/17d1d80968afc5ed500dc0e4fd658a6c.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Reef Dolphin",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/JPG\/de_DE\/79ba2a1591bb03702f11f651aa815675.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/JPG\/es_ES\/08a7e619ef6d437107dac0d517d6ba71.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Dauphin de Récif",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/JPG\/fr_FR\/ae5abe38a53de68672db15afcd41b8ef.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "00F4Y1C7CF8KJ88KH0G14Q76FS",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/JPG\/fr_FR\/ae5abe38a53de68672db15afcd41b8ef.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_132\/JPG\/en_US\/17d1d80968afc5ed500dc0e4fd658a6c.jpg"
+  },
+  "name": "Reef Dolphin",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{R} You may discard a card from your Reserve to draw a card."
+  },
   "collectorNumberFormatted": "NEJ-041-C-EN",
   "isSuspended": false,
   "isErrated": false,

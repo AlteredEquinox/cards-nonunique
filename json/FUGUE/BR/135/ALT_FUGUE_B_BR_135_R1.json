@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,208 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6D7QJMTTB680SS73HG11KBB1WN"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3EKYX00GN49BGACK8M65BXEZZQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7E9D4AFJYE9S7V6KABJ2X2JNQJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "263DM7Y5W79R1V4N2F7412ZEZ2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "65CHVSAHC28PCRZF8EQEJ8KJTX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6AYFFZWC88878BXVPQTZG8GF77",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "74AEDERET799WVA80B7R2BC2NK",
+                      "reference": "GIGANTIC_CHA_P"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "22JRGKSWPQ9JPSAH8J97NNSBJC"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Companions in your Expeditions are #[GIGANTIC_CHA_P].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Companions in your Expeditions are #[GIGANTIC_CHA_P].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Companions in your Expeditions are #[GIGANTIC_CHA_P].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Companions in your Expeditions are #[GIGANTIC_CHA_P].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Les Compagnons dans vos Expéditions sont #[GIGANTIC_CHA_P].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Companions in your Expeditions are #[GIGANTIC_CHA_P].#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_135_R1_0"
+          },
+          "sequence": 0,
+          "id": "17H183ABQM8QWBNGVEHTDQQEF0"
+        }
+      ],
+      "value": "Companions in your Expeditions are [Gigantic].",
+      "id": "6AYFFZWC88878BXVPQTZG8GF77"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/en_US\/641eb67c1da8a1a920dce8dcc2c6f31f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/WEB_29db008c15cc8998515c513645ff900a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/WEB_b658b87f16cc7f2afa34580dcbc53799",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/WEB_16e6b634617954b71c0b582fd3124dd2"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_135_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_135_R1",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/es_ES\/e13191462f74f5a78a6bdd537fec447c.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/it_IT\/838ed6707c66ab0ce689f9cc11225de6.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Trireme Captain",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/de_DE\/685918eb1dba5dfc3f32c70c9a007055.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Capitaine de Trirème",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/fr_FR\/65d80a74df3e62d7f10a6f444d223608.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Trireme Captain",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/en_US\/641eb67c1da8a1a920dce8dcc2c6f31f.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "0HTAZCAN809PARPWHEWWZ1SJY3",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/fr_FR\/65d80a74df3e62d7f10a6f444d223608.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/en_US\/641eb67c1da8a1a920dce8dcc2c6f31f.jpg"
+  },
+  "name": "Trireme Captain",
+  "elements": {
+    "MAIN_COST": "#4#",
+    "RECALL_COST": "#4#",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "Companions in your Expeditions are #[Gigantic].#"
+  },
   "collectorNumberFormatted": "NEJ-027-R-EN",
   "isSuspended": false,
   "isErrated": false,

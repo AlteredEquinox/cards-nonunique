@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,165 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "2HF5FXKDB59GH9R7QHSWQVNHSX"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5JKESZ099Q9CZRMGS9FFXQZ5WZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "62QDXJ679D82PR6D62YNV9XSDZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2KM0NTJNC89TZAARFY8EP4AX5F"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2RQ9FKQKFZ81GRGH25FRTFB9X4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2EZ4EY7KDM83XADBFY9GNBTARV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you roll one or more dice — If I have no boosts, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When you roll one or more dice — If I have no boosts, I gain 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When you roll one or more dice — If I have no boosts, I gain 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When you roll one or more dice — If I have no boosts, I gain 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous lancez au moins un dé — Si je n'ai pas de boosts, je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you roll one or more dice — If I have no boosts, I gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_147_C_0"
+          },
+          "sequence": 0,
+          "id": "1ATWG505BY8FZVG5BPZAZAGJQ6"
+        }
+      ],
+      "value": "When you roll one or more dice — If I have no boosts, I gain 1 boost.",
+      "id": "2EZ4EY7KDM83XADBFY9GNBTARV"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Victor Canton" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/en_US\/70627d01da169675427adb8c228a16e6.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_147_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_147_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Trireme Trickster",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/en_US\/70627d01da169675427adb8c228a16e6.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/it_IT\/6dcab9d4fc439c27eb102de1196aee63.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/es_ES\/c77fecfa7e682bf496e24af70747b497.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Prestidigitatrice de Trirème",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/fr_FR\/a2e9a3feb7416edaf9f83441cfe93edc.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Trireme Trickster",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/de_DE\/5cd899c224754494c5e1bd7a6e05088d.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "4D8WHF1FPR8C3B7645VXEYNP0W",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/fr_FR\/a2e9a3feb7416edaf9f83441cfe93edc.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/en_US\/70627d01da169675427adb8c228a16e6.jpg"
+  },
+  "name": "Trireme Trickster",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "When you roll one or more dice — If I have no boosts, I gain 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-042-C-EN",
   "isSuspended": false,
   "isErrated": false,

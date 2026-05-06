@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    },
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +34,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7QF5HX867J9NP8QPQYYZYJBCXK"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7ZHQTX6XMY87ESM6DCJ8TJFK93"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "67Q6DYRK099X290GVKXX5MX7D4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4ZKQP5H7YA8FVRAE8NZ8CNJBWH"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "67H1JZ9PK08EXRY5AM0P9DN6Y3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/61BE8KEAVP9Y49PPHJP0XVND23",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} If there's #two or more Animals or Companions# among your Reserve #and Expeditions, draw a card.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} If there's #two or more Animals or Companions# among your Reserve #and Expeditions, draw a card.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} If there's #two or more Animals or Companions# among your Reserve #and Expeditions, draw a card.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} If there's #two or more Animals or Companions# among your Reserve #and Expeditions, draw a card.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} S'il y a #au moins deux Animaux ou Compagnons# dans votre Réserve #et vos Expéditions, piochez une carte.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} If there's #two or more Animals or Companions# among your Reserve #and Expeditions, draw a card.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_132_R2_0"
+          },
+          "sequence": 0,
+          "id": "13BH217T9885VAV7Y1RP4NMX02"
+        }
+      ],
+      "value": "{H} If there's two or more Animals or Companions among your Reserve and Expeditions, draw a card.",
+      "id": "61BE8KEAVP9Y49PPHJP0XVND23"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Andy Jauffrit" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/en_US\/eaefbd269547b74fda2436b35e0ebcbf.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/WEB_05af22b51d6fd3d7cfd9d8978e0de361",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/WEB_e389c630e3fab5ea01224b6cd45b8d69",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/WEB_ea521c64c5478e2c5aded5ad2a8eee23"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_132_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_132_R2",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/fr_FR\/359eebdca91e8b1fc1c35a96544832ed.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/en_US\/eaefbd269547b74fda2436b35e0ebcbf.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/de_DE\/552cf41d47122b418f1222ae93a1726c.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/es_ES\/0f436ed31b1b9c2f4cb5a3bc1b413d5f.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/it_IT\/0aeee10669fe862cbb5b8a38d2216e6b.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "3EJQCA3WEV91JVK6F1NPQ4FQCF",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-076-R-EN",
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/fr_FR\/359eebdca91e8b1fc1c35a96544832ed.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/en_US\/eaefbd269547b74fda2436b35e0ebcbf.jpg"
+  },
+  "name": "Nausicaa",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "{H} If there's #two or more Animals or Companions# among your Reserve #and Expeditions, draw a card.#"
+  },
+  "collectorNumberFormatted": "NEJ-076-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

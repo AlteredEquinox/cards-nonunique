@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "en_US": {
+          "text": "Jonathan Sukenik, World Champion.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Jonathan Sukenik, champion du monde.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KN46A4S164F7K8WRNN9HQ3WF",
+      "text": "Jonathan Sukenik, World Champion."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,171 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "217PFG5DPH8AZASM7NM5Z46BHQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "1TKHZKKPK992TA1B0D20ZKGQTA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "5SRYSV89HD942VQKF62DHGPAKF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1KBBER1VDW8Y2RHX1V558Z47VF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1997Z39PSQ8FF91AYF82ARWHMR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/53C5M99RQB87FS6DAFXSMQ61XP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Target a Character you control. I gain as many boosts as its highest statistic, up to a max of 3 boosts on me.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Target a Character you control. I gain as many boosts as its highest statistic, up to a max of 3 boosts on me.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Target a Character you control. I gain as many boosts as its highest statistic, up to a max of 3 boosts on me.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Target a Character you control. I gain as many boosts as its highest statistic, up to a max of 3 boosts on me.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Ciblez un Personnage que vous contrôlez. Je gagne un nombre de boosts égal à sa stat la plus haute, jusqu'à un max de 3 boosts sur moi.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Target a Character you control. I gain as many boosts as its highest statistic, up to a max of 3 boosts on me."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_139_C_0"
+          },
+          "sequence": 0,
+          "id": "0E6HEPVQS39AMBB8M0CD6D7NRW"
+        }
+      ],
+      "value": "{J} Target a Character you control. I gain as many boosts as its highest statistic, up to a max of 3 boosts on me.",
+      "id": "53C5M99RQB87FS6DAFXSMQ61XP"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/JPG\/en_US\/94d9642c86c78a146db85a6a68fe0a0f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/WEB_4e1ba5762b32282812678253af5ad5e2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/WEB_8aca69197d11e6cbf6e5b442c630b313",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/WEB_eb764fed2ba5236ae2d8dd6271a1ddcc"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_139_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_139_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/JPG\/es_ES\/8a740931d69400d0828b1090daed06df.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Rinku, Altrun Ace",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/JPG\/en_US\/94d9642c86c78a146db85a6a68fe0a0f.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Rinku, Altrun Ace",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/JPG\/de_DE\/c5cdd20bcdfeb5aa0f750e768dabd509.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Rinku, Sprinter d'Altrun",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/JPG\/fr_FR\/0f638fcd1a094477adeb6cd1baff4dca.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/JPG\/it_IT\/0b34f5babef7134262a7f56269371e91.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "7ZSGMES3SX8ZG9JCSMNYVCGF63",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/JPG\/fr_FR\/0f638fcd1a094477adeb6cd1baff4dca.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_139\/JPG\/en_US\/94d9642c86c78a146db85a6a68fe0a0f.jpg"
+  },
+  "name": "Rinku, Altrun Ace",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{J} Target a Character you control. I gain as many boosts as its highest statistic, up to a max of 3 boosts on me."
+  },
   "collectorNumberFormatted": "NEJ-022-C-EN",
   "isSuspended": false,
   "isErrated": false,

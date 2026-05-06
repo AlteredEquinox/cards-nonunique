@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,208 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5RSTR75E4X9G6VNW9B3VKYX1Z4"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4ZEPB5B8P68NCA12X0BNC449X0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "5GZXQG9FRM9S08TRK8JER5E8AR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "5CE99PQ4FG8ZVRAFWW5ZFY4SSQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "566XBDVYR69T7TJDKRF7P5K6CN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3SW10DMDMJ99XVFHE51VTY1797",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "11QX01AZVE9PBT1172V82MAPMG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Target non-[ANCHORED] Character #with Base Cost {3} or less# defects.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Target non-[ANCHORED] Character #with Base Cost {3} or less# defects.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Target non-[ANCHORED] Character #with Base Cost {3} or less# defects.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Target non-[ANCHORED] Character #with Base Cost {3} or less# defects.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Un Personnage non-[ANCHORED] #de Coût de Base {3} ou moins# trahit.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Target non-[ANCHORED] Character #with Base Cost {3} or less# defects."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_140_R1_0"
+          },
+          "sequence": 0,
+          "id": "51JMAY868Z9FN8VWGM7SH9WM2F"
+        }
+      ],
+      "value": "{H} Target non-[[Anchored]] Character with Base Cost {3} or less defects.",
+      "id": "3SW10DMDMJ99XVFHE51VTY1797"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jefrey Yonathan" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/JPG\/en_US\/c82b12bc1f6996e06995768ef325b918.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/WEB_f4d42d5fb55c6faca8ae286074d57ba2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/WEB_e169ca4f493885493b44039518d12bfd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/WEB_eba77efc9e191bbbbfcac421d7516783"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_140_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_140_R1",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/JPG\/it_IT\/80db49ebe70fb8740c72884d697cc506.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Siren",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/JPG\/en_US\/c82b12bc1f6996e06995768ef325b918.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Sirène",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/JPG\/fr_FR\/7b9c314b3e395aa57ec5273b05214b53.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/JPG\/es_ES\/87013fd5c9a1760cd495c16c45534569.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Siren",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/JPG\/de_DE\/53007770e9cc20a9a05ea04c72862f3e.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "1S8YA50X7W8P6AYEHG3FWPNBP0",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/JPG\/fr_FR\/7b9c314b3e395aa57ec5273b05214b53.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_140\/JPG\/en_US\/c82b12bc1f6996e06995768ef325b918.jpg"
+  },
+  "name": "Siren",
+  "elements": {
+    "MAIN_COST": "#5#",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} Target non-[[Anchored]] Character #with Base Cost {3} or less# defects."
+  },
   "collectorNumberFormatted": "NEJ-101-R-EN",
   "isSuspended": false,
   "isErrated": false,

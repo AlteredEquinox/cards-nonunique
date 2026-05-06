@@ -12,7 +12,9 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +25,209 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7DN93BRVB8939SB8M0Y8FKP8GC"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0G1PX09QNY97XBZ8DYW4J98YV8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "0MRM8D99J687Q8BHJEGSTC06F9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "738NGCGPVJ96NB8HJF9KA2285T"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4S7D067QGR839TEPGPG9R0BDZ2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/46MPSDBEZJ8W2VR7T24FVQ8YAC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Dotouffu 1\/1\/1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Woollyback 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Wollrücken 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Lanuvola 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Lanudo 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V1RZ960JE3XMHMM4G1Y3D",
+                      "reference": "WOOLLYBACK"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "2JX8FHY2AV8E29GZE630N0ZJ6D"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} #Each player# sacrifices a Character. Then, create a [WOOLLYBACK] Animal token in each of those Characters' Expeditions.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} #Each player# sacrifices a Character. Then, create a [WOOLLYBACK] Animal token in each of those Characters' Expeditions.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} #Each player# sacrifices a Character. Then, create a [WOOLLYBACK] Animal token in each of those Characters' Expeditions.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} #Each player# sacrifices a Character. Then, create a [WOOLLYBACK] Animal token in each of those Characters' Expeditions.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} #Chaque joueur# sacrifie un Personnage. Puis, créez un jeton Animal [WOOLLYBACK] dans chacune des Expéditions de ces Personnages.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} #Each player# sacrifices a Character. Then, create a [WOOLLYBACK] Animal token in each of those Characters' Expeditions."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_138_R1_0"
+          },
+          "sequence": 0,
+          "id": "2SKD677QNK89485YB9ZG6YHYDN"
+        }
+      ],
+      "value": "{H} Each player sacrifices a Character. Then, create a [Woollyback 1\/1\/1] Animal token in each of those Characters' Expeditions.",
+      "id": "46MPSDBEZJ8W2VR7T24FVQ8YAC"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/en_US\/1d674c49feb8a2a33e2e4f3fd4003b66.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/WEB_e6cb7935417c3022060d70763fac4114",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/WEB_139712d96575822c6cc8b39cc9085e17",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/WEB_fc7260f83627d0780fff019e6a30fbd3"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_138_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_138_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/es_ES\/e37017e5b55bd0ee8b357232c65f4ce3.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Circé",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/fr_FR\/76484dcd8796f61e03a4cedbaf6b2583.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/it_IT\/04c8723f24740d85818de46cfe4e8650.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Circe",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/en_US\/1d674c49feb8a2a33e2e4f3fd4003b66.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Circe",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/de_DE\/6819cfeb60c32ef518474b477170751e.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "1PW81FBNVD909B7M44KQE52SFH",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-095-R-EN",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/fr_FR\/76484dcd8796f61e03a4cedbaf6b2583.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/en_US\/1d674c49feb8a2a33e2e4f3fd4003b66.jpg"
+  },
+  "name": "Circe",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} #Each player# sacrifices a Character. Then, create a [Woollyback 1\/1\/1] Animal token in each of those Characters' Expeditions."
+  },
+  "collectorNumberFormatted": "NEJ-095-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

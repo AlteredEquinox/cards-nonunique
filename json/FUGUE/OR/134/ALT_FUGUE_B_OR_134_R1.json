@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Soyez aux aguets, fripouilles ! Notre prochaine aventure se dessine à l’horizon ! »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“Look sharp, scallywags! I see our next adventure on the horizon!”",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A8PBT6HZ532A5YECAR3T",
+      "text": "“Look sharp, scallywags! I see our next adventure on the horizon!”"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "TRAINER",
+      "id": "01HKAGQ07R8R2DAC69RKNZ5SA6",
+      "name": "Trainer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +54,208 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "724YX6TY239JW8CVJ4EMRVZ0SK"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "5EDE35K3N19PG97DK5V2D9MWRG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4BQJB00R918AETANV88PPEGF68"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "10G9EM2VZK9ENSFG4QGRBFEKST"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3971T6X2KG9ZVAF2ZGJ1E8SCHZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3SPVQPTB8G924B991CA7K7QVK0",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "179EE995E683ZRQ1J1TQ5H0F4G"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#Your Companions have : \"{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.\"#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Your Companions have : \"{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.\"#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Your Companions have : \"{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.\"#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Your Companions have : \"{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.\"#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Vos Compagnons ont : « {R} Créez un jeton Soldat [ORDIS_RECRUIT] dans mon Expédition. »#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#Your Companions have : \"{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.\"#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_134_R1_0"
+          },
+          "sequence": 0,
+          "id": "50PMB7QTGQ8ERRDP87GNNATDMD"
+        }
+      ],
+      "value": "Your Companions have : \"{R} Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition.\"",
+      "id": "3SPVQPTB8G924B991CA7K7QVK0"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Saeed Jalabi" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/en_US\/37acf6e9266e4064b96c1604eacdda52.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/WEB_8c5b9ac360c177cd7c1efee6e2cc38eb",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/WEB_eab52a36840d0335232e9a9946ef770e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/WEB_efdc4d870e3229634a52ac3fb75ccbe4"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_134_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_134_R1",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/it_IT\/6c014798b739b85455564c116e0b811f.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Trireme Quartermaster",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/de_DE\/a9c16f780ef67fedd2688b2dc15f3bf8.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Trireme Quartermaster",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/en_US\/37acf6e9266e4064b96c1604eacdda52.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Quartier-maître de Trirème",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/fr_FR\/bd6ed73c6aea3c3f00ff22a900cd7322.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/es_ES\/a959468eced0bbc02712b04543cab614.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "7Q70NH7ZP2897RMW8NPNEJ5M5M",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/fr_FR\/bd6ed73c6aea3c3f00ff22a900cd7322.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/en_US\/37acf6e9266e4064b96c1604eacdda52.jpg"
+  },
+  "name": "Trireme Quartermaster",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#2#",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "#2#",
+    "MAIN_EFFECT": "#Your Companions have : \"{R} Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition.\"#"
+  },
   "collectorNumberFormatted": "NEJ-077-R-EN",
   "isSuspended": false,
   "isErrated": false,

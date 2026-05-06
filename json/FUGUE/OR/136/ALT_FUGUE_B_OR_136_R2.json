@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0Y5VX36A8C8MERN1GVCZZMTZEA"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7488Y9T3Z586HSMDC02KAZ6GEE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "63MX4A43PT8WF8A7XT4KNXE1X7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "12XNH9P8YG8KHTY4MWCAZAEDJD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3J53C0XYMR9RRRVF42H0MXV2N1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/48N8AMMC0E86A80448KN29NX2E",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Target #Companion# in play or in Reserve gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Target #Companion# in play or in Reserve gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Target #Companion# in play or in Reserve gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Target #Companion# in play or in Reserve gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Un #Compagnon# ciblé en jeu ou en Réserve gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Target #Companion# in play or in Reserve gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_136_R2_0"
+          },
+          "sequence": 0,
+          "id": "2MBHQA0RVB8VA8EJP67QRQ0C81"
+        }
+      ],
+      "value": "{J} Target Companion in play or in Reserve gains 1 boost.",
+      "id": "48N8AMMC0E86A80448KN29NX2E"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/en_US\/c786adfe67f602379fe3b59194771b8c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/WEB_7ce34fd8bbe4a28d36d958dda6b3dfb2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/WEB_a042502b7061789abb3d3d19aa40f7ff",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/WEB_d6f4119723fec95a6873c233106dfdff"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_136_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_136_R2",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Ordis General",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/en_US\/c786adfe67f602379fe3b59194771b8c.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/es_ES\/74250aac5159d08774a4d898e5597e34.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Ordis General",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/de_DE\/5ae5dbd176cfc2c23cd8ec97a15d62b2.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Général Ordis",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/fr_FR\/63e8552b141bffeaec8b15c8e6e61e45.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/it_IT\/4473c5b1909e7b8bb59812a36c6564cf.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "2XGBTB7ZQF9P08G99HT3TFCT2X",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-079-R-EN",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/fr_FR\/63e8552b141bffeaec8b15c8e6e61e45.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/en_US\/c786adfe67f602379fe3b59194771b8c.jpg"
+  },
+  "name": "Ordis General",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#2#",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "#2#",
+    "MAIN_EFFECT": "{J} Target #Companion# in play or in Reserve gains 1 boost."
+  },
+  "collectorNumberFormatted": "NEJ-079-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

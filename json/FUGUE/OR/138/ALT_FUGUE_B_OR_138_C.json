@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,171 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "74TEAWMV7N89PSHQTCQ7BH85C1"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2D27M4NT2Y8CAAA7C9ZW2169DK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2Y1MPR2FH79VSTTDAEPR3AFB8E"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4XNGPQBG998X18819HPD2G1XQJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3TK61NQTJQ9VWTKCPW3F9BHPPX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4FV8MPNQZ28JTRMEB102A5RHPZ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may return target card in another player's Reserve to its owner's hand.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may return target card in another player's Reserve to its owner's hand.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may return target card in another player's Reserve to its owner's hand.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may return target card in another player's Reserve to its owner's hand.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez renvoyer une carte ciblée de la Réserve d'un autre joueur dans la main de son propriétaire.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may return target card in another player's Reserve to its owner's hand."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_138_C_0"
+          },
+          "sequence": 0,
+          "id": "57ZC4S3A5X9JRRW831NRZQD6RF"
+        }
+      ],
+      "value": "{H} You may return target card in another player's Reserve to its owner's hand.",
+      "id": "4FV8MPNQZ28JTRMEB102A5RHPZ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Saeed Jalabi" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/en_US\/4f08eaec7235016be4bd51d21703fe75.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/WEB_b4e55a944fbbc69e3eb6138d259c7ba6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/WEB_6ba3a1099864f1c822939b4faadbe731",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/WEB_fd5809f961244695d63420195ee0163b"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_138_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_138_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Ship Security Officer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/en_US\/4f08eaec7235016be4bd51d21703fe75.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Officière de Sécurité Navale",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/fr_FR\/789d1dec03195e3810c92f68ee4db613.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/it_IT\/f99b99d2be58a3eb41936f4a7c79c3c7.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/es_ES\/ad5f9383bfa1583558750df1d8c54495.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Ship Security Officer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/de_DE\/ad0f58de59a348d76d64a27235f7a808.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "7RPC745QER8D8BTAAHN87CEEYE",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/fr_FR\/789d1dec03195e3810c92f68ee4db613.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/en_US\/4f08eaec7235016be4bd51d21703fe75.jpg"
+  },
+  "name": "Ship Security Officer",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} You may return target card in another player's Reserve to its owner's hand."
+  },
   "collectorNumberFormatted": "NEJ-078-C-EN",
   "isSuspended": false,
   "isErrated": false,

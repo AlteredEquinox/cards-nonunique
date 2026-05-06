@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "en_US": {
+          "text": "To navigate these uncharted waters, Sierra placed beacons on the backs of seagulls to triangulate their position.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Pour naviguer sur cette mer changeante, Sierra plaça sur le dos de mouettes des balises pour trianguler leur position.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KN46A40HYNPH71S6YXWS6SN4",
+      "text": "To navigate these uncharted waters, Sierra placed beacons on the backs of seagulls to triangulate their position."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,171 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4F1C9HNMAB9TGRNX6YQTRKFAG9"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "46CZ17ZMD98WCRBJSYNDRBEHNG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "3AJZA7J2259QVRNCP2TBD3J722"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4SXM0X5M0481E8MVYWAZ8RHDXF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "148NJTEQQY8TCV16SZWYJ01BYN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6S8YC61FGT8NNRR6CQTMCJSCE5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{R} I gain 1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{R} I gain 1 boost.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{R} I gain 1 boost.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{R} I gain 1 boost.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{R} Je gagne 1 boost.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{R} I gain 1 boost.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_131_R1_0"
+          },
+          "sequence": 0,
+          "id": "1P9E6ZMM2H9EP9EGBM1SF6Y1ZD"
+        }
+      ],
+      "value": "{R} I gain 1 boost.",
+      "id": "6S8YC61FGT8NNRR6CQTMCJSCE5"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/en_US\/a6a8f3d867bc133525dfd6e2c4d509ee.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/WEB_a2ee7303ff9266b8167c11ad0627dc0a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/WEB_f53cc4ce20226fd3642ab3d0c7216936",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/WEB_de0df9a607e45512023301f8dae49f42"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_131_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_131_R1",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/it_IT\/cf0aef55482db4ab562e233d49ca0e62.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Trailing Seagull",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/en_US\/a6a8f3d867bc133525dfd6e2c4d509ee.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Trailing Seagull",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/de_DE\/57daa76f89bfe6725d5fd9271c6818f7.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/es_ES\/b9621cd013b9ee0a42505baa8d614b6c.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Mouette Suiveuse",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/fr_FR\/ffabb7beab30204ee09b9d9040242443.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "5KB9KQ558F8B6VGS903HPS5RK4",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/fr_FR\/ffabb7beab30204ee09b9d9040242443.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/en_US\/a6a8f3d867bc133525dfd6e2c4d509ee.jpg"
+  },
+  "name": "Trailing Seagull",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "#{R} I gain 1 boost.#"
+  },
   "collectorNumberFormatted": "NEJ-002-R-EN",
   "isSuspended": false,
   "isErrated": false,

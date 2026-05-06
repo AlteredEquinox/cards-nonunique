@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Les Oneiroï sont-ils vraiment nos alliés ?",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Are the Oneiroi truly our allies?",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A625TJG1991WE8WTFE1E",
+      "text": "Are the Oneiroi truly our allies?"
+    }
+  ],
   "cardType": {
     "reference": "SPELL",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,263 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7QY0STB2GX9GBRQ5G84FGVNS0N"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "4F0RHRWK9Z8N7AH24XDMPG1W3D"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "0T183WDB6P9B5B57GHJ5JAWNV3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1B4R9V36339HBB1CE5C7JKYE42"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0G4V2SY1378N2TG8PA77J396K0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/0CW3HW080893TBQF0TTP6CDTT7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "3TEHMTTW669Q5TK66H51GHJV83"
+        },
+        {
+          "cardElement": "\/card_elements\/0CW3HW080893TBQF0TTP6CDTT7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Draw a card, then each player with more than three cards in their hand discards down to three cards in hand.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Draw a card, then each player with more than three cards in their hand discards down to three cards in hand.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Draw a card, then each player with more than three cards in their hand discards down to three cards in hand.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Draw a card, then each player with more than three cards in their hand discards down to three cards in hand.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Piochez une carte, puis chaque joueur qui a plus de trois cartes en main en défausse jusqu'à en avoir trois.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Draw a card, then each player with more than three cards in their hand discards down to three cards in hand."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_143_C_1"
+          },
+          "sequence": 1,
+          "id": "35E34RDN3R8EAR7D8BPYE32Z1M"
+        },
+        {
+          "cardElement": "\/card_elements\/0CW3HW080893TBQF0TTP6CDTT7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#Each player with more than two cards in their Reserve discards down to two cards in Reserve.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Each player with more than two cards in their Reserve discards down to two cards in Reserve.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Each player with more than two cards in their Reserve discards down to two cards in Reserve.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Each player with more than two cards in their Reserve discards down to two cards in Reserve.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Chaque joueur qui a plus de deux cartes en Réserve en défausse jusqu'à en avoir deux.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#Each player with more than two cards in their Reserve discards down to two cards in Reserve.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_143_R1_2"
+          },
+          "sequence": 2,
+          "id": "3QWETPA81G833VC45E1SRWMMYZ"
+        }
+      ],
+      "value": "[[Fleeting]].  Draw a card, then each player with more than three cards in their hand discards down to three cards in hand.  Each player with more than two cards in their Reserve discards down to two cards in Reserve.",
+      "id": "0CW3HW080893TBQF0TTP6CDTT7"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_143\/JPG\/en_US\/0afd2fddb01a6dc160b5dbea11d7f8be.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_143_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_143_R1",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Double Jeu",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_143\/JPG\/fr_FR\/d4dca26a1535ccef7d7e11f793c2b462.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_143\/JPG\/it_IT\/6a16332f25fa49e4f2ea99e755826f23.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_143\/JPG\/es_ES\/84d12ba4a53c5f6763913eff48fc6657.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Double-Cross",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_143\/JPG\/de_DE\/213658b08e24b48ea093f70d11453f5e.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Double-Cross",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_143\/JPG\/en_US\/0afd2fddb01a6dc160b5dbea11d7f8be.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "64BMAPPF4E951AEHV0B42NA0AG",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_143\/JPG\/fr_FR\/d4dca26a1535ccef7d7e11f793c2b462.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_143\/JPG\/en_US\/0afd2fddb01a6dc160b5dbea11d7f8be.jpg"
+  },
+  "name": "Double-Cross",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Draw a card, then each player with more than three cards in their hand discards down to three cards in hand.  #Each player with more than two cards in their Reserve discards down to two cards in Reserve.#"
+  },
   "collectorNumberFormatted": "NEJ-052-R-EN",
   "isSuspended": false,
   "isErrated": false,

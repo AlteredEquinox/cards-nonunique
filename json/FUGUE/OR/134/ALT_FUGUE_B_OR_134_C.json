@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Soyez aux aguets, fripouilles ! Notre prochaine aventure se dessine à l’horizon ! »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“Look sharp, scallywags! I see our next adventure on the horizon!”",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A8PBT6HZ532A5YECAR3T",
+      "text": "“Look sharp, scallywags! I see our next adventure on the horizon!”"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "TRAINER",
+      "id": "01HKAGQ07R8R2DAC69RKNZ5SA6",
+      "name": "Trainer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +54,121 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "21ESHFF48G9VS94BJFHYSCA92T"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "1H4B80K8FB9JASC99ENQRPPZZQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5NG1BTZ4BW86DV1SNZZQJ2A1T9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "30S8D5EJWG9NE8FND86KR7ZCJ3"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6FFAZ2N09Y8T9R190SFPXMDCWK"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Saeed Jalabi" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/en_US\/d756dbc881890db08d05dc1cab1893a1.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/WEB_8c5b9ac360c177cd7c1efee6e2cc38eb",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/WEB_eab52a36840d0335232e9a9946ef770e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/WEB_efdc4d870e3229634a52ac3fb75ccbe4"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_134_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_134_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/es_ES\/51b3aad4ff729b6e8cad483f0da9a258.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/it_IT\/b329ff5656a3fecfcf4db5608d2b95de.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Trireme Quartermaster",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/de_DE\/2712c76215985f8cbb0282fef0995b8a.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Quartier-maître de Trirème",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/fr_FR\/b3e611d5b0665edff435b74975dd6973.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Trireme Quartermaster",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/en_US\/d756dbc881890db08d05dc1cab1893a1.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "067EW042439H8SK70GP07SQ3XN",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/fr_FR\/b3e611d5b0665edff435b74975dd6973.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_134\/JPG\/en_US\/d756dbc881890db08d05dc1cab1893a1.jpg"
+  },
+  "name": "Trireme Quartermaster",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "3"
+  },
   "collectorNumberFormatted": "NEJ-077-C-EN",
   "isSuspended": false,
   "isErrated": false,

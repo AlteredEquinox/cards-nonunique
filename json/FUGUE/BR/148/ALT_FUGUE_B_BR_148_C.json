@@ -12,7 +12,13 @@
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "COMPANION",
+      "id": "01HKAGQPYTEKRYT4PRE9HZHTDA",
+      "name": "Companion"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,169 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4HVCGFDY8084ZBSYGV4ACYD8X4"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4KDS8BT24J86F83XD091WNHSAA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4HWR6VX31G9J8BPD52XXX2RHKK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7S2WPVKTQ590TRGZ0MY0V1WVG4"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "62BGFYKRAD90RAEKQQ0F756ANJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/66XPT2XTCE91V8TGTX9VKN3JDX",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "(Je suis créé en Réserve. Vous pouvez me jouer en Expédition. Retirez-moi du jeu si je devais aller ailleurs.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_148_C_1"
+          },
+          "sequence": 0,
+          "id": "0S584MFDT7905AWCF2K6S53DB5"
+        }
+      ],
+      "value": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+      "id": "66XPT2XTCE91V8TGTX9VKN3JDX"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_148\/JPG\/en_US\/cfe6340ea46ea4b470c4db95b132ee64.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_148\/WEB_071201aff267211fac7844c9aa0f935c"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_148_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_148_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Booda Brûlant",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_148\/JPG\/fr_FR\/be6475630b338729b0939f022443369a.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Blazing Booda",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_148\/JPG\/de_DE\/21c09871bb26e2d5b89f4808390826f2.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_148\/JPG\/es_ES\/778267acd8591b669b855855c16956a0.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_148\/JPG\/it_IT\/fae51f5cb4655d10088ab5e20fc2353d.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Blazing Booda",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_148\/JPG\/en_US\/cfe6340ea46ea4b470c4db95b132ee64.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "6GHNXV84XG9JG8RQTKSHZN5RK8",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_148\/JPG\/fr_FR\/be6475630b338729b0939f022443369a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_148\/JPG\/en_US\/cfe6340ea46ea4b470c4db95b132ee64.jpg"
+  },
+  "name": "Blazing Booda",
+  "elements": {
+    "MAIN_COST": "",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)"
+  },
   "collectorNumberFormatted": "NEJ-110-T-EN",
   "isSuspended": false,
   "isErrated": false,

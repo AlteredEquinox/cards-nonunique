@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Il y a plusieurs choses auxquelles on peut s'attacher pour vivre une expérience unique.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "There are multiple things one can be tied too in order to experience something unique.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A6ZHZAYSW7PTQ6CX4HR7",
+      "text": "There are multiple things one can be tied too in order to experience something unique."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,238 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "234KHMBXS683DBG7XZZ7H4J4CC"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0SVQ6BTT278S1V32QSMFVM2KX3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4FD2RQVA8889VBZ2GA1GKG7Q49"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5F0809AQNZ9PWT5JR0YTD4J4E0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3FNVTK9YYB8PJ9MBW4FS2Y2X61"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/37N6104EKA998SDX01XBPK2550",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "0DYJQ0D8GV80CTMG6AWZBX51RV"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornire",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitailler",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastecer",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        }
+                      },
+                      "id": "01HNDWWMHVCJSJ22J9C3C9MXFS",
+                      "reference": "RESUPPLY_INF"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "48H7KQK97P97ABDBQT2JWZBWC4"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may #have target opponent [RESUPPLY_INF].# If you do, I gain [ANCHORED].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may #have target opponent [RESUPPLY_INF].# If you do, I gain [ANCHORED].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may #have target opponent [RESUPPLY_INF].# If you do, I gain [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may #have target opponent [RESUPPLY_INF].# If you do, I gain [ANCHORED].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez #faire [RESUPPLY_INF] un adversaire ciblé.# Si vous le faites, je gagne [ANCHORED].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may #have target opponent [RESUPPLY_INF].# If you do, I gain [ANCHORED]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_135_R1_0"
+          },
+          "sequence": 0,
+          "id": "4E5M00QKV18SHTR32CD13NETYY"
+        }
+      ],
+      "value": "{H} You may have target opponent [Resupply]. If you do, I gain [[Anchored]].",
+      "id": "37N6104EKA998SDX01XBPK2550"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Benoit Barraqué-Curie " },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/en_US\/8beb9e9ec3fd5f60ec1c27dffcfdb5cc.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_135_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_135_R1",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Odysseus Ligoté",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/fr_FR\/3ba6176bb59607663118f41178304b9f.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/it_IT\/7ded949ac030bd62ed6904ed223b2495.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/es_ES\/9e98616fa1a81d52d588de64914e21cb.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Mast-Tied Odysseus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/de_DE\/a9432b4913db6da096ede99935e631e1.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Mast-Tied Odysseus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/en_US\/8beb9e9ec3fd5f60ec1c27dffcfdb5cc.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "28Z3Z0QX6598WSM4KZAK4D557J",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/fr_FR\/3ba6176bb59607663118f41178304b9f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/en_US\/8beb9e9ec3fd5f60ec1c27dffcfdb5cc.jpg"
+  },
+  "name": "Mast-Tied Odysseus",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} You may #have target opponent [Resupply].# If you do, I gain [[Anchored]]."
+  },
   "collectorNumberFormatted": "NEJ-060-R-EN",
   "isSuspended": false,
   "isErrated": false,

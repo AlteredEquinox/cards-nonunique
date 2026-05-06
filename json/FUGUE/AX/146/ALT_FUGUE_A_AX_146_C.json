@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,225 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1TK8NARXBY83P937K37WCM9CQS"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6EFJBPHMB19HRV6ZEQX0QMB4RH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1ECGW7XSRY9FX9QEPBK3XBV58R"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "28RDE593R29C2B2E1ACZHT1ZXV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0JPREZZ8F19YHA0BA6Q3ZT1CZV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2D6WA176TE9ZY8S7MFKE7KMNHY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "77C4YQGXE9912TCZJBEXNW9RC5"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "{J} [SABOTAGE].", "locale": "en_US" },
+                  "fr_FR": { "text": "{J} [SABOTAGE].", "locale": "fr_FR" },
+                  "de_DE": { "text": "{J} [SABOTAGE].", "locale": "de_DE" },
+                  "it_IT": { "text": "{J} [SABOTAGE].", "locale": "it_IT" },
+                  "es_ES": { "text": "{J} [SABOTAGE].", "locale": "es_ES" }
+                },
+                "text": "{J} [SABOTAGE]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_146_R1_0"
+          },
+          "sequence": 0,
+          "id": "7DEK4GJ1DK8KFRF2MATM92ZJWV"
+        },
+        {
+          "cardElement": "\/card_elements\/2D6WA176TE9ZY8S7MFKE7KMNHY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — Target Character in your Reserve gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — Target Character in your Reserve gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — Target Character in your Reserve gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — Target Character in your Reserve gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Un Personnage ciblé dans votre Réserve gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — Target Character in your Reserve gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_146_C_1"
+          },
+          "sequence": 1,
+          "id": "0ZP8MGBWW28TXADTPBPVT0MEPZ"
+        }
+      ],
+      "value": "{J} [Sabotage].  At Noon — Target Character in your Reserve gains 1 boost.",
+      "id": "2D6WA176TE9ZY8S7MFKE7KMNHY"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Jefrey Yonathan" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_146\/JPG\/en_US\/01e8b223342c42e76e585afa47bf4bfb.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_A_AX_146_C",
   "isExclusive": true,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_A_AX_146_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_146\/JPG\/es_ES\/65dcb47f4b245ee4e351193beda4c0e0.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Sanctuaire des Lotophages",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_146\/JPG\/fr_FR\/6d046420866b6eaa89155494bf193c6c.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Fane of Lotus-Eaters",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_146\/JPG\/en_US\/01e8b223342c42e76e585afa47bf4bfb.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_146\/JPG\/de_DE\/7a42db8b293fe47e525aef3058723801.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Fane of Lotus-Eaters",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_146\/JPG\/it_IT\/cbbcd6f924d25bda2157c2c00b1213de.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "41ENXB7RPH9GPRW7S8QA0RX7PH",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_146\/JPG\/fr_FR\/6d046420866b6eaa89155494bf193c6c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_AX_146\/JPG\/en_US\/01e8b223342c42e76e585afa47bf4bfb.jpg"
+  },
+  "name": "Fane of Lotus-Eaters",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "{J} [Sabotage].  At Noon — Target Character in your Reserve gains 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-A-015-C-EN",
   "isSuspended": false,
   "isErrated": false,

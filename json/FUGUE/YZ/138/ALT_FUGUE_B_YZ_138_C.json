@@ -12,7 +12,9 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    { "reference": "MAGE", "id": "01HKAGXDF5A4KJW7GVC25YQS3H", "name": "Mage" }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +25,208 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "2E7W0088FQ8NPB3NH8H88HBQQ0"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4Z8KP1MPZP89QTHBTHQHPW0VQP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "17Z0QQN5N495QAXA60EFDEDWFH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6WJSEJ41J39SF9SGWC92RSJA0E"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "0ZHJZ93MQJ8X7ARPDVRNQ1RQRJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6BZ38C45ME9SF9Z94YVPRG5KSP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Dotouffu 1\/1\/1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Woollyback 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Wollrücken 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Lanuvola 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Lanudo 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V1RZ960JE3XMHMM4G1Y3D",
+                      "reference": "WOOLLYBACK"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "70MYXKET75966BGK80BT4246Q2"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Sacrifice a Character. Then, create a [WOOLLYBACK] Animal token in its Expedition.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Sacrifice a Character. Then, create a [WOOLLYBACK] Animal token in its Expedition.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Sacrifice a Character. Then, create a [WOOLLYBACK] Animal token in its Expedition.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Sacrifice a Character. Then, create a [WOOLLYBACK] Animal token in its Expedition.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Sacrifiez un Personnage. Puis, créez un jeton Animal [WOOLLYBACK] dans son Expédition.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Sacrifice a Character. Then, create a [WOOLLYBACK] Animal token in its Expedition."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_138_C_0"
+          },
+          "sequence": 0,
+          "id": "65TAN30YEW8979QEF9R62DA995"
+        }
+      ],
+      "value": "{H} Sacrifice a Character. Then, create a [Woollyback 1\/1\/1] Animal token in its Expedition.",
+      "id": "6BZ38C45ME9SF9Z94YVPRG5KSP"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/en_US\/ab97ab34826c614c8c76a6ac15bc84d6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/WEB_e6cb7935417c3022060d70763fac4114",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/WEB_139712d96575822c6cc8b39cc9085e17",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/WEB_fc7260f83627d0780fff019e6a30fbd3"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_138_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_138_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Circé",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/fr_FR\/383d27569fd14e81a73e3355ff15a5d1.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/es_ES\/13f208fa96c12090efb0462a8c12aa9c.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/it_IT\/f2ed8fe46df3460cdea4b2c537091fe2.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Circe",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/de_DE\/675dfd32f556de8782e83540f019b6fd.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Circe",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/en_US\/ab97ab34826c614c8c76a6ac15bc84d6.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "0HJ9GYV5S08CNVGTFK465J2Z8V",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/fr_FR\/383d27569fd14e81a73e3355ff15a5d1.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_138\/JPG\/en_US\/ab97ab34826c614c8c76a6ac15bc84d6.jpg"
+  },
+  "name": "Circe",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} Sacrifice a Character. Then, create a [Woollyback 1\/1\/1] Animal token in its Expedition."
+  },
   "collectorNumberFormatted": "NEJ-095-C-EN",
   "isSuspended": false,
   "isErrated": false,

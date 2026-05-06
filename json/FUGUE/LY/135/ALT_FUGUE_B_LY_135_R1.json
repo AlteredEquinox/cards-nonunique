@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Tout pari inclut une forme de risque.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Every gamble carries some risk.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A5HJP980HC8R4GBBEKKT",
+      "text": "Every gamble carries some risk."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,315 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6N8NN31MET8WXTMW06VGQ1SWK6"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0RXRWT0ADY8Z4VYQ4QCFHXV6VM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4A6TTKJYZ18YHVN3N4WQE4641W"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6VVSEZ6Q0R8NN8FT8808DGHCC1"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4JMQHKFC9E8VYS9NQJDHNF0VA4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/17CCWMSA379JXBB4TGSGXHZXMP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "{H} Tira un dado. Si sacas:",
+                    "locale": "es_ES"
+                  },
+                  "de_DE": {
+                    "text": "{H} Würfle einmal. Bei:",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Tira un dado. Con:",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "{H} Roll a die. On a:",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Lancez un dé. Sur :",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Roll a die. On a:"
+              }
+            ],
+            "reference": "00491"
+          },
+          "sequence": 0,
+          "id": "08FDY596WM9AJTJXEEDK61R2Y1"
+        },
+        {
+          "cardElement": "\/card_elements\/17CCWMSA379JXBB4TGSGXHZXMP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "1R44KYXTJX99FVA9R41NSJX6YG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• #6+, I gain [ANCHORED].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• #6+, I gain [ANCHORED].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• #6+, I gain [ANCHORED].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• #6+, I gain [ANCHORED].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• #6+, je gagne [ANCHORED].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• #6+, I gain [ANCHORED].#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_140_R1_1"
+          },
+          "sequence": 1,
+          "id": "1GGRP8WHEZ9Y7AJGCVQCRCQRVG"
+        },
+        {
+          "cardElement": "\/card_elements\/17CCWMSA379JXBB4TGSGXHZXMP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "1MREZFGB5B9SZTSZGMXQMKFPBR"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• 1, I gain [FLEETING].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• 1, I gain [FLEETING].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• 1, I gain [FLEETING].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• 1, I gain [FLEETING].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• 1, je gagne [FLEETING].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• 1, I gain [FLEETING]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_140_R1_2"
+          },
+          "sequence": 2,
+          "id": "6E7ES6NG239XNBEVW0VX43PZRK"
+        }
+      ],
+      "value": "{H} Roll a die. On a:  • 6+, I gain [[Anchored]].  • 1, I gain [[Fleeting]].",
+      "id": "17CCWMSA379JXBB4TGSGXHZXMP"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Damian Audino" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/en_US\/b2cdfe8b1a6547cdae528d87280bdf08.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_135_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_135_R1",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Lyra Gambler",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/en_US\/b2cdfe8b1a6547cdae528d87280bdf08.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/es_ES\/c5f3838775f473ae4c95ca0ee66ca132.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/it_IT\/4fed0d7d497b4d36b20fdcf675ef0543.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Parieur Lyra",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/fr_FR\/750a838d1e1ebb42a1f1ab9fccab6cd7.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Lyra Gambler",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/de_DE\/12a8842ba5af9634f7654d4a0d17c1b4.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "5RVX9G1WJ19APBBCAGSMGBCK1Q",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/fr_FR\/750a838d1e1ebb42a1f1ab9fccab6cd7.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/en_US\/b2cdfe8b1a6547cdae528d87280bdf08.jpg"
+  },
+  "name": "Lyra Gambler",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} Roll a die. On a:  • #6+, I gain [[Anchored]].#  • 1, I gain [[Fleeting]]."
+  },
   "collectorNumberFormatted": "NEJ-039-R-EN",
   "isSuspended": false,
   "isErrated": false,

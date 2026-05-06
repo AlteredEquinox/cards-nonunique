@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,320 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "0VRB2R9YF297NR9NHKGT77RKHF"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "57HCRC764X9YG9SZ594HJGJ0ZS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "3B4A2W57059HDVDNJEYRQSXXXZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "44E4M31Q7N8RCR422KS6D4TEZF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "2V0NA3CPEC8SKAVK6HMM2VXRP3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7W7J52FQFM9MXR9537V41AAMRM",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Vergängliche",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugaci",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugaces",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JMCYHSRPG9A9KC12ZYQA5GWA",
+                      "reference": "FLEETING_CHA_P"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "3C8JC4XKM88TM99C9M70Q6NM20"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Coriaces 1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V93R4X2QDP6CPHFSR8DWC",
+                      "reference": "TOUGH_CHA_P_1"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "3MPTBVHBDV8YVRWFCZJY2260CD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#[FLEETING_CHA_P] Characters you control are [TOUGH_CHA_P_1].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#[FLEETING_CHA_P] Characters you control are [TOUGH_CHA_P_1].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#[FLEETING_CHA_P] Characters you control are [TOUGH_CHA_P_1].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#[FLEETING_CHA_P] Characters you control are [TOUGH_CHA_P_1].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Les Personnages [FLEETING_CHA_P] que vous contrôlez sont [TOUGH_CHA_P_1].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#[FLEETING_CHA_P] Characters you control are [TOUGH_CHA_P_1].#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_132_R2_0"
+          },
+          "sequence": 0,
+          "id": "55V047PP1B9GTRZH30N1CWYZ4K"
+        },
+        {
+          "cardElement": "\/card_elements\/7W7J52FQFM9MXR9537V41AAMRM",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "1589B6BRCF819V1TRKCQ9NCCTC"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may target a #[FLEETING] Character.# It gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may target a #[FLEETING] Character.# It gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may target a #[FLEETING] Character.# It gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may target a #[FLEETING] Character.# It gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez cibler un Personnage #[FLEETING].# Il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may target a #[FLEETING] Character.# It gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_132_R2_1"
+          },
+          "sequence": 1,
+          "id": "4JAK3CHTST8SMVFWGQRXFSY5P7"
+        }
+      ],
+      "value": "[[Fleeting]] Characters you control are [Tough 1].  {H} You may target a [[Fleeting]] Character. It gains 1 boost.",
+      "id": "7W7J52FQFM9MXR9537V41AAMRM"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Nestor Papatriantafyllou" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/en_US\/9d500a1ee3b871937914014c68a49119.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/WEB_156298e4351258a3b2816ce5c44dcb9b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/WEB_fbbe7d3039551ee7f377e94c3b0357bf",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/WEB_68ab5037523b95abac6caa8c20d4718d"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_132_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_132_R2",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Silène",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/fr_FR\/205ba6a4c3125da24bf13be487ce03f3.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Silenus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/en_US\/9d500a1ee3b871937914014c68a49119.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Silenus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/de_DE\/112c00ba8db02e76d816d954dc0b1953.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/es_ES\/8710da77d49cbda13fd4110638ab5086.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/it_IT\/a2cba84e94aa2d603ba38d500bd680bc.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "2MTRJDS6QT8A480XBYY1AY36BJ",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-058-R-EN",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/fr_FR\/205ba6a4c3125da24bf13be487ce03f3.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/en_US\/9d500a1ee3b871937914014c68a49119.jpg"
+  },
+  "name": "Silenus",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "#2#",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "#[[Fleeting]] Characters you control are [Tough 1].#  {H} You may target a #[[Fleeting]] Character.# It gains 1 boost."
+  },
+  "collectorNumberFormatted": "NEJ-058-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

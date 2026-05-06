@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Par le lien du Gestalt, je peux encore communiquer avec mon frère. » — Eyota",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“Through the bond of Gestalt, I can still communicate with my brother.” — Eyota",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A9N34W3JFNBBD931MXD1",
+      "text": "“Through the bond of Gestalt, I can still communicate with my brother.” — Eyota"
+    }
+  ],
   "cardType": {
     "reference": "SPELL",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONJURATION",
+      "id": "01HKAGQJMGEVS21MCGWDGG8KW0",
+      "name": "Conjuration"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,305 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "2S9WZGZ2ZR9Q3AYZYF9YHXNZQM"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "0RA045T4YJ8WKANY2R1YSBVWJC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "21TCVYNP7693QVQYMMRV6PQ3DG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "75DR2ZHX2T8ACVJ7TTMVZX4GZD"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "45XA69852C9Y6B38MXMZEGKB09"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/08HM6429MN9N7R2CC0300F66V5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "5R1M0SBZT497TVX5ZHVCN6EW3H"
+        },
+        {
+          "cardElement": "\/card_elements\/08HM6429MN9N7R2CC0300F66V5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Create your Hero's Signature token in your Reserve.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Create your Hero's Signature token in your Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Create your Hero's Signature token in your Reserve.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Create your Hero's Signature token in your Reserve.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Créez le jeton Signature de votre Héros dans votre Réserve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Create your Hero's Signature token in your Reserve."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_143_C_1"
+          },
+          "sequence": 1,
+          "id": "2Y4WGNBKYR9X7AQ3RKM71C1H4R"
+        },
+        {
+          "cardElement": "\/card_elements\/08HM6429MN9N7R2CC0300F66V5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        }
+                      },
+                      "id": "01HPFHC15Y9ARSV51SMJKFZ8CY",
+                      "reference": "RESUPPLY_LOW"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "6WP9WERJG59F8RTZHW9HE9Z1Z6"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Then, #[RESUPPLY_LOW].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Then, #[RESUPPLY_LOW].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Then, #[RESUPPLY_LOW].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Then, #[RESUPPLY_LOW].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Puis, #[RESUPPLY_LOW].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Then, #[RESUPPLY_LOW].#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_143_R1_2"
+          },
+          "sequence": 2,
+          "id": "1QGCJ8TKM291D8V2SXBX3T1027"
+        }
+      ],
+      "value": "[[Fleeting]].  Create your Hero's Signature token in your Reserve.  Then, [Resupply].",
+      "id": "08HM6429MN9N7R2CC0300F66V5"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Victor Canton" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_143\/JPG\/en_US\/de798805e1f0e3490e47a8bfb669273e.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_143\/WEB_e1958f292d9db1a9697c08bd5106584a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_143\/WEB_790c7638a55b62e320356299afeab402"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_143_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_143_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Echo Chamber",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_143\/JPG\/de_DE\/58179c9645852dc083d2c8ce5148c08b.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_143\/JPG\/es_ES\/b78d78b092907dcb4bf77e140aa30cb2.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_143\/JPG\/it_IT\/b3a7bd2773b2cea53b94868dd12866d4.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Echo Chamber",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_143\/JPG\/en_US\/de798805e1f0e3490e47a8bfb669273e.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Chambre d’Écho",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_143\/JPG\/fr_FR\/1d1878c385e66cc4d2f07f5af75732d4.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "267PRJCVSW9SJ8AXQGGBTHRSDK",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_143\/JPG\/fr_FR\/1d1878c385e66cc4d2f07f5af75732d4.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_143\/JPG\/en_US\/de798805e1f0e3490e47a8bfb669273e.jpg"
+  },
+  "name": "Echo Chamber",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Create your Hero's Signature token in your Reserve.  Then, #[Resupply].#"
+  },
   "collectorNumberFormatted": "NEJ-086-R-EN",
   "isSuspended": false,
   "isErrated": false,

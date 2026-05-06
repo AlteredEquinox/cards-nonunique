@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,283 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6Y6Z37DVJG97RBWPTVECHE6BST"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "5N4917C77H8BXT7JMTR5N0RRG5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "580PXXFBDD8KT9P0C8C0W5JARJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7T69376NMP86NAC1F2TR69QSEE"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "55H56PXZ9K85RTSRG0SQ60E7BC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2NT5Y65A1P88581Q0YV7FH32E7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} I gain #4 Kelon counters.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} I gain #4 Kelon counters.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} I gain #4 Kelon counters.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} I gain #4 Kelon counters.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne #4 compteurs de Kélon.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} I gain #4 Kelon counters.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_144_R1_0"
+          },
+          "sequence": 0,
+          "id": "2A5X4GT5NS9Q99SV5H01FKY7B2"
+        },
+        {
+          "cardElement": "\/card_elements\/2NT5Y65A1P88581Q0YV7FH32E7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{T}, Spend 1 of my Kelon counters: Ready a Mana Orb.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{T}, Spend 1 of my Kelon counters: Ready a Mana Orb.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{T}, Spend 1 of my Kelon counters: Ready a Mana Orb.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{T}, Spend 1 of my Kelon counters: Ready a Mana Orb.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{T}, Dépensez 1 de mes compteurs de Kélon : redressez un Orbe de Mana.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{T}, Spend 1 of my Kelon counters: Ready a Mana Orb."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_144_C_1"
+          },
+          "sequence": 1,
+          "id": "4A4MR2XVDZ9V9VWMF1EJYMAE7F"
+        },
+        {
+          "cardElement": "\/card_elements\/2NT5Y65A1P88581Q0YV7FH32E7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "0KS8XMPGGG99XS2ZF5DJ9DGYDE"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#When I'm sacrificed — [SABOTAGE].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#When I'm sacrificed — [SABOTAGE].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#When I'm sacrificed — [SABOTAGE].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#When I'm sacrificed — [SABOTAGE].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque je suis sacrifié — [SABOTAGE].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#When I'm sacrificed — [SABOTAGE].#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_144_R1_2"
+          },
+          "sequence": 2,
+          "id": "449BGP70WP9METD6Q10QDS1E8M"
+        }
+      ],
+      "value": "{J} I gain 4 Kelon counters.  {T}, Spend 1 of my Kelon counters: Ready a Mana Orb.  When I'm sacrificed — [Sabotage].",
+      "id": "2NT5Y65A1P88581Q0YV7FH32E7"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_144\/JPG\/en_US\/c8a4de7f4e19ce6f8dc574d5d8148d5b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_144\/WEB_580b7041a8ed55a4dca6c3e468694650",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_144\/WEB_b1aca9a9fbcb763edfef0b6935842c08"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_144_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_144_R1",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Fane of Aeolus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_144\/JPG\/en_US\/c8a4de7f4e19ce6f8dc574d5d8148d5b.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_144\/JPG\/it_IT\/ab61c5fa86e9c90412352bc6f5cf1a8a.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Sanctuaire d’Éole",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_144\/JPG\/fr_FR\/7a18d6ef3640efc5893c994460b7ded4.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_144\/JPG\/es_ES\/2028d90a8f22e9b6b649b3b78a21f895.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Fane of Aeolus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_144\/JPG\/de_DE\/179a2806398d4933b56f1b799ed386fd.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "5GT2924WK58WBRR6NT1YKEHPRG",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_144\/JPG\/fr_FR\/7a18d6ef3640efc5893c994460b7ded4.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_144\/JPG\/en_US\/c8a4de7f4e19ce6f8dc574d5d8148d5b.jpg"
+  },
+  "name": "Fane of Aeolus",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "{J} I gain #4 Kelon counters.#  {T}, Spend 1 of my Kelon counters: Ready a Mana Orb.  #When I'm sacrificed — [Sabotage].#"
+  },
   "collectorNumberFormatted": "NEJ-014-R-EN",
   "isSuspended": false,
   "isErrated": false,

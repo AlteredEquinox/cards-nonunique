@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,171 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "08GNEVNE5W8EA84KHYT5GQ49KS"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1Y5D8F04J59NX9RGASNTBHS6GK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4Q0C0D2T6S99Q94W046DRMEJR1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0JP34M7VYW9SF8P5FJDHF1YQ3D"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3J8GAVYK1Y8HTA1VJTJ8AQZESS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/35RPGWTW4X8448GKRA0G5ZQ35R",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} If you control two or more Constructions, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} If you control two or more Constructions, I gain 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} If you control two or more Constructions, I gain 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} If you control two or more Constructions, I gain 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Si vous contrôlez au moins deux Constructions, je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} If you control two or more Constructions, I gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_140_C_0"
+          },
+          "sequence": 0,
+          "id": "6HJ2E59ZTN99N8QWEXX6E5D6H2"
+        }
+      ],
+      "value": "{R} If you control two or more Constructions, I gain 1 boost.",
+      "id": "35RPGWTW4X8448GKRA0G5ZQ35R"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jefrey Yonathan" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/JPG\/en_US\/f01f00dda91c6f78d9c9bc2d88417d00.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/WEB_dceebaf77fd7fca96385ad4855991fc6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/WEB_d43d1844e5a308d5e0aabbe590a2663e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/WEB_a4aed65e81a24f647e00dbabb25c49bf"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_140_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_140_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Axiom Carpenter",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/JPG\/de_DE\/a88b34a539c4a36a9ae06ea829d88c5b.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Axiom Carpenter",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/JPG\/en_US\/f01f00dda91c6f78d9c9bc2d88417d00.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/JPG\/es_ES\/bf1dc783ed84458130f5355da918a4ba.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Charpentier Axiom",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/JPG\/fr_FR\/426ffd828445e6cda1327f1af14707ef.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/JPG\/it_IT\/6e33c26c28c7f78e9327d94b537e25cb.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "3CCKZ480AJ9QSR15QQXF466EVE",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/JPG\/fr_FR\/426ffd828445e6cda1327f1af14707ef.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_140\/JPG\/en_US\/f01f00dda91c6f78d9c9bc2d88417d00.jpg"
+  },
+  "name": "Axiom Carpenter",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{R} If you control two or more Constructions, I gain 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-005-C-EN",
   "isSuspended": false,
   "isErrated": false,

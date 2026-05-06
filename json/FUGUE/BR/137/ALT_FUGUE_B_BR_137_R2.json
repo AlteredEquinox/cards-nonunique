@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6JKWB497W59JH901SJPR0SXHNC"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1637C36F3991K92BNV7RZSZZD6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7MWY4MNF809K1BC7JMYDJ9A28P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7Y3YAEAXM68HMRZ3A37B22FXXA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "24R9HXQ73H897RX15PJ8Z2G6DJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/79M7ZSHR97899VTQ99S834RMYY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may discard #a card from your Reserve# to discard #target Permanent.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may discard #a card from your Reserve# to discard #target Permanent.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may discard #a card from your Reserve# to discard #target Permanent.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may discard #a card from your Reserve# to discard #target Permanent.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez défausser #une carte de votre Réserve# pour défausser #un Permanent ciblé.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may discard #a card from your Reserve# to discard #target Permanent.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_137_R1_0"
+          },
+          "sequence": 0,
+          "id": "1QD9SWR8W79VXTZCDD2A6H4H0K"
+        }
+      ],
+      "value": "{H} You may discard a card from your Reserve to discard target Permanent.",
+      "id": "79M7ZSHR97899VTQ99S834RMYY"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Gamon Studio" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/en_US\/3e6c54ee1709a958684bf9227da1f887.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/WEB_a5b7948b2a944b043b33a395c9a3717d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/WEB_669b061e8cf5adb65611970c682696da",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/WEB_dc627c27e21e423572b5a28f4683a87e"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_137_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_137_R2",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/it_IT\/c3337f15cbc986524d58e5d7044707dc.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Hérostrate, Incendiaire de Temples",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/fr_FR\/90dbb85f4a0615c5812132a803842324.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Herostratus, Burner of Temples",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/de_DE\/41a0050481244de2ba3ad34aee9ab340.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/es_ES\/8576b3decd8284f4eb1136175ec9bee7.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Herostratus, Burner of Temples",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/en_US\/3e6c54ee1709a958684bf9227da1f887.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "6MHB2JS3QH9368Y760SA3A41PQ",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-028-R-EN",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/fr_FR\/90dbb85f4a0615c5812132a803842324.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/en_US\/3e6c54ee1709a958684bf9227da1f887.jpg"
+  },
+  "name": "Herostratus, Burner of Temples",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "#2#",
+    "MAIN_EFFECT": "{H} You may discard #a card from your Reserve# to discard #target Permanent.#"
+  },
+  "collectorNumberFormatted": "NEJ-028-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

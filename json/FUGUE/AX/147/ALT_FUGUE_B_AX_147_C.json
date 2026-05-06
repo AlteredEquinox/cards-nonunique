@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,230 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "369072VK2Z9Z5T1BZDHMBHVF98"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "2AACB03HBE8PRAAC7A6QWQS3TJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1ZZR08NF628RSBGBDFD3YQ1TYB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "73QZEG9CQ48X5BCGS5J9MZ4RTT"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6NQ0QPNB6A82VRA7VFXPJPTA7N"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1M7MKV6BK29D183EJ04JSYB0N5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01K6B09NXFM0EGH4VQ6W0PGH9H"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": { "text": "{J} $[RESUPPLY].", "locale": "it_IT" },
+                  "en_US": { "text": "{J} $[RESUPPLY].", "locale": "en_US" },
+                  "fr_FR": { "text": "{J} $[RESUPPLY].", "locale": "fr_FR" },
+                  "de_DE": { "text": "{J} $[RESUPPLY].", "locale": "de_DE" },
+                  "es_ES": { "text": "{J} $[RESUPPLY].", "locale": "es_ES" }
+                },
+                "text": "{J} $[RESUPPLY]."
+              }
+            ],
+            "reference": "02103"
+          },
+          "sequence": 0,
+          "id": "72VQNQW0R98JFR6QCYVD0S8E4Y"
+        },
+        {
+          "cardElement": "\/card_elements\/1M7MKV6BK29D183EJ04JSYB0N5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous jouez un Personnage de Coût de Base {2} ou plus — Vous pouvez m'épuiser pour qu'il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_147_C_1"
+          },
+          "sequence": 1,
+          "id": "78G854KTJK8XZBPS8HHW45KNQP"
+        }
+      ],
+      "value": "{J} [Resupply]. (Put the top card of your deck in Reserve.)  When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost.",
+      "id": "1M7MKV6BK29D183EJ04JSYB0N5"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/en_US\/7d3fa9695ba6de2e02ed02eb196ea21a.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/WEB_499186b3790844d545b2e2fb1d5490ce",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/WEB_6e2606d832aa3ef9f6305672b8fdfda6"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_147_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_147_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Fane of Circe",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/en_US\/7d3fa9695ba6de2e02ed02eb196ea21a.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Sanctuaire de Circé",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/fr_FR\/f83d640cb17b4b77d4bb49e53ba7562a.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/it_IT\/47c498e72427d115bb7cacf7d710e22d.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/es_ES\/5e5d430e9da6a5caee909d88fcf81ad4.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Fane of Circe",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/de_DE\/a4d8bae1722fb4d7b45ac5e41002c25e.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "4SK6V07QNE9NSTX1Y5KXJ4NDJZ",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/fr_FR\/f83d640cb17b4b77d4bb49e53ba7562a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/en_US\/7d3fa9695ba6de2e02ed02eb196ea21a.jpg"
+  },
+  "name": "Fane of Circe",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "{J} [Resupply]. (Put the top card of your deck in Reserve.)  When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-017-C-EN",
   "isSuspended": false,
   "isErrated": false,

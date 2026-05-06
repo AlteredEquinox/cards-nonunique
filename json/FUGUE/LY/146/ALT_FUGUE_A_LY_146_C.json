@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,202 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7PP9W9HV2S9J9T628FJ0C7MNF6"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "4Y5JR583HS91FTYZ6WV1TMD4W7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "18MW9C2PD89YH9R7P2S7600DKP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7CR6JQTQ0K8NXVKADZPVQPBRB8"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6NNCFCKEKS83E9FPSX7XQZW824"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6EJT2B893S9NTRDMBVPP3GCK6P",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        }
+                      },
+                      "id": "01HPFHC15Y9ARSV51SMJKFZ8CY",
+                      "reference": "RESUPPLY_LOW"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "1GD5SR4N379AD9TQ6JTTX4BHC9"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you're first player, [RESUPPLY_LOW].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — If you're first player, [RESUPPLY_LOW].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — If you're first player, [RESUPPLY_LOW].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — If you're first player, [RESUPPLY_LOW].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes premier joueur, [RESUPPLY_LOW].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — If you're first player, [RESUPPLY_LOW]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_146_C_0"
+          },
+          "sequence": 0,
+          "id": "5DXPBN3KMH81MR81PWH1EP9H8Z"
+        }
+      ],
+      "value": "At Noon — If you're first player, [Resupply].",
+      "id": "6EJT2B893S9NTRDMBVPP3GCK6P"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/en_US\/81c3011e3af1730b39d9e5e3638be738.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_A_LY_146_C",
   "isExclusive": true,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_A_LY_146_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/es_ES\/60574a650d40424d50bd9e5274802e6a.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Sanctuaire de Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/fr_FR\/4d40f37285257ed2f2b2815a81986e49.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Fane of Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/en_US\/81c3011e3af1730b39d9e5e3638be738.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/de_DE\/1e3ddbc15ab49e841c4a8ab3ee65e7ee.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Fane of Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/it_IT\/81994913d5fa0011d96bec8dff981a5e.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "06A3CRA2GW8V5RNYQEY0GE9Y8A",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/fr_FR\/4d40f37285257ed2f2b2815a81986e49.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/en_US\/81c3011e3af1730b39d9e5e3638be738.jpg"
+  },
+  "name": "Fane of Nausicaa",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "At Noon — If you're first player, [Resupply]."
+  },
   "collectorNumberFormatted": "NEJ-A-054-C-EN",
   "isSuspended": false,
   "isErrated": false,

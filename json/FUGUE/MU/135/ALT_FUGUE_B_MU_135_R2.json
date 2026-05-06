@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Il y a plusieurs choses auxquelles on peut s'attacher pour vivre une expérience unique.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "There are multiple things one can be tied too in order to experience something unique.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A6ZHZAYSW7PTQ6CX4HR7",
+      "text": "There are multiple things one can be tied too in order to experience something unique."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +49,203 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1YFWTAS91F9H5A240ZV67DKR29"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "73M8P75RPN8N4TEJW11AXK552A"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2B4YBR41078WNSENQ2FGV8D8BQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6SDGE2ZK7S9038ZBENCG013HEJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0MG10DFHVE8P1SCNB3Y9N4M3P7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4T99Q02CBA8H88BYZ68XCSEZXQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "0MGECSWCSZ98QA3KX79GSYDGZ7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{R}# You may discard a card from your Reserve. If you do, I gain [ANCHORED].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{R}# You may discard a card from your Reserve. If you do, I gain [ANCHORED].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{R}# You may discard a card from your Reserve. If you do, I gain [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{R}# You may discard a card from your Reserve. If you do, I gain [ANCHORED].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{R}# Vous pouvez défausser une carte de votre Réserve. Si vous le faites, je gagne [ANCHORED].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{R}# You may discard a card from your Reserve. If you do, I gain [ANCHORED]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_135_R2_0"
+          },
+          "sequence": 0,
+          "id": "1WDBM5Z4Q89068BGM36Z4TD97X"
+        }
+      ],
+      "value": "{R} You may discard a card from your Reserve. If you do, I gain [[Anchored]].",
+      "id": "4T99Q02CBA8H88BYZ68XCSEZXQ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Benoit Barraqué-Curie " },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/en_US\/f8a81af40c787cd1eb7044e0ea329849.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_135_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_135_R2",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Odysseus Ligoté",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/fr_FR\/30542ca9b05066a99714dc7b78fb5bc2.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Mast-Tied Odysseus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/de_DE\/acc50a6c3deaa387305004c15b0bc88b.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/es_ES\/5a12f493cd66632529538789bdfb25ab.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Mast-Tied Odysseus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/en_US\/f8a81af40c787cd1eb7044e0ea329849.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/it_IT\/3d8c60b3b587c43cea7f50f41ba82332.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "4YFXAEJ70C9SNB2A8CTJZ3VEWK",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-060-R-EN",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/fr_FR\/30542ca9b05066a99714dc7b78fb5bc2.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_135\/JPG\/en_US\/f8a81af40c787cd1eb7044e0ea329849.jpg"
+  },
+  "name": "Mast-Tied Odysseus",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#{R}# You may discard a card from your Reserve. If you do, I gain [[Anchored]]."
+  },
+  "collectorNumberFormatted": "NEJ-060-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

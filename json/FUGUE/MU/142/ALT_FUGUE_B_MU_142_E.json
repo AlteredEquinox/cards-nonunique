@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "LEVIATHAN",
+      "id": "01HKAGQEXKWSBXPSBRBJ2YZ038",
+      "name": "Leviathan"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,366 @@
     "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
     "name": "Exalted"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5VHDTDSDNZ8HF90S8JD25VMAA0"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1AP2SK2H2Y931RQAWBY6GBBB9W"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7NF6Z7X68N809ASKAG1CV3E287"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "7",
+      "id": "1TNXMX15D588SRAH0DZXRP67FC"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "4MDQXGQK188GZRYKQ37X1VAFA2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/5GS20Z6AE38NK9WGA6EGTRRX8N",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JB22VRXTYN9T4RMW7NWDWZ5A"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[GIGANTIC].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[GIGANTIC].", "locale": "de_DE" },
+                  "en_US": { "text": "[GIGANTIC].", "locale": "en_US" },
+                  "es_ES": { "text": "[GIGANTIC].", "locale": "es_ES" },
+                  "it_IT": { "text": "[GIGANTIC].", "locale": "it_IT" }
+                },
+                "text": "[GIGANTIC]."
+              }
+            ],
+            "reference": "01000"
+          },
+          "sequence": 0,
+          "id": "59SWPANXFA8TX9617P8DZ3WQQ3"
+        },
+        {
+          "cardElement": "\/card_elements\/5GS20Z6AE38NK9WGA6EGTRRX8N",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Each player discards their hand, then draws three cards. Then, if the number of cards discarded this way is:",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Each player discards their hand, then draws three cards. Then, if the number of cards discarded this way is:",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Each player discards their hand, then draws three cards. Then, if the number of cards discarded this way is:",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Each player discards their hand, then draws three cards. Then, if the number of cards discarded this way is:",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Chaque joueur défausse sa main, puis pioche trois cartes. Puis, en fonction du nombre de cartes ainsi défaussées :",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Each player discards their hand, then draws three cards. Then, if the number of cards discarded this way is:"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_142_C_1"
+          },
+          "sequence": 1,
+          "id": "3ESP98PB2Z87X8VFZDJ1ATDV0Q"
+        },
+        {
+          "cardElement": "\/card_elements\/5GS20Z6AE38NK9WGA6EGTRRX8N",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• 4+, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• 4+, I gain 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• 4+, I gain 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• 4+, I gain 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• 4+, je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• 4+, I gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_142_C_2"
+          },
+          "sequence": 2,
+          "id": "2PVWQSR4QW8Y8A8HT50XFJ7TDW"
+        },
+        {
+          "cardElement": "\/card_elements\/5GS20Z6AE38NK9WGA6EGTRRX8N",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "7V3JX5P940925BTWQ6P89E0SGK"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "• 6+, [SABOTAGE].", "locale": "en_US" },
+                  "fr_FR": { "text": "• 6+, [SABOTAGE].", "locale": "fr_FR" },
+                  "de_DE": { "text": "• 6+, [SABOTAGE].", "locale": "de_DE" },
+                  "it_IT": { "text": "• 6+, [SABOTAGE].", "locale": "it_IT" },
+                  "es_ES": { "text": "• 6+, [SABOTAGE].", "locale": "es_ES" }
+                },
+                "text": "• 6+, [SABOTAGE]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_142_C_3"
+          },
+          "sequence": 3,
+          "id": "11Y93R7H4V8ZEBWGVEEFXXX5PV"
+        },
+        {
+          "cardElement": "\/card_elements\/5GS20Z6AE38NK9WGA6EGTRRX8N",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• 8+, target Expedition moves backwards one region.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• 8+, target Expedition moves backwards one region.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• 8+, target Expedition moves backwards one region.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• 8+, target Expedition moves backwards one region.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• 8+, une Expédition ciblée recule d'une région.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• 8+, target Expedition moves backwards one region."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_142_C_4"
+          },
+          "sequence": 4,
+          "id": "3PAE31DEWC8KA8JKE056WSAN2D"
+        }
+      ],
+      "value": "[Gigantic].  {H} Each player discards their hand, then draws three cards. Then, if the number of cards discarded this way is:  • 4+, I gain 1 boost.  • 6+, [Sabotage].  • 8+, target Expedition moves backwards one region.",
+      "id": "5GS20Z6AE38NK9WGA6EGTRRX8N"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_142\/JPG\/en_US\/d2126bea494717c709cf7950875dc1d5.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_142\/WEB_1c70580424506a2fc52702e81de0d59d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_142\/WEB_e7f61f69b36699014431d7f7b4983fc8"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_142_E",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_142_E",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Scylla",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_142\/JPG\/fr_FR\/f663cf6a677dd8592e184d0b5e882cea.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Scylla",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_142\/JPG\/de_DE\/305e9b8a26738491a7c0f13d25d85010.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Scylla",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_142\/JPG\/en_US\/d2126bea494717c709cf7950875dc1d5.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_142\/JPG\/it_IT\/ed5031db49f38a096495b9fa383e7c2c.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_142\/JPG\/es_ES\/2db2161a4c0d7f35c2d711efd7a435ea.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "5DTFKSW36D9C3B3EKF4WP1PS6H",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_142\/JPG\/fr_FR\/f663cf6a677dd8592e184d0b5e882cea.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_142\/JPG\/en_US\/d2126bea494717c709cf7950875dc1d5.jpg"
+  },
+  "name": "Scylla",
+  "elements": {
+    "MAIN_COST": "7",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "[Gigantic].  {H} Each player discards their hand, then draws three cards. Then, if the number of cards discarded this way is:  • 4+, I gain 1 boost.  • 6+, [Sabotage].  • 8+, target Expedition moves backwards one region."
+  },
   "collectorNumberFormatted": "NEJ-067-E-EN",
   "isSuspended": false,
   "isErrated": false,

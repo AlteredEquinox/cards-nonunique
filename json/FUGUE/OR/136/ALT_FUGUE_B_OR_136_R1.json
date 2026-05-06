@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,171 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4R2KXQMW1R99C88NF4VTTCGTJ1"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6CXC5TAG3P9Y2VTHFZFS2GHNFX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "40C5ZKNBN98QKTE8NZMKJVAD86"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6DZASDSC1D801V46556CZMNX11"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "65BSM5A99G8W6S07ZPJWZ92DP6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1TT5MAKMTR8FSTWJKRXJDNZTX9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Target Soldier in play or in Reserve gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Target Soldier in play or in Reserve gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Target Soldier in play or in Reserve gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Target Soldier in play or in Reserve gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Un Soldat ciblé en jeu ou en Réserve gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Target Soldier in play or in Reserve gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_136_C_0"
+          },
+          "sequence": 0,
+          "id": "29BAQ9AKRW8HK8FFCDYA109MAX"
+        }
+      ],
+      "value": "{J} Target Soldier in play or in Reserve gains 1 boost.",
+      "id": "1TT5MAKMTR8FSTWJKRXJDNZTX9"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/en_US\/75963ba2031e6e523fa892d827ee75a4.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/WEB_7ce34fd8bbe4a28d36d958dda6b3dfb2",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/WEB_a042502b7061789abb3d3d19aa40f7ff",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/WEB_d6f4119723fec95a6873c233106dfdff"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_136_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_136_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Ordis General",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/de_DE\/354c7fb8fba60703fabc6f7be79a1484.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/it_IT\/d8a435e6ca28930c0cdec5c6a2589e3b.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Général Ordis",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/fr_FR\/f5b97e8b598b375ffa14c384a34882f7.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Ordis General",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/en_US\/75963ba2031e6e523fa892d827ee75a4.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/es_ES\/7771944c862cbb4ed629ba13c9f0dd19.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "5A16WW12M799QA27TZKG3HV4R0",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/fr_FR\/f5b97e8b598b375ffa14c384a34882f7.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_136\/JPG\/en_US\/75963ba2031e6e523fa892d827ee75a4.jpg"
+  },
+  "name": "Ordis General",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#2#",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "#2#",
+    "MAIN_EFFECT": "{J} Target Soldier in play or in Reserve gains 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-079-R-EN",
   "isSuspended": false,
   "isErrated": false,

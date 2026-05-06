@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,230 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "5CD830KZSQ8EWSM5H887G7CTG1"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "08DT8TW75J85D9TR9VRSZEC6R4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1K2FNP6YT4983VSBS61MJQ23G4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7RZCS0WQ9E9ZWBEW20158QTPNP"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5ZMBT44NMW8T8AYPWFCQ7Y1QEP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7236C1H2QZ9N58W2X774B13K4Z",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "378D4960CS8WY8VS051QQBYAN5"
+        },
+        {
+          "cardElement": "\/card_elements\/7236C1H2QZ9N58W2X774B13K4Z",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Send to Reserve target Character with Base Cost less than or equal to the number of cards in your Landmarks.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Send to Reserve target Character with Base Cost less than or equal to the number of cards in your Landmarks.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Send to Reserve target Character with Base Cost less than or equal to the number of cards in your Landmarks.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Send to Reserve target Character with Base Cost less than or equal to the number of cards in your Landmarks.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Envoyez en Réserve un Personnage ciblé de Coût de Main inférieur ou égal au nombre de cartes dans vos Repères.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Send to Reserve target Character with Base Cost less than or equal to the number of cards in your Landmarks."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_142_C_1"
+          },
+          "sequence": 1,
+          "id": "5156BV8H1N8JYSJJA89QMYDVJB"
+        }
+      ],
+      "value": "[[Fleeting]].  Send to Reserve target Character with Base Cost less than or equal to the number of cards in your Landmarks.",
+      "id": "7236C1H2QZ9N58W2X774B13K4Z"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Gamon Studio" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_142\/JPG\/en_US\/a5401530d9c9571b66c0a9d775fb8412.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_142\/WEB_6726d4dbcb603eb398b6b3556657b1fe",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_142\/WEB_4ec07878f1900f29c04fc12700995b9d"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_142_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_142_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_142\/JPG\/es_ES\/1cbf6c7ab0d228d8a724d4c1f3b503ec.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Vents d’Éole",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_142\/JPG\/fr_FR\/e117cc3a4f5a3bc9ce7b429486a09520.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Aeolus' Winds",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_142\/JPG\/en_US\/a5401530d9c9571b66c0a9d775fb8412.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Aeolus' Winds",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_142\/JPG\/de_DE\/5f6e3cd2dba0395d59ff474f864cfb59.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_142\/JPG\/it_IT\/9601451e7c8c38c0019778b5a42d445a.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "2AZGS591Z29YAABWABNRT26FD2",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_142\/JPG\/fr_FR\/e117cc3a4f5a3bc9ce7b429486a09520.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_142\/JPG\/en_US\/a5401530d9c9571b66c0a9d775fb8412.jpg"
+  },
+  "name": "Aeolus' Winds",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Send to Reserve target Character with Base Cost less than or equal to the number of cards in your Landmarks."
+  },
   "collectorNumberFormatted": "NEJ-012-C-EN",
   "isSuspended": false,
   "isErrated": false,

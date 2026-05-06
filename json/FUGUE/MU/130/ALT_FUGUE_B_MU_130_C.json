@@ -23,24 +23,250 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6",
+        "name": "LANDMARKS"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97BTD429RWTSP1SWG9GKQE"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ",
+        "name": "RESERVE"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97BTD429RWTSP1SWG9GKQF"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "23JA349WSY8WN9ZK1A6HV7FCQ8"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1XFFJVPF0F915VPA67J260D60G"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "4B7V4PN1068ZBB9W17N06CA0NR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/27ZQ4YRS859R28N895H9TWCKVQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "TOOT",
+                          "locale": "de_DE",
+                          "description": "TOOT"
+                        },
+                        "it_IT": {
+                          "displayWeb": "TOOT",
+                          "locale": "it_IT",
+                          "description": "TOOT"
+                        },
+                        "es_ES": {
+                          "displayWeb": "TOOT",
+                          "locale": "es_ES",
+                          "description": "TOOT"
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Toot 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        }
+                      },
+                      "id": "23ZMA4J0Q28N485W9VH35P24PK",
+                      "reference": "TOOT"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "0K3JYQ37YE9ERARREMA7RJEX0G"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "de_DE",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "it_IT": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "it_IT",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "es_ES": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "es_ES",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "en_US": {
+                          "displayWeb": "Signature token",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "2FJ0FYF21B9YMVK8YCJD7GEVS7",
+                      "reference": "SIGNATURE_TOKEN"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "58V9K28QNB8QQBRCKSXS1RK866"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [TOOT] in your Reserve. (It's a Plant Companion with Reserve Cost {1} and \"{r} I gain Anchored.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [TOOT] in your Reserve. (It's a Plant Companion with Reserve Cost {1} and \"{r} I gain Anchored.\")",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [TOOT] in your Reserve. (It's a Plant Companion with Reserve Cost {1} and \"{r} I gain Anchored.\")",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [TOOT] in your Reserve. (It's a Plant Companion with Reserve Cost {1} and \"{r} I gain Anchored.\")",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes premier joueur, créez mon [SIGNATURE_TOKEN] : [TOOT]. (C'est un Compagnon Plante avec un Coût de Réserve de {1} et : « {r} Je gagne Ancré. »)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [TOOT] in your Reserve. (It's a Plant Companion with Reserve Cost {1} and \"{r} I gain Anchored.\")"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_130_C_0"
+          },
+          "sequence": 0,
+          "id": "3V5Z97SVAW9ZV8SECKZRPP7BRA"
+        }
+      ],
+      "value": "At Noon — If you're first player, create my [Signature token]: [Toot 1\/1\/1] in your Reserve. (It's a Plant Companion with Reserve Cost {1} and \"{r} I gain Anchored.\")",
+      "id": "27ZQ4YRS859R28N895H9TWCKVQ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/JPG\/en_US\/699c9cc3c60d9c0a7f9caff4b3ea7654.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/HERO_THUMB_abab2b41cd5436cc85648bd752057c93"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/HERO_WIDE_eb4351a69a5490a8387930e25f0077bb"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/WEB_e34d2fd23166bad21f8a083aaf8a3eec"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_130_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_130_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/JPG\/it_IT\/a2e67437ad95e0ffe7ef71a69e7d06fb.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/JPG\/es_ES\/6d9055d64cc8f427e0a84cfcdfde0973.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Osric",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/JPG\/en_US\/699c9cc3c60d9c0a7f9caff4b3ea7654.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Osric",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/JPG\/fr_FR\/add00e863502fea2252d0eb2021a8db6.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Osric",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/JPG\/de_DE\/c87017cfcbaccffb9593db9d17263845.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "7Y5NETK71N8PVV6QF6TCCFGJS9",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/JPG\/fr_FR\/add00e863502fea2252d0eb2021a8db6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_130\/JPG\/en_US\/699c9cc3c60d9c0a7f9caff4b3ea7654.jpg"
+  },
+  "name": "Osric",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "RESERVE": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "At Noon — If you're first player, create my [Signature token]: [Toot 1\/1\/1] in your Reserve. (It's a Plant Companion with Reserve Cost {1} and \"{r} I gain Anchored.\")"
+  },
   "collectorNumberFormatted": "NEJ-055-H-EN",
   "isSuspended": false,
   "isErrated": false,

@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    },
+    {
+      "reference": "TITAN",
+      "id": "01HKAGQ9QZA1N8YNZH7CYPBDVR",
+      "name": "Titan"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +34,283 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7GDP6VW1Z9908RR03663F3M241"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "27FE0HJR2T993972MHWFKS6P9B"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "09WM23T86C94DV9N0934EZHWB5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "77TWBM8BKZ9WFBNFAWZ12QKA7C"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "2SJ109GBMM90ZA86S0X5E4JGQV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3XV1RDZR138V08ADCE333H27A0",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JN9V13HX5HAR44VG7PJZF6E7"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": "Opponents must pay {1} to target me."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": "Gli avversari devono pagare {1} per scegliermi come bersaglio."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Coriace 1",
+                          "locale": "fr_FR",
+                          "description": "Vos adversaires doivent payer {1} pour me cibler."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": "Los oponentes tienen que pagar {1} para hacerme objetivo."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": "Gegner müssen {1} zahlen, um mich anzuvisieren."
+                        }
+                      },
+                      "id": "01HKAGQBS53BFCG3465BACESCQ",
+                      "reference": "TOUGH_1"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JN9V13SAT4YKN3237DEHSFYQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[GIGANTIC], #[TOUGH_1].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "[GIGANTIC], #[TOUGH_1].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "[GIGANTIC], #[TOUGH_1].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[GIGANTIC], #[TOUGH_1].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "[GIGANTIC], #[TOUGH_1].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "[GIGANTIC], #[TOUGH_1].#"
+              }
+            ],
+            "reference": "01216"
+          },
+          "sequence": 0,
+          "id": "7ZW24QGJKQ882T2FF6PDHN7162"
+        },
+        {
+          "cardElement": "\/card_elements\/3XV1RDZR138V08ADCE333H27A0",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} I gain 1 boost #per card in your Landmarks.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} I gain 1 boost #per card in your Landmarks.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} I gain 1 boost #per card in your Landmarks.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} I gain 1 boost #per card in your Landmarks.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne 1 boost #par carte dans vos Repères.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} I gain 1 boost #per card in your Landmarks.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_135_R1_1"
+          },
+          "sequence": 1,
+          "id": "4CECR1SWCJ9TPV1G1YGS2G3MME"
+        }
+      ],
+      "value": "[Gigantic], [Tough 1].  {J} I gain 1 boost per card in your Landmarks.",
+      "id": "3XV1RDZR138V08ADCE333H27A0"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/en_US\/0945ce0df9b0431179697510b200fae9.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/WEB_6fea3bcf9cc9b4202efc5e1138663184",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/WEB_0b59f29bf6b12d23445f8bbaf8307971",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/WEB_8c4dd6a6b3a9b9a6235669531c3834ae"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_135_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_135_R2",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Arges",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/en_US\/0945ce0df9b0431179697510b200fae9.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/de_DE\/97f33c89e348a2dabdb431aac898f0ad.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Argès",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/fr_FR\/7a820206df3fdc5be03c8264f696f753.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/es_ES\/52e02a0b245ded19e94818c3a8a7c415.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Arges",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/it_IT\/f2ffc1fa65e41e465911aa9573f01a6c.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "3DG8PB5XEE901S66V48EXW09NW",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-011-R-EN",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/fr_FR\/7a820206df3fdc5be03c8264f696f753.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/en_US\/0945ce0df9b0431179697510b200fae9.jpg"
+  },
+  "name": "Arges",
+  "elements": {
+    "MAIN_COST": "6",
+    "RECALL_COST": "6",
+    "OCEAN_POWER": "#2#",
+    "FOREST_POWER": "#2#",
+    "MOUNTAIN_POWER": "#2#",
+    "MAIN_EFFECT": "[Gigantic], #[Tough 1].#  {J} I gain 1 boost #per card in your Landmarks.#"
+  },
+  "collectorNumberFormatted": "NEJ-011-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

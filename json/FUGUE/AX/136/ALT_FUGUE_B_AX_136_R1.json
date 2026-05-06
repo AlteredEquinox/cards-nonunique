@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Nourrir l'équipage est une préoccupation constante.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Feeding the crew is a constant concern.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A43SXM00XVEJ1YT5G4QD",
+      "text": "Feeding the crew is a constant concern."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,171 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0ESKWZ4ZEG9NKSK8JWQJHH1V3A"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7ES4S88C9A9SXVAW4D08AS2KG1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1C9WKRX2JH8XR8BXPBA6HGEWYH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "380V058KYG9ADBZSVJN9F0D9EA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "38MFG0BSN694W8ZT89RDFDKGD5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4HRP9J682996YVHWT3TSKTK7EQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J}# Target Character in your Reserve gains #2 boosts.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# Target Character in your Reserve gains #2 boosts.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# Target Character in your Reserve gains #2 boosts.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# Target Character in your Reserve gains #2 boosts.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Un Personnage ciblé dans votre Réserve gagne #2 boosts.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{J}# Target Character in your Reserve gains #2 boosts.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_136_R1_0"
+          },
+          "sequence": 0,
+          "id": "65PS6G0Z3T8NKAA0SRPY46GMD2"
+        }
+      ],
+      "value": "{J} Target Character in your Reserve gains 2 boosts.",
+      "id": "4HRP9J682996YVHWT3TSKTK7EQ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Julien Carrasco" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/JPG\/en_US\/f65e2da1e0ec9e93836b67b860bef019.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/WEB_b2cdb15c930d9dcf5e10c0f96def7ecb",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/WEB_dfcaf17e3366f75fe96ea407e0f7b001",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/WEB_fb035a98d4f76681e98dfb5b76835143"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_136_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_136_R1",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "Trireme Shipchandler",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/JPG\/it_IT\/e18c97b9cc96d28a4cc647b8a996844f.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/JPG\/de_DE\/604788f87868f3079ada11cfe8786958.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Intendant de Trirème",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/JPG\/fr_FR\/b1d3fb64bbea80987dcbde3da958d8b6.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Trireme Shipchandler",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/JPG\/en_US\/f65e2da1e0ec9e93836b67b860bef019.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/JPG\/es_ES\/30746701c75df37bf69c8b866ae26601.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "2F5BJ5P40A9Z6VJNP2TSYYNHCC",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/JPG\/fr_FR\/b1d3fb64bbea80987dcbde3da958d8b6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_136\/JPG\/en_US\/f65e2da1e0ec9e93836b67b860bef019.jpg"
+  },
+  "name": "Trireme Shipchandler",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "#2#",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#{J}# Target Character in your Reserve gains #2 boosts.#"
+  },
   "collectorNumberFormatted": "NEJ-008-R-EN",
   "isSuspended": false,
   "isErrated": false,

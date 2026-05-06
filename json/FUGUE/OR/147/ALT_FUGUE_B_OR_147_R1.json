@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "en_US": {
+          "text": "Such a peaceful soul still had to take up arms to lead Troy's defence.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Une âme paisible, il dut pourtant prendre les armes pour mener la défense de Troie.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KN46AA3FZ379CCMT59SNPRJ4",
+      "text": "Such a peaceful soul still had to take up arms to lead Troy's defence."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,171 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "429D9ADMJF9BX8TA687F08DE1H"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4RKNQ53P3S96BAHAZ109K73A6A"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "5TVN7QG68F9CAAWE2331HBN4J2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4C800KMEES9Y3TWTTSJJQQWAEX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "48C7DFV4Z39Z39JVJ7VMP6DXRT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/73YWMY6NGF8R6BXZRKBW2VN75G",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} #Distribute 3 boosts# among any target Soldiers in play #or in Reserve.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} #Distribute 3 boosts# among any target Soldiers in play #or in Reserve.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} #Distribute 3 boosts# among any target Soldiers in play #or in Reserve.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} #Distribute 3 boosts# among any target Soldiers in play #or in Reserve.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} #Répartissez 3 boosts# parmi #n'importe quels# Soldats ciblés, en jeu #ou en Réserve.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} #Distribute 3 boosts# among any target Soldiers in play #or in Reserve.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_147_R1_0"
+          },
+          "sequence": 0,
+          "id": "07S2AKHBNV8M6BF3MDPV9EZWXS"
+        }
+      ],
+      "value": "{H} Distribute 3 boosts among any target Soldiers in play or in Reserve.",
+      "id": "73YWMY6NGF8R6BXZRKBW2VN75G"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Damian Audino" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/en_US\/bf1b3770dfa418575e374bbcaf342aae.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/WEB_105cf9f0b1c19e27cb978190ca39119b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/WEB_2d8eb8dac092133a02968cd52f633244",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/WEB_dab4c2fcfad6f4b7e7fb6989093630f7"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_147_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_147_R1",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/it_IT\/be10eadee495812dbc51cd51b4129e77.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/es_ES\/dee9555698beee14af39a5b77521bdb1.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Hector",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/fr_FR\/22eb37623b5870a7087d48ad66f2b7c2.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Hector",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/de_DE\/9b563203b037d35aa899d1617dabc887.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Hector",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/en_US\/bf1b3770dfa418575e374bbcaf342aae.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "6FHE6TBT7C9B0TQ31XHZAZZ7JH",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/fr_FR\/22eb37623b5870a7087d48ad66f2b7c2.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/en_US\/bf1b3770dfa418575e374bbcaf342aae.jpg"
+  },
+  "name": "Hector",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "#1#",
+    "OCEAN_POWER": "#1#",
+    "FOREST_POWER": "#1#",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "{H} #Distribute 3 boosts# among any target Soldiers in play #or in Reserve.#"
+  },
   "collectorNumberFormatted": "NEJ-080-R-EN",
   "isSuspended": false,
   "isErrated": false,

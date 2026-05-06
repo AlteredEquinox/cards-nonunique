@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Tenter l'aventure est une destination en soi.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Daring the adventure is a destination in itself.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A4K5VAGN6EJ05ZTMB6XV",
+      "text": "Daring the adventure is a destination in itself."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    },
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +54,171 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "64YRN4XWDJ8GZB74G7SBFYG9DC"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "18T3P0EF0K8ZN8JN98MD6MPFPK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "2Y0J00023Y8B0B3HSFBGSG5CY5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "0F94EM9KFZ9JWRTJPV414XT659"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2BRZZTG4R68P3VFRB4QK25AX0T"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1M090SSQJS9TMB1RBDZ8D8H2VX",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{R} Je gagne 2 boosts.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{R} I gain 2 boosts.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} Ich erhalte 2 Verstärkungen.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} Ottengo 2 rinforzi.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Gano 2 potenciadores.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{R} I gain 2 boosts."
+              }
+            ],
+            "reference": "02801"
+          },
+          "sequence": 0,
+          "id": "0JFX1GF50A8F2SWK7HVACNSYQW"
+        }
+      ],
+      "value": "{R} I gain 2 boosts.",
+      "id": "1M090SSQJS9TMB1RBDZ8D8H2VX"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Victor Canton" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/JPG\/en_US\/951c58f086a60547615c1fb34e7aa0a6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/WEB_b47d688b3c77a83b7936fe9f8aa89be6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/WEB_31fc2b13b67622562fd117e8b2e6a427",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/WEB_9e32e58e4c9692eafd719a322fc7ca86"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_134_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_134_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/JPG\/it_IT\/418ea65968c9e7c0f7085c786275cc92.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Télémaque",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/JPG\/fr_FR\/34e29e35ae593396863490ba3dbee98b.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/JPG\/es_ES\/e1a7cd4b3363e1e5498eaf148cd31014.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Telemachus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/JPG\/de_DE\/17d2ee11810195df58e8c8e906ff646a.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Telemachus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/JPG\/en_US\/951c58f086a60547615c1fb34e7aa0a6.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "593SDCQ0QJ9SWRJB7RY91BYHW8",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/JPG\/fr_FR\/34e29e35ae593396863490ba3dbee98b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_134\/JPG\/en_US\/951c58f086a60547615c1fb34e7aa0a6.jpg"
+  },
+  "name": "Telemachus",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{R} I gain 2 boosts."
+  },
   "collectorNumberFormatted": "NEJ-021-C-EN",
   "isSuspended": false,
   "isErrated": false,

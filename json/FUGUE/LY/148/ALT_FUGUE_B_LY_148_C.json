@@ -12,7 +12,13 @@
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "COMPANION",
+      "id": "01HKAGQPYTEKRYT4PRE9HZHTDA",
+      "name": "Companion"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,207 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "3TDV09JC969D2V0A27DAGGVWDD"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "5B8MW79VXY94X96MWF1D3FCWRT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "40ZJVHMSGB9ASTX8QK0VDQYTH7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "4FS8P248QS9MGRF9SKZVJBBNWQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01CZJGFB8696CB9628A26NCQ2W"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/18XV5JV6Q29BG8WZGF7AMFX0HF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} Roll a die. On a 4+, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} Roll a die. On a 4+, I gain 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} Roll a die. On a 4+, I gain 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Roll a die. On a 4+, I gain 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Lancez un dé. Sur 4+, je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} Roll a die. On a 4+, I gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_148_C_0"
+          },
+          "sequence": 0,
+          "id": "22Q0GH2J2G8048VPWQGJMS4CX0"
+        },
+        {
+          "cardElement": "\/card_elements\/18XV5JV6Q29BG8WZGF7AMFX0HF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "(Je suis créé en Réserve. Vous pouvez me jouer en Expédition. Retirez-moi du jeu si je devais aller ailleurs.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_148_C_1"
+          },
+          "sequence": 1,
+          "id": "1D0F74Y7K78EWRHZRRZTGAFHRN"
+        }
+      ],
+      "value": "{R} Roll a die. On a 4+, I gain 1 boost.  (I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+      "id": "18XV5JV6Q29BG8WZGF7AMFX0HF"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_148\/JPG\/en_US\/449b5b863a3ed5b2e9e5547f33621382.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_148\/WEB_860f12330de85a4b33dd1d063b972950"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_148_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_148_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Shift",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_148\/JPG\/en_US\/449b5b863a3ed5b2e9e5547f33621382.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Shift",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_148\/JPG\/de_DE\/1a3635c8c0e8c634792adbb1bf8e420a.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_148\/JPG\/es_ES\/fa8e905a6df183c43caa08c8e9ceb902.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_148\/JPG\/it_IT\/c7c125241cec2143230e4d3b60771fa7.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Shift",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_148\/JPG\/fr_FR\/d8b3bfc60066b4c4e2f2834e60a97c1d.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "2G34Y0DR229FG8BGQSVVA9AG9Q",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_148\/JPG\/fr_FR\/d8b3bfc60066b4c4e2f2834e60a97c1d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_148\/JPG\/en_US\/449b5b863a3ed5b2e9e5547f33621382.jpg"
+  },
+  "name": "Shift",
+  "elements": {
+    "MAIN_COST": "",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{R} Roll a die. On a 4+, I gain 1 boost.  (I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)"
+  },
   "collectorNumberFormatted": "NEJ-111-T-EN",
   "isSuspended": false,
   "isErrated": false,

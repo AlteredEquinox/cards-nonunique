@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Le voyage ne fut pas de tout repos.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "The journey was anything but easy.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A415RRFKXEV20431WA8M",
+      "text": "The journey was anything but easy."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +49,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "3DRMBGEWHF8FMBW0X7SY6SHRVH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "65FWRZS90R8CGBMH819EGYNSTT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4T2DYEHMV18M69G43CAGFBYBDM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1XDWYPPGVS8YGV7PTV8FVW14FF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4VQ9XMJJ4T8NXASP47E31H4VKB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/09V9ZBFSQ29FXRYSNKKNPJDTFY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} If there are two or more cards in your Reserve, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} If there are two or more cards in your Reserve, I gain 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} If there are two or more cards in your Reserve, I gain 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} If there are two or more cards in your Reserve, I gain 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} S'il y a au moins deux cartes dans votre Réserve, je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} If there are two or more cards in your Reserve, I gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_132_C_0"
+          },
+          "sequence": 0,
+          "id": "1C1M37W0KT9C6AZQD9ZX6AETCW"
+        }
+      ],
+      "value": "{J} If there are two or more cards in your Reserve, I gain 1 boost.",
+      "id": "09V9ZBFSQ29FXRYSNKKNPJDTFY"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/JPG\/en_US\/f430cd3284691bf65eb62fdad270c6c1.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/WEB_77199cf51a25e5c609132f68646fc19e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/WEB_2242b9b055951fe8dd66c59bfc6ba0c0",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/WEB_e26dbb05ddfff2ddd735e9f8f72566fc"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_132_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_132_R2",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Trireme Boatswain",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/JPG\/de_DE\/af7ad653f940e98fd5324b13b2e9a747.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/JPG\/it_IT\/400604e992e7997af01e9dc91970911a.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Bosco de Trirème",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/JPG\/fr_FR\/60ad51ac651be27588b5e82994f782ab.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Trireme Boatswain",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/JPG\/en_US\/f430cd3284691bf65eb62fdad270c6c1.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/JPG\/es_ES\/0a3ed87b8fdc49df7eb390753e844584.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "480519NHKM95XAK4V8JCKFKQ7W",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-004-R-EN",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/JPG\/fr_FR\/60ad51ac651be27588b5e82994f782ab.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_132\/JPG\/en_US\/f430cd3284691bf65eb62fdad270c6c1.jpg"
+  },
+  "name": "Trireme Boatswain",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "#1#",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "#1#",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{J} If there are two or more cards in your Reserve, I gain 1 boost."
+  },
+  "collectorNumberFormatted": "NEJ-004-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

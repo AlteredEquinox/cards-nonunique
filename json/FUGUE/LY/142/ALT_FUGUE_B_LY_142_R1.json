@@ -12,7 +12,9 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    { "reference": "SONG", "id": "01HKAGRNJ8WF0FSG4M2MEW7AJ2", "name": "Song" }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +25,283 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "42JDPEGEST9F992A3J09KYCWXT"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "548RTXFARR9G9VE5ZQ1FCJ8D60"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "2QNMMGCZJ981JB8DZCMKED06X9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1Q0JDVTY9E8HV9E78BXX4J6WN0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2P8T35R96J8S1T9BSWX8PKXFDW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1DQREG9PWT8B9S3Y19CJ2CPP33",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Roll a die. On a #6+, you may choose both, otherwise choose one:#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Roll a die. On a #6+, you may choose both, otherwise choose one:#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Roll a die. On a #6+, you may choose both, otherwise choose one:#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Roll a die. On a #6+, you may choose both, otherwise choose one:#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lancez un dé. Sur #6+, vous pouvez choisir les deux, sinon choisissez l'un :#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Roll a die. On a #6+, you may choose both, otherwise choose one:#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_142_R1_0"
+          },
+          "sequence": 0,
+          "id": "75ZHBN796R9KQVJCPZTWCEPV25"
+        },
+        {
+          "cardElement": "\/card_elements\/1DQREG9PWT8B9S3Y19CJ2CPP33",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• Target Character gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• Target Character gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• Target Character gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• Target Character gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• Un Personnage ciblé gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• Target Character gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_142_R1_1"
+          },
+          "sequence": 1,
+          "id": "4YFPRW1G3F9P3SSB8EV4HE74MM"
+        },
+        {
+          "cardElement": "\/card_elements\/1DQREG9PWT8B9S3Y19CJ2CPP33",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "75NCNKWCFJ85C8V8CCXD26BXA9"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• Target Character gains [FLEETING].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• Target Character gains [FLEETING].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• Target Character gains [FLEETING].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• Target Character gains [FLEETING].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• Un Personnage ciblé gagne [FLEETING].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• Target Character gains [FLEETING]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_142_R1_2"
+          },
+          "sequence": 2,
+          "id": "2AFXGCF06A828A1HEZ5DTWF78K"
+        }
+      ],
+      "value": "Roll a die. On a 6+, you may choose both, otherwise choose one:  • Target Character gains 1 boost.  • Target Character gains [[Fleeting]].",
+      "id": "1DQREG9PWT8B9S3Y19CJ2CPP33"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Victor Canton" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_142\/JPG\/en_US\/1d1658decb9acacbf34a13b6a8627d13.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_142\/WEB_62a1eccbcbec3272fcc7a7d4d0614799",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_142\/WEB_6260bb9d2f178555272b530ce5f1e7ae"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_142_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_142_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Demodocus' Tale",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_142\/JPG\/de_DE\/42f4cbb1399c504891e98af75db2a591.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Demodocus' Tale",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_142\/JPG\/en_US\/1d1658decb9acacbf34a13b6a8627d13.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_142\/JPG\/es_ES\/32580769ce38896a5a2ad6e17d24ae5d.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_142\/JPG\/it_IT\/6aea530648a7d8a1e2e1fd3bf2b5d501.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Récit de Démodocus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_142\/JPG\/fr_FR\/a114f658351990e652da26212f8d31b2.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "6P5GAHQETE8P9A075206NQW0YB",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_142\/JPG\/fr_FR\/a114f658351990e652da26212f8d31b2.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_142\/JPG\/en_US\/1d1658decb9acacbf34a13b6a8627d13.jpg"
+  },
+  "name": "Demodocus' Tale",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "Roll a die. On a #6+, you may choose both, otherwise choose one:#  • Target Character gains 1 boost.  • Target Character gains [[Fleeting]]."
+  },
   "collectorNumberFormatted": "NEJ-051-R-EN",
   "isSuspended": false,
   "isErrated": false,

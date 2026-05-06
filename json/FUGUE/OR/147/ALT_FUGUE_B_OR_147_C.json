@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "en_US": {
+          "text": "Such a peaceful soul still had to take up arms to lead Troy's defence.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Une âme paisible, il dut pourtant prendre les armes pour mener la défense de Troie.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KN46AA3FZ379CCMT59SNPRJ4",
+      "text": "Such a peaceful soul still had to take up arms to lead Troy's defence."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,171 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7F736A06CM9T8BZW75F0RNE89Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "46AF1K0F2F8M69VKWVHZJSXA7K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "334VMDD82T98ZVX11FYJCKKDQD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "63AHS2Z9Q89HA944QHZHQA7FT9"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5HWK87D24Z8968GPJ8TH1CQ4TD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7PYAMNBX7T9QAVR63WV21DWFSK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Target up to two other Soldiers, they each gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Target up to two other Soldiers, they each gain 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Target up to two other Soldiers, they each gain 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Target up to two other Soldiers, they each gain 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Jusqu'à deux autres Soldats ciblés gagnent chacun 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Target up to two other Soldiers, they each gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_147_C_0"
+          },
+          "sequence": 0,
+          "id": "17YESA7FRW8B0B5FAWW6Q4J72K"
+        }
+      ],
+      "value": "{H} Target up to two other Soldiers, they each gain 1 boost.",
+      "id": "7PYAMNBX7T9QAVR63WV21DWFSK"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Damian Audino" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/en_US\/3560516160de7c72c9c52ce943d872b4.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/WEB_105cf9f0b1c19e27cb978190ca39119b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/WEB_2d8eb8dac092133a02968cd52f633244",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/WEB_dab4c2fcfad6f4b7e7fb6989093630f7"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_147_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_147_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Hector",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/de_DE\/8b03fe92a704865cd7638a7ba9c45ee3.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/it_IT\/365224dedc05d389bc7173403c49479c.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Hector",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/fr_FR\/7e21e3773f3f483df631bfe1a2adbf5f.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/es_ES\/95cb96233fba60f3e0809d650ff98d66.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Hector",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/en_US\/3560516160de7c72c9c52ce943d872b4.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "2H88J9D18H82RVP9K57C2SXW0M",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/fr_FR\/7e21e3773f3f483df631bfe1a2adbf5f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_147\/JPG\/en_US\/3560516160de7c72c9c52ce943d872b4.jpg"
+  },
+  "name": "Hector",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} Target up to two other Soldiers, they each gain 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-080-C-EN",
   "isSuspended": false,
   "isErrated": false,

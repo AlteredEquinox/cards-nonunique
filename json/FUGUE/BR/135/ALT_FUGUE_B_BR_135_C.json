@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,208 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6C5A40JXQ69YMRNJRW7P16SARD"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "38RMAAH5XA8WVVHX1V4QV351ZY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4C9S964APF9PK814C4S3Y3K99F"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "15S5Z29GM796ZSJYD68GTC011B"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1QX0P7FHPN8VCTYG98RVH848Z7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/0S77W0C3T78H0VZQMAXM4QJ387",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Coriaces 1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V93R4X2QDP6CPHFSR8DWC",
+                      "reference": "TOUGH_CHA_P_1"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "7F6ADMHQYE81P9FXCH7MPNJKP4"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Companions in your Expeditions are [TOUGH_CHA_P_1]. (Opponents must pay {1} to target them.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Companions in your Expeditions are [TOUGH_CHA_P_1]. (Opponents must pay {1} to target them.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Companions in your Expeditions are [TOUGH_CHA_P_1]. (Opponents must pay {1} to target them.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Companions in your Expeditions are [TOUGH_CHA_P_1]. (Opponents must pay {1} to target them.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Les Compagnons dans vos Expéditions sont [TOUGH_CHA_P_1]. (Vos adversaires doivent payer {1} pour les cibler.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Companions in your Expeditions are [TOUGH_CHA_P_1]. (Opponents must pay {1} to target them.)"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_135_C_0"
+          },
+          "sequence": 0,
+          "id": "3MB5Y188GK9K2VTTSJ8TA2PGQ2"
+        }
+      ],
+      "value": "Companions in your Expeditions are [Tough 1]. (Opponents must pay {1} to target them.)",
+      "id": "0S77W0C3T78H0VZQMAXM4QJ387"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/en_US\/272da02eba1affd3daae9e1a334ee4d3.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/WEB_29db008c15cc8998515c513645ff900a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/WEB_b658b87f16cc7f2afa34580dcbc53799",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/WEB_16e6b634617954b71c0b582fd3124dd2"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_135_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_135_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Capitaine de Trirème",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/fr_FR\/b88ad78c95823f9221387d49715514cf.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/it_IT\/5b43e2d48e713f5d436c7d1816906a68.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/es_ES\/82b3e12e71a3eeffdb731452ef0b959e.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Trireme Captain",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/en_US\/272da02eba1affd3daae9e1a334ee4d3.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Trireme Captain",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/de_DE\/05f9fad6d57d944e347df215a44fa76d.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "106EA3VQCF89CSBTJ9DDA4Y6WS",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/fr_FR\/b88ad78c95823f9221387d49715514cf.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_135\/JPG\/en_US\/272da02eba1affd3daae9e1a334ee4d3.jpg"
+  },
+  "name": "Trireme Captain",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "Companions in your Expeditions are [Tough 1]. (Opponents must pay {1} to target them.)"
+  },
   "collectorNumberFormatted": "NEJ-027-C-EN",
   "isSuspended": false,
   "isErrated": false,

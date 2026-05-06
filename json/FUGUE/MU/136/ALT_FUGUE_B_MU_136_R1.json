@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,165 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0MMMTJ8DZ79W89V78MYCJ27J96"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "2XM30ARS9K9SZTSH9GNXVPCERF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0DE3B88ZS59FF8E6P7BYJYH0NZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7ZSSYD5RHF9X7V46KKYK95MV2D"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "610PDC7YCX9E8AB1C57BP0JPCR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7M9DTX2GXB94W9G0QHJT96SRPY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may put #target Permanent# in its owner's Mana zone (as an exhausted Mana Orb).",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may put #target Permanent# in its owner's Mana zone (as an exhausted Mana Orb).",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may put #target Permanent# in its owner's Mana zone (as an exhausted Mana Orb).",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may put #target Permanent# in its owner's Mana zone (as an exhausted Mana Orb).",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez mettre #un Permanent ciblé# dans la zone de Mana de son propriétaire (en tant qu'Orbe de Mana épuisé).",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may put #target Permanent# in its owner's Mana zone (as an exhausted Mana Orb)."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_136_R1_0"
+          },
+          "sequence": 0,
+          "id": "0QMAH6QRX68Q5RK5DNQK9RBM2K"
+        }
+      ],
+      "value": "{H} You may put target Permanent in its owner's Mana zone (as an exhausted Mana Orb).",
+      "id": "7M9DTX2GXB94W9G0QHJT96SRPY"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Benoit Barraqué-Curie " },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/en_US\/9f6cf3aab0e98c1daef0a3c8442da250.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_136_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_136_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Parnassus Boar",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/de_DE\/a928d5dd16f3e1d8de15bd49e4190504.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/es_ES\/4fc319ada070097f664b8a1860189d9d.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Parnassus Boar",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/en_US\/9f6cf3aab0e98c1daef0a3c8442da250.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/it_IT\/a64c08b10c10e54c7138b30658374286.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Sanglier du Parnasse",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/fr_FR\/0a9e81a4c1215afd2b7849d111ecc2b9.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "00KAS7NWT79YYSW62K2CXBQ07M",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/fr_FR\/0a9e81a4c1215afd2b7849d111ecc2b9.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/en_US\/9f6cf3aab0e98c1daef0a3c8442da250.jpg"
+  },
+  "name": "Parnassus Boar",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} You may put #target Permanent# in its owner's Mana zone (as an exhausted Mana Orb)."
+  },
   "collectorNumberFormatted": "NEJ-063-R-EN",
   "isSuspended": false,
   "isErrated": false,

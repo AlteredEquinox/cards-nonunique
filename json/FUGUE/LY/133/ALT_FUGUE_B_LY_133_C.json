@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Votre périple sera ardu. Profitez donc de cette halte, et de notre hospitalité. »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“Your journey will be arduous. Take this respite, and enjoy our hospitality.”",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A5E2TBQQC8JEJYGT9ETQ",
+      "text": "“Your journey will be arduous. Take this respite, and enjoy our hospitality.”"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,121 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "03G8M5F4R39KA9T93D3AMFCG0K"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1XVY7X6R8J9WSV7HGR5T0XKV7D"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "7MJ54ZSEG882FS16TF5FXQ076S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "140ME6KC5D8JS9PDZBG85AYVKF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5C8AZQ0JN08ZK9HZAC55HB77HN"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/en_US\/2a399f42a3724e954071de9b42c21759.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/WEB_721a5bf3acc8ed77e26ae205625ce2b7",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/WEB_4d8a044559dc690baa1c1f6343c0a81e",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/WEB_6ae16a2f962bd63027f1955f8055a872"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_133_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_133_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/es_ES\/657b76a665207a87b9950f3d12ec0c81.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Noblesse de Schérie",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/fr_FR\/ded405177108eecb6f803927be3ffabb.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Scheria's Royalty",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/de_DE\/1d342f0ae0a0d2f5cb7c24527433ef90.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Scheria's Royalty",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/en_US\/2a399f42a3724e954071de9b42c21759.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/it_IT\/92eb448ea7d6136451c2ececf9d61c3e.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "6MM4GMGB8C80387TR551R0GZV7",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/fr_FR\/ded405177108eecb6f803927be3ffabb.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_133\/JPG\/en_US\/2a399f42a3724e954071de9b42c21759.jpg"
+  },
+  "name": "Scheria's Royalty",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "0"
+  },
   "collectorNumberFormatted": "NEJ-043-C-EN",
   "isSuspended": false,
   "isErrated": false,

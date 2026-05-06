@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +34,244 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7W634MH3H59YMV1VA88X8J75SX"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3YT5FKMBC7977VBTAPVRNPD5H3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "0RXX4141V495YSHHZWM164KZRG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4QP6DKYQPY9GTA365EHHP9X7Q6"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5ZVX0BT5X69JXB4FJPGTWBZ2TH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/65GDNZGD1C9T6B36RDKBNWYP3T",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "17MDYSY1FC9Y2SR7B8EGTX2FXR"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabotare",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotear",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Saboter",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22EQVNW1H84FFR1R8V4964",
+                      "reference": "SABOTAGE_INF"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "0BGW5WD0HM936V7CKSJHQ45JJG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Roll a die, then [SABOTAGE] a card with Reserve Cost less than or equal to the die's result. #On a 6+, you may also [SABOTAGE_INF] another card.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Roll a die, then [SABOTAGE] a card with Reserve Cost less than or equal to the die's result. #On a 6+, you may also [SABOTAGE_INF] another card.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Roll a die, then [SABOTAGE] a card with Reserve Cost less than or equal to the die's result. #On a 6+, you may also [SABOTAGE_INF] another card.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Roll a die, then [SABOTAGE] a card with Reserve Cost less than or equal to the die's result. #On a 6+, you may also [SABOTAGE_INF] another card.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Lancez un dé. Puis [SABOTAGE] une carte dont le Coût de Réserve est inférieur ou égal au résultat. #Sur 6+, vous pouvez aussi [SABOTAGE_INF] une autre carte.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Roll a die, then [SABOTAGE] a card with Reserve Cost less than or equal to the die's result. #On a 6+, you may also [SABOTAGE_INF] another card.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_138_R1_0"
+          },
+          "sequence": 0,
+          "id": "3VEJSHJ6T48TBT55NQST4DTP50"
+        }
+      ],
+      "value": "{H} Roll a die, then [Sabotage] a card with Reserve Cost less than or equal to the die's result. On a 6+, you may also [Sabotage] another card.",
+      "id": "65GDNZGD1C9T6B36RDKBNWYP3T"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Nestor Papatriantafyllou" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/en_US\/b315539ba15ce81662846f76db06b539.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/WEB_36b01264110032ff4ee7e02ad63e9412",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/WEB_aa6f4ca4b4434da1960f513814311b09",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/WEB_8f86fe8db05f95df204ab18841839a2d"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_138_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_138_R1",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Lotus-Eater",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/en_US\/b315539ba15ce81662846f76db06b539.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Lotophage",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/fr_FR\/759ef8c05754f6972aa4da8bd7258a5f.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/it_IT\/f2525995d9327f9c7a0a8cfffbd99a75.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Lotus-Eater",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/de_DE\/4fd8282225fff6df60ed209a0bfec6dc.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/es_ES\/2501232f4b617aa3d04d91f0914a28e9.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "6A10XRNE3N9Q8SXYCYN4R808K9",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/fr_FR\/759ef8c05754f6972aa4da8bd7258a5f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/en_US\/b315539ba15ce81662846f76db06b539.jpg"
+  },
+  "name": "Lotus-Eater",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{H} Roll a die, then [Sabotage] a card with Reserve Cost less than or equal to the die's result. #On a 6+, you may also [Sabotage] another card.#"
+  },
   "collectorNumberFormatted": "NEJ-045-R-EN",
   "isSuspended": false,
   "isErrated": false,

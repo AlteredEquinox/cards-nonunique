@@ -12,7 +12,9 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    { "reference": "SITE", "id": "01J1SYC3P1C9H7CT2H8C0WN9CT", "name": "Site" }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +25,268 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1YH1168YTQ878A1JTKZN2DKCCG"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7S4QXZ9TTY9N8BB9EHZY8KEFW4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "0RHTBQNP3J9RXRC4ER2SSREJPM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "3YK9952FGZ8YPTHYYER1MMS939"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "22C09TAG7293KBF964JBRSARVV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3CRNZ5Y48H8QSV2FKZMDWSVPKD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JZ2KN6DGFCRK8TZ98KT3SJBP"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "{J} #[RESUPPLY].#", "locale": "en_US" },
+                  "fr_FR": { "text": "{J} #[RESUPPLY].#", "locale": "fr_FR" },
+                  "de_DE": { "text": "{J} #[RESUPPLY].#", "locale": "de_DE" },
+                  "es_ES": { "text": "{J} #[RESUPPLY].#", "locale": "es_ES" },
+                  "it_IT": { "text": "{J} #[RESUPPLY].#", "locale": "it_IT" }
+                },
+                "text": "{J} #[RESUPPLY].#"
+              }
+            ],
+            "reference": "01840"
+          },
+          "sequence": 0,
+          "id": "4R8S06XSGJ9XKAASDCRTC7GDV6"
+        },
+        {
+          "cardElement": "\/card_elements\/3CRNZ5Y48H8QSV2FKZMDWSVPKD",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Schlafend",
+                          "locale": "de_DE",
+                          "description": "Am Abend ignoriere meine Statistiken. Während der Ruhepause gehe ich nicht in die Reserve und verliere Schlafend."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Dormiente",
+                          "locale": "it_IT",
+                          "description": "Durante il crepuscolo, ignora le mie statistiche. Durante il riposo, non vado nella Riserva e perdo Dormiente."
+                        },
+                        "en_US": {
+                          "displayWeb": "Asleep",
+                          "locale": "en_US",
+                          "description": "During Dusk, ignore my statistics. During Rest, I don't go to Reserve and I lose Asleep."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Endormi",
+                          "locale": "fr_FR",
+                          "description": "Ignorez mes statistiques pendant le Crépuscule. Au Repos, je ne vais pas en Réserve et je perds Endormi."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sueño",
+                          "locale": "es_ES",
+                          "description": "Durante el anochecer, ignora mis estadísticas. Durante el descanso, no voy a la reserva y pierdo sueño."
+                        }
+                      },
+                      "id": "01HKAGPDSXJC9J9QJ4Y1DBK28E",
+                      "reference": "ASLEEP"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "6QEBMZ7HYP9KAR2YSAX98JE3AY"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "If an #[ASLEEP]# Character would leave your Expeditions during the Afternoon, you may #sacrifice me# instead.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "If an #[ASLEEP]# Character would leave your Expeditions during the Afternoon, you may #sacrifice me# instead.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "If an #[ASLEEP]# Character would leave your Expeditions during the Afternoon, you may #sacrifice me# instead.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "If an #[ASLEEP]# Character would leave your Expeditions during the Afternoon, you may #sacrifice me# instead.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Si un Personnage #[ASLEEP]# devait quitter vos Expéditions durant l'Après-midi, vous pouvez #me sacrifier# à la place.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "If an #[ASLEEP]# Character would leave your Expeditions during the Afternoon, you may #sacrifice me# instead."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_146_R2_1"
+          },
+          "sequence": 1,
+          "id": "22S8C9SCXG8XPB2ZKXVY9GZ7KF"
+        }
+      ],
+      "value": "{J} [Resupply].  If an [[Asleep]] Character would leave your Expeditions during the Afternoon, you may sacrifice me instead.",
+      "id": "3CRNZ5Y48H8QSV2FKZMDWSVPKD"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Giovanni Calore " },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/en_US\/b529f4aafaac31bf912d9a56932779a2.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/WEB_d8aec8eacadeaf1bbb4a638ddd2bb8e4",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/WEB_dd35a39ad91f7961e6eec5427c177ea7"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_146_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_146_R2",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/it_IT\/d083d58d4cb334241722218fed10d9a7.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Fane of Calypso",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/en_US\/b529f4aafaac31bf912d9a56932779a2.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Fane of Calypso",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/de_DE\/a114423e3797d81ca94a6df066baa990.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Sanctuaire de Calypso",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/fr_FR\/14f0b7bd37433a7bd8ab62a764d732a2.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/es_ES\/6561cf94b58cae72315ecdfda0d278a6.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "4STBN7XZJE9KKRTG2K5Q0WVKB2",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-072-R-EN",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/fr_FR\/14f0b7bd37433a7bd8ab62a764d732a2.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_146\/JPG\/en_US\/b529f4aafaac31bf912d9a56932779a2.jpg"
+  },
+  "name": "Fane of Calypso",
+  "elements": {
+    "MAIN_COST": "#1#",
+    "RECALL_COST": "#1#",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "{J} #[Resupply].#  If an #[[Asleep]]# Character would leave your Expeditions during the Afternoon, you may #sacrifice me# instead."
+  },
+  "collectorNumberFormatted": "NEJ-072-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

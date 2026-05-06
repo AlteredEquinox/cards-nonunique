@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Par sa mort, les flottes grecques trouvèrent leur chemin jusqu'à Troie.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "In her death, the Greek fleets found their way to Troy.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46ABWA60PPMXPG8MNS7T77",
+      "text": "In her death, the Greek fleets found their way to Troy."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +54,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "252YMYYMJY8DAVXEVP1GQMSGP9"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "25HPKAV4WN8W7ASZTBJVWBW1Q7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4DF4B0PK9P9K9BTQ696N25B0SF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5V86ZE3EXW9HDRYYE7HKWAMDZY"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0X66312SWP8SG8QF29JNVVE32D"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1VXGYQC74596K8MKCSFBCCN17H",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When #you sacrifice a Permanent# — #Put me in my owner's Mana zone# (as an exhausted Mana Orb).",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When #you sacrifice a Permanent# — #Put me in my owner's Mana zone# (as an exhausted Mana Orb).",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When #you sacrifice a Permanent# — #Put me in my owner's Mana zone# (as an exhausted Mana Orb).",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When #you sacrifice a Permanent# — #Put me in my owner's Mana zone# (as an exhausted Mana Orb).",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque #vous sacrifiez un Permanent# — #Mettez moi dans la zone de Mana de mon propriétaire# (en tant qu'Orbe de Mana épuisé).",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When #you sacrifice a Permanent# — #Put me in my owner's Mana zone# (as an exhausted Mana Orb)."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_143_R2_0"
+          },
+          "sequence": 0,
+          "id": "7AXWF070AS8FPACE8HKMMGTCS3"
+        }
+      ],
+      "value": "When you sacrifice a Permanent — Put me in my owner's Mana zone (as an exhausted Mana Orb).",
+      "id": "1VXGYQC74596K8MKCSFBCCN17H"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Leena Sooba" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/en_US\/31b631e0f62bc54257abd75f51775b77.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/WEB_5d9f9eb3dc22961ecac166b38a82c6c9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/WEB_dcae5a59f859ed81c4cefd6e18833659",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/WEB_573da10e159cd292072ffa5887e01110"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_143_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_143_R2",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/it_IT\/77d9b60d568c6194042e1800c972fcd8.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Iphigenia",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/en_US\/31b631e0f62bc54257abd75f51775b77.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Iphigenia",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/de_DE\/071e7dabf75e2c885d1437a64fd17416.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/es_ES\/1ed5e53208ddc5523819316eca6dce4b.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Iphigénie",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/fr_FR\/8b04da89eb83708c8dd4dbbfb4187343.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "6DAWEV4ZJ28R99DBPJKK2Y0CT9",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-098-R-EN",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/fr_FR\/8b04da89eb83708c8dd4dbbfb4187343.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/en_US\/31b631e0f62bc54257abd75f51775b77.jpg"
+  },
+  "name": "Iphigenia",
+  "elements": {
+    "MAIN_COST": "#3#",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "When #you sacrifice a Permanent# — #Put me in my owner's Mana zone# (as an exhausted Mana Orb)."
+  },
+  "collectorNumberFormatted": "NEJ-098-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

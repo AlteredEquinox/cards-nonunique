@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« J'ai reprogrammé tous mes Automates pour les affecter à la construction de l'Homère. » — Sierra",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“I’ve reprogrammed all my Automata to assign them to the construction of the Homer.” — Sierra",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A466H93PPBV3THEYKAW6",
+      "text": "“I’ve reprogrammed all my Automata to assign them to the construction of the Homer.” — Sierra"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ROBOT",
+      "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+      "name": "Robot"
+    },
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +54,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "58Y24QFNAN91KAJWJ2T61M3ZMS"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "5K794XM12M9CN9NAEMSVNCSDM9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "0KKND79C8R9JYBM0PAB734R60X"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "0VKJ85P5M1991AZP029FZJA8EA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "1J6R7PQQN59MSVNNXHKNR9JEDR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/12VE3KX2JH9Z9A3WJZ5CF2DQPY",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#I am also considered a Spell, even when not in play.# (Play me as a Character, but it counts as playing a Spell for other abilities.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#I am also considered a Spell, even when not in play.# (Play me as a Character, but it counts as playing a Spell for other abilities.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#I am also considered a Spell, even when not in play.# (Play me as a Character, but it counts as playing a Spell for other abilities.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#I am also considered a Spell, even when not in play.# (Play me as a Character, but it counts as playing a Spell for other abilities.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Je suis aussi considéré comme un Sort, même quand je ne suis pas en jeu.# (Jouez-moi comme un Personnage, mais cela compte comme jouer un Sort pour les autres capacités.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#I am also considered a Spell, even when not in play.# (Play me as a Character, but it counts as playing a Spell for other abilities.)"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_139_R2_0"
+          },
+          "sequence": 0,
+          "id": "4ZVV39GD1G9KQ8VKZAV0SH7WR3"
+        }
+      ],
+      "value": "I am also considered a Spell, even when not in play. (Play me as a Character, but it counts as playing a Spell for other abilities.)",
+      "id": "12VE3KX2JH9Z9A3WJZ5CF2DQPY"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/en_US\/b5eb09fe4579981fe4b52e5986328493.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/WEB_70b7d4d1d91eec0b9f446a1623084018",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/WEB_abbc7c610af584922dbdbcb765d2cbee",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/WEB_c4ed62f2874ce83f1452597e27d999a5"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_139_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_139_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/es_ES\/3fe3b525a67d211028c2b0524703ba57.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Shipwright Automaton",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/de_DE\/3ae838ae3e989cdb178906d5bca4545e.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/it_IT\/4bb212432bcd3bccdf70c18a422dba02.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Shipwright Automaton",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/en_US\/b5eb09fe4579981fe4b52e5986328493.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Taquier Robotique",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/fr_FR\/11e3060a010588d35e7097f44db1dc3d.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "1W7F4XWS859HXSEW07ATF6QR4F",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-010-R-EN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/fr_FR\/11e3060a010588d35e7097f44db1dc3d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/en_US\/b5eb09fe4579981fe4b52e5986328493.jpg"
+  },
+  "name": "Shipwright Automaton",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "#4#",
+    "FOREST_POWER": "#4#",
+    "MOUNTAIN_POWER": "#4#",
+    "MAIN_EFFECT": "#I am also considered a Spell, even when not in play.# (Play me as a Character, but it counts as playing a Spell for other abilities.)"
+  },
+  "collectorNumberFormatted": "NEJ-010-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Par sa mort, les flottes grecques trouvèrent leur chemin jusqu'à Troie.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "In her death, the Greek fleets found their way to Troy.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46ABWA60PPMXPG8MNS7T77",
+      "text": "In her death, the Greek fleets found their way to Troy."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +54,171 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4BA82VNYTZ8YCSJMMPP4BPWKRN"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7Z1WSA58A18VQ96DYJCRV6MJH6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "44M3F6RMEC82G8AHERBDXXB6M9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "03G7HB8WFN9N7AZCHG58GT2DRB"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0BSH1SZM9P9GB9WTE2AN19TW50"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/5KQKYF3A0W9BDA821GWW8ABEJ1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When I'm sacrificed — Draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When I'm sacrificed — Draw a card.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When I'm sacrificed — Draw a card.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When I'm sacrificed — Draw a card.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je suis sacrifiée — Piochez une carte.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When I'm sacrificed — Draw a card."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_143_C_0"
+          },
+          "sequence": 0,
+          "id": "7GWTFEYH7X8SGV3DF5E9YJ70H6"
+        }
+      ],
+      "value": "When I'm sacrificed — Draw a card.",
+      "id": "5KQKYF3A0W9BDA821GWW8ABEJ1"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Leena Sooba" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/en_US\/0d3a1f675f42e523e5f2cf09e91ea91c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/WEB_5d9f9eb3dc22961ecac166b38a82c6c9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/WEB_dcae5a59f859ed81c4cefd6e18833659",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/WEB_573da10e159cd292072ffa5887e01110"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_143_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_143_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/es_ES\/f65204458bf1edfcb3dcd1c3419ef904.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/it_IT\/19bebdb9cce2057a13c8e620dcf6f481.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Iphigénie",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/fr_FR\/65de98fb58b8579eccd56dfe89249dd4.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Iphigenia",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/en_US\/0d3a1f675f42e523e5f2cf09e91ea91c.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Iphigenia",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/de_DE\/d8babf46f1b15ce6eba9fcee57ffaf77.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "3W221ATGBE88EV6XGDAZTZW392",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/fr_FR\/65de98fb58b8579eccd56dfe89249dd4.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_143\/JPG\/en_US\/0d3a1f675f42e523e5f2cf09e91ea91c.jpg"
+  },
+  "name": "Iphigenia",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "When I'm sacrificed — Draw a card."
+  },
   "collectorNumberFormatted": "NEJ-098-C-EN",
   "isSuspended": false,
   "isErrated": false,

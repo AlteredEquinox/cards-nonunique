@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,292 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "79C2GYPZAC996BFKXR2ATH8XBT"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4SGJK6MAAZ8Z1R4SEM4ERTKVGC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0HD8HHAE299NWTMD37S262MNZ7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "59SW62ETPB854SRZYN9W9BJPRV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "5",
+      "id": "2WBR5GGGGK9YX8AF5BW37B33SE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/32Y59S2Q6K8FZA0JK7NX8G3T8Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Verteidiger",
+                          "locale": "de_DE",
+                          "description": "Meine Expedition kann sich am Abend nicht vorwärts bewegen."
+                        },
+                        "en_US": {
+                          "displayWeb": "Defender",
+                          "locale": "en_US",
+                          "description": "My Expedition can't move forward during Dusk."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Defensor",
+                          "locale": "es_ES",
+                          "description": "Mi expedición no puede avanzar durante el anochecer."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Difensore",
+                          "locale": "it_IT",
+                          "description": "La mia spedizione non può avanzare durante il crepuscolo."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Défenseur",
+                          "locale": "fr_FR",
+                          "description": "Mon Expédition ne peut pas avancer pendant le Crépuscule."
+                        }
+                      },
+                      "id": "01HKAGT6K21NN8C88CAFXSN5RF",
+                      "reference": "DEFENDER"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "1YZMNKKTCK9E0SDRK2ZX52NR7X"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "[DEFENDER].", "locale": "en_US" },
+                  "fr_FR": { "text": "[DEFENDER].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[DEFENDER].", "locale": "de_DE" },
+                  "it_IT": { "text": "[DEFENDER].", "locale": "it_IT" },
+                  "es_ES": { "text": "[DEFENDER].", "locale": "es_ES" }
+                },
+                "text": "[DEFENDER]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_145_C_0"
+          },
+          "sequence": 0,
+          "id": "6P4VD1RT72896B12886S7784PZ"
+        },
+        {
+          "cardElement": "\/card_elements\/32Y59S2Q6K8FZA0JK7NX8G3T8Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "{J} I #defect.#", "locale": "en_US" },
+                  "de_DE": { "text": "{J} I #defect.#", "locale": "de_DE" },
+                  "it_IT": { "text": "{J} I #defect.#", "locale": "it_IT" },
+                  "es_ES": { "text": "{J} I #defect.#", "locale": "es_ES" },
+                  "fr_FR": { "text": "{J} Je #trahis.#", "locale": "fr_FR" }
+                },
+                "text": "{J} I #defect.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_145_R1_1"
+          },
+          "sequence": 1,
+          "id": "4F1Z1YWER19FSRCWXQ8J2Y67B1"
+        },
+        {
+          "cardElement": "\/card_elements\/32Y59S2Q6K8FZA0JK7NX8G3T8Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "2BSTMS4D7A8NATE1KQ1V1GH5FX"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When I leave the Expedition zone — My owner creates an [ORDIS_RECRUIT] Soldier token in each of their Expeditions.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When I leave the Expedition zone — My owner creates an [ORDIS_RECRUIT] Soldier token in each of their Expeditions.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When I leave the Expedition zone — My owner creates an [ORDIS_RECRUIT] Soldier token in each of their Expeditions.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When I leave the Expedition zone — My owner creates an [ORDIS_RECRUIT] Soldier token in each of their Expeditions.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je quitte la zone d'Expédition — Mon propriétaire crée un jeton Soldat [ORDIS_RECRUIT] dans chacune de ses Expéditions.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When I leave the Expedition zone — My owner creates an [ORDIS_RECRUIT] Soldier token in each of their Expeditions."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_145_C_2"
+          },
+          "sequence": 2,
+          "id": "1SS3QW65VT9H3SGNBG530MPPJ0"
+        }
+      ],
+      "value": "[Defender].  {J} I defect.  When I leave the Expedition zone — My owner creates an [Ordis Recruit 1\/1\/1] Soldier token in each of their Expeditions.",
+      "id": "32Y59S2Q6K8FZA0JK7NX8G3T8Y"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Saeed Jalabi" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/JPG\/en_US\/f991ba2ad0109c3654be8567e81f2048.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/WEB_52b6a684dd54d80e163ab7b7187c2865",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/WEB_128c042593106d0b67d8c9ddbccba00a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/WEB_fcc7db904eae520d1288f710a605df0c"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_145_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_145_R2",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "The Trojan Horse",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/JPG\/en_US\/f991ba2ad0109c3654be8567e81f2048.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "The Trojan Horse",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/JPG\/de_DE\/5b8da383e209a2dab2425ecb3cbcae16.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/JPG\/it_IT\/ba65c9b97f7a34589e7aefbcc03f7693.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/JPG\/es_ES\/ba276cb97779f70f9fba3223d74d5e3f.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Le Cheval de Troie",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/JPG\/fr_FR\/bccf7a4db7af7b92caf0104603e25737.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "77RB9G7ZAN8D2VSMTDWGQS4H3R",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-085-R-EN",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/JPG\/fr_FR\/bccf7a4db7af7b92caf0104603e25737.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_145\/JPG\/en_US\/f991ba2ad0109c3654be8567e81f2048.jpg"
+  },
+  "name": "The Trojan Horse",
+  "elements": {
+    "MAIN_COST": "5",
+    "RECALL_COST": "5",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "[Defender].  {J} I #defect.#  When I leave the Expedition zone — My owner creates an [Ordis Recruit 1\/1\/1] Soldier token in each of their Expeditions."
+  },
+  "collectorNumberFormatted": "NEJ-085-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

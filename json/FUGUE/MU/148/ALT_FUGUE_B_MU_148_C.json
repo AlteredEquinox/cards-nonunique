@@ -12,7 +12,18 @@
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "PLANT",
+      "id": "01HKAGSB49H24XWW17AAY441MT",
+      "name": "Plant"
+    },
+    {
+      "reference": "COMPANION",
+      "id": "01HKAGQPYTEKRYT4PRE9HZHTDA",
+      "name": "Companion"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +34,244 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6S90RP8TGW8JQTZ5QAFSMYHMQH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "2KHD3QVYCS94KSH5WFZCY8RS36"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "3VF0SGBCZC9SS9P2TP72C5Y59P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "33NCRSTRRW8BCACQG1Z23XN8FE"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7GNPP1KZXZ9PF8YKS1D42KZ6G7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/20150PWCFZ8VRA5W1DD6F131DQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "1BHGP8WFQ89EQT5GJ09XEJKMPZ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "{R} I gain [ANCHORED].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} I gain [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} I gain [ANCHORED].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Je gagne [ANCHORED].",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{R} I gain [ANCHORED].",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "{R} I gain [ANCHORED]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_148_C_0"
+          },
+          "sequence": 0,
+          "id": "517NEB1DD68XFAMDD5HKM740NQ"
+        },
+        {
+          "cardElement": "\/card_elements\/20150PWCFZ8VRA5W1DD6F131DQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "(Je suis créé en Réserve. Vous pouvez me jouer en Expédition. Retirez-moi du jeu si je devais aller ailleurs.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_148_C_1"
+          },
+          "sequence": 1,
+          "id": "1SRCJWM2QZ8CPAD0Q20HN12JR7"
+        }
+      ],
+      "value": "{R} I gain [[Anchored]].  (I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+      "id": "20150PWCFZ8VRA5W1DD6F131DQ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_148\/JPG\/en_US\/2f0af4d18013bb8d931ee8bba85a3df8.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_148\/WEB_c4275105cf36d22e08f8d6b3ee8df9f1"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_148_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_148_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_148\/JPG\/it_IT\/8ac3d72924c75a2d62ab5f637be58add.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Toot",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_148\/JPG\/fr_FR\/40eef0791aaf9a8721143ef0ebb84375.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_148\/JPG\/es_ES\/86609b8c144c2cd7a2e5e0e85c793911.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Toot",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_148\/JPG\/de_DE\/713b93d4977c72a21cdc9a4717a7a0e5.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Toot",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_148\/JPG\/en_US\/2f0af4d18013bb8d931ee8bba85a3df8.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "20B68ZRZP19YF9D4MER0TB10WF",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_148\/JPG\/fr_FR\/40eef0791aaf9a8721143ef0ebb84375.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_148\/JPG\/en_US\/2f0af4d18013bb8d931ee8bba85a3df8.jpg"
+  },
+  "name": "Toot",
+  "elements": {
+    "MAIN_COST": "",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{R} I gain [[Anchored]].  (I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)"
+  },
   "collectorNumberFormatted": "NEJ-112-T-EN",
   "isSuspended": false,
   "isErrated": false,

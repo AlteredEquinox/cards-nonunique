@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Immortelle, patiente, et impossible à quitter.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Immortal, patient, and impossible to leave.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A7F2BZ1PS36EWQF77XSQ",
+      "text": "Immortal, patient, and impossible to leave."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +49,203 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "350X9GDFK49D4A3ER1EEWWV1V5"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1P5RGN5T2F86N85J2W55HV47NK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4GEK8GJCX59BSBJECKBAD3HZWD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "24MJ9X2SFT8FTA0D4DP0RG7WJ1"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7A7583VB2J9H1SFB50KGRH1EPN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/75JTQ5JZ9S888APF6BD0W72WW4",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "3GZF9FK32Y8BF8EN6MJTNMWP27"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may target a Companion. It gains [ANCHORED].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may target a Companion. It gains [ANCHORED].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may target a Companion. It gains [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may target a Companion. It gains [ANCHORED].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez cibler un Compagnon. Il gagne [ANCHORED].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may target a Companion. It gains [ANCHORED]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_140_C_0"
+          },
+          "sequence": 0,
+          "id": "4K2F9S0F1988VA8TZFJ517TRBC"
+        }
+      ],
+      "value": "{H} You may target a Companion. It gains [[Anchored]].",
+      "id": "75JTQ5JZ9S888APF6BD0W72WW4"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_140\/JPG\/en_US\/7a795ca57a2d950ef216f271e1e4af18.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_140_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_140_R2",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Calypso, Benevolent Jailor",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_140\/JPG\/en_US\/7a795ca57a2d950ef216f271e1e4af18.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_140\/JPG\/es_ES\/68b4cc7a1bcc094777d1153ba45e2d21.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Calypso, Geôlière Bienveillante",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_140\/JPG\/fr_FR\/8f51c3d19c85140047188a7cd3c1f724.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Calypso, Benevolent Jailor",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_140\/JPG\/de_DE\/1cf1bc7fcd140c7f41621868eb814625.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_140\/JPG\/it_IT\/38e9fd362869b109e51b0b3de9e7cb9c.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "024RFDJ6418RFT90Q914GQ4V8J",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-062-R-EN",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_140\/JPG\/fr_FR\/8f51c3d19c85140047188a7cd3c1f724.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_140\/JPG\/en_US\/7a795ca57a2d950ef216f271e1e4af18.jpg"
+  },
+  "name": "Calypso, Benevolent Jailor",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} You may target a Companion. It gains [[Anchored]]."
+  },
+  "collectorNumberFormatted": "NEJ-062-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,204 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "0TZ0PC5AP98FVANQNTN45NQ3TB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7930ACH2KJ8828WNS1NVCKAWWY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1VSX4DR6R489N84FWPYEJHCXGW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0GA22TGZFN89DBYX801BKD8DX8"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7ACV249KEN9V9R89DW3EQB4H23"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7MK5TSG26G87S87T9Y2AMZ7S89",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} I gain #2 Mirage counters.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} I gain #2 Mirage counters.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} I gain #2 Mirage counters.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} I gain #2 Mirage counters.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne #2 compteurs Mirage.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} I gain #2 Mirage counters.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_146_R1_0"
+          },
+          "sequence": 0,
+          "id": "2X19M2QT3Z9SY93RY9TTPQDEDM"
+        },
+        {
+          "cardElement": "\/card_elements\/7MK5TSG26G87S87T9Y2AMZ7S89",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you have #five or more# Mana Orbs, you may spend 1 of my Mirage counters to draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — If you have #five or more# Mana Orbs, you may spend 1 of my Mirage counters to draw a card.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — If you have #five or more# Mana Orbs, you may spend 1 of my Mirage counters to draw a card.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — If you have #five or more# Mana Orbs, you may spend 1 of my Mirage counters to draw a card.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous avez #au moins cinq# Orbes de Mana, vous pouvez dépenser 1 de mes compteurs Mirage pour piocher une carte.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — If you have #five or more# Mana Orbs, you may spend 1 of my Mirage counters to draw a card."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_146_R1_1"
+          },
+          "sequence": 1,
+          "id": "0N10KS0WC68GXA4FE1868Q338V"
+        }
+      ],
+      "value": "{J} I gain 2 Mirage counters.  At Noon — If you have five or more Mana Orbs, you may spend 1 of my Mirage counters to draw a card.",
+      "id": "7MK5TSG26G87S87T9Y2AMZ7S89"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "DOBA" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_YZ_146\/JPG\/en_US\/b3f682fc41231a5cdf510b2a22799a82.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_A_YZ_146_R2",
   "isExclusive": true,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_A_YZ_146_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_YZ_146\/JPG\/es_ES\/2ade40081503bfb2f6992505897f08cd.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Fane of Ithaca",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_YZ_146\/JPG\/en_US\/b3f682fc41231a5cdf510b2a22799a82.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_YZ_146\/JPG\/it_IT\/8b8e1c63f50a7867f0b0a928d2857e00.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Sanctuaire d’Ithaque",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_YZ_146\/JPG\/fr_FR\/309cdf2c3e3d5d8425cdc1f7008777b3.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Fane of Ithaca",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_YZ_146\/JPG\/de_DE\/c9474412b1c3877c766458e922e4bd6b.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "3MV6X95W6E9N1VFNG2VCJNT5PH",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-A-108-R-EN",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_YZ_146\/JPG\/fr_FR\/309cdf2c3e3d5d8425cdc1f7008777b3.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_YZ_146\/JPG\/en_US\/b3f682fc41231a5cdf510b2a22799a82.jpg"
+  },
+  "name": "Fane of Ithaca",
+  "elements": {
+    "MAIN_COST": "#2#",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "{J} I gain #2 Mirage counters.#  At Noon — If you have #five or more# Mana Orbs, you may spend 1 of my Mirage counters to draw a card."
+  },
+  "collectorNumberFormatted": "NEJ-A-108-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

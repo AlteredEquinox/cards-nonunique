@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,166 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3NQTNQH05P82BS1A8VR2ZBBBZM"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "27QXC1ADPN92NVZVZHDMX20NRT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "73CNDBKMF18BFBZ9VETV2KK9M1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "6KG1RCD64V83RBPN7PNFJFA1KB"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "29GEM8A7D496ZVQ3R9W4XJVBY3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4JTT3FFJJY9Y597VJ6T6J2VJ1H",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J} Reveal the top card of your deck. If it's a Spell,# draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{J} Reveal the top card of your deck. If it's a Spell,# draw a card.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{J} Reveal the top card of your deck. If it's a Spell,# draw a card.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{J} Reveal the top card of your deck. If it's a Spell,# draw a card.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{J} Révélez la première carte de votre deck. Si c'est un Sort,# piochez une carte.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{J} Reveal the top card of your deck. If it's a Spell,# draw a card."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_137_R2_0"
+          },
+          "sequence": 0,
+          "id": "39R018BXXR8CKRRNV85GGHHFEZ"
+        }
+      ],
+      "value": "{J} Reveal the top card of your deck. If it's a Spell, draw a card.",
+      "id": "4JTT3FFJJY9Y597VJ6T6J2VJ1H"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/en_US\/1cbbd113f6df01275aa334d8c65d544a.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_137_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_137_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/es_ES\/9893af951fdc7489714fafc67c693521.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/it_IT\/c1cac1e6a13a70ed40e1d366c67ce385.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Tumult Tamer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/de_DE\/5b930af5f8373b79b789322388734208.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Tumult Tamer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/en_US\/1cbbd113f6df01275aa334d8c65d544a.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Dompteur de Tumulte",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/fr_FR\/4841894ba5b6b9a1099cfb822909fbf6.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "1KET8X7XH48R3A3VYCTA8S1GZ3",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-048-R-EN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/fr_FR\/4841894ba5b6b9a1099cfb822909fbf6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/en_US\/1cbbd113f6df01275aa334d8c65d544a.jpg"
+  },
+  "name": "Tumult Tamer",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "#4#",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "#{J} Reveal the top card of your deck. If it's a Spell,# draw a card."
+  },
+  "collectorNumberFormatted": "NEJ-048-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

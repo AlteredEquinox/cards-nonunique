@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DEITY",
+      "id": "01HKAGPAJFS4YDQVKY6AB16614",
+      "name": "Deity"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,240 @@
     "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
     "name": "Exalted"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "2604KA5G5T9309HAK00QN7ARQ4"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "20XX6F2KY78VFTJBS7P4QMY7DD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "786W2604XC8X6997WQACTNE7SR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "73PQW4F58G93BV5ZAYXM8TAT46"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0FM2B0XY6C92YR75MS05T2975N"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1A6XRFHXS2993860SGK3TTV280",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "de_DE",
+                          "description": "TEMPLE"
+                        },
+                        "it_IT": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "it_IT",
+                          "description": "TEMPLE"
+                        },
+                        "es_ES": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "es_ES",
+                          "description": "TEMPLE"
+                        },
+                        "en_US": {
+                          "displayWeb": "Temple",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "5B2NFWR68W9RNTGMGCFK6C37XY",
+                      "reference": "TEMPLE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "3NM0TKAX2N8Y1S068QYBS0AQ6P"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "[TEMPLE] {2}. (Vous pouvez me jouer pour {2} en tant que Permanent de Repère - Construction avec : « À Midi — Vous pouvez me mettre en Réserve. »)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_138_C_0"
+          },
+          "sequence": 0,
+          "id": "0BJ5E7D38H9A6RQ7JRAF32M8GC"
+        },
+        {
+          "cardElement": "\/card_elements\/1A6XRFHXS2993860SGK3TTV280",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you're not first player, create your Hero's Signature token in your Reserve, then it gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — If you're not first player, create your Hero's Signature token in your Reserve, then it gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — If you're not first player, create your Hero's Signature token in your Reserve, then it gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — If you're not first player, create your Hero's Signature token in your Reserve, then it gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous n'êtes pas premier joueur, créez le jeton Signature de votre Héros dans votre Réserve, puis il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — If you're not first player, create your Hero's Signature token in your Reserve, then it gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_136_C_1"
+          },
+          "sequence": 1,
+          "id": "2Q0E8H3C3V9DM8APRFDQAHYJV4"
+        }
+      ],
+      "value": "[Temple] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")  At Noon — If you're not first player, create your Hero's Signature token in your Reserve, then it gains 1 boost.",
+      "id": "1A6XRFHXS2993860SGK3TTV280"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_136\/JPG\/en_US\/985abd88bbb87c49e873514795c12649.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_136_E",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_136_E",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Hermès, Dieu des Âmes",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_136\/JPG\/fr_FR\/2c5948e15d4cd61a7cf95ea17ecbc8b3.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_136\/JPG\/es_ES\/3bfc8c2e08599582c174b98a9a28a828.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Hermes, God of Souls",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_136\/JPG\/en_US\/985abd88bbb87c49e873514795c12649.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_136\/JPG\/it_IT\/8b7ff85253b31a935bcd45024435a18d.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Hermes, God of Souls",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_136\/JPG\/de_DE\/eee64e0e80ef751ac87726abe95155f1.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "57Q0KNYM0K8J2BCVXSC7ZACPGQ",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_136\/JPG\/fr_FR\/2c5948e15d4cd61a7cf95ea17ecbc8b3.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_136\/JPG\/en_US\/985abd88bbb87c49e873514795c12649.jpg"
+  },
+  "name": "Hermes, God of Souls",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "[Temple] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")  At Noon — If you're not first player, create your Hero's Signature token in your Reserve, then it gains 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-100-E-EN",
   "isSuspended": false,
   "isErrated": false,

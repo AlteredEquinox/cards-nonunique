@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Je croyais qu'avoir Odysseus comme guide était censé nous éviter les dangers... »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“I thought the point of having Odysseus as guide was to avoid all these perils...\"",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A4NJ3ED0W6FW6GMQGCVZ",
+      "text": "“I thought the point of having Odysseus as guide was to avoid all these perils...\""
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +54,193 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1VR8G0NGFX8RTV05QK6PE6MDA2"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "7MHDMDWGBG86P9MAZ902A75MHE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0H6T2VY25T8GJSRT5JX204NAME"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5PQQBZMG6Q92RSZE7J3J7HZJWZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "14JA0S42XP93M91V28WRKJHNPF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2RJNDZ91B395MSTZ459B601456",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K48045TGGKW7RVK4S6MBP4YN"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "{R} [SABOTAGE].", "locale": "en_US" },
+                  "fr_FR": { "text": "{R} [SABOTAGE].", "locale": "fr_FR" },
+                  "de_DE": { "text": "{R} [SABOTAGE].", "locale": "de_DE" },
+                  "it_IT": { "text": "{R} [SABOTAGE].", "locale": "it_IT" },
+                  "es_ES": { "text": "{R} [SABOTAGE].", "locale": "es_ES" }
+                },
+                "text": "{R} [SABOTAGE]."
+              }
+            ],
+            "reference": "02037"
+          },
+          "sequence": 0,
+          "id": "05B5DSHS248D9TJ9S968BZBEFW"
+        }
+      ],
+      "value": "{R} [Sabotage].",
+      "id": "2RJNDZ91B395MSTZ459B601456"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Alexandre Bonvalot" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/en_US\/1dfaf8aeef9cd7c43993992ab2d6846c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/WEB_db3c56505df0fcccb80b2b1ca063c1d3",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/WEB_55162b2ccf271ea7727ed2c8929cc755",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/WEB_51e0ce9e808c88f28ba94c6a7dc449d9"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_136_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_136_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Eurylochus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/de_DE\/0f8acd53af17c5577f1bedba70cd9e87.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/es_ES\/1395666498db7c7e427d2796df68c2c9.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Eurylochus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/en_US\/1dfaf8aeef9cd7c43993992ab2d6846c.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/it_IT\/aa6401f003a7b2dc93a8b4b505608c13.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Euryloque",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/fr_FR\/8209437fb5e9ed58e2a44dd8e79e94dc.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "5GQT8N03QA8TWSZKK3T7517ZWR",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/fr_FR\/8209437fb5e9ed58e2a44dd8e79e94dc.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_136\/JPG\/en_US\/1dfaf8aeef9cd7c43993992ab2d6846c.jpg"
+  },
+  "name": "Eurylochus",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{R} [Sabotage]."
+  },
   "collectorNumberFormatted": "NEJ-025-C-EN",
   "isSuspended": false,
   "isErrated": false,

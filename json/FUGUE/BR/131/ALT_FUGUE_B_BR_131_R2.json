@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "La gourmandise de Polyphème faillit anéantir l’espèce... Mais pour lui, c'est le problème des moutons.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Polyphemus' gluttony nearly wiped out the species... but to him, that’s the sheep’s problem.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A4G3RCJZ0MQ2VMTFDD78",
+      "text": "Polyphemus' gluttony nearly wiped out the species... but to him, that’s the sheep’s problem."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +49,209 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "6Y62A1ZGXK9J380WEWHNEFRF1Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "00Y2Z480C69QPBF276S99G2V0Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6WH3FZ641Z93RV7SZ3E8KWH71M"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "3908C7E1J99RMSN40486FR4HW0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "300SX8017W81BBWDQFSSKNB3QS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/02QE0MK8S091HAGRMGD3A0FBDN",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "1JVR40BM1V99ZAX09M13YP4Q1S"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{H} You may give me [FLEETING] to give 1 boost to another target Character.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{H} You may give me [FLEETING] to give 1 boost to another target Character.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{H} You may give me [FLEETING] to give 1 boost to another target Character.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{H} You may give me [FLEETING] to give 1 boost to another target Character.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{H} Vous pouvez me donner [FLEETING] pour qu'un autre Personnage ciblé gagne 1 boost.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{H} You may give me [FLEETING] to give 1 boost to another target Character.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_131_R1_0"
+          },
+          "sequence": 0,
+          "id": "2SEF0PB1MF839R37SXB50MDYCC"
+        }
+      ],
+      "value": "{H} You may give me [[Fleeting]] to give 1 boost to another target Character.",
+      "id": "02QE0MK8S091HAGRMGD3A0FBDN"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Julien Carrasco" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/en_US\/f35f30e746a00fe304f9f877e5a9d7db.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/WEB_71dc148b742d88bd836994d62e6b873c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/WEB_4c276bf577a12b9c98910dd78cd133f9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/WEB_a31b2705cb34fbf735b280337aca957c"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_131_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_131_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/es_ES\/69add42950fbfdd2216d68ed682af318.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Bélier Fonceur",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/fr_FR\/5061d4d6b71aa79247b3f82cf638ea83.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Charging Ram",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/en_US\/f35f30e746a00fe304f9f877e5a9d7db.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Charging Ram",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/de_DE\/e653d79e6d7e1aae8d2cd8d404e70172.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/it_IT\/7c3fdfda796eb1ec0bc079d6bff59ab0.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "2AK3AYRPWZ95WB3TMDP8HTHMCP",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-020-R-EN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/fr_FR\/5061d4d6b71aa79247b3f82cf638ea83.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/en_US\/f35f30e746a00fe304f9f877e5a9d7db.jpg"
+  },
+  "name": "Charging Ram",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#{H} You may give me [[Fleeting]] to give 1 boost to another target Character.#"
+  },
+  "collectorNumberFormatted": "NEJ-020-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

@@ -12,7 +12,13 @@
     "id": "01H0FV1VGP26CD3DFE8W3PWTQT",
     "name": "Token Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "COMPANION",
+      "id": "01HKAGQPYTEKRYT4PRE9HZHTDA",
+      "name": "Companion"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,207 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "7PWYQ5MATZ84YSMC30GFWDKRX7"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "1516HKDPQT95GA1732XW41E2BZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "3G26PBN3T083HV716R1RC6V3QW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6NQRBRDS8Q933T1VWFASJ91T1Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "518MWPPXCC97DVZ0ZN8W37W9Z3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7CGMK0FNBB87HTJ85MN6T463RJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "When you sacrifice a Character — I gain 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "en_US": {
+                    "text": "When you sacrifice a Character — I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous sacrifiez un Personnage — je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "When you sacrifice a Character — I gain 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When you sacrifice a Character — I gain 1 boost.",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "When you sacrifice a Character — I gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_148_C_0"
+          },
+          "sequence": 0,
+          "id": "7Z6YRTA3KF82P9C1C5FK1KV86H"
+        },
+        {
+          "cardElement": "\/card_elements\/7CGMK0FNBB87HTJ85MN6T463RJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "(Je suis créé en Réserve. Vous pouvez me jouer en Expédition. Retirez-moi du jeu si je devais aller ailleurs.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "(I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_148_C_1"
+          },
+          "sequence": 1,
+          "id": "61HYETH1AV8ESA149C5SMSRHFC"
+        }
+      ],
+      "value": "When you sacrifice a Character — I gain 1 boost.  (I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)",
+      "id": "7CGMK0FNBB87HTJ85MN6T463RJ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_148\/JPG\/en_US\/a5026a98e22b5817debf3a4cba074c8d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_148\/WEB_b9fc86b0a66bed545eeba9cdb7a15a8e"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_148_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_148_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Maw Métamorphosé",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_148\/JPG\/fr_FR\/f73e998ab343df36a378232f9c046e43.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Molted Maw",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_148\/JPG\/en_US\/a5026a98e22b5817debf3a4cba074c8d.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Molted Maw",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_148\/JPG\/de_DE\/c24f4b12903bbdcf1368bca241043cb2.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_148\/JPG\/es_ES\/2c2dc5508b034e4f9bbcb99178157baf.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_148\/JPG\/it_IT\/1d43f6bfcd4dec089560d54fa8089b02.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "6GQ370MV5X8X4R28SFHVJJ8P9Y",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_148\/JPG\/fr_FR\/f73e998ab343df36a378232f9c046e43.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_148\/JPG\/en_US\/a5026a98e22b5817debf3a4cba074c8d.jpg"
+  },
+  "name": "Molted Maw",
+  "elements": {
+    "MAIN_COST": "",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "When you sacrifice a Character — I gain 1 boost.  (I'm created in Reserve. You can play me in an Expedition. Remove me from the game if I would go anywhere else.)"
+  },
   "collectorNumberFormatted": "NEJ-114-T-EN",
   "isSuspended": false,
   "isErrated": false,

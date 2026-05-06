@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,262 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "5705DA9V1J8DJSQ6CVM6345GB9"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "72K6QGY5JW82PA7QV6W4PBAB4C"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1WWGWGDD2S9M1TBDDN703YJMV4"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6N0NG691J08FB9DFNMS7BF3HPX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5978FBA91J9JVT4MZ8NH6F4BR9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3NGGRDYW179R995VS2GJMTM0J5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "0TAE85CPZG85188Z8WKS0V518J"
+        },
+        {
+          "cardElement": "\/card_elements\/3NGGRDYW179R995VS2GJMTM0J5",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Dotouffu 1\/1\/1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Woollyback 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Wollrücken 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Lanuvola 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Lanudo 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V1RZ960JE3XMHMM4G1Y3D",
+                      "reference": "WOOLLYBACK"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "4Q4Y7ZBEDA947RV1JZ2HE47TW7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Discard target Character with no statistic #higher than 3,# then create a [WOOLLYBACK] Animal token in its Expedition.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Discard target Character with no statistic #higher than 3,# then create a [WOOLLYBACK] Animal token in its Expedition.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Discard target Character with no statistic #higher than 3,# then create a [WOOLLYBACK] Animal token in its Expedition.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Discard target Character with no statistic #higher than 3,# then create a [WOOLLYBACK] Animal token in its Expedition.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Défaussez un Personnage ciblé dont aucune stat n'est supérieure #à 3,# puis créez un jeton Animal [WOOLLYBACK] dans son Expédition.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Discard target Character with no statistic #higher than 3,# then create a [WOOLLYBACK] Animal token in its Expedition."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_144_R1_1"
+          },
+          "sequence": 1,
+          "id": "09RMBZZ6CB87PS333303EDMR52"
+        }
+      ],
+      "value": "[[Fleeting]].  Discard target Character with no statistic higher than 3, then create a [Woollyback 1\/1\/1] Animal token in its Expedition.",
+      "id": "3NGGRDYW179R995VS2GJMTM0J5"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Kevin Sidharta" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_144\/JPG\/en_US\/e6e4c15fe53ec1096e02d68f1fe6621b.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_144_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_144_R1",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Revenir à ses Moutons",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_144\/JPG\/fr_FR\/73ff93e0bd08b65c91474f775ee23f16.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Sheep Thrill",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_144\/JPG\/en_US\/e6e4c15fe53ec1096e02d68f1fe6621b.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_144\/JPG\/it_IT\/77301e8094c6a33b6c1e72a3f8677045.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Sheep Thrill",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_144\/JPG\/de_DE\/13332edff7c38dc37095d874f19d06de.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_144\/JPG\/es_ES\/3519123ac84873d5ab93941e3bf8960e.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "6V9DF25CVC86ZT8FS862JAE66K",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_144\/JPG\/fr_FR\/73ff93e0bd08b65c91474f775ee23f16.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_144\/JPG\/en_US\/e6e4c15fe53ec1096e02d68f1fe6621b.jpg"
+  },
+  "name": "Sheep Thrill",
+  "elements": {
+    "MAIN_COST": "#2#",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Discard target Character with no statistic #higher than 3,# then create a [Woollyback 1\/1\/1] Animal token in its Expedition."
+  },
   "collectorNumberFormatted": "NEJ-070-R-EN",
   "isSuspended": false,
   "isErrated": false,

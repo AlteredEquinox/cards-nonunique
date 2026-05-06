@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Quand tout espoir est perdu, il y a souvent une main secourable qui nous aide à nous relever.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "When all hope is lost, there is often a helping hand to lift us back up.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A6SVRGD5A3TT4EM65QB9",
+      "text": "When all hope is lost, there is often a helping hand to lift us back up."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +49,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7MBEABMSHF83G9VA7Q5CJN90R8"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7K16X9A5XA934R2W3DEWV6FXC0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1WGNCS8APE8ZH9M0MK7F9R95ZP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6SZDQ0E6BA9SDB96SS9XAGGVR5"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "5N8TZH1V5V8X48N5KEHD257CQQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4TVMXQFW6Q8T1VRP6DVMQYA9HR",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{H} Discard a card from your hand.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{H} Discard a card from your hand.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{H} Discard a card from your hand.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{H} Discard a card from your hand.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{H} Défaussez une carte de votre main.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{H} Discard a card from your hand.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_133_R2_0"
+          },
+          "sequence": 0,
+          "id": "5F3AE1G0CA8F7SQFTAX4WK49TM"
+        }
+      ],
+      "value": "{H} Discard a card from your hand.",
+      "id": "4TVMXQFW6Q8T1VRP6DVMQYA9HR"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Eilene Cherie" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/en_US\/530e8d7750a8ce93c8f8bed93ed29c63.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/WEB_f870404c4789163fed24e09fc8af9bb5",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/WEB_62631c0e282e9cf0929e14c202d64502",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/WEB_608f711f916a49efa14f6be95316db4c"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_133_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_133_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/es_ES\/e90d1513a9dd19618b6cefa52c7aaa68.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Ino",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/de_DE\/a3e8bd15ddd3ca81857940a95dadaa9a.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Ino",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/fr_FR\/b8aaeda3687bcd7dbab451f17cf3d4d1.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/it_IT\/1843fff6d86cb30e632c0c3730f18cb8.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Ino",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/en_US\/530e8d7750a8ce93c8f8bed93ed29c63.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "2FHCE686419N7841QWSW7WNTG8",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-057-R-EN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/fr_FR\/b8aaeda3687bcd7dbab451f17cf3d4d1.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_133\/JPG\/en_US\/530e8d7750a8ce93c8f8bed93ed29c63.jpg"
+  },
+  "name": "Ino",
+  "elements": {
+    "MAIN_COST": "#1#",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#{H} Discard a card from your hand.#"
+  },
+  "collectorNumberFormatted": "NEJ-057-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

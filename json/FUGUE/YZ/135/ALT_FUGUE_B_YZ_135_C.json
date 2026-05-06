@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +34,208 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "617DB0BYHT8M2B2J9VR8W449PG"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "15F1HH91369SC9BD6Y0G73T3R6"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "2KMTCSRAP490PSHYRF85HCGVAN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3HCDGXAAVF9N1BJ518CZ5EBZW2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "5Y3YCF54AC9AE89XNX42N14SSV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3VSZEYTRCX99KAZTXRXPBZNQ09",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "1HMVN8QWAW9ANRYNPD90FZ8Z3B"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} [SABOTAGE] a card with Reserve Cost {2} or less.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} [SABOTAGE] a card with Reserve Cost {2} or less.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} [SABOTAGE] a card with Reserve Cost {2} or less.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} [SABOTAGE] a card with Reserve Cost {2} or less.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} [SABOTAGE] une carte de Coût de Réserve {2} ou moins.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} [SABOTAGE] a card with Reserve Cost {2} or less."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_135_C_0"
+          },
+          "sequence": 0,
+          "id": "7J50BVT8H69AJTQWXHDA4KYKBN"
+        }
+      ],
+      "value": "{H} [Sabotage] a card with Reserve Cost {2} or less.",
+      "id": "3VSZEYTRCX99KAZTXRXPBZNQ09"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zaeliven" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/JPG\/en_US\/a6cba183186850c52a3272138caea4c5.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/WEB_b6d6c52fb0d27c1acaabf1793110607b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/WEB_691ceb360922e9ff33045d43fa87b4da",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/WEB_9f83b78d37eef5fdbb7673ddd0a1bf36"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_135_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_135_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Prétendants de Pénélope",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/JPG\/fr_FR\/4a3da79c503f0be883d62b194ff04727.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/JPG\/it_IT\/0e088c7edcfecbff6f2ab2b5961ba0a9.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/JPG\/es_ES\/29c1da0c2fe8c372e5739c14f0f5b0ec.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Penelope's Suitors",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/JPG\/en_US\/a6cba183186850c52a3272138caea4c5.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Penelope's Suitors",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/JPG\/de_DE\/60a2f8bf2d5378649bc588cde98d49f9.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "4KT8YVKDX79RCBZPPF0JHA1E2M",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/JPG\/fr_FR\/4a3da79c503f0be883d62b194ff04727.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_135\/JPG\/en_US\/a6cba183186850c52a3272138caea4c5.jpg"
+  },
+  "name": "Penelope's Suitors",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} [Sabotage] a card with Reserve Cost {2} or less."
+  },
   "collectorNumberFormatted": "NEJ-096-C-EN",
   "isSuspended": false,
   "isErrated": false,

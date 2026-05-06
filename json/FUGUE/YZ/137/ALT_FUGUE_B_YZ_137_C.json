@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Combattre le feu par le feu a toujours fait partie de la philosophie Yzmir.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Fighting fire with fire has always been part of Yzmir’s philosophy.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46AB3B19WFXARJ9S6S4AKZ",
+      "text": "Fighting fire with fire has always been part of Yzmir’s philosophy."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +54,153 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1XWABRF87D97MTXS3K75R28JYK"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "27XCE3HW7W9QJAW5BED9R87EF5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "11Q68QSY8J8GBATSNNMNF5WF54"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5SVANQE7509SRRAYZWKCJZYS9W"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "32H2N3XFPR849T0JA631Q340YA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2RV3P5FD7982NVRQDWDE5PGFGP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "{H} I gain 1 boost.", "locale": "en_US" },
+                  "de_DE": { "text": "{H} I gain 1 boost.", "locale": "de_DE" },
+                  "it_IT": { "text": "{H} I gain 1 boost.", "locale": "it_IT" },
+                  "es_ES": { "text": "{H} I gain 1 boost.", "locale": "es_ES" },
+                  "fr_FR": {
+                    "text": "{H} Je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} I gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_137_C_0"
+          },
+          "sequence": 0,
+          "id": "6N10SE0NGH9CDTRSSZX79Y66VE"
+        }
+      ],
+      "value": "{H} I gain 1 boost.",
+      "id": "2RV3P5FD7982NVRQDWDE5PGFGP"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Fahmi Fauzi" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/en_US\/6e00166d0cbe7af74d829ae93a2d8c4c.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_137_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_137_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Qorgan Intelligencer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/de_DE\/8c54fcb15e2ebb7375a9c3bc4e2f0dac.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Qorgan Intelligencer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/en_US\/6e00166d0cbe7af74d829ae93a2d8c4c.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/es_ES\/fe4f6aa1d4e937c9bde499064deae6b0.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/it_IT\/b3878d7250179e98e2d6cd119745c486.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Taupe du Qorgan",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/fr_FR\/5743e66ac784a7c83b0ba1f8bf32e697.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "4MDQ0N5DB487TR9AWTXMDXNG0B",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/fr_FR\/5743e66ac784a7c83b0ba1f8bf32e697.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/en_US\/6e00166d0cbe7af74d829ae93a2d8c4c.jpg"
+  },
+  "name": "Qorgan Intelligencer",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} I gain 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-094-C-EN",
   "isSuspended": false,
   "isErrated": false,

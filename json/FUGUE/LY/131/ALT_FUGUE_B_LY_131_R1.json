@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Fasano adore sa nouvelle forme... mais la vie de cochon n’est pas de tout repos. » — Nif‑Nif",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“Fasano loves his new form... but life as a pig is anything but easy.” — Nif‑Nif",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A5AHAC7YGWDXWDPGR7QF",
+      "text": "“Fasano loves his new form... but life as a pig is anything but easy.” — Nif‑Nif"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,121 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "0S8CMVR60M9YMBDMX40M95H01S"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "33V1NE4EKS86X9KKCSYH9F4CGM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3HJ6JB5E4Q86EA2PQT2T05GN4E"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "29VNKT10S58E29NT9RF7MG3AE2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6S71B9TXTY9K2AFWQV0XXQW445"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/JPG\/en_US\/03e2247214f7aa5769b61f76b44b3f25.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/WEB_dadfbfe74785f6dadc14b79ced0e412b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/WEB_7c1e3e9e8e35a94c62763981cd486d25",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/WEB_87c3ac0d8f9d039d55a4764d956317d8"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_131_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_131_R1",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/JPG\/it_IT\/4bfd98376654563e0a49f64a5f5273ff.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Cochon Dissipé",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/JPG\/fr_FR\/836fd9366222b0efbe38d1cabdbe071e.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Unstudious Pig",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/JPG\/de_DE\/e32d159fcceb09aa56de600be154dbf5.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/JPG\/es_ES\/3d6d23cce0d4f46d5d7111d2a7360cfc.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Unstudious Pig",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/JPG\/en_US\/03e2247214f7aa5769b61f76b44b3f25.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "6DR10ZP4P89NF9PGBAZ55ECJQC",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/JPG\/fr_FR\/836fd9366222b0efbe38d1cabdbe071e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_131\/JPG\/en_US\/03e2247214f7aa5769b61f76b44b3f25.jpg"
+  },
+  "name": "Unstudious Pig",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "#2#"
+  },
   "collectorNumberFormatted": "NEJ-038-R-EN",
   "isSuspended": false,
   "isErrated": false,

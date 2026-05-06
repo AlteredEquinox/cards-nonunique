@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "DEITY",
+      "id": "01HKAGPAJFS4YDQVKY6AB16614",
+      "name": "Deity"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +34,277 @@
     "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
     "name": "Exalted"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1DBKRV04ZE8MA9W6HQRQQ0X9GV"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "3YQ0C6Z2FR9THSQVJ2P55RVX7S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3FKG17PPSA8JFBFQ3Y7S702TXX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0Q1Y951R139BJ8YH2YGY2ZT92K"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7Y09HWDJMJ9HC97P9VJ1ASZCY3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2HV0407RNY89KBQZVBQ4TTS82Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "de_DE",
+                          "description": "TEMPLE"
+                        },
+                        "it_IT": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "it_IT",
+                          "description": "TEMPLE"
+                        },
+                        "es_ES": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "es_ES",
+                          "description": "TEMPLE"
+                        },
+                        "en_US": {
+                          "displayWeb": "Temple",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "5B2NFWR68W9RNTGMGCFK6C37XY",
+                      "reference": "TEMPLE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "3NM0TKAX2N8Y1S068QYBS0AQ6P"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "[TEMPLE] {2}. (Vous pouvez me jouer pour {2} en tant que Permanent de Repère - Construction avec : « À Midi — Vous pouvez me mettre en Réserve. »)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_138_C_0"
+          },
+          "sequence": 0,
+          "id": "0Z32S6AGJF8K5A1CJR146YNSDN"
+        },
+        {
+          "cardElement": "\/card_elements\/2HV0407RNY89KBQZVBQ4TTS82Y",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS9V3DCYCF3HHH4VZDNQE5F"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "Zum Mittag — Erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in deiner Gefährten-Expedition.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "Al mediodía — Crea una ficha de soldado [ORDIS_RECRUIT] en tu expedición del compañero.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Créez un jeton Soldat [ORDIS_RECRUIT] dans votre Expédition Compagnon.",
+                    "locale": "fr_FR"
+                  },
+                  "it_IT": {
+                    "text": "A mezzogiorno — Crea una pedina Soldato [ORDIS_RECRUIT] nella spedizione del tuo compagno.",
+                    "locale": "it_IT"
+                  },
+                  "en_US": {
+                    "text": "At Noon — Create an [ORDIS_RECRUIT] Soldier token in your Companion Expedition.",
+                    "locale": "en_US"
+                  }
+                },
+                "text": "At Noon — Create an [ORDIS_RECRUIT] Soldier token in your Companion Expedition."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 1,
+          "id": "3D6F6VT95C8B196R816WK84PRT"
+        }
+      ],
+      "value": "[Temple] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")  At Noon — Create an [Ordis Recruit 1\/1\/1] Soldier token in your Companion Expedition.",
+      "id": "2HV0407RNY89KBQZVBQ4TTS82Y"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_141\/JPG\/en_US\/78c892ea9b15804151cc7ad284ad95c5.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_141_E",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_141_E",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Athena, Goddess of Strategy",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_141\/JPG\/en_US\/78c892ea9b15804151cc7ad284ad95c5.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Athena, Goddess of Strategy",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_141\/JPG\/de_DE\/c748f9ba363a65f9661c6c39033c3424.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Athéna, Déesse de la Stratégie",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_141\/JPG\/fr_FR\/0077593e9cc0e91d0c68b41e676e0e30.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_141\/JPG\/es_ES\/bdcd403fbb460021c866818c646de416.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_141\/JPG\/it_IT\/53d09b00a58334d1644d7d98bb39d69b.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "2MJT38S49G94BVHT6YH5AZSW1K",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_141\/JPG\/fr_FR\/0077593e9cc0e91d0c68b41e676e0e30.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_141\/JPG\/en_US\/78c892ea9b15804151cc7ad284ad95c5.jpg"
+  },
+  "name": "Athena, Goddess of Strategy",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "[Temple] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")  At Noon — Create an [Ordis Recruit 1\/1\/1] Soldier token in your Companion Expedition."
+  },
   "collectorNumberFormatted": "NEJ-082-E-EN",
   "isSuspended": false,
   "isErrated": false,

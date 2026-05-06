@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ENGINEER",
+      "id": "01HKAGPA9AS71JN0H9HQZTBNCD",
+      "name": "Engineer"
+    },
+    {
+      "reference": "TITAN",
+      "id": "01HKAGQ9QZA1N8YNZH7CYPBDVR",
+      "name": "Titan"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +34,231 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7BEBEZ4YXP9W5A4NPA14Q24ERY"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "2HJVQQRWVM81ZTB609F1V3AW24"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "2W1KJ1MMS699XBCBEFN1AEW31F"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "0X995WFCSF9HPAMWW4RX5290TF"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "7QG30ZK6FW8Q2TGJ515RNY7S6H"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2WGKJVMS2E9ECT8JA56YRDA9XH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01HTS8M3QZMFFPWCM7RVWRF9ZC"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": { "text": "$[GIGANTIC].", "locale": "es_ES" },
+                  "it_IT": { "text": "$[GIGANTIC].", "locale": "it_IT" },
+                  "de_DE": { "text": "$[GIGANTIC].", "locale": "de_DE" },
+                  "fr_FR": { "text": "$[GIGANTIC].", "locale": "fr_FR" },
+                  "en_US": { "text": "$[GIGANTIC].", "locale": "en_US" }
+                },
+                "text": "$[GIGANTIC]."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "37F4HKDF708C3RWYA16R2BGFWT"
+        },
+        {
+          "cardElement": "\/card_elements\/2WGKJVMS2E9ECT8JA56YRDA9XH",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} If there are two or more cards in your Landmarks, I gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} If there are two or more cards in your Landmarks, I gain 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} If there are two or more cards in your Landmarks, I gain 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} If there are two or more cards in your Landmarks, I gain 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} S'il y a au moins deux cartes dans vos Repères, je gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} If there are two or more cards in your Landmarks, I gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_135_C_1"
+          },
+          "sequence": 1,
+          "id": "1QD4F8DG1E8S9SGX4AAF9QM73V"
+        }
+      ],
+      "value": "[Gigantic]. (I am considered present in each of your Expeditions.)  {J} If there are two or more cards in your Landmarks, I gain 1 boost.",
+      "id": "2WGKJVMS2E9ECT8JA56YRDA9XH"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/en_US\/515b9df320fc6e08c35c6680d26c2638.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/WEB_6fea3bcf9cc9b4202efc5e1138663184",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/WEB_0b59f29bf6b12d23445f8bbaf8307971",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/WEB_8c4dd6a6b3a9b9a6235669531c3834ae"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_135_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_135_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Argès",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/fr_FR\/f75777b46b55c10a5a94cfd3ad2c3ca5.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Arges",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/en_US\/515b9df320fc6e08c35c6680d26c2638.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Arges",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/it_IT\/42a8a3bcb6996d4ffe2987dc558947a8.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/es_ES\/ba3d170d0b95a19e40ddb44f858d27b3.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/de_DE\/55b4e95a6f3be9c697d46dc4af575540.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "6V1YQPNHFH9EFRV1VQ5JR0VV1N",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/fr_FR\/f75777b46b55c10a5a94cfd3ad2c3ca5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_135\/JPG\/en_US\/515b9df320fc6e08c35c6680d26c2638.jpg"
+  },
+  "name": "Arges",
+  "elements": {
+    "MAIN_COST": "6",
+    "RECALL_COST": "6",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "[Gigantic]. (I am considered present in each of your Expeditions.)  {J} If there are two or more cards in your Landmarks, I gain 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-011-C-EN",
   "isSuspended": false,
   "isErrated": false,

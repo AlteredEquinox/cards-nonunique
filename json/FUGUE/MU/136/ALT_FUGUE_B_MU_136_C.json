@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,165 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1YGPNPKA4C9YV99JNEMEEC4V8N"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "37Q96902TS8DCBT3YQSE4BBS3T"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "60TX4W7H598TDBP1260YXFFP4S"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3S55C0DXM58G9T93A0BJ8E8WAP"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3XCDD6YMRX9W6847A1YE2CHMAY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/0777TDCEA79B9RX9C63BQD6AV2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may put target Permanent with Base Cost {3} or less controlled by an opponent in its owner's Mana zone (as an exhausted Mana Orb).",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may put target Permanent with Base Cost {3} or less controlled by an opponent in its owner's Mana zone (as an exhausted Mana Orb).",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may put target Permanent with Base Cost {3} or less controlled by an opponent in its owner's Mana zone (as an exhausted Mana Orb).",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may put target Permanent with Base Cost {3} or less controlled by an opponent in its owner's Mana zone (as an exhausted Mana Orb).",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez mettre un Permanent ciblé de Coût de Base {3} ou moins contrôlé par un autre joueur dans la zone de Mana de son propriétaire (en tant qu'Orbe de Mana épuisé).",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may put target Permanent with Base Cost {3} or less controlled by an opponent in its owner's Mana zone (as an exhausted Mana Orb)."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_136_C_0"
+          },
+          "sequence": 0,
+          "id": "74TTNKHJXW8KE8JAGA13WNHZFQ"
+        }
+      ],
+      "value": "{H} You may put target Permanent with Base Cost {3} or less controlled by an opponent in its owner's Mana zone (as an exhausted Mana Orb).",
+      "id": "0777TDCEA79B9RX9C63BQD6AV2"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Benoit Barraqué-Curie " },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/en_US\/b775b0207eb780831d4ac1cb15883f2a.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_136_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_136_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Parnassus Boar",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/en_US\/b775b0207eb780831d4ac1cb15883f2a.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Parnassus Boar",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/de_DE\/91deae0a3b451feb3af057d42692e6f9.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Sanglier du Parnasse",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/fr_FR\/9f0b684d35fb8e9b5a2b41efb532b4ac.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/es_ES\/4c4628335768526d3a328e165a0d0d20.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/it_IT\/abc59a38a5db0546a01bf22b390715d3.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "6TD1EY5F7V8QJBQ554GCJHAYZE",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/fr_FR\/9f0b684d35fb8e9b5a2b41efb532b4ac.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_136\/JPG\/en_US\/b775b0207eb780831d4ac1cb15883f2a.jpg"
+  },
+  "name": "Parnassus Boar",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} You may put target Permanent with Base Cost {3} or less controlled by an opponent in its owner's Mana zone (as an exhausted Mana Orb)."
+  },
   "collectorNumberFormatted": "NEJ-063-C-EN",
   "isSuspended": false,
   "isErrated": false,

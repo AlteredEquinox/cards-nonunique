@@ -1,5 +1,22 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": { "text": "Parfois, il faut jouer gros.", "locale": "fr_FR" },
+        "en_US": {
+          "text": "Sometimes, you have to play big.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A5VJHAJ2EJKBJPACH5NR",
+      "text": "Sometimes, you have to play big."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -23,25 +40,316 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0CBZBEA4598F3BC8RKZ61J1V83"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "2704YQKPEM888AXCZZ0QH0W7Q1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "16W78RJKM683H9G4XS7HWJ58FX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6WX18NS8F99AQSQ6XWHYN1RTFS"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3SNEBZM3JQ8WKVFC8C16DC6D5W"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3HYBSHRBNE8VR9QSECTHFW2ECT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} #Reveal the top card of your deck. If its Hand Cost is:#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} #Reveal the top card of your deck. If its Hand Cost is:#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} #Reveal the top card of your deck. If its Hand Cost is:#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} #Reveal the top card of your deck. If its Hand Cost is:#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} #Révélez la première carte de votre deck. Si son Coût de Main est :#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} #Reveal the top card of your deck. If its Hand Cost is:#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_140_R2_0"
+          },
+          "sequence": 0,
+          "id": "7PDDASE54P91EA7S2PTVB8DEPH"
+        },
+        {
+          "cardElement": "\/card_elements\/3HYBSHRBNE8VR9QSECTHFW2ECT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "3W5R5YWP2D96CSFV62XGB242QG"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• #{4} or more, I gain [ANCHORED].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• #{4} or more, I gain [ANCHORED].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• #{4} or more, I gain [ANCHORED].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• #{4} or more, I gain [ANCHORED].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• #{4} ou plus, je gagne [ANCHORED].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• #{4} or more, I gain [ANCHORED].#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_140_R2_1"
+          },
+          "sequence": 1,
+          "id": "643CHX5A6Q8BE8Y4YS9PHCSWDC"
+        },
+        {
+          "cardElement": "\/card_elements\/3HYBSHRBNE8VR9QSECTHFW2ECT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "2PSW4G7MVD87E9V7NT2QXN21BN"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• {1} or less, I gain [FLEETING].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• {1} or less, I gain [FLEETING].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• {1} or less, I gain [FLEETING].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• {1} or less, I gain [FLEETING].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• {1} ou moins, je gagne [FLEETING].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• {1} or less, I gain [FLEETING]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_140_R2_2"
+          },
+          "sequence": 2,
+          "id": "64E610ZCQ692YTH4C8FWWETHZV"
+        }
+      ],
+      "value": "{H} Reveal the top card of your deck. If its Hand Cost is:  • {4} or more, I gain [[Anchored]].  • {1} or less, I gain [[Fleeting]].",
+      "id": "3HYBSHRBNE8VR9QSECTHFW2ECT"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Benoit Barraqué-Curie " },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_140\/JPG\/en_US\/8174481b84a5ec16834e91feb6557ce7.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_140_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_140_R2",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Lyra Highroller",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_140\/JPG\/en_US\/8174481b84a5ec16834e91feb6557ce7.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Lyra Highroller",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_140\/JPG\/de_DE\/7f52295e3c6d4cb5a31ad997f87c465a.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_140\/JPG\/it_IT\/705c7afa6ff0597f4082e3bbcc7bfaaa.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_140\/JPG\/es_ES\/1124b046187275edf2964643f936d1a1.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Flambeuse Lyra",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_140\/JPG\/fr_FR\/ce84ecbced6887125368ecee72ad881a.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "2EH6HZF5DE892RYQZMRPAAZNHA",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-046-R-EN",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_140\/JPG\/fr_FR\/ce84ecbced6887125368ecee72ad881a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_140\/JPG\/en_US\/8174481b84a5ec16834e91feb6557ce7.jpg"
+  },
+  "name": "Lyra Highroller",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "4",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "{H} #Reveal the top card of your deck. If its Hand Cost is:#  • #{4} or more, I gain [[Anchored]].#  • {1} or less, I gain [[Fleeting]]."
+  },
+  "collectorNumberFormatted": "NEJ-046-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

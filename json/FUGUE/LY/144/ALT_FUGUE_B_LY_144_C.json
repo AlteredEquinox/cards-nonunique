@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,286 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1DHSRE3ECP95SSRZ0AZX5QZ5S7"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6S1DPC3KEN9Y6RWBQ706DN2Z47"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "563P92DWHY8K48F53P59EN08DS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6ZV8ZGF5N18MQTSVV5NJN1FJ5D"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2A0MY38BX38J9TSZDEBT9HGGR0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6WWC8BG8FD8B79REF2SD6FBGT9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "3JWE1JNNYC8ASS0CJR9K6JR717"
+        },
+        {
+          "cardElement": "\/card_elements\/6WWC8BG8FD8B79REF2SD6FBGT9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "Wähle eine Aktion:", "locale": "de_DE" },
+                  "en_US": { "text": "Choose one:", "locale": "en_US" },
+                  "es_ES": { "text": "Elige una opción:", "locale": "es_ES" },
+                  "it_IT": { "text": "Scegli uno:", "locale": "it_IT" },
+                  "fr_FR": { "text": "Choisissez l'un :", "locale": "fr_FR" }
+                },
+                "text": "Choose one:"
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 1,
+          "id": "4PQGHJ646Q8MWR4J67PG5FVY2E"
+        },
+        {
+          "cardElement": "\/card_elements\/6WWC8BG8FD8B79REF2SD6FBGT9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• Send to Reserve target Character with no statistic over 2.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• Send to Reserve target Character with no statistic over 2.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• Send to Reserve target Character with no statistic over 2.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• Send to Reserve target Character with no statistic over 2.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• Envoyez en Réserve un Personnage ciblé dont aucune stat n'est supérieure à 2.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• Send to Reserve target Character with no statistic over 2."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_144_C_2"
+          },
+          "sequence": 2,
+          "id": "3GX2DAMS7N86AVFVHXFW7Q5PWB"
+        },
+        {
+          "cardElement": "\/card_elements\/6WWC8BG8FD8B79REF2SD6FBGT9",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• Discard target Permanent with Base Cost {3} or less.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• Discard target Permanent with Base Cost {3} or less.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• Discard target Permanent with Base Cost {3} or less.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• Discard target Permanent with Base Cost {3} or less.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• Défaussez un Permanent ciblé de Coût de Base {3} ou moins.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• Discard target Permanent with Base Cost {3} or less."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_144_C_3"
+          },
+          "sequence": 3,
+          "id": "4XFCTS1VXZ9YYA1MWKRJ7JVZ7H"
+        }
+      ],
+      "value": "[[Fleeting]].  Choose one:  • Send to Reserve target Character with no statistic over 2.  • Discard target Permanent with Base Cost {3} or less.",
+      "id": "6WWC8BG8FD8B79REF2SD6FBGT9"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Fahmi Fauzi" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_144\/JPG\/en_US\/e9dbc100cd57ec1951588a4805284839.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_144_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_144_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Entrancing Fragrance",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_144\/JPG\/de_DE\/b270ee2dd2882df840c2518f5aadbf1b.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_144\/JPG\/it_IT\/4f62ac2ae8ad9ece4375e2ec21149dea.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Parfum Envoûtant",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_144\/JPG\/fr_FR\/1dd36252fffdaec1160adf50882504a5.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Entrancing Fragrance",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_144\/JPG\/en_US\/e9dbc100cd57ec1951588a4805284839.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_144\/JPG\/es_ES\/9b94c90cae47b8b59044b12e67326867.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "594RNMABF89K7R8069TN5MWR1X",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_144\/JPG\/fr_FR\/1dd36252fffdaec1160adf50882504a5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_144\/JPG\/en_US\/e9dbc100cd57ec1951588a4805284839.jpg"
+  },
+  "name": "Entrancing Fragrance",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Choose one:  • Send to Reserve target Character with no statistic over 2.  • Discard target Permanent with Base Cost {3} or less."
+  },
   "collectorNumberFormatted": "NEJ-053-C-EN",
   "isSuspended": false,
   "isErrated": false,

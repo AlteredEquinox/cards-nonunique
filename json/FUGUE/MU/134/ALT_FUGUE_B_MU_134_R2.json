@@ -1,5 +1,19 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": { "text": "Il va y avoir du spore.", "locale": "fr_FR" },
+        "en_US": { "text": "Such a bad spore.", "locale": "en_US" }
+      },
+      "id": "01KN46A6WD97FE5JRM7CMP1ZV1",
+      "text": "Such a bad spore."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +26,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "PLANT",
+      "id": "01HKAGSB49H24XWW17AAY441MT",
+      "name": "Plant"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +48,203 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0ZCESEHSA98328S4ZMW17R284P"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6W9EVRPN2Y8VG81976J2517ZDF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6PXR4CRE638ZESMMEWW51J0642"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0P0N18QSMD9FK823CH3PWE2JXA"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6HDC7XHCC597EBSH7MP093F1QM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/5C51F6KCQ188D8AADDSQRBX5D8",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "3414ZHD9HS8YSTDN6TF8J49NJT"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} If you control a Companion, I gain [ANCHORED].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} If you control a Companion, I gain [ANCHORED].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} If you control a Companion, I gain [ANCHORED].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} If you control a Companion, I gain [ANCHORED].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Si vous contrôlez un Compagnon, je gagne [ANCHORED].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} If you control a Companion, I gain [ANCHORED]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_134_C_0"
+          },
+          "sequence": 0,
+          "id": "5G9RW5DA0C8VTA4YPFBJVSZCNE"
+        }
+      ],
+      "value": "{J} If you control a Companion, I gain [[Anchored]].",
+      "id": "5C51F6KCQ188D8AADDSQRBX5D8"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_134\/JPG\/en_US\/bd728dbfc4f1f4ca834a41bd5df72add.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_134_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_134_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_134\/JPG\/es_ES\/0d7f1d1b89ee5af1bbc777aee05c112e.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Stocky Shroom",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_134\/JPG\/en_US\/bd728dbfc4f1f4ca834a41bd5df72add.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_134\/JPG\/it_IT\/840b42a5329c38523941d97337728733.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Champignon Trapu",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_134\/JPG\/fr_FR\/9727099bb2c7e345b30a01f43a671733.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Stocky Shroom",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_134\/JPG\/de_DE\/af5b840635859182ce84cbc7390beeb4.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "31XQ0S7BRA99NAWYA18SKNVP86",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-059-R-EN",
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_134\/JPG\/fr_FR\/9727099bb2c7e345b30a01f43a671733.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_134\/JPG\/en_US\/bd728dbfc4f1f4ca834a41bd5df72add.jpg"
+  },
+  "name": "Stocky Shroom",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "#2#",
+    "MOUNTAIN_POWER": "#2#",
+    "MAIN_EFFECT": "{J} If you control a Companion, I gain [[Anchored]]."
+  },
+  "collectorNumberFormatted": "NEJ-059-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +34,209 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "64W43M4PSX9M3AZ2MWV7BTZSDX"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3PT4890RGX9NTRK8RG78C0QT2A"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "5Z2QGQQH7M84TAM8FY7V3YTHBY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01E0T71D4Q8B495530KJX4XBXY"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7Q4EE4134Y95484C1RPMFDKSM0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6YSP8NQ47Q9MHR1Z67PZ3T4GVS",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "5JWAE3RWF79R2TV8S4FAJ0YPGT"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{R}# Roll a die, then [SABOTAGE] a card with Reserve Cost less than or equal to the die's result.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{R}# Roll a die, then [SABOTAGE] a card with Reserve Cost less than or equal to the die's result.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{R}# Roll a die, then [SABOTAGE] a card with Reserve Cost less than or equal to the die's result.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{R}# Roll a die, then [SABOTAGE] a card with Reserve Cost less than or equal to the die's result.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{R}# Lancez un dé, puis [SABOTAGE] une carte dont le Coût de Réserve est inférieur ou égal au résultat.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{R}# Roll a die, then [SABOTAGE] a card with Reserve Cost less than or equal to the die's result."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_138_R2_0"
+          },
+          "sequence": 0,
+          "id": "3D3NGNK0E59F3TDN4SEFSNXZP4"
+        }
+      ],
+      "value": "{R} Roll a die, then [Sabotage] a card with Reserve Cost less than or equal to the die's result.",
+      "id": "6YSP8NQ47Q9MHR1Z67PZ3T4GVS"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Nestor Papatriantafyllou" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/en_US\/812f9effce489d1ce0d386f72ac289b7.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/WEB_36b01264110032ff4ee7e02ad63e9412",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/WEB_aa6f4ca4b4434da1960f513814311b09",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/WEB_8f86fe8db05f95df204ab18841839a2d"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_138_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_138_R2",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Lotus-Eater",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/en_US\/812f9effce489d1ce0d386f72ac289b7.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Lotophage",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/fr_FR\/6af72b32c81e1834950918cfa088a1e7.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/es_ES\/2d7e22ed287f2c12a3d7d0f42f1d624f.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Lotus-Eater",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/de_DE\/d184c57e33aea7b5b71d16e44a905f00.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/it_IT\/873301f2cd86055be1a936f82ca8a3f7.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "4MVNMDW9V88NMRC36MTJXREVMF",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-045-R-EN",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/fr_FR\/6af72b32c81e1834950918cfa088a1e7.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_138\/JPG\/en_US\/812f9effce489d1ce0d386f72ac289b7.jpg"
+  },
+  "name": "Lotus-Eater",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "#{R}# Roll a die, then [Sabotage] a card with Reserve Cost less than or equal to the die's result."
+  },
+  "collectorNumberFormatted": "NEJ-045-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

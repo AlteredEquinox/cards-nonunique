@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "FAIRY",
+      "id": "01HKAGPBKC6V2RK28EZGHP8VWW",
+      "name": "Fairy"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,319 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "00298S6TR58K8BDC8P958EDZ5K"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2CRF6EQ0ZG9Q9S41Z2TE0NY9M2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "2F6QEBXBFP9EPVFXRM5DHM40EJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01VMHJEJSZ8DCBC3N5TTJG2B9P"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1SPSNBXM3488MS5G8MJEFRTSYG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1CBPT7JKVJ844A4TW851BS70CM",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Coriaces 1",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JN9V93R4X2QDP6CPHFSR8DWC",
+                      "reference": "TOUGH_CHA_P_1"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "6QDTR4EY7K97G9H6JVDTH42Z1J"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "fr_FR": {
+                          "displayWeb": "Ancrés",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JZ2KFJ9B9Y4P67GM8CNCHMQE",
+                      "reference": "ANCHORED_CHA_P"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "5NV6G0QG4N9N8T6PSRWQ3T6RNK"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#[ANCHORED_CHA_P] Characters you control are [TOUGH_CHA_P_1].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#[ANCHORED_CHA_P] Characters you control are [TOUGH_CHA_P_1].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#[ANCHORED_CHA_P] Characters you control are [TOUGH_CHA_P_1].#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#[ANCHORED_CHA_P] Characters you control are [TOUGH_CHA_P_1].#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Les Personnages [ANCHORED_CHA_P] que vous contrôlez sont [TOUGH_CHA_P_1].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#[ANCHORED_CHA_P] Characters you control are [TOUGH_CHA_P_1].#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_132_R1_0"
+          },
+          "sequence": 0,
+          "id": "138CAFF2289FD81JNQ1C3H05ST"
+        },
+        {
+          "cardElement": "\/card_elements\/1CBPT7JKVJ844A4TW851BS70CM",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "4PNT12CQZ781ABPDRVJP9D5AXQ"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may target an [ANCHORED] Character. It gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may target an [ANCHORED] Character. It gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may target an [ANCHORED] Character. It gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may target an [ANCHORED] Character. It gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez cibler un Personnage [ANCHORED]. Il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may target an [ANCHORED] Character. It gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_132_C_0"
+          },
+          "sequence": 1,
+          "id": "0DYPX6B0TF838RMJ16PS6FM505"
+        }
+      ],
+      "value": "[[Anchored]] Characters you control are [Tough 1].  {H} You may target an [[Anchored]] Character. It gains 1 boost.",
+      "id": "1CBPT7JKVJ844A4TW851BS70CM"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Nestor Papatriantafyllou" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/en_US\/423a34fceaaf6c7f70e24a9fbdc82d2a.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/WEB_156298e4351258a3b2816ce5c44dcb9b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/WEB_fbbe7d3039551ee7f377e94c3b0357bf",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/WEB_68ab5037523b95abac6caa8c20d4718d"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_132_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_132_R1",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Silenus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/en_US\/423a34fceaaf6c7f70e24a9fbdc82d2a.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/it_IT\/d37d95e2571f9a8706bc9e0105db8717.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Silenus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/de_DE\/80b3f98cf4493886b4873fdc68594389.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Silène",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/fr_FR\/ef7f917dd6f2698cbaf2dca1218d4dec.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/es_ES\/3012ec34237ba58f887f15722b5f9669.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "1FTM0SH5348RAV6Y4HAMRJJY0T",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/fr_FR\/ef7f917dd6f2698cbaf2dca1218d4dec.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_132\/JPG\/en_US\/423a34fceaaf6c7f70e24a9fbdc82d2a.jpg"
+  },
+  "name": "Silenus",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "#2#",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "#[[Anchored]] Characters you control are [Tough 1].#  {H} You may target an [[Anchored]] Character. It gains 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-058-R-EN",
   "isSuspended": false,
   "isErrated": false,

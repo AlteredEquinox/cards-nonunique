@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,165 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7G3X3CP2G880AT954DSKSE4BF7"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7VEAJNNKRJ96EBV4ZJMJNZB332"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "0JZV4WVF4Y9ECREPXAM2EDQ538"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "63Y28CRGSE8F9R7QBM95CE40E8"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7EN2CWHER39T4915A8D9ZTVCD7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6DQ2MQJSKN9BY80HP6F3J753R2",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Roll a die. On a 4+, draw a card.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Roll a die. On a 4+, draw a card.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Roll a die. On a 4+, draw a card.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Roll a die. On a 4+, draw a card.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Lancez un dé. Sur 4+, piochez une carte.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Roll a die. On a 4+, draw a card."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_137_C_0"
+          },
+          "sequence": 0,
+          "id": "46SM82XNDZ8ESS9AC1DAH779EX"
+        }
+      ],
+      "value": "{H} Roll a die. On a 4+, draw a card.",
+      "id": "6DQ2MQJSKN9BY80HP6F3J753R2"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/en_US\/c1654a357c207d7665286eb693914d6b.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_137_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_137_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Dompteur de Tumulte",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/fr_FR\/12742208943317f846e766a1760a92ec.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/es_ES\/ab261ef2208030b6a3e8c7f8abbac0dd.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/it_IT\/edc93f07474a1bc27b4e3864e9172569.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Tumult Tamer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/en_US\/c1654a357c207d7665286eb693914d6b.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Tumult Tamer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/de_DE\/c4c44ef12f1b1fb76bc87ceac0fd78ce.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "48RHH77KY28W9AF7TPC3QY2SM9",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/fr_FR\/12742208943317f846e766a1760a92ec.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_137\/JPG\/en_US\/c1654a357c207d7665286eb693914d6b.jpg"
+  },
+  "name": "Tumult Tamer",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "{H} Roll a die. On a 4+, draw a card."
+  },
   "collectorNumberFormatted": "NEJ-048-C-EN",
   "isSuspended": false,
   "isErrated": false,

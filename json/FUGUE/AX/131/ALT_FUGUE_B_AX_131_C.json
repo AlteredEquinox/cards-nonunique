@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "en_US": {
+          "text": "To navigate these uncharted waters, Sierra placed beacons on the backs of seagulls to triangulate their position.",
+          "locale": "en_US"
+        },
+        "fr_FR": {
+          "text": "Pour naviguer sur cette mer changeante, Sierra plaça sur le dos de mouettes des balises pour trianguler leur position.",
+          "locale": "fr_FR"
+        }
+      },
+      "id": "01KN46A40HYNPH71S6YXWS6SN4",
+      "text": "To navigate these uncharted waters, Sierra placed beacons on the backs of seagulls to triangulate their position."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,121 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "32Q6N2ABDW91MSMSTNSVQVAXFZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "2C1WG8N1JW80694QB3QZXFPK0Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "01NDWSJ65M8X2SGTPVXGBQ9K5P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "26C8Z0E2MX83V8X8YHDZTX85RJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1JSYWN1NQN9V7TASP7D27D9QZP"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/en_US\/f202b1cc48df37cb5158fc0d4e005509.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/WEB_a2ee7303ff9266b8167c11ad0627dc0a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/WEB_f53cc4ce20226fd3642ab3d0c7216936",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/WEB_de0df9a607e45512023301f8dae49f42"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_131_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_131_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/es_ES\/6c62f0c57b8c04609dfe6f101124a18e.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/it_IT\/4cd1596040cca9183c4cf809408d9b75.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Trailing Seagull",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/en_US\/f202b1cc48df37cb5158fc0d4e005509.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Trailing Seagull",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/de_DE\/6e703db111e3315c606b38b6285a530c.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Mouette Suiveuse",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/fr_FR\/756d629101642684800dd75db16041d6.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "7GQK90SERE9DTVPAFBC2CEWX4F",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/fr_FR\/756d629101642684800dd75db16041d6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_131\/JPG\/en_US\/f202b1cc48df37cb5158fc0d4e005509.jpg"
+  },
+  "name": "Trailing Seagull",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0"
+  },
   "collectorNumberFormatted": "NEJ-002-C-EN",
   "isSuspended": false,
   "isErrated": false,

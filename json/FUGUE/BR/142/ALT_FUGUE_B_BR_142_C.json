@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "TITAN",
+      "id": "01HKAGQ9QZA1N8YNZH7CYPBDVR",
+      "name": "Titan"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +34,231 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0B72HDF3RG8TWR1TB74TTSFYSH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6CNYHGB8YE9BQTV4M3B0R41SK8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6RKMF76MXK9BYSRWDDN4CMTFZ3"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "4R3WACSE3C8M4SHHCV3FYH3VKT"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "0JFHNJ6DNM9YBV9F34FXM8QG23"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3NR53RBP9W9FV91J1K1T13XK18",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Gigantisch",
+                          "locale": "de_DE",
+                          "description": "Ich werde in jeder deiner Expeditionen als anwesend betrachtet."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Colossale",
+                          "locale": "it_IT",
+                          "description": "Considerami presente in ciascuna delle tue spedizioni."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Gigante",
+                          "locale": "es_ES",
+                          "description": "Estoy presente en todas tus expediciones."
+                        },
+                        "en_US": {
+                          "displayWeb": "Gigantic",
+                          "locale": "en_US",
+                          "description": "I am considered present in each of your Expeditions."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Gigantesque",
+                          "locale": "fr_FR",
+                          "description": "Je suis considéré présent dans chacune de vos Expéditions."
+                        }
+                      },
+                      "id": "01HKAGQA3G27EJQXMTP7QNSZKD",
+                      "reference": "GIGANTIC"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JB22VRXTYN9T4RMW7NWDWZ5A"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[GIGANTIC].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[GIGANTIC].", "locale": "de_DE" },
+                  "en_US": { "text": "[GIGANTIC].", "locale": "en_US" },
+                  "es_ES": { "text": "[GIGANTIC].", "locale": "es_ES" },
+                  "it_IT": { "text": "[GIGANTIC].", "locale": "it_IT" }
+                },
+                "text": "[GIGANTIC]."
+              }
+            ],
+            "reference": "01000"
+          },
+          "sequence": 0,
+          "id": "1PHTSV6RVX87RS3T00RBANHAN7"
+        },
+        {
+          "cardElement": "\/card_elements\/3NR53RBP9W9FV91J1K1T13XK18",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} You may discard a Character from your Reserve to give me 2 boosts.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} You may discard a Character from your Reserve to give me 2 boosts.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} You may discard a Character from your Reserve to give me 2 boosts.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} You may discard a Character from your Reserve to give me 2 boosts.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Vous pouvez défausser un Personnage de votre Réserve pour me donner 2 boosts.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} You may discard a Character from your Reserve to give me 2 boosts."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_142_C_1"
+          },
+          "sequence": 1,
+          "id": "7XNNQRD0B39YB9H43ARKVCBE18"
+        }
+      ],
+      "value": "[Gigantic].  {J} You may discard a Character from your Reserve to give me 2 boosts.",
+      "id": "3NR53RBP9W9FV91J1K1T13XK18"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Saeed Jalabi" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/JPG\/en_US\/d70225fb7d65f4752a8c0087c746522f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/WEB_71590411c9e8f975c22053d2e456884a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/WEB_04d25fa0d86ab9fa2c02a053bceb5282",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/WEB_4fa322c2c9a02383097b42ad473ba31e"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_142_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_142_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/JPG\/it_IT\/8c027e133f186680f492cd21ed1ea5c8.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Polyphemus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/JPG\/de_DE\/d9548eb967c6aa205f67e5377b6f5d21.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/JPG\/es_ES\/b60b3bd15566c15e9878b518cdc19f61.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Polyphème",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/JPG\/fr_FR\/b03c9bb8b5265deaf876253ca2888926.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Polyphemus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/JPG\/en_US\/d70225fb7d65f4752a8c0087c746522f.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "1WBBVRRA9G8RD9J7JBGJ0M7KR8",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/JPG\/fr_FR\/b03c9bb8b5265deaf876253ca2888926.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_142\/JPG\/en_US\/d70225fb7d65f4752a8c0087c746522f.jpg"
+  },
+  "name": "Polyphemus",
+  "elements": {
+    "MAIN_COST": "6",
+    "RECALL_COST": "6",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "[Gigantic].  {J} You may discard a Character from your Reserve to give me 2 boosts."
+  },
   "collectorNumberFormatted": "NEJ-032-C-EN",
   "isSuspended": false,
   "isErrated": false,

@@ -23,24 +23,240 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6",
+        "name": "LANDMARKS"
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "01KN97B6ZX2VYYECAY1X0F3S5N"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ",
+        "name": "RESERVE"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97B6ZX2VYYECAY1X0F3S5P"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1E426X0XYS94DAY600GSB78YKW"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "56VKA558SK97Q9HEJJCCT8HMPK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7B83HFPDES87CA03CEQJX8NV8F"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7N7MN66WYZ8YYVP4WPX2SXHNSC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "de_DE",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "it_IT": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "it_IT",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "es_ES": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "es_ES",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "en_US": {
+                          "displayWeb": "Signature token",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "2FJ0FYF21B9YMVK8YCJD7GEVS7",
+                      "reference": "SIGNATURE_TOKEN"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "14YZMSBBZT9DXB9423G90NF8EQ"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "ODDBALL",
+                          "locale": "de_DE",
+                          "description": "ODDBALL"
+                        },
+                        "it_IT": {
+                          "displayWeb": "ODDBALL",
+                          "locale": "it_IT",
+                          "description": "ODDBALL"
+                        },
+                        "es_ES": {
+                          "displayWeb": "ODDBALL",
+                          "locale": "es_ES",
+                          "description": "ODDBALL"
+                        },
+                        "en_US": {
+                          "displayWeb": "Oddball 2\/2\/2",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "5M19J137Q08BDA34C78BZJ20TX",
+                      "reference": "ODDBALL"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "76MPSC96X38X39WB9M7JS5VR0P"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [ODDBALL] in your Reserve. (It's a Robot Companion with Reserve Cost {2} and \"I cost {2} less if you played a Construction this Day.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [ODDBALL] in your Reserve. (It's a Robot Companion with Reserve Cost {2} and \"I cost {2} less if you played a Construction this Day.\")",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [ODDBALL] in your Reserve. (It's a Robot Companion with Reserve Cost {2} and \"I cost {2} less if you played a Construction this Day.\")",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [ODDBALL] in your Reserve. (It's a Robot Companion with Reserve Cost {2} and \"I cost {2} less if you played a Construction this Day.\")",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes premier joueur, créez mon [SIGNATURE_TOKEN] : [ODDBALL] dans votre Réserve. (C'est un Robot Compagnon avec un Coût de Réserve de {2} et : « Je coûte {2} de moins si vous avez joué une Construction ce Jour. »)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [ODDBALL] in your Reserve. (It's a Robot Companion with Reserve Cost {2} and \"I cost {2} less if you played a Construction this Day.\")"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_130_C_0"
+          },
+          "sequence": 0,
+          "id": "3NSWCW1XX481NRXPDS7KZMEDWP"
+        }
+      ],
+      "value": "At Noon — If you're first player, create my [Signature token]: [Oddball 2\/2\/2] in your Reserve. (It's a Robot Companion with Reserve Cost {2} and \"I cost {2} less if you played a Construction this Day.\")",
+      "id": "7N7MN66WYZ8YYVP4WPX2SXHNSC"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_130\/JPG\/en_US\/a5155914e921c4dd9cc939ca58e4e0ed.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_130_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_130_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_130\/JPG\/es_ES\/aed556b4f907b9e0f748f72f1e1827a0.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Wayfinder Sierra",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_130\/JPG\/de_DE\/08eb17b4e3c2cc5d484d42969f262a7b.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_130\/JPG\/it_IT\/bd415509caa720d4c4765a05838881a2.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Wayfinder Sierra",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_130\/JPG\/en_US\/a5155914e921c4dd9cc939ca58e4e0ed.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Sierra Navigatrice",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_130\/JPG\/fr_FR\/dc385d58a08ef72fa42658618da4eb77.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "17WDCV7K37882ARZH2Z6G5VD6E",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_130\/JPG\/fr_FR\/dc385d58a08ef72fa42658618da4eb77.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_130\/JPG\/en_US\/a5155914e921c4dd9cc939ca58e4e0ed.jpg"
+  },
+  "name": "Wayfinder Sierra",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "3",
+    "RESERVE": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "At Noon — If you're first player, create my [Signature token]: [Oddball 2\/2\/2] in your Reserve. (It's a Robot Companion with Reserve Cost {2} and \"I cost {2} less if you played a Construction this Day.\")"
+  },
   "collectorNumberFormatted": "NEJ-001-H-EN",
   "isSuspended": false,
   "isErrated": false,

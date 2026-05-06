@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Il attendait, fidèle à son maître, dans l'espoir d'entendre un seul pas familier.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "He waited, faithful to his master, hoping to hear a single familiar step.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A6KJJVXCMVS3RDJ7VCJP",
+      "text": "He waited, faithful to his master, hoping to hear a single familiar step."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    },
+    {
+      "reference": "COMPANION",
+      "id": "01HKAGQPYTEKRYT4PRE9HZHTDA",
+      "name": "Companion"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +54,209 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6DRF2DW7PR91QVGNSCBYYEDWJK"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "652HDSR6ZN9GHSGK9V58HE13F2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "5N7SEQBW9B88N9E5HGHZ3XZX33"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7KBK9JPVP3935BKDWQ06ANB8Y5"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3C5NXR2X4Y88JA139D54ATNH98"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2890R2PJ6J8C2AEPMSCFPEKG5Q",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Anchored",
+                          "locale": "en_US",
+                          "description": "During Rest, I don't go to Reserve and I lose Anchored."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Verankert",
+                          "locale": "de_DE",
+                          "description": "Während der Ruhepause gehe ich nicht in die Reserve und verliere Verankert."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Anclaje",
+                          "locale": "es_ES",
+                          "description": "Durante el descanso, no voy a la reserva y pierdo anclaje."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Ancorato",
+                          "locale": "it_IT",
+                          "description": "Durante il riposo, non vado nella Riserva e perdo Ancorato."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ancré",
+                          "locale": "fr_FR",
+                          "description": "Au Repos, je ne vais pas en Réserve et je perds Ancré."
+                        }
+                      },
+                      "id": "01HKAGQQK91PRVXQ5ARQWWQQ9T",
+                      "reference": "ANCHORED"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "3CBKQB4ST09QZR9AHCKC45KNK8"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "#{R} I gain 1 boost and [ANCHORED].#",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "#{R} I gain 1 boost and [ANCHORED].#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{R} I gain 1 boost and [ANCHORED].#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{R} I gain 1 boost and [ANCHORED].#",
+                    "locale": "it_IT"
+                  },
+                  "fr_FR": {
+                    "text": "#{R} Je gagne 1 boost et [ANCHORED].#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{R} I gain 1 boost and [ANCHORED].#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_131_R1_0"
+          },
+          "sequence": 0,
+          "id": "6JEN7XW3SW8859TXH4YTRN3TV8"
+        }
+      ],
+      "value": "{R} I gain 1 boost and [[Anchored]].",
+      "id": "2890R2PJ6J8C2AEPMSCFPEKG5Q"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/JPG\/en_US\/82e602ba08b4c69d318cad72f592d365.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/WEB_4f328ea4bce23c14b8435b67a40fb54f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/WEB_f411c12020441056dcbab94c4c361720",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/WEB_cad78065b9a68c378159d984d082f422"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_131_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_131_R2",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Faithful Dog",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/JPG\/de_DE\/203fcf76ad349a9619364e1cbd2db975.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Chien Fidèle",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/JPG\/fr_FR\/eeeb50dcf325cfc67b85251879bed77d.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/JPG\/it_IT\/988ff0b270148e4e0465178d38e53d70.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Faithful Dog",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/JPG\/en_US\/82e602ba08b4c69d318cad72f592d365.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/JPG\/es_ES\/ab27d6b61c4975c080923d14c7d7621c.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "7V5XPYT6NF95E86DF0K0QWNJQY",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-056-R-EN",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/JPG\/fr_FR\/eeeb50dcf325cfc67b85251879bed77d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_131\/JPG\/en_US\/82e602ba08b4c69d318cad72f592d365.jpg"
+  },
+  "name": "Faithful Dog",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "#1#",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "#{R} I gain 1 boost and [[Anchored]].#"
+  },
+  "collectorNumberFormatted": "NEJ-056-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

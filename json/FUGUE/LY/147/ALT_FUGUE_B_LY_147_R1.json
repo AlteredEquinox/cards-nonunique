@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,165 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1TA7DV41SY8RCVFZCDGM3VK2RB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "70V2JERJ3Y8WK8Z99H3YE25E8K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "3SYS1TGNCH9VBSJWQVMMP1HMFJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4Q7WHCRSNM97DBP6HF2EG0MZ6E"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2DTHXHZXTC9K8RK1MVNZ08XCCM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1E4S0R3QSS8B7RXDZ0AHKK59EJ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you roll one or more dice — #I gain 1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When you roll one or more dice — #I gain 1 boost.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When you roll one or more dice — #I gain 1 boost.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When you roll one or more dice — #I gain 1 boost.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous lancez au moins un dé — #Je gagne 1 boost.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you roll one or more dice — #I gain 1 boost.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_147_R1_0"
+          },
+          "sequence": 0,
+          "id": "196BPS3TWH9XS82TSK55ZAH0DD"
+        }
+      ],
+      "value": "When you roll one or more dice — I gain 1 boost.",
+      "id": "1E4S0R3QSS8B7RXDZ0AHKK59EJ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Victor Canton" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/en_US\/e9af483a1338b0ce1ce82f1220eef1ec.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_147_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_147_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Trireme Trickster",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/de_DE\/607e153a3d03a4f69e0c88e70bb87bd7.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/it_IT\/db2bc8564a5b45ad63a65c92f26c9750.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Prestidigitatrice de Trirème",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/fr_FR\/83be601c33fb46488fda5358c04b5744.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/es_ES\/93311ea85a0c1e04808ce7e074ecf0f1.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Trireme Trickster",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/en_US\/e9af483a1338b0ce1ce82f1220eef1ec.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "3738ZVJ2AP9GK9QR13ZHBR1KK0",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/fr_FR\/83be601c33fb46488fda5358c04b5744.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_147\/JPG\/en_US\/e9af483a1338b0ce1ce82f1220eef1ec.jpg"
+  },
+  "name": "Trireme Trickster",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "When you roll one or more dice — #I gain 1 boost.#"
+  },
   "collectorNumberFormatted": "NEJ-042-R-EN",
   "isSuspended": false,
   "isErrated": false,

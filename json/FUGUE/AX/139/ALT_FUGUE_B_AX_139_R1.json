@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« J'ai reprogrammé tous mes Automates pour les affecter à la construction de l'Homère. » — Sierra",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“I’ve reprogrammed all my Automata to assign them to the construction of the Homer.” — Sierra",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A466H93PPBV3THEYKAW6",
+      "text": "“I’ve reprogrammed all my Automata to assign them to the construction of the Homer.” — Sierra"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ROBOT",
+      "id": "01HKAGPDNDJM76PRKTBB98Q0ZM",
+      "name": "Robot"
+    },
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +54,121 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "70S7MJNPJ19R29K928NXWWD8JS"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "3GCF8WA1C887RBEQQDKY8VXHWX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "5HGME5VEMF9AMV181A7F97JKCX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "169K7R5SW88BNA1TV9C8DK4FBX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "7FQTP4MA159ADA3ASMGPGPJKDD"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/en_US\/f5708d6dca895e97be0f33df2574a874.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/WEB_70b7d4d1d91eec0b9f446a1623084018",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/WEB_abbc7c610af584922dbdbcb765d2cbee",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/WEB_c4ed62f2874ce83f1452597e27d999a5"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_139_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_139_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Shipwright Automaton",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/de_DE\/cf034a6215640aa61eb4f2ca6933f34c.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Taquier Robotique",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/fr_FR\/62c75b6ab971f10958699e46383bbef7.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/it_IT\/469e43a7f7802202c8f4d8f39bc09509.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Shipwright Automaton",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/en_US\/f5708d6dca895e97be0f33df2574a874.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/es_ES\/8bbaf3bf8009f59cc4eb718a19742032.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "74XRQF0BCZ8M2R64K9D9WWRG3W",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/fr_FR\/62c75b6ab971f10958699e46383bbef7.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_139\/JPG\/en_US\/f5708d6dca895e97be0f33df2574a874.jpg"
+  },
+  "name": "Shipwright Automaton",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "#4#",
+    "FOREST_POWER": "#4#",
+    "MOUNTAIN_POWER": "#4#"
+  },
   "collectorNumberFormatted": "NEJ-010-R-EN",
   "isSuspended": false,
   "isErrated": false,

@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,253 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7XC3R1YA959S986GTR10JC5FZJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "3NP15KG80G953BGY3GJMRMZE3D"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "655WXYP21988CRTBM98V2F1HKV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "74KB3YH51884ZACCE5M3W9A8D0"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4Z10BW6TN48AMT4PFDBVV1NAQB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6GB6C1GEWQ85P9VXTRNFB3TFQE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "6Z0A5EE16C82B9FCD9MMN5PRC5"
+        },
+        {
+          "cardElement": "\/card_elements\/6GB6C1GEWQ85P9VXTRNFB3TFQE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": { "text": "Pesca una carta.", "locale": "it_IT" },
+                  "de_DE": { "text": "Ziehe eine Karte.", "locale": "de_DE" },
+                  "fr_FR": { "text": "Piochez une carte.", "locale": "fr_FR" },
+                  "es_ES": { "text": "Roba una carta.", "locale": "es_ES" },
+                  "en_US": { "text": "Draw a card.", "locale": "en_US" }
+                },
+                "text": "Draw a card."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 1,
+          "id": "402Q2AC9B5952TWB6HPNJK37V6"
+        },
+        {
+          "cardElement": "\/card_elements\/6GB6C1GEWQ85P9VXTRNFB3TFQE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Then, target opponent becomes first player. (They take the First Player marker, and will pass it at the start of the next Day.)",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Then, target opponent becomes first player. (They take the First Player marker, and will pass it at the start of the next Day.)",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Then, target opponent becomes first player. (They take the First Player marker, and will pass it at the start of the next Day.)",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Then, target opponent becomes first player. (They take the First Player marker, and will pass it at the start of the next Day.)",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Puis, un adversaire ciblé devient premier joueur. (Il prend le marqueur Premier Joueur, et le passera au début du prochain Jour.)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Then, target opponent becomes first player. (They take the First Player marker, and will pass it at the start of the next Day.)"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_147_C_2"
+          },
+          "sequence": 2,
+          "id": "5Y1BBFB57Y83XT471YXGFTFBJ4"
+        }
+      ],
+      "value": "[[Fleeting]].  Draw a card.  Then, target opponent becomes first player. (They take the First Player marker, and will pass it at the start of the next Day.)",
+      "id": "6GB6C1GEWQ85P9VXTRNFB3TFQE"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/en_US\/71d8f5c68f10d6719b583b34ca69178a.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/WEB_a48d1d5e86be64b41f540ce16ddbfc1b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/WEB_49b9cb4d886725e69d0a40014f89d1b4"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_147_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_147_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "La Fuite du Temps",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/fr_FR\/11b0c963f8e290c1c677868353720788.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/es_ES\/a36f78b111733f167443254b7029cf6b.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/it_IT\/732dba3a4e622300f8c3ef4d779ab562.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Time Flies",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/de_DE\/1c735133bdcfa031780c710f04b868d7.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Time Flies",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/en_US\/71d8f5c68f10d6719b583b34ca69178a.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "67MMMF1RKV9PEBHNEVP7KGNHTY",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/fr_FR\/11b0c963f8e290c1c677868353720788.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/en_US\/71d8f5c68f10d6719b583b34ca69178a.jpg"
+  },
+  "name": "Time Flies",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Draw a card.  Then, target opponent becomes first player. (They take the First Player marker, and will pass it at the start of the next Day.)"
+  },
   "collectorNumberFormatted": "NEJ-069-C-EN",
   "isSuspended": false,
   "isErrated": false,

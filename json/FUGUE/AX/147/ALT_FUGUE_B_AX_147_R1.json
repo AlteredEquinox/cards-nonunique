@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,170 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "62Y1RQKJ898JPBQM437BM559K2"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "13YVHT2VMN8GJVEEMDSD5J70DB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "41NR9W5RBB9GFRV9NQVTZ3H6NS"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3D0XJMPTWX8Q4S42HNJYM300SX"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2KMX1S54GR81H95H5PM85NFC4H"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1W55PV198C83ZAT427RQ1S4230",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous jouez un Personnage de Coût de Base {2} ou plus — Vous pouvez m'épuiser pour qu'il gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_147_C_1"
+          },
+          "sequence": 0,
+          "id": "0GP5P6AMAH8WSR3JER1JYBPJ49"
+        }
+      ],
+      "value": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost.",
+      "id": "1W55PV198C83ZAT427RQ1S4230"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/en_US\/508c4b07f12f0d13352537c7d5af05fc.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/WEB_499186b3790844d545b2e2fb1d5490ce",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/WEB_6e2606d832aa3ef9f6305672b8fdfda6"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_147_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_147_R1",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Sanctuaire de Circé",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/fr_FR\/f638a6ebaaf016e4c3bc8c76c1027c0e.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/es_ES\/aa4564773fe4a172cc5047b68d165161.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Fane of Circe",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/de_DE\/147114ac3c070a313345ee627361cace.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/it_IT\/b4f0878f216764aff264c4582803b572.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Fane of Circe",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/en_US\/508c4b07f12f0d13352537c7d5af05fc.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "0HWMKDXVTM87HTFAGV95EPKZ4C",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/fr_FR\/f638a6ebaaf016e4c3bc8c76c1027c0e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_147\/JPG\/en_US\/508c4b07f12f0d13352537c7d5af05fc.jpg"
+  },
+  "name": "Fane of Circe",
+  "elements": {
+    "MAIN_COST": "#2#",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "When you play a Character with Base Cost {2} or more — You may exhaust me to give it 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-017-R-EN",
   "isSuspended": false,
   "isErrated": false,

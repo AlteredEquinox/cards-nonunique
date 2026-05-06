@@ -23,24 +23,288 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ",
+        "name": "RESERVE"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97DADBH5YDC5WP2MJEW35Q"
+    },
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6",
+        "name": "LANDMARKS"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97DADBH5YDC5WP2MJEW35R"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "5A9CA98YA09ADBABSVV1RYWCSM"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "3PMNDNX9GR8QQ9MCMSX244N749"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "41CHYQV34599WR2B6Z5K7E53JM"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4VVR2EXHW98K28627W12SJ7VDW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you roll one or more dice — If the result is 6+, exhaust me to create my Signature token in your Reserve.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When you roll one or more dice — If the result is 6+, exhaust me to create my Signature token in your Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When you roll one or more dice — If the result is 6+, exhaust me to create my Signature token in your Reserve.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When you roll one or more dice — If the result is 6+, exhaust me to create my Signature token in your Reserve.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous lancez au moins un dé — Sur 6+, vous pouvez m'épuiser pour créer mon jeton Signature dans votre Réserve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you roll one or more dice — If the result is 6+, exhaust me to create my Signature token in your Reserve."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_130_C_0"
+          },
+          "sequence": 0,
+          "id": "6FTABCZZ2K8WQA723JRYGJ3PJH"
+        },
+        {
+          "cardElement": "\/card_elements\/4VVR2EXHW98K28627W12SJ7VDW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Shift 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "SHIFT",
+                          "locale": "de_DE",
+                          "description": "SHIFT"
+                        },
+                        "it_IT": {
+                          "displayWeb": "SHIFT",
+                          "locale": "it_IT",
+                          "description": "SHIFT"
+                        },
+                        "es_ES": {
+                          "displayWeb": "SHIFT",
+                          "locale": "es_ES",
+                          "description": "SHIFT"
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "1TC2Q19GW79QJBQ3W4P2NAHGN9",
+                      "reference": "SHIFT"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "2VSDVRJDBH8369TRWQ912R68XR"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "de_DE",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "it_IT": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "it_IT",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "es_ES": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "es_ES",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "en_US": {
+                          "displayWeb": "Signature token",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "2FJ0FYF21B9YMVK8YCJD7GEVS7",
+                      "reference": "SIGNATURE_TOKEN"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "7Q54R14YT094WRNND7AGD1A9WB"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [SHIFT] in your Reserve. (It's a Companion token with Reserve Cost {1} and \"{r} Roll a die. On a 4+, I gain 1 boost.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [SHIFT] in your Reserve. (It's a Companion token with Reserve Cost {1} and \"{r} Roll a die. On a 4+, I gain 1 boost.\")",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [SHIFT] in your Reserve. (It's a Companion token with Reserve Cost {1} and \"{r} Roll a die. On a 4+, I gain 1 boost.\")",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [SHIFT] in your Reserve. (It's a Companion token with Reserve Cost {1} and \"{r} Roll a die. On a 4+, I gain 1 boost.\")",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes premier joueur, créez mon [SIGNATURE_TOKEN] : [SHIFT] dans votre Réserve. (C'est un Compagnon avec un Coût de Réserve de {1} et : « {r} Lancez un dé. Sur 4+, je gagne 1 boost. »)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [SHIFT] in your Reserve. (It's a Companion token with Reserve Cost {1} and \"{r} Roll a die. On a 4+, I gain 1 boost.\")"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_130_C_1"
+          },
+          "sequence": 1,
+          "id": "68YZEQ07JC9RAT9SVQEHQ5N56H"
+        }
+      ],
+      "value": "When you roll one or more dice — If the result is 6+, exhaust me to create my Signature token in your Reserve.  At Noon — If you're first player, create my [Signature token]: [Shift 1\/1\/1] in your Reserve. (It's a Companion token with Reserve Cost {1} and \"{r} Roll a die. On a 4+, I gain 1 boost.\")",
+      "id": "4VVR2EXHW98K28627W12SJ7VDW"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/JPG\/en_US\/31f562f841773f277a52eeb8f4f26af0.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/HERO_THUMB_6c96de6c8c73cc28b0f842a59c6bfe7c"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/HERO_WIDE_8e7710672d09778fc0f60aa7f16aa9fe"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/WEB_cd426447e11f897020505705832fabb3"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_130_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_130_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Zoe",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/JPG\/de_DE\/43d27a1b57b555e8f567bf3463927bfa.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/JPG\/it_IT\/ee510549d68a2c2e83e5316c05eabb01.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/JPG\/es_ES\/08e08def01770d234ad6759e6ac10674.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Zoe",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/JPG\/en_US\/31f562f841773f277a52eeb8f4f26af0.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Zoé",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/JPG\/fr_FR\/aa411152fa8f5d67435cf873ebaf62f6.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "28F7AZR7359HSAEJFJVTXGFJ06",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/JPG\/fr_FR\/aa411152fa8f5d67435cf873ebaf62f6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_130\/JPG\/en_US\/31f562f841773f277a52eeb8f4f26af0.jpg"
+  },
+  "name": "Zoe",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "RESERVE": "2",
+    "PERMANENT": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "When you roll one or more dice — If the result is 6+, exhaust me to create my Signature token in your Reserve.  At Noon — If you're first player, create my [Signature token]: [Shift 1\/1\/1] in your Reserve. (It's a Companion token with Reserve Cost {1} and \"{r} Roll a die. On a 4+, I gain 1 boost.\")"
+  },
   "collectorNumberFormatted": "NEJ-037-H-EN",
   "isSuspended": false,
   "isErrated": false,

@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4SKDN44CDM8GFRS2S0VQ8J0FMH"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6RWY5FQ2NQ833AB2AZ35BB5N3R"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1WDSEXE9RG9CMRW2KYP1RXW77F"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5S540753EC9Y2T4T9DRPK7TZPY"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1T4P2B4QCB90TBZQC9YNQ99SKC"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3K76RCSX6Y8J8RCC59KVBCZVPQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} #Up to two# target Characters each gain 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} #Up to two# target Characters each gain 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} #Up to two# target Characters each gain 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} #Up to two# target Characters each gain 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} #Jusqu'à deux# Personnages ciblés gagnent chacun 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} #Up to two# target Characters each gain 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_141_R1_0"
+          },
+          "sequence": 0,
+          "id": "05PF6GH36X982VRPWK55H97TN1"
+        }
+      ],
+      "value": "{J} Up to two target Characters each gain 1 boost.",
+      "id": "3K76RCSX6Y8J8RCC59KVBCZVPQ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Atanas Lozanski" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/JPG\/en_US\/50daeb09867ffb0ede2a3030be196e8d.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/WEB_e6338caeb3aef9b0d8de8c98bf5a4f68",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/WEB_0069ee77f796a4e9d96b251908ba3d2b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/WEB_5fc692bddfe82b09291112d501e42758"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_141_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_141_R2",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/JPG\/it_IT\/fe3faa40b960c76b9c16d457ae9c18ca.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Bravos Steward",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/JPG\/en_US\/50daeb09867ffb0ede2a3030be196e8d.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Intendant Bravos",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/JPG\/fr_FR\/af9cc4e5c07874402f7611c734d5868a.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Bravos Steward",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/JPG\/de_DE\/435f40795c2e1e71dc93294cf9fbbc16.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/JPG\/es_ES\/4e3324d2a0a5c10de2da4679b4f8752b.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "2A7ZW8DXZ79Z9RW65BTH9A65FX",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-026-R-EN",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/JPG\/fr_FR\/af9cc4e5c07874402f7611c734d5868a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_141\/JPG\/en_US\/50daeb09867ffb0ede2a3030be196e8d.jpg"
+  },
+  "name": "Bravos Steward",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{J} #Up to two# target Characters each gain 1 boost."
+  },
+  "collectorNumberFormatted": "NEJ-026-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

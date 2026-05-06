@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,231 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "3XDZWAP5FV8X0SZHJPSX4WKZCP"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "773AE014JC9138HDJ4BXDRA19K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7411NRBNTE8QPAKA2DK7QNXRGN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1E0BX5C1QX945VME4W481RJHX3"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6B6NPGTCNW8RYTFMYP06M319TF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/69CKDAK9GG8YGTFMVSXZRRGBXA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "3K745ZD07C94AV9BW3ZY1ABGS7"
+        },
+        {
+          "cardElement": "\/card_elements\/69CKDAK9GG8YGTFMVSXZRRGBXA",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Target a Character with no statistic higher than the number of #Characters# in your Expeditions. Send it to Reserve.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Target a Character with no statistic higher than the number of #Characters# in your Expeditions. Send it to Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Target a Character with no statistic higher than the number of #Characters# in your Expeditions. Send it to Reserve.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Target a Character with no statistic higher than the number of #Characters# in your Expeditions. Send it to Reserve.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Ciblez un Personnage dont aucune stat n'est supérieure au nombre de #Personnages# dans vos Expéditions. Envoyez-le en Réserve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Target a Character with no statistic higher than the number of #Characters# in your Expeditions. Send it to Reserve."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_144_R2_1"
+          },
+          "sequence": 1,
+          "id": "73FR9RFWKZ9Q8SV3V0WT79Z6TX"
+        }
+      ],
+      "value": "[[Fleeting]].  Target a Character with no statistic higher than the number of Characters in your Expeditions. Send it to Reserve.",
+      "id": "69CKDAK9GG8YGTFMVSXZRRGBXA"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Gamon Studio" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/en_US\/ab10d2894f1a36dd98736f335d94ef45.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/WEB_887ae49263fd88f8417ab09de22e0d99",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/WEB_4f1ff53c7259ca1ea61bf0915fbea5bd"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_144_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_144_R2",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/it_IT\/a15edb695d0b22f613da159714d434c6.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Strength in Numbers",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/de_DE\/00266c64a623fc57b446b4332f3b257f.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "La Force du Nombre",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/fr_FR\/8fc17ee140087ecd7f541cc200c298c8.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Strength in Numbers",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/en_US\/ab10d2894f1a36dd98736f335d94ef45.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/es_ES\/0a0b317992993da03f5660c7a39c0f0b.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "1P8F3W0AMV888RGFW44JZM49BF",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-087-R-EN",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/fr_FR\/8fc17ee140087ecd7f541cc200c298c8.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/en_US\/ab10d2894f1a36dd98736f335d94ef45.jpg"
+  },
+  "name": "Strength in Numbers",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Target a Character with no statistic higher than the number of #Characters# in your Expeditions. Send it to Reserve."
+  },
+  "collectorNumberFormatted": "NEJ-087-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

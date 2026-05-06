@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Combattre le feu par le feu a toujours fait partie de la philosophie Yzmir.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Fighting fire with fire has always been part of Yzmir’s philosophy.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46AB3B19WFXARJ9S6S4AKZ",
+      "text": "Fighting fire with fire has always been part of Yzmir’s philosophy."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +54,166 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6FE5H5F3CS8WRRR4QPA08EQXYK"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1N080Q7Q1P8FGVV5TE424K5T2G"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "2PP6SYMMP09DTRP75GFRG3AVJD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2W50K8VWHQ9F9BKEJNDAKCAEK3"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "01DACSY27G99F8MGXB4VCRBCD7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/07CA3D07AD95XSDBMM5VYM7N6H",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{H} Je gagne #2 boosts.#",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{H} I gain #2 boosts.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Ich erhalte #2 Verstärkungen.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Ottengo #2 rinforzi.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Gano #2 potenciadores.#",
+                    "locale": "es_ES"
+                  }
+                },
+                "text": "{H} I gain #2 boosts.#"
+              }
+            ],
+            "reference": "01450"
+          },
+          "sequence": 0,
+          "id": "0SZJNRM2Y68XWTHS1SHB5KACJ8"
+        }
+      ],
+      "value": "{H} I gain 2 boosts.",
+      "id": "07CA3D07AD95XSDBMM5VYM7N6H"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Fahmi Fauzi" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/en_US\/ee790611446391ac345216a6324c562c.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_137_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_137_R2",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Taupe du Qorgan",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/fr_FR\/61866ba299e59c74f2d498364f6e13ec.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/it_IT\/e5e32a71d8156fc50d7fb47dbad197ef.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Qorgan Intelligencer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/en_US\/ee790611446391ac345216a6324c562c.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/es_ES\/5ab02657c618978642ae6863379bb6df.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Qorgan Intelligencer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/de_DE\/03dcbcc27272b4413ab3f13223372ecf.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "4QPVJ5MK88825A83PSHXFVKYRV",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-094-R-EN",
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/fr_FR\/61866ba299e59c74f2d498364f6e13ec.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_137\/JPG\/en_US\/ee790611446391ac345216a6324c562c.jpg"
+  },
+  "name": "Qorgan Intelligencer",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "#0#",
+    "MAIN_EFFECT": "{H} I gain #2 boosts.#"
+  },
+  "collectorNumberFormatted": "NEJ-094-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

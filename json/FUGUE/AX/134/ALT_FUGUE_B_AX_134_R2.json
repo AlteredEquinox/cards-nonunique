@@ -1,5 +1,22 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Faire et défaire… cela doit cesser. »",
+          "locale": "fr_FR"
+        },
+        "en_US": { "text": "“Do and undo… this must end.”", "locale": "en_US" }
+      },
+      "id": "01KN46A42E7WG32MABCFJ4WCTG",
+      "text": "“Do and undo… this must end.”"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +29,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ROGUE",
+      "id": "01JZ2K0A1NZSGT69DP1WS2917B",
+      "name": "Rogue"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +46,209 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "57BJ0EENYZ82FBN1ZYMD8WDN2N"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "79331PC5G79KNSS3453XD2K4CR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3ZDJECNX0A8MBR7P2B2H3RFNR1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2C3EQ4K6AK9DNT63D351X5NM51"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5B2SSXQV2391TRTBSZBPZFNPVX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/45A3CFF2VQ8YJRES1JR44FGDAK",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "2KS618B6F99XJAC5GJTE7N6B9W"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} [SABOTAGE], #then I gain 1 boost.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} [SABOTAGE], #then I gain 1 boost.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} [SABOTAGE], #then I gain 1 boost.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} [SABOTAGE], #then I gain 1 boost.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} [SABOTAGE], #puis je gagne 1 boost.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} [SABOTAGE], #then I gain 1 boost.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_134_R1_0"
+          },
+          "sequence": 0,
+          "id": "0HFDSENHN48K7VM0GD0ZG7JMZF"
+        }
+      ],
+      "value": "{R} [Sabotage], then I gain 1 boost.",
+      "id": "45A3CFF2VQ8YJRES1JR44FGDAK"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zaeliven" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/JPG\/en_US\/6d64ef7a4466b900e34c1f99a338179b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/WEB_57b053a24d557b9e270514f92ec76117",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/WEB_7aa54ea500566e422467d232dbfe4422",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/WEB_c99c15971fb1e83cec3db8dc6ae7fe4a"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_134_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_134_R2",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Melantho",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/JPG\/en_US\/6d64ef7a4466b900e34c1f99a338179b.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Mélantho",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/JPG\/fr_FR\/5f90d604df66886d608d89879ef32259.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/JPG\/es_ES\/4833259bd404afa5588b802035268f11.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/JPG\/de_DE\/357f9592735861e416b712dfa98b9679.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Melantho",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/JPG\/it_IT\/db00ea522a7366c4d063c64b9abee6b6.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "35431BP8CJ9BR8D19Z0ACCT7GT",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-006-R-EN",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/JPG\/fr_FR\/5f90d604df66886d608d89879ef32259.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_134\/JPG\/en_US\/6d64ef7a4466b900e34c1f99a338179b.jpg"
+  },
+  "name": "Melantho",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{R} [Sabotage], #then I gain 1 boost.#"
+  },
+  "collectorNumberFormatted": "NEJ-006-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

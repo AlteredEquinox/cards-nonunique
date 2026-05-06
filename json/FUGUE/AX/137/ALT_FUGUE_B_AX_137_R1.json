@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,209 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "236Z4DG3QJ8ACTN7JSW487EXN2"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4CGYYQBPAM8N3VBP9KN6J78ARZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "338YY63MY28H49M6W1F0YFF5NF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7Y0122WHC48BX8GGJBSS9DVGJV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "13R4Z7MYC28A5VMRHBFHQTGM1N"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6G3G0QK6GJ8XSR2DPW64G19HR1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": {
+                    "text": "{H} Payez {1} de moins le prochain Permanent que vous jouez cet Après-midi, jusqu'à un minimum de {1}.",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "{H} Pay {1} less for the next Permanent you play this Afternoon, down to a minimum of {1}.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Zahle {1} weniger für die nächste Bleibende Karte, die du an diesem Nachmittag spielst, aber mindestens {1}.",
+                    "locale": "de_DE"
+                  },
+                  "es_ES": {
+                    "text": "{H} Paga {1} menos por el siguiente permanente que juegues esta tarde, hasta un mínimo de {1}.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{H} Paga {1} in meno per il prossimo permanente che giochi questo pomeriggio, fino a un minimo di {1}.",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "{H} Pay {1} less for the next Permanent you play this Afternoon, down to a minimum of {1}."
+              }
+            ],
+            "reference": "02755"
+          },
+          "sequence": 0,
+          "id": "0Z7C4GZ3DK90KAX7KXHRTDP34D"
+        },
+        {
+          "cardElement": "\/card_elements\/6G3G0QK6GJ8XSR2DPW64G19HR1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{R}# Sacrifice a Permanent. If you do, #draw a card.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{R}# Sacrifice a Permanent. If you do, #draw a card.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{R}# Sacrifice a Permanent. If you do, #draw a card.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{R}# Sacrifice a Permanent. If you do, #draw a card.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{R}# Sacrifiez un Permanent. Si vous le faites, #piochez une carte.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{R}# Sacrifice a Permanent. If you do, #draw a card.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_137_R1_1"
+          },
+          "sequence": 1,
+          "id": "7PC36CAZV998HVDWXMQ4RBGCJQ"
+        }
+      ],
+      "value": "{H} Pay {1} less for the next Permanent you play this Afternoon, down to a minimum of {1}.  {R} Sacrifice a Permanent. If you do, draw a card.",
+      "id": "6G3G0QK6GJ8XSR2DPW64G19HR1"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Damian Audino" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/JPG\/en_US\/6229f7cd960ca4be96b315838cbf0c58.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/WEB_7225138c879e180e9e9be84d48576e1f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/WEB_0eb9d4fdd43fd57f4fde09ddc86148e5",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/WEB_b51a47fbc26f40858c47e041f6f21bf9"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_137_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_137_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Penelope, Eternal Weaver",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/JPG\/de_DE\/9e605ef3e9ee7eacfc07fefa3f2969af.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Pénélope, Tisseuse Éternelle",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/JPG\/fr_FR\/d911d0435470a0893c95c050220301d0.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Penelope, Eternal Weaver",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/JPG\/en_US\/6229f7cd960ca4be96b315838cbf0c58.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/JPG\/es_ES\/63131ac89eec5c64c3df44f2a018d5bc.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/JPG\/it_IT\/2b4f6cd94afb7627e37a93942f571003.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "4DZ55DJ9QY8HVBP8QK18MJC31C",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/JPG\/fr_FR\/d911d0435470a0893c95c050220301d0.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_137\/JPG\/en_US\/6229f7cd960ca4be96b315838cbf0c58.jpg"
+  },
+  "name": "Penelope, Eternal Weaver",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} Pay {1} less for the next Permanent you play this Afternoon, down to a minimum of {1}.  #{R}# Sacrifice a Permanent. If you do, #draw a card.#"
+  },
   "collectorNumberFormatted": "NEJ-007-R-EN",
   "isSuspended": false,
   "isErrated": false,

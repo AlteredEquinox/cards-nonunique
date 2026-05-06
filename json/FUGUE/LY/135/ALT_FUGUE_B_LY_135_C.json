@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Tout pari inclut une forme de risque.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Every gamble carries some risk.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A5HJP980HC8R4GBBEKKT",
+      "text": "Every gamble carries some risk."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,202 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "3J33Z599Y29TWADQC7ZRE2D8KZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0QVT37NJZH98FV22GEV5FMVRHE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "77633R4HMA8K6BZVVK0KB0VHQJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "12Z5AEDKYZ9TWVDR3ZPE3YPNWT"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4N2PEZZDZV90ZST2AYVDBDZTGQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2X7668KTJK9FN9NXY8DQQ101RP",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "5WAXKZJ02K85MAASBMAD54489S"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Roll a die. On a 1, I gain [FLEETING].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Roll a die. On a 1, I gain [FLEETING].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Roll a die. On a 1, I gain [FLEETING].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Roll a die. On a 1, I gain [FLEETING].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Lancez un dé. Sur 1, je gagne [FLEETING].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Roll a die. On a 1, I gain [FLEETING]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_135_C_0"
+          },
+          "sequence": 0,
+          "id": "56XVNC9NH99J3VPC1XHZTDJ8N9"
+        }
+      ],
+      "value": "{H} Roll a die. On a 1, I gain [[Fleeting]].",
+      "id": "2X7668KTJK9FN9NXY8DQQ101RP"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Damian Audino" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/en_US\/cf50b90a9c4aa300cc5da4eaaf801bcd.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_135_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_135_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Lyra Gambler",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/de_DE\/2f2aa78b73db6dc29b5ad9a81df8298b.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/it_IT\/94ffb83bda29e7958ccb63409f159a48.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Parieur Lyra",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/fr_FR\/8ab598114a721eb7353b3157f25e524a.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/es_ES\/95685640da21770f59b458bf61465423.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Lyra Gambler",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/en_US\/cf50b90a9c4aa300cc5da4eaaf801bcd.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "1XXP7Z11XZ96R87X20F4529ACN",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/fr_FR\/8ab598114a721eb7353b3157f25e524a.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_135\/JPG\/en_US\/cf50b90a9c4aa300cc5da4eaaf801bcd.jpg"
+  },
+  "name": "Lyra Gambler",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "{H} Roll a die. On a 1, I gain [[Fleeting]]."
+  },
   "collectorNumberFormatted": "NEJ-039-C-EN",
   "isSuspended": false,
   "isErrated": false,

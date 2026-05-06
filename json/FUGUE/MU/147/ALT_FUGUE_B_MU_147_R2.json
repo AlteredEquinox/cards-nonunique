@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,291 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7TWXVNNSSF8RQBT95VMJ3BF0X7"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "2F4JKNVS2V931TB1SCSV0FBD6H"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6V7P4XWW878NEBEDMCGHTJVP7R"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "2QR5P3EHWK8F58QXAFR0TAP7DV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "2G5BQXAWST96RVVDGRS4A3FN8P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2S3K8V086D98596MYWTZKFQRDB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "2K4K4A08JR92TAP185WGKGDZ8S"
+        },
+        {
+          "cardElement": "\/card_elements\/2S3K8V086D98596MYWTZKFQRDB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "6A4ZW23DJP8JTT3M1YJN1RQZHD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "#[RESUPPLY].#", "locale": "en_US" },
+                  "fr_FR": { "text": "#[RESUPPLY].#", "locale": "fr_FR" },
+                  "de_DE": { "text": "#[RESUPPLY].#", "locale": "de_DE" },
+                  "it_IT": { "text": "#[RESUPPLY].#", "locale": "it_IT" },
+                  "es_ES": { "text": "#[RESUPPLY].#", "locale": "es_ES" }
+                },
+                "text": "#[RESUPPLY].#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_147_R1_2"
+          },
+          "sequence": 1,
+          "id": "1KAXYPVDAQ8JNVDTQH3N8FD8JM"
+        },
+        {
+          "cardElement": "\/card_elements\/2S3K8V086D98596MYWTZKFQRDB",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Then, target opponent becomes first player.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Then, target opponent becomes first player.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Then, target opponent becomes first player.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Then, target opponent becomes first player.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Puis, un adversaire ciblé devient premier joueur.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Then, target opponent becomes first player."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_147_R1_2"
+          },
+          "sequence": 2,
+          "id": "5T2PM796EZ82WAKGMHYE1KR71N"
+        }
+      ],
+      "value": "[[Fleeting]].  [Resupply].  Then, target opponent becomes first player.",
+      "id": "2S3K8V086D98596MYWTZKFQRDB"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/en_US\/b23464a6c0756d22cf7a0a9c7e45f0c2.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/WEB_a48d1d5e86be64b41f540ce16ddbfc1b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/WEB_49b9cb4d886725e69d0a40014f89d1b4"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_147_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_147_R2",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "La Fuite du Temps",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/fr_FR\/63f62f5a27fe0969af9ae38c62589bdd.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Time Flies",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/en_US\/b23464a6c0756d22cf7a0a9c7e45f0c2.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/it_IT\/ba158b5731217c0f0068d76b2ce3cb78.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/es_ES\/0a1adc3aae03c5b4c86af07d0a60730f.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Time Flies",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/de_DE\/0bf56b7b275f605fc0e11ce784642317.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "3NHQGYC0V489EVWV61Z8FC1HET",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-069-R-EN",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/fr_FR\/63f62f5a27fe0969af9ae38c62589bdd.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_147\/JPG\/en_US\/b23464a6c0756d22cf7a0a9c7e45f0c2.jpg"
+  },
+  "name": "Time Flies",
+  "elements": {
+    "MAIN_COST": "#1#",
+    "RECALL_COST": "#1#",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  #[Resupply].#  Then, target opponent becomes first player."
+  },
+  "collectorNumberFormatted": "NEJ-069-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Il est temps d'étendre ses ailes, de prendre son envol, et de voguer vers le lointain.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "It’s time to spread your wings, take flight, and sail toward the horizon.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A8CY4C2MFNJERHD6EB5Z",
+      "text": "It’s time to spread your wings, take flight, and sail toward the horizon."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +54,209 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "40JGSNSN0H9R9SGA373BMVEE5G"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6GPBJMB3VE9S2RKM8CXQ16WV3V"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "20F0XWBATX8YW9RY2RJ5TWTY8T"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1F4CTE2WF39BWSEPV5BNH9V7AM"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1T2BHTE5BY803SDZKYXA9NDTHQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4C3WY11ZT98YH8CJ9C7QNFENB1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "2597YBZPC08FGBD1QQDGP0H44T"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#When I go to your Reserve from your Expeditions — Create an [ORDIS_RECRUIT] Soldier token in my Expedition.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#When I go to your Reserve from your Expeditions — Create an [ORDIS_RECRUIT] Soldier token in my Expedition.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#When I go to your Reserve from your Expeditions — Create an [ORDIS_RECRUIT] Soldier token in my Expedition.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#When I go to your Reserve from your Expeditions — Create an [ORDIS_RECRUIT] Soldier token in my Expedition.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque je vais de vos Expéditions à votre Réserve — Créez un jeton Soldat [ORDIS_RECRUIT] dans mon Expédition.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#When I go to your Reserve from your Expeditions — Create an [ORDIS_RECRUIT] Soldier token in my Expedition.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_131_R1_0"
+          },
+          "sequence": 0,
+          "id": "6279176G1T9W0SK1D4EEX6P3F8"
+        }
+      ],
+      "value": "When I go to your Reserve from your Expeditions — Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition.",
+      "id": "4C3WY11ZT98YH8CJ9C7QNFENB1"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Kevin Sidharta" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/en_US\/a5240fdaead413b99922e175c5994b6f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/WEB_712b08d4c11c0583bd4d9fd731dbc838",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/WEB_d8457c394f8f955a74c1163f9155eb7a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/WEB_ccdf062a0160a2a94eeb581985b85099"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_131_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_131_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/es_ES\/7b8a40b2ee39628edfd81b72010c2499.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Aigle Majestueux",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/fr_FR\/f3c1c97990d9a37cc0ee18884d3d01e5.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/it_IT\/da8ca656a203cca527e93f890b6bb3c3.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Majestic Eagle",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/en_US\/a5240fdaead413b99922e175c5994b6f.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Majestic Eagle",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/de_DE\/f8c819ea21730f013bd2b6d6145770b5.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "00D5D6371D9GDT5WXF9JYPXDSD",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-074-R-EN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/fr_FR\/f3c1c97990d9a37cc0ee18884d3d01e5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/en_US\/a5240fdaead413b99922e175c5994b6f.jpg"
+  },
+  "name": "Majestic Eagle",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "#When I go to your Reserve from your Expeditions — Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition.#"
+  },
+  "collectorNumberFormatted": "NEJ-074-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

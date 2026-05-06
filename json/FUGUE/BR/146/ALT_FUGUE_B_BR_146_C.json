@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,267 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "5EBASVS6AY9Y5ADT2J2ZZSHJK6"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1Z1DTQYDA794WSYSX2290SG99D"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7XHW94K6T198RAM3BX45VYMRCG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4GVFF92WCH83YAW5KXNYFRFC5D"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6XWZQG3MND80BSESNXQWNFWP6W"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/5HG5B69J5K8THSP7KJ0YN1F1KQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "5MSGKSQZV98SFV5W0QG91FKBB2"
+        },
+        {
+          "cardElement": "\/card_elements\/5HG5B69J5K8THSP7KJ0YN1F1KQ",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "sabotea",
+                          "locale": "es_ES",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HPFHB7HMW4Z2R5M4M6ZKR0GR",
+                      "reference": "SABOTAGE_LOW"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "0VY8J1PVQ18KJV06226PFBGX4V"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Target Character in your Reserve gains 2 boosts. Then, [SABOTAGE_LOW].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Target Character in your Reserve gains 2 boosts. Then, [SABOTAGE_LOW].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Target Character in your Reserve gains 2 boosts. Then, [SABOTAGE_LOW].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Target Character in your Reserve gains 2 boosts. Then, [SABOTAGE_LOW].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Un Personnage ciblé dans votre Réserve gagne 2 boosts. Puis, [SABOTAGE_LOW].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Target Character in your Reserve gains 2 boosts. Then, [SABOTAGE_LOW]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_146_C_1"
+          },
+          "sequence": 1,
+          "id": "59PRN5KPFQ9XGBGN5W4GDK4QFK"
+        }
+      ],
+      "value": "[[Fleeting]].  Target Character in your Reserve gains 2 boosts. Then, [Sabotage].",
+      "id": "5HG5B69J5K8THSP7KJ0YN1F1KQ"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_146\/JPG\/en_US\/14db2b2679aec6864dead0565eeba9d4.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_146\/WEB_8bdb6266b766397d1e9d355dacc8865b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_146\/WEB_cc634ae0026959f1e721c2d0905a9356"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_146_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_146_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Démonstration de Force",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_146\/JPG\/fr_FR\/a35fb364e90c65e249586918ea513d02.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Show of Strength",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_146\/JPG\/en_US\/14db2b2679aec6864dead0565eeba9d4.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Show of Strength",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_146\/JPG\/de_DE\/cfe5e04dcfb9c6835f8d5b91b9df692a.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_146\/JPG\/it_IT\/03964cff4de6ec9885fe1f4d601f0cc0.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_146\/JPG\/es_ES\/a3abdf987ae0f3b3d2c9d1bf7dc8f2aa.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "4RW3P9PVE6844SE26A5MZ6TVST",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_146\/JPG\/fr_FR\/a35fb364e90c65e249586918ea513d02.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_146\/JPG\/en_US\/14db2b2679aec6864dead0565eeba9d4.jpg"
+  },
+  "name": "Show of Strength",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Target Character in your Reserve gains 2 boosts. Then, [Sabotage]."
+  },
   "collectorNumberFormatted": "NEJ-034-C-EN",
   "isSuspended": false,
   "isErrated": false,

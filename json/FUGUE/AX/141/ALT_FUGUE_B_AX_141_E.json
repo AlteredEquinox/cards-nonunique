@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,225 @@
     "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
     "name": "Exalted"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6XC033CHGV861S7CRSGY34MMY0"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "19KKBSPF0E9RAV0VV4ZQ91FJ3P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "22SN6F86DR9HVRHYCDQAEVDDG5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "7RQK9F8S0G8WXTZGFNZGM0QWXW"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "6",
+      "id": "4HGS4NR5SH9JMRK81Z5R22A8VH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/16JBQSWRJ99H09V2CRGWYFPZYC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": "Opponents must pay {1} to target me."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": "Gli avversari devono pagare {1} per scegliermi come bersaglio."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Coriace 1",
+                          "locale": "fr_FR",
+                          "description": "Vos adversaires doivent payer {1} pour me cibler."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": "Los oponentes tienen que pagar {1} para hacerme objetivo."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": "Gegner müssen {1} zahlen, um mich anzuvisieren."
+                        }
+                      },
+                      "id": "01HKAGQBS53BFCG3465BACESCQ",
+                      "reference": "TOUGH_1"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01JN9V1BP5CYCWXWC6G45W6ZTD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "[TOUGH_1].", "locale": "de_DE" },
+                  "es_ES": { "text": "[TOUGH_1].", "locale": "es_ES" },
+                  "it_IT": { "text": "[TOUGH_1].", "locale": "it_IT" },
+                  "en_US": { "text": "[TOUGH_1].", "locale": "en_US" },
+                  "fr_FR": { "text": "[TOUGH_1].", "locale": "fr_FR" }
+                },
+                "text": "[TOUGH_1]."
+              }
+            ],
+            "reference": "01221"
+          },
+          "sequence": 0,
+          "id": "7M7T6GSX9J8BDRP8DMY5GPQMTB"
+        },
+        {
+          "cardElement": "\/card_elements\/16JBQSWRJ99H09V2CRGWYFPZYC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — Draw two cards, then you may put a card from your hand in your Mana zone, as a ready Mana Orb.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — Draw two cards, then you may put a card from your hand in your Mana zone, as a ready Mana Orb.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — Draw two cards, then you may put a card from your hand in your Mana zone, as a ready Mana Orb.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — Draw two cards, then you may put a card from your hand in your Mana zone, as a ready Mana Orb.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Piochez deux cartes, puis vous pouvez mettre une carte de votre main dans votre zone de Mana, comme Orbe de Mana redressé.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — Draw two cards, then you may put a card from your hand in your Mana zone, as a ready Mana Orb."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_141_C_1"
+          },
+          "sequence": 1,
+          "id": "49A4Y48ST287JVAVMNBKT5BFNG"
+        }
+      ],
+      "value": "[Tough 1].  At Noon — Draw two cards, then you may put a card from your hand in your Mana zone, as a ready Mana Orb.",
+      "id": "16JBQSWRJ99H09V2CRGWYFPZYC"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Saeed Jalabi" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_141\/JPG\/en_US\/d0d231ffe331cf6bb90abda2f6733368.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_AX_141_E",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_AX_141_E",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_141\/JPG\/it_IT\/c54900b03cfbb3972089c4e0b709bc8b.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Sanctuaire d'Hélios",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_141\/JPG\/fr_FR\/21ea03593d8c83faf24496f75e866e2e.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Fane of Helios",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_141\/JPG\/en_US\/d0d231ffe331cf6bb90abda2f6733368.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Fane of Helios",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_141\/JPG\/de_DE\/b213abf5292992c680ac8e31356e68a8.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_141\/JPG\/es_ES\/b71f896c9716652f78147d0459452d02.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "3YVWHZ27FN8SQT4QSM0P1DAAEB",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_141\/JPG\/fr_FR\/21ea03593d8c83faf24496f75e866e2e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_AX_141\/JPG\/en_US\/d0d231ffe331cf6bb90abda2f6733368.jpg"
+  },
+  "name": "Fane of Helios",
+  "elements": {
+    "MAIN_COST": "6",
+    "RECALL_COST": "6",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[Tough 1].  At Noon — Draw two cards, then you may put a card from your hand in your Mana zone, as a ready Mana Orb."
+  },
   "collectorNumberFormatted": "NEJ-018-E-EN",
   "isSuspended": false,
   "isErrated": false,

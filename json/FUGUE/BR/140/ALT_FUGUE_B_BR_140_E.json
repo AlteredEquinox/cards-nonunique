@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DEITY",
+      "id": "01HKAGPAJFS4YDQVKY6AB16614",
+      "name": "Deity"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,240 @@
     "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
     "name": "Exalted"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5NP02WRAB99VHRCEBPJYDHP3Z6"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "15PXCWTB7Y91GA3TYT6B69309H"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "1NWX4EYE2P8YWTHNHB7998DTWT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7GJ0562PGT9SVTY0TVC3YN42GV"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5DCXQKH7HN8PDSPXHKBJATZF1X"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1ZWAYH7NHP8KHVWSS4TK9V6MKS",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "de_DE",
+                          "description": "TEMPLE"
+                        },
+                        "it_IT": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "it_IT",
+                          "description": "TEMPLE"
+                        },
+                        "es_ES": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "es_ES",
+                          "description": "TEMPLE"
+                        },
+                        "en_US": {
+                          "displayWeb": "Temple",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "5B2NFWR68W9RNTGMGCFK6C37XY",
+                      "reference": "TEMPLE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "3NM0TKAX2N8Y1S068QYBS0AQ6P"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "[TEMPLE] {2}. (Vous pouvez me jouer pour {2} en tant que Permanent de Repère - Construction avec : « À Midi — Vous pouvez me mettre en Réserve. »)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "[TEMPLE] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_AX_138_C_0"
+          },
+          "sequence": 0,
+          "id": "5KP26H1Q8N81CTS8728NZW56YM"
+        },
+        {
+          "cardElement": "\/card_elements\/1ZWAYH7NHP8KHVWSS4TK9V6MKS",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — Each Character with no boost in your Reserve gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — Each Character with no boost in your Reserve gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — Each Character with no boost in your Reserve gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — Each Character with no boost in your Reserve gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Chaque Personnage sans boost dans votre Réserve gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — Each Character with no boost in your Reserve gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_140_C_1"
+          },
+          "sequence": 1,
+          "id": "639DBMY7PB9TVVHS70RR067YXZ"
+        }
+      ],
+      "value": "[Temple] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")  At Noon — Each Character with no boost in your Reserve gains 1 boost.",
+      "id": "1ZWAYH7NHP8KHVWSS4TK9V6MKS"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_140\/JPG\/en_US\/c4ef92d4462e93c391434c4db7b3f0cd.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_140_E",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_140_E",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_140\/JPG\/it_IT\/35ff39b8547a10e7d778c951f89f8256.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Hestia, Déesse du Foyer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_140\/JPG\/fr_FR\/321cc89b4474d0f73ec2b442bee35a9c.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Hestia, Goddess of the Hearth",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_140\/JPG\/de_DE\/6f991b33e49565cfd957d43ed82db0c9.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Hestia, Goddess of the Hearth",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_140\/JPG\/en_US\/c4ef92d4462e93c391434c4db7b3f0cd.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_140\/JPG\/es_ES\/dbb2ca8d9f51d7bf4370196057e7c3a4.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "4X0Q7QT5E28TPAH8CDDA3MFSGS",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_140\/JPG\/fr_FR\/321cc89b4474d0f73ec2b442bee35a9c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_140\/JPG\/en_US\/c4ef92d4462e93c391434c4db7b3f0cd.jpg"
+  },
+  "name": "Hestia, Goddess of the Hearth",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "[Temple] {2}. (You may play me for {2} as a Landmark Permanent - Construction with: \"At Noon — You may send me to Reserve.\")  At Noon — Each Character with no boost in your Reserve gains 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-030-E-EN",
   "isSuspended": false,
   "isErrated": false,

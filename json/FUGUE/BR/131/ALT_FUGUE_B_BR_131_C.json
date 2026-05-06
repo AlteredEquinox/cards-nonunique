@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "La gourmandise de Polyphème faillit anéantir l’espèce... Mais pour lui, c'est le problème des moutons.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Polyphemus' gluttony nearly wiped out the species... but to him, that’s the sheep’s problem.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A4G3RCJZ0MQ2VMTFDD78",
+      "text": "Polyphemus' gluttony nearly wiped out the species... but to him, that’s the sheep’s problem."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,121 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "16WB53Y0Q98FFTXRJ6JZ8A5Q23"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "67111JMFAM8R39E9CFXABT5KGA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4JRJYK1DNT883TMPKYCN8W5FHZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4VB3E4PKPE9WXR4HTQTVBNXNAT"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1644XQ5N899BPAGBFVZMDH6EW2"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Julien Carrasco" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/en_US\/ff5b5f74fcd16785b20b2668f7fef84b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/WEB_71dc148b742d88bd836994d62e6b873c",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/WEB_4c276bf577a12b9c98910dd78cd133f9",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/WEB_a31b2705cb34fbf735b280337aca957c"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_131_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_131_C",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Charging Ram",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/en_US\/ff5b5f74fcd16785b20b2668f7fef84b.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Charging Ram",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/de_DE\/dcf8158b30d18f7c291d89b82a92daca.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Bélier Fonceur",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/fr_FR\/92232f0e036974110324f042d20d0c80.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/es_ES\/5a717f16d1183f36a88a6cad9dd7fa98.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/it_IT\/be185cd6b3f78bc54a3e62b1b89d58fe.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "21K4NJGZHE8XGSPYHYFEAZ7MJJ",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/fr_FR\/92232f0e036974110324f042d20d0c80.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_131\/JPG\/en_US\/ff5b5f74fcd16785b20b2668f7fef84b.jpg"
+  },
+  "name": "Charging Ram",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "2"
+  },
   "collectorNumberFormatted": "NEJ-020-C-EN",
   "isSuspended": false,
   "isErrated": false,

@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Même si nous survivons, nous ne pourrons remonter au-dessus des nuages. »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“Even if we survive, we cannot cross the clouds again.”",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46ABQ9WVKV8SFPV8RKBPYK",
+      "text": "“Even if we survive, we cannot cross the clouds again.”"
+    }
+  ],
   "cardType": {
     "reference": "SPELL",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,291 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "31FH7PKYRJ9BWSRJYQQA8HB82X"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "4WMXMMV32S94ZRCHEFGJWRNA9Y"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6V110HCB989SDT3B1SVXB9CXS8"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "14478KA2G1899TR234Y06T1R6F"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2PZZ886T919JAB5PGMC3RX8P3Z"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4MEVEGWPQD9QZ9A1R0K5WRP0XV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "1WCG4PGAEB8W7BBCTAM9ZMMWRH"
+        },
+        {
+          "cardElement": "\/card_elements\/4MEVEGWPQD9QZ9A1R0K5WRP0XV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": { "text": "Wähle eine Aktion:", "locale": "de_DE" },
+                  "en_US": { "text": "Choose one:", "locale": "en_US" },
+                  "es_ES": { "text": "Elige una opción:", "locale": "es_ES" },
+                  "it_IT": { "text": "Scegli uno:", "locale": "it_IT" },
+                  "fr_FR": { "text": "Choisissez l'un :", "locale": "fr_FR" }
+                },
+                "text": "Choose one:"
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 1,
+          "id": "68NQNR3PY48Q59JMJDHZ8ECHTF"
+        },
+        {
+          "cardElement": "\/card_elements\/4MEVEGWPQD9QZ9A1R0K5WRP0XV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• Discard target Permanent with Base Cost {3} or less.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• Discard target Permanent with Base Cost {3} or less.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• Discard target Permanent with Base Cost {3} or less.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• Discard target Permanent with Base Cost {3} or less.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• Défaussez un Permanent ciblé de Coût de Base {3} ou moins.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• Discard target Permanent with Base Cost {3} or less."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_144_C_3"
+          },
+          "sequence": 2,
+          "id": "01WGCNECTX8E2A3YHYXZWYFPK2"
+        },
+        {
+          "cardElement": "\/card_elements\/4MEVEGWPQD9QZ9A1R0K5WRP0XV",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "• Discard target token.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "• Discard target token.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "• Discard target token.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "• Discard target token.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "• Défaussez un jeton ciblé.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "• Discard target token."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_142_C_3"
+          },
+          "sequence": 3,
+          "id": "4ZW0GFS50E96K8NR0EPPN37WXE"
+        }
+      ],
+      "value": "[[Fleeting]].  Choose one:  • Discard target Permanent with Base Cost {3} or less.  • Discard target token.",
+      "id": "4MEVEGWPQD9QZ9A1R0K5WRP0XV"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Kevin Sidharta" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_142\/JPG\/en_US\/2755153c59c80d4882d0e7764ba998f3.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_142\/WEB_9df4a8fe4ac266815071225221e77e62",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_142\/WEB_4f47d6dd37686517c63888c4a3dae781"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_142_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_142_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Le Naufrage",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_142\/JPG\/fr_FR\/b94372ea2e15a7c1243ca1b340c67452.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_142\/JPG\/it_IT\/c3a627b86f9ad01ce300f40251397b69.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "The Crash",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_142\/JPG\/de_DE\/3c8ffc3723252aa51263207187cf7352.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "The Crash",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_142\/JPG\/en_US\/2755153c59c80d4882d0e7764ba998f3.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_142\/JPG\/es_ES\/a4cab0cd281491eab26606438417d2f1.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "3TNDHBW8VQ82KBYNC25SH7DM5Y",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_142\/JPG\/fr_FR\/b94372ea2e15a7c1243ca1b340c67452.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_142\/JPG\/en_US\/2755153c59c80d4882d0e7764ba998f3.jpg"
+  },
+  "name": "The Crash",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Choose one:  • Discard target Permanent with Base Cost {3} or less.  • Discard target token."
+  },
   "collectorNumberFormatted": "NEJ-103-C-EN",
   "isSuspended": false,
   "isErrated": false,

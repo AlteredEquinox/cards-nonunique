@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "BUREAUCRAT",
+      "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+      "name": "Bureaucrat"
+    },
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +34,262 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "77W40XBB5R91WTHCZRWYWWTT64"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5M0KCEYRXK9D0RKZM7MHAHCBGY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0VDP5VCZKQ8KV9T6YEN1H53MES"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "49H7G2Z27R9WM9HJ79PS3CXC40"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3A2ADHZBPF8F49GWE73PFYETDQ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4RX0Q4GR3B9M2RCH91QNEEV5S7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": "Lege bis zu eine Karte deiner Wahl aus einer Reserve ab."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabota",
+                          "locale": "it_IT",
+                          "description": "Scarta fino a una carta bersaglio da una Riserva."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotea",
+                          "locale": "es_ES",
+                          "description": "Descarta hasta una carta objetivo de una reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": "Discard up to one target card from a Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Sabotez",
+                          "locale": "fr_FR",
+                          "description": "Défaussez jusqu'à une carte ciblée d'une Réserve."
+                        }
+                      },
+                      "id": "01HKAGPBPT7GV2ZTYNA7THECKQ",
+                      "reference": "SABOTAGE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": true,
+                    "id": "01HTS87GBSMWE8V0X85XW80WBX"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": { "text": "{H} $[SABOTAGE].", "locale": "it_IT" },
+                  "es_ES": { "text": "{H} $[SABOTAGE].", "locale": "es_ES" },
+                  "de_DE": { "text": "{H} $[SABOTAGE].", "locale": "de_DE" },
+                  "fr_FR": { "text": "{H} $[SABOTAGE].", "locale": "fr_FR" },
+                  "en_US": { "text": "{H} $[SABOTAGE].", "locale": "en_US" }
+                },
+                "text": "{H} $[SABOTAGE]."
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "5QKTXETWYA907T862QCD8K79RA"
+        },
+        {
+          "cardElement": "\/card_elements\/4RX0Q4GR3B9M2RCH91QNEEV5S7",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "5VBW7SSSSM9HXTTZ9DF6MCZ61A"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Créez un jeton Soldat [ORDIS_RECRUIT] dans mon Expédition.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_133_C_0"
+          },
+          "sequence": 1,
+          "id": "4FHWQMAHQQ8K7RTZ36R3YR3E4T"
+        }
+      ],
+      "value": "{H} [Sabotage]. (Discard up to one target card from a Reserve.)  {R} Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition.",
+      "id": "4RX0Q4GR3B9M2RCH91QNEEV5S7"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/en_US\/af93ea00ff5b46a9d2461579d9e9e4e6.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_135_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_135_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Ordis Counterspy",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/de_DE\/dc597bf796a1933777e0ff122014eba2.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Ordis Counterspy",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/en_US\/af93ea00ff5b46a9d2461579d9e9e4e6.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/es_ES\/f9362fb369dd518bf702709e5352038a.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Contre-espionne Ordis",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/fr_FR\/ce375ee498e87a3e3dc874b20d0041a4.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/it_IT\/03838bbe211ce5b3ee570a03f35179cd.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "2W84C5QYXF9MCT4ET4JYV03314",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/fr_FR\/ce375ee498e87a3e3dc874b20d0041a4.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/en_US\/af93ea00ff5b46a9d2461579d9e9e4e6.jpg"
+  },
+  "name": "Ordis Counterspy",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} [Sabotage]. (Discard up to one target card from a Reserve.)  {R} Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition."
+  },
   "collectorNumberFormatted": "NEJ-081-C-EN",
   "isSuspended": false,
   "isErrated": false,

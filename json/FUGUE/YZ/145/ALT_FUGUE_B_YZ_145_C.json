@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "MANEUVER",
+      "id": "01HKAGPGT0M24AWMMF30CN0NT4",
+      "name": "Maneuver"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,230 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "256TEJB8268D3T3PCJHHQT96MJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "7Z12GTVX2C9CZTYAB1PMGCB20G"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "5ZQD51JR6E8SJVDJDB3E6NKGSF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "4J2K60BDM686P9DDN528DQJMXM"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "3F5WA6GVMV8BJ8VGPXF62ZG2DX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/0R8H5NWGY09C3SJYVFXD718685",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "4PCJCD4QDT9HJR5ZGQNJ9EP3RN"
+        },
+        {
+          "cardElement": "\/card_elements\/0R8H5NWGY09C3SJYVFXD718685",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "Target player chooses their Hero or Companion Expedition, then sacrifices all Characters in it.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "Target player chooses their Hero or Companion Expedition, then sacrifices all Characters in it.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "Target player chooses their Hero or Companion Expedition, then sacrifices all Characters in it.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "Target player chooses their Hero or Companion Expedition, then sacrifices all Characters in it.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Un joueur ciblé choisit son Expédition Héros ou Compagnon, puis sacrifie tous les Personnages dans celle-ci.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "Target player chooses their Hero or Companion Expedition, then sacrifices all Characters in it."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_145_C_1"
+          },
+          "sequence": 1,
+          "id": "58D48NEH2M90N81WFJEMCEZ7KY"
+        }
+      ],
+      "value": "[[Fleeting]].  Target player chooses their Hero or Companion Expedition, then sacrifices all Characters in it.",
+      "id": "0R8H5NWGY09C3SJYVFXD718685"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Gamon Studio" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_145\/JPG\/en_US\/27cd753a16c9dbb1f1c552734347d71c.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_145\/WEB_eb87e0dddb14ccd75675597a0bea6f99",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_145\/WEB_5eb6a6966b6a322ffd7b23eacf57e2ea"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_145_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_145_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_145\/JPG\/es_ES\/e44105900fe8b40c30ae1d93dd058190.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Between a Rock and a Hard Place",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_145\/JPG\/de_DE\/2a8dac3dfa53b1894f7f9191eabd679c.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Between a Rock and a Hard Place",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_145\/JPG\/en_US\/27cd753a16c9dbb1f1c552734347d71c.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "De Charybde en Scylla",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_145\/JPG\/fr_FR\/de139f7694da77e0ca4e010a37de60db.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_145\/JPG\/it_IT\/763a2bee4eafaff88616d02bfa99e944.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "0PB1KH35RS9G6ATNW6MXAFHMST",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_145\/JPG\/fr_FR\/de139f7694da77e0ca4e010a37de60db.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_145\/JPG\/en_US\/27cd753a16c9dbb1f1c552734347d71c.jpg"
+  },
+  "name": "Between a Rock and a Hard Place",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  Target player chooses their Hero or Companion Expedition, then sacrifices all Characters in it."
+  },
   "collectorNumberFormatted": "NEJ-106-C-EN",
   "isSuspended": false,
   "isErrated": false,

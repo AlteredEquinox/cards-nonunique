@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,171 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "3SSHTAT9R88MPRPMKW3PNNCSYV"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "32RX0GZWC197CBB1AX91MK4DJ1"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "7KSNHDPGAD81HS2HKHQ8ZHKQR2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "7PMAHY5Z568W9VS67KV1T374Z2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "2X40BQ7Y3E8DTAENE1NBE87B9B"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3VCEPD6NG68XGA8TW9CZX152XF",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When I #leave the Expedition zone# — You may play another Character from your Reserve for {2} less.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When I #leave the Expedition zone# — You may play another Character from your Reserve for {2} less.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When I #leave the Expedition zone# — You may play another Character from your Reserve for {2} less.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When I #leave the Expedition zone# — You may play another Character from your Reserve for {2} less.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque je #quitte la zone d'Expédition# — Vous pouvez jouer un autre Personnage de votre Réserve pour {2} de moins.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When I #leave the Expedition zone# — You may play another Character from your Reserve for {2} less."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_143_R1_0"
+          },
+          "sequence": 0,
+          "id": "21SXPRR0QD9G496ACXHPE5QT94"
+        }
+      ],
+      "value": "When I leave the Expedition zone — You may play another Character from your Reserve for {2} less.",
+      "id": "3VCEPD6NG68XGA8TW9CZX152XF"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/JPG\/en_US\/728ccea9fed74ae1ac027b59b7010671.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/WEB_59c049e684d7669a8a6cbe424e42a5f6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/WEB_d4e3deb11e722cb1067879d144a17755",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/WEB_5d62b5a1ba0da23e869e817ad053b63b"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_143_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_143_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Ajax",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/JPG\/de_DE\/e3695d2aa5b174cf5ec478eb1e2e35b9.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Ajax",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/JPG\/en_US\/728ccea9fed74ae1ac027b59b7010671.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/JPG\/it_IT\/4f0d6336a862f293eae548be20e4497f.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Ajax",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/JPG\/fr_FR\/eeb589bbc729566dc8b405e81a554437.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/JPG\/es_ES\/3b2911b3e2581f18e40e0045d90b045b.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "3104EM52E18BATDJ1HZJB11ES0",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/JPG\/fr_FR\/eeb589bbc729566dc8b405e81a554437.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_143\/JPG\/en_US\/728ccea9fed74ae1ac027b59b7010671.jpg"
+  },
+  "name": "Ajax",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "#4#",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "#4#",
+    "MOUNTAIN_POWER": "#4#",
+    "MAIN_EFFECT": "When I #leave the Expedition zone# — You may play another Character from your Reserve for {2} less."
+  },
   "collectorNumberFormatted": "NEJ-031-R-EN",
   "isSuspended": false,
   "isErrated": false,

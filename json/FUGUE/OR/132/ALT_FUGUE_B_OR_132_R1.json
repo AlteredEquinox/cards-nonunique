@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    },
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +34,171 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "52JZYZF84J9XZBB9QGQXJX4R7T"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "0QMZBXWD8A8T8RZAXDQ7DN7FQW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1EEG41D7CV805TN19V702ERPY9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7PMQWZ376T9C099PR8BRFJ737G"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "4NS1XY4K289KYR4SZQW8CTPE2B"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4WYGSTYKKH88XSEWKP052Q7X3G",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} If there's #two or more# other Soldiers among your Reserve #and Expeditions, draw a card.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} If there's #two or more# other Soldiers among your Reserve #and Expeditions, draw a card.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} If there's #two or more# other Soldiers among your Reserve #and Expeditions, draw a card.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} If there's #two or more# other Soldiers among your Reserve #and Expeditions, draw a card.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} S'il y a #au moins deux# autres Soldats dans votre Réserve #et vos Expéditions, piochez une carte.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} If there's #two or more# other Soldiers among your Reserve #and Expeditions, draw a card.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_132_R1_0"
+          },
+          "sequence": 0,
+          "id": "6H6YYMKA0Y9MQVGNMRRE2CB6TJ"
+        }
+      ],
+      "value": "{H} If there's two or more other Soldiers among your Reserve and Expeditions, draw a card.",
+      "id": "4WYGSTYKKH88XSEWKP052Q7X3G"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Andy Jauffrit" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/en_US\/569c85341ad9071668282ebc7f48c078.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/WEB_05af22b51d6fd3d7cfd9d8978e0de361",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/WEB_e389c630e3fab5ea01224b6cd45b8d69",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/WEB_ea521c64c5478e2c5aded5ad2a8eee23"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_132_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_132_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/de_DE\/a70ba015c2465ebf23c1a6732dd42d53.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/es_ES\/7c7afd84895ccf465375a3ddf8d200af.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/en_US\/569c85341ad9071668282ebc7f48c078.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/it_IT\/3536b84a15ac43dc8638db0a6b787c33.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/fr_FR\/8b256a96fd9eb02b1557c68664941ca9.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "30WTND065G8RQSX7CYCCB8TZHK",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/fr_FR\/8b256a96fd9eb02b1557c68664941ca9.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_132\/JPG\/en_US\/569c85341ad9071668282ebc7f48c078.jpg"
+  },
+  "name": "Nausicaa",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "#1#",
+    "MAIN_EFFECT": "{H} If there's #two or more# other Soldiers among your Reserve #and Expeditions, draw a card.#"
+  },
   "collectorNumberFormatted": "NEJ-076-R-EN",
   "isSuspended": false,
   "isErrated": false,

@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Dix ans de guerre, au nom de la beauté d’une seule.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Ten years of war, all over the beauty of one individual.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A9BD7ZRPM1CCCS750WFY",
+      "text": "Ten years of war, all over the beauty of one individual."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CITIZEN",
+      "id": "01HKAGQWDFDGS8YVZGW98BVV9D",
+      "name": "Citizen"
+    },
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +54,208 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "28ZZM1V3B28309J2YD8KSX526N"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "5WZAMEQ2H28PSBE4VTD14GDS72"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "7JFW9YR99Y9J8B5385MS6MD6CN"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7VETSCZEX68N9AB46M04MPA37E"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5XK05PPMRA9CXVXM8QEZBHYJAA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/4RY3ZZPQPD861VSQFMHB7NAYJN",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01KG7MB5P9C6RTBHBA424EYG7H"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Create an [ORDIS_RECRUIT] Soldier token in each of your Expeditions.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Erschaffe eine [ORDIS_RECRUIT]-Soldatenmarke in jeder deiner Expeditionen.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Crea una pedina Soldato [ORDIS_RECRUIT] in ciascuna delle tue spedizioni.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Crea una ficha de soldado [ORDIS_RECRUIT] en cada una de tus expediciones.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Créez un jeton Soldat [ORDIS_RECRUIT] dans chacune de vos Expéditions.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Create an [ORDIS_RECRUIT] Soldier token in each of your Expeditions."
+              }
+            ],
+            "reference": "02963"
+          },
+          "sequence": 0,
+          "id": "7ZV3B0N4478QER8ESJ56A862JM"
+        }
+      ],
+      "value": "{J} Create an [Ordis Recruit 1\/1\/1] Soldier token in each of your Expeditions.",
+      "id": "4RY3ZZPQPD861VSQFMHB7NAYJN"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Nathan Maneval " },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/JPG\/en_US\/b6e787346ad6a87555b1cf45f57d4aaa.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/WEB_6ce6713df73c93ffb2f5b519d0b95e17",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/WEB_111f0648db8f2f83fa8d0b218a92e665",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/WEB_fe2707740e3e01abc495bed1c64e9c64"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_140_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_140_C",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/JPG\/es_ES\/345993490b72e4da9c2be9769fb97c36.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Helen of Troy",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/JPG\/en_US\/b6e787346ad6a87555b1cf45f57d4aaa.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/JPG\/it_IT\/2db6c8502393b1c754ba1f24f9bcbb2c.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Helen of Troy",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/JPG\/de_DE\/24445b0cacd98f153a291b41d9c4d2c3.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Hélène de Troie",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/JPG\/fr_FR\/696dbf9dccf9f83385d98c9e26fd0c78.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "0V9C8BMV4Z89FSNC41G9YYZJB9",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/JPG\/fr_FR\/696dbf9dccf9f83385d98c9e26fd0c78.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_140\/JPG\/en_US\/b6e787346ad6a87555b1cf45f57d4aaa.jpg"
+  },
+  "name": "Helen of Troy",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "1",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{J} Create an [Ordis Recruit 1\/1\/1] Soldier token in each of your Expeditions."
+  },
   "collectorNumberFormatted": "NEJ-083-C-EN",
   "isSuspended": false,
   "isErrated": false,

@@ -12,7 +12,13 @@
     "id": "01GE7AC9X35JXEQZJBBD6E4BKX",
     "name": "Spell"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DISRUPTION",
+      "id": "01HKAGPH80FC347E2P8841D298",
+      "name": "Disruption"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,267 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1B9GM6DTD58PJB260AKC59TFK4"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "5922RGVEEV9AGBACZFWVEFKPZ5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "356ZYHXEQ49MSA9EGE1QMHSYGB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1XF61SPTRG9V88Y1A6N7DRNTKZ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "397JSNFN7F9KYSSNK1C12BW1JG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/0Q9D640H8Y9HT9QRASVVD1XD98",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8AMXVQZFPJST0GMAGTTN7"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "fr_FR": { "text": "[FLEETING].", "locale": "fr_FR" },
+                  "de_DE": { "text": "[FLEETING].", "locale": "de_DE" },
+                  "it_IT": { "text": "[FLEETING].", "locale": "it_IT" },
+                  "es_ES": { "text": "[FLEETING].", "locale": "es_ES" },
+                  "en_US": { "text": "[FLEETING].", "locale": "en_US" }
+                },
+                "text": "[FLEETING]."
+              }
+            ],
+            "reference": "09760"
+          },
+          "sequence": 0,
+          "id": "0X17VJ4JXY8PA8PA303K5GJ6QM"
+        },
+        {
+          "cardElement": "\/card_elements\/0Q9D640H8Y9HT9QRASVVD1XD98",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "6EQVGH21WK8PX938DF5NP004SD"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#Create an [ORDIS_RECRUIT] Soldier token in target Expedition.# Then, target a Character #facing it# with no statistic higher than the number of Soldiers in your Expeditions. Send it to Reserve.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Create an [ORDIS_RECRUIT] Soldier token in target Expedition.# Then, target a Character #facing it# with no statistic higher than the number of Soldiers in your Expeditions. Send it to Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Create an [ORDIS_RECRUIT] Soldier token in target Expedition.# Then, target a Character #facing it# with no statistic higher than the number of Soldiers in your Expeditions. Send it to Reserve.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Create an [ORDIS_RECRUIT] Soldier token in target Expedition.# Then, target a Character #facing it# with no statistic higher than the number of Soldiers in your Expeditions. Send it to Reserve.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Créez un jeton Soldat [ORDIS_RECRUIT] dans une Expédition ciblée.# Puis, ciblez un Personnage #qui lui fait face# et dont aucune stat n'est supérieure au nombre de Soldats dans vos Expéditions. Envoyez-le en Réserve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#Create an [ORDIS_RECRUIT] Soldier token in target Expedition.# Then, target a Character #facing it# with no statistic higher than the number of Soldiers in your Expeditions. Send it to Reserve."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_144_R1_1"
+          },
+          "sequence": 1,
+          "id": "6805QA1HHM9SBBS5XWT5DHG5ZH"
+        }
+      ],
+      "value": "[[Fleeting]].  Create an [Ordis Recruit 1\/1\/1] Soldier token in target Expedition. Then, target a Character facing it with no statistic higher than the number of Soldiers in your Expeditions. Send it to Reserve.",
+      "id": "0Q9D640H8Y9HT9QRASVVD1XD98"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Gamon Studio" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/en_US\/00daf42b78e541721ecc2771cdb85305.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/WEB_887ae49263fd88f8417ab09de22e0d99",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/WEB_4f1ff53c7259ca1ea61bf0915fbea5bd"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_144_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_144_R1",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "La Force du Nombre",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/fr_FR\/ab4b4e1f7834282fc05f7d232e5aac5c.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/it_IT\/944344d1911cfe1b473701832dbf425f.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/es_ES\/3fb69e9939f17e6920b368d80afda850.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Strength in Numbers",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/en_US\/00daf42b78e541721ecc2771cdb85305.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Strength in Numbers",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/de_DE\/767d5ebe129d755f262cf2c6a01fcdb9.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "6PFPF4E9MC99MBS16TKQC2QNE5",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/fr_FR\/ab4b4e1f7834282fc05f7d232e5aac5c.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_144\/JPG\/en_US\/00daf42b78e541721ecc2771cdb85305.jpg"
+  },
+  "name": "Strength in Numbers",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "[[Fleeting]].  #Create an [Ordis Recruit 1\/1\/1] Soldier token in target Expedition.# Then, target a Character #facing it# with no statistic higher than the number of Soldiers in your Expeditions. Send it to Reserve."
+  },
   "collectorNumberFormatted": "NEJ-087-R-EN",
   "isSuspended": false,
   "isErrated": false,

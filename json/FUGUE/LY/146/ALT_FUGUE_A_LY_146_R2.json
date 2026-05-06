@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,241 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "40A85V4GA99KDT92DHJ9RM3PBF"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "3KH697MCPB9P3TT456DJW7TPV9"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6V3572GZ1H9998GZ1B1W244173"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "6Q2CZAR2RA8TEA5B5X4JBA1YB2"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "4Q7M1E0GYK87RV0CZY48CH2ZCD"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6C5QSX65908YVV7E757G75CT67",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#Pay {1} more to play cards from your hand if your Reserve isn't empty.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#Pay {1} more to play cards from your hand if your Reserve isn't empty.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#Pay {1} more to play cards from your hand if your Reserve isn't empty.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#Pay {1} more to play cards from your hand if your Reserve isn't empty.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Vous devez payer {1} de plus pour jouer des cartes de votre main si votre Réserve n'est pas vide.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#Pay {1} more to play cards from your hand if your Reserve isn't empty.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_146_R1_0"
+          },
+          "sequence": 0,
+          "id": "51EVAP84GH8TYVRZ6ERHVQ00YN"
+        },
+        {
+          "cardElement": "\/card_elements\/6C5QSX65908YVV7E757G75CT67",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "1V3CVPRPDH954AM4PFWFJE7500"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": {
+                    "text": "#At Noon —# [RESUPPLY].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#À Midi —# [RESUPPLY].",
+                    "locale": "fr_FR"
+                  },
+                  "en_US": {
+                    "text": "#At Noon —# [RESUPPLY].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#At Noon —# [RESUPPLY].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#At Noon —# [RESUPPLY].",
+                    "locale": "it_IT"
+                  }
+                },
+                "text": "#At Noon —# [RESUPPLY]."
+              }
+            ],
+            "reference": "ALT_FUGUE_A_LY_146_R1_1"
+          },
+          "sequence": 1,
+          "id": "0GA4F358Y7895TGS87SCK1F2K0"
+        }
+      ],
+      "value": "Pay {1} more to play cards from your hand if your Reserve isn't empty.  At Noon — [Resupply].",
+      "id": "6C5QSX65908YVV7E757G75CT67"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/en_US\/6d5577b0db2c317eb1b96024135a0357.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_A_LY_146_R2",
   "isExclusive": true,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_A_LY_146_R2",
-  "translations": [],
+  "translations": {
+    "en_US": {
+      "name": "Fane of Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/en_US\/6d5577b0db2c317eb1b96024135a0357.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Fane of Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/it_IT\/4ceee708a397ff1f8afedab9f289c6b3.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/es_ES\/394e9792a1e0eccbb23835b536c45a5c.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/de_DE\/5d7803aff7ca69ec89bb1233841b1e99.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Sanctuaire de Nausicaa",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/fr_FR\/c91f458dfcd02ce27b897a1342b1877e.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "7NCN8QMB4X8MAAMBFTJCMECJC3",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-A-054-R-EN",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/fr_FR\/c91f458dfcd02ce27b897a1342b1877e.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_146\/JPG\/en_US\/6d5577b0db2c317eb1b96024135a0357.jpg"
+  },
+  "name": "Fane of Nausicaa",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "#Pay {1} more to play cards from your hand if your Reserve isn't empty.#  #At Noon —# [Resupply]."
+  },
+  "collectorNumberFormatted": "NEJ-A-054-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

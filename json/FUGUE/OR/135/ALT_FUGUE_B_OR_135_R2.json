@@ -12,7 +12,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "BUREAUCRAT",
+      "id": "01HKAGVBV23NSWD6EXJXSKK3F8",
+      "name": "Bureaucrat"
+    },
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +34,241 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "49ZY3M7T2D8FWVT55ZZ3XN7P8C"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2N1FEMEGGA8B8B80QPG2VAGMJF"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0HGJ7APHCZ8BER3B5JP30WDV58"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7FTJE78WNC9PZSCQ9AS5QE7HP1"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "78PC79XH4B8YBTKF8KF0AV9ANR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2YDRHHTYEG8WWB8KPW5V1NW0VW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} #Choose one card in each player's Reserve. Discard all other cards in Reserve.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} #Choose one card in each player's Reserve. Discard all other cards in Reserve.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} #Choose one card in each player's Reserve. Discard all other cards in Reserve.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} #Choose one card in each player's Reserve. Discard all other cards in Reserve.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} #Choisissez une carte dans la Réserve de chaque joueur. Défaussez toutes les autres cartes en Réserve.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} #Choose one card in each player's Reserve. Discard all other cards in Reserve.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_135_R1_0"
+          },
+          "sequence": 0,
+          "id": "7QR7X9M1VG9RMBPZCK774TDVZV"
+        },
+        {
+          "cardElement": "\/card_elements\/2YDRHHTYEG8WWB8KPW5V1NW0VW",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "es_ES": {
+                          "displayWeb": "Recluta de Ordis 1\/1\/1",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "de_DE": {
+                          "displayWeb": "Ordis-Rekrut 1\/1\/1",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Recluta Ordis 1\/1\/1",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Ordis Recruit 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "1\/1\/1 Recrue Ordis",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "01HKAGPSQ705KBWY8B8JQME52T",
+                      "reference": "ORDIS_RECRUIT"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "5VBW7SSSSM9HXTTZ9DF6MCZ61A"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Créez un jeton Soldat [ORDIS_RECRUIT] dans mon Expédition.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{R} Create an [ORDIS_RECRUIT] Soldier token in my Expedition."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_133_C_0"
+          },
+          "sequence": 1,
+          "id": "7A3K8ARMM681BV3TJM60SF827F"
+        }
+      ],
+      "value": "{H} Choose one card in each player's Reserve. Discard all other cards in Reserve.  {R} Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition.",
+      "id": "2YDRHHTYEG8WWB8KPW5V1NW0VW"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/en_US\/78175b8f0b9f1f95439445bb6ef12ebb.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_135_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_135_R2",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Ordis Counterspy",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/de_DE\/67dc1f8cbceed5e0d7d1bca67a2bb00b.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Contre-espionne Ordis",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/fr_FR\/c089402fcd51e7596d6d360c87054d78.jpg",
+      "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/es_ES\/0d43e5e56d086114bf344e04033eedd1.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/it_IT\/c10fc6bb46a509f5b36dca4d1836a23b.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Ordis Counterspy",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/en_US\/78175b8f0b9f1f95439445bb6ef12ebb.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "2Y114KBDD39BVV864ERVMQ36RR",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-081-R-EN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/fr_FR\/c089402fcd51e7596d6d360c87054d78.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_135\/JPG\/en_US\/78175b8f0b9f1f95439445bb6ef12ebb.jpg"
+  },
+  "name": "Ordis Counterspy",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} #Choose one card in each player's Reserve. Discard all other cards in Reserve.#  {R} Create an [Ordis Recruit 1\/1\/1] Soldier token in my Expedition."
+  },
+  "collectorNumberFormatted": "NEJ-081-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

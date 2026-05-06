@@ -23,24 +23,250 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "PERMANENT",
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6",
+        "name": "LANDMARKS"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97CVRP2TCHG08KQJV5E87X"
+    },
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "338H51ZP6B9V4SJ5ZXW7Y8E4PX"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "1BY1KK1PHD86Q9G25NXXXGAW97"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "3XSC78BBEF81D9NXFZ6VYBJYWA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3KSD29BNAW9GCVW6WPB8DC36B6",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "ECHO",
+                          "locale": "de_DE",
+                          "description": "ECHO"
+                        },
+                        "it_IT": {
+                          "displayWeb": "ECHO",
+                          "locale": "it_IT",
+                          "description": "ECHO"
+                        },
+                        "es_ES": {
+                          "displayWeb": "ECHO",
+                          "locale": "es_ES",
+                          "description": "ECHO"
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Echo 1\/1\/1",
+                          "locale": "en_US",
+                          "description": ""
+                        }
+                      },
+                      "id": "0AABNNA8R59V1A1140CEZ4RY14",
+                      "reference": "ECHO"
+                    },
+                    "sequence": 1,
+                    "isDescriptionDisplayed": false,
+                    "id": "0M6C5CYF7V91ABQ32GD2HNX7B5"
+                  },
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "de_DE",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "it_IT": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "it_IT",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "es_ES": {
+                          "displayWeb": "SIGNATURE_TOKEN",
+                          "locale": "es_ES",
+                          "description": "SIGNATURE_TOKEN"
+                        },
+                        "en_US": {
+                          "displayWeb": "Signature token",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "2FJ0FYF21B9YMVK8YCJD7GEVS7",
+                      "reference": "SIGNATURE_TOKEN"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "12VE8NDFYJ8M69XW2P1V9AT82Q"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [ECHO] in your Reserve. (It's a Soldier Companion with Reserve Cost {1} and \"{r} If you control two or more other Soldiers, I gain 1 boost.\")",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [ECHO] in your Reserve. (It's a Soldier Companion with Reserve Cost {1} and \"{r} If you control two or more other Soldiers, I gain 1 boost.\")",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [ECHO] in your Reserve. (It's a Soldier Companion with Reserve Cost {1} and \"{r} If you control two or more other Soldiers, I gain 1 boost.\")",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [ECHO] in your Reserve. (It's a Soldier Companion with Reserve Cost {1} and \"{r} If you control two or more other Soldiers, I gain 1 boost.\")",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Si vous êtes premier joueur, créez mon [SIGNATURE_TOKEN] : [ECHO] dans votre Réserve. (C'est un Compagnon Soldat avec un Coût de Réserve {1} et « {r} Si vous contrôlez au moins deux autres Soldats, je gagne 1 boost. »)",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — If you're first player, create my [SIGNATURE_TOKEN]: [ECHO] in your Reserve. (It's a Soldier Companion with Reserve Cost {1} and \"{r} If you control two or more other Soldiers, I gain 1 boost.\")"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_130_C_0"
+          },
+          "sequence": 0,
+          "id": "0SQNHXCZZF9HKS308MTEN66A0F"
+        }
+      ],
+      "value": "At Noon — If you're first player, create my [Signature token]: [Echo 1\/1\/1] in your Reserve. (It's a Soldier Companion with Reserve Cost {1} and \"{r} If you control two or more other Soldiers, I gain 1 boost.\")",
+      "id": "3KSD29BNAW9GCVW6WPB8DC36B6"
+    },
+    {
+      "cardElementType": {
+        "reference": "RESERVE",
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ",
+        "name": "RESERVE"
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "01KN97CVRP2TCHG08KQJV5E87Y"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Tristan Bideau" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/JPG\/en_US\/4478741bb548a921e9e9a2c0cad0d1b5.jpg",
+  "assets": {
+    "HERO_THUMB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/HERO_THUMB_e5d8a2d0e38a46010d341704320172d8"
+    ],
+    "HERO_WIDE": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/HERO_WIDE_7e392ddd598d8aa4390a88f91976a181"
+    ],
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/WEB_ff12d03ba6be3cf0bbb40d1e911975a0"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_130_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_130_C",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/JPG\/it_IT\/2bd2f7fb2d1f9151be35a3e3c9354b4b.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Eyota",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/JPG\/de_DE\/44580897f6bec37007de1257ac311564.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/JPG\/es_ES\/a9c39120ad1e3bdaf86a3d06d839a60e.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Eyota",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/JPG\/fr_FR\/e8d2bac2c5b2f3874a306cc3bd4c1086.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Eyota",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/JPG\/en_US\/4478741bb548a921e9e9a2c0cad0d1b5.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "1NTJXB5RK592STS168YFA2VX7C",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/JPG\/fr_FR\/e8d2bac2c5b2f3874a306cc3bd4c1086.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_130\/JPG\/en_US\/4478741bb548a921e9e9a2c0cad0d1b5.jpg"
+  },
+  "name": "Eyota",
+  "elements": {
+    "MAIN_COST": "0",
+    "RECALL_COST": "0",
+    "PERMANENT": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "At Noon — If you're first player, create my [Signature token]: [Echo 1\/1\/1] in your Reserve. (It's a Soldier Companion with Reserve Cost {1} and \"{r} If you control two or more other Soldiers, I gain 1 boost.\")",
+    "RESERVE": "2"
+  },
   "collectorNumberFormatted": "NEJ-073-H-EN",
   "isSuspended": false,
   "isErrated": false,

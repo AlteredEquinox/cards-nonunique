@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "« Laissez‑moi vous guider, je connais la fin de ce périple. »",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "“Let me guide you, I know the end of this journey.”",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A5FATTDKWJKSY0JJW79H",
+      "text": "“Let me guide you, I know the end of this journey.”"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,208 @@
     "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
     "name": "Exalted"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "4JQVMEEYS18HTB1AM4CX106H73"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "0745E98WWM80K9CPX558F3FKDY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "421H5ZSH2B8VA9Q5R93YVVXES2"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "4MKX7MGA4H8NNAF16GVBK77ZRP"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "2T0W3FKFFJ9JQAPT3WPYV2DRKE"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/7SWXBZH2ZB87PVKBG8P79GTV5G",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} Put an {V}, {M}, or {O} Terrain Marker on target visible region.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} Put an {V}, {M}, or {O} Terrain Marker on target visible region.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} Put an {V}, {M}, or {O} Terrain Marker on target visible region.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} Put an {V}, {M}, or {O} Terrain Marker on target visible region.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Placez un Marqueur Terrain {V}, {M}, ou {O} sur une région visible ciblée.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} Put an {V}, {M}, or {O} Terrain Marker on target visible region."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_134_C_0"
+          },
+          "sequence": 0,
+          "id": "35XZHKCQ7C89WVYM7VD3G6SE7N"
+        },
+        {
+          "cardElement": "\/card_elements\/7SWXBZH2ZB87PVKBG8P79GTV5G",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} I gain 1 boost per visible single-terrain region.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} I gain 1 boost per visible single-terrain region.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} I gain 1 boost per visible single-terrain region.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} I gain 1 boost per visible single-terrain region.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Je gagne 1 boost par région mono-terrain visible.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} I gain 1 boost per visible single-terrain region."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_134_C_1"
+          },
+          "sequence": 1,
+          "id": "4D32JBC3NA93KSMYEQQAGSDWMK"
+        }
+      ],
+      "value": "{H} Put an {V}, {M}, or {O} Terrain Marker on target visible region.  {J} I gain 1 boost per visible single-terrain region.",
+      "id": "7SWXBZH2ZB87PVKBG8P79GTV5G"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jefrey Yonathan" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_134\/JPG\/en_US\/43793a0fb17866fb7bc1a361e47d5377.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_134\/WEB_4a722212476e6ff00f3ba64371928d0d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_134\/WEB_cd89145b80e72f7cc0b2fa88be8221b8"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_134_E",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_134_E",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Odysseus le Roublard",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_134\/JPG\/fr_FR\/a6f49821eb54db3df4a5cedfefc9ae0f.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Shrewd Odysseus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_134\/JPG\/en_US\/43793a0fb17866fb7bc1a361e47d5377.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Shrewd Odysseus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_134\/JPG\/de_DE\/a99cbc1967e5d0280a894316fc2cc9ca.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_134\/JPG\/es_ES\/fea33d08ebaae8755f94e835a51f8b51.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_134\/JPG\/it_IT\/ae8ece7db80df859d23e36c4903c4481.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "1ZVFVVFWT39ZQ8B5NAP16PCTF3",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_134\/JPG\/fr_FR\/a6f49821eb54db3df4a5cedfefc9ae0f.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_134\/JPG\/en_US\/43793a0fb17866fb7bc1a361e47d5377.jpg"
+  },
+  "name": "Shrewd Odysseus",
+  "elements": {
+    "MAIN_COST": "4",
+    "RECALL_COST": "4",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "0",
+    "MOUNTAIN_POWER": "0",
+    "MAIN_EFFECT": "{H} Put an {V}, {M}, or {O} Terrain Marker on target visible region.  {J} I gain 1 boost per visible single-terrain region."
+  },
   "collectorNumberFormatted": "NEJ-049-E-EN",
   "isSuspended": false,
   "isErrated": false,

@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Il est temps d'étendre ses ailes, de prendre son envol, et de voguer vers le lointain.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "It’s time to spread your wings, take flight, and sail toward the horizon.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A8CY4C2MFNJERHD6EB5Z",
+      "text": "It’s time to spread your wings, take flight, and sail toward the horizon."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    },
+    {
+      "reference": "ANIMAL",
+      "id": "01HKAGQS36Z3DP166MZW8KRAEK",
+      "name": "Animal"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +54,121 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "0",
+      "id": "5V5RDF2EQP85R9AK2S27E1H69H"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "1Y6FMVG6NX92YT069XN62ECTBG"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "78QNME9BP982A8AJV8ZWR12ZGW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "124J0K176N9AT9QXSHF01KC10E"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "7ZY07KHZR09QWBC6VMM1T04DKP"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Kevin Sidharta" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/en_US\/c133b868d76741f2bf86124a27403649.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/WEB_712b08d4c11c0583bd4d9fd731dbc838",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/WEB_d8457c394f8f955a74c1163f9155eb7a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/WEB_ccdf062a0160a2a94eeb581985b85099"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_131_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_131_C",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Aigle Majestueux",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/fr_FR\/5bbf888febfe19c446d827135ce24969.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/it_IT\/20ef59ad1d3cf7f083cdb7bccd9febc3.jpg",
+      "locale": "it_IT"
+    },
+    "en_US": {
+      "name": "Majestic Eagle",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/en_US\/c133b868d76741f2bf86124a27403649.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Majestic Eagle",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/de_DE\/cea6956e3bebb5c69f0027aa3d2c5bda.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/es_ES\/8458ad67159a0e5d7a9d03a2aa7b29d9.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "35QBPXDA13864TK54YWH4RBTZ5",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/fr_FR\/5bbf888febfe19c446d827135ce24969.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_131\/JPG\/en_US\/c133b868d76741f2bf86124a27403649.jpg"
+  },
+  "name": "Majestic Eagle",
+  "elements": {
+    "MAIN_COST": "1",
+    "RECALL_COST": "1",
+    "OCEAN_POWER": "0",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "1"
+  },
   "collectorNumberFormatted": "NEJ-074-C-EN",
   "isSuspended": false,
   "isErrated": false,

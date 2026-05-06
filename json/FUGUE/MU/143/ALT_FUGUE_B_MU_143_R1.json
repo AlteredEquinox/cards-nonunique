@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,225 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "12CCTS7MX59Y4THE9FWQRS8YB3"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "5G74ZFBGND98RAEEKTHSYVCK35"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "6S6DN9H9QN9ZF8A3T2ZR7Y47AH"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5CB8FC470H9H58YHGE3T8SF6ZK"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2RV0ZK2S8V8TFRQK0B6V522P6H"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/2T7ECR71JT9HF9BWE068CGH20Z",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Nachschub",
+                          "locale": "de_DE",
+                          "description": "Lege die oberste Karte deines Decks in die Reserve."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Ravitaillez",
+                          "locale": "fr_FR",
+                          "description": "Mettez la première carte de votre deck en Réserve."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Reabastece",
+                          "locale": "es_ES",
+                          "description": "Coloca la primera carta de tu mazo en la reserva."
+                        },
+                        "en_US": {
+                          "displayWeb": "Resupply",
+                          "locale": "en_US",
+                          "description": "Put the top card of your deck in Reserve."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Rifornisci",
+                          "locale": "it_IT",
+                          "description": "Metti la prima carta del tuo mazzo nella Riserva."
+                        }
+                      },
+                      "id": "01HKAGPBBK4NKWK6G9447WTAWK",
+                      "reference": "RESUPPLY"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01HTS8BEM15SC7MGY43M1D33NK"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "it_IT": { "text": "#{J} [RESUPPLY].#", "locale": "it_IT" },
+                  "es_ES": { "text": "#{J} [RESUPPLY].#", "locale": "es_ES" },
+                  "de_DE": { "text": "#{J} [RESUPPLY].#", "locale": "de_DE" },
+                  "fr_FR": { "text": "#{J} [RESUPPLY].#", "locale": "fr_FR" },
+                  "en_US": { "text": "#{J} [RESUPPLY].#", "locale": "en_US" }
+                },
+                "text": "#{J} [RESUPPLY].#"
+              }
+            ],
+            "reference": "09761"
+          },
+          "sequence": 0,
+          "id": "6YFGMC8QJ89GZS3N8Q1Y7N6XZW"
+        },
+        {
+          "cardElement": "\/card_elements\/2T7ECR71JT9HF9BWE068CGH20Z",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": " Your Companions have: \"{R} I gain 1 boost.\"",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": " Your Companions have: \"{R} I gain 1 boost.\"",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": " Your Companions have: \"{R} I gain 1 boost.\"",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": " Your Companions have: \"{R} I gain 1 boost.\"",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": " Vos Compagnons ont : « {R} Je gagne 1 boost. »",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": " Your Companions have: \"{R} I gain 1 boost.\""
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_143_R1_1"
+          },
+          "sequence": 1,
+          "id": "63ASHQP6SC8V4TZ1JG9M9F08R8"
+        }
+      ],
+      "value": "{J} [Resupply].  Your Companions have: \"{R} I gain 1 boost.\"",
+      "id": "2T7ECR71JT9HF9BWE068CGH20Z"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Ba Vo" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/en_US\/fc657f13054ef0b8c4e8c56e613ee6a0.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_143_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_143_R1",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Corne d’Abondance",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/fr_FR\/7a82c289c08900d59672e2ebb482fe46.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Horn of Plenty",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/en_US\/fc657f13054ef0b8c4e8c56e613ee6a0.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/it_IT\/0b46130046d973a29303a164a138a50d.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/es_ES\/afe3ff1ad38f83517e94df8da40d65eb.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Horn of Plenty",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/de_DE\/e7cb33d4b4a25fa20290d03d2ae8c4af.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "5FX63680XB9J1B8TC4367XN1RS",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "MU",
+    "color": "#3d6b42",
+    "id": "01GE7AC9X2BNM40TTAYAEFSZSJ",
+    "name": "Muna"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/fr_FR\/7a82c289c08900d59672e2ebb482fe46.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_143\/JPG\/en_US\/fc657f13054ef0b8c4e8c56e613ee6a0.jpg"
+  },
+  "name": "Horn of Plenty",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "#{J} [Resupply].#  Your Companions have: \"{R} I gain 1 boost.\""
+  },
   "collectorNumberFormatted": "NEJ-071-R-EN",
   "isSuspended": false,
   "isErrated": false,

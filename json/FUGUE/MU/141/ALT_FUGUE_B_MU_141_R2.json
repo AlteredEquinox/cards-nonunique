@@ -1,5 +1,19 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": { "text": "Gare aux morilles !", "locale": "fr_FR" },
+        "en_US": { "text": "Don’t truffle with me!", "locale": "en_US" }
+      },
+      "id": "01KN46A7J4HW4VZJFQXYYZHCEH",
+      "text": "Don’t truffle with me!"
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +26,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DRUID",
+      "id": "01HKAGS7G3JAKED7MVQKP2G8F7",
+      "name": "Druid"
+    },
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +48,209 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2EY08R1Z2S9M19VBZRYNE2M32J"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2GBX0N8EW48WWREMM4C301X6EK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "52VP32YSCF8RX87E65P0G0ESQX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "66SQ117DM48GHSYPYBDQP2QY7F"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5MGP7RDWMG8B0REMNHGAVJAECT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1VBY67ZWR589692TGS6Q3GX2J1",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "Sabotage",
+                          "locale": "de_DE",
+                          "description": ""
+                        },
+                        "it_IT": {
+                          "displayWeb": "Sabotare",
+                          "locale": "it_IT",
+                          "description": ""
+                        },
+                        "es_ES": {
+                          "displayWeb": "Sabotear",
+                          "locale": "es_ES",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Saboter",
+                          "locale": "fr_FR",
+                          "description": ""
+                        },
+                        "en_US": {
+                          "displayWeb": "Sabotage",
+                          "locale": "en_US",
+                          "description": ""
+                        }
+                      },
+                      "id": "01JB22EQVNW1H84FFR1R8V4964",
+                      "reference": "SABOTAGE_INF"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "5FRQSERYJF9K6VN5MQS7SFMVGP"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J}# You may sacrifice a token #or discard a token from your Reserve# to [SABOTAGE_INF].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# You may sacrifice a token #or discard a token from your Reserve# to [SABOTAGE_INF].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# You may sacrifice a token #or discard a token from your Reserve# to [SABOTAGE_INF].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# You may sacrifice a token #or discard a token from your Reserve# to [SABOTAGE_INF].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Vous pouvez sacrifier un jeton #ou défausser un jeton de votre Réserve# pour [SABOTAGE_INF].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{J}# You may sacrifice a token #or discard a token from your Reserve# to [SABOTAGE_INF]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_MU_141_R1_0"
+          },
+          "sequence": 0,
+          "id": "443D2AMN0X9KHRMM05X1WJ3B40"
+        }
+      ],
+      "value": "{J} You may sacrifice a token or discard a token from your Reserve to [Sabotage].",
+      "id": "1VBY67ZWR589692TGS6Q3GX2J1"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jamin Amaral Fernandez" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/JPG\/en_US\/c80f91fe5ac35aad7d4d0053c2550665.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/WEB_90de1132c422c82cd3156c159cba6bf8",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/WEB_b08d73b7b1e1967390dd8468aa2f3a55",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/WEB_bd5a4863a8150653458a26d75334ab57"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_MU_141_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_MU_141_R2",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/JPG\/it_IT\/f0b9fe015c309872fc61ce75c60fb437.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/JPG\/es_ES\/2223ec73d364a846a549b909bfa260eb.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Famed Mycologist",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/JPG\/en_US\/c80f91fe5ac35aad7d4d0053c2550665.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Famed Mycologist",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/JPG\/de_DE\/89f1079f1160f8694247082197173189.jpg",
+      "locale": "de_DE"
+    },
+    "fr_FR": {
+      "name": "Célèbre Mycologue",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/JPG\/fr_FR\/83531d59e448402a5849bf8948423876.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "4KXN9W4RKW828R9G94N26BQD00",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-061-R-EN",
+  "mainFaction": {
+    "reference": "YZ",
+    "color": "#764891",
+    "id": "01GE7AC9WEQKW1Y1BF8SCY7459",
+    "name": "Yzmir"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/JPG\/fr_FR\/83531d59e448402a5849bf8948423876.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_MU_141\/JPG\/en_US\/c80f91fe5ac35aad7d4d0053c2550665.jpg"
+  },
+  "name": "Famed Mycologist",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#{J}# You may sacrifice a token #or discard a token from your Reserve# to [Sabotage]."
+  },
+  "collectorNumberFormatted": "NEJ-061-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,171 @@
     "id": "01GE7AC9WEQKW1Y1BF8SCY745A",
     "name": "Common"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5NW5BHKWW687RT4MPATM4ZXMQS"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7HHVKFF59Q9M8ASNTAWKEWVH6K"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "6V5VYFSXP89DTS228A4PB4QHQT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "7JRSXBETT38Y0AX46MMBPGAMN4"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4J6BS7KVSC8CKRH7Y3BB703GZ7"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/3KC42HZVYQ93PBS7JH9117QFKT",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} You may discard one of your Mana Orbs to discard target Permanent with Base Cost {3} or less.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} You may discard one of your Mana Orbs to discard target Permanent with Base Cost {3} or less.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} You may discard one of your Mana Orbs to discard target Permanent with Base Cost {3} or less.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} You may discard one of your Mana Orbs to discard target Permanent with Base Cost {3} or less.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} Vous pouvez défausser un de vos Orbes de Manas pour défausser un Permanent ciblé de Coût de Base {3} ou moins.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} You may discard one of your Mana Orbs to discard target Permanent with Base Cost {3} or less."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_137_C_0"
+          },
+          "sequence": 0,
+          "id": "3R4V3VN5V99ACSD2W8KT3JCW4D"
+        }
+      ],
+      "value": "{H} You may discard one of your Mana Orbs to discard target Permanent with Base Cost {3} or less.",
+      "id": "3KC42HZVYQ93PBS7JH9117QFKT"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Gamon Studio" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/en_US\/0ce023a4afd694d717149099d7fd379f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/WEB_a5b7948b2a944b043b33a395c9a3717d",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/WEB_669b061e8cf5adb65611970c682696da",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/WEB_dc627c27e21e423572b5a28f4683a87e"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_137_C",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_137_C",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Herostratus, Burner of Temples",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/de_DE\/dae4a4d0e38e3b5868c36b3ca69d9ff0.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Herostratus, Burner of Temples",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/en_US\/0ce023a4afd694d717149099d7fd379f.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/es_ES\/42ee3c9f4e623bcdafa810b1797ee5fd.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/it_IT\/ebd4288abfb985e87ecb9ab1ef00e675.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Hérostrate, Incendiaire de Temples",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/fr_FR\/1adb19a0bfe2c1f76c66d3f8b328f2e6.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "3AS62F9VB591NV0RM8NN88G11N",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/fr_FR\/1adb19a0bfe2c1f76c66d3f8b328f2e6.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_137\/JPG\/en_US\/0ce023a4afd694d717149099d7fd379f.jpg"
+  },
+  "name": "Herostratus, Burner of Temples",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "1",
+    "MAIN_EFFECT": "{H} You may discard one of your Mana Orbs to discard target Permanent with Base Cost {3} or less."
+  },
   "collectorNumberFormatted": "NEJ-028-C-EN",
   "isSuspended": false,
   "isErrated": false,

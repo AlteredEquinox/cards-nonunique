@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,171 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "65PQN6AMB695HR0139DXDYQQ6N"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0XHB9KFJ898EYRWY3MVNRPMCYX"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "67GBRREZX99F793YTDHEJYN2TR"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "06VC0S203E9DATWW2RD0T3J17C"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2SHP29J00N8X7TXH3MCJ9F4046"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6H3PM2G9E29EW9848QRV4AE31V",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#{J}# You may return target card in another player's Reserve to its owner's hand. #Your opponents can't play cards with that name this Day.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#{J}# You may return target card in another player's Reserve to its owner's hand. #Your opponents can't play cards with that name this Day.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# You may return target card in another player's Reserve to its owner's hand. #Your opponents can't play cards with that name this Day.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# You may return target card in another player's Reserve to its owner's hand. #Your opponents can't play cards with that name this Day.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Vous pouvez renvoyer une carte ciblée de la Réserve d'un autre joueur dans la main de son propriétaire. #Vos adversaires ne peuvent pas jouer de carte du même nom ce Jour.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{J}# You may return target card in another player's Reserve to its owner's hand. #Your opponents can't play cards with that name this Day.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_OR_138_R1_0"
+          },
+          "sequence": 0,
+          "id": "23C374BYQK8JVBMW1486T6VND7"
+        }
+      ],
+      "value": "{J} You may return target card in another player's Reserve to its owner's hand. Your opponents can't play cards with that name this Day.",
+      "id": "6H3PM2G9E29EW9848QRV4AE31V"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Saeed Jalabi" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/en_US\/357ffaf6ccdc557b9be29034877ad4b3.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/WEB_b4e55a944fbbc69e3eb6138d259c7ba6",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/WEB_6ba3a1099864f1c822939b4faadbe731",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/WEB_fd5809f961244695d63420195ee0163b"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_OR_138_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_OR_138_R1",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "Ship Security Officer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/de_DE\/527f88e82c4443cae8f0fbf179e3bec6.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Ship Security Officer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/en_US\/357ffaf6ccdc557b9be29034877ad4b3.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/es_ES\/98c1f6309ab2dbf87f402e5c1f9c8040.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Officière de Sécurité Navale",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/fr_FR\/b678ebbed41df6d1b616ec0aa93ee67b.jpg",
+      "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/it_IT\/78cdbabfc003920c125e60463ebb333e.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "2HEKXYMJPD8RRRBRP7JRME1MEK",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "OR",
+    "color": "#0f6593",
+    "id": "01GE7AC9X78DXSNKNB15KCF69X",
+    "name": "Ordis"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/fr_FR\/b678ebbed41df6d1b616ec0aa93ee67b.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_OR_138\/JPG\/en_US\/357ffaf6ccdc557b9be29034877ad4b3.jpg"
+  },
+  "name": "Ship Security Officer",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "2",
+    "FOREST_POWER": "2",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "#{J}# You may return target card in another player's Reserve to its owner's hand. #Your opponents can't play cards with that name this Day.#"
+  },
   "collectorNumberFormatted": "NEJ-078-R-EN",
   "isSuspended": false,
   "isErrated": false,

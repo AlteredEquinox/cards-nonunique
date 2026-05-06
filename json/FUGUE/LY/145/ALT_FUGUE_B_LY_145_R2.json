@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Même les marins les plus aguerris peinent à naviguer sur cette mer périlleuse.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Even seasoned sailors struggle in this treacherous sea.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A679S3028Y2GS8A7Q3A9",
+      "text": "Even seasoned sailors struggle in this treacherous sea."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ADVENTURER",
+      "id": "01HKAGPC92CGHANVSRSC8R8ES6",
+      "name": "Adventurer"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +49,172 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "613V082TP48FW8AYAR3CPBH2GC"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "1",
+      "id": "5BYRFM15QH8KCTWK9Q8NP8MXMA"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "7PGAK408V389W91C4JH85ESHQ5"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7X29VYNCFE85AAXKB15721GJSW"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0Q1899WF888BYVAHQBPJYVRGNV"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/6XA9MAR53P9BPVPCRRAV14K8PE",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{J} Roll a die. On a #1-2,# I switch Expeditions.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{J} Roll a die. On a #1-2,# I switch Expeditions.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{J} Roll a die. On a #1-2,# I switch Expeditions.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{J} Roll a die. On a #1-2,# I switch Expeditions.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{J} Lancez un dé. Sur #1-2,# je change d'Expédition.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{J} Roll a die. On a #1-2,# I switch Expeditions."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_145_R1_0"
+          },
+          "sequence": 0,
+          "id": "4K0K2RYTYS9WVV35ZYZPT4MWYB"
+        }
+      ],
+      "value": "{J} Roll a die. On a 1-2, I switch Expeditions.",
+      "id": "6XA9MAR53P9BPVPCRRAV14K8PE"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/JPG\/en_US\/25743cb1ce454ac614f9b23504dbb1f6.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/WEB_8df5f3a5de9310cf4b8f1d2eb7e42425",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/WEB_51f6013ad4c6e29807392788c47a3ecd",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/WEB_542126e80df25a1e499f4b1b5a0e6d55"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_145_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_145_R2",
-  "translations": [],
+  "translations": {
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/JPG\/es_ES\/4d7dab6eea46f77a4a1e3f05fe7aa684.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Navigatrice Hésitante",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/JPG\/fr_FR\/ec1c41ddf9b1adcc7d4446b4ef07efe4.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Iffy Navigator",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/JPG\/en_US\/25743cb1ce454ac614f9b23504dbb1f6.jpg",
+      "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Iffy Navigator",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/JPG\/de_DE\/f65a8158872eb96517b9701bbd6ac416.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/JPG\/it_IT\/507d738ea2e86ee9403b2efd5abfeb07.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "4F5YT1RHWT88YT77935ZATYXW0",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-040-R-EN",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/JPG\/fr_FR\/ec1c41ddf9b1adcc7d4446b4ef07efe4.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_145\/JPG\/en_US\/25743cb1ce454ac614f9b23504dbb1f6.jpg"
+  },
+  "name": "Iffy Navigator",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#4#",
+    "FOREST_POWER": "1",
+    "MOUNTAIN_POWER": "#4#",
+    "MAIN_EFFECT": "{J} Roll a die. On a #1-2,# I switch Expeditions."
+  },
+  "collectorNumberFormatted": "NEJ-040-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Achille et Patrocle partageaient beaucoup de choses, dont leur courage, leur ténacité, ou leur tente.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "Achilles and Patroclus shared many things, including courage, tenacity, and a tent.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46A4H8GF34B7QE5KKDNDNM",
+      "text": "Achilles and Patroclus shared many things, including courage, tenacity, and a tent."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +49,193 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "47ZA59XJYV9YJ9FAW6HTD1YBEP"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "2SJNXEZN8K8RJ8JSRNRN890PYW"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3ZP5ZX3WKY81XVPGG0Y4M3H8WP"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "26C6SM3XTD9D5STWA9ZE9CP1GJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2M38JK5SRE9WEVCB034TZ0GTBY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/53QXK938Y289XTT3KRCSE6ST54",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Tough 1",
+                          "locale": "en_US",
+                          "description": "Opponents must pay {1} to target me."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Tenace 1",
+                          "locale": "it_IT",
+                          "description": "Gli avversari devono pagare {1} per scegliermi come bersaglio."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Coriace 1",
+                          "locale": "fr_FR",
+                          "description": "Vos adversaires doivent payer {1} pour me cibler."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Resistencia 1",
+                          "locale": "es_ES",
+                          "description": "Los oponentes tienen que pagar {1} para hacerme objetivo."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Robust 1",
+                          "locale": "de_DE",
+                          "description": "Gegner müssen {1} zahlen, um mich anzuvisieren."
+                        }
+                      },
+                      "id": "01HKAGQBS53BFCG3465BACESCQ",
+                      "reference": "TOUGH_1"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "01K9YYHHEJZJE5SFPXY5V8MBRS"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": { "text": "#[TOUGH_1].#", "locale": "en_US" },
+                  "fr_FR": { "text": "#[TOUGH_1].#", "locale": "fr_FR" },
+                  "de_DE": { "text": "#[TOUGH_1].#", "locale": "de_DE" },
+                  "it_IT": { "text": "#[TOUGH_1].#", "locale": "it_IT" },
+                  "es_ES": { "text": "#[TOUGH_1].#", "locale": "es_ES" }
+                },
+                "text": "#[TOUGH_1].#"
+              }
+            ],
+            "reference": "02180"
+          },
+          "sequence": 0,
+          "id": "4VM2AXECPY95KB93RCEY587ENQ"
+        }
+      ],
+      "value": "[Tough 1].",
+      "id": "53QXK938Y289XTT3KRCSE6ST54"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/en_US\/2929c1fce9b4f4f2aafc2594f05c078f.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/WEB_389dd9a9745fc518b5b5b12d00cd2132",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/WEB_d0b4b5a6a111d6cb5b2e8fbd2e5254c3",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/WEB_20474a4258e96c5dc786c560343d006b"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_132_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_132_R1",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Patrocle",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/fr_FR\/0fddf47eba257e86154db76cc6254778.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Patroclus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/de_DE\/769c4294d4f01fdd0b8f4013333d4ace.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/es_ES\/23e3164dab383e4fcddf0958ef9d3867.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Patroclus",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/en_US\/2929c1fce9b4f4f2aafc2594f05c078f.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/it_IT\/57637992a972b7deb0d263a2ba39a0a9.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "6M9NDAPWH29T2RP95RRF89KSYB",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/fr_FR\/0fddf47eba257e86154db76cc6254778.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_132\/JPG\/en_US\/2929c1fce9b4f4f2aafc2594f05c078f.jpg"
+  },
+  "name": "Patroclus",
+  "elements": {
+    "MAIN_COST": "2",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#2#",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "#[Tough 1].#"
+  },
   "collectorNumberFormatted": "NEJ-023-R-EN",
   "isSuspended": false,
   "isErrated": false,

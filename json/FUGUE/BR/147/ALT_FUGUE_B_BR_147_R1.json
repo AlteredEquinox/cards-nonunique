@@ -12,7 +12,13 @@
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "CONSTRUCTION",
+      "id": "01J1SYC159ACKJS202498RAQRR",
+      "name": "Construction"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,170 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "016RA4B3QM96K8BPS1AWDBPNGB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "563Q1J3THD8K4955R1GGYP5N4J"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "",
+      "id": "10D10MEN1C80MBCZCG1M4YVHDY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "7B8WB2DGYH8Q6RMM3EEBZ8BE6J"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "5P072RQ8Q78HERSV01GPN4VAAJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/510WD151H28F9BHSVZ3ZH42CQC",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "When you play a Character with Base Cost {4} or more — You may exhaust me to create your Hero's Signature token in your Reserve.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "When you play a Character with Base Cost {4} or more — You may exhaust me to create your Hero's Signature token in your Reserve.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "When you play a Character with Base Cost {4} or more — You may exhaust me to create your Hero's Signature token in your Reserve.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "When you play a Character with Base Cost {4} or more — You may exhaust me to create your Hero's Signature token in your Reserve.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "Lorsque vous jouez un Personnage de Coût de Base {4} ou plus — Vous pouvez m'épuiser pour créer le jeton Signature de votre Héros dans votre Réserve.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "When you play a Character with Base Cost {4} or more — You may exhaust me to create your Hero's Signature token in your Reserve."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_147_C_0"
+          },
+          "sequence": 0,
+          "id": "1D2V8FPQ6J8BJAWMZMZ6FENTER"
+        }
+      ],
+      "value": "When you play a Character with Base Cost {4} or more — You may exhaust me to create your Hero's Signature token in your Reserve.",
+      "id": "510WD151H28F9BHSVZ3ZH42CQC"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_147\/JPG\/en_US\/5875666a31969d245a4385aa36356264.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_147\/WEB_3fe3ef3d7296d64f633076738ef74e1a",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_147\/WEB_41372846a4f7393b3d50bed41f1cf4fd"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_BR_147_R1",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_BR_147_R1",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Sanctuaire des Cyclopes",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_147\/JPG\/fr_FR\/3133fd12b7acc9d269b6941887ed71c3.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Fane of the Cyclopes",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_147\/JPG\/en_US\/5875666a31969d245a4385aa36356264.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_147\/JPG\/es_ES\/34bbe45c2571ae36763b6fd16835c2a9.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Fane of the Cyclopes",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_147\/JPG\/de_DE\/53c85617a7cdb68cabcdd23269eef43b.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_147\/JPG\/it_IT\/7498997ce5c8579a83212df1cf6f15be.jpg",
+      "locale": "it_IT"
+    }
+  },
   "id": "11YFK81GZ09B0VTD8PM14ACZWM",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_147\/JPG\/fr_FR\/3133fd12b7acc9d269b6941887ed71c3.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_BR_147\/JPG\/en_US\/5875666a31969d245a4385aa36356264.jpg"
+  },
+  "name": "Fane of the Cyclopes",
+  "elements": {
+    "MAIN_COST": "#2#",
+    "RECALL_COST": "#2#",
+    "OCEAN_POWER": "",
+    "FOREST_POWER": "",
+    "MOUNTAIN_POWER": "",
+    "MAIN_EFFECT": "When you play a Character with Base Cost {4} or more — You may exhaust me to create your Hero's Signature token in your Reserve."
+  },
   "collectorNumberFormatted": "NEJ-036-R-EN",
   "isSuspended": false,
   "isErrated": false,

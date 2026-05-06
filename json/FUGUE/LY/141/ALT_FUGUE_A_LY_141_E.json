@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DEITY",
+      "id": "01HKAGPAJFS4YDQVKY6AB16614",
+      "name": "Deity"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,225 @@
     "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
     "name": "Exalted"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "7TWZ6KS5ZT8A480GM2GZW7HK0J"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "2G13DSCS208GJ9356930790ACY"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "5A16P43DHP94195VNTSAQZ2EGT"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "1JT790QPG8873T9EWQE3ZG0K0R"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0AGJPG5ASJ8RQAQWRKZSYQVK6P"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/1344VJGGMQ9NKTGZTENDND3892",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "de_DE",
+                          "description": "TEMPLE"
+                        },
+                        "it_IT": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "it_IT",
+                          "description": "TEMPLE"
+                        },
+                        "es_ES": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "es_ES",
+                          "description": "TEMPLE"
+                        },
+                        "en_US": {
+                          "displayWeb": "Temple",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "5B2NFWR68W9RNTGMGCFK6C37XY",
+                      "reference": "TEMPLE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "69165HHCCW8QY9ZZRQNW81J09J"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": { "text": "[TEMPLE] {2}.", "locale": "es_ES" },
+                  "en_US": { "text": "[TEMPLE] {2}.", "locale": "en_US" },
+                  "fr_FR": { "text": "[TEMPLE] {2}.", "locale": "fr_FR" },
+                  "de_DE": { "text": "[TEMPLE] {2}.", "locale": "de_DE" },
+                  "it_IT": { "text": "[TEMPLE] {2}.", "locale": "it_IT" }
+                },
+                "text": "[TEMPLE] {2}."
+              }
+            ],
+            "reference": "ALT_FUGUE_A_AX_138_C_0"
+          },
+          "sequence": 0,
+          "id": "47ZB6EMPCA9HPAE6HR7TJVPT60"
+        },
+        {
+          "cardElement": "\/card_elements\/1344VJGGMQ9NKTGZTENDND3892",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "The first time you roll a die each Day — Target Character gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "The first time you roll a die each Day — Target Character gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "The first time you roll a die each Day — Target Character gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "The first time you roll a die each Day — Target Character gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "La première fois que vous lancez un dé chaque Jour — Un Personnage ciblé gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "The first time you roll a die each Day — Target Character gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_141_C_1"
+          },
+          "sequence": 1,
+          "id": "7KVH13XX778WB9SWJXQYB3RDQ8"
+        }
+      ],
+      "value": "[Temple] {2}.  The first time you roll a die each Day — Target Character gains 1 boost.",
+      "id": "1344VJGGMQ9NKTGZTENDND3892"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Tristan Bideau" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_141\/JPG\/en_US\/dd1def2e3b58d9ec6369f26039544e8d.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_A_LY_141_E",
   "isExclusive": true,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_A_LY_141_E",
-  "translations": [],
+  "translations": {
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_141\/JPG\/de_DE\/32e03d283be901caa0085ca2511c4c6f.jpg",
+      "locale": "de_DE"
+    },
+    "en_US": {
+      "name": "Dionysos, God of Feasts",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_141\/JPG\/en_US\/dd1def2e3b58d9ec6369f26039544e8d.jpg",
+      "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_141\/JPG\/es_ES\/a3f28f442948e86bec8a44e2523ca952.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Dionysos, God of Feasts",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_141\/JPG\/it_IT\/4b8aafb9779d53f04685ae6899c71c65.jpg",
+      "locale": "it_IT"
+    },
+    "fr_FR": {
+      "name": "Dionysos, Dieu des Festins",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_141\/JPG\/fr_FR\/fed0723db0a0f678eeb891bd297a7460.jpg",
+      "locale": "fr_FR"
+    }
+  },
   "id": "060XA7N2AA9919VXP7G1G0RKMF",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "LY",
+    "color": "#cf4171",
+    "id": "01GE7AC9XGB6JE2V63WXWN4FB3",
+    "name": "Lyra"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_141\/JPG\/fr_FR\/fed0723db0a0f678eeb891bd297a7460.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_LY_141\/JPG\/en_US\/dd1def2e3b58d9ec6369f26039544e8d.jpg"
+  },
+  "name": "Dionysos, God of Feasts",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "4",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "3",
+    "MAIN_EFFECT": "[Temple] {2}.  The first time you roll a die each Day — Target Character gains 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-A-047-E-EN",
   "isSuspended": false,
   "isErrated": false,

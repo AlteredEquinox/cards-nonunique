@@ -1,5 +1,25 @@
 {
-  "loreEntries": [],
+  "loreEntries": [
+    {
+      "loreEntryElementType": {
+        "id": "01GR6AENPX6HQP8G16KNV7BNA2",
+        "reference": "FLAVOR_TEXT",
+        "subject": "Flavor Text"
+      },
+      "translations": {
+        "fr_FR": {
+          "text": "Si sa main ne tremble pas, celle d'Iphigénie ne résiste pas.",
+          "locale": "fr_FR"
+        },
+        "en_US": {
+          "text": "If his hand does not tremble, Iphigenia's does not resist.",
+          "locale": "en_US"
+        }
+      },
+      "id": "01KN46ABAM0GBYXD6E92A5R671",
+      "text": "If his hand does not tremble, Iphigenia's does not resist."
+    }
+  ],
   "cardType": {
     "reference": "CHARACTER",
     "translations": {
@@ -12,7 +32,18 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "NOBLE",
+      "id": "01HKAGVEV163KJH0BWMZ6WR7E9",
+      "name": "Noble"
+    },
+    {
+      "reference": "SOLDIER",
+      "id": "01HKAGQ5CZVEX15T5KTM40KQSA",
+      "name": "Soldier"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +54,210 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "15VYW9JD2Q85R80DW73RJFM2DB"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2S9YFF0QDM97SR213GJ9PMB802"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "1JXM2615N796SA9TBQNP8CTHQB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "49VZ03ZR2C9989A8NFGEWK1TXM"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "19KYTVS8QC8CMT7H9STKYC9TWJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/5J9VHEW8N68TWAW0F2DZ26Y33S",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "de_DE": {
+                    "text": "#{J}# Sacrifice a #Permanent.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#{J}# Sacrifice a #Permanent.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#{J}# Sacrifice a #Permanent.#",
+                    "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "#{J}# Sacrifice a #Permanent.#",
+                    "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "#{J}# Sacrifiez un #Permanent.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#{J}# Sacrifice a #Permanent.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_139_R2_0"
+          },
+          "sequence": 0,
+          "id": "4713G9D94N99BACFDFNQGJ55X9"
+        },
+        {
+          "cardElement": "\/card_elements\/5J9VHEW8N68TWAW0F2DZ26Y33S",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "#When you sacrifice a Permanent — I gain 2 boosts.#",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "#When you sacrifice a Permanent — I gain 2 boosts.#",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "#When you sacrifice a Permanent — I gain 2 boosts.#",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "#When you sacrifice a Permanent — I gain 2 boosts.#",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque vous sacrifiez un Permanent — je gagne 2 boosts.#",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "#When you sacrifice a Permanent — I gain 2 boosts.#"
+              }
+            ],
+            "reference": "ALT_FUGUE_B_YZ_139_R2_1"
+          },
+          "sequence": 1,
+          "id": "4NJE42M8S8871SE1J0KD1HP80Z"
+        }
+      ],
+      "value": "{J} Sacrifice a Permanent.  When you sacrifice a Permanent — I gain 2 boosts.",
+      "id": "5J9VHEW8N68TWAW0F2DZ26Y33S"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/JPG\/en_US\/d69c70b9c7613a971907a030ca83ca9a.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/WEB_98f651539fecc2ed53f40838a83cd6fe",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/WEB_144051e1f40f405264ef0a5e61a69999",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/WEB_cbc6ffc750461c6d8f2b981c882b101e"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_YZ_139_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_YZ_139_R2",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/JPG\/it_IT\/8f335a1581c554ce0ea0f0745015a0e9.jpg",
+      "locale": "it_IT"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/JPG\/es_ES\/da95d61ca0f6f6a509d895afbf6e34a0.jpg",
+      "locale": "es_ES"
+    },
+    "en_US": {
+      "name": "Agamemnon",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/JPG\/en_US\/d69c70b9c7613a971907a030ca83ca9a.jpg",
+      "locale": "en_US"
+    },
+    "fr_FR": {
+      "name": "Agamemnon",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/JPG\/fr_FR\/2cc52bb4e925dc5db48d022724fb34d5.jpg",
+      "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Agamemnon",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/JPG\/de_DE\/06e83719609d7f4a195a0ab05b54a1df.jpg",
+      "locale": "de_DE"
+    }
+  },
   "id": "36M6TW2J7S903RE8DWYXK0R6DK",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-099-R-EN",
+  "mainFaction": {
+    "reference": "AX",
+    "color": "#8c432a",
+    "id": "01GE7AC9XBG707G19F03A95TH1",
+    "name": "Axiom"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/JPG\/fr_FR\/2cc52bb4e925dc5db48d022724fb34d5.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_YZ_139\/JPG\/en_US\/d69c70b9c7613a971907a030ca83ca9a.jpg"
+  },
+  "name": "Agamemnon",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "#2#",
+    "FOREST_POWER": "#2#",
+    "MOUNTAIN_POWER": "#2#",
+    "MAIN_EFFECT": "#{J}# Sacrifice a #Permanent.#  #When you sacrifice a Permanent — I gain 2 boosts.#"
+  },
+  "collectorNumberFormatted": "NEJ-099-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

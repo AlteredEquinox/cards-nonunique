@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "ARTIST",
+      "id": "01HKAGQTJ167DYCKKGR8MCESNT",
+      "name": "Artist"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,25 +29,209 @@
     "id": "01GE7AC9WY6PK56RADXXD6P1T5",
     "name": "Rare"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "3YA1GAMBZ18JFS398TDX478HRC"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6FF9PQVQRN9DJRA35CZS7HRPN0"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "0C0WYRFYSF84TVTEY2Y4K5SVEB"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "4V83KE0QC68YT92YQ80E07HB5M"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "2",
+      "id": "2GN4C9ZWW69FYA3D17QF7MD88D"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/5KYX8PBRSC924RF069T95RC75M",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "en_US": {
+                          "displayWeb": "Fleeting",
+                          "locale": "en_US",
+                          "description": "Send me to Discard instead of Reserve after my effect resolves."
+                        },
+                        "de_DE": {
+                          "displayWeb": "Vergänglich",
+                          "locale": "de_DE",
+                          "description": "Lege mich auf die Ablage statt in die Reserve, nachdem mein Effekt abgeklungen ist."
+                        },
+                        "it_IT": {
+                          "displayWeb": "Fugace",
+                          "locale": "it_IT",
+                          "description": "Mandami negli Scarti invece che nella Riserva dopo che il mio effetto si è risolto."
+                        },
+                        "es_ES": {
+                          "displayWeb": "Fugacidad",
+                          "locale": "es_ES",
+                          "description": "Una vez resuelto mi efecto, envíame a la pila de descartes en lugar de a la reserva."
+                        },
+                        "fr_FR": {
+                          "displayWeb": "Fugace",
+                          "locale": "fr_FR",
+                          "description": "Envoyez-moi à la Défausse plutôt qu'en Réserve une fois mon effet résolu."
+                        }
+                      },
+                      "id": "01HKAGPHBY4EPW8TR9VTCHZG5Q",
+                      "reference": "FLEETING"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "5X7WS1TPCM8TRSAG0S4XV4HRAY"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "{H} #Reveal the top card of your deck.# You may target a Character #with Base Cost less than or equal to the revealed card's Hand Cost.# It gains [FLEETING].",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "{H} #Reveal the top card of your deck.# You may target a Character #with Base Cost less than or equal to the revealed card's Hand Cost.# It gains [FLEETING].",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{H} #Reveal the top card of your deck.# You may target a Character #with Base Cost less than or equal to the revealed card's Hand Cost.# It gains [FLEETING].",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{H} #Reveal the top card of your deck.# You may target a Character #with Base Cost less than or equal to the revealed card's Hand Cost.# It gains [FLEETING].",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{H} #Révélez la première carte de votre deck.# Vous pouvez cibler un Personnage #dont le Coût de Base est égal ou inférieur au Coût de Main de la carte révélée.# Il gagne [FLEETING].",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "{H} #Reveal the top card of your deck.# You may target a Character #with Base Cost less than or equal to the revealed card's Hand Cost.# It gains [FLEETING]."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_LY_136_R2_0"
+          },
+          "sequence": 0,
+          "id": "5ZJGNBXWFA8SYB25GZ7AXTSP6T"
+        }
+      ],
+      "value": "{H} Reveal the top card of your deck. You may target a Character with Base Cost less than or equal to the revealed card's Hand Cost. It gains [[Fleeting]].",
+      "id": "5KYX8PBRSC924RF069T95RC75M"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jamin Amaral Fernandez" },
-  "imagePath": null,
-  "assets": [],
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/en_US\/7b7b5e6e07cf46ed022afed2bc88690b.jpg",
+  "assets": {
+    "WEB": [
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/WEB_c1b8c1b8d029943de55e90a31cefd82f",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/WEB_a41edc6b36ef49ae9c125dd1aa3f0b0b",
+      "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/WEB_af613f92e07c4d73589d7961d7308ff8"
+    ]
+  },
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_B_LY_136_R2",
   "isExclusive": false,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_B_LY_136_R2",
-  "translations": [],
+  "translations": {
+    "fr_FR": {
+      "name": "Démodocus, Tisseur de Récits",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/fr_FR\/5c0d358e5c7a4958413c099a17538272.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Demodocus, Weaver of Tales",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/en_US\/7b7b5e6e07cf46ed022afed2bc88690b.jpg",
+      "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/it_IT\/0756c7c5756a45a581e009d51c8af575.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Demodocus, Weaver of Tales",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/de_DE\/af5a06275b614be2d3dfd118c19856af.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/es_ES\/bb111a7af7d69fb10a44261831110742.jpg",
+      "locale": "es_ES"
+    }
+  },
   "id": "0RYAPQ8N4T8KAT1QA8FGRAZKNK",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
-  "collectorNumberFormatted": "NEJ-044-R-EN",
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/fr_FR\/5c0d358e5c7a4958413c099a17538272.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_B_LY_136\/JPG\/en_US\/7b7b5e6e07cf46ed022afed2bc88690b.jpg"
+  },
+  "name": "Demodocus, Weaver of Tales",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "2",
+    "OCEAN_POWER": "#3#",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "2",
+    "MAIN_EFFECT": "{H} #Reveal the top card of your deck.# You may target a Character #with Base Cost less than or equal to the revealed card's Hand Cost.# It gains [[Fleeting]]."
+  },
+  "collectorNumberFormatted": "NEJ-044-F-EN",
   "isSuspended": false,
   "isErrated": false,
   "isBanned": false,

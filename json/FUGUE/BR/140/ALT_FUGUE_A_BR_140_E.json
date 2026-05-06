@@ -12,7 +12,13 @@
     "id": "01H19NWA92A4ERAC4ATMSZNASS",
     "name": "Character"
   },
-  "cardSubTypes": [],
+  "cardSubTypes": [
+    {
+      "reference": "DEITY",
+      "id": "01HKAGPAJFS4YDQVKY6AB16614",
+      "name": "Deity"
+    }
+  ],
   "cardSet": {
     "id": "01KM5YCEK1YMWY30RHG5PV0MFY",
     "reference": "FUGUE",
@@ -23,24 +29,225 @@
     "id": "01K3GVRQNY6NY3BCRBY53VDZ58",
     "name": "Exalted"
   },
-  "cardElements": [],
+  "cardElements": [
+    {
+      "cardElementType": {
+        "reference": "OCEAN_POWER",
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "6BH6EC4PKZ96R9T43V0WBC4V1B"
+    },
+    {
+      "cardElementType": {
+        "reference": "FOREST_POWER",
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "46ZFVKVHMN9EVBEFNMJ21VRYWJ"
+    },
+    {
+      "cardElementType": {
+        "reference": "MOUNTAIN_POWER",
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "4",
+      "id": "7ZA1E0XW6B9TJ93GMA3Z4EKRTK"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_COST",
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "59NVFEF2XP9F7TFM77EP1VN0FG"
+    },
+    {
+      "cardElementType": {
+        "reference": "RECALL_COST",
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
+      },
+      "cardEffectDisplays": [],
+      "value": "3",
+      "id": "0D0HNY4PKW8XGASFYE7T2HDH9T"
+    },
+    {
+      "cardElementType": {
+        "reference": "MAIN_EFFECT",
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
+      },
+      "cardEffectDisplays": [
+        {
+          "cardElement": "\/card_elements\/12J270Z43Y94X92MTBABTHT21C",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [
+                  {
+                    "cardKeyword": {
+                      "translations": {
+                        "de_DE": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "de_DE",
+                          "description": "TEMPLE"
+                        },
+                        "it_IT": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "it_IT",
+                          "description": "TEMPLE"
+                        },
+                        "es_ES": {
+                          "displayWeb": "TEMPLE",
+                          "locale": "es_ES",
+                          "description": "TEMPLE"
+                        },
+                        "en_US": {
+                          "displayWeb": "Temple",
+                          "locale": "en_US",
+                          "description": ""
+                        },
+                        "fr_FR": {
+                          "displayWeb": "",
+                          "locale": "fr_FR",
+                          "description": ""
+                        }
+                      },
+                      "id": "5B2NFWR68W9RNTGMGCFK6C37XY",
+                      "reference": "TEMPLE"
+                    },
+                    "sequence": 0,
+                    "isDescriptionDisplayed": false,
+                    "id": "69165HHCCW8QY9ZZRQNW81J09J"
+                  }
+                ],
+                "type": "OUTPUT",
+                "translations": {
+                  "es_ES": { "text": "[TEMPLE] {2}.", "locale": "es_ES" },
+                  "en_US": { "text": "[TEMPLE] {2}.", "locale": "en_US" },
+                  "fr_FR": { "text": "[TEMPLE] {2}.", "locale": "fr_FR" },
+                  "de_DE": { "text": "[TEMPLE] {2}.", "locale": "de_DE" },
+                  "it_IT": { "text": "[TEMPLE] {2}.", "locale": "it_IT" }
+                },
+                "text": "[TEMPLE] {2}."
+              }
+            ],
+            "reference": "ALT_FUGUE_A_AX_138_C_0"
+          },
+          "sequence": 0,
+          "id": "31AW5707CN91D9DE6JMXKD79KZ"
+        },
+        {
+          "cardElement": "\/card_elements\/12J270Z43Y94X92MTBABTHT21C",
+          "cardEffect": {
+            "cardEffectElements": [
+              {
+                "idGd": 0,
+                "cardEffectElementDisplays": [],
+                "type": "OUTPUT",
+                "translations": {
+                  "en_US": {
+                    "text": "At Noon — Each Character with no boost in your Reserve gains 1 boost.",
+                    "locale": "en_US"
+                  },
+                  "de_DE": {
+                    "text": "At Noon — Each Character with no boost in your Reserve gains 1 boost.",
+                    "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "At Noon — Each Character with no boost in your Reserve gains 1 boost.",
+                    "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "At Noon — Each Character with no boost in your Reserve gains 1 boost.",
+                    "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "À Midi — Chaque Personnage sans boost dans votre Réserve gagne 1 boost.",
+                    "locale": "fr_FR"
+                  }
+                },
+                "text": "At Noon — Each Character with no boost in your Reserve gains 1 boost."
+              }
+            ],
+            "reference": "ALT_FUGUE_B_BR_140_C_1"
+          },
+          "sequence": 1,
+          "id": "7KKFCVC56P8MNB3VEHQTC0V4PQ"
+        }
+      ],
+      "value": "[Temple] {2}.  At Noon — Each Character with no boost in your Reserve gains 1 boost.",
+      "id": "12J270Z43Y94X92MTBABTHT21C"
+    }
+  ],
   "isPublic": true,
   "serializedNumber": null,
   "cardProduct": { "reference": "A", "name": "AltArt" },
   "illustrator": { "nickName": "Zero Wen" },
-  "imagePath": null,
+  "imagePath": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_BR_140\/JPG\/en_US\/66adc1164bcf06e4b523c6c6829c459a.jpg",
   "assets": [],
   "lowerPrice": 0,
   "qrUrlDetail": "https:\/\/qr.loc.equinox-ccg.io\/ALT_FUGUE_A_BR_140_E",
   "isExclusive": true,
   "isOwnerless": true,
   "reference": "ALT_FUGUE_A_BR_140_E",
-  "translations": [],
+  "translations": {
+    "it_IT": {
+      "name": "Hestia, Goddess of the Hearth",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_BR_140\/JPG\/it_IT\/794e3c7d88ca48813d4db1ec6dd047ae.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_BR_140\/JPG\/de_DE\/ed3c011bafd3d4dffae9a0a54ac804b6.jpg",
+      "locale": "de_DE"
+    },
+    "es_ES": {
+      "name": "",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_BR_140\/JPG\/es_ES\/f54fcdf09658b8b84e5293fcc5aa2c4f.jpg",
+      "locale": "es_ES"
+    },
+    "fr_FR": {
+      "name": "Hestia, Déesse du Foyer",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_BR_140\/JPG\/fr_FR\/6cd2d42549cd98e09db355f04028e56d.jpg",
+      "locale": "fr_FR"
+    },
+    "en_US": {
+      "name": "Hestia, Goddess of the Hearth",
+      "image": "Art\/FUGUE\/CARDS\/ALT_FUGUE_A_BR_140\/JPG\/en_US\/66adc1164bcf06e4b523c6c6829c459a.jpg",
+      "locale": "en_US"
+    }
+  },
   "id": "5RTHKZARWH80YAE7YRHNWQWCDB",
-  "mainFaction": null,
-  "allImagePath": [],
-  "name": "",
-  "elements": { "MAIN_COST": "0", "RECALL_COST": "0" },
+  "mainFaction": {
+    "reference": "BR",
+    "color": "#c32637",
+    "id": "01GE7AC9WY6PK56RADXXD6P1T4",
+    "name": "Bravos"
+  },
+  "allImagePath": {
+    "fr-fr": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_BR_140\/JPG\/fr_FR\/6cd2d42549cd98e09db355f04028e56d.jpg",
+    "en-us": "https:\/\/altered-dev.s3.eu-west-3.amazonaws.com\/Art\/FUGUE\/CARDS\/ALT_FUGUE_A_BR_140\/JPG\/en_US\/66adc1164bcf06e4b523c6c6829c459a.jpg"
+  },
+  "name": "Hestia, Goddess of the Hearth",
+  "elements": {
+    "MAIN_COST": "3",
+    "RECALL_COST": "3",
+    "OCEAN_POWER": "3",
+    "FOREST_POWER": "3",
+    "MOUNTAIN_POWER": "4",
+    "MAIN_EFFECT": "[Temple] {2}.  At Noon — Each Character with no boost in your Reserve gains 1 boost."
+  },
   "collectorNumberFormatted": "NEJ-A-030-E-EN",
   "isSuspended": false,
   "isErrated": false,
