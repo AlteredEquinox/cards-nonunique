@@ -39,7 +39,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -61,7 +61,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -70,7 +71,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -79,7 +81,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -346,7 +349,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "HuoMiao Studio" },
@@ -363,18 +365,30 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_MU_101_R2",
   "translations": {
-    "es_ES": { "name": "La Embajada", "image": null, "locale": "es_ES" },
     "en_US": {
       "name": "The Embassy",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/JPG\/en_US\/e36b98f386f74c80e57c69accc178ee4.jpg",
       "locale": "en_US"
     },
-    "it_IT": { "name": "Ambasciata", "image": null, "locale": "it_IT" },
-    "de_DE": { "name": "Die Botschaft", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "La Embajada",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/JPG\/es_ES\/05fe2d2b7ee93bdc78469e5f997c093f.jpg",
+      "locale": "es_ES"
+    },
     "fr_FR": {
       "name": "L'Ambassade",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/JPG\/fr_FR\/ad229f8024088ff328608d7f8f79de6d.jpg",
       "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Ambasciata",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/JPG\/it_IT\/f0c93744dc7a7d2aaef2b69d67beec16.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Die Botschaft",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_101\/JPG\/de_DE\/0892f3001e99db2760f513330620bc04.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVQ8Y39Y6K5GCR157VXJ",

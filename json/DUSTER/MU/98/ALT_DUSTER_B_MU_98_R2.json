@@ -66,7 +66,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -75,7 +76,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -84,7 +86,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -191,7 +194,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
@@ -208,9 +210,16 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_MU_98_R2",
   "translations": {
-    "de_DE": { "name": "Seelen-Begegnung", "image": null, "locale": "de_DE" },
-    "es_ES": { "name": "Encuentro del alma", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Incontro di Anime", "image": null, "locale": "it_IT" },
+    "es_ES": {
+      "name": "Encuentro del alma",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/es_ES\/fd83aae34e8260b4f46e80abfde0df49.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Incontro di Anime",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/it_IT\/7770cfedf66840f5d00e9df51dff8e21.jpg",
+      "locale": "it_IT"
+    },
     "fr_FR": {
       "name": "Rencontre Spirituelle",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/fr_FR\/717134a7788fbc2fc42f78f6fb36f129.jpg",
@@ -220,6 +229,11 @@
       "name": "Soul Encounter",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/en_US\/f2e2f9a0520789fc2eab34a956664a14.jpg",
       "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Seelen-Begegnung",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_98\/JPG\/de_DE\/f937e542924e2a0f091c2882847bfb8f.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVQ79H5F38WX92X3E1ZM",

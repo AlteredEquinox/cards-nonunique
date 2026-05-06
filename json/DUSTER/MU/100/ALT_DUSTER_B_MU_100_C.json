@@ -24,7 +24,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -46,7 +46,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -55,7 +56,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -64,7 +66,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -223,7 +226,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": "070",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Kevin Sidharta" },
@@ -240,9 +242,16 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_MU_100_C",
   "translations": {
-    "de_DE": { "name": "Picknickbereich", "image": null, "locale": "de_DE" },
-    "es_ES": { "name": "Merendero", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Prato del Ristoro", "image": null, "locale": "it_IT" },
+    "es_ES": {
+      "name": "Merendero",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_100\/JPG\/es_ES\/7cea456e710bc94fdcfe12f51bc5fc89.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Prato del Ristoro",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_100\/JPG\/it_IT\/44866380be14ca43a0deee3cf3772450.jpg",
+      "locale": "it_IT"
+    },
     "fr_FR": {
       "name": "Aire de Pique-nique",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_100\/JPG\/fr_FR\/d168d6d8e74084dc7fa0abe87413c542.jpg",
@@ -252,6 +261,11 @@
       "name": "Picnic Area",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_100\/JPG\/en_US\/807ccb4132a5685b1d444bab955f80d2.jpg",
       "locale": "en_US"
+    },
+    "de_DE": {
+      "name": "Picknickbereich",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_100\/JPG\/de_DE\/baa179c6121aece53094cbc04232a067.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVQ8Y39Y6K5GCR157VX3",

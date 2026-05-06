@@ -62,7 +62,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -71,7 +72,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -80,7 +82,8 @@
     {
       "cardElementType": {
         "reference": "OCEAN_POWER",
-        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -89,7 +92,8 @@
     {
       "cardElementType": {
         "reference": "FOREST_POWER",
-        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "0",
@@ -98,7 +102,8 @@
     {
       "cardElementType": {
         "reference": "MOUNTAIN_POWER",
-        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "0",
@@ -107,7 +112,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -120,7 +126,7 @@
                 "type": "OUTPUT",
                 "translations": {
                   "fr_FR": {
-                    "text": "#{R} Je gagne 1 boost.#",
+                    "text": "#{R} Je gagne 1 boost.#",
                     "locale": "fr_FR"
                   },
                   "de_DE": {
@@ -229,7 +235,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jefrey Yonathan" },
@@ -247,9 +252,11 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_BR_87_R1",
   "translations": {
-    "es_ES": { "name": "Aeronauta reka", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Skipper Reka", "image": null, "locale": "it_IT" },
-    "de_DE": { "name": "Reka-Kapitän", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Aeronauta reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_87\/JPG\/es_ES\/feef964d818945427430ee779133b20e.jpg",
+      "locale": "es_ES"
+    },
     "fr_FR": {
       "name": "Skipper Reka",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_87\/JPG\/fr_FR\/4314a70232f21394f741a6e91ee18a8e.jpg",
@@ -259,6 +266,16 @@
       "name": "Reka Skipper",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_87\/JPG\/en_US\/c8d343555b5d0034e57f8d2b01964ea9.jpg",
       "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Skipper Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_87\/JPG\/it_IT\/20a9d14c7150cf3b28f6960ed355a559.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Reka-Kapitän",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_87\/JPG\/de_DE\/845820c9112e68e1db2ffc56aad95497.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVPGJ66ABR30VM5YAZ2H",

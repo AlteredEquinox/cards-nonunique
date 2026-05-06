@@ -39,7 +39,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -61,7 +61,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -70,7 +71,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -79,7 +81,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -91,6 +94,10 @@
                 "cardEffectElementDisplays": [],
                 "type": "OUTPUT",
                 "translations": {
+                  "it_IT": {
+                    "text": "{J} #Pesca una carta,# poi ottengo 2 segnalini Movimento.",
+                    "locale": "it_IT"
+                  },
                   "en_US": {
                     "text": "{J} #Draw a card,# then I gain 2 Move counters.",
                     "locale": "en_US"
@@ -106,10 +113,6 @@
                   "es_ES": {
                     "text": "{J} #Roba una carta# y luego gano 2 contadores de movimiento.",
                     "locale": "es_ES"
-                  },
-                  "it_IT": {
-                    "text": "{J} #Pesca una carta,# poi ottengo 2 segnalini Movimento.",
-                    "locale": "it_IT"
                   }
                 },
                 "text": "{J} #Draw a card,# then I gain 2 Move counters."
@@ -164,7 +167,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Anh Tung" },
@@ -181,16 +183,10 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_LY_102_R2",
   "translations": {
-    "de_DE": { "name": "Seilbahn-Station", "image": null, "locale": "de_DE" },
     "es_ES": {
       "name": "Estación de teleférico",
-      "image": null,
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/JPG\/es_ES\/f524091cc319a3c5f1b6cb0801c0d2d7.jpg",
       "locale": "es_ES"
-    },
-    "it_IT": {
-      "name": "Stazione della Funivia",
-      "image": null,
-      "locale": "it_IT"
     },
     "fr_FR": {
       "name": "Station de Téléphérique",
@@ -201,6 +197,16 @@
       "name": "Cable-Car Station",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/JPG\/en_US\/6d40858e3871976d62af1d1da69014ff.jpg",
       "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Stazione della Funivia",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/JPG\/it_IT\/0f182354205e98eefea1a064aebb7e37.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Seilbahn-Station",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_102\/JPG\/de_DE\/a76168f5d7664516c6d72458dc1fba7d.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVPZ637XFV6NTWT4ST7D",

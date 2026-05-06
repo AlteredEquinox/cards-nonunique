@@ -65,7 +65,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -74,7 +75,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -83,7 +85,8 @@
     {
       "cardElementType": {
         "reference": "OCEAN_POWER",
-        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -92,7 +95,8 @@
     {
       "cardElementType": {
         "reference": "FOREST_POWER",
-        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -101,7 +105,8 @@
     {
       "cardElementType": {
         "reference": "MOUNTAIN_POWER",
-        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -110,7 +115,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -197,8 +203,8 @@
                 ],
                 "type": "OUTPUT",
                 "translations": {
-                  "de_DE": { "text": "• [SABOTAGE].", "locale": "de_DE" },
                   "es_ES": { "text": "• [SABOTAGE].", "locale": "es_ES" },
+                  "de_DE": { "text": "• [SABOTAGE].", "locale": "de_DE" },
                   "fr_FR": { "text": "• [SABOTAGE].", "locale": "fr_FR" },
                   "en_US": { "text": "• [SABOTAGE].", "locale": "en_US" },
                   "it_IT": { "text": "• [SABOTAGE].", "locale": "it_IT" }
@@ -292,7 +298,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Nestor Papatriantafyllou" },
@@ -310,9 +315,16 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_AX_93_R2",
   "translations": {
-    "es_ES": { "name": "Magnate reka", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Magnate Reka", "image": null, "locale": "it_IT" },
-    "de_DE": { "name": "Reka-Magnatin", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Magnate reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_93\/JPG\/es_ES\/ddc783432af1643c0bf1e4a26317146b.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Magnate Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_93\/JPG\/it_IT\/21cf2c64b61e150cc6ac564b200caaa7.jpg",
+      "locale": "it_IT"
+    },
     "en_US": {
       "name": "Reka Magnate",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_93\/JPG\/en_US\/252611811a65795e624b51e0a4877da6.jpg",
@@ -322,6 +334,11 @@
       "name": "Magnat Reka",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_93\/JPG\/fr_FR\/58a58c45d7f05256b046390e1547673a.jpg",
       "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Reka-Magnatin",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_93\/JPG\/de_DE\/3e2f83016e3686b72c1d24b0779a0c39.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVP713CJSE7HPEW9YPZ7",

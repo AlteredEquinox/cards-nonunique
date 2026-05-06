@@ -39,7 +39,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -61,7 +61,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "8",
@@ -70,7 +71,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "8",
@@ -79,7 +81,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -261,7 +264,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
@@ -278,14 +280,26 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_MU_102_R1",
   "translations": {
-    "es_ES": { "name": "El Naos", "image": null, "locale": "es_ES" },
     "en_US": {
       "name": "The Naos",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/en_US\/0458f1b9a026afa698cc888c5c98c72f.jpg",
       "locale": "en_US"
     },
-    "it_IT": { "name": "Naos", "image": null, "locale": "it_IT" },
-    "de_DE": { "name": "Der Naos", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "El Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/es_ES\/5da3899c6fb329bbc6b96f0a5b984d45.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/it_IT\/7eafa63d8c82f18cfc1d5d4fd67e478c.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Der Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/de_DE\/876c2e200b919c0c77a73ec62dffdbe2.jpg",
+      "locale": "de_DE"
+    },
     "fr_FR": {
       "name": "Le Naos",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_102\/JPG\/fr_FR\/b786ca2cd04725f926294a02e3825de1.jpg",

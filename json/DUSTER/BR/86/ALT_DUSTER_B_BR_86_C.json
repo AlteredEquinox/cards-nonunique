@@ -70,7 +70,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "1",
@@ -79,7 +80,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -88,7 +90,8 @@
     {
       "cardElementType": {
         "reference": "OCEAN_POWER",
-        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "0",
@@ -97,7 +100,8 @@
     {
       "cardElementType": {
         "reference": "FOREST_POWER",
-        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "1",
@@ -106,7 +110,8 @@
     {
       "cardElementType": {
         "reference": "MOUNTAIN_POWER",
-        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "1",
@@ -115,7 +120,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -131,10 +137,6 @@
                     "text": "{R} Ich erhalte 1 Verstärkung.",
                     "locale": "de_DE"
                   },
-                  "fr_FR": {
-                    "text": "{R} Je gagne 1 boost.",
-                    "locale": "fr_FR"
-                  },
                   "it_IT": {
                     "text": "{R} Ottengo 1 rinforzo.",
                     "locale": "it_IT"
@@ -142,6 +144,10 @@
                   "es_ES": {
                     "text": "{R} Gano 1 potenciador.",
                     "locale": "es_ES"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Je gagne 1 boost.",
+                    "locale": "fr_FR"
                   },
                   "en_US": { "text": "{R} I gain 1 boost.", "locale": "en_US" }
                 },
@@ -159,7 +165,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": "020",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Matteo Spirito" },
@@ -182,9 +187,21 @@
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/en_US\/2ee405fea8d2c9f35abbc8988b9def73.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "Ardilla voladora", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Scoiattolo Volante", "image": null, "locale": "it_IT" },
-    "de_DE": { "name": "Flughörnchen", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Ardilla voladora",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/es_ES\/c89f6c28620a376424c815b00f2f1475.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Scoiattolo Volante",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/it_IT\/d9addc38f4130cf511fd7797856bc8e4.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Flughörnchen",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/de_DE\/47effdcd487244013cc817eec744c70a.jpg",
+      "locale": "de_DE"
+    },
     "fr_FR": {
       "name": "Écureuil Volant",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_86\/JPG\/fr_FR\/737cc079692a7dd414c5e8998c926542.jpg",

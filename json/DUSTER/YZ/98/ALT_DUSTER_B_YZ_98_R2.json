@@ -55,7 +55,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "7",
@@ -64,7 +65,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "7",
@@ -73,7 +75,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -183,6 +186,10 @@
                 "cardEffectElementDisplays": [],
                 "type": "OUTPUT",
                 "translations": {
+                  "es_ES": {
+                    "text": "• Descarta un personaje objetivo.",
+                    "locale": "es_ES"
+                  },
                   "en_US": {
                     "text": "• Discard target Character.",
                     "locale": "en_US"
@@ -198,10 +205,6 @@
                   "de_DE": {
                     "text": "• Lege einen Charakter deiner Wahl ab.",
                     "locale": "de_DE"
-                  },
-                  "es_ES": {
-                    "text": "• Descarta un personaje objetivo.",
-                    "locale": "es_ES"
                   }
                 },
                 "text": "• Discard target Character."
@@ -296,8 +299,8 @@
                 ],
                 "type": "OUTPUT",
                 "translations": {
-                  "de_DE": { "text": "• [SABOTAGE].", "locale": "de_DE" },
                   "es_ES": { "text": "• [SABOTAGE].", "locale": "es_ES" },
+                  "de_DE": { "text": "• [SABOTAGE].", "locale": "de_DE" },
                   "fr_FR": { "text": "• [SABOTAGE].", "locale": "fr_FR" },
                   "en_US": { "text": "• [SABOTAGE].", "locale": "en_US" },
                   "it_IT": { "text": "• [SABOTAGE].", "locale": "it_IT" }
@@ -316,7 +319,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
@@ -338,13 +340,25 @@
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/JPG\/en_US\/29a3df3b6f43a1f4530ec23ddb35deed.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "Rematar la jugada", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Colpo di Grazia", "image": null, "locale": "it_IT" },
-    "de_DE": { "name": "Finisher", "image": null, "locale": "de_DE" },
+    "it_IT": {
+      "name": "Colpo di Grazia",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/JPG\/it_IT\/02b1eda1988faac0d26bb0c6e8280360.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Finisher",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/JPG\/de_DE\/2141ed48492af1e142aff8b17b074a96.jpg",
+      "locale": "de_DE"
+    },
     "fr_FR": {
       "name": "Coup de Grâce",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/JPG\/fr_FR\/02530e46d1fcdfccc89133a952240e76.jpg",
       "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Rematar la jugada",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_98\/JPG\/es_ES\/e59a266e0115b612a7149351fe592148.jpg",
+      "locale": "es_ES"
     }
   },
   "id": "01JYP9SVQSZC2VV46PJC59X134",

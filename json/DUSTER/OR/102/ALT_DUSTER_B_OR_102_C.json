@@ -39,7 +39,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -61,7 +61,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -70,7 +71,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -79,7 +81,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -91,10 +94,6 @@
                 "cardEffectElementDisplays": [],
                 "type": "OUTPUT",
                 "translations": {
-                  "fr_FR": {
-                    "text": "{J} Piochez une carte.",
-                    "locale": "fr_FR"
-                  },
                   "de_DE": {
                     "text": "{J} Ziehe eine Karte.",
                     "locale": "de_DE"
@@ -104,6 +103,10 @@
                     "locale": "it_IT"
                   },
                   "es_ES": { "text": "{J} Roba una carta.", "locale": "es_ES" },
+                  "fr_FR": {
+                    "text": "{J} Piochez une carte.",
+                    "locale": "fr_FR"
+                  },
                   "en_US": { "text": "{J} Draw a card.", "locale": "en_US" }
                 },
                 "text": "{J} Draw a card."
@@ -195,7 +198,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": "089",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
@@ -217,13 +219,25 @@
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/JPG\/en_US\/a454e0d07fac7340dc1360d9de50a042.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "El Consulado", "image": null, "locale": "es_ES" },
-    "de_DE": { "name": "Das Konsulat", "image": null, "locale": "de_DE" },
-    "it_IT": { "name": "Consolato", "image": null, "locale": "it_IT" },
+    "de_DE": {
+      "name": "Das Konsulat",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/JPG\/de_DE\/48b77725d52229aafc043a42c0ad6dee.jpg",
+      "locale": "de_DE"
+    },
+    "it_IT": {
+      "name": "Consolato",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/JPG\/it_IT\/bb14f5b008849cc875a174d318d52f07.jpg",
+      "locale": "it_IT"
+    },
     "fr_FR": {
       "name": "Le Consulat",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/JPG\/fr_FR\/fd8a3aef7baaba9a521eae2aa227a7b7.jpg",
       "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "El Consulado",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_102\/JPG\/es_ES\/c75d787f5f648c922549ae60ab661066.jpg",
+      "locale": "es_ES"
     }
   },
   "id": "01JYP9SVQJY7C35HBC6NGE1NB2",

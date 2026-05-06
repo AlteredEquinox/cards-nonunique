@@ -65,7 +65,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -74,7 +75,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -83,7 +85,8 @@
     {
       "cardElementType": {
         "reference": "OCEAN_POWER",
-        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -92,7 +95,8 @@
     {
       "cardElementType": {
         "reference": "FOREST_POWER",
-        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -101,7 +105,8 @@
     {
       "cardElementType": {
         "reference": "MOUNTAIN_POWER",
-        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -110,7 +115,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -122,6 +128,10 @@
                 "cardEffectElementDisplays": [],
                 "type": "OUTPUT",
                 "translations": {
+                  "es_ES": {
+                    "text": "#{R}# Si hay dos o más cartas en tus hitos, roba una carta.",
+                    "locale": "es_ES"
+                  },
                   "en_US": {
                     "text": "#{R}# If there are two or more cards in your Landmarks, draw a card.",
                     "locale": "en_US"
@@ -133,10 +143,6 @@
                   "de_DE": {
                     "text": "#{R}# Falls sich mindestens zwei Karten in deinem Wahrzeichen-Bereich befinden, ziehe eine Karte.",
                     "locale": "de_DE"
-                  },
-                  "es_ES": {
-                    "text": "#{R}# Si hay dos o más cartas en tus hitos, roba una carta.",
-                    "locale": "es_ES"
                   },
                   "it_IT": {
                     "text": "#{R}# Se ci sono due o più carte nei tuoi fulcri, pesca una carta.",
@@ -157,7 +163,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Kevin Sidharta" },
@@ -175,18 +180,30 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_OR_86_R2",
   "translations": {
-    "it_IT": { "name": "Louis Sullivan", "image": null, "locale": "it_IT" },
     "en_US": {
       "name": "Louis Sullivan",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/JPG\/en_US\/3fdfbfffb248e4c4c5b968142ef45232.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "Louis Sullivan", "image": null, "locale": "es_ES" },
-    "de_DE": { "name": "Louis Sullivan", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Louis Sullivan",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/JPG\/es_ES\/9eb89e05931a4c2537d293b4f36ceaaa.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Louis Sullivan",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/JPG\/de_DE\/e5e9642424398b886a7a5f164fc74e8e.jpg",
+      "locale": "de_DE"
+    },
     "fr_FR": {
       "name": "Louis Sullivan",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/JPG\/fr_FR\/192b73adc349b20e20e8ff3eb3e4a5a5.jpg",
       "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Louis Sullivan",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_86\/JPG\/it_IT\/efca2874bd9254582635872b7793c20f.jpg",
+      "locale": "it_IT"
     }
   },
   "id": "01JYP9SVQCJFX81DYYE79D7A5Z",

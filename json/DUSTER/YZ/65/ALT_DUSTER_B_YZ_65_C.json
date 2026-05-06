@@ -44,7 +44,8 @@
     {
       "cardElementType": {
         "reference": "PERMANENT",
-        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6",
+        "name": "LANDMARKS"
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -53,7 +54,8 @@
     {
       "cardElementType": {
         "reference": "RESERVE",
-        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ",
+        "name": "RESERVE"
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -62,7 +64,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -146,7 +149,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": "091",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
@@ -168,18 +170,30 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_YZ_65_C",
   "translations": {
-    "de_DE": { "name": "Moyo & Seide", "image": null, "locale": "de_DE" },
     "en_US": {
       "name": "Moyo & Silk",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_65\/JPG\/en_US\/52ebc4a13456b5dc384fe55e1a2c4f39.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "Moyo y Seda", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Moyo e Seta", "image": null, "locale": "it_IT" },
+    "es_ES": {
+      "name": "Moyo y Seda",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_65\/JPG\/es_ES\/61c4443b33f68795c58e03d239f35098.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Moyo e Seta",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_65\/JPG\/it_IT\/f6f7364619d1de22caa95096ca49c11a.jpg",
+      "locale": "it_IT"
+    },
     "fr_FR": {
       "name": "Moyo & Silk",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_65\/JPG\/fr_FR\/7d62b2279edbea69711d07784fc6737f.jpg",
       "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Moyo & Seide",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_65\/JPG\/de_DE\/ebc1c5c9fbfd192c1fe84a11c88f46c7.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVQN5FRRQ422W8D6RG6E",

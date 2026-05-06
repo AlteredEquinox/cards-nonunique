@@ -39,7 +39,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -61,7 +61,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -70,7 +71,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -79,7 +81,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -123,11 +126,17 @@
                   },
                   "fr_FR": { "text": "#{J} Épuisez-moi.#", "locale": "fr_FR" },
                   "de_DE": {
-                    "text": "#{J} Erschöpfe mich.#",
+                    "text": "{T} : Lege eine Karte aus deiner Hand in die Reserve, #dann erschöpfe sie ({T}).# Falls du das tust, ziehe eine Karte.",
                     "locale": "de_DE"
                   },
-                  "es_ES": { "text": "#{J} Agótame.#", "locale": "es_ES" },
-                  "it_IT": { "text": "#{J} Consumami.#", "locale": "it_IT" }
+                  "es_ES": {
+                    "text": "{T}: Coloca una carta de tu mano en reserva y #luego agótala ({T}).# Si lo haces, roba una carta.",
+                    "locale": "es_ES"
+                  },
+                  "it_IT": {
+                    "text": "{T}: metti una carta dalla tua mano nella Riserva, #poi consumala ({T}).# Se lo fai, pesca una carta.",
+                    "locale": "it_IT"
+                  }
                 },
                 "text": "{T} : Put a card from your hand in Reserve, #then exhaust it ({T}).# If you do, draw a card."
               }
@@ -143,7 +152,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
@@ -160,17 +168,25 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_AX_100_R1",
   "translations": {
-    "de_DE": { "name": "Wissenschaftsmesse", "image": null, "locale": "de_DE" },
     "en_US": {
       "name": "Science Fair",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/en_US\/492f07d059aad9a5aab998093195f158.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "Feria científica", "image": null, "locale": "es_ES" },
+    "es_ES": {
+      "name": "Feria científica",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/es_ES\/2024bffd85d88a3943a621141bb44675.jpg",
+      "locale": "es_ES"
+    },
     "it_IT": {
       "name": "Fiera della Scienza",
-      "image": null,
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/it_IT\/817f411016f4f8cdd4fbe07609ad8334.jpg",
       "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Wissenschaftsmesse",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/de_DE\/ad78450167e3b53b957d27fe0f3fd433.jpg",
+      "locale": "de_DE"
     },
     "fr_FR": {
       "name": "Foire scientifique",

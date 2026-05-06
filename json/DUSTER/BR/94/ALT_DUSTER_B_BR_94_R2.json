@@ -65,7 +65,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -74,7 +75,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "5",
@@ -83,7 +85,8 @@
     {
       "cardElementType": {
         "reference": "OCEAN_POWER",
-        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -92,7 +95,8 @@
     {
       "cardElementType": {
         "reference": "FOREST_POWER",
-        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -101,7 +105,8 @@
     {
       "cardElementType": {
         "reference": "MOUNTAIN_POWER",
-        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -110,7 +115,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -198,10 +204,6 @@
                     "text": "{R} Create two [MANASEED] tokens in your Landmarks.",
                     "locale": "en_US"
                   },
-                  "es_ES": {
-                    "text": "{R} Crea dos fichas de [MANASEED] en tus hitos.",
-                    "locale": "es_ES"
-                  },
                   "de_DE": {
                     "text": "{R} Erschaffe zwei [MANASEED]-Marken in deinem Wahrzeichen-Bereich.",
                     "locale": "de_DE"
@@ -209,6 +211,10 @@
                   "it_IT": {
                     "text": "{R} Crea due pedine [MANASEED] nei tuoi fulcri.",
                     "locale": "it_IT"
+                  },
+                  "es_ES": {
+                    "text": "{R} Crea dos fichas de [MANASEED] en tus hitos.",
+                    "locale": "es_ES"
                   },
                   "fr_FR": {
                     "text": "{R} Créez deux jetons [MANASEED] dans vos Repères.",
@@ -229,7 +235,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Victor Canton" },
@@ -252,13 +257,25 @@
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/JPG\/en_US\/9157fd483973787c0603003ca46eaca0.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "Pescador reka", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Pescatore Reka", "image": null, "locale": "it_IT" },
-    "de_DE": { "name": "Reka-Fischer", "image": null, "locale": "de_DE" },
+    "it_IT": {
+      "name": "Pescatore Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/JPG\/it_IT\/276557e9ab7980b7dbf0a55776f79df7.jpg",
+      "locale": "it_IT"
+    },
     "fr_FR": {
       "name": "Pêcheur Reka",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/JPG\/fr_FR\/bb7154d6e316bf0a721fef6d0cc32d04.jpg",
       "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Pescador reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/JPG\/es_ES\/798d32b98bc4cf77f55ec3228fb09792.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Reka-Fischer",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_94\/JPG\/de_DE\/4ba1798084118a75ea0d48e599cbfc0c.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVPK0ER66G4YGWRBJP6B",

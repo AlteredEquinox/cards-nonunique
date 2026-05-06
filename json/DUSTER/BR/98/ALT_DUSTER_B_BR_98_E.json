@@ -65,7 +65,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "5",
@@ -74,7 +75,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "5",
@@ -83,7 +85,8 @@
     {
       "cardElementType": {
         "reference": "OCEAN_POWER",
-        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "6",
@@ -92,7 +95,8 @@
     {
       "cardElementType": {
         "reference": "FOREST_POWER",
-        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "6",
@@ -101,7 +105,8 @@
     {
       "cardElementType": {
         "reference": "MOUNTAIN_POWER",
-        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "6",
@@ -110,7 +115,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -164,22 +170,13 @@
                     "text": "{J} Pass. (Don't take any more turns this Day.)",
                     "locale": "en_US"
                   },
-                  "de_DE": {
-                    "text": "{J} Passe. (Spiele an diesem Tag keine Runden mehr.)",
-                    "locale": "de_DE"
-                  },
-                  "es_ES": {
-                    "text": "{J} Pasa. (No juegues más turnos este día.)",
-                    "locale": "es_ES"
-                  },
+                  "de_DE": { "text": "{J} Passe.", "locale": "de_DE" },
+                  "es_ES": { "text": "{J} Pasa.", "locale": "es_ES" },
                   "fr_FR": {
                     "text": "{J} Passez. (Ne jouez plus de tours ce Jour-ci.)",
                     "locale": "fr_FR"
                   },
-                  "it_IT": {
-                    "text": "{J} Passa. (Non effettuare altri turni in questa giornata.)",
-                    "locale": "it_IT"
-                  }
+                  "it_IT": { "text": "{J} Passa.", "locale": "it_IT" }
                 },
                 "text": "{J} Pass. (Don't take any more turns this Day.)"
               }
@@ -195,7 +192,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
@@ -217,15 +213,19 @@
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_98\/JPG\/en_US\/ce3067d367aad6cbd88240b29ab98d91.jpg",
       "locale": "en_US"
     },
-    "it_IT": { "name": "Wanax, Esarca Reka", "image": null, "locale": "it_IT" },
+    "it_IT": {
+      "name": "Wanax, Esarca Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_98\/JPG\/it_IT\/3492b01f6ac29ea539230319ad4c3478.jpg",
+      "locale": "it_IT"
+    },
     "de_DE": {
       "name": "Wanax, Reka-Hexarchin",
-      "image": null,
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_98\/JPG\/de_DE\/0cdc16c4f3f203ca6553124d719982e3.jpg",
       "locale": "de_DE"
     },
     "es_ES": {
       "name": "Wanax, hexarca reka",
-      "image": null,
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_98\/JPG\/es_ES\/bf612e498fbd01dff22d927d898c0506.jpg",
       "locale": "es_ES"
     },
     "fr_FR": {

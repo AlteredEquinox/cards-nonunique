@@ -62,7 +62,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -71,7 +72,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -80,7 +82,8 @@
     {
       "cardElementType": {
         "reference": "OCEAN_POWER",
-        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "1",
@@ -89,7 +92,8 @@
     {
       "cardElementType": {
         "reference": "FOREST_POWER",
-        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -98,7 +102,8 @@
     {
       "cardElementType": {
         "reference": "MOUNTAIN_POWER",
-        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -107,7 +112,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -119,13 +125,13 @@
                 "cardEffectElementDisplays": [],
                 "type": "OUTPUT",
                 "translations": {
-                  "fr_FR": {
-                    "text": "{R} Vous pouvez mettre une carte de votre main en Réserve pour piocher une carte.",
-                    "locale": "fr_FR"
-                  },
                   "en_US": {
                     "text": "{R} You may put a card from your hand in Reserve to draw a card.",
                     "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "{R} Vous pouvez mettre une carte de votre main en Réserve pour piocher une carte.",
+                    "locale": "fr_FR"
                   },
                   "de_DE": {
                     "text": "{R} Du darfst eine Karte aus deiner Hand in die Reserve legen, um eine Karte zu ziehen.",
@@ -154,7 +160,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": "009",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Taras Susak" },
@@ -172,9 +177,16 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_AX_96_C",
   "translations": {
-    "es_ES": { "name": "El armazón", "image": null, "locale": "es_ES" },
-    "de_DE": { "name": "Die Hülle", "image": null, "locale": "de_DE" },
-    "it_IT": { "name": "Involucro", "image": null, "locale": "it_IT" },
+    "it_IT": {
+      "name": "Involucro",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/it_IT\/369acc63ba633c5524b227fa1463cf55.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Die Hülle",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/de_DE\/d0028cb5c403a4c2ba059a220439ec7d.jpg",
+      "locale": "de_DE"
+    },
     "en_US": {
       "name": "The Shell",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/en_US\/e90d5887261265985f70fbae8f0aa976.jpg",
@@ -184,6 +196,11 @@
       "name": "L'Hôte",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/fr_FR\/bca1e4b57387c5006eff9e189c661e8a.jpg",
       "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "El armazón",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_96\/JPG\/es_ES\/16bd7d160b4b5cc808ce9a36eff381b0.jpg",
+      "locale": "es_ES"
     }
   },
   "id": "01JYP9SVP8T70303X747EJ7SP2",

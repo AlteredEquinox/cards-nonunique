@@ -61,7 +61,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "1",
@@ -70,7 +71,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "1",
@@ -79,7 +81,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -91,13 +94,13 @@
                 "cardEffectElementDisplays": [],
                 "type": "OUTPUT",
                 "translations": {
-                  "fr_FR": {
-                    "text": "Mon Expédition est considérée comme étant #en retard.# (Même si elle est à égalité ou en avance.)",
-                    "locale": "fr_FR"
-                  },
                   "en_US": {
                     "text": "My Expedition is considered #behind.# (Even if it's tied or ahead.)",
                     "locale": "en_US"
+                  },
+                  "fr_FR": {
+                    "text": "Mon Expédition est considérée comme étant #en retard.# (Même si elle est à égalité ou en avance.)",
+                    "locale": "fr_FR"
                   },
                   "de_DE": {
                     "text": "Meine Expedition gilt als #hinten liegend.# (Selbst falls gleichauf oder vorne liegend.)",
@@ -164,7 +167,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "HuoMiao Studio" },
@@ -181,18 +183,30 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_LY_101_R2",
   "translations": {
-    "de_DE": { "name": "Reka-Headset", "image": null, "locale": "de_DE" },
     "en_US": {
       "name": "Reka Headset",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/JPG\/en_US\/fc679ad55860a7c2f6b6302b15514c5a.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "Cascos de reka", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Cuffie Reka", "image": null, "locale": "it_IT" },
+    "es_ES": {
+      "name": "Cascos de reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/JPG\/es_ES\/6819befbed57e3bca5338e3eba25f91d.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Cuffie Reka",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/JPG\/it_IT\/795d3ac207f08ba6d53f9bb99e5e4c68.jpg",
+      "locale": "it_IT"
+    },
     "fr_FR": {
       "name": "Casque Reka",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/JPG\/fr_FR\/bc15724efbb38f90bfc385dc672d43c5.jpg",
       "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Reka-Headset",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_101\/JPG\/de_DE\/e9975dbff210f5b770055b0fcf66b1bd.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVPYT09D86WNTEYRBXFJ",

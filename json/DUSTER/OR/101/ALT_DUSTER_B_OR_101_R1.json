@@ -39,7 +39,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -65,7 +65,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "6",
@@ -74,7 +75,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "6",
@@ -83,7 +85,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -95,13 +98,13 @@
                 "cardEffectElementDisplays": [],
                 "type": "OUTPUT",
                 "translations": {
-                  "es_ES": {
-                    "text": "{T}: Elige hasta el número de cartas en tus hitos:",
-                    "locale": "es_ES"
-                  },
                   "en_US": {
                     "text": "{T} : Choose up to the number of cards in your Landmarks:",
                     "locale": "en_US"
+                  },
+                  "es_ES": {
+                    "text": "{T}: Elige hasta el número de cartas en tus hitos:",
+                    "locale": "es_ES"
                   },
                   "it_IT": {
                     "text": "{T}: scegli fino al numero di carte nei tuoi fulcri:",
@@ -313,7 +316,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Kevin Sidharta" },
@@ -335,13 +337,25 @@
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_101\/JPG\/en_US\/14042deec6232bc8fa10d0f7bc4ca79b.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "El Reencuentro", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Ricongiungimento", "image": null, "locale": "it_IT" },
-    "de_DE": { "name": "Das Wiedersehen", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "El Reencuentro",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_101\/JPG\/es_ES\/9ed569b914ff18516e917d063b48d538.jpg",
+      "locale": "es_ES"
+    },
+    "de_DE": {
+      "name": "Das Wiedersehen",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_101\/JPG\/de_DE\/e207c6b8e03753f97df8ae31938667bb.jpg",
+      "locale": "de_DE"
+    },
     "fr_FR": {
       "name": "Les Retrouvailles",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_101\/JPG\/fr_FR\/f28d674bc299c44e5ffe81d10fc542bb.jpg",
       "locale": "fr_FR"
+    },
+    "it_IT": {
+      "name": "Ricongiungimento",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_101\/JPG\/it_IT\/a268ceed9f744f8963119a98ade16f5f.jpg",
+      "locale": "it_IT"
     }
   },
   "id": "01JYP9SVQH97MMVJJCN470P3FC",

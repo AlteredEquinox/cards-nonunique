@@ -44,7 +44,8 @@
     {
       "cardElementType": {
         "reference": "PERMANENT",
-        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6",
+        "name": "LANDMARKS"
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -53,7 +54,8 @@
     {
       "cardElementType": {
         "reference": "RESERVE",
-        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ",
+        "name": "RESERVE"
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -62,7 +64,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -147,7 +150,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": "037",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Zero Wen" },
@@ -169,18 +171,30 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_LY_65_C",
   "translations": {
-    "de_DE": { "name": "Nadir & Blubber", "image": null, "locale": "de_DE" },
     "en_US": {
       "name": "Nadir & Bubbles",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_65\/JPG\/en_US\/6373e0f57ec2e61e84e53718bfc74d6b.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "Nadir y Burbuja", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Nadir e Bollicina", "image": null, "locale": "it_IT" },
+    "es_ES": {
+      "name": "Nadir y Burbuja",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_65\/JPG\/es_ES\/4f7538444d4889a031fd312ad310380f.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Nadir e Bollicina",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_65\/JPG\/it_IT\/6e02e4fdbc2d0e9e2d43ce262cc8498d.jpg",
+      "locale": "it_IT"
+    },
     "fr_FR": {
       "name": "Nadir & Bubbles",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_65\/JPG\/fr_FR\/627bbdae02dd5dd4564f7b889df38d25.jpg",
       "locale": "fr_FR"
+    },
+    "de_DE": {
+      "name": "Nadir & Blubber",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_LY_65\/JPG\/de_DE\/d7be37788b402fbab09dd5f27d15b8a7.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVPSEMT27YANR1F20EG6",

@@ -65,7 +65,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -74,7 +75,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -83,7 +85,8 @@
     {
       "cardElementType": {
         "reference": "OCEAN_POWER",
-        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -92,7 +95,8 @@
     {
       "cardElementType": {
         "reference": "FOREST_POWER",
-        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "0",
@@ -101,7 +105,8 @@
     {
       "cardElementType": {
         "reference": "MOUNTAIN_POWER",
-        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -110,7 +115,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -122,6 +128,10 @@
                 "cardEffectElementDisplays": [],
                 "type": "OUTPUT",
                 "translations": {
+                  "en_US": {
+                    "text": "{R} I gain #2 boosts.#",
+                    "locale": "en_US"
+                  },
                   "it_IT": {
                     "text": "{R} Ottengo #2 rinforzi.#",
                     "locale": "it_IT"
@@ -133,10 +143,6 @@
                   "fr_FR": {
                     "text": "{R} Je gagne #2 boosts.#",
                     "locale": "fr_FR"
-                  },
-                  "en_US": {
-                    "text": "{R} I gain #2 boosts.#",
-                    "locale": "en_US"
                   },
                   "de_DE": {
                     "text": "{R} Ich erhalte #2 Verstärkungen.#",
@@ -158,7 +164,8 @@
     {
       "cardElementType": {
         "reference": "ECHO_EFFECT",
-        "id": "01H3CC15N8DB3H650XME16304G"
+        "id": "01H3CC15N8DB3H650XME16304G",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -205,7 +212,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Christophe Young" },
@@ -223,9 +229,11 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_BR_93_R2",
   "translations": {
-    "it_IT": { "name": "Vedetta Bravos", "image": null, "locale": "it_IT" },
-    "es_ES": { "name": "Vigía de Bravos", "image": null, "locale": "es_ES" },
-    "de_DE": { "name": "Bravos-Ausguckerin", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Vigía de Bravos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/es_ES\/9ef5f32344767755e1c3516a28e1747a.jpg",
+      "locale": "es_ES"
+    },
     "fr_FR": {
       "name": "Vigie Bravos",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/fr_FR\/e4a9c492fc095a19647e8836624f012c.jpg",
@@ -235,6 +243,16 @@
       "name": "Bravos Lookout",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/en_US\/bff7bd0b94e63a7b5094dd109946d863.jpg",
       "locale": "en_US"
+    },
+    "it_IT": {
+      "name": "Vedetta Bravos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/it_IT\/4fae29fed08bfceec4139e74d0d38e58.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Bravos-Ausguckerin",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_93\/JPG\/de_DE\/044d30d3c76cf146357c190da5740c7a.jpg",
+      "locale": "de_DE"
     }
   },
   "id": "01JYP9SVPK0ER66G4YGWRBJP62",

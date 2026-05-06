@@ -39,7 +39,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -61,7 +61,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -70,7 +71,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -79,7 +81,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -223,7 +226,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "HuoMiao Studio" },
@@ -240,18 +242,30 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_YZ_102_R2",
   "translations": {
-    "it_IT": { "name": "Infermeria", "image": null, "locale": "it_IT" },
     "en_US": {
       "name": "The Infirmary",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/en_US\/94ef4d237e70a64b81fdf67105f272ae.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "La Enfermería", "image": null, "locale": "es_ES" },
-    "de_DE": { "name": "Die Krankenstation", "image": null, "locale": "de_DE" },
+    "it_IT": {
+      "name": "Infermeria",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/it_IT\/2df1b550c7efb11764e8a28fb779fb71.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Die Krankenstation",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/de_DE\/54251a98d3128971711a943474244d7a.jpg",
+      "locale": "de_DE"
+    },
     "fr_FR": {
       "name": "L'Infirmerie",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/fr_FR\/1159896ac2e6ef63775fd964ffc0bef9.jpg",
       "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "La Enfermería",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_YZ_102\/JPG\/es_ES\/4c8623594812b8157404c7e89bea5b5d.jpg",
+      "locale": "es_ES"
     }
   },
   "id": "01JYP9SVQVMSDZXAVTMR6N9G0S",

@@ -39,7 +39,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -61,7 +61,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -70,7 +71,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -79,7 +81,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -151,10 +154,6 @@
                 "cardEffectElementDisplays": [],
                 "type": "OUTPUT",
                 "translations": {
-                  "it_IT": {
-                    "text": "{T}: un personaggio bersaglio nella Riserva ottiene 2 rinforzi.",
-                    "locale": "it_IT"
-                  },
                   "es_ES": {
                     "text": "{T}: Un personaje objetivo en reserva gana 2 potenciadores.",
                     "locale": "es_ES"
@@ -170,6 +169,10 @@
                   "de_DE": {
                     "text": "{T} : Ein Charakter deiner Wahl in der Reserve erhält 2 Verstärkungen.",
                     "locale": "de_DE"
+                  },
+                  "it_IT": {
+                    "text": "{T}: un personaggio bersaglio nella Riserva ottiene 2 rinforzi.",
+                    "locale": "it_IT"
                   }
                 },
                 "text": "{T} : Target Character in Reserve gains 2 boosts."
@@ -186,7 +189,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": "018",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Fahmi Fauzi" },
@@ -203,14 +205,26 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_AX_102_C",
   "translations": {
-    "de_DE": { "name": "Das Konsortium", "image": null, "locale": "de_DE" },
     "en_US": {
       "name": "The Consortium",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_102\/JPG\/en_US\/1a101cd310b9ca51c87a8bf853e738c6.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "El Consorcio", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Consorzio", "image": null, "locale": "it_IT" },
+    "es_ES": {
+      "name": "El Consorcio",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_102\/JPG\/es_ES\/c04eabbaf6b61238b8c414565f528320.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Consorzio",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_102\/JPG\/it_IT\/89ac8f4737c7b3c0db0adeaf7f400a6c.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Das Konsortium",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_102\/JPG\/de_DE\/de61e0a2501e24fdf03427960cfc4b63.jpg",
+      "locale": "de_DE"
+    },
     "fr_FR": {
       "name": "Le Consortium",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_102\/JPG\/fr_FR\/48ee43c02603229c22e0bb0c04958b0b.jpg",

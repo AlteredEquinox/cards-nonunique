@@ -39,7 +39,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -61,7 +61,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -70,7 +71,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -79,7 +81,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -126,7 +129,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": "016",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
@@ -143,13 +145,16 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_AX_101_C",
   "translations": {
-    "de_DE": { "name": "Axiom-Ausstellung", "image": null, "locale": "de_DE" },
-    "es_ES": {
-      "name": "Exposición de Axiom",
-      "image": null,
-      "locale": "es_ES"
+    "it_IT": {
+      "name": "Esposizione Axiom",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/it_IT\/8af0c4cf90faf1ba850aa809121cfdf7.jpg",
+      "locale": "it_IT"
     },
-    "it_IT": { "name": "Esposizione Axiom", "image": null, "locale": "it_IT" },
+    "de_DE": {
+      "name": "Axiom-Ausstellung",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/de_DE\/4b9d279435ae3c22eb62677a0d3c2a2e.jpg",
+      "locale": "de_DE"
+    },
     "en_US": {
       "name": "Axiom Exhibit",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/en_US\/bce33381d7e7f7a574a72415545679de.jpg",
@@ -159,6 +164,11 @@
       "name": "Exposition Axiom",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/fr_FR\/641a39f1f30007e5eb6cde9e26efd37a.jpg",
       "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Exposición de Axiom",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_101\/JPG\/es_ES\/59be9a3169d8cadf132d322aefe79b98.jpg",
+      "locale": "es_ES"
     }
   },
   "id": "01JYP9SVPA7WEGJQ80HKW2AAPE",

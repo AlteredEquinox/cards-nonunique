@@ -39,7 +39,7 @@
       "it_IT": { "locale": "it_IT", "name": "Permanente Fulcro" },
       "de_DE": { "locale": "de_DE", "name": "Bleibende Wahrzeichenkarte" },
       "en_US": { "locale": "en_US", "name": "Landmark Permanent" },
-      "fr_FR": { "locale": "fr_FR", "name": "Repère Permanent" }
+      "fr_FR": { "locale": "fr_FR", "name": "Permanent de Repère" }
     },
     "id": "01J1Q78N4S1E64PN4T7GB4T59F",
     "name": "Landmark Permanent"
@@ -61,7 +61,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -70,7 +71,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -79,7 +81,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -126,7 +129,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": "017",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Jean-Baptiste Andrier" },
@@ -143,22 +145,30 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_AX_100_C",
   "translations": {
-    "es_ES": { "name": "Feria científica", "image": null, "locale": "es_ES" },
-    "it_IT": {
-      "name": "Fiera della Scienza",
-      "image": null,
-      "locale": "it_IT"
-    },
-    "de_DE": { "name": "Wissenschaftsmesse", "image": null, "locale": "de_DE" },
     "en_US": {
       "name": "Science Fair",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/en_US\/625f08bf453e4c68d50b5b97f987ca2d.jpg",
       "locale": "en_US"
     },
+    "de_DE": {
+      "name": "Wissenschaftsmesse",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/de_DE\/c006fc657dffb18cb5e8f8c9957dd25f.jpg",
+      "locale": "de_DE"
+    },
     "fr_FR": {
       "name": "Foire scientifique",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/fr_FR\/478181a4f3d10bd95f998adeb497ab4b.jpg",
       "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Feria científica",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/es_ES\/2c8ce4eaf0d58a97c123882da7e6906f.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Fiera della Scienza",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_AX_100\/JPG\/it_IT\/a33df5f1b2a2a94adfc9f2d8a0b5278b.jpg",
+      "locale": "it_IT"
     }
   },
   "id": "01JYP9SVPA7WEGJQ80HKW2AAP5",

@@ -59,7 +59,8 @@
     {
       "cardElementType": {
         "reference": "RESERVE",
-        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ"
+        "id": "01HGG84RC3BAGK8ZB60PVCGWGJ",
+        "name": "RESERVE"
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -68,7 +69,8 @@
     {
       "cardElementType": {
         "reference": "PERMANENT",
-        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6"
+        "id": "01HGG84FWN1B2ZZ2MKMAV0EYR6",
+        "name": "LANDMARKS"
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -77,7 +79,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -136,15 +139,15 @@
                     "locale": "fr_FR"
                   },
                   "de_DE": {
-                    "text": "(Du darfst während der Nacht bis zu drei Karten in deinem Wahrzeichen-Bereich behalten.)",
+                    "text": "Zum Mittag — Falls sich mindestens drei Karten in deinem Wahrzeichen-Bereich befinden, darfst du eine opfern. Falls du das tust, spiele kostenlos eine Bleibende Wahrzeichenkarte mit maximalen Handkosten von {2} mehr als die geopferte Karte.",
                     "locale": "de_DE"
                   },
                   "es_ES": {
-                    "text": "(Puedes conservar hasta tres cartas en tus hitos durante la noche.)",
+                    "text": "Al mediodía — Si hay tres o más cartas en tus hitos, puedes sacrificar una. Si lo haces, juega sin coste un permanente hito con un coste desde la mano máximo de {2} más que la carta sacrificada.",
                     "locale": "es_ES"
                   },
                   "it_IT": {
-                    "text": "(Puoi tenere fino a tre carte nei tuoi fulcri durante la notte.)",
+                    "text": "A mezzogiorno — Se ci sono tre o più carte nei tuoi fulcri, puoi sacrificarne una. Se lo fai, gioca senza pagarne il costo un permanente fulcro con costo dalla mano pari a un massimo di {2} in più della carta sacrificata.",
                     "locale": "it_IT"
                   }
                 },
@@ -162,7 +165,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": "073",
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Justice Wong" },
@@ -184,18 +186,30 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_OR_85_C",
   "translations": {
-    "it_IT": { "name": "Matz e Arnia", "image": null, "locale": "it_IT" },
     "en_US": {
       "name": "Matz & Hive",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_85\/JPG\/en_US\/e88f285436410843a238606c20eb7938.jpg",
       "locale": "en_US"
     },
-    "es_ES": { "name": "Matz y Colmena", "image": null, "locale": "es_ES" },
-    "de_DE": { "name": "Matz & Schwarm", "image": null, "locale": "de_DE" },
+    "it_IT": {
+      "name": "Matz e Arnia",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_85\/JPG\/it_IT\/488ec93317c1d0db8a9c44502424e190.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Matz & Schwarm",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_85\/JPG\/de_DE\/14c24561bf98e9653794dd3e677071ee.jpg",
+      "locale": "de_DE"
+    },
     "fr_FR": {
       "name": "Matz & Hive",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_85\/JPG\/fr_FR\/d650e6424a0b329c68748560e0176e6c.jpg",
       "locale": "fr_FR"
+    },
+    "es_ES": {
+      "name": "Matz y Colmena",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_OR_85\/JPG\/es_ES\/cfbab2e2a5d33378eb4b6e7a188845ee.jpg",
+      "locale": "es_ES"
     }
   },
   "id": "01JYP9SVQCJFX81DYYE79D7A5M",

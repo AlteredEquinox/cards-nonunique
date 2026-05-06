@@ -65,7 +65,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -74,7 +75,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -83,7 +85,8 @@
     {
       "cardElementType": {
         "reference": "OCEAN_POWER",
-        "id": "01H3CC15K51PQ0XXYBAQBKFBQG"
+        "id": "01H3CC15K51PQ0XXYBAQBKFBQG",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -92,7 +95,8 @@
     {
       "cardElementType": {
         "reference": "FOREST_POWER",
-        "id": "01H3CC15MDGJNQSNT73NNGEQSP"
+        "id": "01H3CC15MDGJNQSNT73NNGEQSP",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -101,7 +105,8 @@
     {
       "cardElementType": {
         "reference": "MOUNTAIN_POWER",
-        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7"
+        "id": "01H3CC15KVHBZQMH6P9FPQ2XC7",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "3",
@@ -110,7 +115,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -270,13 +276,13 @@
                 ],
                 "type": "OUTPUT",
                 "translations": {
-                  "en_US": {
-                    "text": "{J} I gain [ANCHORED].",
-                    "locale": "en_US"
-                  },
                   "es_ES": {
                     "text": "{J} Gano [ANCHORED].",
                     "locale": "es_ES"
+                  },
+                  "en_US": {
+                    "text": "{J} I gain [ANCHORED].",
+                    "locale": "en_US"
                   },
                   "fr_FR": {
                     "text": "{J} Je gagne [ANCHORED].",
@@ -345,10 +351,6 @@
                 ],
                 "type": "OUTPUT",
                 "translations": {
-                  "fr_FR": {
-                    "text": "#Lorsque vous faites un [GIFT] — Si j'ai moins de 2 boosts, je gagne 1 boost.#",
-                    "locale": "fr_FR"
-                  },
                   "en_US": {
                     "text": "#When you make a [GIFT] — If I have less than 2 boosts, I gain 1 boost.#",
                     "locale": "en_US"
@@ -356,6 +358,10 @@
                   "de_DE": {
                     "text": "#Wenn du ein [GIFT] gibst — Falls ich weniger als 2 Verstärkungen habe, erhalte ich 1 Verstärkung.#",
                     "locale": "de_DE"
+                  },
+                  "fr_FR": {
+                    "text": "#Lorsque vous faites un [GIFT] — Si j'ai moins de 2 boosts, je gagne 1 boost.#",
+                    "locale": "fr_FR"
                   },
                   "es_ES": {
                     "text": "#Cuando hagas un [GIFT] — Si tengo menos de 2 potenciadores, gano 1 potenciador.#",
@@ -380,7 +386,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "Khoa Viet" },
@@ -398,9 +403,21 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_MU_92_R1",
   "translations": {
-    "es_ES": { "name": "Hija de Naos", "image": null, "locale": "es_ES" },
-    "it_IT": { "name": "Figlia del Naos", "image": null, "locale": "it_IT" },
-    "de_DE": { "name": "Tochter von Naos", "image": null, "locale": "de_DE" },
+    "es_ES": {
+      "name": "Hija de Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/JPG\/es_ES\/2c8bc6b8c85a90e6aeed3fdfa8a5cfba.jpg",
+      "locale": "es_ES"
+    },
+    "it_IT": {
+      "name": "Figlia del Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/JPG\/it_IT\/873e822400af26f8a585ce39ab7dc8d4.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Tochter von Naos",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/JPG\/de_DE\/5c0a70f28843cd3097232bddd2be9997.jpg",
+      "locale": "de_DE"
+    },
     "en_US": {
       "name": "Daughter of Naos",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_MU_92\/JPG\/en_US\/8e3efa6907951b52e21a92701908190d.jpg",

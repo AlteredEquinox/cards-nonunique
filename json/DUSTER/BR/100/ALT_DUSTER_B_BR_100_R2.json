@@ -65,7 +65,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_COST",
-        "id": "01H3CC15HETBMNE1NJT9F5T3W9"
+        "id": "01H3CC15HETBMNE1NJT9F5T3W9",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "2",
@@ -74,7 +75,8 @@
     {
       "cardElementType": {
         "reference": "RECALL_COST",
-        "id": "01H3CC15J3R3E63842D2V8CDVA"
+        "id": "01H3CC15J3R3E63842D2V8CDVA",
+        "name": ""
       },
       "cardEffectDisplays": [],
       "value": "4",
@@ -83,7 +85,8 @@
     {
       "cardElementType": {
         "reference": "MAIN_EFFECT",
-        "id": "01H3CC15MXR9S51BVK0YFX81C1"
+        "id": "01H3CC15MXR9S51BVK0YFX81C1",
+        "name": ""
       },
       "cardEffectDisplays": [
         {
@@ -205,7 +208,6 @@
     }
   ],
   "isPublic": true,
-  "collectorNumber": null,
   "serializedNumber": null,
   "cardProduct": { "reference": "B", "name": "Booster" },
   "illustrator": { "nickName": "DOBA" },
@@ -222,9 +224,16 @@
   "isOwnerless": false,
   "reference": "ALT_DUSTER_B_BR_100_R2",
   "translations": {
-    "es_ES": { "name": "La captura del día", "image": null, "locale": "es_ES" },
-    "de_DE": { "name": "Fang des Tages", "image": null, "locale": "de_DE" },
-    "it_IT": { "name": "Pescato del Giorno", "image": null, "locale": "it_IT" },
+    "it_IT": {
+      "name": "Pescato del Giorno",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/it_IT\/9a8a29e347a9497281ce58a919c91632.jpg",
+      "locale": "it_IT"
+    },
+    "de_DE": {
+      "name": "Fang des Tages",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/de_DE\/ebe6c1ff1a2a52953325324efe66f4b2.jpg",
+      "locale": "de_DE"
+    },
     "fr_FR": {
       "name": "Pêche du Jour",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/fr_FR\/497ca9875f68600cd7539d1164374b41.jpg",
@@ -234,6 +243,11 @@
       "name": "Catch of the Day",
       "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/en_US\/8e17c7e3b01460e20f90806b4a38eb4d.jpg",
       "locale": "en_US"
+    },
+    "es_ES": {
+      "name": "La captura del día",
+      "image": "Art\/DUSTER\/CARDS\/ALT_DUSTER_B_BR_100\/JPG\/es_ES\/9edfd7fde7a36d10cc95fec0d5d60836.jpg",
+      "locale": "es_ES"
     }
   },
   "id": "01JYP9SVPNWW5BH3NJWZJTJ4FW",
